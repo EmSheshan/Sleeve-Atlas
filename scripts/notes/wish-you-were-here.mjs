@@ -14,7 +14,7 @@ await saveNote({
 
     "The subject is absence, and it works on two levels the album keeps deliberately tangled. One is Syd Barrett, the band's original singer and songwriter, who had left in 1968 after a breakdown. The other is the music business, attacked directly on two tracks — one of which quotes a real question an executive had asked the band: \"which one's Pink?\" Waters resisted the simple reading. \"'Shine On' is not really about Syd,\" he said. \"He's just a symbol for all the extremes of absence some people have to indulge in because it's the only way they can cope.\"",
 
-    "Then the famous coincidence. On 5 June 1975, while the band were mixing the Barrett piece, Barrett himself walked into the studio unannounced — overweight, head and eyebrows shaved, unrecognised at first. Drummer Nick Mason was \"horrified\"; designer Storm Thorgerson recalled \"two or three people cried. He sat round and talked for a bit but he wasn't really there.\" The broad account is consistent across sources, though accounts differ on detail and some biographers give slightly different dates — worth flagging, because it's the kind of story that gets smoothed in retelling. It was also, by several accounts, guitarist David Gilmour's wedding day.",
+    "Then the famous coincidence. On 5 June 1975, while the band were mixing the Barrett piece, Barrett himself walked into the studio unannounced — overweight, head and eyebrows shaved, unrecognised at first. Drummer Nick Mason was \"horrified\"; designer Storm Thorgerson recalled \"two or three people cried. He sat round and talked for a bit but he wasn't really there.\" The broad account is consistent across sources, though details and dates differ between biographers — worth flagging, because it's the kind of story that gets smoothed in retelling. It was also, by several accounts, guitarist David Gilmour's wedding day.",
 
     "Reviews on release were lukewarm — Ben Edmonds in Rolling Stone found it short on \"sincere passion\" — though Robert Christgau in the Village Voice argued it achieved \"some of the symphonic dignity\" Dark Side only simulated. The public disagreed immediately: No. 1 in both the UK and US, with 900,000 US advance orders, and around 13 million copies sold by 2004. Its critical standing rose steadily afterwards. Wright later said it was \"an album I can listen to for pleasure, and there aren't many Floyd albums that I can.\"",
   ],
@@ -42,7 +42,7 @@ await saveNote({
     },
     {
       label: "Packaging that hides itself",
-      text: "Hipgnosis wrapped the sleeve in opaque black shrink-wrap so you couldn't see the cover — absence applied to the object. The burning-handshake image underneath used stuntmen, one of whom was actually burned when the wind turned.",
+      text: "Hipgnosis wrapped the sleeve in opaque black shrink-wrap so you couldn't see the cover — absence applied to the object. The burning-handshake image underneath used stuntmen, one of whom was actually burned.",
     },
   ],
 

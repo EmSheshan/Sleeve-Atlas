@@ -53,7 +53,7 @@ await saveNote({
   ],
 
   influencedBy: [
-    { artist: "Willie Dixon", album: "I Am the Blues", year: "1970", note: "Two Dixon songs are covered here; his Chicago blues writing is the raw material the album reworks at volume." },
+    { artist: "Muddy Waters", album: "The Best of Muddy Waters", year: "1958", note: "Chicago blues largely written by Willie Dixon, two of whose songs are covered here — the raw material the album reworks at volume." },
     { artist: "Cream", album: "Disraeli Gears", year: "1967", note: "Part of the British blues boom Zeppelin emerged from — loud power-trio blues that set the template Page pushed further." },
     { artist: "The Jeff Beck Group", album: "Truth", year: "1968", note: "Released months earlier by Page's fellow Yardbirds guitarist, with overlapping repertoire; critics at the time treated the two as rivals." },
   ],

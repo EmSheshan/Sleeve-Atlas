@@ -137,10 +137,10 @@
     ],
     "influencedBy": [
       {
-        "artist": "Willie Dixon",
-        "album": "I Am the Blues",
-        "year": "1970",
-        "note": "Two Dixon songs are covered here; his Chicago blues writing is the raw material the album reworks at volume."
+        "artist": "Muddy Waters",
+        "album": "The Best of Muddy Waters",
+        "year": "1958",
+        "note": "Chicago blues largely written by Willie Dixon, two of whose songs are covered here — the raw material the album reworks at volume."
       },
       {
         "artist": "Cream",
@@ -171,7 +171,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ea34a",
     "image": "https://i.scdn.co/image/ab67616d00001e026f2f499c1df1f210c9b34b32",
-    "savedAt": "2026-09-26T22:22:04.656Z"
+    "savedAt": "2026-09-27T18:45:05.064Z"
   },
   "5f34ee8bf0857e55ed5efca1": {
     "artist": "My Bloody Valentine",
@@ -327,7 +327,7 @@
     "overview": [
       "Dark Side had been an enormous, disorienting success, and the sessions for this record — 13 January to 28 July 1975 — were unhappy. Bassist and lyricist Roger Waters called them \"torturous\"; keyboardist Richard Wright said they fell \"within a difficult period.\" The four rarely worked in the room together. Engineer Brian Humphries at one point ruined backing tracks by printing echo onto them, forcing a re-record.",
       "The subject is absence, and it works on two levels the album keeps deliberately tangled. One is Syd Barrett, the band's original singer and songwriter, who had left in 1968 after a breakdown. The other is the music business, attacked directly on two tracks — one of which quotes a real question an executive had asked the band: \"which one's Pink?\" Waters resisted the simple reading. \"'Shine On' is not really about Syd,\" he said. \"He's just a symbol for all the extremes of absence some people have to indulge in because it's the only way they can cope.\"",
-      "Then the famous coincidence. On 5 June 1975, while the band were mixing the Barrett piece, Barrett himself walked into the studio unannounced — overweight, head and eyebrows shaved, unrecognised at first. Drummer Nick Mason was \"horrified\"; designer Storm Thorgerson recalled \"two or three people cried. He sat round and talked for a bit but he wasn't really there.\" The broad account is consistent across sources, though accounts differ on detail and some biographers give slightly different dates — worth flagging, because it's the kind of story that gets smoothed in retelling. It was also, by several accounts, guitarist David Gilmour's wedding day.",
+      "Then the famous coincidence. On 5 June 1975, while the band were mixing the Barrett piece, Barrett himself walked into the studio unannounced — overweight, head and eyebrows shaved, unrecognised at first. Drummer Nick Mason was \"horrified\"; designer Storm Thorgerson recalled \"two or three people cried. He sat round and talked for a bit but he wasn't really there.\" The broad account is consistent across sources, though details and dates differ between biographers — worth flagging, because it's the kind of story that gets smoothed in retelling. It was also, by several accounts, guitarist David Gilmour's wedding day.",
       "Reviews on release were lukewarm — Ben Edmonds in Rolling Stone found it short on \"sincere passion\" — though Robert Christgau in the Village Voice argued it achieved \"some of the symphonic dignity\" Dark Side only simulated. The public disagreed immediately: No. 1 in both the UK and US, with 900,000 US advance orders, and around 13 million copies sold by 2004. Its critical standing rose steadily afterwards. Wright later said it was \"an album I can listen to for pleasure, and there aren't many Floyd albums that I can.\""
     ],
     "listeningNotes": [
@@ -353,7 +353,7 @@
       },
       {
         "label": "Packaging that hides itself",
-        "text": "Hipgnosis wrapped the sleeve in opaque black shrink-wrap so you couldn't see the cover — absence applied to the object. The burning-handshake image underneath used stuntmen, one of whom was actually burned when the wind turned."
+        "text": "Hipgnosis wrapped the sleeve in opaque black shrink-wrap so you couldn't see the cover — absence applied to the object. The burning-handshake image underneath used stuntmen, one of whom was actually burned."
       }
     ],
     "sources": [
@@ -400,7 +400,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ebe74",
     "image": "https://i.scdn.co/image/ab67616d00001e025aa1262c4123fedc2e4b8c44",
-    "savedAt": "2026-09-26T22:22:09.518Z"
+    "savedAt": "2026-09-27T18:45:45.014Z"
   },
   "5f34ee8bf0857e55ed5ed0b1": {
     "artist": "Dr. Dre",
@@ -2800,5 +2800,869 @@
     "uuid": "5f34ee8bf0857e55ed5ebdc2",
     "image": "https://i.scdn.co/image/0e6808755fbe3520633e6bd7f9ccce98deba9740",
     "savedAt": "2026-09-27T18:27:14.429Z"
+  },
+  "6439a48d595daaf76a3f4182": {
+    "artist": "Peter Gabriel",
+    "album": "So",
+    "year": "1986",
+    "heading": "So — Peter Gabriel (1986)",
+    "albumLine": "Released 19 May 1986 on Charisma, Virgin and Geffen, produced by Daniel Lanois with Gabriel, recorded across a year at his own Ashcombe House in Somerset plus studios in New York and Rio de Janeiro. It's art rock made deliberately accessible — his fifth solo album and by far his biggest.",
+    "overview": [
+      "Gabriel had left Genesis in 1975 and spent a decade making increasingly experimental records, four of which he refused to title at all. This one has a name, which is itself the announcement. His stated aim was blunt: \"I wanted to write proper pop songs, albeit on my own terms.\" The terms turned out to include a Motown-style horn arrangement, a duet with Kate Bush about despair, and rhythms borrowed from West Africa and Brazil.",
+      "The rhythm section is where the album's character lives. Manu Katché, a French-Ivorian drummer, plays with a fluidity quite unlike the gated snare sound that defined most 1986 production, and Tony Levin's bass is melodic and prominent. Lanois described the working method as unusual — \"like overdubbing the rhythm section on top of a demo\" — building outwards from Gabriel's sketches rather than recording a band playing together.",
+      "Gabriel's interest in music from outside the Anglo-American tradition was already long-standing; he had founded the WOMAD festival in 1982, nearly bankrupting himself doing it. Youssou N'Dour, the Senegalese singer, appears here singing in Wolof on a track that became one of the album's most enduring. That engagement was more sustained and more collaborative than much of what got labelled world music in the eighties, though the broader critique of that period — Western stars borrowing selectively while keeping the billing — is worth keeping in view.",
+      "Commercially it was transformative. \"Sledgehammer\" became his only US No. 1, propelled by a stop-motion video that won nine MTV Video Music Awards, still a record. The album went to No. 1 in the UK and No. 2 in the US, spent 93 weeks on the chart, and went five times platinum. Rolling Stone later placed it fourteenth among albums of the eighties. It remains the rare case of an experimental musician making a straightforwardly commercial record without noticeably lowering his ambitions."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Katché's drumming",
+        "text": "Loose, rolling and full of ghost notes rather than the rigid gated snare that dominated 1986. It's the main reason the record hasn't aged the way its contemporaries have."
+      },
+      {
+        "label": "A Stax horn section on a pop-art record",
+        "text": "\"Sledgehammer\" opens with a shakuhachi flute sample and then drops into full soul-revue brass, borrowing sixties Memphis wholesale into a synth-era production."
+      },
+      {
+        "label": "The Fairlight underneath everything",
+        "text": "Gabriel was an early adopter of the Fairlight CMI sampler, and much of the album's texture — flutes, breaking glass, unidentifiable percussion — is sampled material triggered as instruments."
+      },
+      {
+        "label": "Two voices in argument",
+        "text": "The duet with Kate Bush is structured as a genuine exchange, his verses sunk in defeat and hers answering. It's a dialogue rather than a lead-plus-harmony arrangement."
+      },
+      {
+        "label": "Wolof singing left untranslated",
+        "text": "Youssou N'Dour sings in his own language, uncushioned and un-subtitled, taking the emotional peak of the song rather than decorating it."
+      },
+      {
+        "label": "Bass as melody",
+        "text": "Tony Levin plays high, singing bass lines — sometimes on a Chapman Stick — that function as counter-melody rather than root notes."
+      }
+    ],
+    "sources": [
+      {
+        "title": "So (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/So_(album)"
+      },
+      {
+        "title": "Peter Gabriel — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Peter_Gabriel"
+      },
+      {
+        "title": "Daniel Lanois — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Daniel_Lanois"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Talking Heads",
+        "album": "Remain in Light",
+        "year": "1980",
+        "note": "The template for art-rock musicians building songs on West African rhythmic structures rather than rock beats."
+      },
+      {
+        "artist": "Otis Redding",
+        "album": "Otis Blue",
+        "year": "1965",
+        "note": "The Stax soul horn vocabulary that \"Sledgehammer\" reproduces almost as pastiche."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Youssou N'Dour",
+        "album": "The Guide (Wommat)",
+        "year": "1994",
+        "note": "Gabriel's platform and label, Real World, were instrumental in N'Dour reaching Western audiences on his own terms."
+      },
+      {
+        "artist": "Radiohead",
+        "album": "OK Computer",
+        "year": "1997",
+        "note": "Part of the lineage of British art rock that sells in millions without simplifying — a path this record demonstrated."
+      }
+    ],
+    "uuid": "6439a48d595daaf76a3f4182",
+    "image": "https://i.scdn.co/image/ab67616d00001e0211bb04f55be562c76d8e8ecf",
+    "savedAt": "2026-09-27T18:39:03.905Z"
+  },
+  "5f34ee8bf0857e55ed5ecfdf": {
+    "artist": "Throbbing Gristle",
+    "album": "D.O.A. the Third and Final Report of Throbbing Gristle",
+    "year": "1978",
+    "heading": "D.o.A: The Third and Final Report of Throbbing Gristle — Throbbing Gristle (1978)",
+    "albumLine": "Released in 1978 on the band's own Industrial Records, recorded between September 1977 and May 1978. Thirteen tracks of tape manipulation, homemade electronics and found sound — the second album by the group that gave industrial music its name.",
+    "overview": [
+      "They weren't a band first. Genesis P-Orridge, Cosey Fanni Tutti, Peter Christopherson and Chris Carter came out of COUM Transmissions, a performance art collective that had operated since 1969 and specialised in work designed to be difficult to sit through. Their 1976 exhibition Prostitution at London's Institute of Contemporary Arts drew parliamentary condemnation, with a Conservative MP calling them \"wreckers of civilisation.\" Throbbing Gristle made their public debut at that show. The music was a continuation of the art practice by other means.",
+      "Their label, Industrial Records, supplied the genre its name via the slogan they coined with the artist Monte Cazazza — \"Industrial Music For Industrial People\" — meant to describe a deliberate mechanisation and dehumanisation of how music gets made. The equipment reflected that: Carter built much of the electronics himself, and tape recorders were used as instruments rather than as documentation.",
+      "This is a harsher listen than almost anything released in 1978, including punk, which by then had settled into a recognisable rock format. It is also more varied than its reputation suggests — AllMusic notes each of the thirteen tracks is distinct, where their debut had been more uniformly punishing. The notorious piece is \"Hamburger Lady,\" built around text concerning a severely burned patient, which Pitchfork's Drew Daniel called \"probably Throbbing Gristle's greatest song\" on a record he described as \"a nauseating masterpiece, and an essential recording.\"",
+      "It's worth being straightforward about the content. The group worked deliberately with material designed to disturb — atrocity, pornography, institutional cruelty — as a confrontation rather than for shock value alone, though the distinction was contested at the time and remains so. What followed from it is not in dispute: industrial music as a genre, and a lineage running through Cabaret Voltaire, Nine Inch Nails, Ministry and a great deal of electronic music that has nothing to do with dancing."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Tape as an instrument",
+        "text": "Loops, splices and speed changes are played as parts rather than used to edit. Sounds arrive backwards, slowed to a crawl or sped past recognition, with the manipulation left audible."
+      },
+      {
+        "label": "Homemade electronics",
+        "text": "Chris Carter built much of the gear himself, so the synthesizer tones are unstable and often unrepeatable — drifting oscillators and noise rather than the clean patches of commercial instruments."
+      },
+      {
+        "label": "A four-minute single compressed to sixteen seconds",
+        "text": "Their earlier single \"United\" reappears here sped up so violently it lasts sixteen seconds. It's a joke about the format and a demonstration of what tape can do to a song."
+      },
+      {
+        "label": "Voice buried and processed",
+        "text": "Vocals are frequently treated until words become texture, or delivered flatly beneath the noise. Little is sung in any conventional sense."
+      },
+      {
+        "label": "Found recordings",
+        "text": "Field recordings, radio, and captured speech are dropped in without smoothing. The sudden intrusion of ordinary sound into abstraction is one of the album's recurring shocks."
+      },
+      {
+        "label": "No rhythm section to hold on to",
+        "text": "Where pulses exist they're mechanical and unrelenting rather than danceable, and many tracks have none at all. There's deliberately nothing for a listener to settle into."
+      }
+    ],
+    "sources": [
+      {
+        "title": "D.o.A: The Third and Final Report of Throbbing Gristle — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/D.o.A:_The_Third_and_Final_Report_of_Throbbing_Gristle"
+      },
+      {
+        "title": "Throbbing Gristle — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Throbbing_Gristle"
+      },
+      {
+        "title": "COUM Transmissions — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/COUM_Transmissions"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Velvet Underground",
+        "album": "White Light/White Heat",
+        "year": "1968",
+        "note": "The precedent for rock musicians pursuing noise and endurance rather than song, with an art-world frame around it."
+      },
+      {
+        "artist": "Karlheinz Stockhausen",
+        "album": "Gesang der Jünglinge",
+        "year": "1958",
+        "note": "The electroacoustic tradition of composing directly with tape and electronic sound, which Throbbing Gristle repurposed outside the academy."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Cabaret Voltaire",
+        "album": "Mix-Up",
+        "year": "1979",
+        "note": "Released on the industrial scene Throbbing Gristle's label effectively created, and working the same tape-and-electronics method."
+      },
+      {
+        "artist": "Nine Inch Nails",
+        "album": "The Downward Spiral",
+        "year": "1994",
+        "note": "Industrial music's eventual mainstream form, built on the vocabulary this record established."
+      },
+      {
+        "artist": "Coil",
+        "album": "Horse Rotorvator",
+        "year": "1986",
+        "note": "Formed by Peter Christopherson after the band's end, continuing the same experimental lineage."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ecfdf",
+    "image": "https://i.scdn.co/image/ab67616d00001e0292d3d24a409646aac23743d6",
+    "savedAt": "2026-09-27T18:40:01.156Z"
+  },
+  "5f34ee8bf0857e55ed5ec0aa": {
+    "artist": "Mariah Carey",
+    "album": "Butterfly",
+    "year": "1997",
+    "heading": "Butterfly — Mariah Carey (1997)",
+    "albumLine": "Released 10 September 1997 on Columbia, recorded between November 1996 and July 1997 with producers including Walter Afanasieff, Sean \"Puffy\" Combs, Q-Tip and the Trackmasters. It's Carey's sixth album and the one where she moved decisively from pop balladry into hip-hop soul.",
+    "overview": [
+      "The context is a marriage and a contract that were the same thing. Carey had married Tommy Mottola, the Sony executive who had directed her career since 1990, and the professional control that came with it had kept her pointed at big-ballad pop. They separated during these sessions. Her own account of the preceding years is unambiguous: \"In the past, people were scared to let me explore different types of music that I loved and enjoyed.\" Sony resisted the hip-hop direction; she made it anyway.",
+      "What she made sits on the same fault line TLC had worked three years earlier — R&B sung over rap production — but pushed further, with actual rappers as collaborators rather than guests on the margin. Q-Tip of A Tribe Called Quest produces; Combs brings the Bad Boy sound then dominating American radio; the Trackmasters supply sample-driven beats. Against that, Afanasieff still handles the orchestral ballads, so the album is genuinely split between two modes rather than abandoning one.",
+      "Her singing changed too, and it's the most interesting technical story here. Rather than deploying the enormous range that had made her famous, she sings much of the record softly, in a breathy upper register, layering many quiet tracks into a kind of chorus of herself. Critics noticed — AllMusic's Stephen Thomas Erlewine pointed to her \"increased control.\" It's a deliberate retreat from spectacle, and it aged far better than belting would have.",
+      "It debuted at No. 1 with 235,500 copies in its first week, went five times platinum in the US and past ten million worldwide. \"Honey\" was her twelfth US No. 1. The critical reassessment since has been substantial: what read at the time as a pop star chasing credibility now reads as the record that normalised the pop-and-rap collaboration the following two decades were built on."
+    ],
+    "listeningNotes": [
+      {
+        "label": "The breathy upper register",
+        "text": "Carey sings much of this quietly and airily rather than at full power, stacking many soft takes instead of one big one. The famous range is held back deliberately."
+      },
+      {
+        "label": "The whistle register, used sparingly",
+        "text": "Her extreme high notes appear as brief flourishes rather than climaxes — a texture at the top of the arrangement rather than the point of the song."
+      },
+      {
+        "label": "Rap producers on a pop record",
+        "text": "Sample-based beats from Q-Tip, Combs and the Trackmasters sit under melodies that would otherwise have had orchestral backing. The seams between the two approaches are audible and intentional."
+      },
+      {
+        "label": "Rapid, clipped phrasing",
+        "text": "On the hip-hop tracks she phrases in short staccato bursts that track the drum programming rather than floating over it — singing arranged like rapping."
+      },
+      {
+        "label": "Ballads kept in the old style",
+        "text": "Afanasieff's orchestral productions remain, unmodernised. The album alternates between them and the beats rather than blending, which is what makes the transition legible."
+      },
+      {
+        "label": "Her own harmony stacks",
+        "text": "The backing vocals are almost entirely Carey multi-tracked, often a dozen or more parts. The choir behind her is her."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Butterfly (Mariah Carey album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Butterfly_(Mariah_Carey_album)"
+      },
+      {
+        "title": "Mariah Carey — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mariah_Carey"
+      },
+      {
+        "title": "Butterfly — AllMusic",
+        "url": "https://www.allmusic.com/album/butterfly-mw0000594444"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Mary J. Blige",
+        "album": "What's the 411?",
+        "year": "1992",
+        "note": "The record that established hip-hop soul and made a pop-facing singer over rap production commercially viable."
+      },
+      {
+        "artist": "TLC",
+        "album": "CrazySexyCool",
+        "year": "1994",
+        "note": "The immediate precedent for R&B built on hip-hop rhythm with mainstream reach, three years earlier."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Beyoncé",
+        "album": "Dangerously in Love",
+        "year": "2003",
+        "note": "The model of a pop-R&B singer working with rap producers and featured rappers as standard practice runs from here."
+      },
+      {
+        "artist": "Ariana Grande",
+        "album": "Dangerous Woman",
+        "year": "2016",
+        "note": "The breathy, stacked upper-register vocal approach Carey developed on this album is a direct stylistic ancestor."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec0aa",
+    "image": "https://i.scdn.co/image/cce0023a753adc4d95afbe6f9eb2d0e72f187347",
+    "savedAt": "2026-09-27T18:40:46.713Z"
+  },
+  "5f34ee8bf0857e55ed5ebdcd": {
+    "artist": "Public Enemy",
+    "album": "Fear Of A Black Planet",
+    "year": "1990",
+    "heading": "Fear of a Black Planet — Public Enemy (1990)",
+    "albumLine": "Released 10 April 1990 on Def Jam and Columbia, produced by the Bomb Squad across three New York studios between June 1989 and February 1990. It's hip-hop built from hundreds of layered samples — Public Enemy's third album, and the densest record the form has produced.",
+    "overview": [
+      "The production is the argument. The Bomb Squad — Hank Shocklee, his brother Keith, Eric \"Vietnam\" Sadler and Chuck D — assembled these tracks from somewhere between 150 and 200 samples, stacking fragments of funk, soul, speech, sirens and noise until individual sources stop being identifiable. Chuck D has described the method as painterly: \"We approach every record like it was a painting.\" He also called Hank Shocklee \"the Phil Spector of hip-hop,\" which is about right — the comparison is to density, not to prettiness.",
+      "That method had a shelf life, and this album is part of why. It was made just before the sampling lawsuits of the early nineties established that uncleared samples had to be licensed. By modern rules the record would be economically impossible; Public Enemy have estimated they'd lose around five dollars per copy sold. It stands as a document of a brief window in which a form of collage was legally available and then wasn't.",
+      "Lyrically it works through institutional racism, media representation, interracial relationships and Black consciousness, drawing on the writings of Dr Frances Cress Welsing. It's also shadowed by a real crisis: in May 1989 Professor Griff, the group's Minister of Information, gave an interview to the Washington Times making antisemitic claims. The backlash was severe, Chuck D dismissed him under pressure, and Def Jam's Bill Adler has said the episode partly fuelled the album's writing. That should be stated plainly rather than elided — the record was made by a group in the middle of a controversy it had caused.",
+      "\"Fight the Power,\" written for Spike Lee's Do the Right Thing and released the previous summer, anchors it. The album reached No. 10 in the US and No. 4 in the UK, sold over two million domestically, and placed third in the Village Voice's critics' poll for 1990. The Library of Congress added it to the National Recording Registry in 2004."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Samples stacked past recognition",
+        "text": "Dozens of fragments run simultaneously, none given room to be identified. The texture is the composition — you're hearing a wall assembled from pieces rather than a loop with things on top."
+      },
+      {
+        "label": "Noise treated as musical",
+        "text": "Sirens, squeals, feedback and atonal horn stabs are arranged as deliberately as the drums. The abrasiveness is structural, not incidental."
+      },
+      {
+        "label": "Chuck D's delivery",
+        "text": "A low, declamatory, slightly behind-the-beat voice pitched at public-address volume. He rarely varies cadence — the authority comes from relentlessness."
+      },
+      {
+        "label": "Flavor Flav as counterweight",
+        "text": "His higher, comic, interrupting voice cuts across the severity, and he fronts whole tracks. Without him the album would be unrelieved, which is exactly why he's there."
+      },
+      {
+        "label": "Speech as instrument",
+        "text": "Snatches of news broadcasts, sermons and interviews are cut in as rhythmic elements, so documentary sound and music occupy the same layer."
+      },
+      {
+        "label": "Tracks that run into each other",
+        "text": "Songs are sequenced with minimal gaps and shared material, making the album play as one continuous, exhausting block rather than a series of singles."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Fear of a Black Planet — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fear_of_a_Black_Planet"
+      },
+      {
+        "title": "Public Enemy — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Public_Enemy_(band)"
+      },
+      {
+        "title": "National Recording Registry — Library of Congress",
+        "url": "https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/complete-national-recording-registry-listing/"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "James Brown",
+        "album": "In the Jungle Groove",
+        "year": "1986",
+        "note": "The compilation whose breaks became the most sampled material in hip-hop, and a foundation of the Bomb Squad's palette."
+      },
+      {
+        "artist": "Public Enemy",
+        "album": "It Takes a Nation of Millions to Hold Us Back",
+        "year": "1988",
+        "note": "Their own previous album, which established the dense sampling method this one pushes to its limit."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Rage Against the Machine",
+        "album": "Rage Against the Machine",
+        "year": "1992",
+        "note": "Explicitly modelled on Public Enemy's fusion of political confrontation with abrasive noise."
+      },
+      {
+        "artist": "Kendrick Lamar",
+        "album": "To Pimp a Butterfly",
+        "year": "2015",
+        "note": "The lineage of album-length Black political argument in hip-hop, built with dense live and sampled collage."
+      },
+      {
+        "artist": "The Avalanches",
+        "album": "Since I Left You",
+        "year": "2000",
+        "note": "Sample-collage taken as an art form in itself — a technique this record demonstrated the ceiling of."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebdcd",
+    "image": "https://i.scdn.co/image/f4bbe525446761a4c9b11b819c82ba090ae14125",
+    "savedAt": "2026-09-27T18:41:38.459Z"
+  },
+  "5f34ee8bf0857e55ed5ebfa6": {
+    "artist": "Common",
+    "album": "Be",
+    "year": "2005",
+    "heading": "Be — Common (2005)",
+    "albumLine": "Released 24 May 2005 on GOOD Music and Geffen, executive produced by Kanye West with additional production from J Dilla, James Poyser and Karriem Riggins. It's soul-sampling conscious hip-hop, forty-two minutes long — Common's sixth album and his commercial recovery.",
+    "overview": [
+      "He needed one. Common had been among the most respected rappers of the nineties, but his 2002 album Electric Circus — a sprawling psychedelic rock-and-electronics experiment — had confused his audience and sold badly. Be is a deliberate correction: short, focused, warm, and built on exactly the soul-sample foundation he'd walked away from. His gloss on the title captures the intent — \"just do without trying hard… natural and be true to the core of who you are.\"",
+      "The producers are the story. Kanye West was at the peak of his first phase, having released The College Dropout the year before, and his signature sound — sped-up soul vocals, live strings, gospel-adjacent warmth — organises most of the record. The other major hand is J Dilla, the Detroit producer whose loose, deliberately off-grid drum programming had already reshaped how a generation heard rhythm. Dilla died in February 2006, months after this came out, and his contributions here are among the last released in his lifetime.",
+      "Both producers were Chicago and Detroit rather than New York or Los Angeles, and the album is explicitly a Chicago record — its opening single features The Last Poets, the late-sixties proto-rap collective, tying the city's present to a longer tradition of Black spoken-word politics. The subject matter runs through neighbourhood life, faith, relationships and self-definition, in a register that avoids both gangsta narrative and the preachiness conscious rap was often accused of.",
+      "It debuted at No. 2 with 185,000 copies, topped the R&B/hip-hop and rap charts, and took four Grammy nominations including Best Rap Album. Metacritic aggregated 83. It's since appeared on greatest-hip-hop-album lists from both Rolling Stone and Billboard, and is generally treated as the moment the mid-2000s proved a rapper could be commercially substantial without hardening his material."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Sped-up soul vocals",
+        "text": "West pitches old soul records upward so the singing becomes a high, urgent hook. It's his signature device of the period and it's all over this record."
+      },
+      {
+        "label": "Live players over samples",
+        "text": "Real bass, strings and keys are laid across the sampled beds rather than replacing them, which is why the album sounds fuller and warmer than sample-only production."
+      },
+      {
+        "label": "Dilla's drums sitting off the grid",
+        "text": "On the tracks J Dilla produced, the drums are deliberately not quantised — hits land fractionally early or late, giving a drunken swing no drum machine default would produce."
+      },
+      {
+        "label": "Common's conversational delivery",
+        "text": "He raps close to speaking tempo with long, unhurried phrases that often run past the bar line. There's very little technical showing-off."
+      },
+      {
+        "label": "Forty-two minutes, no filler",
+        "text": "Eleven tracks and out, at a time when major rap albums routinely ran past seventy minutes. The brevity is a deliberate reaction to his previous album's sprawl."
+      },
+      {
+        "label": "The Last Poets on the opener",
+        "text": "The proto-rap spoken-word group from the late sixties appear on the first single, placing the record in a direct line of descent rather than merely referencing one."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Be (Common album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Be_(Common_album)"
+      },
+      {
+        "title": "Common — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Common_(rapper)"
+      },
+      {
+        "title": "J Dilla — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/J_Dilla"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Last Poets",
+        "album": "The Last Poets",
+        "year": "1970",
+        "note": "The spoken-word political ancestors of rap, who appear on this album's lead single."
+      },
+      {
+        "artist": "Kanye West",
+        "album": "The College Dropout",
+        "year": "2004",
+        "note": "West's own breakthrough the year before established the sped-up soul production that organises this record."
+      },
+      {
+        "artist": "Slum Village",
+        "album": "Fantastic, Vol. 2",
+        "year": "2000",
+        "note": "J Dilla's own group, where the off-grid drum programming he brings to this album was established."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Kendrick Lamar",
+        "album": "good kid, m.A.A.d city",
+        "year": "2012",
+        "note": "The model of a focused, soul-rooted album about a specific city and a moral life, made without commercial compromise."
+      },
+      {
+        "artist": "Chance the Rapper",
+        "album": "Coloring Book",
+        "year": "2016",
+        "note": "Chicago hip-hop built on gospel and soul warmth rather than hardness — a lineage this album strengthened."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebfa6",
+    "image": "https://i.scdn.co/image/f8b0234e7ab63757a22f1de462e8ae93bcc00f10",
+    "savedAt": "2026-09-27T18:45:06.381Z"
+  },
+  "5f34ee8bf0857e55ed5ebfd1": {
+    "artist": "Jungle Brothers",
+    "album": "Done By The Forces Of Nature",
+    "year": "1989",
+    "heading": "Done by the Forces of Nature — Jungle Brothers (1989)",
+    "albumLine": "Released 7 November 1989 on Warner Bros., self-produced by the group and recorded at Calliope Studios in New York, with Kool DJ Red Alert as executive producer. It's Afrocentric, jazz-inflected hip-hop — the Jungle Brothers' second album and a cornerstone of the Native Tongues.",
+    "overview": [
+      "The Native Tongues were a loose collective rather than a group: the Jungle Brothers, De La Soul, A Tribe Called Quest, Queen Latifah, Monie Love and others, all connected through friendship and shared sessions. Their common position was a refusal of hip-hop's hardening tendencies at the end of the eighties — bohemian rather than street-tough, interested in African identity and jazz records rather than in confrontation. Most of the collective turns up on this album, along with KRS-One.",
+      "Mike Gee, Afrika Baby Bam and DJ Sammy B had already done something unusual the year before: their debut included \"I'll House You,\" among the first records to fuse hip-hop and Chicago house, at a point when the two scenes barely acknowledged each other. That instinct for sources outside the obvious carries through here, with samples drawn from jazz, funk, R&B and African music, and a production style that's warm and loose rather than hard-hitting.",
+      "The Afrocentricity is genuine but light-handed — a matter of framing and reference rather than lecture. Robert Christgau caught what makes the record work, describing samples \"evoking everything tolerant and humane in recent black-music memory\" and calling it \"music designed to comfort and sustain.\" AllMusic's Steve Huey judged it \"more realized in many respects\" than their first album.",
+      "It never sold in quantity — No. 46 on the R&B and hip-hop chart, No. 41 in the UK — and the Jungle Brothers have consistently been the least famous of the Native Tongues despite arguably getting there first. The album appeared on The Source's 100 Best Albums list in 1998 and is now routinely described as underrated, which is accurate and slightly beside the point: it's a foundational record for the entire jazz-rap and alternative hip-hop tradition that followed."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Jazz records as raw material",
+        "text": "Horn lines, upright bass and drum breaks lifted from jazz sit under the rhythms, giving the album a swing and warmth distinct from the harder sampling of its contemporaries."
+      },
+      {
+        "label": "House tempo showing through",
+        "text": "The group had already bridged hip-hop and Chicago house, and several tracks here carry that faster, four-on-the-floor pulse under the rapping."
+      },
+      {
+        "label": "Percussion layered thick",
+        "text": "African and Latin hand percussion runs alongside the programmed drums, so the rhythm beds are busy and organic rather than sparse and mechanical."
+      },
+      {
+        "label": "Relaxed, conversational rapping",
+        "text": "Mike Gee and Afrika Baby Bam trade verses in an unhurried, almost chatty style, frequently finishing each other's lines rather than competing."
+      },
+      {
+        "label": "Guests woven in, not featured",
+        "text": "Most of the Native Tongues appear, but usually as voices inside a track rather than as marquee guest verses — the record sounds like a room of friends."
+      },
+      {
+        "label": "An hour long and unhurried",
+        "text": "At just over sixty minutes it takes its time, with interludes and grooves allowed to run. The pacing is closer to a DJ set than to a sequence of singles."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Done by the Forces of Nature — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Done_by_the_Forces_of_Nature"
+      },
+      {
+        "title": "Jungle Brothers — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jungle_Brothers"
+      },
+      {
+        "title": "Native Tongues — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Native_Tongues"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Afrika Bambaataa",
+        "album": "Planet Rock: The Album",
+        "year": "1986",
+        "note": "Afrika Baby Bam took his name from Bambaataa, whose Zulu Nation supplied the Afrocentric framing the Native Tongues extended."
+      },
+      {
+        "artist": "James Brown",
+        "album": "In the Jungle Groove",
+        "year": "1986",
+        "note": "The funk break vocabulary underpinning nearly all golden-age sampling, including this record's rhythm beds."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "A Tribe Called Quest",
+        "album": "The Low End Theory",
+        "year": "1991",
+        "note": "Fellow Native Tongues, and the record that took this album's jazz-sampling approach to its most refined form."
+      },
+      {
+        "artist": "De La Soul",
+        "album": "De La Soul Is Dead",
+        "year": "1991",
+        "note": "The other central Native Tongues group, working the same bohemian, sample-eclectic territory."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebfd1",
+    "image": "https://i.scdn.co/image/fff0f6b2a6f2c31cf5437fbb007d4831007057d4",
+    "savedAt": "2026-09-27T18:43:06.308Z"
+  },
+  "5f34ee8bf0857e55ed5fd1d1": {
+    "artist": "Aretha Franklin",
+    "album": "I Never Loved a Man the Way I Love You",
+    "year": "1967",
+    "heading": "I Never Loved a Man the Way I Love You — Aretha Franklin (1967)",
+    "albumLine": "Released 10 March 1967 on Atlantic, produced by Jerry Wexler and recorded that January and February between FAME Studios in Muscle Shoals, Alabama and Atlantic's own rooms in New York. It's Southern soul — and the record where Aretha Franklin, after eight albums, finally sounded like herself.",
+    "overview": [
+      "She had been at Columbia since 1960, where producers had aimed her at jazz standards and supper-club material. She was plainly gifted and the records plainly didn't work. Wexler's insight at Atlantic was simple: put her behind a piano, surround her with a Southern rhythm section, and let her arrange her own vocals the way she'd learned in her father's church in Detroit.",
+      "The first session, at Rick Hall's FAME Studios in Muscle Shoals, produced the title track and then collapsed. An altercation involving Franklin's husband Ted White, the trumpeter Ken Laxton and Hall ended the trip; Wexler moved everything to New York and flew the Muscle Shoals players up to finish. The racial dynamics of a Black singer from Detroit recording with an all-white Alabama rhythm section in 1967 are part of the story, as is how quickly it went wrong.",
+      "What survived is extraordinary. Franklin plays piano throughout, which matters — the gospel phrasing in her right hand shapes the arrangements. Her sisters Carolyn and Erma sing backing vocals alongside Cissy Houston, and the call-and-response between them is church practice imported wholesale. King Curtis plays saxophone. The rhythm section is loose, unhurried and sits behind the beat.",
+      "The song everyone knows is a cover. Otis Redding had recorded \"Respect\" in 1965 as a man asking for deference when he got home; Franklin rearranged it — adding the spelled-out chorus and the \"sock it to me\" backing line — and turned it into a demand. Redding reportedly acknowledged she had taken the song from him. It went to No. 1 and became a civil rights and feminist anthem neither writer had planned. The album reached No. 2 on the Billboard 200, spent fourteen weeks atop the R&B chart, and now sits thirteenth on Rolling Stone's list of the greatest albums ever made."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Franklin's own piano",
+        "text": "She plays throughout, in a gospel style full of rolling triplets and church cadences. The arrangements follow her hands rather than the other way round."
+      },
+      {
+        "label": "Call and response with her sisters",
+        "text": "Carolyn and Erma Franklin, with Cissy Houston, answer her lines directly rather than harmonising underneath. It's the structure of a congregation responding to a preacher."
+      },
+      {
+        "label": "A rhythm section playing late",
+        "text": "The Muscle Shoals players sit noticeably behind the beat, which gives even the fast songs a dragging, unhurried weight. It's the defining feel of Southern soul."
+      },
+      {
+        "label": "Melisma used as argument",
+        "text": "She bends single syllables across many notes, but always to intensify meaning rather than to decorate — a gospel device deployed with unusual discipline."
+      },
+      {
+        "label": "The rearranged cover",
+        "text": "\"Respect\" is restructured from its original: the spelled-out chorus and the answering backing vocals are Franklin's additions, and they change what the song is about."
+      },
+      {
+        "label": "Audible session seams",
+        "text": "Overdubs finished in New York after the Alabama session collapsed left small tuning inconsistencies. They're faint, and knowing the story makes them audible."
+      }
+    ],
+    "sources": [
+      {
+        "title": "I Never Loved a Man the Way I Love You — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/I_Never_Loved_a_Man_the_Way_I_Love_You"
+      },
+      {
+        "title": "Aretha Franklin — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Aretha_Franklin"
+      },
+      {
+        "title": "Respect (song) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Respect_(song)"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Ray Charles",
+        "album": "Modern Sounds in Country and Western Music",
+        "year": "1962",
+        "note": "The figure who first moved gospel technique wholesale into secular music, and the model for Franklin's approach."
+      },
+      {
+        "artist": "Otis Redding",
+        "album": "Otis Blue",
+        "year": "1965",
+        "note": "Source of \"Respect,\" and the Stax Southern soul idiom this record works within."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Whitney Houston",
+        "album": "Whitney Houston",
+        "year": "1985",
+        "note": "Cissy Houston sang backing vocals here; her daughter's career descends directly from this gospel-into-pop lineage."
+      },
+      {
+        "artist": "Amy Winehouse",
+        "album": "Back to Black",
+        "year": "2006",
+        "note": "The revival of live Southern soul arrangement behind a singer working in gospel phrasing."
+      },
+      {
+        "artist": "Alicia Keys",
+        "album": "Songs in A Minor",
+        "year": "2001",
+        "note": "The model of a woman singing her own material from behind a piano in a soul idiom."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5fd1d1",
+    "image": "https://i.scdn.co/image/ab67616d00001e026aa9314b7ddfbd8f036ba3ac",
+    "savedAt": "2026-09-27T18:43:50.653Z"
+  },
+  "5f34ee8bf0857e55ed2ebecc": {
+    "artist": "Lorde",
+    "album": "Melodrama",
+    "year": "2017",
+    "heading": "Melodrama — Lorde (2017)",
+    "albumLine": "Released 16 June 2017 on Lava and Republic, produced by Lorde with Jack Antonoff and others, recorded across eighteen months between New York and Los Angeles. It's maximalist art-pop built around pianos and stacked voices — her second album, made at twenty.",
+    "overview": [
+      "Her debut had made her famous at sixteen on the strength of restraint: sparse, hip-hop-influenced production and a detached view of teenage consumption. This record goes the opposite way. It's dense, loud in places, harmonically busy, and emotionally unguarded. The production partnership with Jack Antonoff, who was becoming the defining pop producer of the period, supplied the widescreen arrangement, but the writing voice is entirely hers.",
+      "The organising idea is a single house party — arrival, chemical elation, a fight, the bathroom, the walk home, the morning. It's a loose frame rather than a rigid concept, but it gives an album about the end of her first serious relationship somewhere concrete to live. Lorde has resisted calling it simply a break-up record, describing it more as a study of solitude afterwards, which is a meaningfully different subject.",
+      "One detail that shapes the sound: she has sound-to-colour synaesthesia, and has described assigning colours to tracks as part of working out whether a production was finished. That's an unusual compositional constraint and it's consistent with the record's very deliberate palette — certain tracks are warm and saturated, others deliberately washed out.",
+      "It went to No. 1 in the US, her first, and topped charts in Canada, Australia and New Zealand. Metacritic aggregated 91, and it took a Grammy nomination for Album of the Year. Its reputation has kept climbing since; it's now routinely cited as one of the defining pop albums of its decade, and as the record that demonstrated a young pop star could make something structurally ambitious without losing the audience."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Piano as the spine",
+        "text": "Most of these songs are built on straightforward piano chords, often left exposed. The elaborate production is assembled around that centre rather than replacing it."
+      },
+      {
+        "label": "Her voice stacked into a crowd",
+        "text": "Lorde layers dozens of her own vocal takes into thick choral blocks, sometimes as the main hook. The effect is one person impersonating a room full of people — appropriate for a party record."
+      },
+      {
+        "label": "Songs that break in half",
+        "text": "Several tracks stop dead and restart in a different tempo or key rather than following through. The structural lurches mirror the night the album describes."
+      },
+      {
+        "label": "Distortion used emotionally",
+        "text": "Vocals and synths are pushed into clipping at specific moments — not as an accident but as a signal that something has tipped over."
+      },
+      {
+        "label": "Sudden silence",
+        "text": "Arrangements drop to nothing mid-phrase, leaving a bare voice. The dynamic range is much wider than pop convention allows, and the quiet moments are what make the loud ones land."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Melodrama (Lorde album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Melodrama_(Lorde_album)"
+      },
+      {
+        "title": "Lorde — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lorde"
+      },
+      {
+        "title": "Jack Antonoff — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jack_Antonoff"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Kate Bush",
+        "album": "Hounds of Love",
+        "year": "1985",
+        "note": "The precedent for a young woman making structurally ambitious, emotionally theatrical pop on her own terms."
+      },
+      {
+        "artist": "Robyn",
+        "album": "Body Talk",
+        "year": "2010",
+        "note": "The template of dancefloor euphoria used to carry heartbreak — the emotional mode this album works in throughout."
+      },
+      {
+        "artist": "Lorde",
+        "album": "Pure Heroine",
+        "year": "2013",
+        "note": "Her own minimal debut, which this record is a deliberate reaction against."
+      },
+      {
+        "artist": "Taylor Swift",
+        "album": "1989",
+        "year": "2014",
+        "note": "Antonoff's earlier work with Swift established the layered-vocal, synth-and-piano pop production he brought to this album."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Olivia Rodrigo",
+        "album": "Sour",
+        "year": "2021",
+        "note": "The model of a young pop writer treating a break-up with structural ambition and unguarded specificity."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed2ebecc",
+    "image": "https://i.scdn.co/image/ab67616d00001e02f8553e18a11209d4becd0336",
+    "savedAt": "2026-09-27T18:44:45.110Z"
+  },
+  "5f34ee8bf0857e55ed5ebdd4": {
+    "artist": "Fleet Foxes",
+    "album": "Fleet Foxes",
+    "year": "2008",
+    "heading": "Fleet Foxes — Fleet Foxes (2008)",
+    "albumLine": "Released 3 June 2008 on Sub Pop and Bella Union, produced by Phil Ek and recorded in 2007 at Avast! and London Bridge in Seattle. It's folk-rock built almost entirely around stacked vocal harmony — the band's debut.",
+    "overview": [
+      "Robin Pecknold's stated method was to avoid the obvious shapes: \"avoid choruses and verses in favor of long vocal rounds and alternating instrumental sections.\" That's unusual for a debut, and it's what separates the record from the general run of late-2000s acoustic revivalism. Songs don't build to a hook; they cycle through sections, with voices entering in rounds like a hymn or a sea shanty.",
+      "The band described their own music, half-jokingly, as \"baroque harmonic pop jams,\" which is more precise than it sounds. The harmony writing draws on Appalachian and gospel traditions and on the close-voiced pop of Crosby, Stills & Nash and the Beach Boys, but the instrumentation is deliberately plain — acoustic guitars, mandolin, banjo, a drum kit used sparingly. Phil Ek's production drenches all of it in reverb, so the record sounds less like a band in a room than a choir in a much larger, emptier one.",
+      "It arrived at a moment when American indie was turning pastoral — beards, cabins, analogue warmth, a reaction against the previous decade's irony and dance-punk. That scene generated a great deal of shapeless nostalgia, and the reasonable criticism of this album is that it belongs to it. What sets it apart is musical: the vocal arrangements are genuinely intricate, closer to choral writing than to rock backing vocals, and the songs are strange underneath their prettiness.",
+      "It entered the Billboard 200 at No. 83 with 8,000 copies, then simply kept selling — eventually platinum in both the US and UK. Metacritic aggregated 87, Pitchfork gave it 9.0 and named it the best album of 2008, and the Guardian called it \"a landmark in American music, an instant classic.\" It's become the reference point for a whole strand of harmony-driven folk that followed."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Rounds instead of choruses",
+        "text": "Voices enter one after another on the same line, overlapping like a canon. It's a device from folk and church singing, and it's how several songs are structured rather than decorated."
+      },
+      {
+        "label": "Reverb as the room",
+        "text": "Phil Ek places everything in a huge artificial space with long decay. The result is cathedral-like and deliberately unreal — you can't place how big the room is meant to be."
+      },
+      {
+        "label": "Three- and four-part block harmony",
+        "text": "The band sing in tight stacked chords rather than one lead with support, so the melody is often carried by the whole group at once."
+      },
+      {
+        "label": "Acoustic instruments, sparse drums",
+        "text": "Guitars, mandolin and banjo do most of the work; percussion frequently drops out entirely. When drums arrive they're an event rather than a foundation."
+      },
+      {
+        "label": "Songs that change and don't return",
+        "text": "Sections give way to new sections without coming back. Several tracks end somewhere harmonically distant from where they began."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Fleet Foxes (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fleet_Foxes_(album)"
+      },
+      {
+        "title": "Fleet Foxes — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fleet_Foxes"
+      },
+      {
+        "title": "Fleet Foxes — Pitchfork",
+        "url": "https://pitchfork.com/reviews/albums/11522-fleet-foxes/"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Crosby, Stills & Nash",
+        "album": "Crosby, Stills & Nash",
+        "year": "1969",
+        "note": "The direct model for close three-part harmony over acoustic guitars in an American rock context."
+      },
+      {
+        "artist": "The Beach Boys",
+        "album": "Pet Sounds",
+        "year": "1966",
+        "note": "The stacked, harmonically adventurous vocal arrangement this band's whole approach descends from."
+      },
+      {
+        "artist": "Van Morrison",
+        "album": "Astral Weeks",
+        "year": "1968",
+        "note": "A precedent for acoustic songs that drift and cycle rather than resolving into pop structure."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Bon Iver",
+        "album": "Bon Iver, Bon Iver",
+        "year": "2011",
+        "note": "Part of the same American pastoral-indie moment, sharing the emphasis on layered voice and reverb-heavy space."
+      },
+      {
+        "artist": "The Lumineers",
+        "album": "The Lumineers",
+        "year": "2012",
+        "note": "The commercial folk-revival wave that followed in this album's wake, in a considerably simplified form."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebdd4",
+    "image": "https://i.scdn.co/image/a25c28a11fa0dfc77373bbef28644caddae89911",
+    "savedAt": "2026-09-27T18:46:32.591Z"
+  },
+  "63e4148044f4bd0a4a8fbda8": {
+    "artist": "Nusrat Fateh Ali Khan",
+    "album": "Devotional Songs",
+    "year": "1992",
+    "heading": "Devotional Songs — Nusrat Fateh Ali Khan (1992)",
+    "albumLine": "Released in 1992 on Peter Gabriel's Real World label, recorded at Fair Deal Studios in Middlesex as a WOMAD production. It's qawwali — the devotional music of Sufi Islam — performed by Nusrat Fateh Ali Khan with his Party, his regular ensemble of family members and friends.",
+    "overview": [
+      "Qawwali is sung in Urdu, Punjabi and Persian in praise of God, the Prophet Muhammad, and Sufi saints, and it exists to induce religious ecstasy in an audience rather than to entertain one. It's a devotional practice with a performance shape: a lead voice improvises against a fixed refrain, the group answers, and the whole thing accelerates and intensifies over long stretches. Performances traditionally run for hours.",
+      "Khan was born in 1948 into a family that had sung qawwali for something close to six hundred years, and he was widely regarded as the greatest practitioner of his generation — his title, Shahen-Shah-e-Qawwali, means King of Qawwali. His capacities were physical as much as artistic: accounts describe him sustaining performances at full intensity for hours, with a range and improvisational facility contemporaries considered unmatched.",
+      "The Western connection came through Peter Gabriel. Khan performed at the WOMAD festival in London in 1985, worked with Gabriel on the soundtrack to The Last Temptation of Christ in 1988, and was signed to Real World the following year. What matters about this album specifically is that it's the traditional side of that relationship. Where Mustt Mustt (1990) and Night Song (1995) paired him with the producer and guitarist Michael Brook and Western studio technique, this one is minimally accompanied — mostly harmonium and tabla, in the standard call-and-response form, with nothing added for foreign ears.",
+      "That restraint is why it's often the recommended entry point. Record Collector gave it five stars and called it \"the maestro at the height of his powers\"; Songlines rated it four, noting Khan \"in his full glory with his regular accompanists.\" He died in 1997, at 48. His influence on Western musicians was considerable and frequently acknowledged — Jeff Buckley's summary was simply \"He's my Elvis.\""
+    ],
+    "listeningNotes": [
+      {
+        "label": "Call and response",
+        "text": "Khan sings a line and the Party answers it, over and over. The repetition is the engine — the music builds by return rather than by moving on."
+      },
+      {
+        "label": "Harmonium and tabla only",
+        "text": "The accompaniment is deliberately minimal: a hand-pumped reed organ holding a drone and chords, plus tabla. No Western instruments, no production gloss."
+      },
+      {
+        "label": "Sargam — singing the note names",
+        "text": "Khan improvises wordlessly using the Indian solfège syllables, running rapid melodic figures that function as instrumental solos performed by a voice."
+      },
+      {
+        "label": "Acceleration over long spans",
+        "text": "Pieces run well past ten minutes and steadily gather speed and volume. The intensification is structural and intended to carry listeners toward a devotional state."
+      },
+      {
+        "label": "Handclaps as percussion",
+        "text": "The group claps in interlocking patterns alongside the tabla, driving the rhythm physically. It's the sound of an ensemble sitting together rather than a recording session."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Devotional Songs — Real World Records",
+        "url": "https://realworldrecords.com/releases/devotional-songs/"
+      },
+      {
+        "title": "Nusrat Fateh Ali Khan — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nusrat_Fateh_Ali_Khan"
+      },
+      {
+        "title": "Devotional Songs — AllMusic",
+        "url": "https://www.allmusic.com/album/devotional-songs-mw0000095704"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Nusrat Fateh Ali Khan",
+        "album": "Mustt Mustt",
+        "year": "1990",
+        "note": "His own earlier Real World album, which took the Western-facing approach this record deliberately sets aside for the traditional form."
+      },
+      {
+        "artist": "Peter Gabriel",
+        "album": "Passion",
+        "year": "1989",
+        "note": "Gabriel and Khan first worked together on this soundtrack, which led to the Real World signing that produced this album."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Jeff Buckley",
+        "album": "Grace",
+        "year": "1994",
+        "note": "Buckley called Khan \"my Elvis\"; the long melismatic vocal lines on Grace are directly modelled on qawwali singing."
+      },
+      {
+        "artist": "Massive Attack",
+        "album": "Mezzanine",
+        "year": "1998",
+        "note": "Part of the British electronic scene that remixed and sampled Khan, carrying qawwali into dance music."
+      }
+    ],
+    "uuid": "63e4148044f4bd0a4a8fbda8",
+    "image": "https://i.scdn.co/image/ab67616d00001e028060f67c9dde5fe1327d545d",
+    "savedAt": "2026-09-27T18:47:43.447Z"
   }
 }
