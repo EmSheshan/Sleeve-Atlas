@@ -59,41 +59,11 @@
 
     const zoomLayer = svg.append("g");
 
-    const zoom = d3
-      .zoom()
-      .scaleExtent([0.25, 2.5])
-      .on("zoom", (event) => zoomLayer.attr("transform", event.transform));
-
-    svg.call(zoom);
-
-    // Frames the whole graph. Without this you can pan into empty space
-    // indefinitely with no way back — the main reason the map felt boundless.
-    function fitToView(duration = 500) {
-      const bounds = zoomLayer.node().getBBox();
-      if (!bounds.width || !bounds.height) return;
-
-      const pad = 60;
-      const scale = Math.min(
-        width / (bounds.width + pad * 2),
-        height / (bounds.height + pad * 2),
-        1.4
-      );
-      const tx = width / 2 - scale * (bounds.x + bounds.width / 2);
-      const ty = height / 2 - scale * (bounds.y + bounds.height / 2);
-
-      svg
-        .transition()
-        .duration(duration)
-        .call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
-
-      // keep panning within the graph plus a screen of slack in each direction
-      zoom.translateExtent([
-        [bounds.x - width, bounds.y - height],
-        [bounds.x + bounds.width + width, bounds.y + bounds.height + height],
-      ]);
-    }
-
-    window.__fitGraph = fitToView;
+    svg.call(
+      d3.zoom().scaleExtent([0.35, 2.5]).on("zoom", (event) => {
+        zoomLayer.attr("transform", event.transform);
+      })
+    );
 
     const defs = svg.append("defs");
 
@@ -124,18 +94,12 @@
     const linkData = edges.map((e) => ({ ...e }));
     const nodeData = nodes.map((n) => ({ ...n }));
 
-    // The graph is currently ~25 disconnected clusters. Nothing in a force
-    // layout pulls separate components toward each other, so without a weak
-    // positioning force they drift apart indefinitely and the map becomes
-    // mostly empty space. forceX/forceY gently gather them instead.
     const simulation = d3
       .forceSimulation(nodeData)
-      .force("link", d3.forceLink(linkData).id((d) => d.id).distance(70).strength(0.7))
-      .force("charge", d3.forceManyBody().strength(-140).distanceMax(400))
+      .force("link", d3.forceLink(linkData).id((d) => d.id).distance(165).strength(0.45))
+      .force("charge", d3.forceManyBody().strength(-420))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("x", d3.forceX(width / 2).strength(0.10))
-      .force("y", d3.forceY(height / 2).strength(0.10))
-      .force("collide", d3.forceCollide((d) => (d.source === "list" ? 40 : 15)));
+      .force("collide", d3.forceCollide(46));
 
     // Each edge is two paths: the thin visible one, plus a fat transparent one
     // underneath it that catches the pointer, so the arrows are easy to hover.
@@ -246,7 +210,6 @@
       .attr("stroke-width", 2);
 
     node
-      .filter((d) => d.source === "list")
       .append("text")
       .text((d) => (d.label || "").toLowerCase())
       .attr("x", 0)
@@ -300,25 +263,6 @@
       hit.attr("d", arc);
       node.attr("transform", (d) => `translate(${d.x},${d.y})`);
     });
-
-    // Settle to a readable zoom centred on the graph rather than fitting all
-    // 200+ nodes on screen at once, which just makes everything tiny. The
-    // "fit to view" button is there when you want the whole picture.
-    function centreView(scale = 0.75, duration = 700) {
-      const b = zoomLayer.node().getBBox();
-      if (!b.width) return;
-      const tx = width / 2 - scale * (b.x + b.width / 2);
-      const ty = height / 2 - scale * (b.y + b.height / 2);
-      svg.transition().duration(duration)
-        .call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
-      zoom.translateExtent([
-        [b.x - width, b.y - height],
-        [b.x + b.width + width, b.y + b.height + height],
-      ]);
-    }
-
-    simulation.on("end", () => centreView());
-    setTimeout(() => centreView(), 2400);
   }
 
   window.renderGraph = async function renderGraph(force) {
@@ -329,7 +273,4 @@
   };
 
   refreshBtn.addEventListener("click", () => window.renderGraph(true));
-  document
-    .getElementById("fit-graph-btn")
-    .addEventListener("click", () => window.__fitGraph && window.__fitGraph());
 })();
