@@ -28,8 +28,7 @@
   }
 
   async function fetchGraph() {
-    const res = await fetch("/api/graph");
-    return res.json();
+    return Data.graph();
   }
 
   function draw(graph) {

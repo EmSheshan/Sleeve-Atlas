@@ -321,9 +321,7 @@ async function loadProject(shareId) {
   todayPickEl.hidden = true;
 
   try {
-    const res = await fetch(`/api/project/${encodeURIComponent(shareId)}`);
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.message || "Could not load that project");
+    const data = await Data.project(shareId);
 
     localStorage.setItem(STORAGE_KEY, shareId);
     projectContext = {
@@ -444,8 +442,7 @@ async function loadGlobalAverage(album, entry) {
     artist: album.artist || "",
   });
   try {
-    const res = await fetch(`/api/album-stats?${qs}`);
-    const data = await res.json();
+    const data = await Data.albumStats({ spotifyId: album.spotifyId, name: album.name, artist: album.artist });
     if (data.averageRating != null) {
       currentScores.global = data.averageRating;
       currentScores.globalVotes = data.votes;
@@ -486,9 +483,7 @@ async function loadGroupName() {
   }
   revTabGroup.hidden = false;
   try {
-    const res = await fetch(`/api/group/${encodeURIComponent(projectContext.groupSlug)}`);
-    if (!res.ok) return;
-    const data = await res.json();
+    const data = await Data.group(projectContext.groupSlug);
     if (data.name) {
       projectContext.groupName = data.name;
       revTabGroup.textContent = data.name.toLowerCase();
@@ -523,11 +518,7 @@ async function loadGroupReviews(album) {
   revPanelGroup.innerHTML = `<p class="rev-none">loading&hellip;</p>`;
   resetPanelScroll(revPanelGroup);
   try {
-    const res = await fetch(
-      `/api/group/${encodeURIComponent(projectContext.groupSlug)}/album/${encodeURIComponent(album.uuid)}`
-    );
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.message || "could not load group reviews");
+    const data = await Data.groupAlbum(projectContext.groupSlug, album.uuid);
 
     const rated = (data.reviews || []).filter((r) => r.rating != null);
     if (rated.length) {
@@ -574,9 +565,7 @@ async function loadGlobalReviews(album) {
   revPanelGlobal.innerHTML = `<p class="rev-none">loading&hellip;</p>`;
   resetPanelScroll(revPanelGlobal);
   try {
-    const res = await fetch(`/api/global-reviews/${encodeURIComponent(album.uuid)}?sort=top&limit=30`);
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.message || "could not load reviews");
+    const data = await Data.globalReviews(album.uuid, 30);
 
     if (!data.reviews.length) {
       revPanelGlobal.innerHTML = `<p class="rev-none">no reviews yet</p>`;
@@ -697,10 +686,9 @@ modal.addEventListener("click", (e) => { if (e.target === modal) modal.hidden = 
 async function loadInsight(album) {
   resetInsightPanels();
   try {
-    const res = await fetch(`/api/insight/${encodeURIComponent(album.uuid)}`);
-    if (!res.ok) throw new Error("not written yet");
-    const data = await res.json();
-    renderInsight(data.insight);
+    const insight = await Data.insight(album.uuid);
+    if (!insight) throw new Error("not written yet");
+    renderInsight(insight);
   } catch {
     insightLoading.hidden = true;
     insightEmpty.hidden = false;

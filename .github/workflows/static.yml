@@ -1,4 +1,8 @@
-# Simple workflow for deploying static content to GitHub Pages
+# Builds the static site and deploys it to GitHub Pages.
+#
+# The build bakes the album notes and a trimmed global-ratings index into
+# dist/. Everything else the app needs is fetched from the 1001 Albums
+# Generator API by the browser at runtime, so there's no server to host.
 name: Deploy static content to Pages
 
 on:
@@ -22,7 +26,6 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
@@ -31,13 +34,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Build static site
+        run: node scripts/build-static.mjs
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
+          path: "dist"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5

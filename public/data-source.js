@@ -1,0 +1,158 @@
+// Single data layer for the whole app.
+//
+// The 1001 Albums Generator API sends `Access-Control-Allow-Origin: *` on every
+// endpoint we use, so the browser can call it directly — the old Express proxy
+// existed to dodge a CORS problem that doesn't actually exist. Everything else
+// (the album notes, the global-average table) ships as static JSON built at
+// deploy time. That means no server, and one code path locally and on Pages.
+
+const UPSTREAM = "https://1001albumsgenerator.com";
+
+function titleKey(artist, name) {
+  return `${artist || ""}::${name || ""}`.toLowerCase().replace(/\s+/g, " ").trim();
+}
+
+async function loadJson(path, fallback) {
+  try {
+    const res = await fetch(path);
+    if (!res.ok) return fallback;
+    return await res.json();
+  } catch {
+    return fallback;
+  }
+}
+
+let insightsPromise = null;
+function allInsights() {
+  if (!insightsPromise) insightsPromise = loadJson("data/insights.json", {});
+  return insightsPromise;
+}
+
+let statsPromise = null;
+function statsIndex() {
+  if (!statsPromise) statsPromise = loadJson("data/album-stats.json", {});
+  return statsPromise;
+}
+
+window.Data = {
+  async project(shareId) {
+    const res = await fetch(`${UPSTREAM}/api/v1/projects/${encodeURIComponent(shareId)}`);
+    if (!res.ok) throw new Error(`1001 Albums Generator returned ${res.status}`);
+    return res.json();
+  },
+
+  async group(slug) {
+    const res = await fetch(`${UPSTREAM}/api/v1/groups/${encodeURIComponent(slug)}`);
+    if (!res.ok) throw new Error(`group lookup returned ${res.status}`);
+    const data = await res.json();
+    return { name: data.name, slug: data.slug, members: data.members || [] };
+  },
+
+  // A group that hasn't logged an album yet answers with an error body or a
+  // 404/500 — all of which mean "nothing here yet", not a failure.
+  async groupAlbum(slug, uuid) {
+    try {
+      const res = await fetch(
+        `${UPSTREAM}/api/v1/groups/${encodeURIComponent(slug)}/albums/${encodeURIComponent(uuid)}`
+      );
+      if (!res.ok) return { reviews: [], notListened: true };
+      const data = await res.json();
+      if (data.error) return { reviews: [], notListened: true };
+      return { reviews: data.reviews || [] };
+    } catch {
+      return { reviews: [], notListened: true };
+    }
+  },
+
+  // Undocumented endpoint the site's own album pages call.
+  async globalReviews(uuid, limit = 30) {
+    const res = await fetch(
+      `${UPSTREAM}/api/reviews/${encodeURIComponent(uuid)}/0/${limit}/false?sortBy=top`
+    );
+    if (!res.ok) throw new Error(`reviews returned ${res.status}`);
+    const data = await res.json();
+    const reviews = (data.reviews || [])
+      .filter((r) => r.notes)
+      .map((r) => ({
+        id: r._id,
+        notes: r.notes,
+        rating: r.rating ?? null,
+        thumbsUp: r.thumbsUp || 0,
+        listenedAt: r.listenedAt || null,
+      }))
+      .sort((a, b) => b.thumbsUp - a.thumbsUp);
+    return { reviews };
+  },
+
+  // The project API and the stats table sometimes carry different Spotify ids
+  // for the same record, so fall back to artist+title.
+  async albumStats({ spotifyId, name, artist }) {
+    const index = await statsIndex();
+    return (
+      (spotifyId && index[spotifyId]) ||
+      index[titleKey(artist, name)] || { averageRating: null, votes: null }
+    );
+  },
+
+  async insight(uuid) {
+    const all = await allInsights();
+    return all[uuid] || null;
+  },
+
+  // The influence map is derived from the notes rather than stored, so it can
+  // never drift out of sync with them.
+  async graph() {
+    const insights = await allInsights();
+    const nodes = {};
+    const edges = {};
+
+    const nodeId = (artist, album) =>
+      `${artist}::${album}`.toLowerCase().replace(/\s+/g, " ").trim();
+    const upsert = (node) => {
+      nodes[node.id] = { ...nodes[node.id], ...node };
+    };
+
+    for (const insight of Object.values(insights)) {
+      if (!insight.artist || !insight.album) continue;
+
+      const centre = {
+        id: nodeId(insight.artist, insight.album),
+        label: insight.album,
+        artist: insight.artist,
+        album: insight.album,
+        year: insight.year || "",
+        image: insight.image || null,
+        source: "list",
+      };
+      upsert(centre);
+
+      const link = (rel, direction) => {
+        if (!rel.artist || !rel.album) return;
+        const other = {
+          id: nodeId(rel.artist, rel.album),
+          label: rel.album,
+          artist: rel.artist,
+          album: rel.album,
+          year: rel.year || "",
+          source: "inferred",
+        };
+        // a related record that also has its own note is a list album
+        if (!nodes[other.id] || nodes[other.id].source !== "list") upsert(other);
+
+        const [from, to] =
+          direction === "influencedBy" ? [other.id, centre.id] : [centre.id, other.id];
+        edges[`${from}->${to}`] = {
+          id: `${from}->${to}`,
+          source: from,
+          target: to,
+          note: rel.note || "",
+        };
+      };
+
+      (insight.influencedBy || []).forEach((r) => link(r, "influencedBy"));
+      (insight.influenced || []).forEach((r) => link(r, "influenced"));
+    }
+
+    return { nodes, edges };
+  },
+};

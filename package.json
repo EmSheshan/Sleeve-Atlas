@@ -1,16 +1,15 @@
 {
   "name": "sleeve-atlas",
   "version": "1.0.0",
-  "description": "A mid-century modern companion for 1001 Albums Generator, with Claude-powered album insight and an influence map.",
+  "description": "A static companion site for 1001 Albums Generator: researched album notes and an influence map.",
   "type": "module",
   "main": "server/index.js",
   "scripts": {
-    "start": "node server/index.js",
-    "dev": "node --watch server/index.js"
+    "build": "node scripts/build-static.mjs",
+    "start": "node scripts/build-static.mjs && node server/index.js",
+    "serve": "node server/index.js"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.65.0",
-    "dotenv": "^16.4.5",
     "express": "^4.21.2"
   }
 }

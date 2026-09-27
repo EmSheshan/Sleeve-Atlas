@@ -1,29 +1,40 @@
 # Sleeve Atlas
 
-A mid-century-modern companion to [1001 Albums Generator](https://1001albumsgenerator.com/). Pulls your album history from its public API, and lets you ask Claude for the liner notes: why an album matters, who's on it, what to listen for, and what it influenced (or was influenced by). Every album you ask about gets added to a growing influence map.
+A companion to [1001 Albums Generator](https://1001albumsgenerator.com/). It pulls your album history from the public API and pairs each record with a researched note — why it matters, how it was made, what to listen for — plus a force-directed map of what influenced what.
 
-## Setup
+The site is **fully static**. There's no server and no API key.
 
-1. Copy `.env.example` to `.env` and add your own Anthropic API key:
+## Running it locally
 
-   ```
-   ANTHROPIC_API_KEY=sk-ant-...
-   ```
+```bash
+npm install
+npm start
+```
 
-2. Install dependencies and run:
+Then open http://localhost:4001 and enter your generator project name (e.g. `emsh`), or paste your full generator URL.
 
-   ```bash
-   npm install
-   npm start
-   ```
-
-3. Open http://localhost:4001. Enter your 1001 Albums Generator share ID (find it on your generator page under "Share your journey" — either the full `/shares/...` URL or just the ID at the end).
+`npm start` builds `dist/` and serves it. The Express dependency is only a local static file server — `fetch()` of the baked JSON needs http rather than `file://`. Use `npm run build` alone to produce `dist/` without serving.
 
 ## How it's built
 
-- `server/index.js` — Express app. Proxies `GET /api/v1/projects/:shareId` from 1001albumsgenerator.com (avoids CORS, adds a 5-minute cache), and exposes `POST /api/insight` which asks Claude (model `claude-sonnet-5`) for a structured read on an album.
-- `server/claude.js` — the prompt and JSON-schema contract for album insight.
-- `server/store.js` — flat-file cache for insights (`data/insights.json`) and the accumulated influence graph (`data/graph.json`). Nothing here is a database; it's just enough persistence to avoid re-asking Claude for the same album twice and to let the map grow across sessions.
-- `public/` — no build step. Plain HTML/CSS/JS, D3 (via CDN) for the force-directed influence map.
+The 1001 Albums Generator API sends `Access-Control-Allow-Origin: *` on every endpoint used here, so the browser calls it directly and no proxy is needed. Only two things get baked at build time.
 
-Nothing is sent to Anthropic except the album's public metadata (title, artist, year, genres/styles, Wikipedia link) already returned by the 1001 Albums Generator API.
+- `public/data-source.js` — the single data layer. Live data (project, group, group reviews, global reviews) goes straight to the upstream API; notes and rating averages come from baked JSON. Same code path locally and in production.
+- `scripts/build-static.mjs` — produces `dist/`: the app, `data/insights.json` (the notes), and `data/album-stats.json` (global averages, trimmed from the upstream ~800KB table to the two fields used, keyed by both Spotify id and `artist::title` since the two upstream tables disagree on ids).
+- `scripts/notes/*.mjs` — one file per album note, each calling `saveNote()` from `scripts/save-note.mjs`, which resolves the album's uuid and writes into `data/insights.json`.
+- `public/graph.js` — D3 map. The graph is **derived from the notes** at runtime rather than stored, so it can't drift out of sync with them.
+- `server/index.js` — local static file server only.
+
+## Adding a note
+
+Each note carries `influencedBy` and `influenced` arrays; those are what build the map. Write a new file under `scripts/notes/`, modelled on any existing one, then:
+
+```bash
+node scripts/notes/<slug>.mjs
+```
+
+It prints the word count so the 450–650 budget can be checked. `artist` and `album` must match the generator API's spelling exactly — `saveNote()` looks the album up by artist and title.
+
+## Deploying
+
+Pushing to `main` triggers `.github/workflows/static.yml`, which runs the build and publishes `dist/` to GitHub Pages.
