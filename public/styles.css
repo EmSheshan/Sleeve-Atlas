@@ -606,6 +606,85 @@ main {
   margin-bottom: 0.5rem;
 }
 
+/* ---------- Rating ---------- */
+
+.rate-block {
+  background: var(--paper-2);
+  border-radius: var(--radius);
+  padding: 1rem 1.2rem 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.rate-block h3 { font-size: 1.05rem; margin-bottom: 0.7rem; }
+
+.rate-stars { display: flex; gap: 0.25rem; margin-bottom: 0.75rem; }
+
+.rate-star {
+  background: none;
+  border: 0;
+  box-shadow: none;
+  padding: 0 0.1rem;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: rgba(27, 25, 21, 0.28);
+  cursor: pointer;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.rate-star:hover { transform: translateY(-2px); background: none; }
+.rate-star.is-on { color: var(--brick); }
+
+#rate-notes {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  line-height: 1.55;
+  padding: 0.7rem 0.8rem;
+  background: var(--card);
+  color: var(--ink);
+  border: 0;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+#rate-notes:focus { outline: 2px solid var(--orange-2); outline-offset: -2px; }
+
+.rate-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  margin-top: 0.7rem;
+}
+
+.rate-btn {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.88rem;
+  text-transform: lowercase;
+  letter-spacing: -0.015em;
+  background: var(--orange);
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  padding: 0.5rem 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.rate-btn:hover { background: var(--orange-2); transform: translateY(-1px); }
+.rate-btn:disabled { opacity: 0.55; cursor: default; transform: none; }
+
+.rate-status {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-2);
+}
+
+/* ---------- Listen links ---------- */
+
 .listen-row { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.7rem; }
 
 .listen-btn {

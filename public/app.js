@@ -28,6 +28,14 @@ const modalReview = document.getElementById("modal-review");
 let currentEntry = null;
 let allEntries = [];
 
+const rateBlock = document.getElementById("rate-block");
+const rateTitle = document.getElementById("rate-title");
+const rateStarsEl = document.getElementById("rate-stars");
+const rateNotesEl = document.getElementById("rate-notes");
+const rateSubmitBtn = document.getElementById("rate-submit");
+const rateStatus = document.getElementById("rate-status");
+let pendingRating = null;
+
 const searchBar = document.getElementById("search-bar");
 const searchInput = document.getElementById("search-input");
 const searchClear = document.getElementById("search-clear");
@@ -455,6 +463,78 @@ async function loadGlobalAverage(album, entry) {
 
 let currentScores = {};
 
+// --- Rating (local only — see data-source.js on why) ---
+
+function renderRateStars() {
+  const on = ratingColor(pendingRating);
+  rateStarsEl.innerHTML = [1, 2, 3, 4, 5]
+    .map((n) => {
+      const lit = pendingRating && n <= pendingRating;
+      return `<button type="button" class="rate-star${lit ? " is-on" : ""}"${
+        lit ? ` style="color: ${on}"` : ""
+      } data-star="${n}" aria-label="${n} star${n > 1 ? "s" : ""}">★</button>`;
+    })
+    .join("");
+}
+
+rateStarsEl.addEventListener("click", (e) => {
+  const btn = e.target.closest(".rate-star");
+  if (!btn) return;
+  const n = Number(btn.dataset.star);
+  pendingRating = pendingRating === n ? null : n; // click the same star to clear
+  renderRateStars();
+  rateStatus.textContent = "";
+});
+
+async function setUpRating(album, entry) {
+  pendingRating = entry?.rating ?? null;
+  rateNotesEl.value = entry?.review || "";
+  rateStatus.textContent = "";
+  renderRateStars();
+
+  // only offer it where it can actually work, and only for unrated records
+  const alreadyRated = entry && entry.rating != null;
+  rateTitle.textContent = alreadyRated ? "change your rating" : "rate this one";
+  rateSubmitBtn.textContent = alreadyRated ? "update on 1001" : "post to 1001";
+  rateBlock.hidden = !(await Data.canRate());
+}
+
+rateSubmitBtn.addEventListener("click", async () => {
+  if (!currentAlbum || !projectContext.name) return;
+  if (!pendingRating) {
+    rateStatus.textContent = "pick a rating first";
+    return;
+  }
+  if (!confirm(`Post ${pendingRating}/5 to your public 1001 profile as ${projectContext.name}?`)) return;
+
+  rateSubmitBtn.disabled = true;
+  rateStatus.textContent = "posting…";
+  try {
+    await Data.rate({
+      projectName: projectContext.name,
+      albumId: currentAlbum.uuid,
+      rating: pendingRating,
+      notes: rateNotesEl.value,
+      generatedAlbumId: currentEntry?.generatedAlbumId || null,
+      fromHistoryView: Boolean(currentEntry),
+    });
+
+    rateStatus.textContent = "posted";
+    if (currentEntry) {
+      currentEntry.rating = pendingRating;
+      currentEntry.review = rateNotesEl.value;
+    }
+    currentScores.you = pendingRating;
+    renderScoreRow(currentScores);
+    modalRating.innerHTML = `<span class="stars" style="color: ${ratingColor(pendingRating)}">${starString(pendingRating)}</span>`;
+    loadGroupReviews(currentAlbum);
+  } catch (err) {
+    rateStatus.textContent = err.message;
+  } finally {
+    rateSubmitBtn.disabled = false;
+  }
+});
+
 // --- Reviews ---
 
 // Setting scrollTop on a display:none element is a no-op, and the inactive
@@ -676,6 +756,7 @@ function openModal(album, entry) {
   loadGroupReviews(album);
   loadGlobalReviews(album);
 
+  setUpRating(album, entry);
   loadInsight(album);
   modal.hidden = false;
 }

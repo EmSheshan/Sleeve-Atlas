@@ -28,6 +28,8 @@ function allInsights() {
   return insightsPromise;
 }
 
+let canRatePromise = null;
+
 let statsPromise = null;
 function statsIndex() {
   if (!statsPromise) statsPromise = loadJson("data/album-stats.json", {});
@@ -35,6 +37,29 @@ function statsIndex() {
 }
 
 window.Data = {
+  // Rating needs a same-origin proxy (see the note at the top of this file),
+  // so it's only available when a local server is behind the page.
+  async canRate() {
+    if (canRatePromise === null) {
+      canRatePromise = fetch("api/capabilities")
+        .then((r) => (r.ok ? r.json() : { canRate: false }))
+        .then((d) => Boolean(d.canRate))
+        .catch(() => false);
+    }
+    return canRatePromise;
+  },
+
+  async rate({ projectName, albumId, rating, notes, generatedAlbumId, fromHistoryView }) {
+    const res = await fetch("api/rate", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ projectName, albumId, rating, notes, generatedAlbumId, fromHistoryView }),
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) throw new Error(data.message || `rating failed (${res.status})`);
+    return data;
+  },
+
   async project(shareId) {
     const res = await fetch(`${UPSTREAM}/api/v1/projects/${encodeURIComponent(shareId)}`);
     if (!res.ok) throw new Error(`1001 Albums Generator returned ${res.status}`);
