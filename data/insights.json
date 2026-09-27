@@ -5328,5 +5328,275 @@
     "uuid": "5f34ee8bf0857e55ed5ec006",
     "image": "https://i.scdn.co/image/1f68fe8555e66ac3601c0463e408be2411e7cc4c",
     "savedAt": "2026-09-27T22:32:01.246Z"
+  },
+  "5f34ee8bf0857e55ed5ec010": {
+    "artist": "Creedence Clearwater Revival",
+    "album": "Bayou Country",
+    "year": "1969",
+    "heading": "Bayou Country — Creedence Clearwater Revival (1969)",
+    "albumLine": "Released 15 January 1969 on Fantasy, produced by John Fogerty and recorded that October at RCA's Hollywood studio. It's swamp rock — blues, rockabilly and Southern imagery welded into short hard songs — their second album, and the start of the most productive year any American band has had.",
+    "overview": [
+      "The four of them were from El Cerrito, in the San Francisco Bay Area, and had been playing together since 1959, first as the Blue Velvets and then as the Golliwogs. John Fogerty sang, played lead guitar and produced; his brother Tom Fogerty played rhythm guitar, Stu Cook bass, Doug Clifford drums. The central fact about this album is that none of them were from the South and their picture of it came, in Fogerty's own account, largely second-hand. The bayous, the catfish, the riverboats and the drawl are all invented — an American band imagining an America they had read about.",
+      "That is more interesting than it sounds, because 1969 in the Bay Area meant something very specific: psychedelia, twenty-minute jams, the Fillmore, a local consensus that rock had outgrown the single. Creedence lived inside that scene and made the opposite record. The songs are two and a half minutes long, the arrangements have no fat on them, and the material looks back to Memphis and New Orleans rather than forward to anywhere. Against the Grateful Dead and Jefferson Airplane they were almost aggressively square, and they outsold all of them.",
+      "\"Proud Mary\" is the song that did it, their first No. 2. Fogerty has said he wrote it in the two days after his discharge from the National Guard — which situates the record squarely in the Vietnam draft years — and that he built the guitar figure trying to play like Steve Cropper of Booker T. & the M.G.s, with the opening lifted in spirit from Beethoven's Fifth. It is a song about leaving a job and getting on a boat, written by a man who had just got out of the army.",
+      "Fogerty ran the band completely: arrangements, backing vocals, production, all of it. His justification was stark — \"either this would be a success, something really big, or we might as well start working at the car wash again\" — and it worked, then destroyed them. By 1970 the others were demanding a say and the resentment never resolved. The album reached No. 7 and eventually went double platinum; AllMusic call it the record that \"reveals an assured Creedence Clearwater Revival, a band that has found its voice.\" Across 1969 they placed three albums in the top ten and four singles in the top three, which nobody else in America managed."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Fogerty's rasp",
+        "text": "He sings in a hoarse, hard-pushed baritone with an affected Southern drawl, a Californian doing Louisiana and not hiding it. It became one of the most imitated voices in rock."
+      },
+      {
+        "label": "Two guitars locked tight",
+        "text": "Tom Fogerty plays unflashy rhythm underneath while John plays terse, Cropper-influenced lead. Nobody solos for long and nothing wanders."
+      },
+      {
+        "label": "One long jam as the exception",
+        "text": "A single extended track stretches past eight minutes with a repeating riff and shouted vocal, which is the only concession to the band's own scene and sounds nothing like the rest."
+      },
+      {
+        "label": "Tremolo and spring reverb",
+        "text": "The guitar tone is wobbling, watery amp tremolo with heavy reverb, a fifties rockabilly sound used to conjure humidity. It is most of what \"swamp\" means here."
+      },
+      {
+        "label": "Drums and bass with no ornament",
+        "text": "Clifford and Cook play the simplest possible figures and never fill. The discipline is what makes two-and-a-half-minute songs feel enormous."
+      },
+      {
+        "label": "Recorded fast and nearly live",
+        "text": "The sessions took days, not months, with minimal overdubbing, so what you hear is a bar band that had been playing together for a decade."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bayou Country (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bayou_Country_(album)"
+      },
+      {
+        "title": "Creedence Clearwater Revival — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Creedence_Clearwater_Revival"
+      },
+      {
+        "title": "Proud Mary — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Proud_Mary"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Booker T. & the M.G.s",
+        "album": "Green Onions",
+        "year": "1962",
+        "note": "Fogerty has said he was trying to play like Steve Cropper; the whole band's economy comes from the Stax house style."
+      },
+      {
+        "artist": "Little Richard",
+        "album": "Here's Little Richard",
+        "year": "1957",
+        "note": "The fifties rock and roll shout, the tempo and the two-minute song as a complete statement."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The Band",
+        "album": "The Band",
+        "year": "1969",
+        "note": "Released the same year and pointing the same way — American roots music taken seriously in the middle of psychedelia."
+      },
+      {
+        "artist": "Tom Petty and the Heartbreakers",
+        "album": "Damn the Torpedoes",
+        "year": "1979",
+        "note": "Lean, tightly written American rock built on short songs and no indulgence, with Fogerty as an acknowledged model."
+      },
+      {
+        "artist": "Bruce Springsteen",
+        "album": "Born in the U.S.A.",
+        "year": "1984",
+        "note": "The hoarse working-man voice singing invented American geography descends from this record."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec010",
+    "image": "https://i.scdn.co/image/378d421c5232404c22ba6296c688463f8f390d8b",
+    "savedAt": "2026-09-27T22:39:05.933Z"
+  },
+  "5f34ee8bf0857e55ed5ebfad": {
+    "artist": "Miles Davis",
+    "album": "Kind Of Blue",
+    "year": "1959",
+    "heading": "Kind of Blue — Miles Davis (1959)",
+    "albumLine": "Released 17 August 1959 on Columbia, produced by Irving Townsend and recorded at Columbia's 30th Street Studio in New York on 2 March and 22 April that year. Five pieces of modal jazz — and the best-selling jazz album ever made.",
+    "overview": [
+      "The band is one of the reasons. Miles Davis on trumpet, with John Coltrane on tenor and Cannonball Adderley on alto saxophone, Bill Evans on piano — replaced by Wynton Kelly on \"Freddie Freeloader\" — Paul Chambers on bass and Jimmy Cobb on drums. Coltrane was months from \"Giant Steps\" and his own transformation of the instrument; Evans was about to define the modern jazz piano trio. Putting all of them in one room in 1959 was a peak that could not have held.",
+      "What Davis gave them was almost nothing. Instead of the chord sequences bebop had spent fifteen years making ever more intricate, he handed the players sets of scales and let them improvise within those, a practice partly traceable to George Russell's 1953 treatise \"Lydian Chromatic Concept of Tonal Organization.\" Fewer chords, moving more slowly, means an improviser cannot rely on running the changes; they have to invent melody. That is the whole innovation, and it reoriented jazz away from harmonic complexity for the next decade.",
+      "The rehearsal was correspondingly minimal — brief spoken instructions and then the tape. The persistent story that the album was recorded in one pass is not true, though \"Flamenco Sketches\" was complete on its first full take. Bill Evans's sleeve note makes the case for why it was done that way, comparing the sessions to a Japanese ink-painting tradition in which the brush must move without hesitation because the parchment cannot survive a correction and erasure is impossible. He had a serious interest in Zen practice and meant it fairly literally.",
+      "It has never gone away. The RIAA certified it five times platinum in 2019, which for an instrumental jazz record with no singles is an absurd figure, and the Library of Congress added it to the National Recording Registry in 2002. AllMusic's Stephen Thomas Erlewine calls it \"a record generally considered as the definitive jazz album.\" Its reach outside jazz is unusually well documented: Duane Allman said his soloing \"comes from Miles and Coltrane, and particularly Kind of Blue,\" and Pink Floyd took harmonic ideas from it into \"Breathe.\" It is also, for better or worse, the record that made jazz safe as ambience — a fate that says more about later listeners than about what is actually being played."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Chords that barely move",
+        "text": "Long stretches sit on a single scale before shifting, so nothing is pulling the soloist along. The stillness is what makes the improvisations sound composed."
+      },
+      {
+        "label": "Davis playing few notes",
+        "text": "He leaves large gaps, often entering late and stopping early, using a Harmon mute to get a small dry tone. Restraint is his instrument here."
+      },
+      {
+        "label": "Two saxophones with opposite temperaments",
+        "text": "Adderley's alto is warm, bluesy and rounded; Coltrane's tenor is hard, searching and often deliberately harsh. They solo back to back so the contrast is unmissable."
+      },
+      {
+        "label": "Bill Evans's voicings",
+        "text": "He spreads chords in wide, ambiguous shapes that avoid stating the root, which is why the harmony feels suspended rather than resolved."
+      },
+      {
+        "label": "Jimmy Cobb on brushes and ride",
+        "text": "The drumming keeps time almost entirely on the ride cymbal and brushed snare, with no fills competing for attention. It is why the album can be played at low volume without collapsing."
+      },
+      {
+        "label": "One piece in 6/8",
+        "text": "\"All Blues\" is a blues in a rolling triple feel rather than straight four, which is most of why it does not sound like any other blues you know."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Kind of Blue — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kind_of_Blue"
+      },
+      {
+        "title": "\"Kind of Blue\" — Miles Davis (1959), National Recording Registry essay, Library of Congress",
+        "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/KindOfBlue.pdf"
+      },
+      {
+        "title": "Bill Evans's liner notes for Kind of Blue — SFJAZZ",
+        "url": "https://sfjazz.blogspot.com/2015/03/kind-of-blue-bill-evans-liner-notes.html"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Miles Davis",
+        "album": "Milestones",
+        "year": "1958",
+        "note": "His own first sustained experiment with modal writing, a year earlier and with much of the same band."
+      },
+      {
+        "artist": "Ahmad Jamal",
+        "album": "Chamber Music of the New Jazz",
+        "year": "1955",
+        "note": "Davis repeatedly cited Jamal's spaciousness and restraint as a direct model for how to leave notes out."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "John Coltrane",
+        "album": "A Love Supreme",
+        "year": "1965",
+        "note": "Coltrane plays on this album and took modal improvisation — few chords, long forms — to its conclusion."
+      },
+      {
+        "artist": "The Allman Brothers Band",
+        "album": "At Fillmore East",
+        "year": "1971",
+        "note": "Duane Allman named this record as the source of his approach to soloing at length over a fixed groove."
+      },
+      {
+        "artist": "Pink Floyd",
+        "album": "The Dark Side of the Moon",
+        "year": "1973",
+        "note": "The band drew harmonic ideas from it directly for \"Breathe.\""
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebfad",
+    "image": "https://i.scdn.co/image/ab67616d00001e027ab89c25093ea3787b1995b4",
+    "savedAt": "2026-09-27T22:40:22.994Z"
+  },
+  "5f34ee8bf0857e55ed5ec0c4": {
+    "artist": "Kid Rock",
+    "album": "Devil Without A Cause",
+    "year": "1998",
+    "heading": "Devil Without a Cause — Kid Rock (1998)",
+    "albumLine": "Released 18 August 1998 on Lava and Atlantic, recorded at the White Room in Detroit between September 1997 and July 1998. It's rap rock with country, metal and Southern rock pulled into it — his fourth album, and one that sold fourteen million copies after three that sold nothing.",
+    "overview": [
+      "Robert James Ritchie was from Romeo, Michigan, the son of a car dealer, and had been a hip-hop act first: breakdancing, DJing, rapping with the Beast Crew, and signed to Jive at seventeen on D-Nice's recommendation. His 1990 debut went nowhere and Jive dropped him — by the producer Mike E. Clark's account partly because of unflattering comparisons to Vanilla Ice. Two more albums failed. By 1994 he had given up on being a rapper with a DJ and built a rock band instead, Twisted Brown Trucker, with the rapper Joe C. as his hype man.",
+      "That band is why this record worked where rap metal usually did not. Most of its contemporaries bolted a rapper onto a riff; here the group plays live, swings, and moves between idioms without announcing the change, which is what AllMusic's Stephen Thomas Erlewine meant in calling it \"the great hard rock album of the late '90s\" with an \"organic, integrated sound.\" Detroit is audible in it: a city with both a hip-hop scene and a hard rock tradition and very little industry interest in either. Eminem was recording \"The Slim Shady LP\" in the same building and turns up here scratching and rapping a verse.",
+      "The album's other reason for existing is class. 1998's alternative rock was largely suburban and self-serious; Ritchie's persona was a deliberately vulgar white-trash caricature — trailers, whisky, cheap boasts — pitched at an audience the industry had decided did not read as cool. That was a real gap in the market and he filled it completely. It reached No. 4 and eventually went diamond.",
+      "The reception split along exactly that line, and still does. Robert Christgau gave it an A−, Rolling Stone four stars, and Pitchfork 1.3 out of 10. Both reactions are legible. Its most durable consequence was musical rather than critical: the country-rap lane it opened became a genuine commercial format, with Jason Aldean among those citing \"Cowboy\" as an influence. Joe C., born Joseph Michael Calleja, whose celiac disease limited his height to 3 feet 9 inches and required daily dialysis, died in his sleep in November 2000, aged 26. Ritchie's own trajectory since — libertarian, then a prominent Republican and Trump supporter — has made the album harder for some listeners to return to than it was in 1998."
+    ],
+    "listeningNotes": [
+      {
+        "label": "A real band, not a loop",
+        "text": "Twisted Brown Trucker play live drums, bass, two guitars and turntables together, so the grooves push and drag in a way programmed rap metal does not."
+      },
+      {
+        "label": "Steel guitar and fiddle next to metal riffs",
+        "text": "Country instrumentation appears without irony inside distorted rock arrangements, years before that combination was a commercial category."
+      },
+      {
+        "label": "Turntable scratching as a lead instrument",
+        "text": "DJ scratches punctuate choruses and answer vocal lines, a hip-hop habit retained from his actual first career rather than added as decoration."
+      },
+      {
+        "label": "Joe C.'s voice as contrast",
+        "text": "His high, nasal, rapid delivery cuts against Ritchie's drawl, and the trade-offs function as two characters rather than a guest spot."
+      },
+      {
+        "label": "Ritchie singing as often as rapping",
+        "text": "He moves between rapped verses and sung, gravelly rock choruses within tracks, which is the mechanism that got the record on rock radio."
+      },
+      {
+        "label": "Detroit rap production underneath",
+        "text": "The beats are heavy, mid-tempo and sample-informed rather than metal-derived, which is why the album grooves where its imitators chug."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Devil Without a Cause — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Devil_Without_a_Cause"
+      },
+      {
+        "title": "Kid Rock — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kid_Rock"
+      },
+      {
+        "title": "Joe C. — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Joe_C"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Beastie Boys",
+        "album": "Licensed to Ill",
+        "year": "1986",
+        "note": "The original template of white rappers over rock riffs played as comedy and boast at once."
+      },
+      {
+        "artist": "Run-DMC",
+        "album": "Raising Hell",
+        "year": "1986",
+        "note": "Established rap and hard rock as a single commercial proposition, which Ritchie had been chasing since he was a teenager."
+      },
+      {
+        "artist": "Lynyrd Skynyrd",
+        "album": "(Pronounced 'Lĕh-'nérd 'Skin-'nérd)",
+        "year": "1973",
+        "note": "The Southern rock instrumentation and the defiantly regional working-class persona."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Eminem",
+        "album": "The Marshall Mathers LP",
+        "year": "2000",
+        "note": "They recorded in the same Detroit studio at the same time, and Eminem appears here; the city's mainstream breakthrough is shared ground."
+      },
+      {
+        "artist": "Jason Aldean",
+        "album": "My Kinda Party",
+        "year": "2010",
+        "note": "Aldean has cited \"Cowboy\" as an influence, and the country-rap format this album prototyped became a Nashville staple."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec0c4",
+    "image": "https://i.scdn.co/image/341527352d86b105986be970738a7a20f348aa11",
+    "savedAt": "2026-09-27T22:41:41.399Z"
   }
 }
