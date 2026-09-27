@@ -878,7 +878,24 @@ main {
   flex-wrap: wrap;
 }
 
-.map-toolbar p { margin: 0; max-width: 600px; font-size: 0.88rem; line-height: 1.6; color: var(--ink-2); }
+.map-toolbar p { margin: 0; max-width: 520px; font-size: 0.88rem; line-height: 1.6; color: var(--ink-2); }
+
+.map-btn-ghost {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.88rem;
+  text-transform: lowercase;
+  letter-spacing: -0.015em;
+  background: var(--paper-2);
+  color: var(--ink-2);
+  border: 0;
+  border-radius: 4px;
+  padding: 0.6rem 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.map-btn-ghost:hover { background: var(--edge); color: var(--ink); }
 
 #graph-canvas {
   position: relative;
@@ -886,7 +903,7 @@ main {
   border: 0;
   border-radius: var(--radius);
   box-shadow: var(--shadow-sm);
-  height: 640px;
+  height: 760px;
   overflow: hidden;
 }
 
