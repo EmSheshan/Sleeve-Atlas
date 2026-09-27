@@ -59,11 +59,24 @@
 
     const zoomLayer = svg.append("g");
 
-    svg.call(
-      d3.zoom().scaleExtent([0.35, 2.5]).on("zoom", (event) => {
-        zoomLayer.attr("transform", event.transform);
-      })
-    );
+    const zoom = d3
+      .zoom()
+      .scaleExtent([0.35, 2.5])
+      .on("zoom", (event) => zoomLayer.attr("transform", event.transform));
+
+    svg.call(zoom);
+
+    // Fence the pannable area to the graph plus half a screen of slack, so you
+    // can't scroll off into empty space with no way back. Applied once the
+    // layout has settled, since the extent depends on where things ended up.
+    function applyBounds() {
+      const b = zoomLayer.node().getBBox();
+      if (!b.width || !b.height) return;
+      zoom.translateExtent([
+        [b.x - width / 2, b.y - height / 2],
+        [b.x + b.width + width / 2, b.y + b.height + height / 2],
+      ]);
+    }
 
     const defs = svg.append("defs");
 
@@ -99,7 +112,19 @@
       .force("link", d3.forceLink(linkData).id((d) => d.id).distance(165).strength(0.45))
       .force("charge", d3.forceManyBody().strength(-420))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collide", d3.forceCollide(46));
+      .force("x", d3.forceX(width / 2).strength(0.015))
+      .force("y", d3.forceY(height / 2).strength(0.015))
+      .force(
+        "collide",
+        d3
+          .forceCollide((d) => {
+            const base = d.source === "list" ? 26 : 9;
+            const chars = Math.min((d.label || "").length, 24);
+            const halfLabel = chars * (d.source === "list" ? 2.6 : 2.1);
+            return Math.max(base + 12, Math.min(halfLabel, 50));
+          })
+          .strength(1)
+      );
 
     // Each edge is two paths: the thin visible one, plus a fat transparent one
     // underneath it that catches the pointer, so the arrows are easy to hover.
@@ -211,7 +236,10 @@
 
     node
       .append("text")
-      .text((d) => (d.label || "").toLowerCase())
+      .text((d) => {
+        const s = (d.label || "").toLowerCase();
+        return s.length > 24 ? s.slice(0, 23).trimEnd() + "…" : s;
+      })
       .attr("x", 0)
       .attr("y", (d) => (d.source === "list" ? R_LIST + 15 : 23))
       .attr("text-anchor", "middle")
@@ -219,7 +247,13 @@
       .attr("font-weight", (d) => (d.source === "list" ? 800 : 600))
       .attr("letter-spacing", "-0.03em")
       .attr("font-size", (d) => (d.source === "list" ? 13 : 11))
-      .attr("fill", "#1b1915");
+      .attr("fill", "#1b1915")
+      // paper-coloured halo, so a label crossing a line or another label
+      // stays readable instead of turning to mush
+      .attr("paint-order", "stroke")
+      .attr("stroke", "#f7f0de")
+      .attr("stroke-width", 3.5)
+      .attr("stroke-linejoin", "round");
 
     node
       .on("mouseenter", (event, d) => {
@@ -263,6 +297,13 @@
       hit.attr("d", arc);
       node.attr("transform", (d) => `translate(${d.x},${d.y})`);
     });
+
+    window.__graphSettled = false;
+    simulation.on("end", () => {
+      applyBounds();
+      window.__graphSettled = true;
+    });
+    setTimeout(applyBounds, 3000);
   }
 
   window.renderGraph = async function renderGraph(force) {
