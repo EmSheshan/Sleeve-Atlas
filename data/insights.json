@@ -4488,5 +4488,845 @@
     "uuid": "63e563eeaa47e662ab4c1123",
     "image": "https://i.scdn.co/image/ab67616d00001e02cfc0369fca487d12600962ec",
     "savedAt": "2026-09-27T22:14:53.292Z"
+  },
+  "5f34ee8bf0857e55ed5eadd3": {
+    "artist": "Adele",
+    "album": "25",
+    "year": "2015",
+    "heading": "25 — Adele (2015)",
+    "albumLine": "Released 20 November 2015 on XL Recordings and Columbia, eleven tracks over forty-eight minutes, built with a rotating cast of producers including Greg Kurstin, Paul Epworth, Max Martin and Mark Ronson. It's mainstream pop and soul balladry — her third album, and the last record to sell like it was 1997.",
+    "overview": [
+      "The situation she was answering was mostly her own. \"21\" had been the biggest album of the decade to that point, which left her four years with nothing to write about except being famous and being a new mother. She wrote a whole album on the second subject and threw it away, telling the BBC's Nick Grimshaw she found it \"boring.\" What she settled on instead she described as a \"make-up record\" — the counterpart to \"21\" being a break-up record — largely about nostalgia and the distance between who you were and who you have become.",
+      "The commercial facts are the reason it's in a canon list. It sold 3.38 million copies in America in its first week, a record that still stands, and 800,307 in Britain, the fastest-selling UK album ever. Globally it moved 5.7 million in seven days and has passed 22 million. Shops that had spent a decade shrinking their CD racks ran out of stock.",
+      "That happened partly because she withheld it from streaming. In November 2015 it went on sale to buy and nowhere else — not Spotify, not Apple Music — a decision she was personally behind, and one of the last times an artist had the leverage to make it work. The industry read it as a test of whether ownership still had a market. It did, once, and then the window closed; treating \"25\" as the final data point of the album-sales era is not an exaggeration.",
+      "Musically it is looser and more electronic than her earlier work, with eighties R&B colouring and a set of producers who mostly make hits for other people — which is the record's one real tension, since the songs are personal and the production is professionalised. Danger Mouse produced \"River Lea\"; Tobias Jesso Jr. co-wrote \"When We Were Young.\" Rolling Stone gave it five stars, Entertainment Weekly an A−, and Metacritic settles at 75, which is respectful rather than rapturous. It took the Grammy for Album of the Year in 2017 and the BRIT for British Album of the Year in 2016."
+    ],
+    "listeningNotes": [
+      {
+        "label": "The voice recorded close and dry",
+        "text": "Her vocal sits right at the front with very little reverb, so you hear breath, cracks and the catch in her lower register. Most of the album's emotional information is in that texture."
+      },
+      {
+        "label": "Piano or nothing, then everything",
+        "text": "Several songs open with a single keyboard and a voice and hold there for a long time before the full arrangement arrives. The withheld entrance is the record's main structural device."
+      },
+      {
+        "label": "Eighties R&B production touches",
+        "text": "Gated drums, synth pads and slap-bass inflections appear where her earlier records used sixties soul instrumentation. It's the clearest sign of the shift in collaborators."
+      },
+      {
+        "label": "Choirs and stacked backing vocals",
+        "text": "Gospel-style massed voices come in at climaxes, often her own multi-tracked, turning a confessional song into something congregational."
+      },
+      {
+        "label": "Hooks written for volume",
+        "text": "The choruses are pitched high in her range and built on long-held notes, designed to be sung badly by a lot of people at once. That's a Max Martin instinct applied to soul material."
+      }
+    ],
+    "sources": [
+      {
+        "title": "25 (Adele album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/25_(Adele_album)"
+      },
+      {
+        "title": "Adele's '25' won't be available on any streaming services — NBC News",
+        "url": "https://www.nbcnews.com/pop-culture/music/adeles-25-wont-be-available-any-streaming-services-n467486"
+      },
+      {
+        "title": "River Lea (song) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/River_Lea_(song)"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Dusty Springfield",
+        "album": "Dusty in Memphis",
+        "year": "1969",
+        "note": "The template of a British woman singing American soul with complete conviction and no affectation of Blackness."
+      },
+      {
+        "artist": "Amy Winehouse",
+        "album": "Back to Black",
+        "year": "2006",
+        "note": "Reopened the British soul-revival lane Adele walked into, and shares her early producer Mark Ronson."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Lewis Capaldi",
+        "album": "Divinely Uninspired to a Hellish Extent",
+        "year": "2019",
+        "note": "The British piano-and-big-voice heartbreak album as a mass-market format, which this record proved still had buyers."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5eadd3",
+    "image": "https://i.scdn.co/image/ab67616d00001e02f1ea3305aa003425dda05882",
+    "savedAt": "2026-09-27T22:17:16.770Z"
+  },
+  "5f34ee8bf0857e55ed5eaf1c": {
+    "artist": "Leonard Cohen",
+    "album": "You Want It Darker",
+    "year": "2016",
+    "heading": "You Want It Darker — Leonard Cohen (2016)",
+    "albumLine": "Released 21 October 2016 on Columbia, produced by his son Adam Cohen with Patrick Leonard, and recorded between April 2015 and July 2016 in Cohen's living room in Mid-Wilshire, Los Angeles. It's sparse, blues-inflected art song — his fourteenth album, finished seventeen days before he died.",
+    "overview": [
+      "Cohen was a poet and novelist in Montreal before he was a musician, publishing his first collection in 1956 and not recording until 1967, and he never stopped writing like someone whose first instinct was the page. He was born in 1934 into an Orthodox Jewish family in Westmount, Quebec, a fact that matters more on this record than on any other he made. He died on 7 November 2016, aged 82.",
+      "The making of it was shaped entirely by his body. Years of touring from 2008 to 2013 — undertaken after his savings were stolen, which is its own story — had left him with multiple spinal fractures and barely able to move. So he recorded sitting in a medical chair in his own living room and emailed the files to his collaborators, a working method more associated with bedroom producers than with a man in his eighties on a major label. Adam Cohen has described him occasionally managing, through the pain, to stand up in front of the speakers to listen back.",
+      "What he used that setup for was to make a record addressed to God. The Hebrew word \"hineni\" — \"here I am,\" what Abraham says when called — is the refrain of the opening song, and the framing throughout is of someone reporting for duty rather than pleading. He brought in Cantor Gideon Zelermyer and the choir of Shaar Hashomayim, the Montreal synagogue of his childhood, so the voices answering him are literally the ones he grew up hearing. It is worth resisting the neat reading: the album was finished before anyone knew how little time was left, and David Remnick's New Yorker profile appeared that same month. The valedictory quality is real, but it was not staged for the ending.",
+      "It was received better than almost anything else he made, with a Metacritic score of 92 from 28 reviews; it went to No. 1 in Canada, No. 4 in Britain, and became only his second American top ten album. The title track won the Grammy for Best Rock Performance in 2018, a category assignment that is funny in a way he would have appreciated. Adam Cohen assembled the leftover material into \"Thanks for the Dance\" three years later."
+    ],
+    "listeningNotes": [
+      {
+        "label": "The voice at the bottom of its range",
+        "text": "By 82 he is speaking more than singing, in a bass so low it sometimes loses pitch altogether. The frailty is left in and the microphone is close enough to catch it."
+      },
+      {
+        "label": "A synagogue choir and cantor",
+        "text": "Zelermyer and the Shaar Hashomayim choir answer his lines in Hebrew liturgical style, which puts the record formally in the tradition it is arguing with."
+      },
+      {
+        "label": "Arrangements built from very little",
+        "text": "Mostly a soft organ pad, a fretless bass, brushed drums and the occasional guitar figure. Nothing competes with the words, and long stretches are nearly silent."
+      },
+      {
+        "label": "Blues underneath the liturgy",
+        "text": "Several tracks sit on slow twelve-bar-adjacent chord movement, which grounds the theology in something earthier than a hymn."
+      },
+      {
+        "label": "Women's voices as the other party",
+        "text": "Female backing singers shadow and finish his phrases throughout, a device he had used for decades, here sounding less like accompaniment than like a reply."
+      },
+      {
+        "label": "Recorded at home, and it sounds like it",
+        "text": "The room is small and untreated, with no sense of a studio around the voice. That domesticity is why the album feels overheard rather than performed."
+      }
+    ],
+    "sources": [
+      {
+        "title": "You Want It Darker — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/You_Want_It_Darker"
+      },
+      {
+        "title": "Leonard Cohen — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Leonard_Cohen"
+      },
+      {
+        "title": "Thanks for the Dance — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Thanks_for_the_Dance"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Leonard Cohen",
+        "album": "Songs of Leonard Cohen",
+        "year": "1967",
+        "note": "His own starting point — the same voice-and-guitar intimacy and the same religious vocabulary, fifty years earlier."
+      },
+      {
+        "artist": "Johnny Cash",
+        "album": "American IV: The Man Comes Around",
+        "year": "2002",
+        "note": "Established the late-career record as a form: an old voice, minimal accompaniment, mortality addressed head-on."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Bob Dylan",
+        "album": "Rough and Rowdy Ways",
+        "year": "2020",
+        "note": "The late-period mode of an old songwriter half-speaking his lines over minimal backing, treating death as a subject among others."
+      },
+      {
+        "artist": "Nick Cave and the Bad Seeds",
+        "album": "Ghosteen",
+        "year": "2019",
+        "note": "The register of quiet, ambient grief with the voice foregrounded and the band nearly absent descends from this."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5eaf1c",
+    "image": "https://i.scdn.co/image/ab67616d00001e028fc3f01275cae3d8ecb1c26b",
+    "savedAt": "2026-09-27T22:19:07.624Z"
+  },
+  "647e4768d23e2a7be802360b": {
+    "artist": "John Lennon",
+    "album": "John Lennon/Plastic Ono Band",
+    "year": "1970",
+    "heading": "John Lennon/Plastic Ono Band — John Lennon (1970)",
+    "albumLine": "Released 11 December 1970 on Apple, produced by John Lennon with Yoko Ono and Phil Spector, and recorded at Abbey Road in London between 26 September and 23 October that year. It's stripped-to-the-frame rock — his first proper solo album, made eight months after the Beatles ended.",
+    "overview": [
+      "The band is almost comically small for the biggest star in the world: Lennon on guitar, piano and organ, Klaus Voormann on bass, Ringo Starr on drums, with Billy Preston on grand piano for one track and Phil Spector on another. Three people, most of the time. That is a decision, not a budget, and it sets up everything else.",
+      "The reason is therapy. Earlier in 1970 Lennon and Ono had begun primal therapy with Arthur Janov, an American psychotherapist whose method held that repressed childhood pain could be reached and released by reliving it — including by screaming. They lasted roughly four months. The songs are the residue: Lennon's mother Julia died when he was seventeen, his father had left before that, and here he addresses both directly, by name and without metaphor, at a moment when rock lyrics did not do that.",
+      "The wider context is that 1970 was the year the sixties were officially over. The Beatles' break-up was announced in April, the counterculture's political hopes had largely collapsed, and a great deal of music that year was busy being consoling. Lennon's response was to attack the consolation as well — one song is a catalogue of things he no longer believes in, the Beatles among them. He was disassembling not just a band but the idea that the band had meant something redemptive.",
+      "The production is the great joke of the record. Spector, the architect of the Wall of Sound, co-produced an album with almost no reverb on anything: he arrived after Lennon and Ono had largely shaped it, and Lennon has said that had Spector been involved from the start it would have been lush and layered instead. What survives of Spector is the sense of a single overwhelming sound — just achieved by subtraction. Reviews at the time were mixed and it reached only No. 8 in Britain and No. 6 in America, though it spent seven weeks at No. 1 in the Netherlands. Its standing since has only risen; Rolling Stone placed it 23rd in their 2012 list of the 500 greatest albums, and the whole confessional singer-songwriter tradition treats it as a founding document."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Three instruments and nothing else",
+        "text": "Voice, one guitar or piano, bass and drums, with no overdubbed sweetening. The absences are the loudest thing on the album."
+      },
+      {
+        "label": "Almost no reverb",
+        "text": "Everything is recorded dry and close, so the voice sits in the same airless space as the listener. It's the exact opposite of what Spector was hired for."
+      },
+      {
+        "label": "The screaming",
+        "text": "He tears his voice open at the ends of phrases, without correction or a second take smoothing it. This is the therapy audible as technique."
+      },
+      {
+        "label": "Primitive piano and slide guitar",
+        "text": "His playing is deliberately unskilled — hammered block chords, slide lines that slur — which keeps the performances sounding like first attempts."
+      },
+      {
+        "label": "Ringo Starr playing simply and huge",
+        "text": "The drums are slow, heavy and almost fill-free, recorded with the whole kit in one image rather than mic'd piece by piece."
+      },
+      {
+        "label": "One track with nothing but voice and tape",
+        "text": "The album ends on a fragment with barely any instrumentation at all, a recording rather than a performance, which refuses the idea of a closing number."
+      }
+    ],
+    "sources": [
+      {
+        "title": "John Lennon/Plastic Ono Band — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/John_Lennon/Plastic_Ono_Band"
+      },
+      {
+        "title": "John Lennon/Plastic Ono Band — The Beatles Bible",
+        "url": "https://www.beatlesbible.com/people/john-lennon/albums/john-lennon-plastic-ono-band/"
+      },
+      {
+        "title": "The making of Plastic Ono Band and its rebirth — Goldmine",
+        "url": "https://www.goldminemag.com/features/the-making-of-plastic-ono-band-and-its-rebirth/"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Beatles",
+        "album": "The Beatles",
+        "year": "1968",
+        "note": "The White Album's sparest tracks — one voice, one instrument, no production — are where Lennon first tried this register."
+      },
+      {
+        "artist": "Bob Dylan",
+        "album": "John Wesley Harding",
+        "year": "1967",
+        "note": "The precedent of a major artist answering a maximalist era by stripping everything back to a small band and plain speech."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Neil Young",
+        "album": "Tonight's the Night",
+        "year": "1975",
+        "note": "The deliberately raw, undercooked, emotionally unguarded record made against commercial expectation."
+      },
+      {
+        "artist": "Nirvana",
+        "album": "In Utero",
+        "year": "1993",
+        "note": "Kurt Cobain named this album among his favourites; the screamed, self-lacerating confession over minimal rock instrumentation is its inheritance."
+      }
+    ],
+    "uuid": "647e4768d23e2a7be802360b",
+    "image": "https://i.scdn.co/image/ab67616d00001e026462162d227ec2be2ebee12d",
+    "savedAt": "2026-09-27T22:20:07.347Z"
+  },
+  "5f34ee8bf0857e55ed5ebf56": {
+    "artist": "Ice Cube",
+    "album": "The Predator",
+    "year": "1992",
+    "heading": "The Predator — Ice Cube (1992)",
+    "albumLine": "Released 17 November 1992 on Priority, produced by DJ Pooh, Sir Jinx, Torcha Chamba and DJ Muggs, and recorded across 1991 and 1992 at Echo Sound in Glendale and the Hit Factory in New York. It's West Coast gangsta rap turned into news reporting — his third solo album, and his commercial peak.",
+    "overview": [
+      "O'Shea Jackson had been N.W.A's lead rapper and chief writer on \"Straight Outta Compton,\" writing much of what Eazy-E and Dr. Dre delivered, and left the group by early 1990 over money and over the management of Jerry Heller. His first two solo albums moved steadily further into political argument; the second, \"Death Certificate\" in 1991, drew accusations of antisemitism and anti-Asian and anti-white content, particularly a track aimed at Heller. He expressed regret about some of those choices in 2015. So he came into 1992 as the most articulate and most reliably inflammatory figure in rap.",
+      "Then Los Angeles burned. On 29 April 1992 four LAPD officers were acquitted of assaulting Rodney King despite the beating having been filmed, and six days of uprising followed — more than fifty dead, thousands of buildings destroyed. Ice Cube had been describing the conditions that produced it for three years, in some cases on records that predicted almost exactly this. This album, arriving seven months later, is where he says so, addressing the verdict and the police directly.",
+      "The result is the rare protest record that was also the biggest-selling album in the country. It entered the Billboard 200 at No. 1 with 193,000 copies — the first album ever to debut at the top of both the pop and the R&B/hip-hop charts — and has sold over two million in America. It did that partly on the strength of \"It Was a Good Day,\" a song about nothing much happening, built on an Isley Brothers sample, whose whole meaning depends on the fact that a day without violence is worth remarking on.",
+      "Reviews were good rather than reverent — Entertainment Weekly called it \"Ice Cube's strongest, most cohesive work yet,\" Rolling Stone gave it two and a half stars, Q later placed it among the ninety best albums of the nineties. Its standing now rests on being the primary musical document of April 1992 by someone who lived it, and on the peculiar achievement of making that palatable enough to go double platinum."
+    ],
+    "listeningNotes": [
+      {
+        "label": "News audio and film clips as connective tissue",
+        "text": "Broadcast fragments, dialogue samples and courtroom-adjacent soundbites are edited between and inside tracks, framing the album as a report on a specific event."
+      },
+      {
+        "label": "Ice Cube's bark",
+        "text": "He raps hard on the beat in a hoarse, front-of-mouth voice with heavy consonants, closer to a street orator than a stylist. Clarity is prioritised over flow."
+      },
+      {
+        "label": "Smooth seventies soul under hard subject matter",
+        "text": "Producers lift warm, mellow funk and soul loops — the Isley Brothers most famously — so the sound is inviting while the words are not. That contrast is the album's main trick."
+      },
+      {
+        "label": "Live-sounding bass and organ",
+        "text": "Basslines are thick and rounded rather than programmed-brittle, with organ and electric piano padding the middle. It anticipates the G-funk production that dominated the following two years."
+      },
+      {
+        "label": "Humour placed next to threat",
+        "text": "Jokes, boasts and comic asides sit in the same verse as descriptions of killing. The tonal whiplash is deliberate and is what makes the record hard to dismiss as one-note."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Predator (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Predator_(album)"
+      },
+      {
+        "title": "Ice Cube — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ice_Cube"
+      },
+      {
+        "title": "1992 Los Angeles riots — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/1992_Los_Angeles_riots"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "N.W.A",
+        "album": "Straight Outta Compton",
+        "year": "1988",
+        "note": "His own former group, whose confrontations with the LAPD he wrote and which this record treats as having been proved right."
+      },
+      {
+        "artist": "Public Enemy",
+        "album": "It Takes a Nation of Millions to Hold Us Back",
+        "year": "1988",
+        "note": "The model of rap as political journalism, with news samples and a directly argumentative voice."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Dr. Dre",
+        "album": "The Chronic",
+        "year": "1992",
+        "note": "Released a month later; the warm funk-sample palette and live-feeling low end were being developed in the same scene at the same moment."
+      },
+      {
+        "artist": "Kendrick Lamar",
+        "album": "To Pimp a Butterfly",
+        "year": "2015",
+        "note": "The Los Angeles album that treats a specific act of police violence as its organising subject descends from this one."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebf56",
+    "image": "https://i.scdn.co/image/ab67616d00001e02994c319841a923465d62e271",
+    "savedAt": "2026-09-27T22:21:05.397Z"
+  },
+  "5f34ee8bf0857e55ed5ebe28": {
+    "artist": "Fela Kuti",
+    "album": "Zombie",
+    "year": "1977",
+    "heading": "Zombie — Fela Kuti (1977)",
+    "albumLine": "Released in Nigeria on Coconut Records in 1976 and in Britain on Creole in 1977, self-produced, and performed with his band Africa '70. It's Afrobeat at full strength — two side-long tracks — and it is the record that got his home destroyed and his mother killed.",
+    "overview": [
+      "He was born Olufela Olusegun Oludotun Ransome-Kuti in Abeokuta in 1938, studied at Trinity College of Music in London from 1958, and spent ten months in Los Angeles in 1969 where Sandra Smith, later Sandra Izsadore, a member of the Black Panther Party, introduced him to Black Power politics. He came home with a new argument and a new music: Afrobeat, which fuses Yoruba rhythm and highlife with American funk and jazz. He later dropped \"Ransome\" as a slave name and took \"Anikulapo.\" Robert Christgau's summary of the result is hard to improve on — \"real fusion music — if James Brown's stuff is Afro-American, his is American-African.\"",
+      "Nigeria in the mid-seventies was under military government, and had been for most of the decade. Kuti's commune in Lagos, the Kalakuta Republic, founded in 1970, housed his band, his studio and his family, and he had declared it independent of the Nigerian state — a provocation the army had already raided more than once. The word \"zombie\" here means a soldier: a man who moves only when ordered, who stands still until told to stand still. The song mocks the army's drill commands as the vocabulary of a corpse.",
+      "The retaliation came on 18 February 1977. Around a thousand soldiers attacked Kalakuta, burned it to the ground, destroyed the studio, the instruments and the master tapes, and beat Kuti badly. His mother, Funmilayo Ransome-Kuti — an anti-colonial organiser who had led the Abeokuta women's revolt of 1946, and one of the most significant Nigerian activists of her century — was thrown from a window. She died of her injuries; most accounts give April 1978, though some date her death to 1977. Kuti later carried her coffin to the army barracks and left it there.",
+      "This is the reason the album cannot be discussed as music alone, and also the reason it should be: nobody destroys a commune over a bad record. It works because the groove is irresistible and the insult is funny, which is a far more dangerous combination than anger. AllMusic rate it 4.5 stars, Christgau graded it A−, Pitchfork placed it 90th among the albums of the seventies, and in 2025 it became the first Nigerian album inducted into the Grammy Hall of Fame."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Tracks that run past ten minutes",
+        "text": "Each side is a single piece that spends several minutes establishing the groove instrumentally before any singing. The length is structural, not indulgent — the trance has to be built before it can be broken."
+      },
+      {
+        "label": "Interlocking guitar and bass patterns",
+        "text": "Two or three short cyclical figures lock against each other and simply do not change. Everything else happens over the top of that fixed grid."
+      },
+      {
+        "label": "Horn section as a blunt instrument",
+        "text": "Saxophones and trumpets punch out unison riffs in short bursts rather than playing melodies, used percussively in the manner of James Brown's band."
+      },
+      {
+        "label": "Call-and-response with the chorus",
+        "text": "He shouts a line in Pidgin English and a group answers it. The form comes from Yoruba tradition and makes the audience complicit — you cannot listen without joining in."
+      },
+      {
+        "label": "Military drill turned into a hook",
+        "text": "The vocal imitates the shouted commands of a parade ground — attention, fall in, double up — so the joke is legible to anyone who has ever watched soldiers march."
+      },
+      {
+        "label": "Drums and shekere layered deep",
+        "text": "A full percussion section runs underneath the kit, with shakers and congas filling every subdivision. That density is what makes a two-chord piece stay interesting for fifteen minutes."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Zombie (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Zombie_(album)"
+      },
+      {
+        "title": "Fela Kuti — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fela_Kuti"
+      },
+      {
+        "title": "Funmilayo Ransome-Kuti — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Funmilayo_Ransome-Kuti"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "James Brown",
+        "album": "Sex Machine",
+        "year": "1970",
+        "note": "The one-chord, horn-punctuated, endlessly extended funk vamp that Kuti reworked with West African rhythm underneath."
+      },
+      {
+        "artist": "Miles Davis",
+        "album": "Bitches Brew",
+        "year": "1970",
+        "note": "Long-form modal improvisation over a fixed groove, which gives the Africa '70 arrangements their jazz licence."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Talking Heads",
+        "album": "Remain in Light",
+        "year": "1980",
+        "note": "David Byrne and Brian Eno built the album explicitly on Afrobeat's interlocking cyclical parts, with Fela as the acknowledged source."
+      },
+      {
+        "artist": "Antibalas",
+        "album": "Who Is This America?",
+        "year": "2004",
+        "note": "The Brooklyn Afrobeat revival that eventually staged the Broadway musical about him works directly from these arrangements."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebe28",
+    "image": "https://i.scdn.co/image/138e88570c9c1771caf31d90e70687cce34764ea",
+    "savedAt": "2026-09-27T22:22:20.986Z"
+  },
+  "5f34ee8bf0857e55ed5ec03b": {
+    "artist": "Missy Elliott",
+    "album": "Under Construction",
+    "year": "2002",
+    "heading": "Under Construction — Missy Elliott (2002)",
+    "albumLine": "Released 12 November 2002 on the Goldmind and Elektra, produced mostly by Timbaland with Craig Brockman, Nisan Stewart, Errol \"Poppi\" McCalla Jr. and Elliott herself. It's hip-hop and R&B looking deliberately backwards at rap's early-eighties self — her fourth album, and her best-selling.",
+    "overview": [
+      "Melissa Elliott and Timothy Mosley, who produces as Timbaland, had grown up together in the Virginia Beach area and had spent the previous five years making the strangest records on American radio — stuttering, half-empty beats, unplaceable percussion, melodies that resolved nowhere. By 2002 that approach had been so widely copied that it was no longer strange. The response here was to stop pushing forward and look back instead.",
+      "There was a reason beyond restlessness. Aaliyah, Elliott's close friend and the artist she and Timbaland had largely built, died in a plane crash in August 2001; the album is dedicated to her and to the victims of the 11 September attacks. Within the following year the rapper Jam Master Jay of Run-DMC was shot dead and Lisa \"Left Eye\" Lopes of TLC died in a car crash. The album closes with a TLC duet mourning Aaliyah and Lopes, and the interludes throughout argue for hip-hop to stop feuding — an unusual thing to spend a commercial record's downtime on.",
+      "So the nostalgia has a point. Reaching for the block-party era — chants, handclaps, call-and-response, the friendly competitive energy of rap before the record industry got hold of it — is a proposal about what the culture could be, not just a costume. That it worked commercially is the surprising part: it entered the Billboard 200 at No. 3 with 259,000 copies, stayed on the chart thirty-six weeks and went double platinum.",
+      "\"Work It\" did most of that, reaching No. 2 and spending ten weeks there, selling over three million copies in America, and it owes its existence to a mistake — an engineer knocked something and a vocal line played backwards. Elliott has been plain about it: \"The reverse thing, that was a mistake.\" Timbaland heard it and refused to fix it. The album was nominated for Best Rap Album and Album of the Year at the Grammys; Metacritic gives it 81, and Rolling Stone's reviewer wrote that it \"sounds like habanero peppers, cinnamon and sweat\" and called it her best."
+    ],
+    "listeningNotes": [
+      {
+        "label": "A vocal hook played backwards",
+        "text": "The most famous sound on the record is a reversed line kept in because a studio accident produced it. It functions as a hook while being literally unintelligible."
+      },
+      {
+        "label": "Beats with the middle removed",
+        "text": "Timbaland leaves out whole frequency ranges — often there is a kick, a hi-hat and a voice and nothing else — so the space around the vocal becomes an instrument."
+      },
+      {
+        "label": "Handclaps, chants and party noise",
+        "text": "Old-school block-party devices are layered in as texture: crowd shouts, hand percussion, call-and-response, all evoking a room rather than a studio."
+      },
+      {
+        "label": "Nonsense syllables as rhythm",
+        "text": "Elliott raps in clicks, squeals and invented words as often as in sentences, using her voice as another percussion line. It's her signature technique."
+      },
+      {
+        "label": "Spoken interludes between tracks",
+        "text": "She talks to the listener in short unaccompanied segments about mourning and about rap's infighting, which frames the party material rather than interrupting it."
+      },
+      {
+        "label": "Eighties electro bass and drum machine tones",
+        "text": "Several tracks use sounds borrowed from the 808-driven records of 1982 and 1983, placed inside arrangements that are unmistakably from twenty years later."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Under Construction (Missy Elliott album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Under_Construction_(Missy_Elliott_album)"
+      },
+      {
+        "title": "Work It (Missy Elliott song) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Work_It_(Missy_Elliott_song)"
+      },
+      {
+        "title": "Under Construction — AllMusic review",
+        "url": "https://www.allmusic.com/album/under-construction-mw0000231192"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Run-DMC",
+        "album": "Run-D.M.C.",
+        "year": "1984",
+        "note": "The stripped-to-drums-and-voice early-eighties template the album is consciously reviving; Jam Master Jay's death in 2002 sharpened the tribute."
+      },
+      {
+        "artist": "Prince",
+        "album": "Sign o' the Times",
+        "year": "1987",
+        "note": "The precedent for building funk from drum machines and empty space while treating the voice as a bank of characters."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "M.I.A.",
+        "album": "Arular",
+        "year": "2005",
+        "note": "Chant-based, percussion-first, deliberately primitive-sounding pop built around a woman's voice used as rhythm."
+      },
+      {
+        "artist": "Beyoncé",
+        "album": "Lemonade",
+        "year": "2016",
+        "note": "The template of a Black woman pop auteur controlling production, concept and visual presentation as one argument."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec03b",
+    "image": "https://i.scdn.co/image/55363e126f060206b591b8bb7653a19465950b78",
+    "savedAt": "2026-09-27T22:23:29.259Z"
+  },
+  "5f34ee8bf0857e55ed5ebfc4": {
+    "artist": "Laura Nyro",
+    "album": "Eli And The Thirteenth Confession",
+    "year": "1968",
+    "heading": "Eli and the Thirteenth Confession — Laura Nyro (1968)",
+    "albumLine": "Released 3 March 1968 on Columbia, produced by Nyro with the arranger Charlie Calello and recorded in January and February that year. It's pop songwriting run through soul, gospel and jazz at once — her second album, made when she was twenty.",
+    "overview": [
+      "She was born Laura Nigro in the Bronx in 1947, to a piano-tuner and jazz trumpeter father and a bookkeeper mother, with Russian and Polish Jewish and Italian-American family behind her. She taught herself piano, wrote her first songs at eight, and grew up on her mother's Nina Simone and Billie Holiday records — which is audible in everything she does with a vowel. She changed the spelling of her surname after leaving school.",
+      "The famous story about her is that she was booed off the stage at the Monterey Pop Festival in June 1967. The story is at best unreliable. Newsweek's reviewer certainly disliked it, writing that \"the evening hit bottom\" during her \"melodramatic\" set, but recordings released since do not support the idea of a hostile crowd. What is documented is what happened next: she voided her first contracts, which she had signed as a minor, took David Geffen as manager, and with him negotiated a Columbia deal with Clive Davis that gave her control over her own records. This album is the first thing she made with that control.",
+      "What she did with it was refuse to write a song the way songs were written. Pieces change tempo, key and mood two or three times in four minutes, moving from a whisper to a gospel shout and back; Stephen Holden of the New York Times pointed to exactly this, praising her \"fiercely emotional singing\" and the songs' \"abrupt changes of tempo and style,\" and called the record \"one of the late-'60s most influential pop recordings.\" The lyrics are dense, private and full of invented compound imagery. At her insistence the original pressing's lyric sheet was scented with perfume.",
+      "It sold almost nothing — No. 181 on the Billboard 200, her first chart appearance at all — and made its money for other people. Three Dog Night took \"Eli's Comin'\" to No. 10; the 5th Dimension had a No. 3 with \"Stoned Soul Picnic\" and a No. 13 with \"Sweet Blindness.\" Her own versions stayed obscure for years and then became the reference. AllMusic, the Guardian and the Austin Chronicle all rate it five stars, Rolling Stone placed it 463rd in 2020, and the line of women writing ornate, emotionally uncontained piano songs — Kate Bush, Cyndi Lauper, Tori Amos, Alicia Keys — routinely traces back here."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Songs that change shape mid-way",
+        "text": "Tempo, key and feel shift abruptly inside a single track, sometimes more than once, with no transition offered. It is the defining habit of her writing."
+      },
+      {
+        "label": "Piano played like a rhythm section",
+        "text": "She hits the keyboard percussively, with gospel chord voicings and a left hand that functions as bass and drums, so the band follows her rather than the reverse."
+      },
+      {
+        "label": "A three-octave voice used across its whole range",
+        "text": "She drops to a murmur and jumps to a full-throated shout within a phrase, and the recording does not compress the difference away."
+      },
+      {
+        "label": "Her own voice stacked into a choir",
+        "text": "Multi-tracked harmonies — often three or four of her — answer the lead line in the manner of a gospel group, which is how a solo record ends up sounding congregational."
+      },
+      {
+        "label": "Calello's brass and string charts",
+        "text": "The arrangements borrow from Brill Building pop and from soul horn sections, punching in briefly and then vanishing rather than carpeting the track."
+      },
+      {
+        "label": "Songs running into each other",
+        "text": "Tracks are sequenced with overlaps and joins so each side plays as a continuous suite, which is part of why it resists being broken into singles."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Eli and the Thirteenth Confession — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Eli_and_the_Thirteenth_Confession"
+      },
+      {
+        "title": "Laura Nyro — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Laura_Nyro"
+      },
+      {
+        "title": "Eli and the Thirteenth Confession — AllMusic review",
+        "url": "https://www.allmusic.com/album/eli-and-the-thirteenth-confession-mw0000202297"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Nina Simone",
+        "album": "I Put a Spell on You",
+        "year": "1965",
+        "note": "One of her mother's records and her first model: piano, voice, and no fixed genre."
+      },
+      {
+        "artist": "The Ronettes",
+        "album": "Presenting the Fabulous Ronettes",
+        "year": "1964",
+        "note": "The Brill Building and girl-group vocabulary she grew up with in New York and rebuilt from the inside."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Joni Mitchell",
+        "album": "Blue",
+        "year": "1971",
+        "note": "The confessional singer-songwriter album with harmonically restless piano and unconventional song structure."
+      },
+      {
+        "artist": "Kate Bush",
+        "album": "The Kick Inside",
+        "year": "1978",
+        "note": "Bush is among the artists who cite her; the ornate, theatrical, piano-driven and emotionally unguarded style begins here."
+      },
+      {
+        "artist": "Tori Amos",
+        "album": "Little Earthquakes",
+        "year": "1992",
+        "note": "The mid-song lurch from whisper to howl, and the piano as the whole rhythm section, are direct inheritances."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebfc4",
+    "image": "https://i.scdn.co/image/c316ed2e12c8954ae9f7218ae71d05b15b4dcd68",
+    "savedAt": "2026-09-27T22:24:35.672Z"
+  },
+  "64c2d301bf167e9743ca2397": {
+    "artist": "Girls Against Boys",
+    "album": "Venus Luxure No. 1 Baby",
+    "year": "1993",
+    "heading": "Venus Luxure No. 1 Baby — Girls Against Boys (1993)",
+    "albumLine": "Released 20 August 1993 on Touch and Go, produced by Ted Niceley and recorded that February at Oz Studio in Baltimore. Eleven tracks, forty-six minutes of post-hardcore built around two bass guitars — their second album, and the one where the band became itself.",
+    "overview": [
+      "They came out of the Washington DC hardcore scene, which by the late eighties had produced a particular kind of musician: technically capable, ideologically suspicious of the music industry, and bored of playing fast. The band started in 1989 as a studio experiment between Eli Janney and Brendan Canty of Fugazi, aimed at whatever they could not do in their main bands. Scott McCloud, Johnny Temple and Alexis Fleisig — all veterans of the Dischord Records band Soulside — filled it out, Canty dropped away, and the four of them moved to New York to do it properly.",
+      "The line-up is the whole idea. Temple plays bass, Janney plays bass and sampler, McCloud plays guitar and sings, Fleisig drums. Two basses means the bottom of the record is enormous and the guitar is free to be decorative rather than structural — the opposite of how a rock band usually divides labour. It also means the songs groove, which in 1993 marked them out sharply from their peers.",
+      "That matters because of when it arrived. This is a year after \"Nevermind\" had made loud American guitar music commercially central, and the label response was to sign everything that sounded angry. Girls Against Boys were plainly not that: the record is sexual rather than anguished, cool rather than confessional, closer to a nightclub than a garage. McCloud had deliberately moved his singing away from hardcore shouting towards the Fall and the Velvet Underground — talked, insinuated, half-bored. The band's cited reference points were Joy Division, Big Black and Sonic Youth rather than anyone from Seattle.",
+      "AllMusic's Ned Raggett wrote that \"the quartet had really turned into something spectacular,\" adding that they \"kicked out the jams like nobody's business,\" and the album is where most people start with them. The major labels came for them a few years later; McCloud has said the band's reluctance \"only made the majors go more crazy for us.\" They signed to Geffen, released \"Freak*on*ica\" in 1998, and then Geffen was swallowed by Seagram and effectively shut, leaving them stranded for two years — a very ordinary end to that decade's story."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Two basses, split high and low",
+        "text": "One holds the root while the other plays melodically further up the neck, so the low end carries both rhythm and tune and the guitar becomes an extra."
+      },
+      {
+        "label": "Sampler and keyboard as atmosphere",
+        "text": "Janney drops in synth pads, organ swells and treated noise between the riffs, giving a hardcore-descended band an almost cinematic haze."
+      },
+      {
+        "label": "McCloud's half-spoken delivery",
+        "text": "He mutters, drawls and lets lines trail off rather than projecting. The lack of effort is the point, and it makes the loud parts land harder."
+      },
+      {
+        "label": "Grooves that stay put",
+        "text": "Fleisig plays tight, repetitive, almost danceable patterns instead of hardcore acceleration, so tracks build tension by refusing to change."
+      },
+      {
+        "label": "Niceley's dry, upfront production",
+        "text": "Everything is close-miked with little reverb and the bass mixed as loud as the drums — the same clarity he brought to Fugazi that year."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Venus Luxure No. 1 Baby — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Venus_Luxure_No._1_Baby"
+      },
+      {
+        "title": "Girls Against Boys — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Girls_Against_Boys"
+      },
+      {
+        "title": "Venus Luxure No. 1 Baby — AllMusic review",
+        "url": "https://www.allmusic.com/album/venus-luxure-no-1-baby-mw0000100310"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Joy Division",
+        "album": "Unknown Pleasures",
+        "year": "1979",
+        "note": "Bass-led, atmospheric, deliberately affectless — the clearest single model for what this band does with a rhythm section."
+      },
+      {
+        "artist": "Fugazi",
+        "album": "Repeater",
+        "year": "1990",
+        "note": "The DC post-hardcore scene they all came from; Brendan Canty co-founded the band and Ted Niceley produced both."
+      },
+      {
+        "artist": "The Velvet Underground",
+        "album": "White Light/White Heat",
+        "year": "1968",
+        "note": "McCloud moved his singing towards this kind of flat, insinuating, half-spoken delivery."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Queens of the Stone Age",
+        "album": "Rated R",
+        "year": "2000",
+        "note": "The repetitive, low-slung, sexualised American rock groove with a bored vocal over it shares this record's design."
+      },
+      {
+        "artist": "Interpol",
+        "album": "Turn On the Bright Lights",
+        "year": "2002",
+        "note": "New York's early-2000s post-punk revival ran on exactly this combination of prominent bass, dry drums and a deadpan baritone."
+      }
+    ],
+    "uuid": "64c2d301bf167e9743ca2397",
+    "image": "https://i.scdn.co/image/ab67616d00001e02612b67504d8a6f87b4eba867",
+    "savedAt": "2026-09-27T22:25:42.180Z"
+  },
+  "5f34ee8bf0857e55ed5ebf8e": {
+    "artist": "Björk",
+    "album": "Debut",
+    "year": "1993",
+    "heading": "Debut — Björk (1993)",
+    "albumLine": "Released 5 July 1993 on One Little Indian in Britain and Elektra in America, produced by Björk with Nellee Hooper. It's electronic pop crossed with house, trip-hop and jazz — the record that turned an Icelandic indie singer into a solo artist with no obvious peers.",
+    "overview": [
+      "The title is a small lie. She had released an album in Iceland in December 1977, aged eleven, and had fronted the Sugarcubes through the late eighties; that record is excluded from her official discography, so this counts as the first. What is true is that it was a restart. The Sugarcubes had broken up, she had moved to London, and she chose as collaborator Nellee Hooper of Soul II Soul — a dance producer, not an indie one.",
+      "That choice was the argument. Her reasoning was blunt: she felt \"house music was the only pop music that [was] truly modern\" at the time. In 1993 British guitar bands were the respectable option and dance music was widely treated as disposable, so an alternative-rock singer building an album on four-on-the-floor grooves read as a defection. She then complicated it further by importing instruments nobody was using in either camp — Talvin Singh's tabla, Corky Hale's jazz harp, saxophone arrangements by Oliver Lake — and by including a standard from 1944 sung almost straight.",
+      "The other governing decision was informality. One track was recorded live in the toilets of the Milk Bar, a London club, and left that way; the album generally prefers a take that captures something over a take that is clean. Michael Cragg later described the result as an \"indefinable conflation of electronic pop, trip-hop, world music and otherworldly lyrics,\" which is accurate and also an admission that the category does not exist.",
+      "One Little Indian had projected 40,000 copies. It sold over 600,000 in three months, reached No. 3 in Britain and No. 61 in America, and remains her best-selling record. British critics were immediate — NME made it their album of the year — while America was slower and more suspicious; Rolling Stone gave it two stars. The long consequence is that a generation of pop singers took it as permission to work with electronic producers and to sing in their own accent about odd things, and the wall between dance production and songwriting never really went back up."
+    ],
+    "listeningNotes": [
+      {
+        "label": "House beats under pop songs",
+        "text": "Straight four-on-the-floor kick patterns and club-length grooves carry material that is otherwise structured like songwriting, not like dance tracks."
+      },
+      {
+        "label": "Her voice at both extremes",
+        "text": "She moves between a small confiding murmur and a full open-throated shout, often inside one line, with the rolled consonants of Icelandic English left intact."
+      },
+      {
+        "label": "Acoustic instruments used as colour",
+        "text": "Tabla, jazz harp and saxophone appear in arrangements otherwise made of samplers and drum machines, each for a few bars and then gone."
+      },
+      {
+        "label": "A 1940s standard in the middle of it",
+        "text": "\"Like Someone in Love\" is sung over harp alone, which resets the album's register entirely and makes the surrounding electronics sound like a choice rather than a default."
+      },
+      {
+        "label": "One track recorded in a nightclub toilet",
+        "text": "It was captured live in the lavatories of the Milk Bar in London, and the boom, the tiles and the crowd noise are all audible. The lo-fi intrusion is deliberate."
+      },
+      {
+        "label": "Strings written against the beat",
+        "text": "Orchestral lines enter in sweeping phrases that cut across the programmed rhythm rather than sitting on it, a tension she went on to build whole albums from."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Debut (Björk album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Debut_(Bj%C3%B6rk_album)"
+      },
+      {
+        "title": "Björk (1977 album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bj%C3%B6rk_(album)"
+      },
+      {
+        "title": "There's More to Life Than This (Recorded Live at the Milk Bar Toilets) — Björk on Bandcamp",
+        "url": "https://bjork.bandcamp.com/track/theres-more-to-life-than-this-recorded-live-at-the-milk-bar-toilets"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Soul II Soul",
+        "album": "Club Classics Vol. One",
+        "year": "1989",
+        "note": "Nellee Hooper produced it; the warm, mid-tempo British dance production he brought is the album's spine."
+      },
+      {
+        "artist": "Kate Bush",
+        "album": "Hounds of Love",
+        "year": "1985",
+        "note": "The precedent for a woman running her own studio, singing in an unguarded and unconventional voice, and treating pop as a place for strangeness."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Portishead",
+        "album": "Dummy",
+        "year": "1994",
+        "note": "Released a year later out of the same Bristol-adjacent production world; the pairing of a singular female voice with downtempo beats and jazz instrumentation is shared ground."
+      },
+      {
+        "artist": "Radiohead",
+        "album": "Kid A",
+        "year": "2000",
+        "note": "A guitar-scene act rebuilding itself around electronic production and unresolved arrangements, following a path she opened."
+      },
+      {
+        "artist": "FKA twigs",
+        "album": "LP1",
+        "year": "2014",
+        "note": "The model of a singer as auteur, commissioning producers and visual artists to realise a wholly personal sound world."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebf8e",
+    "image": "https://i.scdn.co/image/dce7e36f8454c7c826361b506ab6c8de10d9eab1",
+    "savedAt": "2026-09-27T22:26:46.041Z"
+  },
+  "5f34ee8bf0857e55ed5ec006": {
+    "artist": "Dexys Midnight Runners",
+    "album": "Searching For The Young Soul Rebels",
+    "year": "1980",
+    "heading": "Searching for the Young Soul Rebels — Dexys Midnight Runners (1980)",
+    "albumLine": "Released 11 July 1980 on EMI, produced by Pete Wingfield in a twelve-day session at Chipping Norton Recording Studios in Oxfordshire. It's northern soul and Stax horns played with punk's aggression — their debut, and one of the strangest records ever to reach the UK top ten.",
+    "overview": [
+      "They formed in Birmingham in 1978 around Kevin Rowland, who sang and played guitar, and Kevin \"Al\" Archer, also on guitar and vocals; both had been in the punk band the Killjoys. The rest of the original group was \"Big\" Jim Paterson on trombone, Geoff \"JB\" Blythe and Steve \"Babyface\" Spooner on saxophones, Pete Saunders on keyboards, Pete Williams on bass and John Jay on drums — a brass-forward soul band, in other words, assembled by people who had just spent two years playing three-chord punk. The name comes from Dexedrine, the amphetamine that kept northern soul dancers upright all night.",
+      "Rowland ran it like a cause. Rehearsals were compulsory, alcohol and drugs were banned before shows, and the band trained by running together: \"The togetherness of running along together just gets ... that fighting spirit going.\" The look — donkey jackets, leather coats and woolly hats, borrowed from Robert De Niro in \"Mean Streets\" — was designed so that they belonged to no existing scene. When journalists turned on them, accusing them among other things of \"emotional fascism,\" Rowland stopped giving interviews and bought advertisements in the music press instead, addressing readers directly over the papers' heads.",
+      "The same conviction produced the album's best anecdote. Unhappy with a six per cent royalty, the band stole the master tapes during mixing and held them until EMI agreed to nine. One participant's recollection is unsentimental: \"Being chased by police cars up the A40 at 90 miles per hour is not my idea of fun.\" They won.",
+      "What makes the record more than a revivalist exercise is that it is about revivalism — about what it means for young white men in a collapsing industrial England to take Black American soul as a moral position rather than a style. 1980 was the year of mass unemployment, the National Front and Two Tone, and this album sits alongside the Specials as the other great argument that the answer was in sixties soul. \"Geno\" — a tribute to Geno Washington, a soul singer who had worked British clubs — went to No. 1; \"There, There, My Dear\" reached No. 7; the album made No. 6 and went silver. NME called it the tenth-best album of the year and later placed it 16th among the hundred greatest British albums ever."
+    ],
+    "listeningNotes": [
+      {
+        "label": "A horn section instead of lead guitar",
+        "text": "Trombone and two saxophones carry the riffs and the hooks, punching in unison lines where a rock band would put a guitar solo. It's the single most distinctive thing about the album."
+      },
+      {
+        "label": "Rowland's strangled vocal",
+        "text": "He sings in a high, cracking, almost yelping tenor that constantly threatens to break, and audibly strains for notes rather than reaching them comfortably. The effort is the emotion."
+      },
+      {
+        "label": "Punk tempos on soul arrangements",
+        "text": "The rhythm section plays faster and harder than any sixties soul band would, so Motown and Stax figures arrive with the urgency of 1977."
+      },
+      {
+        "label": "Radio tuning as an opening",
+        "text": "The album begins with someone dialling across stations and rejecting them, which states the argument — that nothing currently on the air will do — before a note is played."
+      },
+      {
+        "label": "Slower, bluesier stretches",
+        "text": "Between the up-tempo tracks are downbeat, jazz-tinged pieces with sparse organ and brushed drums, which is what gives a forty-minute horn record its shape."
+      },
+      {
+        "label": "Wingfield's dry, live-band production",
+        "text": "Twelve days meant recording largely as an ensemble with little overdubbing, so the brass breathes and the mistakes stay. It sounds like a room, not a mix."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Searching for the Young Soul Rebels — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Searching_for_the_Young_Soul_Rebels"
+      },
+      {
+        "title": "Dexys Midnight Runners — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dexys_Midnight_Runners"
+      },
+      {
+        "title": "Geno (song) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Geno_(song)"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Otis Redding",
+        "album": "Otis Blue: Otis Redding Sings Soul",
+        "year": "1965",
+        "note": "The Stax horn-section template and the model of a singer whose strain and effort are the point."
+      },
+      {
+        "artist": "The Sex Pistols",
+        "album": "Never Mind the Bollocks, Here's the Sex Pistols",
+        "year": "1977",
+        "note": "Rowland and Archer came out of punk, and the tempos, confrontation and press hostility all come from there."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The Pogues",
+        "album": "Rum Sodomy & the Lash",
+        "year": "1985",
+        "note": "The idea of a British band playing an older, rougher popular music with punk's attack and a leader who sings badly on purpose."
+      },
+      {
+        "artist": "Amy Winehouse",
+        "album": "Back to Black",
+        "year": "2006",
+        "note": "British soul revivalism treated as sincere inheritance rather than pastiche, with a full horn section behind a singular voice."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec006",
+    "image": "https://i.scdn.co/image/1f68fe8555e66ac3601c0463e408be2411e7cc4c",
+    "savedAt": "2026-09-27T22:32:01.246Z"
   }
 }
