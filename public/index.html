@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sleeve Atlas</title>
+<link rel="icon" href="data:," />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&family=Archivo:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="masthead">
+    <p class="micro">no. 1001 &middot; one album a day</p>
+    <h1>sleeve atlas</h1>
+    <p class="tagline">notes &middot; personnel &middot; lineage</p>
+  </div>
+
+  <nav class="view-tabs">
+    <button class="tab-btn is-active" data-view="list">your list</button>
+    <button class="tab-btn" data-view="map">music map</button>
+  </nav>
+</header>
+<div class="rule-stack" aria-hidden="true"><span></span><span></span><span></span></div>
+
+<main>
+
+  <section id="setup-panel" class="panel">
+    <label for="share-id-input">your share id or url</label>
+    <div class="setup-row">
+      <input id="share-id-input" type="text" placeholder="emsh &mdash; or paste your whole generator url" />
+      <button id="load-project-btn">load albums</button>
+    </div>
+    <p class="hint">Your project name works on its own, or paste the full link — either 1001albumsgenerator.com/&lt;name&gt; or a /shares/ URL.</p>
+  </section>
+
+  <section id="list-view" class="view is-active">
+    <div id="today-pick" class="today-pick" hidden></div>
+
+    <div class="search-bar" id="search-bar" hidden>
+      <input id="search-input" type="search" placeholder="search by album, artist, year or genre&hellip;" autocomplete="off" />
+      <button id="search-clear" class="search-clear" aria-label="Clear search">&times;</button>
+      <span class="search-count" id="search-count"></span>
+      <button class="project-chip" id="project-chip" hidden></button>
+    </div>
+
+    <div id="album-grid" class="album-grid"></div>
+    <p id="list-empty-state" class="empty-state">enter your share id above to pull in your history.</p>
+  </section>
+
+  <section id="map-view" class="view">
+    <div class="map-toolbar">
+      <p>Every album with notes links outward to the records that shaped it, and onward to what it went on to influence.</p>
+      <button id="refresh-graph-btn">refresh map</button>
+    </div>
+    <div id="graph-canvas"></div>
+    <p id="map-empty-state" class="empty-state">no notes written yet &mdash; the map fills in as albums get written up.</p>
+  </section>
+
+</main>
+
+<div id="album-modal" class="modal-overlay" hidden>
+  <div class="modal-card">
+    <button id="modal-close-btn" class="modal-close" aria-label="Close">&times;</button>
+    <div class="modal-body">
+      <div class="modal-art">
+        <img id="modal-cover" src="" alt="" />
+      </div>
+      <div class="modal-content">
+        <p class="modal-eyebrow" id="modal-year-genre"></p>
+        <h2 id="modal-title"></h2>
+        <p class="modal-artist" id="modal-artist"></p>
+        <div class="modal-rating" id="modal-rating"></div>
+        <div class="score-row" id="score-row"></div>
+
+        <blockquote class="modal-review" id="modal-review" hidden></blockquote>
+
+        <div class="listen-row">
+          <a id="spotify-link" class="listen-btn" href="#" target="_blank" rel="noopener noreferrer">open in spotify</a>
+          <a id="wiki-link" class="listen-btn listen-btn--ghost" href="#" target="_blank" rel="noopener noreferrer">wikipedia</a>
+        </div>
+
+        <div class="reviews-block">
+          <div class="review-tabs">
+            <button class="rev-tab is-active" data-rev="group" id="rev-tab-group">your group</button>
+            <button class="rev-tab" data-rev="global">everyone</button>
+          </div>
+          <div class="rev-panel" id="rev-panel-group"></div>
+          <div class="rev-panel" id="rev-panel-global" hidden></div>
+        </div>
+
+        <div id="insight-loading" class="insight-block" hidden>
+          <p class="loading-text">loading the notes&hellip;</p>
+        </div>
+
+        <div id="insight-empty" class="insight-block" hidden>
+          <p class="loading-text">no notes written for this album yet</p>
+        </div>
+
+        <div id="insight-loaded" class="insight-block" hidden>
+          <section class="insight-section">
+            <h3>the album</h3>
+            <p id="insight-album-line"></p>
+          </section>
+          <section class="insight-section">
+            <h3>overview</h3>
+            <div id="insight-overview"></div>
+          </section>
+          <section class="insight-section">
+            <h3>listening notes</h3>
+            <ul id="insight-listening" class="bullet-list"></ul>
+          </section>
+          <section class="insight-section">
+            <h3>laid the ground</h3>
+            <ul id="insight-influenced-by" class="lineage-list"></ul>
+          </section>
+          <section class="insight-section">
+            <h3>went on to influence</h3>
+            <ul id="insight-influenced" class="lineage-list"></ul>
+          </section>
+          <section class="insight-section">
+            <h3>sources</h3>
+            <ul id="insight-sources" class="source-list"></ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script src="app.js"></script>
+<script src="graph.js"></script>
+</body>
+</html>
