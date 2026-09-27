@@ -699,7 +699,10 @@ function openModal(album, entry) {
   currentEntry = entry || null;
 
   if (album.spotifyId) {
-    spotifyLink.href = `https://open.spotify.com/album/${album.spotifyId}`;
+    // spotify: URI hands off to the desktop app rather than the web player.
+    // No target="_blank" — a custom protocol there just leaves a blank tab.
+    spotifyLink.href = `spotify:album:${album.spotifyId}`;
+    spotifyLink.removeAttribute("target");
     spotifyLink.hidden = false;
   } else {
     spotifyLink.hidden = true;
