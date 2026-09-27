@@ -31,25 +31,67 @@ app.use(express.static(dist));
 // Pages (read-only), instead of guessing from the hostname.
 app.get("/api/capabilities", (_req, res) => res.json({ canRate: true }));
 
-app.post("/api/rate", async (req, res) => {
-  const { projectName, albumId, rating, notes, generatedAlbumId, fromHistoryView } = req.body || {};
-  if (!projectName || !albumId || rating == null) {
-    return res.status(400).json({ error: true, message: "projectName, albumId and rating are required" });
+// The generator has three separate write endpoints, and which one applies
+// depends entirely on the album's state. Posting to the wrong one just returns
+// `{success:false}` with an errorCode, which is what made this look broken:
+//
+//   /rate            rate an album that is NOT yet rated (from the history view)
+//   /notes           edit the review on a history album — refuses once rated
+//   /listening-note  notes on the CURRENT album, before it has a rating at all
+//
+// Ratings are one-way: once an album has one, both /rate and /notes answer
+// `already-rated` and there is no API route that overwrites it.
+const WRITES = {
+  rate: {
+    path: "rate",
+    body: ({ rating, notes, generatedAlbumId, fromHistoryView }) => ({
+      rating,
+      notes: notes || "",
+      fromHistoryView: Boolean(fromHistoryView),
+      generatedAlbumId: generatedAlbumId || undefined,
+      isUserAlbum: false,
+    }),
+  },
+  notes: {
+    path: "notes",
+    body: ({ notes, generatedAlbumId }) => ({
+      notes: notes || "",
+      generatedAlbumId: generatedAlbumId || undefined,
+      isUserAlbum: false,
+    }),
+  },
+  "listening-note": {
+    path: "listening-note",
+    body: ({ notes }) => ({ notes: notes || "", isUserAlbum: false }),
+  },
+};
+
+// Upstream error codes, in words that say what the user can do about it.
+const REASONS = {
+  "already-rated": "1001 locks the rating and review once an album has been rated — there's no API route that changes it.",
+  "old-session-error": "1001 says that isn't your current album any more. Refresh and try again.",
+  "listened-not-found": "1001 has no listen recorded for this album yet.",
+};
+
+app.post("/api/write/:kind", async (req, res) => {
+  const write = WRITES[req.params.kind];
+  if (!write) return res.status(404).json({ error: true, message: `unknown write "${req.params.kind}"` });
+
+  const { projectName, albumId } = req.body || {};
+  if (!projectName || !albumId) {
+    return res.status(400).json({ error: true, message: "projectName and albumId are required" });
+  }
+  if (req.params.kind === "rate" && req.body.rating == null) {
+    return res.status(400).json({ error: true, message: "rating is required" });
   }
 
   try {
     const upstream = await fetch(
-      `https://1001albumsgenerator.com/api/${encodeURIComponent(projectName)}/${encodeURIComponent(albumId)}/rate`,
+      `https://1001albumsgenerator.com/api/${encodeURIComponent(projectName)}/${encodeURIComponent(albumId)}/${write.path}`,
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          rating,
-          notes: notes || "",
-          fromHistoryView: Boolean(fromHistoryView),
-          generatedAlbumId: generatedAlbumId || undefined,
-          isUserAlbum: false,
-        }),
+        body: JSON.stringify(write.body(req.body)),
       }
     );
 
@@ -62,7 +104,13 @@ app.post("/api/rate", async (req, res) => {
     }
 
     if (!data.success) {
-      return res.status(502).json({ error: true, message: "the generator rejected that", detail: data });
+      const code = data.errorCode || "";
+      return res.status(502).json({
+        error: true,
+        code,
+        message: REASONS[code] || (code ? `1001 said: ${code}` : "1001 rejected that, without saying why."),
+        detail: data,
+      });
     }
     res.json({ ok: true, detail: data });
   } catch (err) {

@@ -683,6 +683,15 @@ main {
   color: var(--ink-2);
 }
 
+/* upstream refusals are sentences, not status words — let them wrap and read */
+.rate-status.is-error {
+  color: var(--rate-low, #a8412c);
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.72rem;
+  line-height: 1.4;
+}
+
 /* ---------- Listen links ---------- */
 
 .listen-row { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.7rem; }

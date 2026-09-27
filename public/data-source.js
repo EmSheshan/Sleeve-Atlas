@@ -49,14 +49,20 @@ window.Data = {
     return canRatePromise;
   },
 
-  async rate({ projectName, albumId, rating, notes, generatedAlbumId, fromHistoryView }) {
-    const res = await fetch("api/rate", {
+  // `kind` picks the upstream endpoint — see the WRITES table in server/index.js.
+  // Which one applies depends on the album's state, so the caller decides.
+  async write(kind, payload) {
+    const res = await fetch(`api/write/${kind}`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ projectName, albumId, rating, notes, generatedAlbumId, fromHistoryView }),
+      body: JSON.stringify(payload),
     });
     const data = await res.json().catch(() => ({}));
-    if (!res.ok) throw new Error(data.message || `rating failed (${res.status})`);
+    if (!res.ok) {
+      const err = new Error(data.message || `write failed (${res.status})`);
+      err.code = data.code || "";
+      throw err;
+    }
     return data;
   },
 

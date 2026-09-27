@@ -336,6 +336,10 @@ async function loadProject(shareId) {
       name: data.name || null,
       groupSlug: data.group?.slug || null,
       groupName: null,
+      // today's album is the only one the generator still accepts writes for,
+      // so the write panel needs to know which uuid that is
+      currentAlbumUuid: data.currentAlbum?.uuid || null,
+      currentAlbumNotes: data.currentAlbumNotes || "",
     };
     // the setup box is a one-time action, so fold it down to a chip once loaded
     setupPanel.hidden = true;
@@ -486,40 +490,83 @@ rateStarsEl.addEventListener("click", (e) => {
   rateStatus.textContent = "";
 });
 
+// What the generator will actually accept for this album. Anything else is a
+// guaranteed `{success:false}`, so the panel doesn't offer it.
+//
+//   "listening-note"  today's album — notes only; it has no rating slot until
+//                     the next album is generated
+//   "rate"            in history and still unrated — rating + review together
+//   null              already rated, and 1001 has no route that changes it
+function writeModeFor(album, entry) {
+  if (entry && entry.rating != null) return null;
+  if (entry) return "rate";
+  if (album.uuid && album.uuid === projectContext.currentAlbumUuid) return "listening-note";
+  return null;
+}
+
+let writeMode = null;
+
 async function setUpRating(album, entry) {
-  pendingRating = entry?.rating ?? null;
-  rateNotesEl.value = entry?.review || "";
+  writeMode = writeModeFor(album, entry);
   rateStatus.textContent = "";
+  rateStatus.classList.remove("is-error");
+
+  if (!writeMode || !(await Data.canRate())) {
+    rateBlock.hidden = true;
+    return;
+  }
+  rateBlock.hidden = false;
+
+  const notesOnly = writeMode === "listening-note";
+  pendingRating = notesOnly ? null : entry?.rating ?? null;
+  rateNotesEl.value = notesOnly ? projectContext.currentAlbumNotes : entry?.review || "";
+  rateStarsEl.hidden = notesOnly;
   renderRateStars();
 
-  // only offer it where it can actually work, and only for unrated records
-  const alreadyRated = entry && entry.rating != null;
-  rateTitle.textContent = alreadyRated ? "change your rating" : "rate this one";
-  rateSubmitBtn.textContent = alreadyRated ? "update on 1001" : "post to 1001";
-  rateBlock.hidden = !(await Data.canRate());
+  rateTitle.textContent = notesOnly ? "listening notes" : "rate this one";
+  rateNotesEl.placeholder = notesOnly
+    ? "notes on today's album — you rate it once the next one lands"
+    : "a few words on it (optional)";
+  rateSubmitBtn.textContent = notesOnly ? "save notes to 1001" : "post to 1001";
 }
 
 rateSubmitBtn.addEventListener("click", async () => {
-  if (!currentAlbum || !projectContext.name) return;
-  if (!pendingRating) {
+  if (!currentAlbum || !projectContext.name || !writeMode) return;
+
+  const notesOnly = writeMode === "listening-note";
+  if (!notesOnly && !pendingRating) {
     rateStatus.textContent = "pick a rating first";
     return;
   }
-  if (!confirm(`Post ${pendingRating}/5 to your public 1001 profile as ${projectContext.name}?`)) return;
+  if (notesOnly && !rateNotesEl.value.trim()) {
+    rateStatus.textContent = "write something first";
+    return;
+  }
+
+  const what = notesOnly
+    ? `Save these notes to your public 1001 profile as ${projectContext.name}?`
+    : `Post ${pendingRating}/5 to your public 1001 profile as ${projectContext.name}? 1001 won't let you change it afterwards.`;
+  if (!confirm(what)) return;
 
   rateSubmitBtn.disabled = true;
-  rateStatus.textContent = "posting…";
+  rateStatus.classList.remove("is-error");
+  rateStatus.textContent = notesOnly ? "saving…" : "posting…";
   try {
-    await Data.rate({
+    await Data.write(writeMode, {
       projectName: projectContext.name,
       albumId: currentAlbum.uuid,
-      rating: pendingRating,
+      rating: notesOnly ? undefined : pendingRating,
       notes: rateNotesEl.value,
       generatedAlbumId: currentEntry?.generatedAlbumId || null,
       fromHistoryView: Boolean(currentEntry),
     });
 
-    rateStatus.textContent = "posted";
+    rateStatus.textContent = notesOnly ? "saved" : "posted";
+    if (notesOnly) {
+      projectContext.currentAlbumNotes = rateNotesEl.value;
+      return;
+    }
+
     if (currentEntry) {
       currentEntry.rating = pendingRating;
       currentEntry.review = rateNotesEl.value;
@@ -528,10 +575,14 @@ rateSubmitBtn.addEventListener("click", async () => {
     renderScoreRow(currentScores);
     modalRating.innerHTML = `<span class="stars" style="color: ${ratingColor(pendingRating)}">${starString(pendingRating)}</span>`;
     loadGroupReviews(currentAlbum);
+    // the rating is now locked upstream, so stop offering a write
+    writeMode = null;
+    rateSubmitBtn.disabled = true;
   } catch (err) {
     rateStatus.textContent = err.message;
+    rateStatus.classList.add("is-error");
   } finally {
-    rateSubmitBtn.disabled = false;
+    if (writeMode) rateSubmitBtn.disabled = false;
   }
 });
 
