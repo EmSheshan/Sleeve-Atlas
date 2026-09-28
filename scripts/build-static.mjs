@@ -44,6 +44,10 @@ async function build() {
     if (a.id) stats[a.id] = entry;
     stats[`${a.artist || ""}::${a.name || ""}`.toLowerCase().replace(/\s+/g, " ").trim()] = entry;
   }
+  // how many albums are in the pool at all, for the "% complete" figure. Kept
+  // as a reserved key rather than a wrapper object so album lookups still index
+  // straight into this table; no album key can collide with it.
+  stats.__total = albums.length;
   await writeFile(
     path.join(dist, "data", "album-stats.json"),
     JSON.stringify(stats),

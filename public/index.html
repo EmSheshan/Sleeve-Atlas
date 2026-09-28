@@ -21,6 +21,7 @@
   <div class="header-right">
     <nav class="view-tabs">
       <button class="tab-btn is-active" data-view="list">your list</button>
+      <button class="tab-btn" data-view="stats">stats</button>
       <button class="tab-btn" data-view="map">music map</button>
     </nav>
     <button id="account-btn" class="account-btn">sign in</button>
@@ -41,6 +42,67 @@
 
     <div id="album-grid" class="album-grid"></div>
     <p id="list-empty-state" class="empty-state">sign in to pull in your history &mdash; or head to the music map, which needs no account.</p>
+  </section>
+
+  <section id="stats-view" class="view">
+    <p id="stats-empty-state" class="empty-state">sign in to see your stats.</p>
+
+    <div id="stats-body" hidden>
+      <div class="hero-row">
+        <div class="hero-cell"><p class="hero-num" id="hero-rated"></p><p class="hero-label">albums rated</p></div>
+        <div class="hero-cell"><p class="hero-num" id="hero-avg"></p><p class="hero-label">average rating</p></div>
+        <div class="hero-cell"><p class="hero-num" id="hero-pct"></p><p class="hero-label">complete</p></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar"><span id="progress-fill"></span></div>
+        <p class="progress-caption" id="progress-caption"></p>
+      </div>
+
+      <div class="stats-grid">
+        <article class="stat-card">
+          <h3>ratings</h3>
+          <ul class="bar-list" id="rating-bars"></ul>
+        </article>
+
+        <article class="stat-card">
+          <h3>decades</h3>
+          <ul class="bar-list" id="decade-bars"></ul>
+        </article>
+
+        <article class="stat-card">
+          <h3>genres</h3>
+          <ul class="bar-list" id="genre-bars"></ul>
+        </article>
+      </div>
+
+      <div class="stats-grid stats-grid--two">
+        <article class="stat-card">
+          <h3>you love more than most</h3>
+          <p class="stat-blurb">Where your rating runs furthest ahead of the global average.</p>
+          <div class="diff-table" id="love-more"></div>
+        </article>
+
+        <article class="stat-card">
+          <h3>you love less than most</h3>
+          <p class="stat-blurb">Where everyone else is more forgiving than you are.</p>
+          <div class="diff-table" id="love-less"></div>
+        </article>
+      </div>
+
+      <div class="stats-grid stats-grid--two">
+        <article class="stat-card">
+          <h3>favourite artists</h3>
+          <p class="stat-blurb">Artists with two or more rated albums, best average first. Tap one to see their records.</p>
+          <div class="artist-table" id="artists-top"></div>
+        </article>
+
+        <article class="stat-card">
+          <h3>least favourite artists</h3>
+          <p class="stat-blurb">Same list, worst average first.</p>
+          <div class="artist-table" id="artists-bottom"></div>
+        </article>
+      </div>
+    </div>
   </section>
 
   <section id="map-view" class="view">

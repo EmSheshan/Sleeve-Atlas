@@ -125,6 +125,12 @@ window.Data = {
     );
   },
 
+  // total albums in the generator's pool — the denominator for "% complete"
+  async poolSize() {
+    const index = await statsIndex();
+    return index.__total || 0;
+  },
+
   async insight(uuid) {
     const all = await allInsights();
     return all[uuid] || null;

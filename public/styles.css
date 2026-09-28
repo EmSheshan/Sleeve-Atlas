@@ -1016,6 +1016,207 @@ main {
   overflow: hidden;
 }
 
+/* ---------- Stats page ---------- */
+
+.hero-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 1.5rem;
+  background: var(--paper-3);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 2rem 2.1rem;
+}
+
+.hero-cell { min-width: 0; }
+
+.hero-num {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(2.6rem, 6vw, 4.1rem);
+  line-height: 0.9;
+  letter-spacing: -0.055em;
+  margin: 0;
+  color: var(--ink);
+}
+
+.hero-label {
+  margin: 0.6rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  color: var(--ink-3);
+}
+
+.progress { margin: 1.1rem 0 2.5rem; }
+
+.progress-bar {
+  height: 12px;
+  background: var(--paper-2);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.progress-bar span {
+  display: block;
+  height: 100%;
+  background: var(--orange);
+  border-radius: 99px;
+  transition: width 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.progress-caption {
+  margin: 0.6rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-3);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.stats-grid--two { grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); }
+
+/* bar lists — ratings, decades, genres */
+
+.bar-list { list-style: none; margin: 0; padding: 0; }
+
+.bar-list li {
+  display: grid;
+  grid-template-columns: 5.4rem 1fr 2rem 2.6rem;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.34rem 0;
+}
+
+.bar-key {
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bar-track { background: var(--paper-2); border-radius: 99px; height: 9px; overflow: hidden; }
+.bar-fill { display: block; height: 100%; border-radius: 99px; transition: width 0.6s ease; }
+
+.bar-n, .bar-avg {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  text-align: right;
+  color: var(--ink-3);
+}
+
+.bar-avg { font-weight: 700; }
+
+/* diff and artist tables */
+
+.diff-table table, .artist-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.diff-table th, .artist-table th {
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  color: var(--ink-3);
+  text-align: right;
+  padding: 0 0 0.5rem;
+  border-bottom: 1.5px solid var(--edge-2);
+}
+
+.diff-table th:first-child, .artist-table th:first-child { text-align: left; }
+
+.diff-table td, .artist-table td {
+  padding: 0.55rem 0;
+  border-bottom: 1.5px solid var(--edge);
+  vertical-align: middle;
+}
+
+.diff-table tbody tr { cursor: pointer; }
+.diff-table tbody tr:hover .dt-album { color: var(--brick); }
+
+.dt-album {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.9rem;
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+  line-height: 1.15;
+  transition: color 0.2s ease;
+}
+
+.dt-artist {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--ink-3);
+  margin-top: 0.15rem;
+}
+
+.dt-num {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  text-align: right;
+  white-space: nowrap;
+  width: 3.4rem;
+}
+
+.dt-diff { font-weight: 700; }
+.dt-diff.is-up { color: var(--forest); }
+.dt-diff.is-down { color: var(--brick); }
+
+.artist-row { cursor: pointer; }
+.artist-row:hover .at-name, .artist-row:focus-visible .at-name { color: var(--brick); }
+
+.at-name {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+  transition: color 0.2s ease;
+}
+
+.artist-albums td { padding: 0.2rem 0 0.7rem; border-bottom: 1.5px solid var(--edge); }
+
+.artist-album {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background: none;
+  border: 0;
+  border-radius: 3px;
+  padding: 0.32rem 0.45rem;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  color: var(--ink-2);
+  text-align: left;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.artist-album:hover { background: var(--paper-2); color: var(--ink); }
+.artist-album .stars { font-size: 0.72rem; white-space: nowrap; }
+
 /* ---------- Map statistics ---------- */
 
 .map-stats {

@@ -70,6 +70,7 @@ function starString(rating) {
   return "★".repeat(full) + "☆".repeat(5 - full);
 }
 
+
 // --- Dominant-colour sampling, so each sleeve's accent plate matches the art ---
 
 // 96 is deliberate: coarser grids average thin vivid details (a red album title
@@ -419,6 +420,7 @@ signOutBtn.addEventListener("click", () => {
   listEmptyState.hidden = false;
   listEmptyState.textContent =
     "sign in to pull in your history — or head to the music map, which needs no account.";
+  renderStatsView();
   setSignedOut();
   closeAccount();
 });
@@ -434,6 +436,228 @@ loadBtn.addEventListener("click", () => {
 
 shareInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") loadBtn.click();
+});
+
+// --- Stats ---
+
+const statsEmptyState = document.getElementById("stats-empty-state");
+const statsBody = document.getElementById("stats-body");
+
+const pct = (n, d) => (d ? (n / d) * 100 : 0);
+
+function tally(entries, keyFn) {
+  const m = new Map();
+  for (const e of entries) {
+    for (const k of [].concat(keyFn(e))) {
+      if (!k) continue;
+      const cur = m.get(k) || { n: 0, sum: 0 };
+      cur.n++;
+      cur.sum += e.rating;
+      m.set(k, cur);
+    }
+  }
+  return [...m].map(([k, v]) => ({ key: k, n: v.n, avg: v.sum / v.n }));
+}
+
+// Bars are scaled against the largest row, not the total: rock covers 174 of
+// 269 albums, so a share-of-total scale would flatten everything else to a
+// sliver.
+function barRows(rows, { max, colour }) {
+  return rows
+    .map(
+      (r) => `
+      <li>
+        <span class="bar-key">${escapeHtml(r.label)}</span>
+        <span class="bar-track"><span class="bar-fill" style="width:${pct(r.n, max)}%; background:${colour(r)}"></span></span>
+        <span class="bar-n">${r.n}</span>
+        <span class="bar-avg" style="color:${r.note ? "var(--ink-3)" : ratingColor(r.avg)}">${
+          r.note ?? r.avg.toFixed(2)
+        }</span>
+      </li>`
+    )
+    .join("");
+}
+
+function diffTable(rows) {
+  if (!rows.length) return `<p class="stat-none">nothing to compare yet</p>`;
+  return `
+    <table>
+      <thead><tr><th>album</th><th>you</th><th>global</th><th>diff</th></tr></thead>
+      <tbody>
+        ${rows
+          .map(
+            (r) => `
+          <tr data-uuid="${escapeHtml(r.uuid)}">
+            <td>
+              <span class="dt-album">${escapeHtml(r.name)}</span>
+              <span class="dt-artist">${escapeHtml(r.artist)}</span>
+            </td>
+            <td class="dt-num" style="color:${ratingColor(r.you)}">${r.you}</td>
+            <td class="dt-num">${r.global.toFixed(2)}</td>
+            <td class="dt-num dt-diff ${r.diff >= 0 ? "is-up" : "is-down"}">${r.diff >= 0 ? "+" : ""}${r.diff.toFixed(2)}</td>
+          </tr>`
+          )
+          .join("")}
+      </tbody>
+    </table>`;
+}
+
+function artistTable(rows) {
+  if (!rows.length) return `<p class="stat-none">no artist has two rated albums yet</p>`;
+  return `
+    <table>
+      <thead><tr><th>artist</th><th>albums</th><th>average</th></tr></thead>
+      <tbody>
+        ${rows
+          .map(
+            (r) => `
+          <tr class="artist-row" data-artist="${escapeHtml(r.key)}" tabindex="0" role="button" aria-expanded="false">
+            <td><span class="at-name">${escapeHtml(r.key)}</span></td>
+            <td class="dt-num">${r.n}</td>
+            <td class="dt-num" style="color:${ratingColor(r.avg)}">${r.avg.toFixed(2)}</td>
+          </tr>
+          <tr class="artist-albums" hidden><td colspan="3"></td></tr>`
+          )
+          .join("")}
+      </tbody>
+    </table>`;
+}
+
+async function renderStatsView() {
+  const rated = allEntries.filter((e) => e.rating != null);
+  if (!rated.length) {
+    statsBody.hidden = true;
+    statsEmptyState.hidden = false;
+    statsEmptyState.textContent = projectContext.name
+      ? "nothing rated yet on this project."
+      : "sign in to see your stats.";
+    return;
+  }
+  statsEmptyState.hidden = true;
+  statsBody.hidden = false;
+
+  const total = (await Data.poolSize()) || rated.length;
+  const avg = rated.reduce((s, e) => s + e.rating, 0) / rated.length;
+  const done = pct(rated.length, total);
+
+  document.getElementById("hero-rated").textContent = rated.length;
+  document.getElementById("hero-avg").textContent = avg.toFixed(2);
+  document.getElementById("hero-avg").style.color = ratingColor(avg);
+  // floored, not rounded — a progress figure shouldn't claim a percent you
+  // haven't finished, and shouldn't read 100% until it actually is
+  document.getElementById("hero-pct").textContent = `${Math.floor(done)}%`;
+  document.getElementById("progress-fill").style.width = `${done}%`;
+  document.getElementById("progress-caption").textContent =
+    `${(total - rated.length).toLocaleString()} of ${total.toLocaleString()} still to go`;
+
+  // ratings — fixed 1..5 so an unused rating still shows as an empty row
+  // the trailing column carries share-of-total here; printing the star value
+  // back as an "average" would just restate the label
+  const hist = [5, 4, 3, 2, 1].map((star) => {
+    const n = rated.filter((e) => e.rating === star).length;
+    return {
+      label: `${star} star${star > 1 ? "s" : ""}`,
+      n,
+      avg: star,
+      note: `${Math.round(pct(n, rated.length))}%`,
+    };
+  });
+  document.getElementById("rating-bars").innerHTML = barRows(hist, {
+    max: Math.max(...hist.map((h) => h.n), 1),
+    colour: (r) => ratingColor(r.avg),
+  });
+
+  const decades = tally(rated, (e) => {
+    const y = parseInt(e.album.releaseDate, 10);
+    return y ? `${Math.floor(y / 10) * 10}s` : null;
+  }).sort((a, b) => a.key.localeCompare(b.key));
+  document.getElementById("decade-bars").innerHTML = barRows(
+    decades.map((d) => ({ ...d, label: d.key })),
+    { max: Math.max(...decades.map((d) => d.n), 1), colour: (r) => ratingColor(r.avg) }
+  );
+
+  const genres = tally(rated, (e) => e.album.genres || [])
+    .sort((a, b) => b.n - a.n)
+    .slice(0, 10);
+  document.getElementById("genre-bars").innerHTML = barRows(
+    genres.map((g) => ({ ...g, label: g.key.replace(/-/g, " ") })),
+    { max: Math.max(...genres.map((g) => g.n), 1), colour: (r) => ratingColor(r.avg) }
+  );
+
+  // your rating against everyone else's
+  const diffs = rated
+    .filter((e) => e.globalRating != null)
+    .map((e) => ({
+      uuid: e.album.uuid,
+      name: e.album.name,
+      artist: e.album.artist,
+      you: e.rating,
+      global: e.globalRating,
+      diff: e.rating - e.globalRating,
+    }));
+  const byDiff = diffs.slice().sort((a, b) => b.diff - a.diff);
+  document.getElementById("love-more").innerHTML = diffTable(byDiff.slice(0, 10));
+  document.getElementById("love-less").innerHTML = diffTable(byDiff.slice(-10).reverse());
+
+  // artists need more than one album before an average says anything
+  const artists = tally(rated, (e) => e.album.artist).filter((a) => a.n >= 2);
+  const best = artists.slice().sort((a, b) => b.avg - a.avg || b.n - a.n || a.key.localeCompare(b.key));
+  document.getElementById("artists-top").innerHTML = artistTable(best.slice(0, 8));
+  document.getElementById("artists-bottom").innerHTML = artistTable(
+    best.slice().reverse().slice(0, 8)
+  );
+}
+
+// open the album sheet from any stats table row carrying a uuid
+statsBody.addEventListener("click", (e) => {
+  const row = e.target.closest("tr[data-uuid]");
+  if (!row) return;
+  const entry = allEntries.find((x) => x.album.uuid === row.dataset.uuid);
+  if (entry) openModal(entry.album, entry);
+});
+
+function toggleArtist(row) {
+  const panel = row.nextElementSibling;
+  if (!panel || !panel.classList.contains("artist-albums")) return;
+  const open = !panel.hidden;
+  if (open) {
+    panel.hidden = true;
+    row.setAttribute("aria-expanded", "false");
+    return;
+  }
+  const albums = allEntries
+    .filter((x) => x.album.artist === row.dataset.artist && x.rating != null)
+    .sort((a, b) => b.rating - a.rating);
+  panel.querySelector("td").innerHTML = albums
+    .map(
+      (x) => `
+      <button class="artist-album" data-uuid="${escapeHtml(x.album.uuid)}">
+        <span>${escapeHtml(x.album.name)}</span>
+        <span class="stars" style="color:${ratingColor(x.rating)}">${starString(x.rating)}</span>
+      </button>`
+    )
+    .join("");
+  panel.hidden = false;
+  row.setAttribute("aria-expanded", "true");
+}
+
+statsBody.addEventListener("click", (e) => {
+  const btn = e.target.closest(".artist-album");
+  if (btn) {
+    const entry = allEntries.find((x) => x.album.uuid === btn.dataset.uuid);
+    if (entry) openModal(entry.album, entry);
+    return;
+  }
+  const row = e.target.closest(".artist-row");
+  if (row) toggleArtist(row);
+});
+
+statsBody.addEventListener("keydown", (e) => {
+  if (e.key !== "Enter" && e.key !== " ") return;
+  const row = e.target.closest(".artist-row");
+  if (!row) return;
+  e.preventDefault();
+  toggleArtist(row);
 });
 
 // --- Search ---
@@ -984,6 +1208,9 @@ document.querySelectorAll(".tab-btn").forEach((btn) => {
     btn.classList.add("is-active");
     document.getElementById(`${btn.dataset.view}-view`).classList.add("is-active");
     if (btn.dataset.view === "map" && window.renderGraph) window.renderGraph();
+    // recomputed on each visit rather than cached — a rating posted from the
+    // album sheet should be reflected the moment you come back here
+    if (btn.dataset.view === "stats") renderStatsView();
   });
 });
 
