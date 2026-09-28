@@ -459,16 +459,22 @@ function tally(entries, keyFn) {
   return [...m].map(([k, v]) => ({ key: k, n: v.n, avg: v.sum / v.n }));
 }
 
-// Bars are scaled against the largest row, not the total: rock covers 174 of
-// 269 albums, so a share-of-total scale would flatten everything else to a
-// sliver.
-function barRows(rows, { max, colour }) {
+// Each row supplies its own bar width as a 0-1 fraction, because the two kinds
+// of card measure different things: the ratings histogram is a count, and
+// decades/genres are an average score.
+function barRows(rows, { marker } = {}) {
+  const tick =
+    marker != null
+      ? `<span class="bar-marker" style="left:${marker * 100}%"></span>`
+      : "";
   return rows
     .map(
       (r) => `
       <li>
         <span class="bar-key">${escapeHtml(r.label)}</span>
-        <span class="bar-track"><span class="bar-fill" style="width:${pct(r.n, max)}%; background:${colour(r)}"></span></span>
+        <span class="bar-track">${tick}<span class="bar-fill" style="width:${
+          r.frac * 100
+        }%; background:${ratingColor(r.avg)}"></span></span>
         <span class="bar-n">${r.n}</span>
         <span class="bar-avg" style="color:${r.note ? "var(--ink-3)" : ratingColor(r.avg)}">${
           r.note ?? r.avg.toFixed(2)
@@ -477,6 +483,11 @@ function barRows(rows, { max, colour }) {
     )
     .join("");
 }
+
+// A rating runs 1 to 5, so 1 is an empty bar rather than 0. On a 0-5 scale
+// every average here would land between 49% and 76% and the chart would say
+// nothing; anchoring at the real floor roughly doubles the usable spread.
+const ratingFrac = (avg) => Math.max(0, Math.min(1, (avg - 1) / 4));
 
 function diffTable(rows) {
   if (!rows.length) return `<p class="stat-none">nothing to compare yet</p>`;
@@ -551,37 +562,43 @@ async function renderStatsView() {
     `${(total - rated.length).toLocaleString()} of ${total.toLocaleString()} still to go`;
 
   // ratings — fixed 1..5 so an unused rating still shows as an empty row
-  // the trailing column carries share-of-total here; printing the star value
-  // back as an "average" would just restate the label
+  // This card is a distribution, so its bar stays a count — "average rating"
+  // for the row labelled 5 stars is always 5. The trailing column carries
+  // share-of-total instead, which the label doesn't already tell you.
+  const histMax = Math.max(...[1, 2, 3, 4, 5].map((s) => rated.filter((e) => e.rating === s).length), 1);
   const hist = [5, 4, 3, 2, 1].map((star) => {
     const n = rated.filter((e) => e.rating === star).length;
     return {
       label: `${star} star${star > 1 ? "s" : ""}`,
       n,
       avg: star,
+      frac: n / histMax,
       note: `${Math.round(pct(n, rated.length))}%`,
     };
   });
-  document.getElementById("rating-bars").innerHTML = barRows(hist, {
-    max: Math.max(...hist.map((h) => h.n), 1),
-    colour: (r) => ratingColor(r.avg),
-  });
+  document.getElementById("rating-bars").innerHTML = barRows(hist);
 
+  // Decades and genres measure how well you rate them, not how many you've
+  // heard — the count is still printed, it just isn't what the bar draws.
+  // Both carry a tick at your overall average so above/below reads at a glance.
   const decades = tally(rated, (e) => {
     const y = parseInt(e.album.releaseDate, 10);
     return y ? `${Math.floor(y / 10) * 10}s` : null;
   }).sort((a, b) => a.key.localeCompare(b.key));
   document.getElementById("decade-bars").innerHTML = barRows(
-    decades.map((d) => ({ ...d, label: d.key })),
-    { max: Math.max(...decades.map((d) => d.n), 1), colour: (r) => ratingColor(r.avg) }
+    decades.map((d) => ({ ...d, label: d.key, frac: ratingFrac(d.avg) })),
+    { marker: ratingFrac(avg) }
   );
 
+  // picked by count so the list is substantial, then ordered by score so it
+  // reads as a ranking
   const genres = tally(rated, (e) => e.album.genres || [])
     .sort((a, b) => b.n - a.n)
-    .slice(0, 10);
+    .slice(0, 10)
+    .sort((a, b) => b.avg - a.avg);
   document.getElementById("genre-bars").innerHTML = barRows(
-    genres.map((g) => ({ ...g, label: g.key.replace(/-/g, " ") })),
-    { max: Math.max(...genres.map((g) => g.n), 1), colour: (r) => ratingColor(r.avg) }
+    genres.map((g) => ({ ...g, label: g.key.replace(/-/g, " "), frac: ratingFrac(g.avg) })),
+    { marker: ratingFrac(avg) }
   );
 
   // your rating against everyone else's
