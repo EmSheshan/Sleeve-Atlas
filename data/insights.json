@@ -5688,5 +5688,441 @@
     "uuid": "5f34ee8bf0857e55ed5ec0c3",
     "image": "https://i.scdn.co/image/ab67616d00001e02c4f52ef8782f0e8ede4c1aaf",
     "savedAt": "2026-09-28T12:07:41.531Z"
+  },
+  "5f34ee8bf0857e55ed5ec075": {
+    "artist": "MGMT",
+    "album": "Oracular Spectacular",
+    "year": "2007",
+    "heading": "Oracular Spectacular — MGMT (2007)",
+    "albumLine": "Released digitally on 2 October 2007 and on disc the following January, on RED Ink and Columbia, produced by Dave Fridmann. Forty minutes of psychedelic pop, synth-pop and what the press of the moment called new rave — their debut, and one of the decade's great accidents.",
+    "overview": [
+      "Andrew VanWyngarden and Ben Goldwasser met at Wesleyan University in 2001 and started making dance tracks in a dorm room from stock loops on a laptop. The project — first called the Management — was a joke about being rock stars: they played living rooms in fur coats, drinking champagne, behaving like idiots, and once performed a forty-five-minute cover of the Ghostbusters theme. \"Time to Pretend\" and \"Kids\", the two songs that eventually made them famous, were written as satire of exactly that pose.",
+      "This is the fact that governs the whole record and is usually left out. Goldwasser has said plainly that they couldn't sustain an album of joke songs and had to shift into music they actually wanted to make. So it sits on a genuine fault line: the singles retain the original irony — a lyric about dying young and living fast delivered over a hook engineered to be adored — while the rest is sincere neo-psychedelia with no punchline at all. The joke escaped and became the thing it was mocking, which is why the album is more interesting than its reputation as a party record suggests.",
+      "Dave Fridmann is the reason it sounds enormous. He had produced the Flaming Lips and Mercury Rev, and he brought the same approach: compress everything until it distorts, bury detail in the mix, make the drums crack. Two students with a laptop came out sounding like a stadium band, which flattered the satire and undercut it simultaneously.",
+      "It arrived at the right moment — indie had just started making peace with dance music and the blogs were the distribution system — and it went two times platinum in America despite reaching only No. 38 there, doing better abroad at No. 8 in Britain and No. 4 in Australia. NME made it their album of 2008 and Rolling Stone later placed it 494th among the greatest, describing it as \"a suite of synthesized heartache.\" It divided people too: AllMusic's Jason Lymangrover called the songs \"some of the catchiest pop songs to come from NYC since the turn of the millennium,\" while PopMatters' Matt Fiander found the second half settling into \"a more monotone kind of space rock.\" Both halves are the album."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Fridmann's overdriven compression",
+        "text": "Drums and synths are squashed until they audibly clip, giving a bedroom recording a huge, ragged front. It's his signature and it's everywhere here."
+      },
+      {
+        "label": "Falsetto over cheap synth tones",
+        "text": "VanWyngarden sings high and slightly strained above preset-sounding keyboards, a deliberate mismatch between earnest delivery and disposable texture."
+      },
+      {
+        "label": "Hooks built to be irresistible on purpose",
+        "text": "The singles use simple, repeating synth figures pitched high in the mix — written as parody of what a hit does, and functioning as one anyway."
+      },
+      {
+        "label": "A second half that stops being pop",
+        "text": "The back end drifts into longer, hazier psychedelic pieces with looser structures and few hooks. Whether that's a collapse or the point is the album's standing argument."
+      },
+      {
+        "label": "Samples used as scenery",
+        "text": "Bird calls, tape noise and stray found sound sit inside otherwise clean arrangements, a trick from sixties psychedelia rather than from dance production."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Oracular Spectacular — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Oracular_Spectacular"
+      },
+      {
+        "title": "How MGMT accidentally made one of the best albums of the 2000s — Double J",
+        "url": "https://www.abc.net.au/listen/doublej/music-reads/features/mgmt-oracular-spectacular-classic-album/102150120"
+      },
+      {
+        "title": "MGMT go from goofs to rock stars on 'Oracular Spectacular' — Diffuser",
+        "url": "https://diffuser.fm/mgmt-oracular-spectacular/"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Flaming Lips",
+        "album": "The Soft Bulletin",
+        "year": "1999",
+        "note": "Fridmann produced it, and its blown-out drums and orchestral psychedelia are the direct production model."
+      },
+      {
+        "artist": "T. Rex",
+        "album": "Electric Warrior",
+        "year": "1971",
+        "note": "The glam template the singles are satirising — rock stardom as costume, sung in a high strained voice."
+      },
+      {
+        "artist": "Brian Eno",
+        "album": "Here Come the Warm Jets",
+        "year": "1974",
+        "note": "Art-school pop built from synthesizers and studio accident, which the album's unironic second half works from."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Tame Impala",
+        "album": "Lonerism",
+        "year": "2012",
+        "note": "Bedroom-made psychedelia produced to sound vast, with a high fragile voice over saturated synths."
+      },
+      {
+        "artist": "Foster the People",
+        "album": "Torches",
+        "year": "2011",
+        "note": "The falsetto-and-synth-hook indie pop formula that followed this album straight onto commercial radio."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec075",
+    "image": "https://i.scdn.co/image/60c81344995dcca6528e42adbd8b763a4e5c93da",
+    "savedAt": "2026-09-28T12:25:27.937Z"
+  },
+  "5f34ee8bf0857e55ed5eacc3": {
+    "artist": "Aimee Mann",
+    "album": "Whatever",
+    "year": "1993",
+    "heading": "Whatever — Aimee Mann (1993)",
+    "albumLine": "Released 11 May 1993 on Imago, produced by Mann with Tony Berg, Michael Hausman and Jon Brion, and recorded across seven studios. It's guitar-led power pop with sixties bones — her first solo album, made after three years in which she was legally forbidden to release anything.",
+    "overview": [
+      "She had already had the hit. 'Til Tuesday's \"Voices Carry\" reached No. 8 in 1985 and fixed her in the public mind as a new wave singer with asymmetric hair, which is close to the least useful summary of her available. When the band broke up in 1990 she wanted to go solo and Epic Records refused to release her from her contract for three years. That is the fact behind this record: a working songwriter, at the height of her powers, barred from putting out a note.",
+      "So the album is partly about the industry that produced it — one track addresses her label frustrations directly — and partly a statement of what she actually wanted to be doing. Her stated reference points were the Kinks, the Zombies and Squeeze, and she had moved towards what she called acoustic guitar music. Her old bandmate Michael Hausman became her manager; Jon Brion, who had toured with 'Til Tuesday, became her collaborator, and she has said working with him made her songwriting markedly better. That partnership is audible in the arrangements, which are far stranger than the songs' surfaces let on.",
+      "In 1993 this was commercially hopeless. Alternative rock meant loud guitars and self-laceration, and a record of immaculately built melodic pop with Beatles chord changes and wry, observational lyrics had no radio format waiting for it. It sold around 170,000 copies over eight years. The reviews were another matter: the Los Angeles Times wrote that she \"mixes words like a master, catching lifetimes of ache,\" Rolling Stone paired \"sunny, surreal\" melodies with \"razor-sharp\" lyrics, and Elvis Costello later put it on his own list of the 500 greatest albums.",
+      "The pattern set here repeated for the rest of the decade and eventually broke it. Imago collapsed, Geffen rejected her third album as uncommercial, and in 1999 she and Hausman founded their own label, used royalties from Paul Thomas Anderson's \"Magnolia\" to buy back the masters, and sold 25,000 copies by mail order. \"Save Me\" was nominated for an Academy Award. She became, more or less by exhaustion, one of the first well-known American musicians to prove an artist could simply leave the major-label system — and this album is where the argument starts."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Sixties chord movement under nineties production",
+        "text": "The songs turn on unexpected changes borrowed from the Kinks and the Zombies rather than the era's verse-chorus alternation, which is why they resist getting old."
+      },
+      {
+        "label": "Mann's flat, unstraining delivery",
+        "text": "She sings low in her range, conversationally and almost without vibrato, so the lyrics land as speech. None of the emotion is in the performance's volume."
+      },
+      {
+        "label": "Jon Brion's arrangement oddities",
+        "text": "Chamberlin, vibraphone, odd keyboards and unplaceable textures appear briefly inside otherwise conventional pop songs. He is the reason this doesn't sound like a singer-songwriter record."
+      },
+      {
+        "label": "Acoustic guitar as the spine",
+        "text": "Strummed acoustic carries most tracks with electric guitars layered around it, a deliberate move away from the synth-forward sound of her old band."
+      },
+      {
+        "label": "Harmony vocals stacked thickly",
+        "text": "Multi-tracked backing parts arrive on choruses in the Beach Boys manner, which is where much of the album's sweetness comes from."
+      },
+      {
+        "label": "Jokes buried in sad songs",
+        "text": "The lyrics run dry and sardonic against warm melodies, so a line lands as funny a beat before it lands as bleak. That timing is her signature."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Whatever (Aimee Mann album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Whatever_(Aimee_Mann_album)"
+      },
+      {
+        "title": "Aimee Mann — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Aimee_Mann"
+      },
+      {
+        "title": "'Til Tuesday — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/%27Til_Tuesday"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Kinks",
+        "album": "Something Else by the Kinks",
+        "year": "1967",
+        "note": "Named by Mann as an influence; the model of wry character sketches set to melodic English guitar pop."
+      },
+      {
+        "artist": "The Beatles",
+        "album": "Rubber Soul",
+        "year": "1965",
+        "note": "The chord vocabulary and stacked harmony the album's construction depends on."
+      },
+      {
+        "artist": "The Zombies",
+        "album": "Odessey and Oracle",
+        "year": "1968",
+        "note": "Also named by Mann — minor-key melodic pop with unusual changes and close vocal arrangements."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Elliott Smith",
+        "album": "XO",
+        "year": "1998",
+        "note": "Jon Brion produced it; the same marriage of Beatles-descended arrangement to plainly sung, unsparing lyrics."
+      },
+      {
+        "artist": "Fiona Apple",
+        "album": "Extraordinary Machine",
+        "year": "2005",
+        "note": "Another Brion collaboration, and the same tradition of a woman writing sardonic, structurally restless pop on her own terms."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5eacc3",
+    "image": "https://i.scdn.co/image/ab67616d00001e02dc8f4ff8db40ffee93138488",
+    "savedAt": "2026-09-28T12:26:20.840Z"
+  },
+  "5f34ee8bf0857e55ed5ec0a7": {
+    "artist": "Janelle Monáe",
+    "album": "The ArchAndroid",
+    "year": "2010",
+    "heading": "The ArchAndroid — Janelle Monáe (2010)",
+    "albumLine": "Released 18 May 2010 on Wondaland Arts Society, Bad Boy and Atlantic, produced by Nate \"Rocket\" Wonder, Chuck Lightning and Monáe herself. Sixty-eight minutes of progressive soul running through funk, folk, glam and orchestral writing — her debut album, and suites II and III of a science-fiction story.",
+    "overview": [
+      "She was born in Kansas City, Kansas, in 1985 and raised in Quindaro, a working-class neighbourhood, to a mother who worked as a janitor and hotel maid and a father who drove trucks. She learned to sing in a Baptist church. Big Boi of OutKast found her after she was sacked from Office Depot for using a work computer to answer a fan's email, and introduced her to Sean Combs, who signed her to Bad Boy in 2006 — a label that gave her exposure and, unusually, largely left her alone.",
+      "What she did with that is the album. It continues a story begun on an earlier EP: Cindi Mayweather, an android from the year 2719 sentenced to disassembly for falling in love with a human, whose liberation the suites narrate. The frame is borrowed from Fritz Lang's \"Metropolis\" of 1927 and the tradition is Afrofuturism — science fiction as a way of talking about race and class without arguing in the register people expect. Monáe has described Mayweather as \"the mediator between the haves and the have-nots, the oppressed and the oppressor,\" which is as direct a statement of purpose as a concept album ever gets.",
+      "In 2010 that was a strange thing to release. Mainstream R&B was in a maximal, chart-facing phase built around a hook and a featured rapper, and this was an hour-long suite with orchestral interludes, a folk song, a psychedelic pop collaboration with Kevin Barnes of Of Montreal, and spoken word from Saul Williams. It did not behave like an album trying to sell. It reached No. 17 with 21,000 copies in its first week, and then did not go away.",
+      "The critical response was close to unanimous — Metacritic settles at 91, and Pitchfork called it \"about as bold as mainstream music gets, marrying concept album possibilities to Prince and Michael Jackson-style pop.\" It was nominated for Best Contemporary R&B Album at the Grammys and topped a great many lists for the year. Her black-and-white tuxedo, worn as a uniform throughout, does its own work: she has said it keeps her balanced and rejects the idea that women's clothing has to be sorted by gender at all."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Orchestral overtures between the songs",
+        "text": "Each suite opens with fully scored instrumental writing — strings, brass, no beat — which frames what follows as theatre rather than a track list."
+      },
+      {
+        "label": "Genre changing without warning",
+        "text": "A funk workout runs straight into a folk ballad into psychedelic pop into a big-band swing pastiche. The transitions are deliberately unsmoothed."
+      },
+      {
+        "label": "James Brown in the rhythm section",
+        "text": "The funk tracks use tight, clipped guitar, horn stabs and drums locked hard on the one. Her dancing comes from the same place and it's audible in how the songs are cut."
+      },
+      {
+        "label": "A voice with several registers",
+        "text": "She moves between a clipped staccato delivery, a full gospel belt and an airy head voice, using each as a different character rather than as escalation."
+      },
+      {
+        "label": "Songs that stop mid-thought",
+        "text": "Several tracks end abruptly or bleed into the next with no resolution, keeping the suite moving and refusing the single-shaped ending."
+      },
+      {
+        "label": "Prince-shaped arrangements",
+        "text": "Dense layers of guitar, synth and stacked backing vocals, all recorded tight and dry — the clearest structural debt on the record."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The ArchAndroid — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_ArchAndroid"
+      },
+      {
+        "title": "Janelle Monáe — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Janelle_Mon%C3%A1e"
+      },
+      {
+        "title": "The ArchAndroid — Pitchfork review",
+        "url": "https://pitchfork.com/reviews/albums/14306-the-archandroid/"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Prince",
+        "album": "Sign o' the Times",
+        "year": "1987",
+        "note": "The sprawling, genre-crossing double album by a single controlling auteur — named by critics as the album's closest model."
+      },
+      {
+        "artist": "Stevie Wonder",
+        "album": "Songs in the Key of Life",
+        "year": "1976",
+        "note": "The precedent for an ambitious, long-form Black pop record with orchestral scope and a moral argument."
+      },
+      {
+        "artist": "OutKast",
+        "album": "Speakerboxxx/The Love Below",
+        "year": "2003",
+        "note": "Big Boi discovered her and appears on the record; its genre-hopping maximalism is the immediate Atlanta context."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Beyoncé",
+        "album": "Lemonade",
+        "year": "2016",
+        "note": "The visual-and-narrative concept album as the format for a major Black woman artist's statement."
+      },
+      {
+        "artist": "Solange",
+        "album": "A Seat at the Table",
+        "year": "2016",
+        "note": "Art-directed, suite-structured R&B with interludes carrying as much argument as the songs."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec0a7",
+    "image": "https://i.scdn.co/image/be8c0c9df007c75ed0da899d85f8ce532971b7bb",
+    "savedAt": "2026-09-28T12:27:14.951Z"
+  },
+  "5f34ee8bf0857e55ed5ebf3c": {
+    "artist": "The Young Gods",
+    "album": "L'Eau Rouge",
+    "year": "1989",
+    "heading": "L'Eau Rouge — The Young Gods (1989)",
+    "albumLine": "Released September 1989 on Play It Again Sam, produced by Roli Mosimann at Artag Studio in Zurich. It's industrial rock with dark cabaret and orchestral music folded in — their second album, made by a band with no guitarist, and generally called their best.",
+    "overview": [
+      "They formed in Fribourg, Switzerland, in 1985, after Franz Treichler's punk band fell apart and he began building sound collages on a four-track. The line-up here is Treichler singing, Cesare Pizzi on sampler and keyboards and Üse Hiestand on drums, with programming by Michele Amar. That is the entire band: a voice, a sampler and a drum kit. Everything that sounds like a guitar is a sampled fragment of one, looped and played from a keyboard.",
+      "This was a genuinely new idea in 1989. Sampling existed in hip-hop and in dance music, but using it to rebuild a rock band from the ground up — keeping rock's force while removing its central instrument — had not really been attempted. David Bowie, an admirer, described the method precisely: take \"one chunk guitar riff and then sampling it, looping it, and having that as the consistent pattern.\" What they sample is not restricted to rock either; classical fragments, musique concrète and orchestral stabs sit alongside the riffs, which is why the album keeps veering towards something closer to theatre than to metal.",
+      "Treichler sings entirely in French, which matters more than it might sound. Industrial music at the end of the eighties was overwhelmingly Anglo-American and shouted; French gives the vocals a declamatory, chanson-adjacent quality, and pushes the record towards cabaret and away from aggression as its default. Combined with the orchestral sampling, it produces something genuinely uncategorisable — heavy, but theatrical rather than brutal.",
+      "It reached No. 3 on the UK Indie Chart and took year-end honours from both Melody Maker and Sounds in 1989. Its real legacy is downstream: The Edge of U2 named them an influence on his soundtrack work, Mike Patton counts their albums among his favourites, and Nine Inch Nails, Ministry, Sepultura and Napalm Death have all drawn on them. Much of what became mainstream industrial rock in the nineties was built on a method this band demonstrated first."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Guitars that are samples of guitars",
+        "text": "The riffs are single recorded chunks triggered from a keyboard and looped, so they repeat with machine exactness and never quite breathe. Once you know, you can hear the seams."
+      },
+      {
+        "label": "Orchestral fragments used as weapons",
+        "text": "Strings, brass and classical stabs are dropped in at full volume alongside the riffs, treated as percussion rather than as decoration."
+      },
+      {
+        "label": "Treichler declaiming in French",
+        "text": "He half-sings, half-proclaims, with the diction of a stage performer. The language keeps the record European and cabaret-shaped rather than American and shouted."
+      },
+      {
+        "label": "Live drums against locked loops",
+        "text": "Hiestand plays a real kit over rigidly repeating samples, and the friction between a human drummer and a machine pattern is much of the album's tension."
+      },
+      {
+        "label": "Abrupt silence",
+        "text": "Tracks cut to nothing mid-phrase and restart, an editing decision only possible when the whole arrangement is triggered rather than played."
+      },
+      {
+        "label": "Dynamic swings rather than constant volume",
+        "text": "It drops to near-quiet and returns to full weight repeatedly, closer to orchestral writing than to the flat loudness most industrial records of the period chose."
+      }
+    ],
+    "sources": [
+      {
+        "title": "L'eau rouge — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/L%27Eau_Rouge"
+      },
+      {
+        "title": "The Young Gods — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Young_Gods"
+      },
+      {
+        "title": "The Young Gods — AllMusic",
+        "url": "https://www.allmusic.com/artist/the-young-gods-mn0000326751"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Einstürzende Neubauten",
+        "album": "Halber Mensch",
+        "year": "1985",
+        "note": "Continental European industrial music built from non-rock sound sources and sung in a language other than English."
+      },
+      {
+        "artist": "Throbbing Gristle",
+        "album": "D.O.A. the Third and Final Report of Throbbing Gristle",
+        "year": "1978",
+        "note": "Established tape manipulation and found sound as the raw material of a rock-adjacent record."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Nine Inch Nails",
+        "album": "Pretty Hate Machine",
+        "year": "1989",
+        "note": "Nine Inch Nails are among the acts documented as drawing on them; sample-built industrial rock with real drums over loops."
+      },
+      {
+        "artist": "Ministry",
+        "album": "Psalm 69",
+        "year": "1992",
+        "note": "The looped guitar sample as the structural engine of a heavy record, which is the method this album demonstrated."
+      },
+      {
+        "artist": "Faith No More",
+        "album": "Angel Dust",
+        "year": "1992",
+        "note": "Mike Patton has named their albums among his favourites, and the swerve between theatrical and brutal is shared."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebf3c",
+    "image": "https://i.scdn.co/image/9e779348b64a98d4ecd5ee1ce98b50f5a0295452",
+    "savedAt": "2026-09-28T12:28:01.816Z"
+  },
+  "5f34ee8bf0857e55ed5ebe0c": {
+    "artist": "Bee Gees",
+    "album": "Trafalgar",
+    "year": "1971",
+    "heading": "Trafalgar — Bee Gees (1971)",
+    "albumLine": "Released September 1971 in America and November in Britain, produced by Robert Stigwood with the group, and recorded at IBC Studios in London between January and April. It's orchestral pop and soft rock, almost entirely ballads — their ninth album, and the one that gave them their first American No. 1.",
+    "overview": [
+      "The three brothers — Barry Gibb on guitar and vocals, Robin Gibb on vocals, Maurice Gibb on vocals and keyboards — were born on the Isle of Man, raised in Manchester and then in Queensland, and had been a working act since childhood. Geoff Bridgford played drums, his only full album as an official member, and Alan Kendall joined on guitar. The name, incidentally, does not come from \"Brothers Gibb\": a Brisbane radio presenter coined \"the BGs\" from his own initials, a speedway promoter's and Barry's.",
+      "They had come very close to not existing. In 1969 Robin left, feeling Stigwood was pushing Barry as the frontman, after an argument over which side of a single should be the A-side; Barry and Maurice went their own ways that December. The reunion was almost casual — Barry's account is that \"Robin rang me in Spain where I was on holiday [saying] 'let's do it again'\" — and they agreed never to split again. This is the second album after that, and the sound of a band being deliberately careful with something they nearly lost.",
+      "What they made is unfashionable in an interesting way. 1971 was the year of \"Led Zeppelin IV\", \"Who's Next\" and \"What's Going On\" — rock getting heavier and soul getting political — and the Bee Gees responded with a set of orchestrated ballads about heartbreak, with strings, restraint and nothing resembling a riff. It sounds less like its contemporaries than like the Brill Building a decade earlier, or like film music.",
+      "\"How Can You Mend a Broken Heart?\" went to No. 1 in America, their first, and did not chart in Britain at all — a split that says something about both markets. The album itself reached only No. 34. What followed was worse: by 1973 they were selling badly and playing small clubs, until the producer Arif Mardin pushed them towards soul and R&B, they moved to Miami, and \"Jive Talkin'\" in 1975 began the run that ended in \"Saturday Night Fever.\" So this record is the last clear look at the group as balladeers before the falsetto and the dance floor rewrote what their name means."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Three-part sibling harmony",
+        "text": "The blend is unusually tight because they had been singing together since childhood, and the voices share a timbre no assembled group can fake."
+      },
+      {
+        "label": "Robin's vibrato lead",
+        "text": "His quavering, almost keening delivery carries much of the album — the sound of the early Bee Gees, and nothing like the falsetto Barry became famous for later."
+      },
+      {
+        "label": "Orchestra as the main instrument",
+        "text": "Strings and horns do the work a band would normally do, with guitar and drums pushed well back. Several tracks have almost no rhythm section presence at all."
+      },
+      {
+        "label": "Ballad tempos throughout",
+        "text": "Nothing here is fast. The album commits entirely to one pace, which is either its weakness or the reason it holds together, depending on the listener."
+      },
+      {
+        "label": "An instrumental title track",
+        "text": "The closing piece is orchestral and wordless, closer to a film cue than to pop, and shows how far from a rock band they were willing to sit."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Trafalgar (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Trafalgar_(album)"
+      },
+      {
+        "title": "Bee Gees — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bee_Gees"
+      },
+      {
+        "title": "How Can You Mend a Broken Heart — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/How_Can_You_Mend_a_Broken_Heart"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Beatles",
+        "album": "Rubber Soul",
+        "year": "1965",
+        "note": "The model for a British group writing their own melodic pop with expanding studio ambition, which the Bee Gees followed closely."
+      },
+      {
+        "artist": "The Ronettes",
+        "album": "Presenting the Fabulous Ronettes",
+        "year": "1964",
+        "note": "The orchestrated heartbreak ballad as a complete form, which this album returns to almost unchanged."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Bee Gees",
+        "album": "Saturday Night Fever",
+        "year": "1977",
+        "note": "Their own pivot six years later — same three voices and songwriting, rebuilt around rhythm instead of strings."
+      },
+      {
+        "artist": "Al Green",
+        "album": "Let's Stay Together",
+        "year": "1972",
+        "note": "His reading of \"How Can You Mend a Broken Heart\" appeared within months and is for many listeners the definitive version."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebe0c",
+    "image": "https://i.scdn.co/image/f18acc356721c24beacee6060e57d90a2f73b8a8",
+    "savedAt": "2026-09-28T12:28:57.931Z"
   }
 }
