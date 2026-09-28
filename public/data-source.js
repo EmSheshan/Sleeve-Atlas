@@ -137,8 +137,27 @@ window.Data = {
     const nodes = {};
     const edges = {};
 
-    const nodeId = (artist, album) =>
-      `${artist}::${album}`.toLowerCase().replace(/\s+/g, " ").trim();
+    // Node identity has to survive the same record being named two ways across
+    // two different notes — "The Pretenders" in one, "Pretenders" in another —
+    // or the map grows a twin node with half the edges. So the id is built from
+    // a canonical form: accents folded, punctuation dropped, leading articles
+    // removed. Only the id is normalised; nodes still display their real name.
+    const canon = (s) => {
+      const base = (s || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[̀-ͯ]/g, "") // björk === bjork
+        .replace(/[‘’']/g, "") // pepper's === peppers
+        .replace(/&/g, " and ")
+        .replace(/[^a-z0-9]+/g, " ") // n.w.a === nwa, white light/white heat
+        .replace(/\s+/g, " ")
+        .trim();
+      // "The The" and Jethro Tull's "A" are entirely article — keep those whole
+      const stripped = base.replace(/\b(the|a|an)\b/g, " ").replace(/\s+/g, " ").trim();
+      return stripped || base;
+    };
+
+    const nodeId = (artist, album) => `${canon(artist)}::${canon(album)}`;
     const upsert = (node) => {
       nodes[node.id] = { ...nodes[node.id], ...node };
     };

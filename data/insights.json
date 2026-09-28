@@ -2939,7 +2939,7 @@
     ],
     "influencedBy": [
       {
-        "artist": "Velvet Underground",
+        "artist": "The Velvet Underground",
         "album": "White Light/White Heat",
         "year": "1968",
         "note": "The precedent for rock musicians pursuing noise and endurance rather than song, with an art-world frame around it."
@@ -2973,7 +2973,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ecfdf",
     "image": "https://i.scdn.co/image/ab67616d00001e0292d3d24a409646aac23743d6",
-    "savedAt": "2026-09-27T18:40:01.156Z"
+    "savedAt": "2026-09-28T12:22:50.349Z"
   },
   "5f34ee8bf0857e55ed5ec0aa": {
     "artist": "Mariah Carey",
@@ -3721,7 +3721,7 @@
         "note": "The New York template for a distinctive woman fronting sharp, hook-driven new wave pop."
       },
       {
-        "artist": "The Pretenders",
+        "artist": "Pretenders",
         "album": "Pretenders",
         "year": "1980",
         "note": "Chrissie Hynde's precedent for a woman fronting a rock band entirely on her own terms."
@@ -3743,7 +3743,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ebfa9",
     "image": "https://i.scdn.co/image/ab67616d00001e0252f532df7ba3269b0242fed9",
-    "savedAt": "2026-09-27T20:06:07.973Z"
+    "savedAt": "2026-09-28T12:22:52.246Z"
   },
   "5f34ee8bf0857e55ed5ebf05": {
     "artist": "Soft Cell",
@@ -5300,12 +5300,12 @@
     "influencedBy": [
       {
         "artist": "Otis Redding",
-        "album": "Otis Blue: Otis Redding Sings Soul",
+        "album": "Otis Blue",
         "year": "1965",
         "note": "The Stax horn-section template and the model of a singer whose strain and effort are the point."
       },
       {
-        "artist": "The Sex Pistols",
+        "artist": "Sex Pistols",
         "album": "Never Mind the Bollocks, Here's the Sex Pistols",
         "year": "1977",
         "note": "Rowland and Archer came out of punk, and the tempos, confrontation and press hostility all come from there."
@@ -5327,7 +5327,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ec006",
     "image": "https://i.scdn.co/image/1f68fe8555e66ac3601c0463e408be2411e7cc4c",
-    "savedAt": "2026-09-27T22:32:01.246Z"
+    "savedAt": "2026-09-28T12:24:16.381Z"
   },
   "5f34ee8bf0857e55ed5ec010": {
     "artist": "Creedence Clearwater Revival",

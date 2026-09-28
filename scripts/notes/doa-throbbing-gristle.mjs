@@ -53,7 +53,7 @@ await saveNote({
   ],
 
   influencedBy: [
-    { artist: "Velvet Underground", album: "White Light/White Heat", year: "1968", note: "The precedent for rock musicians pursuing noise and endurance rather than song, with an art-world frame around it." },
+    { artist: "The Velvet Underground", album: "White Light/White Heat", year: "1968", note: "The precedent for rock musicians pursuing noise and endurance rather than song, with an art-world frame around it." },
     { artist: "Karlheinz Stockhausen", album: "Gesang der Jünglinge", year: "1958", note: "The electroacoustic tradition of composing directly with tape and electronic sound, which Throbbing Gristle repurposed outside the academy." },
   ],
 

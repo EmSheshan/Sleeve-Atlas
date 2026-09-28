@@ -50,7 +50,7 @@ await saveNote({
 
   influencedBy: [
     { artist: "Blondie", album: "Parallel Lines", year: "1978", note: "The New York template for a distinctive woman fronting sharp, hook-driven new wave pop." },
-    { artist: "The Pretenders", album: "Pretenders", year: "1980", note: "Chrissie Hynde's precedent for a woman fronting a rock band entirely on her own terms." },
+    { artist: "Pretenders", album: "Pretenders", year: "1980", note: "Chrissie Hynde's precedent for a woman fronting a rock band entirely on her own terms." },
   ],
 
   influenced: [

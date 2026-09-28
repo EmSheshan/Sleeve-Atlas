@@ -46,6 +46,55 @@ for (const entry of Object.values(insights)) {
   if (!entry.image) note(album, "no cover image");
 }
 
+// The map keys nodes on a canonical form of artist+album, so "The Pretenders"
+// and "Pretenders" land on one node either way. But two spellings still make
+// the displayed name depend on which note happens to be read first, so flag
+// them and keep the prose consistent. Mirrors canon() in public/data-source.js.
+const canon = (s) => {
+  const base = (s || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[‘’']/g, "")
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  const stripped = base.replace(/\b(the|a|an)\b/g, " ").replace(/\s+/g, " ").trim();
+  return stripped || base;
+};
+
+const spellings = new Map();
+const seeName = (artist, alb, where, isNote) => {
+  if (!artist || !alb) return;
+  const key = `${canon(artist)}::${canon(alb)}`;
+  if (!spellings.has(key)) spellings.set(key, { variants: new Map(), hasNote: false });
+  const rec = spellings.get(key);
+  if (isNote) rec.hasNote = true;
+  const exact = `${artist} — ${alb}`;
+  if (!rec.variants.has(exact)) rec.variants.set(exact, new Set());
+  rec.variants.get(exact).add(where);
+};
+
+for (const entry of Object.values(insights)) {
+  seeName(entry.artist, entry.album, `the note for ${entry.album}`, true);
+  for (const r of entry.influencedBy || []) seeName(r.artist, r.album, `influencedBy in ${entry.album}`, false);
+  for (const r of entry.influenced || []) seeName(r.artist, r.album, `influenced in ${entry.album}`, false);
+}
+
+for (const { variants, hasNote } of spellings.values()) {
+  if (variants.size < 2) continue;
+  // A record with its own note always wins the label — graph() upserts the
+  // "list" node over any inferred one — so those spellings can't disagree on
+  // screen and aren't worth failing over. Records that only ever appear as a
+  // relation have no such anchor, and there the display really is arbitrary.
+  if (hasNote) continue;
+  const lines = [...variants]
+    .map(([name, where]) => `"${name}" (${[...where].join(", ")})`)
+    .join(" vs ");
+  note("naming", `same record spelled two ways, and neither is a note — ${lines}`);
+}
+
 console.log(`checked ${Object.keys(insights).length} notes`);
 if (problems.length) {
   console.log(`\n${problems.length} problem(s):`);
