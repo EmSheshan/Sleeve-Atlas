@@ -1016,6 +1016,125 @@ main {
   overflow: hidden;
 }
 
+/* ---------- Map statistics ---------- */
+
+.map-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.stat-card {
+  background: var(--paper-3);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 1.4rem 1.5rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat-blurb {
+  margin: 0 0 1.1rem;
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: var(--ink-3);
+}
+
+.stat-blurb em { font-style: italic; color: var(--ink-2); }
+
+.stat-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1 1 auto;
+}
+
+.stat-list li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding: 0.5rem 0;
+  border-bottom: 1.5px solid var(--edge);
+}
+
+.stat-list li:last-child { border-bottom: 0; }
+
+.stat-name { min-width: 0; }
+
+.stat-name strong {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.92rem;
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+  display: block;
+}
+
+.stat-by {
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--ink-3);
+}
+
+.stat-count {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--ink-3);
+  white-space: nowrap;
+}
+
+.stat-foot,
+.stat-none {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--ink-3);
+}
+
+.stat-foot { margin: 0.9rem 0 0; }
+.stat-none { list-style: none; text-transform: none; letter-spacing: 0; line-height: 1.5; }
+
+.stat-card--central { --plate: var(--brick); }
+.stat-card--central h3 { color: var(--brick); }
+
+.stat-hero {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.75rem;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: lowercase;
+  margin: 0.4rem 0 0.4rem;
+}
+
+.stat-hero-by {
+  margin: 0;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--ink-2);
+}
+
+.stat-hero-meta {
+  margin: 0.7rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--ink-3);
+}
+
 .graph-tooltip {
   position: absolute;
   background: var(--ink);

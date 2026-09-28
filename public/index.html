@@ -49,6 +49,30 @@
       <button id="refresh-graph-btn">refresh map</button>
     </div>
     <div id="graph-canvas"></div>
+
+    <section id="map-stats" class="map-stats" hidden>
+      <article class="stat-card">
+        <h3>sources</h3>
+        <p class="stat-blurb">Records the map traces influence <em>from</em>, with nothing yet feeding into them. The roots.</p>
+        <ol class="stat-list" id="stat-sources"></ol>
+        <p class="stat-foot" id="stat-sources-foot"></p>
+      </article>
+
+      <article class="stat-card">
+        <h3>sinks</h3>
+        <p class="stat-blurb">Records influence flows <em>into</em>, with nothing growing out of them yet. The ends of the line.</p>
+        <ol class="stat-list" id="stat-sinks"></ol>
+        <p class="stat-foot" id="stat-sinks-foot"></p>
+      </article>
+
+      <article class="stat-card stat-card--central">
+        <h3>most central</h3>
+        <p class="stat-blurb">More paths of influence run through this record than any other on the map.</p>
+        <div id="stat-central"></div>
+        <p class="stat-foot" id="stat-central-foot"></p>
+      </article>
+    </section>
+
     <p id="map-empty-state" class="empty-state">no notes written yet &mdash; the map fills in as albums get written up.</p>
   </section>
 

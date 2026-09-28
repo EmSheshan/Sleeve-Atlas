@@ -31,6 +31,138 @@
     return Data.graph();
   }
 
+  // --- Map statistics ---
+
+  const statsEl = document.getElementById("map-stats");
+  const CENTRAL_RUNNERS = 3;
+  const LIST_LEN = 5;
+
+  // Betweenness (Brandes). Run on the DIRECTED graph on purpose: influence has
+  // a direction, and treating it as symmetric promotes leaf nodes that happen
+  // to sit between two clusters over records things actually flow through.
+  function betweenness(ids, adj) {
+    const bc = Object.fromEntries(ids.map((i) => [i, 0]));
+    for (const s of ids) {
+      const stack = [];
+      const pred = {};
+      const sigma = {};
+      const dist = {};
+      for (const i of ids) {
+        pred[i] = [];
+        sigma[i] = 0;
+        dist[i] = -1;
+      }
+      sigma[s] = 1;
+      dist[s] = 0;
+      const queue = [s];
+      let head = 0;
+      while (head < queue.length) {
+        const v = queue[head++];
+        stack.push(v);
+        for (const w of adj[v]) {
+          if (dist[w] < 0) {
+            dist[w] = dist[v] + 1;
+            queue.push(w);
+          }
+          if (dist[w] === dist[v] + 1) {
+            sigma[w] += sigma[v];
+            pred[w].push(v);
+          }
+        }
+      }
+      const delta = Object.fromEntries(ids.map((i) => [i, 0]));
+      while (stack.length) {
+        const w = stack.pop();
+        for (const v of pred[w]) delta[v] += (sigma[v] / sigma[w]) * (1 + delta[w]);
+        if (w !== s) bc[w] += delta[w];
+      }
+    }
+    return bc;
+  }
+
+  function computeStats(nodes, edges) {
+    const ids = nodes.map((n) => n.id);
+    const byId = Object.fromEntries(nodes.map((n) => [n.id, n]));
+    const inD = {};
+    const outD = {};
+    const adj = {};
+    for (const i of ids) {
+      inD[i] = 0;
+      outD[i] = 0;
+      adj[i] = [];
+    }
+    for (const e of edges) {
+      if (!(e.source in outD) || !(e.target in inD)) continue;
+      outD[e.source]++;
+      inD[e.target]++;
+      adj[e.source].push(e.target);
+    }
+
+    const year = (n) => parseInt(n.year, 10) || 0;
+    // Nearly every source has out-degree 1, so rank by reach first. Ties break
+    // oldest-first for sources (more root-like) and newest-first for sinks,
+    // then by label so the order never wobbles between renders.
+    const sources = nodes
+      .filter((n) => inD[n.id] === 0 && outD[n.id] > 0)
+      .sort((a, b) => outD[b.id] - outD[a.id] || year(a) - year(b) || a.label.localeCompare(b.label));
+    const sinks = nodes
+      .filter((n) => outD[n.id] === 0 && inD[n.id] > 0)
+      .sort((a, b) => inD[b.id] - inD[a.id] || year(b) - year(a) || a.label.localeCompare(b.label));
+
+    const bc = betweenness(ids, adj);
+    const central = ids
+      .filter((i) => bc[i] > 0)
+      .sort((a, b) => bc[b] - bc[a] || byId[a].label.localeCompare(byId[b].label))
+      .map((i) => ({ node: byId[i], score: bc[i] }));
+
+    return { sources, sinks, central, inD, outD };
+  }
+
+  const esc = (s) =>
+    String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  function renderStats(nodes, edges) {
+    if (!statsEl) return;
+    const { sources, sinks, central, inD, outD } = computeStats(nodes, edges);
+
+    const row = (n, count, unit) => `
+      <li>
+        <span class="stat-name"><strong>${esc(n.label)}</strong> <span class="stat-by">${esc(n.artist || "")}</span></span>
+        <span class="stat-count">${count} ${unit}${count === 1 ? "" : "s"}</span>
+      </li>`;
+
+    document.getElementById("stat-sources").innerHTML =
+      sources.slice(0, LIST_LEN).map((n) => row(n, outD[n.id], "heir")).join("") ||
+      `<li class="stat-none">none yet</li>`;
+    document.getElementById("stat-sources-foot").textContent = sources.length
+      ? `${sources.length} in all`
+      : "";
+
+    document.getElementById("stat-sinks").innerHTML =
+      sinks.slice(0, LIST_LEN).map((n) => row(n, inD[n.id], "forebear")).join("") ||
+      `<li class="stat-none">none yet</li>`;
+    document.getElementById("stat-sinks-foot").textContent = sinks.length ? `${sinks.length} in all` : "";
+
+    const centralEl = document.getElementById("stat-central");
+    const footEl = document.getElementById("stat-central-foot");
+    if (!central.length) {
+      centralEl.innerHTML = `<p class="stat-none">nothing runs through anything yet — the chains are still too short.</p>`;
+      footEl.textContent = "";
+    } else {
+      const top = central[0];
+      centralEl.innerHTML = `
+        <p class="stat-hero">${esc(top.node.label)}</p>
+        <p class="stat-hero-by">${esc(top.node.artist || "")}${top.node.year ? ` &middot; ${esc(top.node.year)}` : ""}</p>
+        <p class="stat-hero-meta">${inD[top.node.id]} in &middot; ${outD[top.node.id]} out</p>`;
+      const runners = central.slice(1, 1 + CENTRAL_RUNNERS);
+      footEl.innerHTML = runners.length
+        ? `then ${runners.map((r) => esc(r.node.label)).join(", ")}`
+        : "";
+    }
+
+    statsEl.hidden = false;
+  }
+
   function draw(graph) {
     const nodes = Object.values(graph.nodes || {});
     const edges = Object.values(graph.edges || {});
@@ -42,10 +174,12 @@
     if (!nodes.length) {
       mapEmptyState.hidden = false;
       container.hidden = true;
+      if (statsEl) statsEl.hidden = true;
       return;
     }
     mapEmptyState.hidden = true;
     container.hidden = false;
+    renderStats(nodes, edges);
 
     const width = container.clientWidth || 900;
     const height = container.clientHeight || 640;
