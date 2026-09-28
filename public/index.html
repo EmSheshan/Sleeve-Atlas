@@ -18,23 +18,17 @@
     <p class="tagline">notes &middot; personnel &middot; lineage</p>
   </div>
 
-  <nav class="view-tabs">
-    <button class="tab-btn is-active" data-view="list">your list</button>
-    <button class="tab-btn" data-view="map">music map</button>
-  </nav>
+  <div class="header-right">
+    <nav class="view-tabs">
+      <button class="tab-btn is-active" data-view="list">your list</button>
+      <button class="tab-btn" data-view="map">music map</button>
+    </nav>
+    <button id="account-btn" class="account-btn">sign in</button>
+  </div>
 </header>
 <div class="rule-stack" aria-hidden="true"><span></span><span></span><span></span></div>
 
 <main>
-
-  <section id="setup-panel" class="panel">
-    <label for="share-id-input">your share id or url</label>
-    <div class="setup-row">
-      <input id="share-id-input" type="text" placeholder="emsh &mdash; or paste your whole generator url" />
-      <button id="load-project-btn">load albums</button>
-    </div>
-    <p class="hint">Your project name works on its own, or paste the full link — either 1001albumsgenerator.com/&lt;name&gt; or a /shares/ URL.</p>
-  </section>
 
   <section id="list-view" class="view is-active">
     <div id="today-pick" class="today-pick" hidden></div>
@@ -43,16 +37,15 @@
       <input id="search-input" type="search" placeholder="search by album, artist, year or genre&hellip;" autocomplete="off" />
       <button id="search-clear" class="search-clear" aria-label="Clear search">&times;</button>
       <span class="search-count" id="search-count"></span>
-      <button class="project-chip" id="project-chip" hidden></button>
     </div>
 
     <div id="album-grid" class="album-grid"></div>
-    <p id="list-empty-state" class="empty-state">enter your share id above to pull in your history.</p>
+    <p id="list-empty-state" class="empty-state">sign in to pull in your history &mdash; or head to the music map, which needs no account.</p>
   </section>
 
   <section id="map-view" class="view">
     <div class="map-toolbar">
-      <p>Every album with notes links outward to the records that shaped it, and onward to what it went on to influence.</p>
+      <p>Every album with notes links outward to the records that shaped it, and onward to what it went on to influence. No account needed &mdash; the map is the same for everyone.</p>
       <button id="refresh-graph-btn">refresh map</button>
     </div>
     <div id="graph-canvas"></div>
@@ -60,6 +53,27 @@
   </section>
 
 </main>
+
+<div id="account-modal" class="modal-overlay" hidden>
+  <div class="modal-card account-card">
+    <button id="account-close-btn" class="modal-close" aria-label="Close">&times;</button>
+    <div class="account-body">
+      <p class="micro">1001 albums generator</p>
+      <h2 id="account-heading">sign in</h2>
+      <p class="account-blurb" id="account-blurb">Your project name is all it takes — there's no password. It's kept on this device only.</p>
+
+      <label for="share-id-input">project name or url</label>
+      <div class="setup-row">
+        <input id="share-id-input" type="text" placeholder="emsh &mdash; or paste your whole generator url" autocomplete="off" />
+        <button id="load-project-btn">sign in</button>
+      </div>
+      <p class="account-status" id="account-status" hidden></p>
+      <p class="hint">Either 1001albumsgenerator.com/&lt;name&gt; or a /shares/ URL works.</p>
+
+      <button id="sign-out-btn" class="sign-out-btn" hidden>sign out</button>
+    </div>
+  </div>
+</div>
 
 <div id="album-modal" class="modal-overlay" hidden>
   <div class="modal-card">

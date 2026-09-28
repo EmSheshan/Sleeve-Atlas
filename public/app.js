@@ -40,8 +40,13 @@ const searchBar = document.getElementById("search-bar");
 const searchInput = document.getElementById("search-input");
 const searchClear = document.getElementById("search-clear");
 const searchCount = document.getElementById("search-count");
-const setupPanel = document.getElementById("setup-panel");
-const projectChip = document.getElementById("project-chip");
+const accountModal = document.getElementById("account-modal");
+const accountBtn = document.getElementById("account-btn");
+const accountCloseBtn = document.getElementById("account-close-btn");
+const accountHeading = document.getElementById("account-heading");
+const accountBlurb = document.getElementById("account-blurb");
+const accountStatus = document.getElementById("account-status");
+const signOutBtn = document.getElementById("sign-out-btn");
 const scoreRow = document.getElementById("score-row");
 
 const revTabGroup = document.getElementById("rev-tab-group");
@@ -327,6 +332,7 @@ async function loadProject(shareId) {
   listEmptyState.textContent = "Loading your albums…";
   albumGrid.innerHTML = "";
   todayPickEl.hidden = true;
+  setAccountStatus("checking that project…");
 
   try {
     const data = await Data.project(shareId);
@@ -341,10 +347,8 @@ async function loadProject(shareId) {
       currentAlbumUuid: data.currentAlbum?.uuid || null,
       currentAlbumNotes: data.currentAlbumNotes || "",
     };
-    // the setup box is a one-time action, so fold it down to a chip once loaded
-    setupPanel.hidden = true;
-    projectChip.hidden = false;
-    projectChip.textContent = `${data.name || shareId} · change`;
+    setSignedIn(data.name || shareId);
+    closeAccount();
 
     renderTodayPick(data);
     renderGrid(data);
@@ -352,12 +356,77 @@ async function loadProject(shareId) {
   } catch (err) {
     listEmptyState.hidden = false;
     listEmptyState.textContent = `Couldn't load that project: ${err.message}`;
+    setAccountStatus(`couldn't load that one — ${err.message}`, true);
   }
 }
 
+// --- Account ---
+
+function setAccountStatus(text, isError = false) {
+  accountStatus.hidden = !text;
+  accountStatus.textContent = text || "";
+  accountStatus.classList.toggle("is-error", Boolean(isError));
+}
+
+function setSignedIn(name) {
+  accountBtn.textContent = name;
+  accountBtn.classList.remove("is-out");
+  accountBtn.title = `Signed in as ${name} — click to change`;
+  accountHeading.textContent = "your project";
+  accountBlurb.textContent = `Signed in as ${name}. Load a different project below, or sign out.`;
+  signOutBtn.hidden = false;
+  setAccountStatus("");
+}
+
+function setSignedOut() {
+  accountBtn.textContent = "sign in";
+  accountBtn.classList.add("is-out");
+  accountBtn.title = "Load your 1001 Albums Generator project";
+  accountHeading.textContent = "sign in";
+  accountBlurb.textContent =
+    "Your project name is all it takes — there's no password. It's kept on this device only.";
+  signOutBtn.hidden = true;
+  setAccountStatus("");
+}
+
+function openAccount() {
+  accountModal.hidden = false;
+  setAccountStatus("");
+  shareInput.focus();
+  shareInput.select();
+}
+
+function closeAccount() {
+  accountModal.hidden = true;
+}
+
+accountBtn.addEventListener("click", openAccount);
+accountCloseBtn.addEventListener("click", closeAccount);
+accountModal.addEventListener("click", (e) => {
+  if (e.target === accountModal) closeAccount();
+});
+
+signOutBtn.addEventListener("click", () => {
+  localStorage.removeItem(STORAGE_KEY);
+  projectContext = { name: null, groupSlug: null, groupName: null, currentAlbumUuid: null, currentAlbumNotes: "" };
+  allEntries = [];
+  albumGrid.innerHTML = "";
+  todayPickEl.hidden = true;
+  searchBar.hidden = true;
+  shareInput.value = "";
+  listEmptyState.hidden = false;
+  listEmptyState.textContent =
+    "sign in to pull in your history — or head to the music map, which needs no account.";
+  setSignedOut();
+  closeAccount();
+});
+
 loadBtn.addEventListener("click", () => {
   const shareId = extractShareId(shareInput.value);
-  if (!shareId) return;
+  if (!shareId) {
+    setAccountStatus("that doesn't look like a project name or url", true);
+    return;
+  }
   loadProject(shareId);
 });
 
@@ -366,12 +435,6 @@ shareInput.addEventListener("keydown", (e) => {
 });
 
 // --- Search ---
-
-projectChip.addEventListener("click", () => {
-  setupPanel.hidden = false;
-  projectChip.hidden = true;
-  shareInput.focus();
-});
 
 searchInput.addEventListener("input", applySearch);
 searchClear.addEventListener("click", () => {
@@ -386,9 +449,16 @@ searchInput.addEventListener("keydown", (e) => {
   }
 });
 
+// escape closes whichever sheet is open, innermost first
+document.addEventListener("keydown", (e) => {
+  if (e.key !== "Escape") return;
+  if (!modal.hidden) modal.hidden = true;
+  else if (!accountModal.hidden) closeAccount();
+});
+
 // "/" anywhere jumps to the search box
 document.addEventListener("keydown", (e) => {
-  if (e.key === "/" && modal.hidden) {
+  if (e.key === "/" && modal.hidden && accountModal.hidden) {
     const tag = document.activeElement?.tagName;
     if (tag === "INPUT" || tag === "TEXTAREA") return;
     e.preventDefault();
@@ -919,6 +989,11 @@ document.querySelectorAll(".tab-btn").forEach((btn) => {
 
 const savedShareId = localStorage.getItem(STORAGE_KEY);
 if (savedShareId) {
+  // optimistic: show the saved name straight away so the corner doesn't flash
+  // "sign in" on every reload; loadProject corrects it if the name has changed
+  setSignedIn(savedShareId);
   shareInput.value = savedShareId;
   loadProject(savedShareId);
+} else {
+  setSignedOut();
 }
