@@ -1262,13 +1262,6 @@ main {
 
 .zoom-controls button:hover { background: var(--paper-2); color: var(--ink); }
 
-/* the graph is the one place focus has to be obvious against a busy field */
-#graph-canvas g[tabindex]:focus-visible circle,
-#graph-canvas g[tabindex]:focus-visible image {
-  outline: 3px solid var(--brick);
-  outline-offset: 2px;
-}
-
 /* ---------- Map statistics ---------- */
 
 .map-stats {

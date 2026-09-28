@@ -190,8 +190,8 @@
       .attr("width", width)
       .attr("height", height)
       .attr("viewBox", [0, 0, width, height])
-      .attr("role", "group")
-      .attr("aria-label", `Influence map: ${nodes.length} albums, ${edges.length} links. Use the arrow keys to move between albums.`);
+      .attr("role", "img")
+      .attr("aria-label", `Influence map: ${nodes.length} albums, ${edges.length} links between them.`);
 
     const zoomLayer = svg.append("g");
 
@@ -201,6 +201,10 @@
     const zoom = d3
       .zoom()
       .scaleExtent([0.35, 2.5])
+      // Recomputed as each gesture begins, not once. The layout is still
+      // growing while the simulation runs, so a limit measured early leaves
+      // you unable to zoom out far enough to see the finished graph.
+      .on("start", () => applyBounds())
       .on("zoom", (event) => zoomLayer.attr("transform", event.transform));
 
     svg.call(zoom);
@@ -310,12 +314,12 @@
     const simulation = d3
       .forceSimulation(nodeData)
       .force("link", d3.forceLink(linkData).id((d) => d.id).distance(165).strength(0.45))
-      // Capped range. Ungated, every node pushes every other however far
-      // apart they are, so the layout grows with the graph: measured 4997px
-      // across at 315 nodes and it would keep going. Capping at 900 pulls
-      // that to ~2970 and costs only 224 -> 277 edge crossings. Tighter caps
-      // compact further but tangle badly — 300 gives 630 crossings.
-      .force("charge", d3.forceManyBody().strength(-420).distanceMax(900))
+      // Left uncapped on purpose. Capping the range compacts the layout, and
+      // compacting is what makes it unreadable: distanceMax(900) shrank the
+      // area 3.7x while total crossings barely moved, which took crossings
+      // per screenful from 6 to 24. The graph being physically large is fine
+      // — you zoom and pan. Dense is not.
+      .force("charge", d3.forceManyBody().strength(-420))
       .force("center", d3.forceCenter(width / 2, height / 2))
       .force("x", d3.forceX(width / 2).strength(0.015))
       .force("y", d3.forceY(height / 2).strength(0.015))
@@ -458,57 +462,17 @@
       .attr("stroke-width", 3.5)
       .attr("stroke-linejoin", "round");
 
-    // A title per node is what a screen reader reads on focus. Cheap, and the
-    // browser shows it as a tooltip too.
     node
-      .append("title")
-      .text((d) => `${d.label}${d.artist ? ` by ${d.artist}` : ""}${d.year ? `, ${d.year}` : ""}`);
-
-    // Roving tabindex: exactly one node is in the tab order at a time and the
-    // arrow keys move between them. Making all 315 (soon 1000+) individually
-    // tabbable would bury a keyboard user in tab stops with no way past.
-    const nodeEls = node.nodes();
-    let focusIndex = 0;
-    const setRoving = (i) => {
-      focusIndex = (i + nodeEls.length) % nodeEls.length;
-      nodeEls.forEach((el, j) => el.setAttribute("tabindex", j === focusIndex ? "0" : "-1"));
-      return nodeEls[focusIndex];
-    };
-    node.attr("role", "img").attr("tabindex", -1);
-    setRoving(0);
-
-    function describe(d) {
-      return `<strong>${d.artist}</strong><br/>${d.album || d.label} ${d.year ? `(${d.year})` : ""}`;
-    }
-
-    node
-      .on("mouseenter", (event, d) => showTooltip(describe(d), event.offsetX, event.offsetY))
+      .on("mouseenter", (event, d) => {
+        showTooltip(`<strong>${d.artist}</strong><br/>${d.album || d.label} ${d.year ? `(${d.year})` : ""}`, event.offsetX, event.offsetY);
+      })
       .on("mousemove", (event) => {
         if (tooltip) {
           tooltip.style.left = `${event.offsetX + 16}px`;
           tooltip.style.top = `${event.offsetY + 8}px`;
         }
       })
-      .on("mouseleave", hideTooltip)
-      // focus has no offsetX/offsetY, so place the tooltip from the node's own
-      // position put through the current zoom transform
-      .on("focus", function (event, d) {
-        const t = d3.zoomTransform(svg.node());
-        showTooltip(describe(d), t.applyX(d.x), t.applyY(d.y));
-      })
-      .on("blur", hideTooltip)
-      .on("keydown", (event, d) => {
-        const step = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[event.key];
-        if (step) {
-          event.preventDefault();
-          setRoving(focusIndex + step).focus();
-          return;
-        }
-        if (event.key === "Home" || event.key === "End") {
-          event.preventDefault();
-          setRoving(event.key === "Home" ? 0 : nodeEls.length - 1).focus();
-        }
-      });
+      .on("mouseleave", hideTooltip);
 
     // Each edge is trimmed to the two nodes' rims along the arc, so the
     // arrowhead lands on the circle's edge whatever size it is. The obvious way
@@ -592,14 +556,22 @@
 
     window.__graphSettled = false;
     simulation.on("end", () => {
-      applyBounds({ fit: true });
+      // bounds only. Auto-fitting put the whole graph on screen at 0.21 scale,
+      // where every label overlaps its neighbours — technically "you can see
+      // it all", practically unreadable. The fit button is there when you
+      // want the overview.
+      applyBounds();
       window.__graphSettled = true;
     });
-    // Fallback for a simulation that never reaches "end" — a hidden tab pauses
-    // requestAnimationFrame, so it can sit unfinished indefinitely. Only bounds
-    // here, no fit: mid-flight the layout is still collapsing and fitting to it
-    // lands on a scale that's wrong seconds later.
-    setTimeout(() => applyBounds(), 3000);
+    // The zoom limits depend on the layout's size, which keeps changing while
+    // the simulation runs — so refresh them a few times on the way rather than
+    // waiting for "end", which never arrives if the tab is hidden (a hidden
+    // tab pauses requestAnimationFrame, and with it the simulation).
+    let refreshes = 0;
+    const refresh = setInterval(() => {
+      applyBounds();
+      if (++refreshes >= 8 || window.__graphSettled) clearInterval(refresh);
+    }, 1200);
   }
 
   window.renderGraph = async function renderGraph(force) {
