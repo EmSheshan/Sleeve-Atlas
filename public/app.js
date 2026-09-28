@@ -302,7 +302,7 @@ function renderCards(entries) {
     card.innerHTML = `
       <div class="art-frame"></div>
       <div class="card-body">
-        <p class="card-title">${album.name}</p>
+        <p class="card-title" title="${album.name.replace(/"/g, "&quot;")}">${album.name}</p>
         <p class="card-artist">${album.artist}</p>
         <div class="card-meta">
           <span>${album.releaseDate}</span>
@@ -737,6 +737,38 @@ document.querySelectorAll(".rev-tab").forEach((btn) => {
   });
 });
 
+// --- Notes / reviews sub-tabs ---
+
+const subPanes = {
+  notes: document.getElementById("sub-pane-notes"),
+  reviews: document.getElementById("sub-pane-reviews"),
+};
+
+function showSubPane(name) {
+  document.querySelectorAll(".sub-tab").forEach((b) => {
+    const on = b.dataset.pane === name;
+    b.classList.toggle("is-active", on);
+    b.setAttribute("aria-selected", String(on));
+  });
+  for (const [key, pane] of Object.entries(subPanes)) pane.hidden = key !== name;
+
+  // the review lists load while their pane is hidden, where scrollTop is a
+  // no-op — same reason the group/global tabs defer it
+  if (name === "reviews") {
+    flushScrollReset(revPanelGroup);
+    flushScrollReset(revPanelGlobal);
+  }
+}
+
+document.querySelectorAll(".sub-tab").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    showSubPane(btn.dataset.pane);
+    // switching while scrolled deep into a note would otherwise drop you into
+    // the middle of the other pane — bring the tab row back up with you
+    btn.closest(".sub-tabs").scrollIntoView({ block: "start", behavior: "smooth" });
+  });
+});
+
 // --- Modal / insight ---
 
 function resetInsightPanels() {
@@ -775,6 +807,9 @@ function openModal(album, entry) {
   renderScoreRow(currentScores);
   loadGlobalAverage(album, entry);
 
+
+  // every album opens on its note, whichever tab the last one was left on
+  showSubPane("notes");
 
   const modalCard = modal.querySelector(".modal-card");
   modalCard.style.removeProperty("--plate");

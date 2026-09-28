@@ -402,6 +402,10 @@ main {
   padding: 10px 10px 0;
   box-shadow: var(--shadow-sm);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+  /* column so the caption can push its foot down; the art is square and the
+     caption is a fixed two lines plus one, so every tile ends up identical */
+  display: flex;
+  flex-direction: column;
 }
 
 .album-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
@@ -423,6 +427,9 @@ main {
   padding: 0.8rem 0.25rem 0.9rem;
   border-top: 3px solid var(--plate);
   margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
 }
 
 .album-card .card-title {
@@ -433,6 +440,14 @@ main {
   letter-spacing: -0.035em;
   text-transform: lowercase;
   margin: 0 0 0.3rem;
+  /* Always exactly two lines. Titles ran one to four, which is where the
+     62px of height variation came from. Nine of 269 get an ellipsis; the
+     full title is in the tooltip and in the sheet. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2em;
 }
 
 .album-card .card-artist {
@@ -441,13 +456,25 @@ main {
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--ink-2);
+  /* Two fixed lines. One line meant clipping "Captain Beefheart & His Magic
+     Band", and shrinking it to fit needed 8.5px type and still didn't. A
+     reserved second line costs every tile ~17px and cuts nothing. */
+  line-height: 1.25;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.5em;
 }
 
 .album-card .card-meta {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 0.6rem;
+  /* auto, not a fixed gap: pins year and stars to the foot of the tile so
+     they line up across the whole grid whatever the title did above */
+  margin-top: auto;
+  padding-top: 0.6rem;
   font-size: 0.68rem;
   color: var(--ink-3);
 }
@@ -511,9 +538,9 @@ main {
 
 .modal-body { display: flex; gap: 2.25rem; padding: 2.25rem; flex-wrap: wrap; }
 
+.modal-side { flex: 0 0 225px; align-self: flex-start; }
+
 .modal-art {
-  flex: 0 0 225px;
-  align-self: flex-start;
   line-height: 0;
   border-radius: 3px;
   overflow: hidden;
@@ -694,31 +721,65 @@ main {
 
 /* ---------- Listen links ---------- */
 
-.listen-row { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.7rem; }
-
-.listen-btn {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 0.85rem;
-  text-transform: lowercase;
-  letter-spacing: -0.015em;
-  text-decoration: none;
-  background: var(--forest);
-  color: var(--paper);
-  border: 0;
-  border-radius: 4px;
-  padding: 0.48rem 1rem;
-  transition: opacity 0.2s ease, transform 0.2s ease;
+/* Under the sleeve rather than in the text column — they belong to the record,
+   not to the writing. Marks are Simple Icons (CC0). */
+.listen-row {
+  display: flex;
+  gap: 0.55rem;
+  justify-content: center;
+  margin-top: 0.85rem;
 }
 
-.listen-btn:hover { opacity: 0.88; transform: translateY(-1px); }
+.listen-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--paper-2);
+  color: var(--ink-2);
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
 
-.listen-btn--ghost { background: var(--paper-2); color: var(--ink-2); }
-.listen-btn--ghost:hover { background: var(--edge); color: var(--ink); opacity: 1; }
+.listen-icon svg { width: 19px; height: 19px; display: block; }
+
+.listen-icon:hover { color: var(--ink); background: var(--edge); transform: translateY(-2px); }
+.listen-icon--spotify:hover { background: var(--forest); color: var(--paper); }
 
 /* ---------- Reviews ---------- */
 
 .reviews-block { margin-bottom: 1.8rem; }
+
+/* Top-level split inside the modal: the liner note on one side, everything
+   people wrote on the other. The sheet ran to five screens on a phone with
+   both stacked, and the note is ~75% of that. */
+.sub-tabs {
+  display: flex;
+  gap: 1.6rem;
+  margin: 1.6rem 0 1.4rem;
+  border-bottom: 1.5px solid var(--edge-2);
+}
+
+.sub-tab {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1rem;
+  text-transform: lowercase;
+  letter-spacing: -0.02em;
+  background: none;
+  color: var(--ink-3);
+  border: 0;
+  border-bottom: 2.5px solid transparent;
+  border-radius: 0;
+  padding: 0 0 0.6rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.sub-tab:hover { color: var(--ink); background: none; transform: none; }
+.sub-tab.is-active { color: var(--ink); border-bottom-color: var(--brick); }
 
 .review-tabs { display: flex; gap: 1.4rem; margin-bottom: 1rem; border-bottom: 1.5px solid var(--edge); }
 
@@ -916,7 +977,41 @@ main {
 @media (max-width: 680px) {
   .site-header { align-items: flex-start; }
   .modal-body { padding: 1.4rem; gap: 1.4rem; }
-  .modal-art { flex: 0 0 140px; }
+  .modal-side { flex: 0 0 140px; }
   .today-pick { padding: 1.4rem; gap: 1.2rem; min-height: 0; }
   .today-pick .tp-cover { width: 110px; height: 110px; }
+
+  /* the chip sat on one nowrap line with the input and was pushed off-screen */
+  .search-bar { flex-wrap: wrap; gap: 0.7rem 1rem; }
+}
+
+@media (max-width: 460px) {
+  /* Phone sizing. The sheet is display type at desktop scale, which on a
+     375px screen means three words to a line and a lot of scrolling before
+     the prose starts. */
+  .modal-overlay { padding: 0.75rem; }
+  .modal-body { padding: 1.1rem; gap: 1.1rem; }
+  .modal-card { max-height: 92vh; }
+
+  .modal-side { flex: 0 0 104px; }
+  #modal-title { font-size: 1.65rem; line-height: 1.05; }
+  .modal-artist { font-size: 0.8rem; }
+  .modal-eyebrow { font-size: 0.6rem; letter-spacing: 0.12em; }
+
+  /* three cells at 92px minimum wrapped onto three rows — let them sit as a
+     single row of thirds, which is legible down to about 320px */
+  .score-row { padding: 0.8rem 0.9rem; margin-bottom: 1.1rem; gap: 0.5rem; }
+  .score-cell { flex: 1 1 0; min-width: 0; }
+  .score-label { font-size: 0.55rem; letter-spacing: 0.06em; }
+  .score-sub { font-size: 0.55rem; }
+
+  .sub-tabs { gap: 1.1rem; margin: 1.2rem 0 1.1rem; }
+  .sub-tab { font-size: 0.92rem; }
+  .review-tabs { gap: 1rem; }
+
+  .insight-section h3 { font-size: 0.95rem; }
+  .insight-block { font-size: 0.92rem; }
+  .listen-row { gap: 0.5rem; }
+  .listen-btn { font-size: 0.78rem; padding: 0.5rem 0.8rem; }
+  .modal-close { top: 0.7rem; right: 0.7rem; }
 }
