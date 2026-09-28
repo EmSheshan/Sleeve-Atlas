@@ -1008,6 +1008,11 @@ main {
 
 #graph-canvas {
   position: relative;
+  /* dragging a node is a drag gesture over text and images, which the browser
+     otherwise reads as "select these labels" and paints blue */
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
   background: var(--paper-3);
   border: 0;
   border-radius: var(--radius);
@@ -1236,6 +1241,11 @@ main {
 .artist-album .stars { font-size: 0.72rem; white-space: nowrap; }
 
 .graph-wrap { position: relative; }
+
+/* an <image> is draggable by default, so the sleeves could be torn out of the
+   map and dropped elsewhere mid-gesture */
+#graph-canvas image { -webkit-user-drag: none; }
+#graph-canvas svg:focus { outline: none; }
 
 .zoom-controls {
   position: absolute;
