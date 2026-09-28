@@ -1235,6 +1235,40 @@ main {
 .artist-album:hover { background: var(--paper-2); color: var(--ink); }
 .artist-album .stars { font-size: 0.72rem; white-space: nowrap; }
 
+.graph-wrap { position: relative; }
+
+.zoom-controls {
+  position: absolute;
+  right: 0.9rem;
+  bottom: 0.9rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.zoom-controls button {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  min-width: 2.1rem;
+  height: 2.1rem;
+  padding: 0 0.5rem;
+  background: var(--paper);
+  color: var(--ink-2);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.zoom-controls button:hover { background: var(--paper-2); color: var(--ink); }
+
+/* the graph is the one place focus has to be obvious against a busy field */
+#graph-canvas g[tabindex]:focus-visible circle,
+#graph-canvas g[tabindex]:focus-visible image {
+  outline: 3px solid var(--brick);
+  outline-offset: 2px;
+}
+
 /* ---------- Map statistics ---------- */
 
 .map-stats {

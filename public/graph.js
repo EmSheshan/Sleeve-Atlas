@@ -189,10 +189,15 @@
       .append("svg")
       .attr("width", width)
       .attr("height", height)
-      .attr("viewBox", [0, 0, width, height]);
+      .attr("viewBox", [0, 0, width, height])
+      .attr("role", "group")
+      .attr("aria-label", `Influence map: ${nodes.length} albums, ${edges.length} links. Use the arrow keys to move between albums.`);
 
     const zoomLayer = svg.append("g");
 
+    // The floor is set for real once the layout has settled — a fixed 0.35 was
+    // less than the graph needed to fit on screen, so most of it simply could
+    // not be reached by zooming out. It looked like nodes flying off.
     const zoom = d3
       .zoom()
       .scaleExtent([0.35, 2.5])
@@ -203,13 +208,26 @@
     // Fence the pannable area to the graph plus half a screen of slack, so you
     // can't scroll off into empty space with no way back. Applied once the
     // layout has settled, since the extent depends on where things ended up.
-    function applyBounds() {
+    function applyBounds({ fit = false } = {}) {
       const b = zoomLayer.node().getBBox();
       if (!b.width || !b.height) return;
       zoom.translateExtent([
         [b.x - width / 2, b.y - height / 2],
         [b.x + b.width + width / 2, b.y + b.height + height / 2],
       ]);
+
+      // Let the floor go to whatever actually contains the graph, with a little
+      // slack, rather than a guessed constant. Never zoom past 1:1 — a small
+      // graph should sit at its natural size, not be blown up to fill the box.
+      const toFit = Math.min(1, Math.min(width / b.width, height / b.height) * 0.92);
+      zoom.scaleExtent([Math.min(toFit, 0.35), 2.5]);
+
+      if (!fit) return;
+      const t = d3.zoomIdentity
+        .translate(width / 2, height / 2)
+        .scale(toFit)
+        .translate(-(b.x + b.width / 2), -(b.y + b.height / 2));
+      svg.transition().duration(450).call(zoom.transform, t);
     }
 
     const defs = svg.append("defs");
@@ -241,10 +259,63 @@
     const linkData = edges.map((e) => ({ ...e }));
     const nodeData = nodes.map((n) => ({ ...n }));
 
+    // The notes make ~20 separate webs that share no edges. D3 starts every
+    // node in one spiral at the centre, so those webs begin interleaved and
+    // spend the first seconds shoving each other apart — which is the tangle.
+    // Giving each its own starting patch lets them settle rather than fight.
+    (function seedComponents() {
+      const adjacency = {};
+      for (const n of nodeData) adjacency[n.id] = [];
+      for (const e of linkData) {
+        adjacency[e.source]?.push(e.target);
+        adjacency[e.target]?.push(e.source);
+      }
+      const byId = Object.fromEntries(nodeData.map((n) => [n.id, n]));
+      const seen = new Set();
+      const groups = [];
+      for (const n of nodeData) {
+        if (seen.has(n.id)) continue;
+        seen.add(n.id);
+        const queue = [n.id];
+        const group = [];
+        while (queue.length) {
+          const v = queue.shift();
+          group.push(v);
+          for (const w of adjacency[v]) {
+            if (seen.has(w)) continue;
+            seen.add(w);
+            queue.push(w);
+          }
+        }
+        groups.push(group);
+      }
+      groups.sort((a, b) => b.length - a.length);
+
+      // biggest web in the middle, the rest ringed around it
+      groups.forEach((group, i) => {
+        const ring = i === 0 ? 0 : 320 + Math.sqrt(i) * 170;
+        const angle = i * 2.39996; // golden angle, so rings don't line up
+        const gx = width / 2 + Math.cos(angle) * ring;
+        const gy = height / 2 + Math.sin(angle) * ring;
+        const spread = 20 + Math.sqrt(group.length) * 24;
+        group.forEach((id, j) => {
+          const a = j * 2.39996;
+          const r = spread * Math.sqrt((j + 0.5) / group.length);
+          byId[id].x = gx + Math.cos(a) * r;
+          byId[id].y = gy + Math.sin(a) * r;
+        });
+      });
+    })();
+
     const simulation = d3
       .forceSimulation(nodeData)
       .force("link", d3.forceLink(linkData).id((d) => d.id).distance(165).strength(0.45))
-      .force("charge", d3.forceManyBody().strength(-420))
+      // Capped range. Ungated, every node pushes every other however far
+      // apart they are, so the layout grows with the graph: measured 4997px
+      // across at 315 nodes and it would keep going. Capping at 900 pulls
+      // that to ~2970 and costs only 224 -> 277 edge crossings. Tighter caps
+      // compact further but tangle badly — 300 gives 630 crossings.
+      .force("charge", d3.forceManyBody().strength(-420).distanceMax(900))
       .force("center", d3.forceCenter(width / 2, height / 2))
       .force("x", d3.forceX(width / 2).strength(0.015))
       .force("y", d3.forceY(height / 2).strength(0.015))
@@ -387,17 +458,57 @@
       .attr("stroke-width", 3.5)
       .attr("stroke-linejoin", "round");
 
+    // A title per node is what a screen reader reads on focus. Cheap, and the
+    // browser shows it as a tooltip too.
     node
-      .on("mouseenter", (event, d) => {
-        showTooltip(`<strong>${d.artist}</strong><br/>${d.album || d.label} ${d.year ? `(${d.year})` : ""}`, event.offsetX, event.offsetY);
-      })
+      .append("title")
+      .text((d) => `${d.label}${d.artist ? ` by ${d.artist}` : ""}${d.year ? `, ${d.year}` : ""}`);
+
+    // Roving tabindex: exactly one node is in the tab order at a time and the
+    // arrow keys move between them. Making all 315 (soon 1000+) individually
+    // tabbable would bury a keyboard user in tab stops with no way past.
+    const nodeEls = node.nodes();
+    let focusIndex = 0;
+    const setRoving = (i) => {
+      focusIndex = (i + nodeEls.length) % nodeEls.length;
+      nodeEls.forEach((el, j) => el.setAttribute("tabindex", j === focusIndex ? "0" : "-1"));
+      return nodeEls[focusIndex];
+    };
+    node.attr("role", "img").attr("tabindex", -1);
+    setRoving(0);
+
+    function describe(d) {
+      return `<strong>${d.artist}</strong><br/>${d.album || d.label} ${d.year ? `(${d.year})` : ""}`;
+    }
+
+    node
+      .on("mouseenter", (event, d) => showTooltip(describe(d), event.offsetX, event.offsetY))
       .on("mousemove", (event) => {
         if (tooltip) {
           tooltip.style.left = `${event.offsetX + 16}px`;
           tooltip.style.top = `${event.offsetY + 8}px`;
         }
       })
-      .on("mouseleave", hideTooltip);
+      .on("mouseleave", hideTooltip)
+      // focus has no offsetX/offsetY, so place the tooltip from the node's own
+      // position put through the current zoom transform
+      .on("focus", function (event, d) {
+        const t = d3.zoomTransform(svg.node());
+        showTooltip(describe(d), t.applyX(d.x), t.applyY(d.y));
+      })
+      .on("blur", hideTooltip)
+      .on("keydown", (event, d) => {
+        const step = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[event.key];
+        if (step) {
+          event.preventDefault();
+          setRoving(focusIndex + step).focus();
+          return;
+        }
+        if (event.key === "Home" || event.key === "End") {
+          event.preventDefault();
+          setRoving(event.key === "Home" ? 0 : nodeEls.length - 1).focus();
+        }
+      });
 
     // Each edge is trimmed to the two nodes' rims along the arc, so the
     // arrowhead lands on the circle's edge whatever size it is. The obvious way
@@ -466,12 +577,29 @@
       node.attr("transform", (d) => `translate(${d.x},${d.y})`);
     });
 
+    // d3's zoom answers the wheel and dragging, neither of which a keyboard
+    // has. These are ordinary buttons, so they're in the tab order for free.
+    const zoomControls = document.getElementById("zoom-controls");
+    if (zoomControls) {
+      zoomControls.hidden = false;
+      zoomControls.onclick = (e) => {
+        const what = e.target.closest("button")?.dataset.zoom;
+        if (!what) return;
+        if (what === "fit") applyBounds({ fit: true });
+        else svg.transition().duration(220).call(zoom.scaleBy, what === "in" ? 1.45 : 1 / 1.45);
+      };
+    }
+
     window.__graphSettled = false;
     simulation.on("end", () => {
-      applyBounds();
+      applyBounds({ fit: true });
       window.__graphSettled = true;
     });
-    setTimeout(applyBounds, 3000);
+    // Fallback for a simulation that never reaches "end" — a hidden tab pauses
+    // requestAnimationFrame, so it can sit unfinished indefinitely. Only bounds
+    // here, no fit: mid-flight the layout is still collapsing and fitting to it
+    // lands on a scale that's wrong seconds later.
+    setTimeout(() => applyBounds(), 3000);
   }
 
   window.renderGraph = async function renderGraph(force) {

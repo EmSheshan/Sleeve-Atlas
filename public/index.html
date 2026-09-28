@@ -110,7 +110,14 @@
       <p>Every album with notes links outward to the records that shaped it, and onward to what it went on to influence. No account needed &mdash; the map is the same for everyone.</p>
       <button id="refresh-graph-btn">refresh map</button>
     </div>
-    <div id="graph-canvas"></div>
+    <div class="graph-wrap">
+      <div id="graph-canvas"></div>
+      <div class="zoom-controls" id="zoom-controls" hidden>
+        <button type="button" data-zoom="in" aria-label="Zoom in">+</button>
+        <button type="button" data-zoom="out" aria-label="Zoom out">&minus;</button>
+        <button type="button" data-zoom="fit" aria-label="Fit the whole map on screen">fit</button>
+      </div>
+    </div>
 
     <section id="map-stats" class="map-stats" hidden>
       <article class="stat-card">
