@@ -168,11 +168,13 @@ window.Data = {
       nodes[node.id] = { ...nodes[node.id], ...node };
     };
 
-    for (const insight of Object.values(insights)) {
+    for (const [uuid, insight] of Object.entries(insights)) {
       if (!insight.artist || !insight.album) continue;
 
       const centre = {
         id: nodeId(insight.artist, insight.album),
+        // the generator's own id, so the map can open this album's sheet
+        uuid,
         label: insight.album,
         artist: insight.artist,
         album: insight.album,

@@ -1232,6 +1232,21 @@ function renderInsight(insight) {
     .join("");
 }
 
+// The map lives in its own file and has no access to the history entries, so
+// it opens an album through here. Falls back to a bare album object when the
+// record isn't in your list — the notes still render, the ratings just don't.
+window.openAlbumFromMap = async function openAlbumFromMap(uuid) {
+  const entry = allEntries.find((e) => e.album.uuid === uuid);
+  if (entry) {
+    openModal(entry.album, entry);
+    return true;
+  }
+  const insight = await Data.insight(uuid);
+  if (!insight) return false;
+  openModal({ uuid, name: insight.album, artist: insight.artist, releaseDate: insight.year, genres: [] }, null);
+  return true;
+};
+
 // --- Tabs ---
 
 document.querySelectorAll(".tab-btn").forEach((btn) => {

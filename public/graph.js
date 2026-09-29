@@ -5,7 +5,11 @@
 
   let loaded = false;
   let tooltip = null;
-  let showLeaves = false;
+  // Showing everything by default. Hiding the single-mention records halved
+  // the object count but didn't touch what actually makes the map hard to
+  // read — the noted albums cross-reference each other densely, because music
+  // does. The toggle stays for when you want a thinner picture.
+  let showLeaves = true;
   let hiddenCount = 0;
   let lastGraph = null;
 
@@ -498,20 +502,65 @@
       neighbours[t]?.add(s);
     }
 
+    const focusCard = document.getElementById("focus-card");
+    const focusOpen = document.getElementById("focus-open");
+
     let focused = null;
     function setFocus(id) {
       focused = id;
       const near = id ? neighbours[id] : null;
+      const picked = id ? nodeData.find((d) => d.id === id) : null;
+
       node.classed("is-dimmed", (d) => Boolean(near) && !near.has(d.id));
+      // the one you picked reads differently from the ones it merely touches
+      node.classed("is-picked", (d) => d.id === id);
       edge.classed("is-dimmed", (d) => {
         if (!near) return false;
         const s = typeof d.source === "object" ? d.source.id : d.source;
         const t = typeof d.target === "object" ? d.target.id : d.target;
         return !(near.has(s) && near.has(t));
       });
+      // its own links get the hover treatment, so the chain reads at a glance
+      edge.classed("is-lit", (d) => {
+        if (!id) return false;
+        const s = typeof d.source === "object" ? d.source.id : d.source;
+        const t = typeof d.target === "object" ? d.target.id : d.target;
+        return s === id || t === id;
+      });
+
+      if (focusCard) {
+        focusCard.hidden = !picked;
+        if (picked) {
+          document.getElementById("focus-album").textContent = picked.album || picked.label;
+          document.getElementById("focus-artist").textContent = [picked.artist, picked.year]
+            .filter(Boolean)
+            .join(" · ");
+          focusOpen.hidden = !picked.uuid;
+          focusOpen.onclick = () => window.openAlbumFromMap?.(picked.uuid);
+        }
+      }
+      if (!near) return;
+
+      // Dimming alone isn't enough: at the zoom where the whole map fits, the
+      // surviving nodes are still specks scattered across it. Zoom to them, so
+      // a focused record is legible no matter how large the web has grown.
+      const pts = nodeData.filter((d) => near.has(d.id));
+      if (pts.length < 2) return;
+      const pad = 120;
+      const x0 = Math.min(...pts.map((p) => p.x)) - pad;
+      const x1 = Math.max(...pts.map((p) => p.x)) + pad;
+      const y0 = Math.min(...pts.map((p) => p.y)) - pad;
+      const y1 = Math.max(...pts.map((p) => p.y)) + pad;
+      const k = Math.min(2.2, Math.min(width / (x1 - x0), height / (y1 - y0)));
+      const t = d3.zoomIdentity
+        .translate(width / 2, height / 2)
+        .scale(k)
+        .translate(-(x0 + x1) / 2, -(y0 + y1) / 2);
+      svg.transition().duration(500).call(zoom.transform, t);
     }
 
     svg.on("click", () => setFocus(null));
+    document.getElementById("focus-clear")?.addEventListener("click", () => setFocus(null));
 
     node
       .on("click", (event, d) => {
@@ -603,7 +652,7 @@
       zoomControls.hidden = false;
       const leavesBtn = document.getElementById("leaves-toggle");
       if (leavesBtn) {
-        leavesBtn.textContent = showLeaves ? "fewer" : `show all${hiddenCount ? ` (+${hiddenCount})` : ""}`;
+        leavesBtn.textContent = showLeaves ? "thin out" : `show all${hiddenCount ? ` (+${hiddenCount})` : ""}`;
         leavesBtn.classList.toggle("is-held", showLeaves);
       }
       zoomControls.onclick = (e) => {

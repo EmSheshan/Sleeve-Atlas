@@ -107,11 +107,19 @@
 
   <section id="map-view" class="view">
     <div class="map-toolbar">
-      <p>Every album with notes links outward to the records that shaped it, and onward to what it went on to influence. No account needed &mdash; the map is the same for everyone.</p>
+      <p>Every album with notes links outward to the records that shaped it, and onward to what it went on to influence. Click any record to follow just its links &mdash; the whole web is a shape, not a reading. No account needed; the map is the same for everyone.</p>
       <button id="refresh-graph-btn">refresh map</button>
     </div>
     <div class="graph-wrap">
       <div id="graph-canvas"></div>
+      <div class="focus-card" id="focus-card" hidden>
+        <div class="focus-text">
+          <p class="focus-album" id="focus-album"></p>
+          <p class="focus-artist" id="focus-artist"></p>
+        </div>
+        <button type="button" id="focus-open" hidden>open notes</button>
+        <button type="button" id="focus-clear" aria-label="Clear selection">&times;</button>
+      </div>
       <div class="zoom-controls" id="zoom-controls" hidden>
         <button type="button" data-zoom="in" aria-label="Zoom in">+</button>
         <button type="button" data-zoom="out" aria-label="Zoom out">&minus;</button>
