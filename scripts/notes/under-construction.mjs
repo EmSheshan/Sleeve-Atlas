@@ -58,7 +58,7 @@ await saveNote({
   ],
 
   influenced: [
-    { artist: "M.I.A.", album: "Arular", year: "2005", note: "Chant-based, percussion-first, deliberately primitive-sounding pop built around a woman's voice used as rhythm." },
-    { artist: "Beyoncé", album: "Lemonade", year: "2016", note: "The template of a Black woman pop auteur controlling production, concept and visual presentation as one argument." },
+    { artist: "M.I.A.", album: "Arular", year: "2005", note: "Chant-based, percussion-first pop that uses the voice as a rhythm instrument rather than a melodic one." },
+    { artist: "Beyoncé", album: "Lemonade", year: "2016", note: "The pop album as a single authored statement, with production, concept and visual presentation controlled by the artist." },
   ],
 });

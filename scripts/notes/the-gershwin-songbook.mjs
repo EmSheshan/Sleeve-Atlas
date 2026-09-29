@@ -54,7 +54,7 @@ await saveNote({
   ],
 
   influenced: [
-    { artist: "Nina Simone", album: "I Put a Spell on You", year: "1965", note: "The lineage of a Black woman singer taking the American songbook on her own terms and being read as an artist rather than an entertainer." },
+    { artist: "Nina Simone", album: "I Put a Spell on You", year: "1965", note: "Taking the American songbook as material to be reinterpreted rather than served, and being received as an artist rather than an entertainer." },
     { artist: "Dusty Springfield", album: "Dusty in Memphis", year: "1969", note: "The model of a singer's voice carried by a lavish, unhurried orchestral arrangement." },
   ],
 });

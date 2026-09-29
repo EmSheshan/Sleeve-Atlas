@@ -55,6 +55,6 @@ await saveNote({
 
   influenced: [
     { artist: "Bikini Kill", album: "Pussy Whipped", year: "1993", note: "Riot grrrl looked back to the Go-Go's LA punk origins as proof that women could simply form a band and play." },
-    { artist: "Paramore", album: "Riot!", year: "2007", note: "The lineage of a woman fronting a self-writing pop-punk band with mainstream reach descends from here." },
+    { artist: "Paramore", album: "Riot!", year: "2007", note: "Pop-punk with surf-derived guitar leads and hooks written by the singer rather than handed to her." },
   ],
 });

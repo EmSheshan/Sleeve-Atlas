@@ -60,6 +60,6 @@ await saveNote({
 
   influenced: [
     { artist: "Elliott Smith", album: "XO", year: "1998", note: "Jon Brion produced it; the same marriage of Beatles-descended arrangement to plainly sung, unsparing lyrics." },
-    { artist: "Fiona Apple", album: "Extraordinary Machine", year: "2005", note: "Another Brion collaboration, and the same tradition of a woman writing sardonic, structurally restless pop on her own terms." },
+    { artist: "Fiona Apple", album: "Extraordinary Machine", year: "2005", note: "Another Jon Brion collaboration, with the same chamber-pop arrangements around sardonic, structurally restless songwriting." },
   ],
 });

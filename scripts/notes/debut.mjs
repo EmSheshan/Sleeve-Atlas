@@ -54,11 +54,11 @@ await saveNote({
 
   influencedBy: [
     { artist: "Soul II Soul", album: "Club Classics Vol. One", year: "1989", note: "Nellee Hooper produced it; the warm, mid-tempo British dance production he brought is the album's spine." },
-    { artist: "Kate Bush", album: "Hounds of Love", year: "1985", note: "The precedent for a woman running her own studio, singing in an unguarded and unconventional voice, and treating pop as a place for strangeness." },
+    { artist: "Kate Bush", album: "Hounds of Love", year: "1985", note: "The precedent for an artist producing herself, singing in an unguarded and unconventional voice, and treating pop as a place for strangeness." },
   ],
 
   influenced: [
-    { artist: "Portishead", album: "Dummy", year: "1994", note: "Released a year later out of the same Bristol-adjacent production world; the pairing of a singular female voice with downtempo beats and jazz instrumentation is shared ground." },
+    { artist: "Portishead", album: "Dummy", year: "1994", note: "Released a year later out of the same Bristol-adjacent world; the pairing of a singular voice with downtempo beats and jazz instrumentation is shared ground." },
     { artist: "Radiohead", album: "Kid A", year: "2000", note: "A guitar-scene act rebuilding itself around electronic production and unresolved arrangements, following a path she opened." },
     { artist: "FKA twigs", album: "LP1", year: "2014", note: "The model of a singer as auteur, commissioning producers and visual artists to realise a wholly personal sound world." },
   ],

@@ -49,7 +49,7 @@ await saveNote({
   ],
 
   influencedBy: [
-    { artist: "Dusty Springfield", album: "Dusty in Memphis", year: "1969", note: "The template of a British woman singing American soul with complete conviction and no affectation of Blackness." },
+    { artist: "Dusty Springfield", album: "Dusty in Memphis", year: "1969", note: "The template of a British singer delivering American soul with complete conviction and no borrowed accent." },
     { artist: "Amy Winehouse", album: "Back to Black", year: "2006", note: "Reopened the British soul-revival lane Adele walked into, and shares her early producer Mark Ronson." },
   ],
 

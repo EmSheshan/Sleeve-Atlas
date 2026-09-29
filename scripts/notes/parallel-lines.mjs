@@ -58,7 +58,7 @@ await saveNote({
   ],
 
   influenced: [
-    { artist: "Madonna", album: "Madonna", year: "1983", note: "The template of a New York woman fronting dance-pop with new wave credibility runs directly from here." },
-    { artist: "Garbage", album: "Garbage", year: "1995", note: "Cool, precise female-fronted pop-rock built in the studio — an approach this record established." },
+    { artist: "Madonna", album: "Madonna", year: "1983", note: "Dance-pop made by people out of the New York punk scene — disco rhythm underneath new wave song structure." },
+    { artist: "Garbage", album: "Garbage", year: "1995", note: "Meticulous studio-built pop-rock where the production carries the hook and the vocal sits flat and close in the mix." },
   ],
 });

@@ -59,7 +59,7 @@ await saveNote({
   ],
 
   influenced: [
-    { artist: "Beyoncé", album: "Lemonade", year: "2016", note: "The visual-and-narrative concept album as the format for a major Black woman artist's statement." },
+    { artist: "Beyoncé", album: "Lemonade", year: "2016", note: "The visual-and-narrative concept album as the format for a major pop statement." },
     { artist: "Solange", album: "A Seat at the Table", year: "2016", note: "Art-directed, suite-structured R&B with interludes carrying as much argument as the songs." },
   ],
 });

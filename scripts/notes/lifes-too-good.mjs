@@ -50,7 +50,7 @@ await saveNote({
 
   influencedBy: [
     { artist: "Kukl", album: "The Eye", year: "1984", note: "The anarcho-punk group several Sugarcubes came from; this band was formed partly as a reaction against its seriousness." },
-    { artist: "The B-52's", album: "The B-52's", year: "1979", note: "An earlier template for a band built on male–female vocal interruption and deliberate silliness played by a competent group." },
+    { artist: "The B-52's", album: "The B-52's", year: "1979", note: "An earlier template for a band built on two contrasting voices interrupting each other, and on deliberate silliness played by a tight group." },
   ],
 
   influenced: [

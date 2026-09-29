@@ -54,12 +54,12 @@ await saveNote({
 
   influencedBy: [
     { artist: "Captain Beefheart & His Magic Band", album: "Trout Mask Replica", year: "1969", note: "Played to her at home as a child; the blues broken into angular, unlovely shapes is the clearest inheritance." },
-    { artist: "Patti Smith", album: "Horses", year: "1975", note: "The precedent for a woman fronting a rock band as a writer first, with no concession to how she was expected to sound." },
+    { artist: "Patti Smith", album: "Horses", year: "1975", note: "A poet's phrasing over garage-rock backing, with the vocal delivered as declamation rather than melody." },
     { artist: "Pixies", album: "Surfer Rosa", year: "1988", note: "Loud-quiet dynamics and a trio recorded dry and close, the production register this record works in." },
   ],
 
   influenced: [
-    { artist: "Fiona Apple", album: "Tidal", year: "1996", note: "The wave of women writing frankly about desire and anger without softening it for a rock audience." },
-    { artist: "Yeah Yeah Yeahs", album: "Fever to Tell", year: "2003", note: "A woman fronting a small, loud, blues-descended band with the same refusal to be decorative." },
+    { artist: "Fiona Apple", album: "Tidal", year: "1996", note: "Piano-led songs with the same refusal to resolve a melody comfortably, and the same unguarded register." },
+    { artist: "Yeah Yeah Yeahs", album: "Fever to Tell", year: "2003", note: "A trio built on blues riffs at rock volume, recorded with the same dryness and the same cliff-edge dynamics." },
   ],
 });

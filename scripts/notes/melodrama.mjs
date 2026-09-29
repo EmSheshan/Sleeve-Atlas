@@ -49,7 +49,7 @@ await saveNote({
   ],
 
   influencedBy: [
-    { artist: "Kate Bush", album: "Hounds of Love", year: "1985", note: "The precedent for a young woman making structurally ambitious, emotionally theatrical pop on her own terms." },
+    { artist: "Kate Bush", album: "Hounds of Love", year: "1985", note: "The precedent for structurally ambitious, emotionally theatrical pop built on unconventional song shapes and studio self-production." },
     { artist: "Robyn", album: "Body Talk", year: "2010", note: "The template of dancefloor euphoria used to carry heartbreak — the emotional mode this album works in throughout." },
     { artist: "Lorde", album: "Pure Heroine", year: "2013", note: "Her own minimal debut, which this record is a deliberate reaction against." },
     { artist: "Taylor Swift", album: "1989", year: "2014", note: "Antonoff's earlier work with Swift established the layered-vocal, synth-and-piano pop production he brought to this album." },

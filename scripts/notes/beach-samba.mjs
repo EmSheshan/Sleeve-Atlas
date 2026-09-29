@@ -58,6 +58,6 @@ await saveNote({
   ],
 
   influenced: [
-    { artist: "Stereolab", album: "Emperor Tomato Ketchup", year: "1996", note: "Part of the easy-listening and bossa revival that later indie groups mined for its cool, detached female vocals over lush arrangements." },
+    { artist: "Stereolab", album: "Emperor Tomato Ketchup", year: "1996", note: "Part of the easy-listening and bossa revival that later indie groups mined for its cool, detached vocals over lush arrangements." },
   ],
 });

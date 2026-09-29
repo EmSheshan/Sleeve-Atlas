@@ -1272,6 +1272,12 @@ main {
 
 .zoom-controls button:hover { background: var(--paper-2); color: var(--ink); }
 
+/* held down: the layout is actively churning, so say so */
+.zoom-controls button.is-held {
+  background: var(--orange);
+  color: #fff;
+}
+
 /* ---------- Map statistics ---------- */
 
 .map-stats {

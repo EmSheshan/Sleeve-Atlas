@@ -58,7 +58,7 @@ await saveNote({
   ],
 
   influenced: [
-    { artist: "Destiny's Child", album: "The Writing's on the Wall", year: "1999", note: "The template of a female R&B group with hip-hop production and frank lyrics about relationships runs directly from here." },
+    { artist: "Destiny's Child", album: "The Writing's on the Wall", year: "1999", note: "The template of an R&B vocal group over hip-hop production, trading lines rather than harmonising, runs directly from here." },
     { artist: "Aaliyah", album: "One in a Million", year: "1996", note: "Part of the same movement toward cooler, lower, more rhythmically complex R&B singing." },
   ],
 });

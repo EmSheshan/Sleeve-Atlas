@@ -60,6 +60,6 @@ await saveNote({
   influenced: [
     { artist: "Whitney Houston", album: "Whitney Houston", year: "1985", note: "Cissy Houston sang backing vocals here; her daughter's career descends directly from this gospel-into-pop lineage." },
     { artist: "Amy Winehouse", album: "Back to Black", year: "2006", note: "The revival of live Southern soul arrangement behind a singer working in gospel phrasing." },
-    { artist: "Alicia Keys", album: "Songs in A Minor", year: "2001", note: "The model of a woman singing her own material from behind a piano in a soul idiom." },
+    { artist: "Alicia Keys", album: "Songs in A Minor", year: "2001", note: "The model of a singer accompanying herself at the piano in a soul idiom, writing the material as well as performing it." },
   ],
 });

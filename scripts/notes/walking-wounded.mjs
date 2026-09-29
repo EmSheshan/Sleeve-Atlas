@@ -50,7 +50,7 @@ await saveNote({
 
   influencedBy: [
     { artist: "Goldie", album: "Timeless", year: "1995", note: "The album that made drum and bass a long-form listening proposition, released the year before and the clearest model for these rhythms." },
-    { artist: "Massive Attack", album: "Protection", year: "1994", note: "The Bristol template for a restrained female vocal over slow, heavy programmed beats — Thorn had in fact sung on that record." },
+    { artist: "Massive Attack", album: "Protection", year: "1994", note: "The Bristol template for a restrained vocal over slow, heavy programmed beats — Thorn had in fact sung on that record." },
   ],
 
   influenced: [

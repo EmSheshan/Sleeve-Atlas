@@ -49,12 +49,12 @@ await saveNote({
   ],
 
   influencedBy: [
-    { artist: "Blondie", album: "Parallel Lines", year: "1978", note: "The New York template for a distinctive woman fronting sharp, hook-driven new wave pop." },
-    { artist: "Pretenders", album: "Pretenders", year: "1980", note: "Chrissie Hynde's precedent for a woman fronting a rock band entirely on her own terms." },
+    { artist: "Blondie", album: "Parallel Lines", year: "1978", note: "Sharp, hook-driven new wave pop built on a disco rhythm section and Brill Building chord changes — the sound Lauper's producers were working from." },
+    { artist: "Pretenders", album: "Pretenders", year: "1980", note: "Hynde's chiming, countermelodic guitar pop and conversational phrasing, sung close to speech rather than belted." },
   ],
 
   influenced: [
-    { artist: "Madonna", album: "Like a Virgin", year: "1984", note: "The two were treated as rivals; this album's MTV-era proof that a visually distinctive woman could dominate pop came first." },
+    { artist: "Madonna", album: "Like a Virgin", year: "1984", note: "Both were built for MTV before radio; this record's use of costume and video as part of the song arrived months earlier and set the terms." },
     { artist: "Gwen Stefani", album: "Love. Angel. Music. Baby.", year: "2004", note: "The lineage of playful, image-forward pop built on an unmistakable voice and thrift-shop styling." },
   ],
 });

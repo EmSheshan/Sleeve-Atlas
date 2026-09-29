@@ -54,7 +54,7 @@ await saveNote({
   ],
 
   influenced: [
-    { artist: "Cyndi Lauper", album: "She's So Unusual", year: "1983", note: "Part of the lineage this album opened: a woman fronting a band on her own terms, writing her own material." },
+    { artist: "Cyndi Lauper", album: "She's So Unusual", year: "1983", note: "Sharp new wave pop sung conversationally over a band playing its own songs — the lane this album opened." },
     { artist: "The Smiths", album: "The Smiths", year: "1984", note: "Johnny Marr's chiming, countermelodic guitar style owes a clear debt to Honeyman-Scott's playing here." },
   ],
 });

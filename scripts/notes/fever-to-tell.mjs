@@ -53,13 +53,13 @@ await saveNote({
   ],
 
   influencedBy: [
-    { artist: "PJ Harvey", album: "Rid of Me", year: "1993", note: "The clearest precedent: a woman fronting abrasive, sexually direct guitar rock recorded raw, and a comparison critics made immediately." },
-    { artist: "Siouxsie and the Banshees", album: "Juju", year: "1981", note: "Post-punk built on atmospheric, non-riff guitar under a theatrical female vocal — a named point of comparison for this record." },
+    { artist: "PJ Harvey", album: "Rid of Me", year: "1993", note: "Abrasive blues-derived guitar rock recorded dry and close, with a vocal that swings between mutter and shriek — the comparison critics reached for immediately." },
+    { artist: "Siouxsie and the Banshees", album: "Juju", year: "1981", note: "Post-punk built on atmospheric, effects-heavy guitar that avoids riffs entirely, under a declamatory vocal — a named point of comparison for this record." },
     { artist: "The Stooges", album: "Fun House", year: "1970", note: "The garage-punk tradition of a band playing at the edge of control with a frontperson as physical presence." },
   ],
 
   influenced: [
-    { artist: "Florence + the Machine", album: "Lungs", year: "2009", note: "Part of the wave of theatrical, big-voiced female-fronted rock that followed in this album's wake." },
+    { artist: "Florence + the Machine", album: "Lungs", year: "2009", note: "Theatrical, percussion-forward art-rock with a full-throated vocal, following in this album's wake." },
     { artist: "Sleigh Bells", album: "Treats", year: "2010", note: "Noise-pop duos built on distorted guitar texture and a pop vocal owe a good deal to this record's bass-free construction." },
   ],
 });
