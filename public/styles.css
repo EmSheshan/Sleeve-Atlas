@@ -1290,6 +1290,11 @@ main {
   color: #fff;
 }
 
+/* focus: everything the selected record doesn't touch recedes */
+#graph-canvas .is-dimmed { opacity: 0.1; transition: opacity 0.25s ease; }
+#graph-canvas g:not(.is-dimmed) { transition: opacity 0.25s ease; }
+#graph-canvas .edge { cursor: pointer; }
+
 /* ---------- Map statistics ---------- */
 
 .map-stats {

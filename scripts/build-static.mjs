@@ -32,22 +32,41 @@ async function build() {
   );
 
   // 3. global averages, trimmed to the two fields the app reads and keyed by
-  //    both spotify id and artist::title (the two tables disagree on ids)
-  const res = await fetch("https://1001albumsgenerator.com/api/v1/albums/stats");
-  if (!res.ok) throw new Error(`album stats returned ${res.status}`);
-  const { albums = [] } = await res.json();
+  //    both spotify id and artist::title (the two tables disagree on ids).
+  //
+  //    The result is cached into data/ and committed, so a build never depends
+  //    on the upstream being reachable. It goes down — rate limiting returns
+  //    403 to everything — and without a fallback that took the whole deploy
+  //    with it, including the GitHub Action.
+  const cachePath = path.join(root, "data", "album-stats.json");
+  let stats = null;
 
-  const stats = {};
-  for (const a of albums) {
-    const entry = { averageRating: a.averageRating, votes: a.votes };
-    if (a.spotifyId) stats[a.spotifyId] = entry;
-    if (a.id) stats[a.id] = entry;
-    stats[`${a.artist || ""}::${a.name || ""}`.toLowerCase().replace(/\s+/g, " ").trim()] = entry;
+  try {
+    const res = await fetch("https://1001albumsgenerator.com/api/v1/albums/stats");
+    if (!res.ok) throw new Error(`returned ${res.status}`);
+    const { albums = [] } = await res.json();
+    if (!albums.length) throw new Error("returned an empty album list");
+
+    stats = {};
+    for (const a of albums) {
+      const entry = { averageRating: a.averageRating, votes: a.votes };
+      if (a.spotifyId) stats[a.spotifyId] = entry;
+      if (a.id) stats[a.id] = entry;
+      stats[`${a.artist || ""}::${a.name || ""}`.toLowerCase().replace(/\s+/g, " ").trim()] = entry;
+    }
+    // how many albums are in the pool at all, for the "% complete" figure. Kept
+    // as a reserved key rather than a wrapper object so album lookups still index
+    // straight into this table; no album key can collide with it.
+    stats.__total = albums.length;
+    await writeFile(cachePath, JSON.stringify(stats), "utf-8");
+  } catch (err) {
+    if (!existsSync(cachePath)) {
+      throw new Error(`album stats fetch failed (${err.message}) and no cache at data/album-stats.json`);
+    }
+    stats = JSON.parse(await readFile(cachePath, "utf-8"));
+    console.warn(`  ! album stats fetch failed (${err.message}) — using the cached copy`);
   }
-  // how many albums are in the pool at all, for the "% complete" figure. Kept
-  // as a reserved key rather than a wrapper object so album lookups still index
-  // straight into this table; no album key can collide with it.
-  stats.__total = albums.length;
+
   await writeFile(
     path.join(dist, "data", "album-stats.json"),
     JSON.stringify(stats),
@@ -60,7 +79,7 @@ async function build() {
   const kb = (o) => Math.round(JSON.stringify(o).length / 1024);
   console.log(
     `built dist/ — ${Object.keys(insights).length} notes (${kb(insights)}KB), ` +
-      `${albums.length} albums in stats index (${kb(stats)}KB)`
+      `${stats.__total} albums in stats index (${kb(stats)}KB)`
   );
 }
 

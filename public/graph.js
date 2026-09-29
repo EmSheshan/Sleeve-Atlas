@@ -5,6 +5,9 @@
 
   let loaded = false;
   let tooltip = null;
+  let showLeaves = false;
+  let hiddenCount = 0;
+  let lastGraph = null;
 
   function ensureTooltip() {
     if (tooltip) return tooltip;
@@ -164,14 +167,14 @@
   }
 
   function draw(graph) {
-    const nodes = Object.values(graph.nodes || {});
-    const edges = Object.values(graph.edges || {});
+    const allNodes = Object.values(graph.nodes || {});
+    const allEdges = Object.values(graph.edges || {});
 
     container.innerHTML = "";
     hideTooltip();
     tooltip = null;
 
-    if (!nodes.length) {
+    if (!allNodes.length) {
       mapEmptyState.hidden = false;
       container.hidden = true;
       if (statsEl) statsEl.hidden = true;
@@ -179,7 +182,27 @@
     }
     mapEmptyState.hidden = true;
     container.hidden = false;
-    renderStats(nodes, edges);
+
+    // Stats always describe the whole web, not the filtered view.
+    renderStats(allNodes, allEdges);
+
+    // More than half the map is records mentioned exactly once and written up
+    // nowhere — 223 of 419 at the last count. They double the object count and
+    // add no structure, since a node with one edge tells you nothing the edge
+    // didn't. Hidden by default; the toggle brings them back.
+    const degree = {};
+    for (const n of allNodes) degree[n.id] = 0;
+    for (const e of allEdges) {
+      degree[e.source]++;
+      degree[e.target]++;
+    }
+    const keep = showLeaves
+      ? new Set(allNodes.map((n) => n.id))
+      : new Set(allNodes.filter((n) => n.source === "list" || degree[n.id] > 1).map((n) => n.id));
+
+    const nodes = allNodes.filter((n) => keep.has(n.id));
+    const edges = allEdges.filter((e) => keep.has(e.source) && keep.has(e.target));
+    hiddenCount = allNodes.length - nodes.length;
 
     const width = container.clientWidth || 900;
     const height = container.clientHeight || 640;
@@ -462,7 +485,39 @@
       .attr("stroke-width", 3.5)
       .attr("stroke-linejoin", "round");
 
+    // Focus. At 419 nodes the whole map only fits on screen at 0.10 zoom,
+    // where a label is a pixel and a half tall — you can see everything or
+    // read anything, never both. Clicking a record dims everything it isn't
+    // connected to, which stays legible however large the web gets.
+    const neighbours = {};
+    for (const n of nodeData) neighbours[n.id] = new Set([n.id]);
+    for (const e of linkData) {
+      const s = typeof e.source === "object" ? e.source.id : e.source;
+      const t = typeof e.target === "object" ? e.target.id : e.target;
+      neighbours[s]?.add(t);
+      neighbours[t]?.add(s);
+    }
+
+    let focused = null;
+    function setFocus(id) {
+      focused = id;
+      const near = id ? neighbours[id] : null;
+      node.classed("is-dimmed", (d) => Boolean(near) && !near.has(d.id));
+      edge.classed("is-dimmed", (d) => {
+        if (!near) return false;
+        const s = typeof d.source === "object" ? d.source.id : d.source;
+        const t = typeof d.target === "object" ? d.target.id : d.target;
+        return !(near.has(s) && near.has(t));
+      });
+    }
+
+    svg.on("click", () => setFocus(null));
+
     node
+      .on("click", (event, d) => {
+        event.stopPropagation();
+        setFocus(focused === d.id ? null : d.id);
+      })
       .on("mouseenter", (event, d) => {
         showTooltip(`<strong>${d.artist}</strong><br/>${d.album || d.label} ${d.year ? `(${d.year})` : ""}`, event.offsetX, event.offsetY);
       })
@@ -546,11 +601,19 @@
     const zoomControls = document.getElementById("zoom-controls");
     if (zoomControls) {
       zoomControls.hidden = false;
+      const leavesBtn = document.getElementById("leaves-toggle");
+      if (leavesBtn) {
+        leavesBtn.textContent = showLeaves ? "fewer" : `show all${hiddenCount ? ` (+${hiddenCount})` : ""}`;
+        leavesBtn.classList.toggle("is-held", showLeaves);
+      }
       zoomControls.onclick = (e) => {
         const what = e.target.closest("button")?.dataset.zoom;
         if (!what || what === "tidy") return;
         if (what === "fit") applyBounds({ fit: true });
-        else svg.transition().duration(220).call(zoom.scaleBy, what === "in" ? 1.45 : 1 / 1.45);
+        else if (what === "leaves") {
+          showLeaves = !showLeaves;
+          if (lastGraph) draw(lastGraph);
+        } else svg.transition().duration(220).call(zoom.scaleBy, what === "in" ? 1.45 : 1 / 1.45);
       };
 
       // Tidy works like holding a node, because that is what people already
@@ -653,6 +716,7 @@
     if (loaded && !force) return;
     loaded = true;
     const graph = await fetchGraph();
+    lastGraph = graph;
     draw(graph);
   };
 
