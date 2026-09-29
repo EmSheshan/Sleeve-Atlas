@@ -7816,5 +7816,1009 @@
     "uuid": "5f34ee8bf0857e55ed5ec054",
     "image": "https://i.scdn.co/image/a7242d87a1b0f02cc78d3b7c95ceb68faeaf6094",
     "savedAt": "2026-09-29T03:19:46.495Z"
+  },
+  "5f34ee8bf0857e55ed5ec0f9": {
+    "artist": "The Last Shadow Puppets",
+    "album": "The Age Of The Understatement",
+    "year": "2008",
+    "heading": "The Age of the Understatement — The Last Shadow Puppets (2008)",
+    "albumLine": "Released 15 April 2008 on Domino, produced by James Ford and recorded in two weeks that August at Black Box in France and at RAK and British Grove in London. Sixties orchestral pop rebuilt by two twenty-somethings — the debut of Alex Turner and Miles Kane's side project.",
+    "overview": [
+      "Turner was 22 and had spent two years as the most scrutinised lyricist in Britain, fronting Arctic Monkeys through the fastest-selling debut in UK chart history. Miles Kane played guitar in the Little Flames and then the Rascals. Doing a side project at that point was an odd move; doing one modelled on Scott Walker and Ennio Morricone was odder still, and it reads now as Turner deliberately stepping out of the register — Northern observational realism over spiky guitars — that had made him famous.",
+      "The reference points were declared rather than hidden. Both named Walker's sixties records and Serge Gainsbourg's \"Histoire de Melody Nelson\" as models, and critics reached immediately for Morricone and Burt Bacharach. The method was period-accurate too: recorded largely in live takes over a fortnight, with James Ford — the Simian Mobile Disco producer who had made \"Favourite Worst Nightmare\" — keeping it fast and physical rather than assembled.",
+      "The strings are what makes it more than pastiche. Owen Pallett wrote the arrangements for a 22-piece London Metropolitan Orchestra, and Turner's brief was that he wanted them \"widescreen\" rather than intimate. That distinction is the album's whole design: the orchestra is not a tasteful garnish on some guitar songs, it is the loudest thing in the room, sawing and stabbing in a way that owes more to film scoring than to chamber pop.",
+      "It went straight to No. 1 in Britain on 51,186 copies and reached only 111 in America, which is roughly the expected shape for a record this English about an idea this European. Metacritic settles at 77; Pitchfork called it \"Turner's most impressive album-length statement yet,\" which at the time was a pointed thing to say about a man with two Arctic Monkeys albums out. Its longer effect shows in Turner's own writing — the crooning, the widescreen arrangements and the sixties-cinema register all reappear in Arctic Monkeys records from 2013 onward."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Strings mixed as loud as the band",
+        "text": "Pallett's charts for 22 players stab and swoop across the top of everything rather than cushioning it. The word Turner used was widescreen, and that's literally how they're mixed."
+      },
+      {
+        "label": "Galloping drums",
+        "text": "James Ford plays fast, tom-heavy patterns that push the songs along like a chase sequence — the Morricone influence showing in rhythm rather than in twang."
+      },
+      {
+        "label": "Two voices in unison",
+        "text": "Turner and Kane sing many lines together rather than trading them, an octave-doubling trick that gives a young voice unexpected weight."
+      },
+      {
+        "label": "Reverb-heavy tremolo guitar",
+        "text": "The guitars are drenched and wobbling, borrowed wholesale from sixties spaghetti-western scoring, and used as colour rather than for riffs."
+      },
+      {
+        "label": "Recorded live in a fortnight",
+        "text": "Most of it is whole-band takes rather than layered parts, which is why it moves and why the orchestra sounds like it's in the same room."
+      },
+      {
+        "label": "Songs under three minutes",
+        "text": "Nearly everything is short and exits quickly, leaving the arrangements no time to settle — the opposite of the languor the influences might suggest."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Age of the Understatement — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Age_of_the_Understatement"
+      },
+      {
+        "title": "The Last Shadow Puppets — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Last_Shadow_Puppets"
+      },
+      {
+        "title": "Owen Pallett — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Owen_Pallett"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Scott Walker",
+        "album": "Scott 4",
+        "year": "1969",
+        "note": "Named by both as a model: a baritone croon over dramatic orchestral arrangements rather than a rock band."
+      },
+      {
+        "artist": "Serge Gainsbourg",
+        "album": "Histoire de Melody Nelson",
+        "year": "1971",
+        "note": "Cited directly — a short, string-drenched record where the orchestra and the rhythm section carry equal weight."
+      },
+      {
+        "artist": "Ennio Morricone",
+        "album": "The Good, the Bad and the Ugly",
+        "year": "1966",
+        "note": "The spaghetti-western scoring vocabulary — tremolo guitar, galloping percussion, stabbing strings — that the arrangements are built from."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Arctic Monkeys",
+        "album": "AM",
+        "year": "2013",
+        "note": "Turner's crooning delivery and widescreen arrangement instincts carry straight back into his main band from here."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec0f9",
+    "image": "https://i.scdn.co/image/ab67616d00001e0256e4e3118af9dec4a5670a33",
+    "savedAt": "2026-09-29T12:17:00.812Z"
+  },
+  "5f34ee8bf0857e55ed5eaa5a": {
+    "artist": "Captain Beefheart & His Magic Band",
+    "album": "Trout Mask Replica",
+    "year": "1969",
+    "heading": "Trout Mask Replica — Captain Beefheart & His Magic Band (1969)",
+    "albumLine": "Released 16 June 1969 on Straight Records, produced by Frank Zappa, with the band's instrumental parts cut at Whitney Studios in Glendale in March that year and Don Van Vliet's vocals added days later. A double album of free-jazz-inflected blues in impossible time signatures — and one of the hardest listens ever admitted to a canon.",
+    "overview": [
+      "The music was worked out over roughly eight months in a rented house in Woodland Hills, and the making of it is not a charming anecdote. Van Vliet held total control over a group living communally on almost no money, rehearsing upwards of fourteen hours a day, and by multiple accounts — the drummer John French's most detailed among them — he verbally broke musicians down until they collapsed in tears. The band were Bill Harkleroad and Jeff Cotton on guitars, Mark Boston on bass, French on drums and Victor Hayden on bass clarinet, each renamed by Van Vliet as part of the same total authorship.",
+      "It also produced something with no real precedent. Van Vliet composed at a piano he could not play, and French transcribed the results into parts for a rock band — which is why the guitars run in different metres simultaneously, why nothing resolves, and why it sounds improvised while being almost entirely written. The instrumental takes were captured fast, in a handful of hours, after all those months of drilling.",
+      "The vocals are the album's other notorious feature. Van Vliet refused headphones and sang in the studio against whatever leaked through the control room glass, which is usually offered as the reason his delivery floats free of the band. French himself is sceptical: \"Oh, [Van Vliet] was in synch quite often, I thought.... The studio wasn't very good, so the leakage was probably sufficient.\" Zappa's role is likewise disputed — he wanted to record in the band's house, and by his own account Van Vliet \"got paranoid, accused me of trying to do the album on the cheap, and demanded to go into a real studio.\"",
+      "It sold almost nothing in America and its reputation was built slowly by advocates. John Peel's verdict — \"if there has been anything ... which could be described as a work of art, then Trout Mask Replica is probably that work\" — did much of the early work; Rolling Stone now place it 60th among the greatest albums, and the Library of Congress added it to the National Recording Registry in 2010. The standard testimony is Matt Groening's: the worst thing he had ever heard, until around the seventh listen, when it became the greatest."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Two guitars in different metres",
+        "text": "Harkleroad and Cotton play parts that don't share a bar length, so they align and separate continuously. It sounds like collapse and is written down to the note."
+      },
+      {
+        "label": "Vocals floating free of the band",
+        "text": "Van Vliet sang without headphones, against sound leaking through the glass, so his phrasing drifts against the music rather than sitting on it."
+      },
+      {
+        "label": "A voice with enormous range",
+        "text": "He moves from a Howlin' Wolf growl to a shriek to a flat deadpan, often mid-line, treating the voice as a horn rather than a singing instrument."
+      },
+      {
+        "label": "Bass clarinet and saxophone squalls",
+        "text": "Free-jazz horn playing erupts over what are structurally blues figures, the clearest sign of where the album's ideas about noise come from."
+      },
+      {
+        "label": "Field recordings and spoken fragments",
+        "text": "Unaccompanied talking, tape noise and outdoor sound sit between and inside pieces, refusing the album any settled surface."
+      },
+      {
+        "label": "Delta blues underneath",
+        "text": "Strip the arrangements and most of this is pre-war country blues — the same riffs and the same subject matter, dismantled and reassembled wrong on purpose."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Trout Mask Replica — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Trout_Mask_Replica"
+      },
+      {
+        "title": "Captain Beefheart's oddball masterpiece finally comes to streaming — Rolling Stone",
+        "url": "https://www.rollingstone.com/music/music-features/trout-mask-replica-captain-beefheart-streaming-1193345/"
+      },
+      {
+        "title": "National Recording Registry — Library of Congress",
+        "url": "https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/complete-national-recording-registry-listing/"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Howlin' Wolf",
+        "album": "Moanin' in the Moonlight",
+        "year": "1959",
+        "note": "Van Vliet's growl is modelled closely on Wolf's, and the album's underlying material is Delta blues."
+      },
+      {
+        "artist": "Ornette Coleman",
+        "album": "The Shape of Jazz to Come",
+        "year": "1959",
+        "note": "Free jazz's rejection of fixed harmony and metre, applied here to a rock band's instrumentation."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The Residents",
+        "album": "Meet the Residents",
+        "year": "1974",
+        "note": "Deliberately unlistenable art-rock built from dismantled popular forms follows directly."
+      },
+      {
+        "artist": "Tom Waits",
+        "album": "Rain Dogs",
+        "year": "1985",
+        "note": "Waits's move into junkyard instrumentation and a ruined growl is openly indebted to Van Vliet."
+      },
+      {
+        "artist": "PJ Harvey",
+        "album": "Dry",
+        "year": "1992",
+        "note": "Played to Harvey as a child by her parents; the blues broken into angular, unlovely shapes is the inheritance."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5eaa5a",
+    "image": "https://i.scdn.co/image/ab67616d00001e02d6853c479a99458751235e39",
+    "savedAt": "2026-09-29T12:17:57.574Z"
+  },
+  "5f34ee8bf0857e55ed5ebf79": {
+    "artist": "Tom Waits",
+    "album": "Rain Dogs",
+    "year": "1985",
+    "heading": "Rain Dogs — Tom Waits (1985)",
+    "albumLine": "Released 30 September 1985 on Island, self-produced and recorded at RCA 6th Ave in New York. Nineteen tracks in under fifty-four minutes of experimental rock, junkyard blues and broken Americana — his ninth album, and the centre of the three that remade him.",
+    "overview": [
+      "He had spent the seventies as a barroom balladeer with a piano and a hangover persona, and by 1983 had abandoned it entirely. \"Rain Dogs\" is the middle record of the trilogy that followed, written over two months in a basement in Lower Manhattan, and the change of city is the change of sound: he recorded street noise beforehand to get New York's actual racket into the compositions.",
+      "The title names the subject. A rain dog is a dog that loses its scent trail in a downpour and can't find its way home, and the album is about the urban dispossessed — sailors, drunks, immigrants, people who came to a city and stayed lost in it. It is a concept album only loosely, in that it keeps returning to the same streets rather than telling a story.",
+      "The instrumentation is the argument made audible. Waits wanted nothing that sounded like 1985, which was the peak year of gated drums and digital reverb, and reached instead for marimba, accordion, banjo, trombone, and percussion made by hitting furniture — his own description was of hitting a chest of drawers with a two-by-four. Marc Ribot, making his first major-label appearance, plays guitar in short, deliberately wrong-sounding stabs that became one of the decade's most distinctive sounds. Keith Richards turns up on three tracks.",
+      "It sold modestly — No. 29 in Britain, No. 188 in America — and has since become one of the most admired records of its decade: Pitchfork gave it a straight 10 out of 10, calling it \"a romantic and carnivalesque masterpiece,\" and Rolling Stone placed it 21st among all albums of the eighties. Its influence runs through everyone who later decided that old, broken and acoustic could be more modern than anything with a synthesizer in it."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Percussion made from furniture",
+        "text": "Much of the rhythm is objects being struck rather than a drum kit, recorded close and dry. It dates the album to nothing."
+      },
+      {
+        "label": "Marc Ribot's guitar",
+        "text": "Short, jabbing, deliberately out-of-tune-sounding figures that refuse to resolve. He plays against the songs rather than supporting them."
+      },
+      {
+        "label": "A voice like damaged machinery",
+        "text": "Waits growls, barks and rasps through a megaphone-ish distortion, often recorded through cheap equipment on purpose."
+      },
+      {
+        "label": "Instruments from everywhere",
+        "text": "Marimba, accordion, banjo, trombone and upright bass replace the rock band, giving the record a bent cabaret and Weimar quality."
+      },
+      {
+        "label": "Street sound folded in",
+        "text": "Ambient noise he recorded in Manhattan beforehand sits inside the arrangements, so the city is literally present rather than described."
+      },
+      {
+        "label": "Nineteen short pieces",
+        "text": "Most tracks are two to three minutes and shift style completely from their neighbours, which is why it plays like walking through a city rather than sitting in one room."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rain Dogs — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rain_Dogs"
+      },
+      {
+        "title": "Tom Waits — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tom_Waits"
+      },
+      {
+        "title": "Marc Ribot — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Marc_Ribot"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Captain Beefheart & His Magic Band",
+        "album": "Trout Mask Replica",
+        "year": "1969",
+        "note": "The ruined growl and the dismantling of blues forms into junkyard instrumentation are an openly acknowledged debt."
+      },
+      {
+        "artist": "The Velvet Underground",
+        "album": "The Velvet Underground & Nico",
+        "year": "1967",
+        "note": "The precedent for songs about the wrecked and the marginal set in a specific New York, delivered deadpan."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Nick Cave and the Bad Seeds",
+        "album": "The Boatman's Call",
+        "year": "1997",
+        "note": "The register of a low, damaged voice over spare, antique instrumentation carries directly over."
+      },
+      {
+        "artist": "Beck",
+        "album": "Odelay",
+        "year": "1996",
+        "note": "Assembling a record from broken, obsolete and found sounds rather than contemporary studio tools."
+      },
+      {
+        "artist": "The Pogues",
+        "album": "Rum Sodomy & the Lash",
+        "year": "1985",
+        "note": "Released the same year, and sharing the idea that drunken, antique acoustic music could be more vital than anything current."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebf79",
+    "image": "https://i.scdn.co/image/8e05f11aadcff09c5ec541cd82fc654fc2d30a8c",
+    "savedAt": "2026-09-29T12:18:36.573Z"
+  },
+  "5f34ee8bf0857e55ed5ec0ba": {
+    "artist": "Sly & The Family Stone",
+    "album": "Stand!",
+    "year": "1969",
+    "heading": "Stand! — Sly and the Family Stone (1969)",
+    "albumLine": "Released 3 May 1969 on Epic, written and produced by Sly Stone at Pacific High Recording in San Francisco. Nine tracks of psychedelic soul and funk rock — their fourth album, their breakthrough, and the one they took to Woodstock three months later.",
+    "overview": [
+      "The band itself was the first argument. Sylvester Stewart assembled a group that was Black and white, men and women, all of them playing and several of them singing lead — his brother Freddie Stone and sister Rose Stone, Larry Graham on bass, Cynthia Robinson on trumpet, Jerry Martini on saxophone, Greg Errico on drums. In 1969 a racially integrated band with women playing horns rather than standing at the front was not a neutral line-up, and the records are built so that you hear it: leads pass around the group constantly rather than belonging to anyone.",
+      "Three albums had already failed commercially. This one worked because the politics and the pop arrived in the same package — songs about tolerance and self-assertion written as hooks a child could sing, with \"Everyday People\" going to No. 1 and putting the phrase \"different strokes for different folks\" into general English. It is a genuinely optimistic record, made in the year that ran from the Tet Offensive's aftermath through to the Moon landing and Altamont, and its optimism is neither naive nor decorative — it is the argument.",
+      "Musically the important thing is Larry Graham's bass. He had developed a way of striking the strings with his thumb and pulling them against the fretboard to make a percussive snap, which on this record becomes structural rather than ornamental. Slap bass as a technique essentially enters popular music here, and within a decade is everywhere. Alongside it, the album's long closing jam gives every member an extended solo, closer to a live set than a pop LP.",
+      "It reached No. 13 and has sold over three million copies. Woodstock in August turned the band into a headline act, and the trajectory afterwards is well known: the follow-up two years later was as dark as this is bright. Rolling Stone wrote that it \"revealed the magnificence\" of what the group could do; it entered the Grammy Hall of Fame and the National Recording Registry in 2015."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Larry Graham's slap bass",
+        "text": "Thumb struck against the string and fingers pulling it back onto the fretboard, producing a percussive snap. The technique effectively starts here."
+      },
+      {
+        "label": "Lead vocals passed around",
+        "text": "Different members take lines within a single song, often alternating by phrase. Nobody is the frontman, which is the band's whole design."
+      },
+      {
+        "label": "Horns used as punctuation",
+        "text": "Robinson's trumpet and Martini's saxophone stab short unison figures rather than playing charts, closer to rhythm than melody."
+      },
+      {
+        "label": "Fuzz guitar over gospel changes",
+        "text": "Psychedelic rock guitar tone sits on top of chord movement straight out of church, which is most of what \"psychedelic soul\" means."
+      },
+      {
+        "label": "A thirteen-minute jam",
+        "text": "The long closing track hands every player an extended solo, using the album format to document the band as a live unit."
+      },
+      {
+        "label": "Hooks pitched at children",
+        "text": "The melodies are deliberately simple and singable, which is how songs about racial tolerance reached the top of the pop chart."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Stand! — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Stand!"
+      },
+      {
+        "title": "Sly and the Family Stone — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sly_and_the_Family_Stone"
+      },
+      {
+        "title": "Larry Graham — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Larry_Graham"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "James Brown",
+        "album": "Cold Sweat",
+        "year": "1967",
+        "note": "Widely treated as the first true funk record — the one-chord vamp with every instrument playing rhythm, which this band expanded with rock instrumentation."
+      },
+      {
+        "artist": "The Beatles",
+        "album": "Sgt. Pepper's Lonely Hearts Club Band",
+        "year": "1967",
+        "note": "The precedent for a pop group using the studio and psychedelic colour while still writing singles."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Marvin Gaye",
+        "album": "What's Going On",
+        "year": "1971",
+        "note": "Soul as a vehicle for direct political argument, released two years later on a rival label."
+      },
+      {
+        "artist": "Prince",
+        "album": "Sign o' the Times",
+        "year": "1987",
+        "note": "The mixed-race, mixed-gender band playing funk-rock under one writer-producer is a template Prince took wholesale."
+      },
+      {
+        "artist": "Red Hot Chili Peppers",
+        "album": "Blood Sugar Sex Magik",
+        "year": "1991",
+        "note": "Slap bass as the foundation of a rock band descends directly from Graham's playing here."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec0ba",
+    "image": "https://i.scdn.co/image/17be8c2064a5d0e4d9f5e5ba24d403040ffc5e29",
+    "savedAt": "2026-09-29T12:25:28.205Z"
+  },
+  "5f34ee8bf0857e55ed5ebc41": {
+    "artist": "Gorillaz",
+    "album": "Gorillaz",
+    "year": "2001",
+    "heading": "Gorillaz — Gorillaz (2001)",
+    "albumLine": "Released 26 March 2001 on Parlophone, produced by Dan the Automator with Damon Albarn, Tom Girling and Jason Cox, and recorded between 1998 and 2000 at Studio 13 in London and Geejam in Jamaica. Trip-hop, dub, Latin music and punk rock under a cartoon — the debut of a band that does not exist.",
+    "overview": [
+      "The idea came from Damon Albarn, then coming out of Blur, and the artist Jamie Hewlett, who had created the comic Tank Girl. Their stated target was music television: Hewlett's line was that \"if you watch MTV for too long, it's a bit like hell – there's nothing of substance there.\" The answer was a band with four animated members and no faces to put on camera — a joke about image-driven pop that was also a very effective piece of image-driven pop.",
+      "Musically it works because Albarn used the disguise to leave Britpop entirely. Dan the Automator, a Californian hip-hop producer, built the beats; Del the Funky Homosapien raps on two tracks; Ibrahim Ferrer of the Buena Vista Social Club sings in Spanish on another; members of Tom Tom Club appear. Nothing on it would have been permitted on a Blur record without an argument about authenticity, and the cartoon made the argument unnecessary.",
+      "The timing was right in a way that is easy to miss now. In 2001 guitar bands and hip-hop still occupied separate commercial worlds in Britain, and the crossover attempts had mostly been embarrassing. Gorillaz got away with it partly by being fictional — a virtual band has no scene to betray — and partly because the production was genuinely good rather than a gesture.",
+      "It went triple platinum in Britain, platinum in America and has sold over seven million worldwide, which earned them a Guinness entry as the most successful virtual band. Metacritic settles at 71, which reads as slightly grudging now; the longer verdict is that the format itself proved durable, and that Albarn's habit here of assembling collaborators from unrelated traditions became the working method for everything he has done since."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Dub bass and space",
+        "text": "Heavy, rounded basslines with long gaps and echo trails, a Jamaican production logic applied to pop songs and partly recorded there."
+      },
+      {
+        "label": "Albarn singing at half-mast",
+        "text": "He mutters and drawls in a flat, sedated register rather than projecting, which is what gives the record its melancholy under the cartoon."
+      },
+      {
+        "label": "Melodica as a lead instrument",
+        "text": "A small breath-blown keyboard carries hooks where a guitar would, borrowed from Augustus Pablo's dub records."
+      },
+      {
+        "label": "Guests from unconnected worlds",
+        "text": "A Californian rapper, a Cuban son singer and New York post-punk veterans appear across the same album without being blended into one style."
+      },
+      {
+        "label": "Lo-fi drum machines",
+        "text": "The beats are deliberately thin and slightly grubby rather than polished, which keeps a record made by professionals sounding provisional."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Gorillaz (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gorillaz_(album)"
+      },
+      {
+        "title": "Gorillaz — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gorillaz"
+      },
+      {
+        "title": "Dan the Automator — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dan_the_Automator"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Massive Attack",
+        "album": "Blue Lines",
+        "year": "1991",
+        "note": "The British template of a producer-led project assembling guest vocalists over dub-informed beats."
+      },
+      {
+        "artist": "The Specials",
+        "album": "The Specials",
+        "year": "1979",
+        "note": "Albarn's habit of putting Jamaican rhythm under English melancholy runs back through two-tone."
+      },
+      {
+        "artist": "Beastie Boys",
+        "album": "Paul's Boutique",
+        "year": "1989",
+        "note": "Dense, playful, sample-built hip-hop made by people from outside the tradition, and produced in the same Californian orbit."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Damon Albarn",
+        "album": "Mali Music",
+        "year": "2002",
+        "note": "The collaborative method established here — gather musicians from unrelated traditions and build around them — becomes his working practice."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebc41",
+    "image": "https://i.scdn.co/image/ab67616d00001e02f6c46838e4425ea96e2562fe",
+    "savedAt": "2026-09-29T12:19:52.981Z"
+  },
+  "5f34ee8bf0857e55ed5ec024": {
+    "artist": "Carpenters",
+    "album": "Close To You",
+    "year": "1970",
+    "heading": "Close to You — Carpenters (1970)",
+    "albumLine": "Released 19 August 1970 on A&M, produced by Jack Daugherty and recorded at A&M Studios in Hollywood between November 1969 and July 1970. Soft pop built on Richard Carpenter's arrangements and his sister Karen's voice — their second album, and the one that made them enormous.",
+    "overview": [
+      "The division of labour is the whole act. Richard Carpenter wrote, arranged, played keyboards and stacked the backing vocals; Karen Carpenter sang and, importantly, drummed. She had started as a drummer and thought of herself as one, and the fact that the most admired pop voice of the decade belonged to someone sat behind a kit is the detail most often left out of the story.",
+      "The material came from several directions. The title song was a Burt Bacharach and Hal David composition that had been recorded before without success; \"We've Only Just Begun\" began life as a jingle written by Paul Williams and Roger Nichols for a bank advertisement. Around those, Richard's own compositions and arrangements did the work, played by the Wrecking Crew — the Los Angeles session players who had made most of the previous decade's hits, Hal Blaine on drums among them.",
+      "In 1970 this was counter-programming, and was heard as such. Rock had just been through Altamont, Woodstock and the collapse of the sixties consensus, and the Carpenters offered immaculate, un-ironic, conservatively arranged pop about wanting to be loved. That earned them enormous sales and, for the next two decades, near-total critical contempt — they became shorthand for square.",
+      "The reassessment has been comprehensive. AllMusic now call it \"a surprisingly strong album,\" crediting Richard's arranging alongside Karen's singing. It reached No. 2 in America, topped the Canadian chart, and spent 76 weeks in the UK top 50 across the early seventies; it drew eight Grammy nominations and won Best New Artist. Rolling Stone, who once had no time for them at all, placed it 175th among the 500 greatest albums. Karen Carpenter died in 1983, aged 32, of heart failure caused by anorexia nervosa — an illness barely publicly understood at the time, and one her death did a great deal to make visible."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Karen Carpenter's lower register",
+        "text": "She sings in a contralto, close-mic'd and almost without vibrato, so the tone is conversational and startlingly intimate on a record this lavishly arranged."
+      },
+      {
+        "label": "Vocal stacks built from two people",
+        "text": "Richard multi-tracks their voices into choirs of a dozen or more, all of them siblings, which is why the harmony blends the way no session group could."
+      },
+      {
+        "label": "Wrecking Crew precision",
+        "text": "The backing is played by Los Angeles's top session musicians, tight and unfussy, giving the arrangements a polish that never draws attention to itself."
+      },
+      {
+        "label": "Woodwind and flugelhorn",
+        "text": "Oboe, flute and soft brass replace strings in places, a chamber-pop palette closer to Bacharach than to anything in rock."
+      },
+      {
+        "label": "Drums played by the singer",
+        "text": "Karen drums on much of the album as well as singing, which is audible in how the vocal phrasing sits so exactly with the beat."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Close to You (The Carpenters album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Close_to_You_(The_Carpenters_album)"
+      },
+      {
+        "title": "Carpenters — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Carpenters"
+      },
+      {
+        "title": "Karen Carpenter — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Karen_Carpenter"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Beach Boys",
+        "album": "Pet Sounds",
+        "year": "1966",
+        "note": "The model for stacked close harmony and chamber instrumentation arranged by one obsessive at the centre of a family group."
+      },
+      {
+        "artist": "Burt Bacharach",
+        "album": "Reach Out",
+        "year": "1967",
+        "note": "The title song is his; the woodwind-led arrangements and unusual chord movement are the direct model."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "k.d. lang",
+        "album": "Ingénue",
+        "year": "1992",
+        "note": "lang has repeatedly named Karen Carpenter her central vocal influence, and the close-mic'd contralto over lush arrangement is the same instrument."
+      },
+      {
+        "artist": "Aimee Mann",
+        "album": "Whatever",
+        "year": "1993",
+        "note": "Immaculately arranged melodic pop with a conversational, unstrained vocal — the register the Carpenters made possible and critics spent twenty years punishing."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec024",
+    "image": "https://i.scdn.co/image/00c05d7b1aed54787d729a3435ea018ec8024502",
+    "savedAt": "2026-09-29T12:20:45.932Z"
+  },
+  "5f34ee8bf0857e55ed5ebdad": {
+    "artist": "Dennis Wilson",
+    "album": "Pacific Ocean Blue",
+    "year": "1977",
+    "heading": "Pacific Ocean Blue — Dennis Wilson (1977)",
+    "albumLine": "Released 22 August 1977 on Caribou, co-produced by Wilson with Gregg Jakobson and recorded at Brother Studios in Santa Monica between autumn 1976 and spring 1977. Orchestral, gospel-inflected rock with a ruined voice at the centre — the only solo album he finished.",
+    "overview": [
+      "He was the Beach Boys' drummer and, for most of their career, the least regarded songwriter in the group. He was also the only one who actually surfed, and the one whose life most closely resembled the mythology the band sold. By 1977 that life had done visible damage: his singing here is cracked and hoarse, a long way from the voice on the sixties records, and the album is better for it.",
+      "The sound is nothing like a Beach Boys record. Where his brother Brian Wilson built from close harmony and pop structure, Dennis writes in slow, churning blocks — piano, Moog, layered choirs, orchestral swells, sudden dropouts — closer to gospel and to soul balladry than to California pop. It is sincere to the point of discomfort, with none of the craft-as-defence that ran through the family business.",
+      "Its commercial failure is straightforward to explain. It came out in August 1977 into a market of punk on one side and disco on the other, from a drummer whose band had become a nostalgia act, with no single anyone could place. It stalled at No. 96 and lasted twelve weeks; the label pulled support for a planned West Coast tour and the reviews were mixed.",
+      "The reassessment took decades and was driven largely by musicians rather than critics — the record circulated for years as an expensive out-of-print rumour before a 2008 reissue added unreleased material from the unfinished follow-up. Wilson drowned in December 1983, aged 39, with that second album still incomplete. What survives is now routinely described as the best record anyone in the Beach Boys made outside the band, which is a claim that would have astonished everyone involved in 1977."
+    ],
+    "listeningNotes": [
+      {
+        "label": "A wrecked voice",
+        "text": "Hoarse, grainy and short of breath, with cracks left in. It carries the record precisely because it can no longer do what it used to."
+      },
+      {
+        "label": "Massed choirs",
+        "text": "Gospel-style stacked vocals swell up behind him and then vanish, used for weight rather than for harmony in the Beach Boys sense."
+      },
+      {
+        "label": "Moog and piano as the foundation",
+        "text": "Synthesizer pads under acoustic piano carry most arrangements, with guitars far back — almost the inverse of a seventies rock record."
+      },
+      {
+        "label": "Songs that lurch between sections",
+        "text": "Pieces change tempo and key abruptly rather than developing, closer to suites than to verse-chorus writing."
+      },
+      {
+        "label": "The ocean in the mix",
+        "text": "Water and wind recordings appear between and under tracks, which on an album by the one Beach Boy who actually surfed reads as autobiography rather than decoration."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Pacific Ocean Blue — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pacific_Ocean_Blue"
+      },
+      {
+        "title": "Dennis Wilson — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dennis_Wilson"
+      },
+      {
+        "title": "The Beach Boys — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Beach_Boys"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Beach Boys",
+        "album": "Pet Sounds",
+        "year": "1966",
+        "note": "His brother's record, and the source of the layered-choir and studio-as-instrument approach he takes somewhere much rougher."
+      },
+      {
+        "artist": "Van Morrison",
+        "album": "Astral Weeks",
+        "year": "1968",
+        "note": "The precedent for loose, gospel- and soul-informed songwriting that abandons pop structure entirely."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Fleet Foxes",
+        "album": "Fleet Foxes",
+        "year": "2008",
+        "note": "Reissued the same year and much cited since; the massed-choir-and-piano register is a direct inheritance."
+      },
+      {
+        "artist": "Ariel Pink",
+        "album": "Before Today",
+        "year": "2010",
+        "note": "The cult of damaged, sincere Californian pop made by a wrecked voice runs through this record."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebdad",
+    "image": "https://i.scdn.co/image/76e4fad8748e815ba17d5dd9838f32a8f4ea06e7",
+    "savedAt": "2026-09-29T12:21:22.579Z"
+  },
+  "5f34ee8bf0857e55ed5eca5b": {
+    "artist": "Pere Ubu",
+    "album": "Dub Housing",
+    "year": "1978",
+    "heading": "Dub Housing — Pere Ubu (1978)",
+    "albumLine": "Released 17 November 1978 on Chrysalis, produced by the band with Ken Hamann at Suma Recording in Painesville, Ohio, over August and September. Post-punk before the word existed — their second album, and the one that made the case they were a serious proposition rather than a curiosity.",
+    "overview": [
+      "They came out of Cleveland, which matters more than it sounds. In the mid-seventies Cleveland was a declining industrial city with a strange, isolated underground scene producing bands who had heard the Stooges and the Velvet Underground and very little else, and who were consequently free to be extremely odd. Pere Ubu took their name from an 1896 French absurdist play, which tells you the register they were working in.",
+      "The line-up is the reason the record sounds like nothing around it. David Thomas sang in a high, cracked yelp somewhere between a child and a machine, and Allen Ravenstine played an EML synthesizer not as a keyboard but as a noise generator — hissing, whistling, bleeping over conventional rock instrumentation. Nobody was using a synth that way in 1978; it functions as a second voice interrupting the band rather than as texture underneath them.",
+      "The title came from an observation on tour. Looking at rows of identical houses in Baltimore while dub reggae played in the van, Thomas said: \"Look. Dub housing.\" The sleeve is the Plaza Apartments on Prospect Avenue in Cleveland — Ravenstine's own building, where several members lived — with an extra floor added to the photograph. Both facts point the same way: the record is about domestic space being repetitive, uncanny and slightly wrong.",
+      "Where their debut was a set of separate songs, this one was built to hold together, and the improvement was noticed. NME made it the eighth-best album of 1978 and Sounds the thirteenth; Robert Christgau said it made him go back and reconsider the first record. Trouser Press later called it \"simply one of the most important post-punk recordings,\" which has become the settled view — nearly everything angular, synthetic and deliberately uncomfortable in British post-punk over the following three years has an ancestor here."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Synthesizer as noise, not notes",
+        "text": "Ravenstine's EML produces hisses, sirens and electrical crackle rather than melody, cutting across the band like interference on a radio."
+      },
+      {
+        "label": "David Thomas's yelp",
+        "text": "High, strangled and theatrical, veering into wordless noises. It is the most divisive element and the one everything else is arranged around."
+      },
+      {
+        "label": "A rhythm section playing it straight",
+        "text": "Bass and drums hold conventional, almost danceable patterns underneath the chaos, which is what stops the record being formless."
+      },
+      {
+        "label": "Dub space",
+        "text": "Instruments drop out abruptly and echo into gaps, borrowing Jamaican mixing logic without ever sounding like reggae."
+      },
+      {
+        "label": "Songs that refuse to resolve",
+        "text": "Pieces end mid-phrase or dissolve into noise rather than finishing, so the album never gives you a moment of completion."
+      },
+      {
+        "label": "Industrial sound as material",
+        "text": "Clanks, drones and machine noise sit inside the arrangements — the sound of the city the band actually lived in."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dub Housing — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dub_Housing"
+      },
+      {
+        "title": "Pere Ubu — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pere_Ubu"
+      },
+      {
+        "title": "Allen Ravenstine — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Allen_Ravenstine"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Stooges",
+        "album": "Raw Power",
+        "year": "1973",
+        "note": "The Midwestern proto-punk the Cleveland scene was built on, and the source of the band's tolerance for noise."
+      },
+      {
+        "artist": "Captain Beefheart & His Magic Band",
+        "album": "Trout Mask Replica",
+        "year": "1969",
+        "note": "The precedent for rock instrumentation arranged to sound broken on purpose, with a declaimed rather than sung vocal."
+      },
+      {
+        "artist": "The Velvet Underground",
+        "album": "White Light/White Heat",
+        "year": "1968",
+        "note": "Noise and drone treated as legitimate song material rather than as an effect."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Joy Division",
+        "album": "Unknown Pleasures",
+        "year": "1979",
+        "note": "Post-punk's turn towards space, dub-derived mixing and unease as structure follows within a year."
+      },
+      {
+        "artist": "Girls Against Boys",
+        "album": "Venus Luxure No. 1 Baby",
+        "year": "1993",
+        "note": "Sampler and keyboard used as atmosphere over a locked rhythm section descends from this arrangement logic."
+      },
+      {
+        "artist": "Radiohead",
+        "album": "Kid A",
+        "year": "2000",
+        "note": "Electronic noise used to interrupt a rock band rather than accompany it — the method Ravenstine established."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5eca5b",
+    "image": "https://i.scdn.co/image/ab67616d00001e02dda7073de1bc124faa9329b4",
+    "savedAt": "2026-09-29T12:22:02.446Z"
+  },
+  "5f34ee8bf0857e55ed5ebf01": {
+    "artist": "Richard Hawley",
+    "album": "Coles Corner",
+    "year": "2005",
+    "heading": "Coles Corner — Richard Hawley (2005)",
+    "albumLine": "Released 5 September 2005 on Mute, produced by Hawley with Colin Elliot and Mike Timm at Yellow Arch Studios in Sheffield. Forty-six minutes of chamber pop built from fifties ballads, rockabilly, country and jazz — his fourth album, and the one that made his name.",
+    "overview": [
+      "The title is a real place: the corner of Fargate and Church Street in Sheffield, where the Cole Brothers department store stood until 1963, and which generations of Sheffielders used as the spot to meet a first date. Naming an album after a shop that moved away before he was born tells you what the record is doing — it is about a city's memory of itself, written by someone who never left.",
+      "Hawley had spent the nineties as a sideman: guitarist in the Longpigs, then a touring and recording member of Pulp. That history matters because it explains the playing. He is a genuinely excellent guitarist in a very specific idiom — clean, reverbed, fifties-tone lead lines — and the album is arranged around that sound rather than around a singer-songwriter's acoustic.",
+      "In 2005 this was an odd proposition. British guitar music was mid-landfill-indie, all angular riffs and shouted verses, and Hawley put out a record of orchestrated ballads sung in a baritone croon with strings and vibraphone. What keeps it from being pastiche is that he means it: PopMatters put its finger on it, crediting his \"complete lack of irony and bombast.\" Pitchfork noted the songs had \"melodic muscle to stand up next to standards.\"",
+      "It reached No. 16 in Britain, went gold, scored 85 on Metacritic and was nominated for the 2006 Mercury Prize. It lost to Arctic Monkeys, whose singer Alex Turner accepted the award by shouting \"Somebody call 999, Richard Hawley's been robbed!\" — two Sheffield acts, twenty years apart, and Hawley has since said the remark was extremely positive for his career and read it as shared Sheffield humour rather than sympathy."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Fifties guitar tone",
+        "text": "Clean, heavily reverbed lead lines played on hollow-body guitars, closer to Duane Eddy or Chet Atkins than to anything from his own era."
+      },
+      {
+        "label": "A baritone croon",
+        "text": "He sings low, steady and unhurried, with no rasp and no strain — the delivery of a ballad singer rather than an indie frontman."
+      },
+      {
+        "label": "Strings and vibraphone",
+        "text": "Orchestral arrangements and soft mallet percussion sit behind most tracks, giving the record the texture of a late-night radio broadcast."
+      },
+      {
+        "label": "Recorded in Sheffield",
+        "text": "Made at a local studio with local players rather than in London, which is consistent with an album about refusing to leave."
+      },
+      {
+        "label": "Slow tempos throughout",
+        "text": "Almost nothing here moves quickly, and nothing is hurried into a chorus. The album commits entirely to one pace, which is what lets the arrangements open out and the reverb decay properly between phrases."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Coles Corner (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Coles_Corner_(album)"
+      },
+      {
+        "title": "Coles Corner — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Coles_Corner"
+      },
+      {
+        "title": "Arctic Monkeys win 2006 Mercury Music Prize — NME",
+        "url": "https://www.nme.com/news/music/arctic-monkeys-523-1356678"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Roy Orbison",
+        "album": "Lonely and Blue",
+        "year": "1961",
+        "note": "The model for a big, unhurried ballad voice over orchestrated arrangements with a guitar at the centre."
+      },
+      {
+        "artist": "Scott Walker",
+        "album": "Scott 4",
+        "year": "1969",
+        "note": "A British singer taking the orchestral baritone ballad entirely seriously rather than as pastiche."
+      },
+      {
+        "artist": "Pulp",
+        "album": "Different Class",
+        "year": "1995",
+        "note": "Hawley played with Pulp; the tradition of writing Sheffield itself as a subject runs straight through both."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The Last Shadow Puppets",
+        "album": "The Age Of The Understatement",
+        "year": "2008",
+        "note": "Alex Turner's move into orchestral sixties balladry follows a Sheffield contemporary who had just done it; Hawley later played with Arctic Monkeys."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebf01",
+    "image": "https://i.scdn.co/image/0ffd8a11eacfdb4fa512c68a18251c35da01f9d7",
+    "savedAt": "2026-09-29T12:25:29.182Z"
+  },
+  "5f34ee8bf0857e55ed5ec06f": {
+    "artist": "Hugh Masekela",
+    "album": "Home Is Where The Music Is",
+    "year": "1972",
+    "heading": "Home Is Where the Music Is — Hugh Masekela (1972)",
+    "albumLine": "Recorded on 15 January 1972 at Island Studios in London and released that year on Chisa and Blue Thumb, produced by Stewart Levine and Caiphus Semenya. A double album of South African jazz — Masekela on flugelhorn with Dudu Pukwana on alto saxophone — made twelve years into exile.",
+    "overview": [
+      "He had left South Africa in 1960, shortly after the Sharpeville massacre, on the encouragement of musicians abroad and with a trumpet reportedly arranged through Louis Armstrong. Apartheid made a career impossible at home for a Black musician who would not accept its terms; the title is the only kind of answer available to that, and it is not a consoling one.",
+      "By the late sixties he had become commercially successful in America in a way that increasingly did not interest him — he had a No. 1 pop hit in 1968 — and this record is the turn away from that. Where the earlier albums leaned on covers and pop-jazz arrangements, this one is largely his own compositions, built on mbaqanga and marabi forms from home rather than on American song structure.",
+      "The band makes the argument concrete. Dudu Pukwana, an alto saxophonist who had left South Africa with the Blue Notes and settled in London, plays with the harder township attack; Makhaya Ntshoko, another South African exile, drums; Larry Willis on keys and Eddie Gomez on bass come from the American jazz world. It is an exile's band assembled in a third country, which is exactly what it sounds like.",
+      "AllMusic's Thom Jurek calls it \"a stone spiritual soul-jazz classic,\" and the ratings sit high across the board — 4.5 stars from AllMusic, five from Channel 24. Its standing rests on being the record where Masekela stopped translating himself for an American audience. He returned to South Africa only in the 1990s, after apartheid ended, having spent thirty years making music about a place he could not go."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Flugelhorn rather than trumpet",
+        "text": "Masekela favours the rounder, darker-toned horn, which is why his lines sing rather than cut even at full volume."
+      },
+      {
+        "label": "Township rhythm under jazz playing",
+        "text": "The grooves come from mbaqanga and marabi — cyclical, dance-derived, endlessly repeating — with American jazz soloing on top."
+      },
+      {
+        "label": "Two horns in dialogue",
+        "text": "Masekela and Pukwana answer each other across long passages, one warm and one deliberately raw, the contrast standing in for a conversation."
+      },
+      {
+        "label": "Long tracks, live takes",
+        "text": "Pieces run well past normal album length and were cut in a single day, so the improvisation is genuinely collective rather than assembled."
+      },
+      {
+        "label": "Singing in Xhosa and Zulu",
+        "text": "Vocals appear in South African languages, unglossed and untranslated, with no attempt to meet an English-speaking listener halfway. He is addressing the audience he was cut off from rather than the one in front of him."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Home Is Where the Music Is — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Home_Is_Where_the_Music_Is"
+      },
+      {
+        "title": "Hugh Masekela — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hugh_Masekela"
+      },
+      {
+        "title": "Dudu Pukwana — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dudu_Pukwana"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Miles Davis",
+        "album": "Kind Of Blue",
+        "year": "1959",
+        "note": "The modal approach — few chords, long improvisations — that lets township cycles carry extended jazz soloing."
+      },
+      {
+        "artist": "John Coltrane",
+        "album": "A Love Supreme",
+        "year": "1965",
+        "note": "The spiritual-jazz frame, where a long-form piece is a statement of belief rather than a set of solos."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Fela Kuti",
+        "album": "Zombie",
+        "year": "1977",
+        "note": "Part of the same current of African musicians turning Western jazz training back onto local rhythmic forms."
+      },
+      {
+        "artist": "Paul Simon",
+        "album": "Graceland",
+        "year": "1986",
+        "note": "Masekela toured it and helped bring South African musicians to a global audience; the mbaqanga vocabulary is shared."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec06f",
+    "image": "https://i.scdn.co/image/32ab9b86a46e162739d23efde82fcce7c3665873",
+    "savedAt": "2026-09-29T12:25:30.148Z"
+  },
+  "5f34ee8bf0857e55ed5ec0d9": {
+    "artist": "Finley Quaye",
+    "album": "Maverick A Strike",
+    "year": "1997",
+    "heading": "Maverick a Strike — Finley Quaye (1997)",
+    "albumLine": "Released 6 August 1997 on 550 Music and Epic, produced by Quaye with Kevin Bacon. Fifty minutes of reggae crossed with soul and pop — his debut, and a record that went double platinum in Britain on the back of five charting singles.",
+    "overview": [
+      "He was born in Edinburgh in 1974 into a family with a substantial musical history he barely knew. His father was Cab Kaye, born Nii Lante Augustus Kwamlah Quaye, a vaudeville pianist and a chief of the Ga people in Jamestown, Accra; his half-brother Caleb Quaye is a guitarist. Finley did not grow up with his father and only learned the extent of that legacy in his twenties, meeting him for the first time in Amsterdam while on tour. That biography — Scottish, Ghanaian, discovered late — is the shape of the record.",
+      "What he made from it is deliberately unpurist reggae. The rhythms are Jamaican, the singing is closer to soul, and the production has the warm, slightly hazy quality of mid-nineties British studio work rather than the dryness of roots recordings. It sits alongside trip-hop and the end of Britpop without belonging to either, which in 1997 was an unusual and quite marketable position.",
+      "It worked immediately and enormously. The album reached No. 3 in Britain, was certified double platinum for around 600,000 copies, and produced five hit singles. He took the MOBO for best reggae act in 1997 and the BRIT for Best British Male Solo Artist in 1998 — which, for a debut by someone nobody had heard of eighteen months earlier, is a very steep curve.",
+      "The critics did not agree with each other at all. Pitchfork gave it 9.4 and The Guardian five stars, while NME gave it 5 out of 10; Rolling Stone four stars, Entertainment Weekly a B+. That spread is unusually wide and is essentially an argument about whether easy-going, well-made, commercially aimed reggae-pop is a legitimate thing to do well. Nothing he released afterwards repeated the success, which has left this album standing slightly on its own."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Reggae rhythm, soul singing",
+        "text": "The off-beat guitar chop and bass-led arrangements are Jamaican; the vocal phrasing is not, which is the tension the record runs on."
+      },
+      {
+        "label": "A light, unforced voice",
+        "text": "He sings high and easily, without the strain or the patois affectation that British reggae singers often reached for."
+      },
+      {
+        "label": "Warm, hazy production",
+        "text": "Rounded low end and soft-edged highs give it a mid-nineties British sheen rather than the sharp separation of roots reggae."
+      },
+      {
+        "label": "Guitar figures over the groove",
+        "text": "Clean, melodic guitar lines float above the rhythm section rather than locking into it, borrowing from soul and pop arrangement."
+      },
+      {
+        "label": "Songs built for radio",
+        "text": "Five of these charted, and the writing shows it — short, hook-forward structures with the choruses arriving early."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Maverick a Strike — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Maverick_a_Strike"
+      },
+      {
+        "title": "Finley Quaye — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Finley_Quaye"
+      },
+      {
+        "title": "Cab Kaye — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cab_Kaye"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Bob Marley & The Wailers",
+        "album": "Exodus",
+        "year": "1977",
+        "note": "The template for reggae written as international pop without losing the rhythm section's identity."
+      },
+      {
+        "artist": "Massive Attack",
+        "album": "Blue Lines",
+        "year": "1991",
+        "note": "The British studio aesthetic he works in — warm, hazy, bass-forward — comes out of this Bristol lineage."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Damien Rice",
+        "album": "O",
+        "year": "2002",
+        "note": "The strand of easy, warmly produced British and Irish songwriting that followed into the same commercial space."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec0d9",
+    "image": "https://i.scdn.co/image/9e91afe31b814bfcc4b1c3590ff5870769662008",
+    "savedAt": "2026-09-29T12:24:26.630Z"
+  },
+  "5f34ee8bf0857e55ed5ec021": {
+    "artist": "Femi Kuti",
+    "album": "Femi Kuti",
+    "year": "1995",
+    "heading": "Femi Kuti — Femi Kuti (1995)",
+    "albumLine": "Released in 1995 on Motown's Tabu imprint, performed with his band Positive Force. Afrobeat with more jazz and funk in it than his father's, and shorter songs — his international debut, and the start of a career spent proving the form belonged to more than one man.",
+    "overview": [
+      "He is Fela Kuti's eldest son, born in London in 1962, and the grandson of Funmilayo Ransome-Kuti, the anti-colonial organiser who was thrown from a window during the 1977 army raid on his father's commune. He was raised largely by his mother and rejoined Fela in 1977, aged fifteen — which is to say he arrived in his father's household in the year it was destroyed.",
+      "He played in Egypt 80, Fela's band, before forming Positive Force in 1986 with Dele Sosimi, who had been that band's keyboard player. Starting a rival Afrobeat group while the inventor of Afrobeat was still alive and working was not a modest thing to do, and it took most of a decade before it read internationally as anything other than an inheritance.",
+      "What he changed is structural. Fela's pieces ran to fifteen minutes or more, built on a single groove with the vocal arriving late; Femi writes shorter, faster, more compressed songs with more jazz harmony and a harder funk attack, and sings earlier. Whether that counts as development or dilution is the argument that has followed him throughout, and both sides have a case. The politics carried over without softening — corruption, poverty and Nigerian governance remain the subject.",
+      "This record is where that case was first made to an audience outside Nigeria, and the reception was strong enough to sustain a thirty-year career; he has since had six Grammy nominations and was made a Chevalier des Arts et des Lettres by France in 2022. Fela died in 1997, two years after it came out. The unusual thing about the Kutis is that the second generation did not simply curate the first — there are now three of them recording, and the form has outlived its inventor as a living music rather than a repertoire."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Shorter songs, faster tempos",
+        "text": "Where his father's pieces ran past fifteen minutes, these are compressed to a few, with the vocal entering early rather than after a long instrumental build."
+      },
+      {
+        "label": "His own saxophone",
+        "text": "Femi plays alto with a hard, bright, jazz-schooled tone, taking solos his father would have given to a section."
+      },
+      {
+        "label": "Horn section as one voice",
+        "text": "Unison stabs and riffs punctuate the groove rather than harmonising — the Africa '70 arrangement logic carried straight over."
+      },
+      {
+        "label": "Call-and-response in Pidgin",
+        "text": "He shouts lines and the group answers, the Yoruba and West African device that makes the politics collective rather than delivered."
+      },
+      {
+        "label": "Funk tightness under the cycle",
+        "text": "The rhythm section plays with more clipped, American funk precision than the looser Africa '70 feel, which is the clearest generational difference."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Femi Kuti — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Femi_Kuti"
+      },
+      {
+        "title": "Positive Force — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Positive_Force_(band)"
+      },
+      {
+        "title": "Fela Kuti — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fela_Kuti"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Fela Kuti",
+        "album": "Zombie",
+        "year": "1977",
+        "note": "His father's band, which he played in; the horn writing, the call-and-response and the political frame all come from it."
+      },
+      {
+        "artist": "Fela Kuti",
+        "album": "Live!",
+        "year": "1971",
+        "note": "The Africa '70 ensemble at work, including Tony Allen's drumming, which is the rhythmic grammar he grew up inside."
+      },
+      {
+        "artist": "James Brown",
+        "album": "Sex Machine",
+        "year": "1970",
+        "note": "The tighter, more clipped funk attack that distinguishes his rhythm section from his father's looser feel."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Antibalas",
+        "album": "Who Is This America?",
+        "year": "2004",
+        "note": "The Brooklyn Afrobeat revival worked from the living, touring version of the form that Femi kept going."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec021",
+    "image": "https://i.scdn.co/image/ab67616d00001e0268361c848aea8da145849539",
+    "savedAt": "2026-09-29T12:25:06.113Z"
   }
 }
