@@ -824,11 +824,17 @@ async function setUpRating(album, entry) {
   rateStatus.textContent = "";
   rateStatus.classList.remove("is-error");
 
+  markWritable(false);
   if (!writeMode || !(await Data.canRate())) {
     rateBlock.hidden = true;
     return;
   }
   rateBlock.hidden = false;
+
+  // This album can be written to, so land on the pane that lets you do it —
+  // and flag the tab, so it's obvious even once you've clicked away.
+  markWritable(true);
+  if (album === currentAlbum) showSubPane("reviews");
 
   const notesOnly = writeMode === "listening-note";
   pendingRating = notesOnly ? null : entry?.rating ?? null;
@@ -1057,6 +1063,13 @@ const subPanes = {
   reviews: document.getElementById("sub-pane-reviews"),
 };
 
+// a dot on the reviews tab when there's something you can actually post
+function markWritable(on) {
+  document
+    .querySelector('.sub-tab[data-pane="reviews"]')
+    ?.classList.toggle("has-action", Boolean(on));
+}
+
 function showSubPane(name) {
   document.querySelectorAll(".sub-tab").forEach((b) => {
     const on = b.dataset.pane === name;
@@ -1121,7 +1134,10 @@ function openModal(album, entry) {
   loadGlobalAverage(album, entry);
 
 
-  // every album opens on its note, whichever tab the last one was left on
+  // Default to the note; setUpRating flips this to reviews when the album can
+  // actually be written to. The write box lives in the reviews pane, and an
+  // album you could rate opened on the notes tab looked like an album you
+  // couldn't rate at all.
   showSubPane("notes");
 
   const modalCard = modal.querySelector(".modal-card");

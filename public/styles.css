@@ -837,6 +837,18 @@ main {
 .sub-tab:hover { color: var(--ink); background: none; transform: none; }
 .sub-tab.is-active { color: var(--ink); border-bottom-color: var(--brick); }
 
+/* something postable is waiting in this pane */
+.sub-tab.has-action::after {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-left: 0.4rem;
+  vertical-align: 0.35em;
+  border-radius: 50%;
+  background: var(--orange);
+}
+
 .review-tabs { display: flex; gap: 1.4rem; margin-bottom: 1rem; border-bottom: 1.5px solid var(--edge); }
 
 .rev-tab {
