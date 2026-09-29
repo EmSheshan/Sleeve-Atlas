@@ -54,7 +54,7 @@ await saveNote({
 
   influencedBy: [
     { artist: "Ray Charles", album: "Modern Sounds in Country and Western Music", year: "1962", note: "The figure who first moved gospel technique wholesale into secular music, and the model for Franklin's approach." },
-    { artist: "Otis Redding", album: "Otis Blue", year: "1965", note: "Source of \"Respect,\" and the Stax Southern soul idiom this record works within." },
+    { artist: "Otis Redding", album: "Otis Blue/Otis Redding Sings Soul", year: "1965", note: "Source of \"Respect,\" and the Stax Southern soul idiom this record works within." },
   ],
 
   influenced: [

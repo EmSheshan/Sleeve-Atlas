@@ -2862,7 +2862,7 @@
       },
       {
         "artist": "Otis Redding",
-        "album": "Otis Blue",
+        "album": "Otis Blue/Otis Redding Sings Soul",
         "year": "1965",
         "note": "The Stax soul horn vocabulary that \"Sledgehammer\" reproduces almost as pastiche."
       }
@@ -2883,7 +2883,7 @@
     ],
     "uuid": "6439a48d595daaf76a3f4182",
     "image": "https://i.scdn.co/image/ab67616d00001e0211bb04f55be562c76d8e8ecf",
-    "savedAt": "2026-09-27T18:39:03.905Z"
+    "savedAt": "2026-09-29T21:49:51.984Z"
   },
   "5f34ee8bf0857e55ed5ecfdf": {
     "artist": "Throbbing Gristle",
@@ -3384,7 +3384,7 @@
       },
       {
         "artist": "Otis Redding",
-        "album": "Otis Blue",
+        "album": "Otis Blue/Otis Redding Sings Soul",
         "year": "1965",
         "note": "Source of \"Respect,\" and the Stax Southern soul idiom this record works within."
       }
@@ -3411,7 +3411,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5fd1d1",
     "image": "https://i.scdn.co/image/ab67616d00001e026aa9314b7ddfbd8f036ba3ac",
-    "savedAt": "2026-09-28T23:43:20.421Z"
+    "savedAt": "2026-09-29T21:49:49.204Z"
   },
   "5f34ee8bf0857e55ed2ebecc": {
     "artist": "Lorde",
@@ -5300,7 +5300,7 @@
     "influencedBy": [
       {
         "artist": "Otis Redding",
-        "album": "Otis Blue",
+        "album": "Otis Blue/Otis Redding Sings Soul",
         "year": "1965",
         "note": "The Stax horn-section template and the model of a singer whose strain and effort are the point."
       },
@@ -5327,7 +5327,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ec006",
     "image": "https://i.scdn.co/image/1f68fe8555e66ac3601c0463e408be2411e7cc4c",
-    "savedAt": "2026-09-28T12:24:16.381Z"
+    "savedAt": "2026-09-29T21:49:51.084Z"
   },
   "5f34ee8bf0857e55ed5ec010": {
     "artist": "Creedence Clearwater Revival",
@@ -6534,14 +6534,14 @@
       },
       {
         "artist": "Otis Redding",
-        "album": "Otis Blue",
+        "album": "Otis Blue/Otis Redding Sings Soul",
         "year": "1965",
         "note": "The Atlantic-and-Stax soul voice as its own commercial category, which Burke's run of hits established first."
       }
     ],
     "uuid": "5f34ee8bf0857e55ed5eac7a",
     "image": "https://i.scdn.co/image/ab67616d00001e0209133b648545410eeba21d0d",
-    "savedAt": "2026-09-28T23:17:46.491Z"
+    "savedAt": "2026-09-29T21:49:50.131Z"
   },
   "5f34ee8bf0857e55ed5ec03f": {
     "artist": "Bill Evans Trio",
@@ -8820,5 +8820,883 @@
     "uuid": "5f34ee8bf0857e55ed5ec021",
     "image": "https://i.scdn.co/image/ab67616d00001e0268361c848aea8da145849539",
     "savedAt": "2026-09-29T12:25:06.113Z"
+  },
+  "5f34ee8bf0857e55ed5ec00c": {
+    "artist": "Neil Young & Crazy Horse",
+    "album": "Rust Never Sleeps",
+    "year": "1979",
+    "heading": "Rust Never Sleeps — Neil Young & Crazy Horse (1979)",
+    "albumLine": "Released 22 June 1979 on Reprise, built from live performances overdubbed in the studio afterwards. An acoustic first side and an electric second — a record that is structurally an argument, and Young's response to punk.",
+    "overview": [
+      "By 1979 Young was 33 and had been a major figure for a decade, which in the terms punk had just imposed made him part of the problem. Most of his generation responded to that by ignoring it or sulking. Young's response was to agree with the diagnosis and then out-argue it, and the album is shaped as the argument: one side of solo acoustic songs, one side of Crazy Horse at maximum distortion, with a matched pair of songs opening and closing the record in each mode.",
+      "The title came from Devo. Mark Mothersbaugh had it from a Rust-Oleum advertising slogan, and Young's account of the conversation is the whole thesis in one line: \"he just said 'Well it's better to burn out 'cause rust never sleeps' and I thought, well all right, that makes a lot of sense to me.\" The songs take it literally — rust as the slow decay of anyone who keeps going, against the clean exit of burning out, with Johnny Rotten named directly in the lyric.",
+      "The recording method is unusual and mostly invisible. These are live performances with studio overdubs layered on, which is why the electric side has the size of a stadium and the detail of a studio at once. It also means the acoustic side carries actual room sound rather than the padded quiet of a folk session.",
+      "It reached No. 8 and took Rolling Stone's album of the year; Robert Christgau wrote that Young was \"wiser but not wearier, victor so far over the slow burnout his title warns of.\" The long consequence is Seattle: both Nirvana and Pearl Jam cited the distorted guitar on the second side as a model, which is the main reason Young acquired the title of godfather of grunge. The connection turned grim in 1994, when Kurt Cobain quoted a line from the album's closing song in his suicide note — a use of the phrase precisely opposite to what the record argues, and one Young has spoken about with visible distress since."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Two sides, two bands",
+        "text": "Side one is one man and an acoustic guitar; side two is Crazy Horse at full volume. The same songs bookend both, so the contrast is the structure."
+      },
+      {
+        "label": "Distortion as texture, not aggression",
+        "text": "Young's electric tone is huge, fuzzy and slightly out of control, closer to a wall of noise than to riffing — the sound Seattle took wholesale a decade later."
+      },
+      {
+        "label": "Crazy Horse's deliberate looseness",
+        "text": "The band plays behind the beat and slightly out of tune with each other, which is the point: precision would kill it."
+      },
+      {
+        "label": "Live takes with overdubs",
+        "text": "Recorded in front of audiences and then layered in the studio, so it has crowd-scale weight and studio-scale detail simultaneously."
+      },
+      {
+        "label": "A harmonica and a high voice",
+        "text": "The acoustic side leans on Young's thin, reedy tenor and harmonica racks, unchanged from his 1969 records and utterly unfashionable in 1979."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rust Never Sleeps — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rust_Never_Sleeps"
+      },
+      {
+        "title": "Hey Hey, My My (Into the Black) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/My_My,_Hey_Hey_(Out_of_the_Blue)"
+      },
+      {
+        "title": "Neil Young — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Neil_Young"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Sex Pistols",
+        "album": "Never Mind The Bollocks, Here’s The Sex Pistols",
+        "year": "1977",
+        "note": "The record he is answering; Johnny Rotten is named in the lyric and the album's whole premise is a reply to punk's verdict on his generation."
+      },
+      {
+        "artist": "The Stooges",
+        "album": "Raw Power",
+        "year": "1973",
+        "note": "The precedent for distorted guitar as a sustained texture rather than a series of riffs."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Nirvana",
+        "album": "Nevermind",
+        "year": "1991",
+        "note": "Cobain named Young's distorted guitar an influence; the loud-quiet contrast this album builds into its sides became a song-level device."
+      },
+      {
+        "artist": "Pearl Jam",
+        "album": "Ten",
+        "year": "1991",
+        "note": "The band later toured and recorded with Young, and took the Crazy Horse model of loose, heavy playing directly."
+      },
+      {
+        "artist": "Screaming Trees",
+        "album": "Dust",
+        "year": "1996",
+        "note": "Heavy rock turning toward folk and acoustic writing without losing weight — the two-sided structure made an argument for it."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec00c",
+    "image": "https://i.scdn.co/image/01244d847df2e994a5474a2a8979715cc8d77a7a",
+    "savedAt": "2026-09-29T21:46:05.870Z"
+  },
+  "5f34ee8bf0857e55ed5ebcc1": {
+    "artist": "Funkadelic",
+    "album": "One Nation Under A Groove",
+    "year": "1978",
+    "heading": "One Nation Under a Groove — Funkadelic (1978)",
+    "albumLine": "Released 22 September 1978 on Warner Bros., produced by George Clinton at United Sound in Detroit with a live side recorded at the Monroe Civic Center in Louisiana that April. Funk fused with psychedelic rock — their tenth album, and their biggest.",
+    "overview": [
+      "Funkadelic and Parliament were the same people under two names, an arrangement George Clinton ran deliberately: Parliament made the horn-driven, science-fiction dance records, Funkadelic made the guitar ones. The collective around both was enormous and fluid — Bootsy Collins on bass, Garry Shider and Michael Hampton on guitars, and here Walter \"Junie\" Morrison's first appearance on keyboards. The Hendrix influence in Funkadelic is not implied: AllMusic's Steve Huey describes the album as \"full of fuzzed-out, Hendrix-style guitar licks,\" and that is the whole difference between the two bands.",
+      "The title is doing real work. In 1978 disco had become the dominant commercial Black music and was already collecting a backlash that would turn ugly the following year; funk's relationship to it was competitive and slightly anxious. \"One nation under a groove\" answers both by claiming the dancefloor as a political space — a deliberate echo of the Pledge of Allegiance, proposing dancing as the thing that actually unites people, offered without irony and with a good deal of humour.",
+      "Musically it is the point where the P-Funk method is most legible. Songs are built on long single-chord vamps with the bass carrying melody, guitars playing rock rather than funk figures over the top, and vocals passed between a dozen people in call-and-response. Sides shift between studio construction and live recording without announcing it.",
+      "It topped the R&B chart, reached No. 16 on the Billboard 200 and went platinum — by some distance Funkadelic's most successful record. Huey calls it \"the best realization of Funkadelic's ambitions.\" Rolling Stone had it at 177 in their 500 greatest for two editions before moving it to 360. Its afterlife is mostly in hip-hop, where the P-Funk catalogue became one of the most sampled bodies of work in existence, and where Dr. Dre's G-funk was built almost entirely from it."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Rock guitar over funk rhythm",
+        "text": "Hampton and Shider play distorted, Hendrix-descended lead lines across grooves that would otherwise be pure dance music. That collision is what Funkadelic is for."
+      },
+      {
+        "label": "Bass carrying the melody",
+        "text": "Bootsy Collins plays lead lines rather than root notes, high and rubbery with heavy envelope filtering, so the bottom of the record is also its hook."
+      },
+      {
+        "label": "Vocals passed around a crowd",
+        "text": "A dozen voices trade lines and shout responses rather than one singer fronting the band — the congregation the title is describing."
+      },
+      {
+        "label": "One-chord vamps at length",
+        "text": "Tracks sit on a single harmonic centre for minutes at a time and develop by adding parts, a structure taken from James Brown and extended."
+      },
+      {
+        "label": "A live side inside a studio album",
+        "text": "Part of the record is a concert recording, and the shift in room sound is audible — the band's live identity treated as material rather than a bonus."
+      }
+    ],
+    "sources": [
+      {
+        "title": "One Nation Under a Groove — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/One_Nation_Under_a_Groove"
+      },
+      {
+        "title": "Funkadelic — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Funkadelic"
+      },
+      {
+        "title": "Parliament-Funkadelic — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Parliament-Funkadelic"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Jimi Hendrix",
+        "album": "Electric Ladyland",
+        "year": "1968",
+        "note": "The fuzzed, exploratory lead guitar that separates Funkadelic from every other funk band of the period."
+      },
+      {
+        "artist": "Sly & The Family Stone",
+        "album": "Stand!",
+        "year": "1969",
+        "note": "The model of a large mixed band trading lead vocals over rock-inflected funk with a political frame."
+      },
+      {
+        "artist": "James Brown",
+        "album": "Cold Sweat",
+        "year": "1967",
+        "note": "The one-chord vamp with every instrument playing rhythm, which P-Funk extended to album length."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Dr. Dre",
+        "album": "The Chronic",
+        "year": "1992",
+        "note": "G-funk is built almost entirely from the P-Funk catalogue — the whining synth lead and rubber bass are lifted directly."
+      },
+      {
+        "artist": "Prince",
+        "album": "Sign o' the Times",
+        "year": "1987",
+        "note": "The fusion of rock guitar with funk rhythm under a single band-leading auteur descends from Clinton's method."
+      },
+      {
+        "artist": "Red Hot Chili Peppers",
+        "album": "Blood Sugar Sex Magik",
+        "year": "1991",
+        "note": "Clinton produced an earlier album for them; rock guitar over slap-bass funk is the inheritance."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebcc1",
+    "image": "https://i.scdn.co/image/ab67616d00001e020bdaac825d2a2cba490bc4fd",
+    "savedAt": "2026-09-29T21:46:46.830Z"
+  },
+  "5f34ee8bf0857e55ed5ec023": {
+    "artist": "Jimi Hendrix",
+    "album": "Electric Ladyland",
+    "year": "1968",
+    "heading": "Electric Ladyland — The Jimi Hendrix Experience (1968)",
+    "albumLine": "Released 16 October 1968 on Reprise in America and Track in Britain nine days later, produced by Hendrix himself and recorded at Olympic and Mayfair in London and the Record Plant in New York between July 1967 and August 1968. A double album, and the last the Experience finished.",
+    "overview": [
+      "The production credit is the story. Chas Chandler, the former Animals bassist who had discovered Hendrix and produced the first two albums, worked on this one and then walked out — worn down by Hendrix's perfectionism and by a studio permanently full of visitors. What replaced him was Hendrix producing himself with the engineer Eddie Kramer, which is why the record is simultaneously the most adventurous and the least disciplined thing he made.",
+      "The band strained under the same conditions. Noel Redding, the bassist, was increasingly unhappy at the endless takes and at Hendrix's habit of playing bass himself; Jack Casady of Jefferson Airplane plays on one extended track and Steve Winwood plays organ on another, while Dave Mason adds twelve-string to the Dylan cover. Mitch Mitchell's drumming — jazz-schooled, busy, conversational — is the constant.",
+      "What they got out of it was a studio record in a way rock hadn't really managed before. Kramer used backmasking, flanging and stereo panning as compositional tools rather than effects, and AllMusic's Cub Koda credits those techniques with recontextualising Hendrix's psychedelic and funk playing. Long passages are closer to jazz improvisation than to song, and the sequencing moves from blues to R&B to something closer to sound design.",
+      "The British sleeve, printed by Track, showed nineteen nude women; retailers refused to stock it or sold it in brown paper, and Hendrix said he had not chosen it. It went to No. 1 in America — his only chart-topping album — and No. 6 in Britain. Reviewers at the time were frequently baffled by its length and sprawl; Rolling Stone now place it 53rd among the 500 greatest. Hendrix died in September 1970, aged 27, less than two years after its release."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Stereo used as composition",
+        "text": "Sounds sweep between the channels, reverse themselves and phase in and out. Kramer treated the mixing desk as an instrument rather than a delivery mechanism."
+      },
+      {
+        "label": "Long improvised passages",
+        "text": "Several tracks run past ten minutes with extended group playing closer to jazz than to rock, Winwood's organ and Casady's bass among them."
+      },
+      {
+        "label": "Hendrix playing bass himself",
+        "text": "He took over the bass on a number of tracks, which is part of why they lock so tightly — and part of why Redding wanted out."
+      },
+      {
+        "label": "Mitch Mitchell's drumming",
+        "text": "Busy, tom-heavy and responsive rather than timekeeping, answering the guitar phrase by phrase in a way almost no rock drummer was doing."
+      },
+      {
+        "label": "A Dylan cover rebuilt",
+        "text": "\"All Along the Watchtower\" is reassembled from the ground up with layered guitars and a slide part; Dylan himself afterwards played it Hendrix's way."
+      },
+      {
+        "label": "Blues played straight",
+        "text": "Between the experiments sit long, unadorned blues performances — the tradition the whole record is an extension of rather than an escape from."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Electric Ladyland — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Electric_Ladyland"
+      },
+      {
+        "title": "The Jimi Hendrix Experience — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Jimi_Hendrix_Experience"
+      },
+      {
+        "title": "Eddie Kramer — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Eddie_Kramer"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Muddy Waters",
+        "album": "The Best of Muddy Waters",
+        "year": "1958",
+        "note": "The Chicago blues vocabulary underneath everything, which Hendrix played straight as often as he transformed it."
+      },
+      {
+        "artist": "Bob Dylan",
+        "album": "John Wesley Harding",
+        "year": "1967",
+        "note": "Source of \"All Along the Watchtower,\" and of the idea that a song's arrangement could be entirely reimagined by another performer."
+      },
+      {
+        "artist": "The Beatles",
+        "album": "Sgt. Pepper's Lonely Hearts Club Band",
+        "year": "1967",
+        "note": "The precedent for treating the studio itself as the instrument, which Hendrix and Kramer pushed considerably further."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Funkadelic",
+        "album": "One Nation Under A Groove",
+        "year": "1978",
+        "note": "The fuzzed, exploratory lead guitar over funk rhythm is a direct line — Funkadelic's whole identity rests on it."
+      },
+      {
+        "artist": "The Allman Brothers Band",
+        "album": "At Fillmore East",
+        "year": "1971",
+        "note": "Extended improvisation by a rock band on blues material, recorded at length rather than edited to singles."
+      },
+      {
+        "artist": "Thin Lizzy",
+        "album": "Live And Dangerous",
+        "year": "1978",
+        "note": "Phil Lynott's model for a Black rock musician leading a hard rock band on his own writing."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec023",
+    "image": "https://i.scdn.co/image/dee867bbe7a3dd97a37212de86cd40166ebf6dc5",
+    "savedAt": "2026-09-29T21:47:28.051Z"
+  },
+  "5f34ee8bf0857e55ed5ebecc": {
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": "1991",
+    "heading": "Nevermind — Nirvana (1991)",
+    "albumLine": "Released 24 September 1991 on DGC, produced by Butch Vig at Sound City in Van Nuys and mixed by Andy Wallace. Their second album, their first for a major label, and the record that rearranged American rock in about four months.",
+    "overview": [
+      "The line-up had only just settled: Kurt Cobain on guitar and vocals, Krist Novoselic on bass and Dave Grohl, newly arrived, on drums. Grohl matters enormously here — he hits harder and more precisely than anyone the band had previously worked with, and the album's force depends on it. Vig's contribution was to make Cobain double-track his vocals and layer guitars, both things Cobain resisted and both things that made the songs carry.",
+      "Geffen hoped for 250,000 copies. It entered the Billboard 200 at No. 144, then kept climbing, and in January 1992 displaced Michael Jackson's \"Dangerous\" from No. 1 while selling around 300,000 a week; it has since passed thirty million worldwide. What made that possible is not mysterious: these are pop songs — verse, chorus, hook, under four minutes — played loud and sung by someone who sounded like he meant it, arriving into a mainstream dominated by hair metal that nobody under twenty-five believed in any more.",
+      "The band's own verdict soured almost immediately, and the target was the mix. Andy Wallace's mastering is bright, compressed and radio-ready, and Cobain's line on it is well known: \"I'm embarrassed by it now. It's closer to a Mötley Crüe record than it is a punk rock record.\" Vig's reading is that this was about image rather than genuine dissatisfaction, and it is worth holding both: the polish is real, and it is also the reason the record reached people that a rawer mix would not have.",
+      "Reviews were strong at the time — an A− from Entertainment Weekly, 9 out of 10 from NME, first place in the Village Voice's critics' poll, three Grammy nominations. Its consequences were structural rather than musical: major labels emptied Seattle, hair metal collapsed within eighteen months, and for the rest of the decade \"alternative\" meant a commercial category rather than an opposition. The band spent their next album trying to undo it."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Quiet verse, loud chorus",
+        "text": "Nearly every song drops to clean guitar and near-silence before the distortion returns. It's a Pixies device, used here with total consistency."
+      },
+      {
+        "label": "Cobain's doubled vocal",
+        "text": "Vig had him sing every lead twice and stacked the takes, which thickens a thin voice into something that carries over the guitars."
+      },
+      {
+        "label": "Grohl's drums",
+        "text": "Hit extremely hard and recorded with the room, so the kit sounds enormous. Much of the album's impact is simply this."
+      },
+      {
+        "label": "Andy Wallace's bright mix",
+        "text": "Compressed, glossy and tuned for radio — the thing the band later disowned, and the thing that got it played everywhere."
+      },
+      {
+        "label": "Melody under the noise",
+        "text": "Strip the distortion and most of these are conventional pop songs with strong hooks, which is why they survive acoustic rearrangement so easily."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nevermind — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nevermind"
+      },
+      {
+        "title": "Nirvana (band) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nirvana_(band)"
+      },
+      {
+        "title": "Butch Vig — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Butch_Vig"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Pixies",
+        "album": "Surfer Rosa",
+        "year": "1988",
+        "note": "Cobain said repeatedly he was trying to write Pixies songs; the loud-quiet-loud structure is taken directly."
+      },
+      {
+        "artist": "The Beatles",
+        "album": "Rubber Soul",
+        "year": "1965",
+        "note": "Cobain's melodic instincts and his use of close vocal doubling come from mid-period Beatles more than from punk."
+      },
+      {
+        "artist": "Neil Young & Crazy Horse",
+        "album": "Rust Never Sleeps",
+        "year": "1979",
+        "note": "The model for huge, loose, distorted guitar as sustained texture rather than riffing."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Nirvana",
+        "album": "In Utero",
+        "year": "1993",
+        "note": "Made in direct reaction to this album's polish, with Steve Albini hired to undo exactly what Wallace did."
+      },
+      {
+        "artist": "Nirvana",
+        "album": "MTV Unplugged In New York",
+        "year": "1994",
+        "note": "Four of these songs are played acoustic there, which demonstrates how conventionally written they always were."
+      },
+      {
+        "artist": "Green Day",
+        "album": "Dookie",
+        "year": "1994",
+        "note": "The commercial lane this album opened — melodic punk on a major label — was walked straight through."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebecc",
+    "image": "https://i.scdn.co/image/ab67616d00001e02fbc71c99f9c1296c56dd51b6",
+    "savedAt": "2026-09-29T21:48:09.560Z"
+  },
+  "5f34ee8bf0857e55ed5ebfec": {
+    "artist": "The Smiths",
+    "album": "The Queen Is Dead",
+    "year": "1986",
+    "heading": "The Queen Is Dead — The Smiths (1986)",
+    "albumLine": "Released 16 June 1986 on Rough Trade, produced by Morrissey and Johnny Marr with Stephen Street engineering, and recorded between July and December 1985 at RAK in London, Jacobs in Farnham and Drone in Manchester. Their third album, and the one most often called the best British album of its decade.",
+    "overview": [
+      "It should have appeared in February and did not, held up around seven months by a legal dispute with Rough Trade. That delay is part of why the album arrived as a statement rather than a release — the band had effectively finished it and then sat on it while their contractual position was argued over, which did nothing for anyone's health. Marr has been candid about the state he was in: \"I was extremely ill. By the time the tour actually finished it was all getting a little bit ... dangerous.\"",
+      "The title sets the register. In 1986 Britain was six years into Thatcher, a year past the miners' strike, and the monarchy was the object of a great deal of unexamined sentimentality; opening an album with a track of that name, built on a droning single chord and a sampled wartime singalong, is a fairly complete statement of position. What follows is not a protest record though — it moves between savage comedy, music-hall pastiche and two or three of the most straightforwardly beautiful songs anyone wrote that decade.",
+      "The engine is Johnny Marr. He plays layered, chiming, countermelodic figures in open tunings, frequently several parts at once, and almost never plays a conventional rock riff or a solo. That leaves the front of the record entirely to Morrissey, whose delivery — crooning, arch, self-dramatising, often very funny — worked precisely because there was nothing in the arrangements competing with it.",
+      "It reached No. 2 in Britain and only 70 in America, where the band remained a cult concern. The critical standing since has become almost absurd: a straight 10 from Pitchfork, first place in NME's 2013 list of the greatest albums ever made, 113th in Rolling Stone's 2020 revision. The Smiths split the following year. Morrissey's subsequent political statements have made many listeners' relationship with these records complicated, which is worth stating plainly rather than leaving as a silence."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Marr's layered guitars",
+        "text": "Several parts in open tunings woven together — arpeggios, slide, tremolo — with no solos. The texture does the work a lead line would."
+      },
+      {
+        "label": "Morrissey's croon",
+        "text": "He sings in long sustained lines with a heavy vibrato and audible theatricality, closer to a fifties balladeer than to a post-punk vocalist."
+      },
+      {
+        "label": "Andy Rourke's melodic bass",
+        "text": "Rourke plays funk-derived, highly mobile lines rather than roots, which is a large part of why a guitar band this jangly still moves."
+      },
+      {
+        "label": "Abrupt shifts in tone",
+        "text": "The album swings from music-hall comedy to unguarded sincerity between tracks with no transition, and trusts you to follow."
+      },
+      {
+        "label": "A sampled singalong",
+        "text": "The opening track is built over a fragment of a wartime British film, which sets the argument about nostalgia before a word is sung."
+      },
+      {
+        "label": "Strings used sparingly",
+        "text": "Orchestration appears on only a couple of songs and is all the more effective for it, arriving where the guitars step back entirely."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Queen Is Dead — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Queen_Is_Dead"
+      },
+      {
+        "title": "The Smiths — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Smiths"
+      },
+      {
+        "title": "Johnny Marr — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Johnny_Marr"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Kinks",
+        "album": "Something Else by the Kinks",
+        "year": "1967",
+        "note": "The tradition of writing English social observation as pop, with comedy and sentiment held in the same line."
+      },
+      {
+        "artist": "Pretenders",
+        "album": "Pretenders",
+        "year": "1980",
+        "note": "James Honeyman-Scott's chiming, countermelodic guitar style is an acknowledged model for Marr's playing."
+      },
+      {
+        "artist": "The Velvet Underground",
+        "album": "The Velvet Underground & Nico",
+        "year": "1967",
+        "note": "The drone-and-strum foundation of the title track, and the model of a band built on texture rather than riffs."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Oasis",
+        "album": "Definitely Maybe",
+        "year": "1994",
+        "note": "Noel Gallagher grew up on Marr; Britpop's guitar vocabulary and its Manchester self-mythology both run through here."
+      },
+      {
+        "artist": "Radiohead",
+        "album": "The Bends",
+        "year": "1995",
+        "note": "Layered, non-riff guitar arrangements around a theatrical vocal — the post-Smiths English template."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebfec",
+    "image": "https://i.scdn.co/image/fba88127753bad349ee8672ccf60ecc98e5cf307",
+    "savedAt": "2026-09-29T21:48:49.940Z"
+  },
+  "5f34ee8bf0857e55ed5ec032": {
+    "artist": "Otis Redding",
+    "album": "Otis Blue/Otis Redding Sings Soul",
+    "year": "1965",
+    "heading": "Otis Blue — Otis Redding (1965)",
+    "albumLine": "Released 15 September 1965 on Volt, produced by Jim Stewart with Steve Cropper engineering, and cut almost entirely in about 22 hours across two sessions on 9 and 10 July at the Stax studio in Memphis. His third album, and the record Southern soul is usually measured against.",
+    "overview": [
+      "The speed is not a novelty detail; it is the method. Stax worked with a house band who played together every day — Booker T. Jones on organ, Steve Cropper on guitar, Donald \"Duck\" Dunn on bass and Al Jackson Jr. on drums, with Isaac Hayes on piano and the Memphis Horns — and arrangements were worked out in the room rather than written down. An album in a day and a night was possible because nobody needed telling what to play.",
+      "Sam Cooke had been shot dead in December 1964, seven months before these sessions, and three of the eleven tracks are his. That makes the album partly a memorial and partly a statement of succession: Cooke had been the model for moving gospel technique into secular song, and Redding is both saluting him and demonstrating a rougher, harder-pushed way of doing the same thing.",
+      "Only three tracks are Redding originals, and one of them is \"Respect\" — which Aretha Franklin recorded two years later, rearranged it so completely, and turned into something Redding himself acknowledged she had taken from him. That the most famous song here is better known in someone else's version is a fair emblem of how Stax worked: the song was material, and the performance was the point.",
+      "It topped the R&B chart and sold over 250,000 copies — substantial for a soul album in 1965, and nothing like the pop numbers Motown was doing in the same years with a far more controlled product. Its standing has only risen since; it sits on Rolling Stone's 500 greatest and Time's all-time 100. Redding died in a plane crash in December 1967, aged 26, weeks after recording \"(Sittin' On) The Dock of the Bay.\""
+    ],
+    "listeningNotes": [
+      {
+        "label": "Redding pushing his voice past comfort",
+        "text": "He sings hoarse and at full effort, letting notes break rather than easing off. The strain is the expressive device, not a limitation."
+      },
+      {
+        "label": "The Stax horn sound",
+        "text": "Punchy unison riffs, arranged on the spot, answering the vocal line rather than padding underneath it — the defining Memphis signature."
+      },
+      {
+        "label": "Al Jackson Jr.'s drumming",
+        "text": "Dead-centre, unhurried, almost no fills. The band's whole feel rests on a drummer who refuses to decorate anything."
+      },
+      {
+        "label": "Cropper's guitar as punctuation",
+        "text": "Short, clean, single-note figures placed in the gaps rather than chords underneath, which leaves enormous space in the arrangements."
+      },
+      {
+        "label": "Covers taken somewhere else",
+        "text": "Songs by Sam Cooke, the Rolling Stones and others are rebuilt rather than reproduced, which in 1965 was how a soul album was normally assembled."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Otis Blue — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Otis_Blue"
+      },
+      {
+        "title": "Otis Redding — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Otis_Redding"
+      },
+      {
+        "title": "Booker T. & the M.G.'s — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Booker_T._%26_the_M.G.%27s"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Sam Cooke",
+        "album": "Live at the Harlem Square Club, 1963",
+        "year": "1963",
+        "note": "Three of his songs are here; Cooke's move from gospel into secular song is the template Redding is working from and roughening."
+      },
+      {
+        "artist": "Booker T. & the M.G.s",
+        "album": "Green Onions",
+        "year": "1962",
+        "note": "The same band, and the source of the spare, space-heavy Memphis arrangement style."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Aretha Franklin",
+        "album": "I Never Loved a Man the Way I Love You",
+        "year": "1967",
+        "note": "Her version of \"Respect\" rebuilt his song entirely; Redding said publicly that she had taken it from him."
+      },
+      {
+        "artist": "Dexys Midnight Runners",
+        "album": "Searching For The Young Soul Rebels",
+        "year": "1980",
+        "note": "The Stax horn-section template and the model of a singer whose audible effort is the point."
+      },
+      {
+        "artist": "The Rolling Stones",
+        "album": "Beggars Banquet",
+        "year": "1968",
+        "note": "Redding's reworking of their own song fed directly back into how the band approached soul material."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec032",
+    "image": "https://i.scdn.co/image/ab67616d00001e028f2e2804d068b8ed79f15979",
+    "savedAt": "2026-09-29T21:49:28.489Z"
+  },
+  "5f34ee8bf0857e55ed5ec147": {
+    "artist": "Linkin Park",
+    "album": "Hybrid Theory",
+    "year": "2000",
+    "heading": "Hybrid Theory — Linkin Park (2000)",
+    "albumLine": "Released 24 October 2000 on Warner Bros., produced by Don Gilmore at NRG Recordings in North Hollywood between March and July that year. Nu metal with rap and electronics welded in — their debut, and one of the best-selling albums of the century.",
+    "overview": [
+      "The band's structure is the record's thesis. Chester Bennington sings and screams, Mike Shinoda raps and programmes, Brad Delson plays guitar, Rob Bourdon drums and Joe Hahn works turntables and samples. Two frontmen doing different things is what separates them from a rap-metal act with a guest verse — the trade between Shinoda's rapped sections and Bennington's sung choruses is the songwriting method rather than an ornament. The bassist Dave Farrell is credited but does not play on it; session musicians covered the parts.",
+      "Their advantage over the rest of nu metal was melody and restraint. Where most of the genre in 2000 traded on aggression and down-tuned riffs, this is unusually compact — songs under four minutes, choruses that resolve, Bennington singing more than he screams, and Delson frequently refusing to solo at all. Bennington cited Depeche Mode and Stone Temple Pilots; the electronics are closer to trip-hop than to metal.",
+      "The subject matter is adolescent in the specific, unembarrassed sense: parental divorce, self-loathing, substance use, feeling unheard. Critics at the time found it derivative and said so, and some of that was really an objection to who the record was for. It sold 50,000 in its first week from a No. 16 debut, climbed to No. 2, and finished 2001 as the best-selling album in America with 4.8 million copies — it is now twelve times platinum there and around thirty-two million worldwide.",
+      "The reassessment has been substantial, helped by nu metal's own rehabilitation: Revolver readers voted it the greatest nu metal album of all time in 2018. Bennington died in 2017, and the records have since acquired a weight their reviews never gave them — the writing about depression and self-harm that was dismissed as teenage posturing reads very differently now."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Two vocalists with different jobs",
+        "text": "Shinoda raps the verses and Bennington sings the choruses, alternating within songs rather than guesting on each other's."
+      },
+      {
+        "label": "Bennington's scream",
+        "text": "A high, tearing shriek used sparingly and always at a structural peak, which is why it registers rather than becoming wallpaper."
+      },
+      {
+        "label": "Turntables as an instrument",
+        "text": "Hahn's scratching and samples run through the arrangements as texture, not as a hip-hop signifier bolted on top."
+      },
+      {
+        "label": "Down-tuned guitar without solos",
+        "text": "Delson plays heavy, simple riff figures and almost never takes a lead. The space that leaves is where the vocals and electronics live."
+      },
+      {
+        "label": "Songs kept short",
+        "text": "Nearly everything is under four minutes with the chorus arriving early — pop construction inside a metal record."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hybrid Theory — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hybrid_Theory"
+      },
+      {
+        "title": "Linkin Park — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Linkin_Park"
+      },
+      {
+        "title": "Chester Bennington — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chester_Bennington"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Depeche Mode",
+        "album": "Music for the Masses",
+        "year": "1987",
+        "note": "Named by Bennington; the electronic textures and the melodic, melancholy vocal line come from here rather than from metal."
+      },
+      {
+        "artist": "Run-DMC",
+        "album": "Raising Hell",
+        "year": "1986",
+        "note": "The original case that rap and rock guitar could occupy one song rather than one compilation."
+      },
+      {
+        "artist": "Kid Rock",
+        "album": "Devil Without A Cause",
+        "year": "1998",
+        "note": "The immediate commercial precedent for rapping and singing traded within a rock band on a major label."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Twenty One Pilots",
+        "album": "Blurryface",
+        "year": "2015",
+        "note": "Two-man band alternating rapped verses and sung choruses, with the same adolescent interior subject matter treated seriously."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec147",
+    "image": "https://i.scdn.co/image/ab67616d00001e022cd7568f8895a3c031c2e2fb",
+    "savedAt": "2026-09-29T21:50:30.341Z"
+  },
+  "5f34ee8bf0857e55ed5ebf17": {
+    "artist": "Spiritualized",
+    "album": "Lazer Guided Melodies",
+    "year": "1992",
+    "heading": "Lazer Guided Melodies — Spiritualized (1992)",
+    "albumLine": "Released in 1992 on Dedicated, led by Jason Pierce with Mark Refoy, Will Carruthers, Jonny Mattock and Kate Radley. Twelve tracks of dream pop, space rock and drone arranged as four cross-faded suites — the debut of the band he formed from the wreckage of Spacemen 3.",
+    "overview": [
+      "Spacemen 3 had been built on a very pure idea: minimal, drugged, repetitive rock that took the Velvet Underground's drone and stripped almost everything else away. They ended badly, with Pierce and his co-founder Peter Kember barely speaking and recording their final album separately. Spiritualized is what Pierce did next, and the change is one of texture rather than principle — the repetition and the drone survive, but they are now surrounded by strings, horns and gospel voicings.",
+      "The structure is unusual and deliberate. On vinyl the twelve tracks are grouped into four colour-coded suites that cross-fade into each other, so the album plays as four continuous pieces rather than a sequence. Pitchfork later filed the idea among CD-era gimmicks, which is a bit ungenerous: it enforces a listening pace, and the album's whole effect depends on not being able to skip out of a passage.",
+      "What is genuinely new here compared to his old band is the gentleness. Where Spacemen 3 were confrontational, this is calm to the point of sedation — Pitchfork called it \"one of the most gentle rock records of its time\" — and the drugs the songs describe are downers rather than stimulants. It sits alongside British shoegaze without belonging to it: the guitars are hazy in the same way, but the writing underneath is blues and gospel rather than pop.",
+      "NME gave it 9.999 out of 10, which is a peculiar way to say ten. It reached No. 27 in Britain and sold around 10,000 copies in America by 1995 — a cult record commercially, and a foundational one critically, placed second on NME's 2017 list of the best shoegaze albums. Pierce went on to make bigger and more baroque versions of this idea, but the template is entirely here."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Drone underneath everything",
+        "text": "Sustained organ and guitar tones hold under the songs without changing, so harmonic movement happens against a fixed floor."
+      },
+      {
+        "label": "Tracks that never stop",
+        "text": "Pieces cross-fade into one another in groups of three, which removes the gaps and turns the album into four long movements."
+      },
+      {
+        "label": "Pierce's flat, unraised voice",
+        "text": "He sings quietly and almost without inflection, low in the mix, treated as one more layer rather than the focus."
+      },
+      {
+        "label": "Horns and strings at the edges",
+        "text": "Brass and orchestration drift in around the guitars, borrowed from gospel and free jazz rather than from rock arrangement."
+      },
+      {
+        "label": "Repetition as structure",
+        "text": "Figures repeat for minutes with small additions rather than developing, the Spacemen 3 method carried over intact."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Lazer Guided Melodies — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lazer_Guided_Melodies"
+      },
+      {
+        "title": "Spiritualized — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Spiritualized"
+      },
+      {
+        "title": "Spacemen 3 — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Spacemen_3"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Velvet Underground",
+        "album": "White Light/White Heat",
+        "year": "1968",
+        "note": "The drone-and-repetition foundation both of Pierce's bands, taken directly and never disguised."
+      },
+      {
+        "artist": "My Bloody Valentine",
+        "album": "Isn't Anything",
+        "year": "1988",
+        "note": "The contemporary British vocabulary of guitar as a haze of texture with the vocal buried inside it."
+      },
+      {
+        "artist": "Miles Davis",
+        "album": "In a Silent Way",
+        "year": "1969",
+        "note": "Long-form playing over a static harmonic centre, with horns entering as colour rather than as solos."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Sigur Rós",
+        "album": "Ágætis byrjun",
+        "year": "1999",
+        "note": "Slow accumulation over drone, with the album structured as continuous movements rather than tracks."
+      },
+      {
+        "artist": "The Verve",
+        "album": "Urban Hymns",
+        "year": "1997",
+        "note": "British guitar music that married gospel-scale arrangements to narcotic repetition, following this lead."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebf17",
+    "image": "https://i.scdn.co/image/ac8a7e86ff594d35cf82e6842d27b3d2b368c564",
+    "savedAt": "2026-09-29T21:51:09.742Z"
+  },
+  "5f34ee8bf0857e55ed5ec05f": {
+    "artist": "Coldplay",
+    "album": "Parachutes",
+    "year": "2000",
+    "heading": "Parachutes — Coldplay (2000)",
+    "albumLine": "Released 10 July 2000 on Parlophone, produced mostly by Ken Nelson with one track by Chris Allison, recorded across five studios between November 1999 and May 2000. Quiet, melodic alternative rock — their debut, and one of the twenty-five best-selling British albums of the century.",
+    "overview": [
+      "It arrived into the vacuum after Britpop. By 2000 the swagger and the Union Jacks had curdled, Oasis were in decline and nobody had replaced them; the space that opened was for something smaller and less confident. Coldplay filled it with an album built almost entirely on restraint — Chris Martin singing in a high falsetto over Jonny Buckland's spare, reverbed guitar figures, with Guy Berryman and Will Champion keeping the rhythm section deliberately plain.",
+      "Ken Nelson's production is the reason it works. He had come out of Liverpool recording Gomez, and his instinct here was to leave things out: the record is dry, uncluttered and often nearly empty, with long stretches of one guitar and one voice. In a year when most rock production was getting louder and more compressed, that was a genuine differentiator rather than a limitation.",
+      "The response split immediately along a line that has never really closed. NME called it incredible for a debut; Pitchfork gave it 5.3 and dismissed it as \"harmless and pretty... [but] nothing else.\" Both are describing the same qualities and disagreeing about whether gentleness is a virtue. Metacritic settles at 72, and the commercial verdict was unambiguous: No. 1 in Britain on its first week, nine times platinum there, thirteen million worldwide by 2020.",
+      "It took British Album of the Year at the 2001 BRITs and the Grammy for Best Alternative Music Album in 2002, and was shortlisted for the Mercury. Its influence is easy to hear and rarely credited kindly — the Fray, Snow Patrol, OneRepublic and a decade of earnest, piano-led stadium rock descend from it, which is part of why the backlash against Coldplay grew as fast as their sales did."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Space left everywhere",
+        "text": "Long passages are one guitar and one voice with nothing underneath. Nelson's production keeps subtracting where the era's default was to add."
+      },
+      {
+        "label": "Martin's falsetto",
+        "text": "He sings high and softly, often at the very top of his range where the voice thins, which is the record's most identifiable feature."
+      },
+      {
+        "label": "Buckland's guitar as texture",
+        "text": "Clean, heavily reverbed arpeggios and sustained notes rather than chords or riffs — closer to atmosphere than to rhythm playing."
+      },
+      {
+        "label": "An unshowy rhythm section",
+        "text": "Bass and drums stay deliberately simple and low in the mix, never taking attention from the melody."
+      },
+      {
+        "label": "Acoustic guitar at the centre",
+        "text": "Most songs are built from a strummed acoustic with the electric layered around it, which is why they survive being played solo."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Parachutes (Coldplay album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Parachutes_(Coldplay_album)"
+      },
+      {
+        "title": "Coldplay — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Coldplay"
+      },
+      {
+        "title": "Ken Nelson (British record producer) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ken_Nelson_(British_record_producer)"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Radiohead",
+        "album": "The Bends",
+        "year": "1995",
+        "note": "The immediate model: high male vocal over spacious, reverbed guitar textures, with the arrangements kept restrained."
+      },
+      {
+        "artist": "Jeff Buckley",
+        "album": "Grace",
+        "year": "1994",
+        "note": "The precedent for a falsetto used as the main instrument, carried on very little accompaniment."
+      },
+      {
+        "artist": "Travis",
+        "album": "The Man Who",
+        "year": "1999",
+        "note": "Also produced in the same British orbit, and the record that proved quiet melodic rock could sell after Britpop."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Keane",
+        "album": "Hopes and Fears",
+        "year": "2004",
+        "note": "The same restrained, piano-and-falsetto British rock, arriving directly in this album's commercial wake."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec05f",
+    "image": "https://i.scdn.co/image/af4812064c4963f5ce4e630cbf70b540ce3f60dc",
+    "savedAt": "2026-09-29T21:51:55.765Z"
+  },
+  "5f34ee8bf0857e55ed5eae4c": {
+    "artist": "Tom Petty and the Heartbreakers",
+    "album": "Tom Petty & The Heartbreakers",
+    "year": "1976",
+    "heading": "Tom Petty and the Heartbreakers — Tom Petty and the Heartbreakers (1976)",
+    "albumLine": "Released 9 November 1976 on Shelter, produced by Denny Cordell at Shelter Studio in Hollywood. Lean guitar rock with sixties bones — their debut, and a record that had to go to Britain to be heard.",
+    "overview": [
+      "The band came out of Gainesville, Florida: Tom Petty singing and playing guitar, Mike Campbell on lead guitar, Benmont Tench on keyboards, Ron Blair on bass and Stan Lynch on drums. Most of them had played together for years before moving to Los Angeles, which is audible — this is a band record rather than a singer with a backing group, and Campbell and Tench are as identifiable on it as Petty is.",
+      "The timing was awkward in a way that shaped its reception. In late 1976 American rock radio meant stadium bands and soft California singer-songwriters, while punk was arriving in New York and London; a band playing tight, three-minute songs with twelve-string guitars and Byrds harmonies fitted neither camp. America ignored it. Britain, where punk's press was busy making room for anything short and unpretentious, did not: the album reached No. 24 there after a UK tour, with a single charting, and the band were briefly filed alongside new wave acts they had nothing in common with.",
+      "It took roughly a year for that to feed back across the Atlantic. The album finally entered the American chart in 1978, peaked at No. 55 and went gold, with \"Breakdown\" reaching the Top 40 and \"American Girl\" becoming one of the most recognisable songs of the era despite never being a hit single.",
+      "What has kept it is the writing and the economy. Denny Cordell, who had produced Joe Cocker and Procol Harum, recorded them dry and close with no padding, and the songs are built on the Byrds' jangle and the Rolling Stones' swagger without sounding like a revival. Petty spent the next four decades making versions of this record, and very few of them improved on it."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Mike Campbell's lead lines",
+        "text": "Short, melodic, fully composed figures rather than solos — he plays hooks, which is why the songs are so hard to forget."
+      },
+      {
+        "label": "Twelve-string jangle",
+        "text": "Chiming Rickenbacker-style guitar straight out of the mid-sixties Byrds, entirely unfashionable in 1976 and the album's signature."
+      },
+      {
+        "label": "Benmont Tench's organ",
+        "text": "Sustained Hammond pads sit under almost everything, filling the middle so two guitars don't have to."
+      },
+      {
+        "label": "Petty's nasal drawl",
+        "text": "He sings flat and slightly sneering, closer to Dylan's phrasing than to any rock singer of the period."
+      },
+      {
+        "label": "Songs kept short",
+        "text": "Almost nothing passes three and a half minutes, with no jamming, no extended intros and no fade-out solos. That restraint is most of why British listeners in 1977 could mistake a Florida bar band for new wave."
+      },
+      {
+        "label": "Recorded dry and close",
+        "text": "Cordell leaves almost no reverb on anything, so the band sounds like five people in a room rather than an arena. It has dated far less than its contemporaries as a result."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tom Petty and the Heartbreakers (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tom_Petty_and_the_Heartbreakers_(album)"
+      },
+      {
+        "title": "Tom Petty and the Heartbreakers — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tom_Petty_and_the_Heartbreakers"
+      },
+      {
+        "title": "Denny Cordell — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Denny_Cordell"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Byrds",
+        "album": "Mr. Tambourine Man",
+        "year": "1965",
+        "note": "The chiming twelve-string guitar and close harmony that the album's whole texture is built from."
+      },
+      {
+        "artist": "Bob Dylan",
+        "album": "Highway 61 Revisited",
+        "year": "1965",
+        "note": "Petty's nasal, conversational phrasing and his approach to a lyric line come directly from here; the two later worked together."
+      },
+      {
+        "artist": "The Rolling Stones",
+        "album": "Beggars Banquet",
+        "year": "1968",
+        "note": "The loose swagger of the rhythm section, and the model of a guitar band built on economy rather than virtuosity."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Bruce Springsteen",
+        "album": "Darkness on the Edge of Town",
+        "year": "1978",
+        "note": "The parallel American case for lean, tightly written guitar rock about ordinary lives, arriving two years later."
+      },
+      {
+        "artist": "The Strokes",
+        "album": "Is This It",
+        "year": "2001",
+        "note": "Short, hook-led guitar songs recorded dry with two guitars locked together — the lineage runs straight through."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5eae4c",
+    "image": "https://i.scdn.co/image/ab67616d00001e027e42a53ea7f2ad4f36ab23a5",
+    "savedAt": "2026-09-29T21:52:44.841Z"
   }
 }

@@ -53,7 +53,7 @@ await saveNote({
   ],
 
   influencedBy: [
-    { artist: "Otis Redding", album: "Otis Blue", year: "1965", note: "The Stax horn-section template and the model of a singer whose strain and effort are the point." },
+    { artist: "Otis Redding", album: "Otis Blue/Otis Redding Sings Soul", year: "1965", note: "The Stax horn-section template and the model of a singer whose strain and effort are the point." },
     { artist: "Sex Pistols", album: "Never Mind the Bollocks, Here's the Sex Pistols", year: "1977", note: "Rowland and Archer came out of punk, and the tempos, confrontation and press hostility all come from there." },
   ],
 

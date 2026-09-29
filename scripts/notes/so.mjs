@@ -54,7 +54,7 @@ await saveNote({
 
   influencedBy: [
     { artist: "Talking Heads", album: "Remain in Light", year: "1980", note: "The template for art-rock musicians building songs on West African rhythmic structures rather than rock beats." },
-    { artist: "Otis Redding", album: "Otis Blue", year: "1965", note: "The Stax soul horn vocabulary that \"Sledgehammer\" reproduces almost as pastiche." },
+    { artist: "Otis Redding", album: "Otis Blue/Otis Redding Sings Soul", year: "1965", note: "The Stax soul horn vocabulary that \"Sledgehammer\" reproduces almost as pastiche." },
   ],
 
   influenced: [

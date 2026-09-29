@@ -55,6 +55,6 @@ await saveNote({
 
   influenced: [
     { artist: "The Rolling Stones", album: "The Rolling Stones", year: "1964", note: "They covered \"Everybody Needs Somebody to Love\" within months, and it became a fixture of their live set for decades." },
-    { artist: "Otis Redding", album: "Otis Blue", year: "1965", note: "The Atlantic-and-Stax soul voice as its own commercial category, which Burke's run of hits established first." },
+    { artist: "Otis Redding", album: "Otis Blue/Otis Redding Sings Soul", year: "1965", note: "The Atlantic-and-Stax soul voice as its own commercial category, which Burke's run of hits established first." },
   ],
 });
