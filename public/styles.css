@@ -1298,11 +1298,10 @@ main {
 #graph-canvas g { transition: opacity 0.25s ease; }
 #graph-canvas .edge { cursor: pointer; }
 
-/* While the layout is moving, drop the two most expensive things to paint:
-   441 labels drawn twice over for their halo, and 532 arrowhead markers. They
-   come straight back when it settles, and nothing readable is lost mid-motion. */
-#graph-canvas svg.is-moving text { display: none; }
-#graph-canvas svg.is-moving .edge path { marker-end: none; }
+/* Labels and arrowheads stay up, always. Hiding them during motion was the
+   cheapest paint saving available and it wasn't worth it — the map stops
+   being a map. The transition is still dropped mid-motion, which costs
+   nothing visually. */
 #graph-canvas svg.is-moving g { transition: none; }
 
 /* the picked record itself, versus the ones it merely connects to */

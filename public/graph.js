@@ -669,16 +669,18 @@
       return simulation.alpha() <= simulation.alphaMin() && simulation.alphaTarget() <= simulation.alphaMin();
     }
 
-    // While the layout moves, the browser re-rasterises 3,000-odd SVG elements
-    // every frame — including 441 labels drawn twice over (stroke then fill,
-    // for the paper halo) and 532 arrowhead markers, each its own paint.
-    // Dropping both while things move is what makes dragging feel direct.
+    // Dropping the expensive paint — 441 labels drawn twice over for their
+    // halo, 532 arrowhead markers — is what makes dragging feel direct. But
+    // only while you are actually dragging.
     //
-    // But it only pays for sustained motion. A click is a drag gesture as far
-    // as d3 is concerned, so it reheats the simulation for a few frames — and
-    // hiding every label for that is just a flicker. So the hide waits to see
-    // whether the motion lasts, and the restore waits a beat after it stops,
-    // which also stops the tidy passes strobing between them.
+    // Doing it for all motion meant the whole settle, which is a thousand
+    // frames with the tidy passes, ran with no labels or arrows at all. That
+    // is most of a minute of looking at an unlabelled map to fix a problem
+    // that only exists under the cursor. Settling is free to be expensive:
+    // nobody is waiting on a response.
+    //
+    // The debounce stays, because d3 counts a plain click as a drag gesture
+    // and hiding every label for those few frames is just a flicker.
     const MOTION_HIDE_DELAY = 180;
     const MOTION_SHOW_DELAY = 140;
     let hideTimer = null;
@@ -711,6 +713,12 @@
       simulation.tick();
       paint();
 
+      // alphaTarget is only held above zero while a pointer is down — dragging
+      // a node, or holding tidy. That is the only time the paint cost is in
+      // anyone's way.
+      if (simulation.alphaTarget() > simulation.alphaMin()) motionStarted();
+      else motionStopped();
+
       if (settledEnough()) {
         looping = false;
         motionStopped();
@@ -723,7 +731,6 @@
     function run() {
       if (looping) return;
       looping = true;
-      motionStarted();
       requestAnimationFrame(step);
     }
 
