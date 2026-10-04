@@ -52,7 +52,7 @@
 .glow {
   position: absolute;
   border-radius: 50%;
-  filter: blur(3px);
+  filter: blur(40px);
   animation: glow-morph 20s ease-in-out infinite alternate;
   pointer-events: none;
 }
@@ -485,13 +485,14 @@ main {
    rule). A single sampled colour drives both blobs' ring stop; the
    transparent core/fade either side is what gives it the glow shape. */
 .glow-focus {
-  opacity: 0.95;
+  opacity: 0.55;
 }
 
 .tp-glow {
   background: radial-gradient(circle,
-    rgba(23, 20, 15, 0) 0%, rgba(23, 20, 15, 0) 20%,
-    var(--wash, var(--accent)) 55%, rgba(23, 20, 15, 0) 85%);
+    rgba(23, 20, 15, 0) 0%,
+    var(--wash, var(--accent)) 42%,
+    rgba(23, 20, 15, 0) 100%);
 }
 
 .tp-glow-1 { width: 55%; height: 90%; top: -30%; left: -12%; }
@@ -656,13 +657,14 @@ main {
   opacity: 0;
   transition: opacity 0.4s ease;
   background: radial-gradient(circle,
-    rgba(23, 20, 15, 0) 0%, rgba(23, 20, 15, 0) 20%,
-    var(--plate) 55%, rgba(23, 20, 15, 0) 85%);
+    rgba(23, 20, 15, 0) 0%,
+    var(--plate) 42%,
+    rgba(23, 20, 15, 0) 100%);
 }
 
 .album-card:hover .card-glow,
 .album-card:focus-within .card-glow {
-  opacity: 0.9;
+  opacity: 0.55;
 }
 
 .album-card:hover img { filter: saturate(1.35) contrast(1.06); }
