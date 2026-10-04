@@ -77,31 +77,55 @@
 
 /* Page-wide tier: low opacity, slow, a fixed neutral palette — there's no
    single "current album" for the whole page, so this one isn't
-   album-reactive. The focus tier (Tasks 3-5) is what carries real colour. */
+   album-reactive. The focus tier (Tasks 3-5) is what carries real colour.
+   Much more blurred than the focus-tier .glow default (40px) — at this
+   size a shared blur read as a distinct coloured disc instead of a wash,
+   so ambient overrides it here rather than changing the shared value. */
 .glow-ambient {
-  opacity: 0.22;
+  opacity: 0.32;
   animation-duration: 34s;
+  filter: blur(110px);
 }
 
 .glow-ambient-1 {
-  width: 32vmax;
-  height: 30vmax;
-  top: -8vmax;
-  left: 8vw;
+  width: 34vmax;
+  height: 32vmax;
+  top: -10vmax;
+  left: 6vw;
   background: radial-gradient(circle,
-    rgba(23, 20, 15, 0) 0%, rgba(23, 20, 15, 0) 22%,
-    #c23b1f 46%, #e8862e 64%, rgba(232, 134, 46, 0) 85%);
+    rgba(23, 20, 15, 0) 0%, #e8862e 38%, rgba(232, 134, 46, 0) 100%);
 }
 
 .glow-ambient-2 {
-  width: 30vmax;
-  height: 28vmax;
-  bottom: -9vmax;
-  right: 4vw;
+  width: 32vmax;
+  height: 30vmax;
+  bottom: -11vmax;
+  right: 2vw;
   animation-delay: -14s;
   background: radial-gradient(circle,
-    rgba(23, 20, 15, 0) 0%, rgba(23, 20, 15, 0) 20%,
-    #8c2a1a 42%, #d6361d 60%, rgba(214, 54, 29, 0) 86%);
+    rgba(23, 20, 15, 0) 0%, #d6361d 36%, rgba(214, 54, 29, 0) 100%);
+}
+
+/* Two more, spread toward the opposite corners, so the colour reads as a
+   wash across the whole page rather than two spots in two corners. */
+.glow-ambient-3 {
+  width: 28vmax;
+  height: 26vmax;
+  top: -6vmax;
+  right: 10vw;
+  animation-delay: -22s;
+  background: radial-gradient(circle,
+    rgba(23, 20, 15, 0) 0%, #2d3f8f 34%, rgba(45, 63, 143, 0) 100%);
+}
+
+.glow-ambient-4 {
+  width: 26vmax;
+  height: 24vmax;
+  bottom: -7vmax;
+  left: 12vw;
+  animation-delay: -28s;
+  background: radial-gradient(circle,
+    rgba(23, 20, 15, 0) 0%, #6f7a4f 34%, rgba(111, 122, 79, 0) 100%);
 }
 
 /* ---------- Frames ---------- */
@@ -668,7 +692,7 @@ main {
   transition: filter 0.4s ease;
 }
 
-.album-card:hover img { filter: saturate(1.7) contrast(1.15); }
+.album-card:hover img { filter: saturate(1.5) contrast(1.1); }
 
 .album-card .card-body {
   padding: 0.7rem 0 0.9rem;
