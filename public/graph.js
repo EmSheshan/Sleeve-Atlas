@@ -328,8 +328,8 @@
     // refX 10 puts the marker's tip exactly on the path's end point; the paths
     // themselves are trimmed to each node's rim below, so one offset works for
     // both the big sleeve nodes and the small markers.
-    arrowhead("arrow", "#1b1915", 10);
-    arrowhead("arrow-hot", "#a83320", 10);
+    arrowhead("arrow", "#8a8a8f", 10);
+    arrowhead("arrow-hot", "#c8ff4d", 10);
 
     const R_LIST = 26;
     const R_OTHER = 9;
@@ -429,7 +429,7 @@
 
     const link = edge
       .append("path")
-      .attr("stroke", "#1b1915")
+      .attr("stroke", "#8a8a8f")
       .attr("stroke-width", 1.8)
       .attr("stroke-opacity", 0.55)
       .attr("fill", "none")
@@ -440,7 +440,7 @@
     edge
       .on("mouseenter", function (event, d) {
         d3.select(this).select("path:last-child")
-          .attr("stroke", "#a83320")
+          .attr("stroke", "#c8ff4d")
           .attr("stroke-width", 3.4)
           .attr("stroke-opacity", 1)
           .attr("marker-end", "url(#arrow-hot)");
@@ -451,7 +451,7 @@
       })
       .on("mouseleave", function () {
         d3.select(this).select("path:last-child")
-          .attr("stroke", "#1b1915")
+          .attr("stroke", "#8a8a8f")
           .attr("stroke-width", 1.8)
           .attr("stroke-opacity", 0.55)
           .attr("marker-end", "url(#arrow)");
@@ -504,7 +504,7 @@
       .append("circle")
       .attr("r", R_LIST)
       .attr("fill", "none")
-      .attr("stroke", "#1b1915")
+      .attr("stroke", "rgba(244,243,240,0.35)")
       .attr("stroke-width", 2);
 
     // anything without a sleeve stays a plain marker
@@ -512,14 +512,14 @@
       .filter((d) => !(d.source === "list" && d.image))
       .append("circle")
       .attr("r", (d) => (d.source === "list" ? R_LIST : R_OTHER))
-      .attr("fill", (d) => (d.source === "list" ? "#1d4a37" : "#e5872a"))
-      .attr("stroke", "#ffffff")
+      .attr("fill", (d) => (d.source === "list" ? "#2b2b30" : "#f0a8cd"))
+      .attr("stroke", "rgba(244,243,240,0.35)")
       .attr("stroke-width", 2);
 
     node
       .append("text")
       .text((d) => {
-        const s = (d.label || "").toLowerCase();
+        const s = d.label || "";
         return s.length > 24 ? s.slice(0, 23).trimEnd() + "…" : s;
       })
       .attr("x", 0)
@@ -529,11 +529,11 @@
       .attr("font-weight", (d) => (d.source === "list" ? 800 : 600))
       .attr("letter-spacing", "-0.03em")
       .attr("font-size", (d) => (d.source === "list" ? 13 : 11))
-      .attr("fill", "#1b1915")
+      .attr("fill", "#f4f3f0")
       // paper-coloured halo, so a label crossing a line or another label
       // stays readable instead of turning to mush
       .attr("paint-order", "stroke")
-      .attr("stroke", "#f7f0de")
+      .attr("stroke", "#0b0b0c")
       .attr("stroke-width", 3.5)
       .attr("stroke-linejoin", "round");
 

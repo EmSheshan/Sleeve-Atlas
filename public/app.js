@@ -373,7 +373,7 @@ function setSignedIn(name) {
   accountBtn.textContent = name;
   accountBtn.classList.remove("is-out");
   accountBtn.title = `Signed in as ${name} — click to change`;
-  accountHeading.textContent = "your project";
+  accountHeading.textContent = "Your project";
   accountBlurb.textContent = `Signed in as ${name}. You'll stay signed in on this device.`;
   loadBtn.textContent = "switch";
   signOutBtn.hidden = false;
@@ -384,7 +384,7 @@ function setSignedOut() {
   accountBtn.textContent = "sign in";
   accountBtn.classList.add("is-out");
   accountBtn.title = "Load your 1001 Albums Generator project";
-  accountHeading.textContent = "sign in";
+  accountHeading.textContent = "Sign in";
   accountBlurb.textContent =
     "Sign in with your 1001 Albums Generator project to load your list, ratings and reviews.";
   loadBtn.textContent = "sign in";
