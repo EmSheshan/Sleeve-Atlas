@@ -69,7 +69,7 @@
 
 .ambient-glow {
   position: fixed;
-  inset: -20vmax;
+  inset: -5vmax;
   z-index: -1;
   overflow: hidden;
   pointer-events: none;
@@ -78,20 +78,29 @@
 /* Page-wide tier: low opacity, slow, a fixed neutral palette — there's no
    single "current album" for the whole page, so this one isn't
    album-reactive. The focus tier (Tasks 3-5) is what carries real colour.
-   Much more blurred than the focus-tier .glow default (40px) — at this
-   size a shared blur read as a distinct coloured disc instead of a wash,
-   so ambient overrides it here rather than changing the shared value. */
+   filter:url(#organic-flow) (defined in index.html) warps each blob's edge
+   into a flowing, non-circular form via low-frequency turbulence instead of
+   a smooth ring; the blur after it keeps that warped edge soft rather than
+   jagged. mix-blend-mode:multiply is what makes two overlapping blobs
+   produce a genuinely new blended hue where they cross, instead of one
+   simply sitting on top of the other — screen is the usual pick for this
+   kind of look, but screen lightens toward white and this page is light
+   grey, not the near-black the look is normally built on; multiply darkens
+   toward a mixed hue instead, closer to how ink actually mixes on a light
+   surface. That blended crossing is "the mix," not a fixed third gradient
+   stop — which is what makes it read as organic rather than formulaic. */
 .glow-ambient {
-  opacity: 0.32;
+  opacity: 0.4;
   animation-duration: 34s;
-  filter: blur(110px);
+  filter: blur(90px);
+  mix-blend-mode: multiply;
 }
 
 .glow-ambient-1 {
   width: 34vmax;
   height: 32vmax;
-  top: -10vmax;
-  left: 6vw;
+  top: -8vmax;
+  left: -4vw;
   background: radial-gradient(circle,
     rgba(23, 20, 15, 0) 0%, #e8862e 38%, rgba(232, 134, 46, 0) 100%);
 }
@@ -99,8 +108,8 @@
 .glow-ambient-2 {
   width: 32vmax;
   height: 30vmax;
-  bottom: -11vmax;
-  right: 2vw;
+  bottom: -9vmax;
+  right: -4vw;
   animation-delay: -14s;
   background: radial-gradient(circle,
     rgba(23, 20, 15, 0) 0%, #d6361d 36%, rgba(214, 54, 29, 0) 100%);
@@ -111,8 +120,8 @@
 .glow-ambient-3 {
   width: 28vmax;
   height: 26vmax;
-  top: -6vmax;
-  right: 10vw;
+  top: -4vmax;
+  right: 6vw;
   animation-delay: -22s;
   background: radial-gradient(circle,
     rgba(23, 20, 15, 0) 0%, #2d3f8f 34%, rgba(45, 63, 143, 0) 100%);
@@ -121,8 +130,8 @@
 .glow-ambient-4 {
   width: 26vmax;
   height: 24vmax;
-  bottom: -7vmax;
-  left: 12vw;
+  bottom: -5vmax;
+  left: 8vw;
   animation-delay: -28s;
   background: radial-gradient(circle,
     rgba(23, 20, 15, 0) 0%, #6f7a4f 34%, rgba(111, 122, 79, 0) 100%);
