@@ -1290,10 +1290,20 @@ main {
   color: #fff;
 }
 
-/* focus: everything the selected record doesn't touch recedes */
-#graph-canvas .is-dimmed { opacity: 0.07; transition: opacity 0.25s ease; }
-#graph-canvas g:not(.is-dimmed) { transition: opacity 0.25s ease; }
+/* Focus: everything the selected record doesn't touch recedes. The transition
+   lives on the dimmed state only — as `g:not(.is-dimmed)` it was attaching to
+   all 976 groups, so every class change dragged the whole tree through style
+   recalculation. */
+#graph-canvas .is-dimmed { opacity: 0.07; }
+#graph-canvas g { transition: opacity 0.25s ease; }
 #graph-canvas .edge { cursor: pointer; }
+
+/* While the layout is moving, drop the two most expensive things to paint:
+   441 labels drawn twice over for their halo, and 532 arrowhead markers. They
+   come straight back when it settles, and nothing readable is lost mid-motion. */
+#graph-canvas svg.is-moving text { display: none; }
+#graph-canvas svg.is-moving .edge path { marker-end: none; }
+#graph-canvas svg.is-moving g { transition: none; }
 
 /* the picked record itself, versus the ones it merely connects to */
 #graph-canvas .is-picked circle,

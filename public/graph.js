@@ -670,16 +670,35 @@
       return simulation.alpha() <= simulation.alphaMin() && simulation.alphaTarget() <= simulation.alphaMin();
     }
 
+    // While the layout moves, the browser re-rasterises 3,000-odd SVG elements
+    // every frame — including 441 labels drawn twice over (stroke then fill,
+    // for the paper halo) and 532 arrowhead markers, each its own paint. None
+    // of that is readable mid-motion anyway. Dropping both while things move is
+    // what makes dragging feel direct.
+    function setMoving(on) {
+      svg.classed("is-moving", on);
+    }
+
     function step() {
-      const until = performance.now() + FRAME_BUDGET_MS;
-      do {
+      // A drag holds alphaTarget above zero. There, one tick per frame is the
+      // point: more makes the layout advance faster than the hand moving it,
+      // which reads as the graph fighting you. The budget is for settling,
+      // where nobody is steering.
+      const steering = simulation.alphaTarget() > simulation.alphaMin();
+      if (steering) {
         simulation.tick();
-      } while (performance.now() < until && !settledEnough());
+      } else {
+        const until = performance.now() + FRAME_BUDGET_MS;
+        do {
+          simulation.tick();
+        } while (performance.now() < until && !settledEnough());
+      }
 
       paint();
 
       if (settledEnough()) {
         looping = false;
+        setMoving(false);
         onSettled();
       } else {
         requestAnimationFrame(step);
@@ -689,6 +708,7 @@
     function run() {
       if (looping) return;
       looping = true;
+      setMoving(true);
       requestAnimationFrame(step);
     }
 
@@ -757,11 +777,11 @@
     // it really does improve — 259 crossings down to 234 by the fourth, then
     // flat. So it runs on its own a few times after the first settle, each
     // pass cooler than the last, and there's a button to ask for another.
-    // No automatic passes any more. Three of them ran after the first settle
-    // and accounted for 704 of the 1004 ticks it took the map to stop moving —
-    // 70% of the wait — in exchange for a measured 10% drop in crossings. That
-    // is a bad trade for anyone who just opened the page. The button is still
-    // here for when the shape is worth another shake.
+    // The passes are back — they're 70% of the ticks but the settled shape is
+    // visibly better for them, and the multi-tick loop means they now cost
+    // about four seconds of animation rather than seventeen.
+    const TIDY_PASSES = [0.3, 0.22, 0.16];
+    let tidyPass = 0;
     let queued = 0;
 
     const DECAY = simulation.alphaDecay();
@@ -789,6 +809,10 @@
       if (queued > 0) {
         queued--;
         tidy(1, { slow: true });
+        return;
+      }
+      if (tidyPass < TIDY_PASSES.length) {
+        tidy(TIDY_PASSES[tidyPass++]);
         return;
       }
       simulation.alphaDecay(DECAY);
