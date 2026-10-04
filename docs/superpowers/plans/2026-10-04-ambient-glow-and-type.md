@@ -559,3 +559,468 @@ git commit -m "Remove leftover .aura references"
 ```
 
 If Step 1 found nothing, skip this commit — there's nothing to commit.
+
+---
+
+## Task 7: Replace the grid/modal blob glow with a multi-colour gradient line
+
+> **Context (post-Task-6, user-directed pivot):** after seeing the live, recipe-fixed blob glow on grid tiles and the modal, the user rejected the circular-glow concept entirely for these two sites ("the big circular gradient blobs around the albums looks awful") — explicitly keeping today's pick's blob untouched ("today's pick looks great rn. dont touch it"). Explored four "more panache" shape directions (corner ribbon, tilted band, torn edge, corner flourish) via the visual companion; user rejected all four ("none of it") in favour of a much simpler idea: keep the EXISTING thin accent line (the grid card's `border-top` and the modal's 4px band, both already coloured via `--plate`) but make it a multi-colour gradient sampled from the sleeve, not a flat hue. Validated via a mockup comparing a smooth blend vs. a hard-edged swatch strip — user picked the smooth blend.
+
+This task **removes** `.card-glow`, `.modal-glow-1`/`.modal-glow-2`, and their markup (shipped in Tasks 4-5) and replaces them with a `linear-gradient` on the existing thin line/band, sourced from a new multi-colour extraction function. Today's pick's `.tp-glow-1`/`.tp-glow-2` and the page-wide `.glow-ambient-1`/`.glow-ambient-2` are **not touched** — this task's scope is grid cards and the modal only.
+
+**Files:**
+- Modify: `public/app.js:122-166` (`dominantColor` — refactored to share scoring logic, same external behaviour/return value)
+- Modify: `public/app.js` (new `scoredColorBuckets`/`dominantPalette`/`sampledGradient` functions, inserted near the existing colour-sampling functions)
+- Modify: `public/app.js:194-217` (`makeCoverImage` — new optional 5th `onGradient` param)
+- Modify: `public/app.js:304-330ish` (`renderCards` — remove blob markup, wire the new gradient callback)
+- Modify: `public/app.js:1149-1158` (`openModal`/the cover `onload` handler — remove modal blob markup dependency, wire the new gradient callback)
+- Modify: `public/index.html:210-216` (`.modal-art` — strip the blob/grain markup)
+- Modify: `public/styles.css` (remove `.card-glow` and its hover rules, remove `.album-card:hover/:focus-within .art-frame` overflow rule, change `.card-body`'s border to a gradient border-image; remove `.modal-glow`/`.modal-glow-1`/`.modal-glow-2`, revert `.modal-art`/`.modal-art img` to their pre-blob simplicity, change `.modal-card::before`'s background to a gradient)
+
+**Interfaces:**
+- Produces: `dominantPalette(img, n)` — returns up to `n` distinct `{r,g,b}` swatches from the same scoring pass `dominantColor` already used, filtered so two buckets of the same hue don't both make the cut (minimum RGB distance 40 between picks).
+- Produces: `sampledGradient(img, opts)` — mirrors the existing `sampledPlate(img, opts)`, returns a `linear-gradient(90deg, ...)` CSS string built from `dominantPalette`, cached in the existing `plateCache` (prefixed `"grad:"` so it doesn't collide with `sampledPlate`'s cache keys for the same image).
+- Consumes/preserves: `dominantColor(img)`'s external signature and return value are UNCHANGED — today's pick (`--wash`), the grid card's existing `--plate`, and the modal's existing `--plate` all keep working exactly as before. This is a refactor-for-reuse, not a behaviour change to the single-colour path.
+
+- [ ] **Step 1: Refactor `dominantColor` into a shared scorer, add `dominantPalette`**
+
+In `public/app.js`, replace lines 122-166 (the `dominantColor` function, including its leading comment):
+
+```javascript
+// Picks the sleeve's signature colour: scores quantised colour buckets by
+// area but weights vividness heavily, so a small block of saturated colour
+// beats a large muddy one (the red title on a brown Beach Boys sleeve, say).
+function dominantColor(img) {
+  sampleCtx.clearRect(0, 0, SAMPLE, SAMPLE);
+  sampleCtx.drawImage(img, 0, 0, SAMPLE, SAMPLE);
+  const { data } = sampleCtx.getImageData(0, 0, SAMPLE, SAMPLE);
+
+  const buckets = new Map();
+  const fallback = { r: 0, g: 0, b: 0, n: 0 };
+
+  for (let i = 0; i < data.length; i += 4) {
+    const r = data[i], g = data[i + 1], b = data[i + 2];
+    if (data[i + 3] < 200) continue;
+    fallback.r += r; fallback.g += g; fallback.b += b; fallback.n += 1;
+
+    const [, , l] = rgbToHsl(r, g, b);
+    if (l < 0.22 || l > 0.88) continue;
+
+    const key = `${r >> 4}-${g >> 4}-${b >> 4}`;
+    const cur = buckets.get(key) || { r: 0, g: 0, b: 0, n: 0 };
+    cur.r += r; cur.g += g; cur.b += b; cur.n += 1;
+    buckets.set(key, cur);
+  }
+
+  let best = null;
+  let bestScore = -1;
+  for (const v of buckets.values()) {
+    const r = v.r / v.n, g = v.g / v.n, b = v.b / v.n;
+    const [, s, l] = rgbToHsl(r, g, b);
+    // area x vividness, penalising colours pinned to the light/dark extremes
+    const score = v.n * (0.08 + Math.pow(s, 2) * 4.5) * (1 - Math.abs(l - 0.5) * 0.9);
+    if (score > bestScore) {
+      bestScore = score;
+      best = { r, g, b };
+    }
+  }
+
+  if (!best && fallback.n) {
+    best = { r: fallback.r / fallback.n, g: fallback.g / fallback.n, b: fallback.b / fallback.n };
+  }
+  if (!best) return null;
+
+  return { r: Math.round(best.r), g: Math.round(best.g), b: Math.round(best.b) };
+}
+```
+
+with:
+
+```javascript
+// Scores quantised colour buckets by area but weights vividness heavily, so
+// a small block of saturated colour beats a large muddy one (the red title
+// on a brown Beach Boys sleeve, say). Shared by dominantColor (top pick) and
+// dominantPalette (top n, for the multi-colour gradient line).
+function scoredColorBuckets(img) {
+  sampleCtx.clearRect(0, 0, SAMPLE, SAMPLE);
+  sampleCtx.drawImage(img, 0, 0, SAMPLE, SAMPLE);
+  const { data } = sampleCtx.getImageData(0, 0, SAMPLE, SAMPLE);
+
+  const buckets = new Map();
+  const fallback = { r: 0, g: 0, b: 0, n: 0 };
+
+  for (let i = 0; i < data.length; i += 4) {
+    const r = data[i], g = data[i + 1], b = data[i + 2];
+    if (data[i + 3] < 200) continue;
+    fallback.r += r; fallback.g += g; fallback.b += b; fallback.n += 1;
+
+    const [, , l] = rgbToHsl(r, g, b);
+    if (l < 0.22 || l > 0.88) continue;
+
+    const key = `${r >> 4}-${g >> 4}-${b >> 4}`;
+    const cur = buckets.get(key) || { r: 0, g: 0, b: 0, n: 0 };
+    cur.r += r; cur.g += g; cur.b += b; cur.n += 1;
+    buckets.set(key, cur);
+  }
+
+  const scored = [];
+  for (const v of buckets.values()) {
+    const r = v.r / v.n, g = v.g / v.n, b = v.b / v.n;
+    const [, s, l] = rgbToHsl(r, g, b);
+    // area x vividness, penalising colours pinned to the light/dark extremes
+    const score = v.n * (0.08 + Math.pow(s, 2) * 4.5) * (1 - Math.abs(l - 0.5) * 0.9);
+    scored.push({ r, g, b, score });
+  }
+  scored.sort((a, b) => b.score - a.score);
+
+  if (!scored.length && fallback.n) {
+    scored.push({ r: fallback.r / fallback.n, g: fallback.g / fallback.n, b: fallback.b / fallback.n, score: 0 });
+  }
+  return scored;
+}
+
+function dominantColor(img) {
+  const [best] = scoredColorBuckets(img);
+  if (!best) return null;
+  return { r: Math.round(best.r), g: Math.round(best.g), b: Math.round(best.b) };
+}
+
+// Top n distinct swatches from the same scoring pass, for the multi-colour
+// gradient line. "Distinct" means far enough apart in RGB space that two
+// buckets of the same hue don't both make the cut — otherwise a sleeve
+// dominated by one colour would still show as a flat line.
+function dominantPalette(img, n = 3) {
+  const scored = scoredColorBuckets(img);
+  const MIN_DIST = 40;
+  const picked = [];
+  for (const c of scored) {
+    if (picked.length >= n) break;
+    const tooClose = picked.some((p) => Math.hypot(p.r - c.r, p.g - c.g, p.b - c.b) < MIN_DIST);
+    if (!tooClose) picked.push(c);
+  }
+  for (const c of scored) {
+    if (picked.length >= n) break;
+    if (!picked.includes(c)) picked.push(c);
+  }
+  return picked.map((c) => ({ r: Math.round(c.r), g: Math.round(c.g), b: Math.round(c.b) }));
+}
+```
+
+- [ ] **Step 2: Add `sampledGradient`**
+
+In `public/app.js`, immediately after the `sampledPlate` function (it ends with a closing `}` right before the `makeCoverImage` comment), insert:
+
+```javascript
+
+function sampledGradient(img, opts) {
+  const cacheKey = "grad:" + img.src + JSON.stringify(opts || {});
+  if (plateCache.has(cacheKey)) return plateCache.get(cacheKey);
+  let css = null;
+  try {
+    const palette = dominantPalette(img, 3).map((rgb) => cssRgb(inkify(rgb, opts)));
+    if (palette.length) css = `linear-gradient(90deg, ${palette.join(", ")})`;
+  } catch {
+    css = null; // tainted canvas — keep the default plate
+  }
+  plateCache.set(cacheKey, css);
+  return css;
+}
+```
+
+- [ ] **Step 3: Add the optional `onGradient` callback to `makeCoverImage`**
+
+In `public/app.js`, replace the `makeCoverImage` function:
+
+```javascript
+function makeCoverImage(src, alt, onSampled, opts) {
+  const img = document.createElement("img");
+  img.alt = alt;
+  img.crossOrigin = "anonymous";
+
+  img.addEventListener("load", () => {
+    const css = sampledPlate(img, opts);
+    if (css) onSampled(css);
+  });
+
+  img.addEventListener(
+    "error",
+    () => {
+      if (img.crossOrigin) {
+        img.removeAttribute("crossorigin");
+        img.src = src;
+      }
+    },
+    { once: true }
+  );
+
+  img.src = src;
+  return img;
+}
+```
+
+with:
+
+```javascript
+function makeCoverImage(src, alt, onSampled, opts, onGradient) {
+  const img = document.createElement("img");
+  img.alt = alt;
+  img.crossOrigin = "anonymous";
+
+  img.addEventListener("load", () => {
+    const css = sampledPlate(img, opts);
+    if (css) onSampled(css);
+    if (onGradient) {
+      const grad = sampledGradient(img, opts);
+      if (grad) onGradient(grad);
+    }
+  });
+
+  img.addEventListener(
+    "error",
+    () => {
+      if (img.crossOrigin) {
+        img.removeAttribute("crossorigin");
+        img.src = src;
+      }
+    },
+    { once: true }
+  );
+
+  img.src = src;
+  return img;
+}
+```
+
+Today's pick's existing call to `makeCoverImage` passes only 4 arguments, so `onGradient` is `undefined` there and this is a no-op for that call site — today's pick's behaviour is unchanged.
+
+- [ ] **Step 4: Strip the blob markup from the grid-card template and wire the gradient**
+
+In `public/app.js`, find `renderCards` and replace:
+
+```javascript
+    card.innerHTML = `
+      <div class="art-frame">
+        <span class="glow glow-focus card-glow"></span>
+        <div class="grain"></div>
+      </div>
+      <div class="card-body">
+        <p class="card-title" title="${album.name.replace(/"/g, "&quot;")}">${album.name}</p>
+        <p class="card-artist">${album.artist}</p>
+        <div class="card-meta">
+          <span>${album.releaseDate}</span>
+          <span class="stars" style="color: ${ratingColor(entry.rating)}">${starString(entry.rating)}</span>
+        </div>
+      </div>
+    `;
+
+    const cover = makeCoverImage(albumImage(album, 300), `${album.name} cover`, (css) =>
+      card.style.setProperty("--plate", css)
+    );
+```
+
+with:
+
+```javascript
+    card.innerHTML = `
+      <div class="art-frame"></div>
+      <div class="card-body">
+        <p class="card-title" title="${album.name.replace(/"/g, "&quot;")}">${album.name}</p>
+        <p class="card-artist">${album.artist}</p>
+        <div class="card-meta">
+          <span>${album.releaseDate}</span>
+          <span class="stars" style="color: ${ratingColor(entry.rating)}">${starString(entry.rating)}</span>
+        </div>
+      </div>
+    `;
+
+    const cover = makeCoverImage(
+      albumImage(album, 300),
+      `${album.name} cover`,
+      (css) => card.style.setProperty("--plate", css),
+      undefined,
+      (grad) => card.style.setProperty("--plate-grad", grad)
+    );
+```
+
+(The line right after — `cover.loading = "lazy"; card.querySelector(".art-frame").appendChild(cover);` — is unchanged.)
+
+- [ ] **Step 5: Wire the gradient into the modal, and clear it on close**
+
+In `public/app.js`, in `openModal`, replace:
+
+```javascript
+  const modalCard = modal.querySelector(".modal-card");
+  modalCard.style.removeProperty("--plate");
+  modalCard.scrollTop = 0;
+  modalCover.alt = `${album.name} cover`;
+  modalCover.crossOrigin = "anonymous";
+  modalCover.onload = () => {
+    const css = sampledPlate(modalCover);
+    if (css) modalCard.style.setProperty("--plate", css);
+  };
+```
+
+with:
+
+```javascript
+  const modalCard = modal.querySelector(".modal-card");
+  modalCard.style.removeProperty("--plate");
+  modalCard.style.removeProperty("--plate-grad");
+  modalCard.scrollTop = 0;
+  modalCover.alt = `${album.name} cover`;
+  modalCover.crossOrigin = "anonymous";
+  modalCover.onload = () => {
+    const css = sampledPlate(modalCover);
+    if (css) modalCard.style.setProperty("--plate", css);
+    const grad = sampledGradient(modalCover);
+    if (grad) modalCard.style.setProperty("--plate-grad", grad);
+  };
+```
+
+- [ ] **Step 6: Strip the blob markup from the modal**
+
+In `public/index.html`, replace:
+
+```html
+      <div class="modal-side">
+        <div class="modal-art">
+          <span class="glow glow-focus modal-glow modal-glow-1"></span>
+          <span class="glow glow-focus modal-glow modal-glow-2"></span>
+          <div class="grain"></div>
+          <img id="modal-cover" src="" alt="" />
+        </div>
+```
+
+with:
+
+```html
+      <div class="modal-side">
+        <div class="modal-art">
+          <img id="modal-cover" src="" alt="" />
+        </div>
+```
+
+- [ ] **Step 7: CSS — grid card: remove the blob, gradient-ify the thin line**
+
+In `public/styles.css`, remove the `.album-card:hover .art-frame, .album-card:focus-within .art-frame { overflow: visible; }` rule (directly follows `.album-card .art-frame`'s own rule) — `.art-frame` no longer needs to let anything bleed past it, so it can stay `overflow: hidden` always.
+
+Remove the entire `.card-glow` block and its hover/focus-within opacity rule:
+
+```css
+/* Sits behind the cover at rest (opacity 0), bursts to full strength on
+   hover — the per-tile analogue of today's-pick's glow, same --plate
+   value the card-body border already uses. */
+.card-glow {
+  inset: -30%;
+  width: auto;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  background: radial-gradient(circle,
+    rgba(23, 20, 15, 0) 0%,
+    var(--plate) 42%,
+    rgba(23, 20, 15, 0) 100%);
+}
+
+.album-card:hover .card-glow,
+.album-card:focus-within .card-glow {
+  opacity: 0.55;
+}
+```
+
+Replace `.album-card .card-body`'s `border-top: 1px solid var(--plate);` — the whole rule becomes:
+
+```css
+.album-card .card-body {
+  padding: 0.7rem 0 0.9rem;
+  border-top: 2px solid transparent;
+  border-image: var(--plate-grad, linear-gradient(90deg, var(--plate), var(--plate))) 1;
+  margin-top: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+```
+
+(`border-image`'s fallback — a flat gradient between `--plate` and itself — means the line is never literally un-set before `--plate-grad` resolves; it just briefly shows as a flat colour, same as today.)
+
+- [ ] **Step 8: CSS — modal: remove the blob, gradient-ify the band**
+
+In `public/styles.css`, remove the `.modal-glow`, `.modal-glow-1`, `.modal-glow-2` rules entirely (including their explanatory comment).
+
+Replace `.modal-art`/`.modal-art img`:
+
+```css
+.modal-art {
+  position: relative;
+  line-height: 0;
+  border-radius: 0;
+  overflow: visible;
+}
+
+.modal-art img { width: 100%; display: block; position: relative; z-index: 2; }
+```
+
+with:
+
+```css
+.modal-art {
+  line-height: 0;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.modal-art img { width: 100%; display: block; }
+```
+
+Replace `.modal-card::before`'s background:
+
+```css
+.modal-card::before {
+  content: "";
+  display: block;
+  height: 4px;
+  background: var(--plate);
+  border-radius: 0;
+}
+```
+
+with:
+
+```css
+.modal-card::before {
+  content: "";
+  display: block;
+  height: 4px;
+  background: var(--plate-grad, var(--plate));
+  border-radius: 0;
+}
+```
+
+- [ ] **Step 9: Verify**
+
+Run:
+```bash
+npm start
+```
+Open `http://localhost:4001`, sign in with project `emsh`. Confirm:
+- **Today's pick is unchanged** — still shows the blob glow exactly as before this task (open devtools, confirm `.tp-glow-1`/`.tp-glow-2` still exist and render; this task shouldn't have touched any of that code).
+- Grid cards: no more hover blob. Each card's thin line under the cover is now a smooth multi-colour gradient — compare two different-coloured covers side by side, the gradients should look visibly different and each should show at least 2 distinct hues blending, not a single flat colour.
+- Open an album: the 4px band at the top of the modal sheet is now a gradient too, not a flat colour. Close and open a different album, confirm the gradient changes.
+- In devtools, select a `.card-body` or inspect `.modal-card`'s computed `--plate-grad` — confirm it's a real `linear-gradient(90deg, rgb(...), rgb(...), rgb(...))` string, not empty/invalid.
+- No console errors.
+- Page-wide ambient glow (the two slow background blobs) is unaffected — this task never touched `.glow-ambient-*`.
+
+- [ ] **Step 10: Commit**
+
+```bash
+git add public/app.js public/index.html public/styles.css
+git commit -m "Replace grid/modal blob glow with a multi-colour gradient line
+
+User rejected the circular glow (and four shape alternatives) for
+grid tiles and the modal after seeing it live, keeping today's pick's
+blob untouched. Replaces it with the existing thin accent line/band,
+now a multi-colour gradient sampled from the sleeve via a new
+dominantPalette() built on the existing scoring pass, instead of one
+flat hue."
+```
