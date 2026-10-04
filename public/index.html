@@ -15,10 +15,17 @@
 </head>
 <body>
 
-<!-- Slow mesh gradient under everything. Fixed, heavily blurred and only
-     lightly tinted, so the grey has some movement in it without ever becoming
-     something you have to read through. -->
-<div class="aura" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+<!-- Ambient glow: two slow, low-opacity, organically-morphing blobs plus a
+     grain layer baked into the canvas. Replaces the old four-circle aura.
+     Opacity stays low here on purpose — the same colour-and-motion mechanic
+     goes full-strength at today's pick, an open album, and a hovered tile
+     (see .glow-focus in styles.css), so this ambient layer should read as
+     "the grey has a temperature," not compete with those. -->
+<div class="ambient-glow" aria-hidden="true">
+  <span class="glow glow-ambient glow-ambient-1"></span>
+  <span class="glow glow-ambient glow-ambient-2"></span>
+  <span class="grain"></span>
+</div>
 
 <header class="site-header">
   <div class="header-inner">
