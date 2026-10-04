@@ -15,19 +15,6 @@
 </head>
 <body>
 
-<!-- Warps the ambient blobs' edges into flowing, non-circular forms instead
-     of smooth rings — low-frequency turbulence displacing the shape, not
-     the fine grain texture (that's a separate, much higher-frequency
-     filter below). Shared by all four ambient blobs via CSS filter:url(). -->
-<svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <defs>
-    <filter id="organic-flow" x="-60%" y="-60%" width="220%" height="220%" color-interpolation-filters="sRGB">
-      <feTurbulence type="turbulence" baseFrequency="0.005" numOctaves="2" seed="7" result="noise" />
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="200" xChannelSelector="R" yChannelSelector="G" />
-    </filter>
-  </defs>
-</svg>
-
 <!-- Ambient glow: two slow, low-opacity, organically-morphing blobs plus a
      grain layer baked into the canvas. Replaces the old four-circle aura.
      Opacity stays low here on purpose — the same colour-and-motion mechanic

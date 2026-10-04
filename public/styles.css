@@ -78,21 +78,18 @@
 /* Page-wide tier: low opacity, slow, a fixed neutral palette — there's no
    single "current album" for the whole page, so this one isn't
    album-reactive. The focus tier (Tasks 3-5) is what carries real colour.
-   filter:url(#organic-flow) (defined in index.html) warps each blob's edge
-   into a flowing, non-circular form via low-frequency turbulence instead of
-   a smooth ring; the blur after it keeps that warped edge soft rather than
-   jagged. mix-blend-mode:multiply is what makes two overlapping blobs
-   produce a genuinely new blended hue where they cross, instead of one
-   simply sitting on top of the other — screen is the usual pick for this
-   kind of look, but screen lightens toward white and this page is light
-   grey, not the near-black the look is normally built on; multiply darkens
-   toward a mixed hue instead, closer to how ink actually mixes on a light
-   surface. That blended crossing is "the mix," not a fixed third gradient
-   stop — which is what makes it read as organic rather than formulaic. */
+   (A turbulence-displacement SVG filter was tried here for flowing,
+   non-circular edges — rejected on sight, reverted to a plain blur.)
+   mix-blend-mode:multiply is what makes two overlapping blobs produce a
+   genuinely new blended hue where they cross, instead of one simply
+   sitting on top of the other — screen is the usual pick for this kind of
+   look, but screen lightens toward white and this page is light grey, not
+   the near-black the look is normally built on; multiply darkens toward a
+   mixed hue instead, closer to how ink actually mixes on a light surface. */
 .glow-ambient {
   opacity: 0.4;
   animation-duration: 34s;
-  filter: url(#organic-flow) blur(10px);
+  filter: blur(90px);
   mix-blend-mode: multiply;
 }
 
@@ -526,15 +523,23 @@ main {
     rgba(23, 20, 15, 0) 0%,
     var(--wash, var(--accent)) 42%,
     rgba(23, 20, 15, 0) 100%);
+  /* width/height aren't touched by glow-morph's keyframes (only
+     border-radius/transform are), so they're free to transition smoothly
+     on hover without fighting the running animation. */
+  transition: width 1.1s ease, height 1.1s ease;
 }
 
 .tp-glow-1 { width: 55%; height: 90%; top: -30%; left: -12%; }
 .tp-glow-2 { width: 50%; height: 85%; bottom: -35%; right: -8%; animation-delay: -6s; }
 
-/* The blobs keep morphing at rest (see glow-morph) — hovering just speeds
-   that existing motion up rather than starting something new, so the
-   whole panel feels alive without restructuring the markup. */
+/* The blobs keep morphing at rest (see glow-morph) — hovering speeds that
+   existing motion up (a smooth rate change, not a jump — the keyframe
+   position is preserved when animation-duration changes mid-run) and
+   grows them a little, so the whole panel visibly responds to the
+   cursor without restructuring the markup. */
 .today-pick:hover .tp-glow { animation-duration: 7s; }
+.today-pick:hover .tp-glow-1 { width: 64%; height: 100%; }
+.today-pick:hover .tp-glow-2 { width: 58%; height: 94%; }
 
 .tp-wash {
   position: absolute;
