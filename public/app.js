@@ -119,10 +119,11 @@ function hslToRgb(h, s, l) {
   };
 }
 
-// Picks the sleeve's signature colour: scores quantised colour buckets by area
-// but weights vividness heavily, so a small block of saturated colour beats a
-// large muddy one (the red title on a brown Beach Boys sleeve, say).
-function dominantColor(img) {
+// Scores quantised colour buckets by area but weights vividness heavily, so
+// a small block of saturated colour beats a large muddy one (the red title
+// on a brown Beach Boys sleeve, say). Shared by dominantColor (top pick) and
+// dominantPalette (top n, for the multi-colour gradient line).
+function scoredColorBuckets(img) {
   sampleCtx.clearRect(0, 0, SAMPLE, SAMPLE);
   sampleCtx.drawImage(img, 0, 0, SAMPLE, SAMPLE);
   const { data } = sampleCtx.getImageData(0, 0, SAMPLE, SAMPLE);
@@ -144,25 +145,46 @@ function dominantColor(img) {
     buckets.set(key, cur);
   }
 
-  let best = null;
-  let bestScore = -1;
+  const scored = [];
   for (const v of buckets.values()) {
     const r = v.r / v.n, g = v.g / v.n, b = v.b / v.n;
     const [, s, l] = rgbToHsl(r, g, b);
     // area x vividness, penalising colours pinned to the light/dark extremes
     const score = v.n * (0.08 + Math.pow(s, 2) * 4.5) * (1 - Math.abs(l - 0.5) * 0.9);
-    if (score > bestScore) {
-      bestScore = score;
-      best = { r, g, b };
-    }
+    scored.push({ r, g, b, score });
   }
+  scored.sort((a, b) => b.score - a.score);
 
-  if (!best && fallback.n) {
-    best = { r: fallback.r / fallback.n, g: fallback.g / fallback.n, b: fallback.b / fallback.n };
+  if (!scored.length && fallback.n) {
+    scored.push({ r: fallback.r / fallback.n, g: fallback.g / fallback.n, b: fallback.b / fallback.n, score: 0 });
   }
+  return scored;
+}
+
+function dominantColor(img) {
+  const [best] = scoredColorBuckets(img);
   if (!best) return null;
-
   return { r: Math.round(best.r), g: Math.round(best.g), b: Math.round(best.b) };
+}
+
+// Top n distinct swatches from the same scoring pass, for the multi-colour
+// gradient line. "Distinct" means far enough apart in RGB space that two
+// buckets of the same hue don't both make the cut — otherwise a sleeve
+// dominated by one colour would still show as a flat line.
+function dominantPalette(img, n = 3) {
+  const scored = scoredColorBuckets(img);
+  const MIN_DIST = 40;
+  const picked = [];
+  for (const c of scored) {
+    if (picked.length >= n) break;
+    const tooClose = picked.some((p) => Math.hypot(p.r - c.r, p.g - c.g, p.b - c.b) < MIN_DIST);
+    if (!tooClose) picked.push(c);
+  }
+  for (const c of scored) {
+    if (picked.length >= n) break;
+    if (!picked.includes(c)) picked.push(c);
+  }
+  return picked.map((c) => ({ r: Math.round(c.r), g: Math.round(c.g), b: Math.round(c.b) }));
 }
 
 // Push a sampled colour into a range that reads as printed ink on cream paper.
@@ -189,9 +211,23 @@ function sampledPlate(img, opts) {
   return css;
 }
 
+function sampledGradient(img, opts) {
+  const cacheKey = "grad:" + img.src + JSON.stringify(opts || {});
+  if (plateCache.has(cacheKey)) return plateCache.get(cacheKey);
+  let css = null;
+  try {
+    const palette = dominantPalette(img, 3).map((rgb) => cssRgb(inkify(rgb, opts)));
+    if (palette.length) css = `linear-gradient(90deg, ${palette.join(", ")})`;
+  } catch {
+    css = null; // tainted canvas — keep the default plate
+  }
+  plateCache.set(cacheKey, css);
+  return css;
+}
+
 // Builds a cover <img> that can be safely sampled, falling back to a plain
 // load if the CDN ever refuses the CORS request.
-function makeCoverImage(src, alt, onSampled, opts) {
+function makeCoverImage(src, alt, onSampled, opts, onGradient) {
   const img = document.createElement("img");
   img.alt = alt;
   img.crossOrigin = "anonymous";
@@ -199,6 +235,10 @@ function makeCoverImage(src, alt, onSampled, opts) {
   img.addEventListener("load", () => {
     const css = sampledPlate(img, opts);
     if (css) onSampled(css);
+    if (onGradient) {
+      const grad = sampledGradient(img, opts);
+      if (grad) onGradient(grad);
+    }
   });
 
   img.addEventListener(
@@ -309,10 +349,7 @@ function renderCards(entries) {
     const card = document.createElement("article");
     card.className = "album-card";
     card.innerHTML = `
-      <div class="art-frame">
-        <span class="glow glow-focus card-glow"></span>
-        <div class="grain"></div>
-      </div>
+      <div class="art-frame"></div>
       <div class="card-body">
         <p class="card-title" title="${album.name.replace(/"/g, "&quot;")}">${album.name}</p>
         <p class="card-artist">${album.artist}</p>
@@ -323,8 +360,12 @@ function renderCards(entries) {
       </div>
     `;
 
-    const cover = makeCoverImage(albumImage(album, 300), `${album.name} cover`, (css) =>
-      card.style.setProperty("--plate", css)
+    const cover = makeCoverImage(
+      albumImage(album, 300),
+      `${album.name} cover`,
+      (css) => card.style.setProperty("--plate", css),
+      undefined,
+      (grad) => card.style.setProperty("--plate-grad", grad)
     );
     cover.loading = "lazy";
     card.querySelector(".art-frame").appendChild(cover);
@@ -1148,12 +1189,15 @@ function openModal(album, entry) {
 
   const modalCard = modal.querySelector(".modal-card");
   modalCard.style.removeProperty("--plate");
+  modalCard.style.removeProperty("--plate-grad");
   modalCard.scrollTop = 0;
   modalCover.alt = `${album.name} cover`;
   modalCover.crossOrigin = "anonymous";
   modalCover.onload = () => {
     const css = sampledPlate(modalCover);
     if (css) modalCard.style.setProperty("--plate", css);
+    const grad = sampledGradient(modalCover);
+    if (grad) modalCard.style.setProperty("--plate-grad", grad);
   };
   modalCover.src = albumImage(album, 640);
   modalYearGenre.textContent = [album.releaseDate, (album.genres || []).join(", ")].filter(Boolean).join(" • ");

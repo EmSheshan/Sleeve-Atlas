@@ -629,11 +629,6 @@ main {
   overflow: hidden;
 }
 
-.album-card:hover .art-frame,
-.album-card:focus-within .art-frame {
-  overflow: visible;
-}
-
 .album-card img {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -647,31 +642,12 @@ main {
   transition: filter 0.4s ease;
 }
 
-/* Sits behind the cover at rest (opacity 0), bursts to full strength on
-   hover — the per-tile analogue of today's-pick's glow, same --plate
-   value the card-body border already uses. */
-.card-glow {
-  inset: -30%;
-  width: auto;
-  height: auto;
-  opacity: 0;
-  transition: opacity 0.4s ease;
-  background: radial-gradient(circle,
-    rgba(23, 20, 15, 0) 0%,
-    var(--plate) 42%,
-    rgba(23, 20, 15, 0) 100%);
-}
-
-.album-card:hover .card-glow,
-.album-card:focus-within .card-glow {
-  opacity: 0.55;
-}
-
 .album-card:hover img { filter: saturate(1.35) contrast(1.06); }
 
 .album-card .card-body {
   padding: 0.7rem 0 0.9rem;
-  border-top: 1px solid var(--plate);
+  border-top: 2px solid transparent;
+  border-image: var(--plate-grad, linear-gradient(90deg, var(--plate), var(--plate))) 1;
   margin-top: 0.7rem;
   display: flex;
   flex-direction: column;
@@ -761,7 +737,7 @@ main {
   content: "";
   display: block;
   height: 4px;
-  background: var(--plate);
+  background: var(--plate-grad, var(--plate));
   border-radius: 0;
 }
 
@@ -790,33 +766,12 @@ main {
 .modal-side { flex: 0 0 225px; align-self: flex-start; }
 
 .modal-art {
-  position: relative;
   line-height: 0;
   border-radius: 0;
-  overflow: visible;
+  overflow: hidden;
 }
 
-.modal-art img { width: 100%; display: block; position: relative; z-index: 2; }
-
-/* Unlike the grid tile, the modal is only ever on screen when "open" — no
-   hover-gated opacity needed, the glow is just always present while the
-   sheet is up. overflow: visible (above) lets it bleed past the square art
-   panel; z-index on the img keeps the cover painting on top of it. */
-.modal-glow { inset: -25%; width: auto; height: auto; z-index: 1; }
-.modal-glow-1 {
-  background: radial-gradient(circle,
-    rgba(23, 20, 15, 0) 0%,
-    var(--plate) 42%,
-    rgba(23, 20, 15, 0) 100%);
-}
-.modal-glow-2 {
-  background: radial-gradient(circle,
-    rgba(23, 20, 15, 0) 0%,
-    var(--plate) 38%,
-    rgba(23, 20, 15, 0) 100%);
-  animation-delay: -7s;
-  opacity: 0.4;
-}
+.modal-art img { width: 100%; display: block; }
 
 .modal-content { flex: 1 1 380px; min-width: 0; }
 
