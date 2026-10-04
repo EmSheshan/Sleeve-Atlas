@@ -88,6 +88,8 @@ git commit -m "Type pass: Literata body, Martian Mono labels, Archivo unchanged"
 
 ## Task 2: Replace `.aura` with the ambient glow layer
 
+> **Amendment (post-Task-4, live-tested against the real page):** the original `filter: blur(3px)` on `.glow` looked fine in the brainstorming mockups' small swatches but was nowhere near enough blur at real element scale (600px+ wide) — it rendered as a hard-edged, nearly-opaque disc rather than a soft glow, confirmed bad by the user looking at the real hover state. Fixed to `blur(40px)`, validated live via Playwright against both the today's-pick banner (~633px) and a grid-tile hover (~320px) before writing back here. The code block below already reflects the corrected value. Tasks 3 and 4 (already committed when this was found) needed a follow-up fix to their opacity and gradient-stop values too — see the amendment notes in those sections.
+
 **Files:**
 - Modify: `public/index.html:18-21` (the `.aura` div)
 - Modify: `public/styles.css:34-72` (the `---------- Aura ----------` section)
@@ -148,7 +150,7 @@ In `public/styles.css`, replace the entire block from line 34 (`/* ---------- Au
 .glow {
   position: absolute;
   border-radius: 50%;
-  filter: blur(3px);
+  filter: blur(40px);
   animation: glow-morph 20s ease-in-out infinite alternate;
   pointer-events: none;
 }
@@ -224,6 +226,8 @@ git commit -m "Replace flat aura with organic grain+glow ambient layer"
 
 ## Task 3: Focus glow — today's pick
 
+> **Amendment (post-Task-4, live-tested):** `.glow-focus`'s `opacity: 0.95` plus `.tp-glow`'s flat colour plateau (`20%, COLOR 55%, 85%`) read as a solid dome, not a glow, at this element's real ~633px width. Fixed to `opacity: 0.55` and a single-peak gradient (`COLOR` at `42%` only, transparent at both `0%` and `100%`) — the code below reflects the fix. Depends on Task 2's corrected `blur(40px)`.
+
 **Files:**
 - Modify: `public/app.js:235-244` (`renderTodayPick`'s `innerHTML` template)
 - Modify: `public/styles.css` (new rules in the `---------- Today's pick ----------` section, after line 448)
@@ -277,13 +281,14 @@ In `public/styles.css`, after line 448 (the closing `}` of `.tp-tile`) and befor
    rule). A single sampled colour drives both blobs' ring stop; the
    transparent core/fade either side is what gives it the glow shape. */
 .glow-focus {
-  opacity: 0.95;
+  opacity: 0.55;
 }
 
 .tp-glow {
   background: radial-gradient(circle,
-    rgba(23, 20, 15, 0) 0%, rgba(23, 20, 15, 0) 20%,
-    var(--wash, var(--accent)) 55%, rgba(23, 20, 15, 0) 85%);
+    rgba(23, 20, 15, 0) 0%,
+    var(--wash, var(--accent)) 42%,
+    rgba(23, 20, 15, 0) 100%);
 }
 
 .tp-glow-1 { width: 55%; height: 90%; top: -30%; left: -12%; }
@@ -311,6 +316,8 @@ git commit -m "Focus glow on today's pick, driven by the existing --wash sample"
 ---
 
 ## Task 4: Focus glow — album grid, on hover
+
+> **Amendment (live-tested):** same fix as Task 3 — `.card-glow`'s gradient plateau simplified to a single peak, and the hover-opacity target dropped from `0.9` to `0.55` to match the corrected `.glow-focus` baseline. The code below reflects the fix.
 
 **Files:**
 - Modify: `public/app.js:308-318` (`renderCards`'s per-card `innerHTML` template)
@@ -374,13 +381,14 @@ In `public/styles.css`, after line 592 (the closing `}` of `.album-card img`'s `
   opacity: 0;
   transition: opacity 0.4s ease;
   background: radial-gradient(circle,
-    rgba(23, 20, 15, 0) 0%, rgba(23, 20, 15, 0) 20%,
-    var(--plate) 55%, rgba(23, 20, 15, 0) 85%);
+    rgba(23, 20, 15, 0) 0%,
+    var(--plate) 42%,
+    rgba(23, 20, 15, 0) 100%);
 }
 
 .album-card:hover .card-glow,
 .album-card:focus-within .card-glow {
-  opacity: 0.9;
+  opacity: 0.55;
 }
 ```
 
@@ -481,15 +489,17 @@ with:
 .modal-glow { inset: -25%; width: auto; height: auto; z-index: 1; }
 .modal-glow-1 {
   background: radial-gradient(circle,
-    rgba(23, 20, 15, 0) 0%, rgba(23, 20, 15, 0) 20%,
-    var(--plate) 55%, rgba(23, 20, 15, 0) 85%);
+    rgba(23, 20, 15, 0) 0%,
+    var(--plate) 42%,
+    rgba(23, 20, 15, 0) 100%);
 }
 .modal-glow-2 {
   background: radial-gradient(circle,
-    rgba(23, 20, 15, 0) 0%, rgba(23, 20, 15, 0) 24%,
-    var(--plate) 50%, rgba(23, 20, 15, 0) 82%);
+    rgba(23, 20, 15, 0) 0%,
+    var(--plate) 38%,
+    rgba(23, 20, 15, 0) 100%);
   animation-delay: -7s;
-  opacity: 0.6;
+  opacity: 0.4;
 }
 ```
 
