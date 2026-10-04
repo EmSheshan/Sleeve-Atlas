@@ -266,6 +266,27 @@
     window.addEventListener("resize", onViewportChange);
     document.addEventListener("fullscreenchange", onViewportChange);
 
+    // A fullscreened element is the only thing the browser paints — everything
+    // outside it is simply not shown. The album sheet lives at the end of the
+    // body, so "open notes" from the map did nothing visible in fullscreen.
+    // Move it inside for the duration and put it back on exit.
+    const albumModal = document.getElementById("album-modal");
+
+    function reparentModal() {
+      if (!albumModal) return;
+      const fs = document.fullscreenElement;
+      const wrap = container.closest(".graph-wrap");
+      if (fs && wrap && fs.contains(wrap)) {
+        if (albumModal.parentElement !== fs) fs.appendChild(albumModal);
+      } else if (albumModal.parentElement !== document.body) {
+        document.body.appendChild(albumModal);
+      }
+    }
+
+    document.addEventListener("fullscreenchange", reparentModal);
+    // exposed so the behaviour can be exercised without a real gesture
+    window.__reparentMapModal = reparentModal;
+
     function applyBounds({ fit = false } = {}) {
       const b = zoomLayer.node().getBBox();
       if (!b.width || !b.height) return;
