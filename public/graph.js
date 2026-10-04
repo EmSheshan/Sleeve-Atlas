@@ -128,9 +128,18 @@
   const esc = (s) =>
     String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
+  // Brandes is O(V*E) — 87ms at 441 nodes, and it was being rerun on every
+  // draw even though the stats describe the whole web and never change when
+  // the view is filtered. Cached against the graph it was computed from.
+  let statsCache = { key: null, value: null };
+
   function renderStats(nodes, edges) {
     if (!statsEl) return;
-    const { sources, sinks, central, inD, outD } = computeStats(nodes, edges);
+    const key = `${nodes.length}:${edges.length}`;
+    if (statsCache.key !== key) {
+      statsCache = { key, value: computeStats(nodes, edges) };
+    }
+    const { sources, sinks, central, inD, outD } = statsCache.value;
 
     const row = (n, count, unit) => `
       <li>
@@ -419,7 +428,7 @@
         d3
           .drag()
           .on("start", (event, d) => {
-            if (!event.active) simulation.alphaTarget(0.25).restart();
+            if (!event.active) { simulation.alphaTarget(0.25); run(); }
             d.fx = d.x;
             d.fy = d.y;
           })
@@ -637,13 +646,51 @@
       );
     };
 
-    simulation.on("tick", () => {
+    function paint() {
       // the fat hit path sits exactly under the visible one, so compute the
       // geometry once per edge and reuse it rather than solving it twice
       link.attr("d", (d) => (d.path = arc(d)));
       hit.attr("d", (d) => d.path);
       node.attr("transform", (d) => `translate(${d.x},${d.y})`);
-    });
+    }
+
+    // D3 drives its own timer at exactly one tick per frame, so settling is
+    // limited by frame count rather than by work: 300 ticks is five seconds
+    // however fast each one is, and at 441 nodes a tick costs 3.3ms of a 16.7ms
+    // frame. Driving it here instead, as many ticks as fit in a budget, spends
+    // the idle two thirds of each frame and gets to the same layout several
+    // times sooner. The budget keeps it honest as the graph grows — at the full
+    // list a tick is ~8ms, so it simply does fewer per frame rather than
+    // dropping below 60fps.
+    const FRAME_BUDGET_MS = 11;
+    simulation.stop();
+    let looping = false;
+
+    function settledEnough() {
+      return simulation.alpha() <= simulation.alphaMin() && simulation.alphaTarget() <= simulation.alphaMin();
+    }
+
+    function step() {
+      const until = performance.now() + FRAME_BUDGET_MS;
+      do {
+        simulation.tick();
+      } while (performance.now() < until && !settledEnough());
+
+      paint();
+
+      if (settledEnough()) {
+        looping = false;
+        onSettled();
+      } else {
+        requestAnimationFrame(step);
+      }
+    }
+
+    function run() {
+      if (looping) return;
+      looping = true;
+      requestAnimationFrame(step);
+    }
 
     // d3's zoom answers the wheel and dragging, neither of which a keyboard
     // has. These are ordinary buttons, so they're in the tab order for free.
@@ -684,7 +731,8 @@
           simulation.force("x").strength(0.035);
           simulation.force("y").strength(0.035);
           // alphaTarget keeps it warm indefinitely rather than cooling off
-          simulation.alphaDecay(DECAY * 0.45).alphaTarget(0.35).alpha(1).restart();
+          simulation.alphaDecay(DECAY * 0.45).alphaTarget(0.35).alpha(1);
+          run();
         };
         const release = () => {
           if (!heldAt) return;
@@ -709,8 +757,11 @@
     // it really does improve — 259 crossings down to 234 by the fourth, then
     // flat. So it runs on its own a few times after the first settle, each
     // pass cooler than the last, and there's a button to ask for another.
-    const TIDY_PASSES = [0.3, 0.22, 0.16];
-    let tidyPass = 0;
+    // No automatic passes any more. Three of them ran after the first settle
+    // and accounted for 704 of the 1004 ticks it took the map to stop moving —
+    // 70% of the wait — in exchange for a measured 10% drop in crossings. That
+    // is a bad trade for anyone who just opened the page. The button is still
+    // here for when the shape is worth another shake.
     let queued = 0;
 
     const DECAY = simulation.alphaDecay();
@@ -719,7 +770,8 @@
       // A lower decay means the simulation stays warm for longer, so the
       // forces get far more time to work before it freezes — that is what
       // makes a hard tidy actually rearrange things rather than jiggle them.
-      simulation.alphaDecay(slow ? DECAY * 0.45 : DECAY).alpha(alpha).restart();
+      simulation.alphaDecay(slow ? DECAY * 0.45 : DECAY).alpha(alpha);
+      run();
     }
 
     // The button runs a full anneal: maximum heat, slow cooling, four passes
@@ -731,24 +783,19 @@
     }
 
     window.__graphSettled = false;
-    simulation.on("end", () => {
-      // bounds only. Auto-fitting put the whole graph on screen at 0.21 scale,
-      // where every label overlaps its neighbours — technically "you can see
-      // it all", practically unreadable. The fit button is there when you
-      // want the overview.
+
+    function onSettled() {
       applyBounds();
       if (queued > 0) {
         queued--;
         tidy(1, { slow: true });
         return;
       }
-      if (tidyPass < TIDY_PASSES.length) {
-        tidy(TIDY_PASSES[tidyPass++]);
-        return;
-      }
       simulation.alphaDecay(DECAY);
       window.__graphSettled = true;
-    });
+    }
+
+    run();
     // The zoom limits depend on the layout's size, which keeps changing while
     // the simulation runs — so refresh them a few times on the way rather than
     // waiting for "end", which never arrives if the tab is hidden (a hidden
