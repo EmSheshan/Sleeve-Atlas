@@ -27,8 +27,8 @@
   --shadow-lg: 0 24px 70px rgba(22, 23, 27, 0.22);
   --radius: 0px;
   --font-display: "Archivo", sans-serif;
-  --font-body: "Inter", sans-serif;
-  --font-mono: "IBM Plex Mono", monospace;
+  --font-body: "Literata", serif;
+  --font-mono: "Martian Mono", monospace;
 }
 
 /* ---------- Aura ---------- */
