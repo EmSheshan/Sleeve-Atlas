@@ -53,7 +53,7 @@ await saveNote({
   ],
 
   influencedBy: [
-    { artist: "The Beatles", album: "The Beatles", year: "1968", note: "The White Album's sparest tracks — one voice, one instrument, no production — are where Lennon first tried this register." },
+    { artist: "Beatles", album: "The White Album", year: "1968", note: "The White Album's sparest tracks — one voice, one instrument, no production — are where Lennon first tried this register." },
     { artist: "Bob Dylan", album: "John Wesley Harding", year: "1967", note: "The precedent of a major artist answering a maximalist era by stripping everything back to a small band and plain speech." },
   ],
 

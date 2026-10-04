@@ -55,7 +55,7 @@ await saveNote({
   influencedBy: [
     { artist: "Led Zeppelin", album: "Led Zeppelin III", year: "1970", note: "Their own turn towards folk and acoustic writing, which this album expands into a full side." },
     { artist: "Muddy Waters", album: "The Best of Muddy Waters", year: "1958", note: "The Chicago blues repertoire the band had been rebuilding at volume since their first record." },
-    { artist: "The Beatles", album: "The Beatles", year: "1968", note: "The precedent for a double album as a deliberate display of range rather than an overflow." },
+    { artist: "Beatles", album: "The White Album", year: "1968", note: "The precedent for a double album as a deliberate display of range rather than an overflow." },
   ],
 
   influenced: [

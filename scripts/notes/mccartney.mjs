@@ -53,7 +53,7 @@ await saveNote({
   ],
 
   influencedBy: [
-    { artist: "The Beatles", album: "The Beatles", year: "1968", note: "The White Album's habit of members recording alone, and of leaving sketches on the record, is the direct precedent." },
+    { artist: "Beatles", album: "The White Album", year: "1968", note: "The White Album's habit of members recording alone, and of leaving sketches on the record, is the direct precedent." },
     { artist: "Bob Dylan", album: "John Wesley Harding", year: "1967", note: "The move from studio maximalism to something small and unadorned, made by someone who could afford otherwise." },
   ],
 

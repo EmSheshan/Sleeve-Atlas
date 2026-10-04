@@ -4701,8 +4701,8 @@
     ],
     "influencedBy": [
       {
-        "artist": "The Beatles",
-        "album": "The Beatles",
+        "artist": "Beatles",
+        "album": "The White Album",
         "year": "1968",
         "note": "The White Album's sparest tracks — one voice, one instrument, no production — are where Lennon first tried this register."
       },
@@ -4729,7 +4729,7 @@
     ],
     "uuid": "647e4768d23e2a7be802360b",
     "image": "https://i.scdn.co/image/ab67616d00001e026462162d227ec2be2ebee12d",
-    "savedAt": "2026-09-27T22:20:07.347Z"
+    "savedAt": "2026-09-30T12:26:20.811Z"
   },
   "5f34ee8bf0857e55ed5ebf56": {
     "artist": "Ice Cube",
@@ -6863,8 +6863,8 @@
     ],
     "influencedBy": [
       {
-        "artist": "The Beatles",
-        "album": "The Beatles",
+        "artist": "Beatles",
+        "album": "The White Album",
         "year": "1968",
         "note": "The White Album's habit of members recording alone, and of leaving sketches on the record, is the direct precedent."
       },
@@ -6897,7 +6897,7 @@
     ],
     "uuid": "643ed597905759f4f7f23fdd",
     "image": "https://i.scdn.co/image/ab67616d00001e02c511c6b8a8568aee99ddf18b",
-    "savedAt": "2026-09-28T23:28:07.669Z"
+    "savedAt": "2026-09-30T12:26:18.983Z"
   },
   "5f34ee8bf0857e55ed5ea115": {
     "artist": "Jane Weaver",
@@ -7713,8 +7713,8 @@
         "note": "The Chicago blues repertoire the band had been rebuilding at volume since their first record."
       },
       {
-        "artist": "The Beatles",
-        "album": "The Beatles",
+        "artist": "Beatles",
+        "album": "The White Album",
         "year": "1968",
         "note": "The precedent for a double album as a deliberate display of range rather than an overflow."
       }
@@ -7735,7 +7735,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ebe87",
     "image": "https://i.scdn.co/image/ab67616d00001e022abc2d86a442efb6cc631d0a",
-    "savedAt": "2026-09-29T03:18:59.275Z"
+    "savedAt": "2026-09-30T12:26:19.909Z"
   },
   "5f34ee8bf0857e55ed5ec054": {
     "artist": "Malcolm McLaren",
@@ -9698,5 +9698,965 @@
     "uuid": "5f34ee8bf0857e55ed5eae4c",
     "image": "https://i.scdn.co/image/ab67616d00001e027e42a53ea7f2ad4f36ab23a5",
     "savedAt": "2026-09-29T21:52:44.841Z"
+  },
+  "5f34ee8bf0857e55ed5ec0a5": {
+    "artist": "Roxy Music",
+    "album": "Roxy Music",
+    "year": "1972",
+    "heading": "Roxy Music — Roxy Music (1972)",
+    "albumLine": "Released 16 June 1972 on Island, produced by Peter Sinfield and recorded in a fortnight at Command Studios in London that March. Glam rock built by art students — their debut, paid for by their own managers before any label would sign them.",
+    "overview": [
+      "The £5,000 came from the band's management, who financed the sessions on spec. That detail explains a lot: nobody commissioned this, and it does not sound like anything a label would have asked for. Bryan Ferry sang and played keyboards, Andy Mackay played oboe and saxophone, Phil Manzanera guitar, Paul Thompson drums, Graham Simpson bass — and Brian Eno, who was not a musician in any conventional sense, handled synthesizer and tape.",
+      "Eno's role is the strangest and most consequential thing on it. He often worked the mixing desk rather than an instrument, running the others' playing through a VCS3 and tape manipulation in real time, which makes him something closer to a live processor than a keyboard player. That idea — that treating other people's sound could itself be a performance — is one he spent the next fifty years developing, and it starts here.",
+      "The frame around it is knowingly second-hand. The record is full of old films and older glamour: a Humphrey Bogart tribute, a song taking its cue from \"Brief Encounter,\" and Karl Stoecker's sleeve photograph of the model Kari-Ann Moller styled as a fifties pin-up. In 1972, when rock still largely believed in authenticity, building a band out of borrowed images was close to heretical — and it is the direct ancestor of everything art-school and self-conscious that followed.",
+      "It reached No. 10 in Britain. Robert Christgau's verdict caught the split reaction, granting it \"enough weird hooks to earn an A for side one\" while complaining about the synthesizers on side two. Rolling Stone later placed it 62nd among the greatest debut albums. Eno left after the second record, and both careers — his and the band's — are unimaginable without these two weeks."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Eno treating the band live",
+        "text": "Synthesizer and tape are used to process the others as they play, so a saxophone or guitar suddenly warps mid-phrase. He is mixing, not accompanying."
+      },
+      {
+        "label": "Oboe in a rock band",
+        "text": "Mackay plays oboe as often as saxophone, a reedy classical tone that nothing else in 1972 rock was using."
+      },
+      {
+        "label": "Ferry's affected croon",
+        "text": "He sings with an exaggerated vibrato and clipped diction, somewhere between a lounge singer and a parody of one, and never breaks character."
+      },
+      {
+        "label": "Songs that lurch between styles",
+        "text": "Tracks change idiom mid-way — doo-wop into free noise, ballad into stomp — with no transition offered."
+      },
+      {
+        "label": "Quotation as a method",
+        "text": "The opening track drops in fragments of other music, from the Beatles to Wagner, as deliberate citations rather than influences absorbed."
+      },
+      {
+        "label": "Recorded fast and rough",
+        "text": "Two weeks start to finish, and the playing has the raggedness of a band still working out what it is, which the arrangements turn into an asset."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Roxy Music (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Roxy_Music_(album)"
+      },
+      {
+        "title": "Roxy Music — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Roxy_Music"
+      },
+      {
+        "title": "Brian Eno — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brian_Eno"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Velvet Underground",
+        "album": "The Velvet Underground & Nico",
+        "year": "1967",
+        "note": "The precedent for an art-world project operating as a rock band, with noise and deadpan pose as legitimate material."
+      },
+      {
+        "artist": "The Beatles",
+        "album": "Sgt. Pepper's Lonely Hearts Club Band",
+        "year": "1967",
+        "note": "Quoted directly on the opening track, and the model for a band adopting a costume and a persona wholesale."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "David Bowie",
+        "album": "\"Heroes\"",
+        "year": "1977",
+        "note": "Eno went on to co-make the Berlin records, taking the treat-the-band-live method with him."
+      },
+      {
+        "artist": "Talking Heads",
+        "album": "Remain in Light",
+        "year": "1980",
+        "note": "Eno produced it; the idea of the producer as a processing instrument rather than a recordist starts with his Roxy role."
+      },
+      {
+        "artist": "Soft Cell",
+        "album": "Non-Stop Erotic Cabaret",
+        "year": "1981",
+        "note": "Synth-pop's arch, theatrical, deliberately artificial wing descends from Ferry's refusal of authenticity."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec0a5",
+    "image": "https://i.scdn.co/image/ab67616d00001e02e9b2422823fe249021f13da5",
+    "savedAt": "2026-09-30T12:25:23.086Z"
+  },
+  "5f34ee8bf0857e55ed5ebe5a": {
+    "artist": "Beatles",
+    "album": "The White Album",
+    "year": "1968",
+    "heading": "The Beatles (The White Album) — The Beatles (1968)",
+    "albumLine": "Released 22 November 1968 on Apple, produced by George Martin and recorded at Abbey Road between 30 May and 14 October. Thirty tracks across two discs and almost every genre available — their ninth album, their only double, and the sound of a band coming apart in public.",
+    "overview": [
+      "Most of it was written in Rishikesh. Nineteen of the thirty songs came out of a transcendental meditation course the band took in India between February and April 1968, where the only instruments to hand were acoustic guitars — which is why so much of a record famous for its sprawl is at heart four men and six strings.",
+      "What happened next is the other half of the story. The sessions were miserable: George Martin took an unannounced holiday partway through, the engineer Geoff Emerick walked out over the constant friction, and Ringo Starr quit in August, returning on 5 September to find his drum kit covered in flowers by way of apology. The four increasingly recorded separately, sometimes in different studios on the same night, which is exactly why the album sounds like four solo records interleaved.",
+      "That is usually offered as a criticism and it is at least as much the point. The breadth here — music hall, blues, ska, folk, hard rock, and a piece of tape collage — is not eclecticism for its own sake but four writers no longer negotiating a common style. It is the most argumentative record they made, and the first where you can reliably tell who wrote what within a bar.",
+      "Richard Hamilton, the pop artist, designed the sleeve with Paul McCartney: plain white, the name embossed, each copy individually numbered — as flat a rejection of \"Sgt. Pepper\"'s clutter as could be managed. It topped both the UK and US charts and is twenty-four times platinum in America. Reviews at the time were mostly warm with a recurring complaint that it lacked Pepper's invention; the modern consensus has more or less inverted that."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Acoustic guitar as the backbone",
+        "text": "A great many of these were written on acoustics in India with nothing else available, and a surprising number are recorded that way too."
+      },
+      {
+        "label": "Four writers, audibly separate",
+        "text": "Tracks are often played by whoever wrote them plus whoever turned up, so the band sound changes from song to song rather than holding."
+      },
+      {
+        "label": "Dry, close recording",
+        "text": "After Pepper's layered studio effects, most of this is captured plainly with the room close and the reverb dialled back."
+      },
+      {
+        "label": "Parody worn openly",
+        "text": "Several tracks imitate other styles — ska, blues, doo-wop, Beach Boys harmony — closely enough that the imitation is the joke."
+      },
+      {
+        "label": "A tape collage in the middle",
+        "text": "Eight minutes of spliced loops, speech and orchestral fragments sit on side four, the furthest the band ever went from song form."
+      },
+      {
+        "label": "Very short and very long together",
+        "text": "Fragments under a minute sit beside extended pieces, sequenced without smoothing, which is most of why it feels like a scrapbook."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Beatles (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+      },
+      {
+        "title": "The Beatles in India — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Beatles_in_India"
+      },
+      {
+        "title": "Richard Hamilton (artist) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Richard_Hamilton_(artist)"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Bob Dylan",
+        "album": "John Wesley Harding",
+        "year": "1967",
+        "note": "The turn away from studio maximalism towards plain acoustic recording, made by someone who could have done otherwise."
+      },
+      {
+        "artist": "The Beach Boys",
+        "album": "Pet Sounds",
+        "year": "1966",
+        "note": "Directly parodied on one track, and the long-running rivalry that had shaped both bands' ambitions."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "John Lennon",
+        "album": "John Lennon/Plastic Ono Band",
+        "year": "1970",
+        "note": "Its sparest tracks — one voice, one instrument, no production — are where Lennon first tried that register."
+      },
+      {
+        "artist": "Paul McCartney",
+        "album": "McCartney",
+        "year": "1970",
+        "note": "The habit of members recording alone, and of leaving sketches on the record, becomes his whole first solo album."
+      },
+      {
+        "artist": "Led Zeppelin",
+        "album": "Physical Graffiti",
+        "year": "1975",
+        "note": "The double album as a deliberate display of range rather than an overflow of material."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebe5a",
+    "image": "https://i.scdn.co/image/1e2ff261274f27d2c3d5fc29af1a6286bfefbf1a",
+    "savedAt": "2026-09-30T12:26:00.653Z"
+  },
+  "5f34ee8bf0857e55ed5ec047": {
+    "artist": "Radiohead",
+    "album": "Kid A",
+    "year": "2000",
+    "heading": "Kid A — Radiohead (2000)",
+    "albumLine": "Released 2 October 2000 on Parlophone, produced by Nigel Godrich with the band, and recorded in Paris, Copenhagen and Oxfordshire between January 1999 and April 2000. Electronica, ambient and jazz where the guitars used to be — their fourth album, and a deliberate refusal of what they had just become.",
+    "overview": [
+      "\"OK Computer\" had made them the most acclaimed rock band in the world and left Thom Yorke unable to work. His own account is unsparing: he was \"a complete fucking mess ... completely unhinged,\" with severe writer's block and an active dislike of the guitar-band role he had been handed. What broke it was listening elsewhere — the Warp Records catalogue, Aphex Twin and Autechre in particular, which he found refreshing because it was built on structures rather than on someone singing over them.",
+      "So the band dismantled themselves. Jonny Greenwood moved to ondes Martenot and analogue synthesizers, Yorke's voice was processed until the words were often unrecoverable, lyrics were assembled by pulling lines out of a hat, and several tracks have no recognisable verse or chorus at all. Charles Mingus is an audible presence on the brass arrangements. Guitars appear, but rarely as the thing carrying the song.",
+      "The release was as contrary as the record. No singles, almost no interviews, and promotion through short animations seeded on the internet — at a moment when the internet meant Napster, and the album leaked and circulated there before it was out. That combination now looks like a template; in 2000 it looked like sabotage.",
+      "Early reviews split hard, with a strand of critics calling it pretentious, wilfully difficult or a second-hand copy of records the electronic underground had already made. It went to No. 1 in both Britain and America anyway. The reassessment has been total: Rolling Stone place it 20th among all albums, and Pitchfork and The Times among others named it the best of its decade. What it really settled is that a rock band at commercial peak could throw the format away and survive it."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Voice as texture",
+        "text": "Yorke is pitch-shifted, vocoded and buried until the words stop being the point and the timbre becomes the instrument."
+      },
+      {
+        "label": "Ondes Martenot",
+        "text": "Jonny Greenwood plays an early electronic instrument with a sliding, wavering tone — the eerie lead line that isn't a synthesizer and isn't a guitar."
+      },
+      {
+        "label": "Programmed beats over live drums",
+        "text": "Phil Selway's playing is chopped, looped and sometimes replaced outright, so the rhythm sits between a band and a machine."
+      },
+      {
+        "label": "Free-jazz brass",
+        "text": "A full horn section arrives late in the record playing something closer to Mingus than to rock, and the album briefly comes apart on purpose."
+      },
+      {
+        "label": "Songs without choruses",
+        "text": "Several tracks never return to anything. They accumulate and stop, which is the structural idea taken from electronic music rather than from songwriting."
+      },
+      {
+        "label": "Silence and ambient stretches",
+        "text": "Long passages have almost nothing in them, which after the density of the previous album reads as a statement in itself."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Kid A — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kid_A"
+      },
+      {
+        "title": "Radiohead — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Radiohead"
+      },
+      {
+        "title": "Nigel Godrich — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nigel_Godrich"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Aphex Twin",
+        "album": "Selected Ambient Works 85-92",
+        "year": "1992",
+        "note": "Named by Yorke as the listening that broke his block — electronic music built on structure rather than on a singer."
+      },
+      {
+        "artist": "Talk Talk",
+        "album": "The Colour Of Spring",
+        "year": "1986",
+        "note": "The precedent for a successful band dismantling its own format from inside, using silence and improvisation."
+      },
+      {
+        "artist": "Miles Davis",
+        "album": "In a Silent Way",
+        "year": "1969",
+        "note": "Long-form playing over a static centre, edited into shape afterwards rather than performed as songs."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Bon Iver",
+        "album": "22, A Million",
+        "year": "2016",
+        "note": "A guitar-and-voice act rebuilt around processed vocals and fractured electronic structure, following the same route out."
+      },
+      {
+        "artist": "Frank Ocean",
+        "album": "Blonde",
+        "year": "2016",
+        "note": "Pitch-shifted, heavily treated vocals used as texture rather than delivery, on a record that similarly refuses conventional song shape."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec047",
+    "image": "https://i.scdn.co/image/690e5c2be4147fe16bf810b5d7e4ce3582319945",
+    "savedAt": "2026-09-30T12:27:07.190Z"
+  },
+  "5f34ee8bf0857e55ed5ebee4": {
+    "artist": "George Michael",
+    "album": "Faith",
+    "year": "1987",
+    "heading": "Faith — George Michael (1987)",
+    "albumLine": "Released 30 October 1987 on Epic in Britain and Columbia in America, written, produced and largely played by Michael himself, recorded at Puk Studios in Denmark and Sarm West in London between August 1986 and September 1987. Pop crossed with funk, R&B and soul — his first album after Wham!",
+    "overview": [
+      "The problem he was solving was credibility. Wham! had sold enormously while being treated as disposable teen pop, and the standard route out — hand yourself to a famous producer — would have proved nothing. Instead he wrote it, produced it, and played most of the instruments himself, with one co-write. Whatever else it is, it is a technical argument: the man dismissed as a pin-up could in fact do the whole job.",
+      "The music he chose to do it with was contemporary Black American pop, and the record was received accordingly — it became the first album by a white solo artist to top Billboard's Top Black Albums chart. That fact sits uneasily and is worth stating rather than celebrating: it reflects both genuine fluency and the ease with which a white performer could occupy that space. Michael's own singing is the strongest evidence for the fluency; he phrases against the beat in a way almost nobody in eighties British pop could.",
+      "The sales are close to absurd. Four US No. 1 singles, twelve weeks at the top of the Billboard 200, fifty-one weeks in its top ten, Album of the Year at the Grammys, and over 25 million copies sold. Rolling Stone's reviewer placed him among pop's leading artisans and compared him to Elton John.",
+      "What followed complicates it. The leather-jacket, stubbled, sexualised image built for these videos was one he almost immediately wanted out of, and within a few years he was refusing to appear in his own promotion and suing Sony to escape his contract — a case he lost in 1994. He came out publicly in 1998 after being arrested, having spent this album's whole era selling a heterosexual pose he has since described as a performance. Knowing that, the record's preoccupation with desire and concealment reads very differently."
+    ],
+    "listeningNotes": [
+      {
+        "label": "One man playing nearly everything",
+        "text": "Michael handled most instruments as well as writing and producing, which is why the arrangements are so unified and so tightly controlled."
+      },
+      {
+        "label": "Phrasing behind the beat",
+        "text": "He sings late and loose against the rhythm in a way learned from American soul singers rather than from British pop."
+      },
+      {
+        "label": "Programmed funk with live feel",
+        "text": "Drum machines and sequencers carry the grooves, but they are swung and syncopated rather than locked, which keeps them from sounding mechanical."
+      },
+      {
+        "label": "Rockabilly guitar on the title track",
+        "text": "A reverbed Bo Diddley-style figure opens the record over a church organ — a deliberate signal that this is not a Wham! album."
+      },
+      {
+        "label": "Ballads with almost nothing in them",
+        "text": "Several slow songs are voice, a sparse keyboard and space, trusting the vocal to carry four minutes unassisted."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Faith (George Michael album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Faith_(George_Michael_album)"
+      },
+      {
+        "title": "George Michael — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/George_Michael"
+      },
+      {
+        "title": "Wham! — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Wham!"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Prince",
+        "album": "Sign o' the Times",
+        "year": "1987",
+        "note": "The immediate model for one person writing, producing and playing an entire funk-pop record alone."
+      },
+      {
+        "artist": "Stevie Wonder",
+        "album": "Songs in the Key of Life",
+        "year": "1976",
+        "note": "The precedent for a singer taking over every role in the studio, and for the phrasing Michael works from."
+      },
+      {
+        "artist": "Elvis Presley",
+        "album": "Elvis Presley",
+        "year": "1956",
+        "note": "The rockabilly guitar figure and the staged sexual image both reach back here, knowingly."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Robbie Williams",
+        "album": "Life thru a Lens",
+        "year": "1997",
+        "note": "The template for escaping a boy band by writing and controlling the follow-up yourself."
+      },
+      {
+        "artist": "Justin Timberlake",
+        "album": "Justified",
+        "year": "2002",
+        "note": "A white pop singer out of a group act relaunching through contemporary R&B — the same manoeuvre, fifteen years later."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebee4",
+    "image": "https://i.scdn.co/image/3bf5a8a009d4cd25caef6ba565fa53e2c40a58bb",
+    "savedAt": "2026-09-30T12:27:46.174Z"
+  },
+  "5f34ee8bf0857e55ed5ebfe1": {
+    "artist": "Siouxsie And The Banshees",
+    "album": "Juju",
+    "year": "1981",
+    "heading": "Juju — Siouxsie and the Banshees (1981)",
+    "albumLine": "Released 19 June 1981 on Polydor, co-produced with Nigel Gray at Surrey Sound in Leatherhead that March. Post-punk built back around guitars after an album of keyboards — their fourth, and the one gothic rock is usually traced to.",
+    "overview": [
+      "The line-up is the reason it sounds like this. John McGeoch had joined from Magazine and is one of the few guitarists of the era whose playing is instantly identifiable: he almost never plays a riff, working instead in chiming, flanged, atmospheric figures and treating the instrument as a source of texture. Budgie's drumming is equally unusual — tribal, tom-heavy patterns rather than rock backbeats — and between them the band produced a sound with almost no precedent.",
+      "They had come out of punk in 1976, formed in the Sex Pistols' immediate orbit, and by 1981 had already moved a long way from it. Where the previous album had leaned on keyboards, this one returns to guitars but uses them in ways punk never had, including a Gizmo on one track and an EBow on another to produce sustained, bowed-sounding tones.",
+      "The cultural position is worth being careful about. This album is routinely named as a founding document of goth, which became a genre with a uniform and a set of clichés; the Banshees resisted the label consistently and it undersells what is actually here, which is a rhythmically adventurous post-punk record with a strong melodic sense. Sounds noticed the shift at the time, writing that Siouxsie's voice \"seems to have acquired a new fullness of melody\" with \"a rich, dark smoothness.\"",
+      "NME called it \"a peak in entertainment.\" It reached No. 7 in Britain, stayed on the chart seventeen weeks and went silver. The influence runs wide and often unexpectedly — musicians from Radiohead to the Red Hot Chili Peppers have cited it, and The Guardian's thousand-albums list called the band \"perennial masters of brooding suspense.\" McGeoch left the band the following year."
+    ],
+    "listeningNotes": [
+      {
+        "label": "McGeoch's flanged guitar",
+        "text": "Sustained, chiming, heavily effected figures rather than chords or riffs. The guitar functions as atmosphere, which post-punk had mostly not tried."
+      },
+      {
+        "label": "Budgie's tom-led drumming",
+        "text": "Patterns built on floor toms and mallets instead of a snare backbeat, giving the record its ritual, non-rock pulse."
+      },
+      {
+        "label": "Siouxsie singing melodically",
+        "text": "She holds long notes and phrases with more warmth than on the earlier records, which is the change contemporary reviewers noticed first."
+      },
+      {
+        "label": "EBow and Gizmo",
+        "text": "Devices that make a guitar string sustain indefinitely appear on two tracks, producing bowed, organ-like tones with no obvious source."
+      },
+      {
+        "label": "Bass carrying the melody",
+        "text": "Steve Severin plays high, melodic lines that often hold the tune while the guitar decorates around them."
+      },
+      {
+        "label": "Nigel Gray's dry, separated mix",
+        "text": "Having engineered the Police, Gray records each instrument with space around it rather than as one mass, so the odd textures stay legible instead of blurring together."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Juju (Siouxsie and the Banshees album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Juju_(Siouxsie_and_the_Banshees_album)"
+      },
+      {
+        "title": "Siouxsie and the Banshees — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Siouxsie_and_the_Banshees"
+      },
+      {
+        "title": "John McGeoch — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/John_McGeoch"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Sex Pistols",
+        "album": "Never Mind The Bollocks, Here’s The Sex Pistols",
+        "year": "1977",
+        "note": "The band formed in that scene's immediate orbit, and kept its refusal of musicianly convention while abandoning its sound."
+      },
+      {
+        "artist": "The Velvet Underground",
+        "album": "White Light/White Heat",
+        "year": "1968",
+        "note": "Drone and texture treated as song material rather than as effect, which is McGeoch's whole approach."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The Cure",
+        "album": "Disintegration",
+        "year": "1989",
+        "note": "Robert Smith played in the Banshees around this period; the sustained, atmospheric guitar and tom-led drums carry straight over."
+      },
+      {
+        "artist": "Radiohead",
+        "album": "The Bends",
+        "year": "1995",
+        "note": "Cited by the band; guitar used as layered atmosphere rather than as riff is a direct inheritance from McGeoch."
+      },
+      {
+        "artist": "Yeah Yeah Yeahs",
+        "album": "Fever To Tell",
+        "year": "2003",
+        "note": "Post-punk built on atmospheric, effects-heavy guitar under a declamatory vocal — a named point of comparison for that record."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebfe1",
+    "image": "https://i.scdn.co/image/6c7cb961e2c95eaad94a9c529d131a14b2b666f6",
+    "savedAt": "2026-09-30T12:28:32.028Z"
+  },
+  "5f34ee8bf0857e55ed5ebe2b": {
+    "artist": "Prefab Sprout",
+    "album": "Steve McQueen",
+    "year": "1985",
+    "heading": "Steve McQueen — Prefab Sprout (1985)",
+    "albumLine": "Released 22 June 1985 on Kitchenware, produced by Thomas Dolby. Jazz-inflected sophisti-pop with fifties country and rock and roll underneath — their second album, and issued in America as \"Two Wheels Good\" to avoid a fight with the actor's estate.",
+    "overview": [
+      "Paddy McAloon wrote it, and the writing is the reason the record has the reputation it has. He works in the same territory as Elvis Costello — dense, allusive, verbally show-off lyrics — but sets it to melodies far softer than the words deserve, so a line about failure or infidelity arrives wrapped in something close to easy listening. Wendy Smith's wordless backing vocals, high and wide behind almost everything, are the sound most people remember.",
+      "Thomas Dolby's production is what turned that into a coherent record rather than a clever one. He had had his own synth-pop hits and brought a lush, precise, unmistakably mid-eighties palette — gated drums, chorused fretless bass, glossy keyboards — which by the conventions of indie credibility should have been fatal. It works because the songs are strong enough to survive being dressed expensively, and because the gloss sets up the melancholy rather than hiding it.",
+      "Commercially it was a slow, awkward business. The album reached No. 21 in Britain, but the singles struggled badly: \"When Love Breaks Down\" had to be released three separate times before it finally charted at No. 25 near the end of the year. That is an unusual amount of faith from a small label.",
+      "The reviews were immediate — Record Mirror's Graham K. Smith gave it five stars and called it \"the finest album you will hear this year,\" and AllMusic later described it as \"a shimmering jazz-pop masterpiece sparked by Paddy McAloon's witty and inventive songwriting.\" It has since become one of those records whose standing rests on other musicians rather than on sales, appearing at No. 47 in The Times's greatest albums and No. 61 in The Guardian's."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Wendy Smith's wordless harmonies",
+        "text": "High, airy, non-verbal vocal lines float behind the songs as a texture rather than a counter-melody. It's the group's signature sound."
+      },
+      {
+        "label": "Dolby's mid-eighties gloss",
+        "text": "Gated drums, fretless bass and chorused keyboards — a production that should date the record and instead sets off the writing."
+      },
+      {
+        "label": "Country and rockabilly bones",
+        "text": "Several songs are built on fifties chord movement and shuffle rhythms, dressed in equipment from thirty years later."
+      },
+      {
+        "label": "Lyrics denser than the melodies",
+        "text": "McAloon packs internal rhyme and allusion into lines carried by tunes soft enough for daytime radio, and the mismatch is the point."
+      },
+      {
+        "label": "Jazz chords in pop songs",
+        "text": "Major sevenths and unresolved extensions run throughout, which is what gives the record its particular wistfulness."
+      },
+      {
+        "label": "McAloon singing softly against the words",
+        "text": "He delivers even the cruellest lines gently and well within his range, so the sting lands a beat after the melody has already charmed you."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Steve McQueen (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Steve_McQueen_(album)"
+      },
+      {
+        "title": "Prefab Sprout — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Prefab_Sprout"
+      },
+      {
+        "title": "Thomas Dolby — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Thomas_Dolby"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Steely Dan",
+        "album": "Aja",
+        "year": "1977",
+        "note": "The model for jazz harmony and studio precision carrying songs whose lyrics are considerably darker than the surface."
+      },
+      {
+        "artist": "The Beach Boys",
+        "album": "Pet Sounds",
+        "year": "1966",
+        "note": "Wordless high harmony used as an instrument, and melancholy dressed in lushness."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The Blue Nile",
+        "album": "Hats",
+        "year": "1989",
+        "note": "Scottish sophisti-pop built on expensive-sounding production around emotionally plain songs — the same wager."
+      },
+      {
+        "artist": "Aimee Mann",
+        "album": "Whatever",
+        "year": "1993",
+        "note": "Literate, chord-restless pop where the arrangement is immaculate and the lyrics are not consoling."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebe2b",
+    "image": "https://i.scdn.co/image/a4f1986f7ac9f6cac1167a2dfd4a68d2747a70b5",
+    "savedAt": "2026-09-30T12:29:19.731Z"
+  },
+  "650214ceda92d82ebeeb4061": {
+    "artist": "Soft Machine",
+    "album": "Third",
+    "year": "1970",
+    "heading": "Third — Soft Machine (1970)",
+    "albumLine": "Released June 1970 on CBS in Britain and Columbia in America. A double album of four side-long pieces, one per side — the record where a psychedelic pop group finished turning into a jazz-rock band.",
+    "overview": [
+      "The line-up by this point was Mike Ratledge on keyboards, Robert Wyatt on drums and vocals, Elton Dean on saxophone and Hugh Hopper on bass, with Jimmy Hastings on flute and Rab Spall on violin as guests. They had begun in Canterbury in the mid-sixties as an English psychedelic band sharing a scene with Pink Floyd; by 1970 almost nothing of that was left except a fondness for the unreasonable.",
+      "Committing an entire side to each composition was the structural decision that made everything else possible. There is no reaching for a single, no verse and chorus, and only one of the four pieces has a vocal at all. What fills the space is collective improvisation over written heads, tape loops, fuzz organ and saxophone — the same modal-jazz logic Miles Davis had been working with, applied by people who came from rock and never quite lost the volume.",
+      "The Canterbury scene that grew around them has a specific character worth naming: English, wry, harmonically curious, more interested in odd time signatures than in virtuoso display. Third is its central document, and the tension that runs through it — Wyatt pulling towards song and voice, Ratledge and Dean pulling towards instrumental abstraction — is why the band split the way it did shortly afterwards.",
+      "It became their highest-charting record, reaching No. 18 in Britain and No. 5 in the Netherlands, which for an hour of largely wordless jazz-rock is remarkable. One reviewer credited it with pushing \"the boundaries of rock into areas previously unexplored, and it managed to do so without sounding self-indulgent\" — the second clause being the harder achievement. Later that year they became the first popular music act to play the Proms at the Royal Albert Hall."
+    ],
+    "listeningNotes": [
+      {
+        "label": "One piece per side",
+        "text": "Each track runs roughly eighteen minutes and develops continuously rather than repeating, which is the album's whole formal proposition."
+      },
+      {
+        "label": "Ratledge's fuzz organ",
+        "text": "He runs a Lowrey organ through distortion until it snarls like a guitar, the most identifiable sound on the record."
+      },
+      {
+        "label": "Elton Dean's saxello",
+        "text": "A curved soprano saxophone with a reedier, more acidic tone than the standard instrument, playing free-jazz lines over written material."
+      },
+      {
+        "label": "Tape loops and edits",
+        "text": "Prepared tape and studio splicing appear inside the improvisations, so the pieces are partly constructed rather than wholly played."
+      },
+      {
+        "label": "Odd metres held without strain",
+        "text": "Much of it sits in sevens and elevens, played fluently enough that the counting never becomes the point."
+      },
+      {
+        "label": "Wyatt's one vocal",
+        "text": "Only a single side has singing, and his high, fragile voice arrives as a shock after forty minutes of instrumental music."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Third (Soft Machine album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Third_(Soft_Machine_album)"
+      },
+      {
+        "title": "Soft Machine — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Soft_Machine"
+      },
+      {
+        "title": "Canterbury scene — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Canterbury_scene"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Miles Davis",
+        "album": "In a Silent Way",
+        "year": "1969",
+        "note": "The modal, long-form, studio-edited approach to jazz-rock that this album applies with rock instrumentation and volume."
+      },
+      {
+        "artist": "The Velvet Underground",
+        "album": "White Light/White Heat",
+        "year": "1968",
+        "note": "Distortion and drone accepted as legitimate material for extended pieces rather than as effects."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Talk Talk",
+        "album": "The Colour Of Spring",
+        "year": "1986",
+        "note": "Long-form improvisation edited into composition afterwards, by a band abandoning pop structure."
+      },
+      {
+        "artist": "Radiohead",
+        "album": "Kid A",
+        "year": "2000",
+        "note": "The free-jazz brass and the refusal of verse-chorus form reach back through this English jazz-rock lineage."
+      }
+    ],
+    "uuid": "650214ceda92d82ebeeb4061",
+    "image": "https://i.scdn.co/image/ab67616d00001e02660561ea691a62bed9cdbff0",
+    "savedAt": "2026-09-30T12:29:55.644Z"
+  },
+  "5f34ee8bf0857e55ed5ec035": {
+    "artist": "Syd Barrett",
+    "album": "The Madcap Laughs",
+    "year": "1970",
+    "heading": "The Madcap Laughs — Syd Barrett (1970)",
+    "albumLine": "Released 2 January 1970 on Harvest, assembled from sessions running from May 1968 to August 1969 under five different producers — Peter Jenner, Malcolm Jones, David Gilmour, Roger Waters and Barrett himself. His first solo album, made in the two years after Pink Floyd removed him.",
+    "overview": [
+      "He had written most of Pink Floyd's first album and was, by general agreement, the reason anyone noticed them. By early 1968 his behaviour on stage had become impossible — long silences, detuned playing, not turning up mentally — and the band simply stopped collecting him for shows, bringing in David Gilmour. The usual shorthand blames LSD; the fuller picture involves mental illness that drugs may have precipitated but did not invent, and he withdrew from music altogether within a few years.",
+      "The sessions were accordingly chaotic, which is why five people have production credits across fourteen months. Gilmour's recollection is sympathetic and tired at once: \"Syd was very difficult, we got that very frustrated feeling,\" while being clear that Barrett \"was in trouble, and was a close friend.\" Two of his former bandmates finishing the record that documents his unravelling is a fact the album never escapes.",
+      "The production decision everyone argues about is what was left in. False starts, studio instructions, Barrett audibly losing his place and being talked back into the song — all kept rather than edited out. Defenders call it honest and intimate; the objection, which has not gone away, is that it exhibits a man who was unwell to an audience that paid to hear it. Both readings are available on the same takes, and the record is more uncomfortable than its gentle reputation suggests.",
+      "It reached No. 40 in Britain and sold around 6,000 copies at first, not appearing in America until 1974. Robert Christgau found parts of it \"funny, charming, catchy\" while noting how much of the rest reflected Barrett's state. Its influence has been long and specific — David Bowie and John Frusciante among those who have named it — and it is the founding document of English psychedelic songwriting as something fragile rather than cosmic."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Takes left unrepaired",
+        "text": "False starts, miscounts and spoken direction stay in the finished record. Nothing is tidied, which is either the album's honesty or its problem."
+      },
+      {
+        "label": "Voice and acoustic guitar, barely accompanied",
+        "text": "Much of it is one man playing alone, with the band overdubbed afterwards onto performances that don't always keep steady time."
+      },
+      {
+        "label": "Melodies that wander out of key",
+        "text": "Lines resolve somewhere other than where the chords expect, giving the songs their unsettled, slightly wrong sweetness."
+      },
+      {
+        "label": "Nursery-rhyme phrasing",
+        "text": "The writing uses childlike cadence and wordplay — Edward Lear by way of Cambridge — set against subject matter that is not childlike at all."
+      },
+      {
+        "label": "Very dry recording",
+        "text": "Almost no reverb, the voice close and unflattered, so you hear breath and room rather than atmosphere."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Madcap Laughs — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Madcap_Laughs"
+      },
+      {
+        "title": "Syd Barrett — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Syd_Barrett"
+      },
+      {
+        "title": "Pink Floyd — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pink_Floyd"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Bob Dylan",
+        "album": "Highway 61 Revisited",
+        "year": "1965",
+        "note": "The model for free-associative, image-driven lyric writing delivered conversationally over acoustic guitar."
+      },
+      {
+        "artist": "The Beatles",
+        "album": "Revolver",
+        "year": "1966",
+        "note": "English psychedelia's starting point, and the studio licence Barrett took much further and much more loosely."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "David Bowie",
+        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+        "year": "1972",
+        "note": "Bowie named Barrett an influence and covered him; the fragile, English, slightly deranged persona starts here."
+      },
+      {
+        "artist": "Pink Floyd",
+        "album": "Wish You Were Here",
+        "year": "1975",
+        "note": "His former band's album about his absence, written and recorded while he was still alive and unreachable."
+      },
+      {
+        "artist": "Spiritualized",
+        "album": "Lazer Guided Melodies",
+        "year": "1992",
+        "note": "The English tradition of narcotic, gentle, structurally loose psychedelia descends from this record."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec035",
+    "image": "https://i.scdn.co/image/13a13cab5f5d357b39edab78e60ba0d40966d4e4",
+    "savedAt": "2026-10-04T16:13:18.790Z"
+  },
+  "5f34ee8bf0857e55ed5ebdc8": {
+    "artist": "Jethro Tull",
+    "album": "Aqualung",
+    "year": "1971",
+    "heading": "Aqualung — Jethro Tull (1971)",
+    "albumLine": "Released 19 March 1971 on Chrysalis in Europe and Reprise in North America, produced by Ian Anderson and Terry Ellis at Island's Basing Street studio in December 1970. Hard rock braided with English folk and a flute — their fourth album, and by a distance their biggest.",
+    "overview": [
+      "The band here is Anderson singing, playing flute and acoustic guitar, Martin Barre on electric guitar, John Evan on keyboards, Jeffrey Hammond on bass for the first time and Clive Bunker on drums for the last — he left afterwards to start a family. The combination is odd on paper and the reason the record sounds like nothing else: heavy riffing from Barre, folk fingerpicking from Anderson, and a flute taking solos where a second guitar would be.",
+      "It is almost universally described as a concept album about religion, and Anderson has spent fifty years denying it, insisting it is \"just an album of varied songs of varied instrumentation and intensity.\" The truth sits awkwardly between: the songs genuinely do circle one argument — that organised religion and actual spirituality are different things, and that the people the church claims to serve are the ones it steps over — but they were written as separate character sketches, several prompted by photographs his wife took of homeless men. Calling it a concept album overstates the design; calling it unrelated songs understates the obvious.",
+      "That subject matter is the reason it landed as hard as it did. 1971 was not short of rock albums gesturing at the spiritual; very few of them were about vagrancy, prostitution and the hypocrisy of the institution, delivered by a man standing on one leg playing a flute. The combination of real anger and visible theatricality is what makes it durable and what has always made it an easy target.",
+      "It reached No. 4 in Britain and No. 7 in America and has sold over seven million copies. Early reviews were mixed — the prog label was already becoming a stick to beat bands with — and the reassessment has been generous: PopMatters calls it \"a cornerstone of the then-nascent prog-rock canon\" while noting it stands up without the category."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Flute as a lead instrument",
+        "text": "Anderson plays it hard and breathy, overblowing and vocalising into the mouthpiece so it rasps rather than sweetens. It takes the solos a guitar would."
+      },
+      {
+        "label": "Acoustic and electric alternating within songs",
+        "text": "Tracks switch between fingerpicked folk passages and full-volume riffing, often more than once, which is the album's basic structural move."
+      },
+      {
+        "label": "Martin Barre's riffs",
+        "text": "Thick, blues-derived and precisely doubled, they anchor the heavy sections and give the folk material something to push against."
+      },
+      {
+        "label": "Anderson's clipped, theatrical delivery",
+        "text": "He half-sings, half-spits the words with music-hall diction, putting the lyrics forward where a rock singer would ride the melody."
+      },
+      {
+        "label": "Strings and keyboards used sparingly",
+        "text": "John Evan's piano and occasional orchestration appear only where the arrangement opens, which keeps a long album from thickening into mush."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Aqualung (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Aqualung_(album)"
+      },
+      {
+        "title": "Jethro Tull (band) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jethro_Tull_(band)"
+      },
+      {
+        "title": "Ian Anderson — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ian_Anderson"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Led Zeppelin",
+        "album": "Led Zeppelin III",
+        "year": "1970",
+        "note": "The immediate precedent for a heavy band interleaving full-volume riffs with English folk fingerpicking."
+      },
+      {
+        "artist": "The Beatles",
+        "album": "The White Album",
+        "year": "1968",
+        "note": "The licence for a rock album to move between music hall, folk and hard rock without apology."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Iron Maiden",
+        "album": "The Number Of The Beast",
+        "year": "1982",
+        "note": "Long multi-section songs with historical and religious subject matter, from a later generation of the same British tradition."
+      },
+      {
+        "artist": "Screaming Trees",
+        "album": "Dust",
+        "year": "1996",
+        "note": "A heavy band turning toward folk and acoustic writing without losing weight, with flute and sitar colouring the arrangements."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebdc8",
+    "image": "https://i.scdn.co/image/a5642f7ab6672a31cf642ce11ca0e90b6a0a9280",
+    "savedAt": "2026-10-04T16:14:02.365Z"
+  },
+  "5f34ee8bf0857e55ed5ec06c": {
+    "artist": "Sebadoh",
+    "album": "Bubble And Scrape",
+    "year": "1993",
+    "heading": "Bubble and Scrape — Sebadoh (1993)",
+    "albumLine": "Released 26 April 1993 on Sub Pop. Indie rock written separately by all three members — Lou Barlow, Eric Gaffney and Jason Loewenstein — and their fourth album, the first recorded entirely in a professional studio.",
+    "overview": [
+      "Barlow had been the bassist in Dinosaur Jr. until J Mascis threw him out in 1989, and Sebadoh began as what he did instead: songs recorded at home on a four-track, deliberately small and unfinished, at a moment when American underground rock was getting louder and better funded. That approach became a genre label — lo-fi — largely on the strength of what he and a handful of contemporaries were doing.",
+      "This is the record where that stops being the point. It was made in a real studio, the songs are longer and properly arranged, and the electric guitars are no longer a rumour. One reissue review put the shift exactly: this is where the band moved from \"quick, where's the four-track?\" to reasonably well-crafted indie rock. Whether that was growth or loss is the argument that has always followed them.",
+      "The structure is the genuinely unusual thing. Three members write separately and sing their own material, and the album alternates between them without smoothing the joins — Barlow's wounded melodic songs, Gaffney's abrasive and eccentric ones, Loewenstein's harder and more direct. It plays less like a band with a sound than like three correspondents in the same envelope, which is both its charm and the reason it can feel unresolved. It is the last Sebadoh album with Gaffney's writing on it.",
+      "Pitchfork later gave it 9.2, with most of the praise going to Barlow's songs and a note that Loewenstein was becoming the stronger writer. NME placed it ninth among their thirty best heartbreak albums, which gets at what it is actually for: a record about being left, made by someone who had been."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Three singers, three temperaments",
+        "text": "Each member writes and sings his own tracks, and the album cuts between them with no attempt to blend. The lurches are structural."
+      },
+      {
+        "label": "Barlow's cracked, close vocal",
+        "text": "Sung quietly and right on the microphone, often slightly flat, with the vulnerability left audible rather than produced out."
+      },
+      {
+        "label": "Studio clarity after four-track murk",
+        "text": "Guitars are separated and full-range for the first time on a Sebadoh record, which changes what the songs can carry."
+      },
+      {
+        "label": "Abrupt shifts from gentle to abrasive",
+        "text": "A quiet acoustic song is followed by something deliberately ugly, a sequencing habit inherited from their home-taped albums."
+      },
+      {
+        "label": "Songs that stop rather than end",
+        "text": "Several cut off mid-figure, a four-track instinct carried into a studio where it was no longer necessary."
+      },
+      {
+        "label": "Gaffney's tracks as interruptions",
+        "text": "His songs are noisier, stranger and more loosely played than the other two write, and the album lets them puncture a run of melodic material rather than grouping them out of the way."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bubble and Scrape — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bubble_and_Scrape"
+      },
+      {
+        "title": "Sebadoh — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sebadoh"
+      },
+      {
+        "title": "Lou Barlow — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lou_Barlow"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Paul McCartney",
+        "album": "McCartney",
+        "year": "1970",
+        "note": "The ancestor of the whole four-track method — one person at home, fragments kept as fragments, the joins left visible."
+      },
+      {
+        "artist": "Pixies",
+        "album": "Surfer Rosa",
+        "year": "1988",
+        "note": "The New England underground Barlow came out of, and the model of quiet-to-ugly dynamics inside a song."
+      },
+      {
+        "artist": "The Beatles",
+        "album": "The White Album",
+        "year": "1968",
+        "note": "Separate writers interleaved on one record with the band sound changing song to song — the same structural gamble."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Guided by Voices",
+        "album": "Bee Thousand",
+        "year": "1994",
+        "note": "Released a year later out of the same lo-fi moment; short, unpolished fragments presented as finished songs."
+      },
+      {
+        "artist": "Bright Eyes",
+        "album": "Fevers and Mirrors",
+        "year": "2000",
+        "note": "The confessional, audibly fragile male vocal recorded close and unfixed descends from Barlow directly."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec06c",
+    "image": "https://i.scdn.co/image/4f737237407c7a74436694e180bf2f08a8eccc57",
+    "savedAt": "2026-10-04T16:14:49.309Z"
+  },
+  "5f34ee8bf0857e55ed5ebdec": {
+    "artist": "Billy Bragg",
+    "album": "Talking With the Taxman About Poetry",
+    "year": "1986",
+    "heading": "Talking with the Taxman About Poetry — Billy Bragg (1986)",
+    "albumLine": "Released 22 September 1986 on Go! Discs in Britain and Elektra in America. His third album, and the first to put a band behind him — guests include Johnny Marr on electric guitar and Kirsty MacColl singing.",
+    "overview": [
+      "The title comes from a Vladimir Mayakovsky poem, credited in the sleeve notes, in which the Soviet poet argues with a tax inspector about whether writing verse is work. Bragg's whole position is in that joke: a man who thinks songwriting is a job, that jobs are political, and that saying so needn't be dour.",
+      "The first two albums had been close to unaccompanied — one voice, one loud electric guitar, no band, recorded cheaply. That was partly aesthetic and substantially practical, and it gave him a reputation as a protest singer in the narrowest sense. Here he brings in strings, brass, percussion, Marr's guitar and MacColl's voice, and the songs can suddenly hold more than one idea at a time.",
+      "The politics are of a specific moment. This is Britain two years after the miners' strike ended in defeat, six years into Thatcher, with the left arguing bitterly about what had gone wrong. Bragg had played benefit after benefit through the strike, and what is striking about the record is how little of it is slogan: the political songs sit alongside love songs, several tracks are both at once, and he is consistently funnier and more self-doubting than the placard reputation allows.",
+      "\"Levi Stubbs' Tears\" — a song about a woman whose life is held together by Four Tops records — reached No. 29, and \"Greetings to the New Brunette\" only 58. Rolling Stone's David Handelman called it \"a winning mesh\" of political edge and melody, which is about right. It remains the album people hand to anyone who thinks a protest singer cannot also write a tune."
+    ],
+    "listeningNotes": [
+      {
+        "label": "One loud electric guitar, unaccompanied",
+        "text": "His trademark remains: a thin, trebly, slightly distorted electric played with no band behind it, so the words carry everything."
+      },
+      {
+        "label": "Johnny Marr's chiming parts",
+        "text": "Where Marr appears, the arrangement opens into layered, melodic guitar — the clearest sign of the record's wider ambitions."
+      },
+      {
+        "label": "An Essex accent, undisguised",
+        "text": "Bragg sings in his speaking voice with no attempt at an American or neutral delivery, which in 1986 was still unusual enough to be a statement."
+      },
+      {
+        "label": "Brass and strings used sparingly",
+        "text": "Horns and strings arrive on a handful of tracks only, so the fuller arrangements register as events rather than as a new default."
+      },
+      {
+        "label": "Love songs and political songs sharing a shape",
+        "text": "The same plain, direct writing serves both, and several tracks refuse to say which they are."
+      },
+      {
+        "label": "Soul records inside the songs",
+        "text": "Motown and Stax are named and quoted as part of the storytelling rather than borrowed as a sound — the records characters own, doing work in their lives."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Talking with the Taxman About Poetry — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Talking_with_the_Taxman_About_Poetry"
+      },
+      {
+        "title": "Billy Bragg — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Billy_Bragg"
+      },
+      {
+        "title": "Levi Stubbs' Tears — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Levi_Stubbs%27_Tears"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Bob Dylan",
+        "album": "The Freewheelin' Bob Dylan",
+        "year": "1963",
+        "note": "The template for one man, one guitar and a political argument delivered conversationally."
+      },
+      {
+        "artist": "The Clash",
+        "album": "London Calling",
+        "year": "1979",
+        "note": "Punk's licence to sing about British politics in a British accent, which Bragg took and stripped back to one instrument."
+      },
+      {
+        "artist": "The Smiths",
+        "album": "The Queen Is Dead",
+        "year": "1986",
+        "note": "Released three months earlier; Johnny Marr plays here, and both records argue about England through character sketches rather than slogans."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Manic Street Preachers",
+        "album": "Everything Must Go",
+        "year": "1996",
+        "note": "British guitar music that treats left politics as ordinary subject matter rather than as a special category."
+      },
+      {
+        "artist": "Arctic Monkeys",
+        "album": "Whatever People Say I Am, That's What I'm Not",
+        "year": "2006",
+        "note": "Singing in an undisguised English regional accent about recognisably local life — a lineage Bragg did much to make viable."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebdec",
+    "image": "https://i.scdn.co/image/91d3ec107a3a87f11d01b7fd1dd0a966f53ada85",
+    "savedAt": "2026-10-04T16:15:38.233Z"
   }
 }
