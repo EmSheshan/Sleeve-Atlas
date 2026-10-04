@@ -662,7 +662,6 @@
     // times sooner. The budget keeps it honest as the graph grows — at the full
     // list a tick is ~8ms, so it simply does fewer per frame rather than
     // dropping below 60fps.
-    const FRAME_BUDGET_MS = 11;
     simulation.stop();
     let looping = false;
 
@@ -672,33 +671,49 @@
 
     // While the layout moves, the browser re-rasterises 3,000-odd SVG elements
     // every frame — including 441 labels drawn twice over (stroke then fill,
-    // for the paper halo) and 532 arrowhead markers, each its own paint. None
-    // of that is readable mid-motion anyway. Dropping both while things move is
-    // what makes dragging feel direct.
-    function setMoving(on) {
-      svg.classed("is-moving", on);
+    // for the paper halo) and 532 arrowhead markers, each its own paint.
+    // Dropping both while things move is what makes dragging feel direct.
+    //
+    // But it only pays for sustained motion. A click is a drag gesture as far
+    // as d3 is concerned, so it reheats the simulation for a few frames — and
+    // hiding every label for that is just a flicker. So the hide waits to see
+    // whether the motion lasts, and the restore waits a beat after it stops,
+    // which also stops the tidy passes strobing between them.
+    const MOTION_HIDE_DELAY = 180;
+    const MOTION_SHOW_DELAY = 140;
+    let hideTimer = null;
+    let showTimer = null;
+
+    function motionStarted() {
+      clearTimeout(showTimer);
+      showTimer = null;
+      if (hideTimer || svg.classed("is-moving")) return;
+      hideTimer = setTimeout(() => {
+        hideTimer = null;
+        svg.classed("is-moving", true);
+      }, MOTION_HIDE_DELAY);
     }
 
-    function step() {
-      // A drag holds alphaTarget above zero. There, one tick per frame is the
-      // point: more makes the layout advance faster than the hand moving it,
-      // which reads as the graph fighting you. The budget is for settling,
-      // where nobody is steering.
-      const steering = simulation.alphaTarget() > simulation.alphaMin();
-      if (steering) {
-        simulation.tick();
-      } else {
-        const until = performance.now() + FRAME_BUDGET_MS;
-        do {
-          simulation.tick();
-        } while (performance.now() < until && !settledEnough());
-      }
+    function motionStopped() {
+      clearTimeout(hideTimer);
+      hideTimer = null;
+      if (showTimer) return;
+      showTimer = setTimeout(() => {
+        showTimer = null;
+        svg.classed("is-moving", false);
+      }, MOTION_SHOW_DELAY);
+    }
 
+    // One tick per frame, which is what d3's own timer does. Running several
+    // per frame settled the layout in a fraction of the time, and looked it —
+    // everything lurched. The pacing is the animation.
+    function step() {
+      simulation.tick();
       paint();
 
       if (settledEnough()) {
         looping = false;
-        setMoving(false);
+        motionStopped();
         onSettled();
       } else {
         requestAnimationFrame(step);
@@ -708,7 +723,7 @@
     function run() {
       if (looping) return;
       looping = true;
-      setMoving(true);
+      motionStarted();
       requestAnimationFrame(step);
     }
 
