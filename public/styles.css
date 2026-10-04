@@ -1,50 +1,122 @@
-/* Dark archive. The page recedes to near-black so a thousand album covers
-   spanning seventy years can all belong to it — the sleeves supply the colour,
-   the interface supplies none. Hairline rules, square corners, tiny mono
-   labels, no texture and no shadow. Accents are held back for the one thing
-   you're meant to do next. */
+/* Dull-grey archive. Not white, not black — a flat printers' grey that a
+   thousand sleeves spanning seventy years can all sit on without any of them
+   clashing with it. Square corners, hairline rules, tiny mono labels, and
+   corner register marks instead of boxes. One accent, held back. */
 :root {
-  --paper: #0b0b0c;
-  --paper-2: #1a1a1d;
-  --paper-3: #131315;
-  --card: #141417;
-  --ink: #f4f3f0;
-  --ink-2: #a2a2a6;
-  --ink-3: #6e6e73;
-  --accent: #c8ff4d;
-  --accent-2: #a8df2d;
-  --accent-soft: #f0a8cd;
-  --warn: #ff5f45;
+  --paper: #d7d6d2;
+  --paper-2: #cbcac5;
+  --paper-3: #dedcd8;
+  --card: #e4e2de;
+  --slab: #191a1e;
+  --ink: #16171b;
+  --ink-2: #51525a;
+  --ink-3: #7e7f87;
+  --accent: #d6361d;
+  --accent-2: #ad2715;
+  --accent-soft: #c76ba0;
+  --warn: #ad2715;
   /* legacy names, remapped rather than hunted down one by one */
-  --forest: #c8ff4d;
-  --brick: #c8ff4d;
-  --orange: #c8ff4d;
-  --orange-2: #a8df2d;
-  --edge: rgba(244, 243, 240, 0.12);
-  --edge-2: rgba(244, 243, 240, 0.24);
+  --forest: #2f6f4a;
+  --brick: #d6361d;
+  --orange: #d6361d;
+  --orange-2: #ad2715;
+  --edge: rgba(22, 23, 27, 0.16);
+  --edge-2: rgba(22, 23, 27, 0.32);
   --shadow-sm: none;
   --shadow-md: none;
-  --shadow-lg: 0 24px 70px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 24px 70px rgba(22, 23, 27, 0.22);
   --radius: 0px;
-  --font-display: "Poppins", sans-serif;
-  --font-body: "Archivo", sans-serif;
-  --font-mono: "Space Mono", monospace;
+  --font-display: "Archivo", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
 }
 
-/* Corner ticks, borrowed from the reference: a panel is marked at two corners
-   rather than boxed in. Reads as a drawing register mark, costs two pseudos. */
-.ticked { position: relative; }
-.ticked::before,
-.ticked::after {
+/* ---------- Aura ---------- */
+
+/* A mesh gradient drifting under the whole page. The blur is a static filter
+   and only transforms animate, so the four blobs stay on the compositor and
+   this costs nothing per frame. */
+.aura {
+  position: fixed;
+  inset: -20vmax;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  filter: blur(100px) saturate(1.15);
+  /* Low enough that it reads as the grey having a temperature rather than as
+     a coloured background — at full strength it fights the sleeves. */
+  opacity: 0.38;
+}
+
+.aura span {
+  position: absolute;
+  display: block;
+  width: 58vmax;
+  height: 58vmax;
+  border-radius: 50%;
+  will-change: transform;
+}
+
+.aura span:nth-child(1) { top: -8%; left: -6%; background: radial-gradient(circle, #e58ab8 0%, rgba(229, 138, 184, 0) 68%); animation: drift-a 34s ease-in-out infinite alternate; }
+.aura span:nth-child(2) { top: 6%; right: -12%; background: radial-gradient(circle, #8fb2e8 0%, rgba(143, 178, 232, 0) 68%); animation: drift-b 41s ease-in-out infinite alternate; }
+.aura span:nth-child(3) { bottom: -14%; left: 16%; background: radial-gradient(circle, #c3dd82 0%, rgba(195, 221, 130, 0) 68%); animation: drift-c 47s ease-in-out infinite alternate; }
+.aura span:nth-child(4) { bottom: 2%; right: 6%; background: radial-gradient(circle, #f0b98a 0%, rgba(240, 185, 138, 0) 68%); animation: drift-d 38s ease-in-out infinite alternate; }
+
+@keyframes drift-a { to { transform: translate3d(22vmax, 14vmax, 0) scale(1.22); } }
+@keyframes drift-b { to { transform: translate3d(-18vmax, 20vmax, 0) scale(0.84); } }
+@keyframes drift-c { to { transform: translate3d(16vmax, -18vmax, 0) scale(1.16); } }
+@keyframes drift-d { to { transform: translate3d(-24vmax, -10vmax, 0) scale(0.9); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .aura span { animation: none; }
+}
+
+/* ---------- Frames ---------- */
+
+/* Register marks at all four corners instead of a box, as in the reference.
+   Eight background layers, so the marks ride on top of whatever fill the panel
+   already has without needing an element of their own. */
+/* The modal is deliberately not in this list: it scrolls, so the bottom pair
+   would sit at the foot of the full content rather than the visible frame. */
+.framed,
+.stat-card,
+.hero-row,
+.today-pick::after,
+#graph-canvas::after {
+  --mark: var(--ink-2);
+  --mark-arm: 11px;
+  --mark-w: 1px;
+  background-image:
+    linear-gradient(var(--mark) 0 0), linear-gradient(var(--mark) 0 0),
+    linear-gradient(var(--mark) 0 0), linear-gradient(var(--mark) 0 0),
+    linear-gradient(var(--mark) 0 0), linear-gradient(var(--mark) 0 0),
+    linear-gradient(var(--mark) 0 0), linear-gradient(var(--mark) 0 0);
+  background-repeat: no-repeat;
+  background-size:
+    var(--mark-arm) var(--mark-w), var(--mark-w) var(--mark-arm),
+    var(--mark-arm) var(--mark-w), var(--mark-w) var(--mark-arm),
+    var(--mark-arm) var(--mark-w), var(--mark-w) var(--mark-arm),
+    var(--mark-arm) var(--mark-w), var(--mark-w) var(--mark-arm);
+  background-position:
+    0 0, 0 0,
+    100% 0, 100% 0,
+    0 100%, 0 100%,
+    100% 100%, 100% 100%;
+}
+
+/* Two panels fill themselves with absolutely-positioned children — the tiled
+   sleeve behind today's pick, and the map's svg — which would paint straight
+   over marks set on the element itself. Those get an overlay instead. */
+.today-pick::after,
+#graph-canvas::after {
   content: "";
   position: absolute;
-  width: 9px;
-  height: 9px;
+  inset: 0;
   pointer-events: none;
-  opacity: 0.55;
+  z-index: 4;
 }
-.ticked::before { top: 0; left: 0; border-top: 1px solid var(--ink-2); border-left: 1px solid var(--ink-2); }
-.ticked::after { bottom: 0; right: 0; border-bottom: 1px solid var(--ink-2); border-right: 1px solid var(--ink-2); }
+
+
 
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
@@ -52,12 +124,17 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: var(--paper);
   color: var(--ink);
   font-family: var(--font-body);
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
 }
+
+/* The grey lives on the root only. Putting it on <body> as well paints it in
+   front of the aura — a negative-z-index child of <body> participates in the
+   root stacking context, so it lands behind every in-flow background. */
+html { background-color: var(--paper); }
+body { background-color: transparent; }
 
 h1, h2, h3 {
   font-family: var(--font-display);
@@ -82,44 +159,68 @@ h1, h2, h3 {
 ::-webkit-scrollbar { width: 11px; height: 11px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb {
-  background: rgba(244, 243, 240, 0.2);
+  background: rgba(22, 23, 27, 0.26);
   border: 3px solid var(--paper);
   border-radius: 0;
 }
-::-webkit-scrollbar-thumb:hover { background: rgba(244, 243, 240, 0.36); }
+::-webkit-scrollbar-thumb:hover { background: rgba(22, 23, 27, 0.42); }
 .rev-panel::-webkit-scrollbar, .modal-card::-webkit-scrollbar { width: 9px; }
 .rev-panel::-webkit-scrollbar-thumb, .modal-card::-webkit-scrollbar-thumb { border-color: var(--paper-3); }
 
 /* ---------- Masthead ---------- */
 
+/* The masthead is a full-bleed dark slab with the grey page below it — the one
+   piece of heavy ink on the site, so everything after it can stay quiet. */
 .site-header {
+  background: var(--slab);
+  color: #f3f2ef;
+  margin-bottom: 2.2rem;
+}
+
+.header-inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1.6rem clamp(1.25rem, 4vw, 3.25rem) 0;
+  padding: 1.5rem clamp(1.25rem, 4vw, 3.25rem) 0.9rem;
 }
 
 .micro {
-  font-size: 0.6rem;
+  font-size: 0.58rem;
   text-transform: uppercase;
-  letter-spacing: 0.18em;
-  color: var(--ink-3);
+  letter-spacing: 0.16em;
+  color: rgba(243, 242, 239, 0.5);
   margin: 0;
 }
+
+.masthead { position: relative; }
 
 .masthead h1 {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  font-size: clamp(2.6rem, 11vw, 7.6rem);
+  font-size: clamp(2.4rem, 10.5vw, 7.2rem);
   font-weight: 800;
-  color: var(--ink);
+  /* Archivo's width axis: a real condensed cut, so both words can run to the
+     margins without the slab getting tall */
+  font-stretch: 78%;
+  color: #f3f2ef;
   text-transform: uppercase;
-  /* condensed and tracked tight, so the two words can run to the margins
-     without the bar getting tall */
-  letter-spacing: -0.045em;
-  line-height: 0.82;
-  transform: scaleY(1.14);
-  transform-origin: bottom;
+  letter-spacing: -0.02em;
+  line-height: 0.88;
+}
+
+/* Sits on the wordmark's baseline right after the first word, the way the
+   reference sets its strapline beside the name rather than under it. The auto
+   right margin is what pushes the second word out to the far edge. */
+.masthead-sub {
+  margin: 0 auto 0 0.95rem;
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: 0.58rem;
+  font-stretch: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: rgba(243, 242, 239, 0.45);
+  white-space: nowrap;
 }
 
 .header-bar {
@@ -128,10 +229,9 @@ h1, h2, h3 {
   justify-content: space-between;
   gap: 1.5rem;
   flex-wrap: wrap;
-  margin-top: 1.35rem;
-  padding: 0.7rem 0;
-  border-top: 1px solid var(--edge-2);
-  border-bottom: 1px solid var(--edge-2);
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(243, 242, 239, 0.18);
 }
 
 .header-right { display: flex; align-items: center; gap: 1.2rem; flex-wrap: wrap; }
@@ -146,8 +246,8 @@ h1, h2, h3 {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   background: none;
-  color: var(--ink-2);
-  border: 1px solid var(--edge-2);
+  color: rgba(243, 242, 239, 0.72);
+  border: 1px solid rgba(243, 242, 239, 0.3);
   border-radius: 0;
   padding: 0.34rem 0.75rem;
   cursor: pointer;
@@ -158,16 +258,16 @@ h1, h2, h3 {
   transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
-.account-btn:hover { border-color: var(--ink); color: var(--ink); }
+.account-btn:hover { border-color: #f3f2ef; color: #f3f2ef; }
 
 /* signed out — worth noticing, since nothing personal loads until you do */
 .account-btn.is-out {
   background: var(--accent);
   border-color: var(--accent);
-  color: #0b0b0c;
+  color: #fff;
 }
 
-.account-btn.is-out:hover { background: var(--accent-2); border-color: var(--accent-2); color: #0b0b0c; }
+.account-btn.is-out:hover { background: var(--accent-2); border-color: var(--accent-2); color: #fff; }
 
 .account-card { max-width: 440px; }
 .account-body { padding: 2rem 2.1rem 2.1rem; }
@@ -237,8 +337,9 @@ h1, h2, h3 {
   transition: color 0.2s ease;
 }
 
-.tab-btn:hover { color: var(--ink); }
-.tab-btn.is-active { color: var(--ink); }
+.tab-btn { color: rgba(243, 242, 239, 0.52); }
+.tab-btn:hover { color: #f3f2ef; }
+.tab-btn.is-active { color: #f3f2ef; }
 /* a dot rather than an underline, so the row stays a single hairline height */
 .tab-btn.is-active::after {
   content: "";
@@ -284,7 +385,7 @@ main {
   text-transform: uppercase;
   letter-spacing: 0.13em;
   background: var(--accent);
-  color: #0b0b0c;
+  color: #fff;
   border: 0;
   border-radius: 0;
   padding: 0.74rem 1.3rem;
@@ -326,10 +427,10 @@ main {
   display: flex;
   gap: 1.9rem;
   align-items: center;
-  background: var(--paper-3);
+  background-color: var(--paper-3);
   color: var(--ink);
   border: 1px solid var(--edge);
-  border-radius: var(--radius);
+  border-radius: 0;
   padding: 2.1rem 2.2rem;
   margin-bottom: 2.5rem;
   min-height: 220px;
@@ -342,14 +443,14 @@ main {
   inset: -40px;
   background-repeat: repeat;
   background-size: 300px 300px;
-  filter: blur(34px) saturate(1.5) brightness(0.8);
-  opacity: 0.85;
+  filter: blur(40px) saturate(1.8);
+  opacity: 0.5;
 }
 
 .tp-wash {
   position: absolute;
   inset: 0;
-  background: linear-gradient(100deg, rgba(11, 11, 12, 0.93) 0%, rgba(11, 11, 12, 0.6) 65%, rgba(11, 11, 12, 0.8) 100%);
+  background: linear-gradient(100deg, rgba(222, 220, 216, 0.9) 0%, rgba(222, 220, 216, 0.55) 60%, rgba(222, 220, 216, 0.85) 100%);
 }
 
 /* was a diagonal hatch over the wash; the grain is exactly what we removed */
@@ -371,17 +472,18 @@ main {
   font-family: var(--font-mono);
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  font-size: 0.6rem;
+  font-size: 0.58rem;
   color: var(--accent);
   margin: 0 0 0.7rem;
 }
 
 .today-pick h3 {
-  font-size: clamp(1.6rem, 4.4vw, 2.7rem);
+  font-size: clamp(1.6rem, 4.4vw, 2.9rem);
   font-weight: 800;
+  font-stretch: 82%;
   text-transform: uppercase;
-  letter-spacing: -0.035em;
-  color: #fff;
+  letter-spacing: -0.015em;
+  color: var(--ink);
 }
 
 .today-pick p.sub {
@@ -481,11 +583,15 @@ main {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   display: block;
-  /* full colour, always — the covers are the only colour on the page */
-  transition: opacity 0.3s ease;
+  /* Held a touch back at rest so the hover has somewhere to go, then boosted
+     well past true colour on hover. The old version did this with grayscale
+     and sepia, which made every 1990s sleeve look like a 1970s one; this only
+     moves saturation, so nothing changes hue. */
+  filter: saturate(0.82) contrast(0.97);
+  transition: filter 0.4s ease;
 }
 
-.album-card:hover img { opacity: 0.74; }
+.album-card:hover img { filter: saturate(1.35) contrast(1.06); }
 
 .album-card .card-body {
   padding: 0.7rem 0 0.9rem;
@@ -552,7 +658,7 @@ main {
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(5, 5, 6, 0.72);
+  background: rgba(22, 23, 27, 0.52);
   backdrop-filter: blur(6px);
   display: flex;
   align-items: center;
@@ -626,10 +732,11 @@ main {
 }
 
 #modal-title {
-  font-size: clamp(1.7rem, 4.2vw, 2.6rem);
+  font-size: clamp(1.7rem, 4.2vw, 2.7rem);
   font-weight: 800;
+  font-stretch: 82%;
   text-transform: uppercase;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.015em;
   margin-bottom: 0.45rem;
 }
 
@@ -733,7 +840,7 @@ main {
   padding: 0 0.1rem;
   font-size: 1.5rem;
   line-height: 1;
-  color: rgba(244, 243, 240, 0.2);
+  color: rgba(22, 23, 27, 0.26);
   cursor: pointer;
   transition: color 0.15s ease, transform 0.15s ease;
 }
@@ -771,7 +878,7 @@ main {
   text-transform: uppercase;
   letter-spacing: 0.14em;
   background: var(--accent);
-  color: #0b0b0c;
+  color: #fff;
   border: 0;
   border-radius: 0;
   padding: 0.6rem 1.1rem;
@@ -916,9 +1023,8 @@ main {
   font-size: 0.58rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: var(--accent);
-  background: none;
-  border: 1px solid var(--accent);
+  color: #fff;
+  background: var(--accent);
   padding: 0.1rem 0.45rem;
 }
 
@@ -1055,7 +1161,7 @@ main {
   user-select: none;
   -webkit-user-select: none;
   -webkit-tap-highlight-color: transparent;
-  background: var(--paper-3);
+  background-color: var(--paper-3);
   border: 1px solid var(--edge);
   border-radius: 0;
   height: 640px;
@@ -1068,7 +1174,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   gap: 1.5rem;
-  background: none;
+  background-color: transparent;
   border: 1px solid var(--edge-2);
   border-radius: 0;
   padding: 2rem 2.1rem;
@@ -1078,10 +1184,11 @@ main {
 
 .hero-num {
   font-family: var(--font-display);
-  font-weight: 900;
-  font-size: clamp(2.6rem, 6vw, 4.1rem);
+  font-weight: 800;
+  font-stretch: 80%;
+  font-size: clamp(2.8rem, 6.4vw, 4.4rem);
   line-height: 0.9;
-  letter-spacing: -0.055em;
+  letter-spacing: -0.02em;
   margin: 0;
   color: var(--ink);
 }
@@ -1244,7 +1351,7 @@ main {
 
 .dt-diff { font-weight: 700; }
 .dt-diff.is-up { color: var(--accent); }
-.dt-diff.is-down { color: var(--accent-soft); }
+.dt-diff.is-down { color: var(--accent); }
 
 .artist-row { cursor: pointer; }
 .artist-row:hover .at-name, .artist-row:focus-visible .at-name { color: var(--brick); }
@@ -1323,7 +1430,7 @@ main {
 /* held down: the layout is actively churning, so say so */
 .zoom-controls button.is-held {
   background: var(--accent);
-  color: #0b0b0c;
+  color: #fff;
 }
 
 /* Focus: everything the selected record doesn't touch recedes. The transition
@@ -1416,7 +1523,7 @@ main {
   text-transform: none;
   letter-spacing: -0.015em;
   background: var(--accent);
-  color: #0b0b0c;
+  color: #fff;
   border: 0;
   border-radius: 0;
   padding: 0.45rem 0.8rem;
@@ -1453,27 +1560,13 @@ main {
 
 .stat-card {
   position: relative;
-  background: none;
+  background-color: transparent;
   border: 1px solid var(--edge);
   border-radius: 0;
   padding: 1.4rem 1.5rem 1.2rem;
   display: flex;
   flex-direction: column;
 }
-
-/* register marks at two corners, as in the reference — the panel is tagged
-   rather than boxed */
-.stat-card::before,
-.stat-card::after {
-  content: "";
-  position: absolute;
-  width: 9px;
-  height: 9px;
-  pointer-events: none;
-  opacity: 0.5;
-}
-.stat-card::before { top: -1px; left: -1px; border-top: 1px solid var(--accent); border-left: 1px solid var(--accent); }
-.stat-card::after { bottom: -1px; right: -1px; border-bottom: 1px solid var(--accent); border-right: 1px solid var(--accent); }
 
 .stat-card h3 {
   font-family: var(--font-mono);
@@ -1582,9 +1675,9 @@ main {
 
 .graph-tooltip {
   position: absolute;
-  background: #000;
-  color: var(--ink);
-  border: 1px solid var(--edge-2);
+  background: var(--slab);
+  color: #f3f2ef;
+  border: 0;
   padding: 0.5rem 0.7rem;
   border-radius: 0;
   font-family: var(--font-mono);
@@ -1608,6 +1701,10 @@ main {
   .header-bar { flex-direction: column; align-items: flex-start; gap: 0.75rem; }
   .header-right { width: 100%; justify-content: space-between; }
   .micro { font-size: 0.55rem; letter-spacing: 0.12em; }
+
+  /* the strapline pushed the second word of the wordmark off the screen */
+  .masthead-sub { display: none; }
+  .today-pick h3 { font-size: clamp(1.4rem, 7vw, 2rem); }
 }
 
 @media (max-width: 560px) {

@@ -328,8 +328,8 @@
     // refX 10 puts the marker's tip exactly on the path's end point; the paths
     // themselves are trimmed to each node's rim below, so one offset works for
     // both the big sleeve nodes and the small markers.
-    arrowhead("arrow", "#8a8a8f", 10);
-    arrowhead("arrow-hot", "#c8ff4d", 10);
+    arrowhead("arrow", "#51525a", 10);
+    arrowhead("arrow-hot", "#d6361d", 10);
 
     const R_LIST = 26;
     const R_OTHER = 9;
@@ -429,7 +429,7 @@
 
     const link = edge
       .append("path")
-      .attr("stroke", "#8a8a8f")
+      .attr("stroke", "#51525a")
       .attr("stroke-width", 1.8)
       .attr("stroke-opacity", 0.55)
       .attr("fill", "none")
@@ -440,7 +440,7 @@
     edge
       .on("mouseenter", function (event, d) {
         d3.select(this).select("path:last-child")
-          .attr("stroke", "#c8ff4d")
+          .attr("stroke", "#d6361d")
           .attr("stroke-width", 3.4)
           .attr("stroke-opacity", 1)
           .attr("marker-end", "url(#arrow-hot)");
@@ -451,7 +451,7 @@
       })
       .on("mouseleave", function () {
         d3.select(this).select("path:last-child")
-          .attr("stroke", "#8a8a8f")
+          .attr("stroke", "#51525a")
           .attr("stroke-width", 1.8)
           .attr("stroke-opacity", 0.55)
           .attr("marker-end", "url(#arrow)");
@@ -504,7 +504,7 @@
       .append("circle")
       .attr("r", R_LIST)
       .attr("fill", "none")
-      .attr("stroke", "rgba(244,243,240,0.35)")
+      .attr("stroke", "rgba(22,23,27,0.42)")
       .attr("stroke-width", 2);
 
     // anything without a sleeve stays a plain marker
@@ -512,8 +512,8 @@
       .filter((d) => !(d.source === "list" && d.image))
       .append("circle")
       .attr("r", (d) => (d.source === "list" ? R_LIST : R_OTHER))
-      .attr("fill", (d) => (d.source === "list" ? "#2b2b30" : "#f0a8cd"))
-      .attr("stroke", "rgba(244,243,240,0.35)")
+      .attr("fill", (d) => (d.source === "list" ? "#2b2c33" : "#8e8f97"))
+      .attr("stroke", "rgba(22,23,27,0.42)")
       .attr("stroke-width", 2);
 
     node
@@ -525,15 +525,18 @@
       .attr("x", 0)
       .attr("y", (d) => (d.source === "list" ? R_LIST + 15 : 23))
       .attr("text-anchor", "middle")
-      .attr("font-family", "Poppins, sans-serif")
-      .attr("font-weight", (d) => (d.source === "list" ? 800 : 600))
-      .attr("letter-spacing", "-0.03em")
+      .attr("font-family", "Archivo, sans-serif")
+      // condensed, so a label takes less of its neighbours' space in a graph
+      // where everything overlaps everything
+      .attr("font-stretch", "80%")
+      .attr("font-weight", (d) => (d.source === "list" ? 700 : 500))
+      .attr("letter-spacing", "-0.005em")
       .attr("font-size", (d) => (d.source === "list" ? 13 : 11))
-      .attr("fill", "#f4f3f0")
+      .attr("fill", "#16171b")
       // paper-coloured halo, so a label crossing a line or another label
       // stays readable instead of turning to mush
       .attr("paint-order", "stroke")
-      .attr("stroke", "#0b0b0c")
+      .attr("stroke", "#dedcd8")
       .attr("stroke-width", 3.5)
       .attr("stroke-linejoin", "round");
 
