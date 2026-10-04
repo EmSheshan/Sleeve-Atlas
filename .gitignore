@@ -1,5 +1,6 @@
 node_modules/
 .idea/
+.superpowers/
 
 # transient caches only — the album notes in data/insights.json ARE tracked,
 # since they're hand-researched content and what the app actually serves
