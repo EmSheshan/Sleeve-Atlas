@@ -790,12 +790,33 @@ main {
 .modal-side { flex: 0 0 225px; align-self: flex-start; }
 
 .modal-art {
+  position: relative;
   line-height: 0;
   border-radius: 0;
-  overflow: hidden;
+  overflow: visible;
 }
 
-.modal-art img { width: 100%; display: block; }
+.modal-art img { width: 100%; display: block; position: relative; z-index: 2; }
+
+/* Unlike the grid tile, the modal is only ever on screen when "open" — no
+   hover-gated opacity needed, the glow is just always present while the
+   sheet is up. overflow: visible (above) lets it bleed past the square art
+   panel; z-index on the img keeps the cover painting on top of it. */
+.modal-glow { inset: -25%; width: auto; height: auto; z-index: 1; }
+.modal-glow-1 {
+  background: radial-gradient(circle,
+    rgba(23, 20, 15, 0) 0%,
+    var(--plate) 42%,
+    rgba(23, 20, 15, 0) 100%);
+}
+.modal-glow-2 {
+  background: radial-gradient(circle,
+    rgba(23, 20, 15, 0) 0%,
+    var(--plate) 38%,
+    rgba(23, 20, 15, 0) 100%);
+  animation-delay: -7s;
+  opacity: 0.4;
+}
 
 .modal-content { flex: 1 1 380px; min-width: 0; }
 
