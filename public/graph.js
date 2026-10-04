@@ -217,8 +217,8 @@
     const edges = allEdges.filter((e) => keep.has(e.source) && keep.has(e.target));
     hiddenCount = allNodes.length - nodes.length;
 
-    const width = container.clientWidth || 900;
-    const height = container.clientHeight || 640;
+    let width = container.clientWidth || 900;
+    let height = container.clientHeight || 640;
 
     const svg = d3
       .select(container)
@@ -248,6 +248,24 @@
     // Fence the pannable area to the graph plus half a screen of slack, so you
     // can't scroll off into empty space with no way back. Applied once the
     // layout has settled, since the extent depends on where things ended up.
+    // The canvas is a fixed 640px tall in the page and the full height of the
+    // screen in fullscreen, and neither size was ever re-read after the first
+    // draw — so the map used to keep the dimensions it was born with. Resizing
+    // the viewport rather than redrawing keeps the layout you already have.
+    function resize() {
+      const w = container.clientWidth || width;
+      const h = container.clientHeight || height;
+      if (w === width && h === height) return;
+      width = w;
+      height = h;
+      svg.attr("width", w).attr("height", h).attr("viewBox", [0, 0, w, h]);
+      applyBounds({ fit: true });
+    }
+
+    const onViewportChange = () => requestAnimationFrame(resize);
+    window.addEventListener("resize", onViewportChange);
+    document.addEventListener("fullscreenchange", onViewportChange);
+
     function applyBounds({ fit = false } = {}) {
       const b = zoomLayer.node().getBBox();
       if (!b.width || !b.height) return;
@@ -576,14 +594,18 @@
         event.stopPropagation();
         setFocus(focused === d.id ? null : d.id);
       })
-      .on("mouseenter", (event, d) => {
+      // A dimmed node stays clickable — jumping focus from one record to its
+      // neighbour is the main way you read the map — but it doesn't volunteer
+      // a tooltip. Hovering something at 7% opacity and getting a card for it
+      // is just noise over whatever you were actually looking at.
+      .on("mouseenter", function (event, d) {
+        if (this.classList.contains("is-dimmed")) return;
         showTooltip(`<strong>${d.artist}</strong><br/>${d.album || d.label} ${d.year ? `(${d.year})` : ""}`, event.offsetX, event.offsetY);
       })
-      .on("mousemove", (event) => {
-        if (tooltip) {
-          tooltip.style.left = `${event.offsetX + 16}px`;
-          tooltip.style.top = `${event.offsetY + 8}px`;
-        }
+      .on("mousemove", function (event) {
+        if (!tooltip || this.classList.contains("is-dimmed")) return;
+        tooltip.style.left = `${event.offsetX + 16}px`;
+        tooltip.style.top = `${event.offsetY + 8}px`;
       })
       .on("mouseleave", hideTooltip);
 
@@ -739,6 +761,14 @@
     const zoomControls = document.getElementById("zoom-controls");
     if (zoomControls) {
       zoomControls.hidden = false;
+      const fullBtn = document.getElementById("fullscreen-toggle");
+      if (fullBtn) {
+        const label = () => {
+          fullBtn.textContent = document.fullscreenElement ? "exit" : "full screen";
+        };
+        label();
+        document.addEventListener("fullscreenchange", label);
+      }
       const leavesBtn = document.getElementById("leaves-toggle");
       if (leavesBtn) {
         leavesBtn.textContent = showLeaves ? "thin out" : `show all${hiddenCount ? ` (+${hiddenCount})` : ""}`;
@@ -751,6 +781,10 @@
         else if (what === "leaves") {
           showLeaves = !showLeaves;
           if (lastGraph) draw(lastGraph);
+        } else if (what === "full") {
+          const wrap = container.closest(".graph-wrap") || container;
+          if (document.fullscreenElement) document.exitFullscreen();
+          else wrap.requestFullscreen?.().catch(() => {});
         } else svg.transition().duration(220).call(zoom.scaleBy, what === "in" ? 1.45 : 1 / 1.45);
       };
 

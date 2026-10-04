@@ -1254,6 +1254,14 @@ main {
 
 .graph-wrap { position: relative; }
 
+/* Fullscreen: the canvas is a fixed 640px in the page, so it has to be told
+   to fill the screen, and the paper background has to come with it — a
+   fullscreened element gets a black backdrop by default. */
+.graph-wrap:fullscreen { background: var(--paper); }
+.graph-wrap:fullscreen #graph-canvas { height: 100vh; border-radius: 0; }
+.graph-wrap:fullscreen .zoom-controls { bottom: 1.4rem; right: 1.4rem; }
+.graph-wrap:fullscreen .focus-card { bottom: 1.4rem; left: 1.4rem; }
+
 /* an <image> is draggable by default, so the sleeves could be torn out of the
    map and dropped elsewhere mid-gesture */
 #graph-canvas image { -webkit-user-drag: none; }
@@ -1295,6 +1303,13 @@ main {
    all 976 groups, so every class change dragged the whole tree through style
    recalculation. */
 #graph-canvas .is-dimmed { opacity: 0.07; }
+
+/* A dimmed edge shouldn't answer the pointer. At 7% opacity it's barely
+   visible, but its hit path is 18px wide and the lines cross constantly, so
+   without this you spend a focused view catching tooltips from records you
+   just told the map to put away. !important because d3 sets pointer-events
+   inline on the hit path, and inline beats a stylesheet rule. */
+#graph-canvas .edge.is-dimmed path { pointer-events: none !important; }
 #graph-canvas g { transition: opacity 0.25s ease; }
 #graph-canvas .edge { cursor: pointer; }
 
