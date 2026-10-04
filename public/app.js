@@ -309,7 +309,10 @@ function renderCards(entries) {
     const card = document.createElement("article");
     card.className = "album-card";
     card.innerHTML = `
-      <div class="art-frame"></div>
+      <div class="art-frame">
+        <span class="glow glow-focus card-glow"></span>
+        <div class="grain"></div>
+      </div>
       <div class="card-body">
         <p class="card-title" title="${album.name.replace(/"/g, "&quot;")}">${album.name}</p>
         <p class="card-artist">${album.artist}</p>

@@ -628,6 +628,11 @@ main {
   overflow: hidden;
 }
 
+.album-card:hover .art-frame,
+.album-card:focus-within .art-frame {
+  overflow: visible;
+}
+
 .album-card img {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -639,6 +644,25 @@ main {
      moves saturation, so nothing changes hue. */
   filter: saturate(0.82) contrast(0.97);
   transition: filter 0.4s ease;
+}
+
+/* Sits behind the cover at rest (opacity 0), bursts to full strength on
+   hover — the per-tile analogue of today's-pick's glow, same --plate
+   value the card-body border already uses. */
+.card-glow {
+  inset: -30%;
+  width: auto;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  background: radial-gradient(circle,
+    rgba(23, 20, 15, 0) 0%, rgba(23, 20, 15, 0) 20%,
+    var(--plate) 55%, rgba(23, 20, 15, 0) 85%);
+}
+
+.album-card:hover .card-glow,
+.album-card:focus-within .card-glow {
+  opacity: 0.9;
 }
 
 .album-card:hover img { filter: saturate(1.35) contrast(1.06); }
