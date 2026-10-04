@@ -236,6 +236,9 @@ function renderTodayPick(project) {
     <div class="tp-tile" style="background-image: url('${art}')"></div>
     <div class="tp-wash"></div>
     <div class="tp-hatch"></div>
+    <span class="glow glow-focus tp-glow tp-glow-1"></span>
+    <span class="glow glow-focus tp-glow tp-glow-2"></span>
+    <div class="grain"></div>
     <div class="tp-text">
       <p class="eyebrow">today&rsquo;s pick</p>
       <h3>${a.name}</h3>

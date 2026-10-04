@@ -480,6 +480,23 @@ main {
   opacity: 0.5;
 }
 
+/* Full-strength tier: real album colour, via the --wash custom property
+   already set in app.js's renderTodayPick (previously unused by any CSS
+   rule). A single sampled colour drives both blobs' ring stop; the
+   transparent core/fade either side is what gives it the glow shape. */
+.glow-focus {
+  opacity: 0.95;
+}
+
+.tp-glow {
+  background: radial-gradient(circle,
+    rgba(23, 20, 15, 0) 0%, rgba(23, 20, 15, 0) 20%,
+    var(--wash, var(--accent)) 55%, rgba(23, 20, 15, 0) 85%);
+}
+
+.tp-glow-1 { width: 55%; height: 90%; top: -30%; left: -12%; }
+.tp-glow-2 { width: 50%; height: 85%; bottom: -35%; right: -8%; animation-delay: -6s; }
+
 .tp-wash {
   position: absolute;
   inset: 0;
