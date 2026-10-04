@@ -1756,6 +1756,12 @@ main {
   /* the strapline pushed the second word of the wordmark off the screen */
   .masthead-sub { display: none; }
   .today-pick h3 { font-size: clamp(1.4rem, 7vw, 2rem); }
+
+  /* .focus-card spans edge-to-edge once the canvas is narrower than its
+     26rem max-width, landing it at the same bottom:0.9rem as .zoom-controls
+     — the two then sit directly on top of each other. Lifted clear of the
+     button row's height instead. */
+  .focus-card { bottom: 3.6rem; }
 }
 
 @media (max-width: 560px) {
