@@ -425,6 +425,8 @@ git commit -m "Focus glow on grid tiles, driven by the existing --plate sample"
 
 ## Task 5: Focus glow — open album modal
 
+> **Amendment (pre-emptive, before this task was ever implemented):** written with the single-peak gradient recipe from the start (see the Task 2/3/4 amendments above) — `.modal-glow-1`/`.modal-glow-2` below already reflect that fix, so this task never needs its own follow-up correction.
+
 **Files:**
 - Modify: `public/index.html:203-206` (`.modal-art`)
 - Modify: `public/styles.css:716-722` (`.modal-art` section)
