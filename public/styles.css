@@ -92,7 +92,7 @@
 .glow-ambient {
   opacity: 0.4;
   animation-duration: 34s;
-  filter: blur(90px);
+  filter: url(#organic-flow) blur(10px);
   mix-blend-mode: multiply;
 }
 
