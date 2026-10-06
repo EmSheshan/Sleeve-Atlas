@@ -427,11 +427,27 @@
       .attr("fill", "none")
       .style("pointer-events", "stroke");
 
+    // An edge inherits colour from whichever end has real album art — same
+    // sampledPlate() pipeline the grid cards and today's pick already use,
+    // not a new extraction scheme. Falls back to the original flat grey for
+    // edges where neither end has art (most external-only connections).
+    // Looked up by id through nodeById rather than held as a closure over
+    // the node object directly, so a colour that resolves later (the image
+    // load is async) is picked up correctly by both the initial render and
+    // the mouseleave restore, not just whichever ran first.
+    const nodeById = Object.fromEntries(nodeData.map((n) => [n.id, n]));
+    const edgeNodeId = (x) => (typeof x === "object" ? x.id : x);
+    function edgeRestColor(e) {
+      const s = nodeById[edgeNodeId(e.source)];
+      const t = nodeById[edgeNodeId(e.target)];
+      return (s && s.color) || (t && t.color) || "#51525a";
+    }
+
     const link = edge
       .append("path")
-      .attr("stroke", "#51525a")
+      .attr("stroke", edgeRestColor)
       .attr("stroke-width", 1.8)
-      .attr("stroke-opacity", 0.55)
+      .attr("stroke-opacity", (d) => (edgeRestColor(d) === "#51525a" ? 0.55 : 0.6))
       .attr("fill", "none")
       .attr("marker-end", "url(#arrow)")
       .style("pointer-events", "none")
@@ -449,11 +465,12 @@
       .on("mousemove", (event, d) => {
         if (d.note) showTooltip(d.note, event.offsetX, event.offsetY);
       })
-      .on("mouseleave", function () {
+      .on("mouseleave", function (event, d) {
+        const rest = edgeRestColor(d);
         d3.select(this).select("path:last-child")
-          .attr("stroke", "#51525a")
+          .attr("stroke", rest)
           .attr("stroke-width", 1.8)
-          .attr("stroke-opacity", 0.55)
+          .attr("stroke-opacity", rest === "#51525a" ? 0.55 : 0.6)
           .attr("marker-end", "url(#arrow)");
         hideTooltip();
       });
@@ -539,6 +556,27 @@
       .attr("stroke", "#dedcd8")
       .attr("stroke-width", 3.5)
       .attr("stroke-linejoin", "round");
+
+    // Off-DOM <img> per list album with art, not the visible SVG <image> —
+    // canvas sampling wants an HTMLImageElement loaded with explicit CORS,
+    // and risks a tainted-canvas failure sampling the SVG element directly.
+    // sampledPlate() caches by img.src, so this costs nothing extra if the
+    // browser already fetched the same URL for the grid/modal this session.
+    for (const d of nodeData) {
+      if (d.source !== "list" || !d.image) continue;
+      const img = new Image();
+      img.crossOrigin = "anonymous";
+      img.addEventListener("load", () => {
+        const css = sampledPlate(img);
+        if (!css) return;
+        d.color = css;
+        link
+          .filter((e) => edgeNodeId(e.source) === d.id || edgeNodeId(e.target) === d.id)
+          .attr("stroke", css)
+          .attr("stroke-opacity", 0.6);
+      });
+      img.src = d.image;
+    }
 
     // Focus. At 419 nodes the whole map only fits on screen at 0.10 zoom,
     // where a label is a pixel and a half tall — you can see everything or
