@@ -1066,6 +1066,14 @@ main {
 .rate-btn:hover { background: var(--accent-2); }
 .rate-btn:disabled { opacity: 0.55; cursor: default; transform: none; }
 
+/* local-only, reversible — kept visually quieter than the one-way "post" action */
+.rate-btn-ghost {
+  background: transparent;
+  color: var(--ink-2);
+  border: 1px solid var(--ink-2);
+}
+.rate-btn-ghost:hover { background: var(--ink-2); color: var(--paper); }
+
 .rate-status {
   font-family: var(--font-mono);
   font-size: 0.66rem;

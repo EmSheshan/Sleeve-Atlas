@@ -33,8 +33,37 @@ const rateTitle = document.getElementById("rate-title");
 const rateStarsEl = document.getElementById("rate-stars");
 const rateNotesEl = document.getElementById("rate-notes");
 const rateSubmitBtn = document.getElementById("rate-submit");
+const rateSaveDraftBtn = document.getElementById("rate-save-draft");
 const rateStatus = document.getElementById("rate-status");
 let pendingRating = null;
+
+// Ratings are one-way once posted (see netlify/functions/write.mjs), so there
+// needs to be somewhere to sit on a review before committing it. localStorage
+// is enough: it's per-browser, never touches 1001, and survives reloads.
+function draftKey(album) {
+  return `sleeve-atlas:draft:${projectContext.name}:${album.uuid}`;
+}
+function loadDraft(album) {
+  try {
+    return JSON.parse(localStorage.getItem(draftKey(album)));
+  } catch {
+    return null;
+  }
+}
+function saveDraft(album, { rating, notes }) {
+  localStorage.setItem(draftKey(album), JSON.stringify({ rating, notes, savedAt: Date.now() }));
+}
+function clearDraft(album) {
+  localStorage.removeItem(draftKey(album));
+}
+function draftAge(savedAt) {
+  const mins = Math.round((Date.now() - savedAt) / 60000);
+  if (mins < 1) return "just now";
+  if (mins < 60) return `${mins}m ago`;
+  const hours = Math.round(mins / 60);
+  if (hours < 24) return `${hours}h ago`;
+  return `${Math.round(hours / 24)}d ago`;
+}
 
 const searchBar = document.getElementById("search-bar");
 const searchInput = document.getElementById("search-input");
@@ -993,6 +1022,15 @@ async function setUpRating(album, entry) {
   const notesOnly = writeMode === "listening-note";
   pendingRating = notesOnly ? null : entry?.rating ?? null;
   rateNotesEl.value = notesOnly ? projectContext.currentAlbumNotes : entry?.review || "";
+
+  // A saved draft is newer unposted work — it wins over whatever's on 1001.
+  const draft = loadDraft(album);
+  if (draft) {
+    if (!notesOnly) pendingRating = draft.rating ?? pendingRating;
+    rateNotesEl.value = draft.notes ?? rateNotesEl.value;
+    rateStatus.textContent = `draft saved ${draftAge(draft.savedAt)} — not yet posted`;
+  }
+
   rateStarsEl.hidden = notesOnly;
   renderRateStars();
 
@@ -1002,6 +1040,13 @@ async function setUpRating(album, entry) {
     : "a few words on it (optional)";
   rateSubmitBtn.textContent = notesOnly ? "save notes to 1001" : "post to 1001";
 }
+
+rateSaveDraftBtn.addEventListener("click", () => {
+  if (!currentAlbum || !writeMode) return;
+  saveDraft(currentAlbum, { rating: pendingRating, notes: rateNotesEl.value });
+  rateStatus.classList.remove("is-error");
+  rateStatus.textContent = "draft saved";
+});
 
 rateSubmitBtn.addEventListener("click", async () => {
   if (!currentAlbum || !projectContext.name || !writeMode) return;
@@ -1034,6 +1079,7 @@ rateSubmitBtn.addEventListener("click", async () => {
       fromHistoryView: Boolean(currentEntry),
     });
 
+    clearDraft(currentAlbum);
     rateStatus.textContent = notesOnly ? "saved" : "posted";
     if (notesOnly) {
       projectContext.currentAlbumNotes = rateNotesEl.value;
