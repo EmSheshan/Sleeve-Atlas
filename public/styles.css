@@ -613,7 +613,17 @@ main {
   border-radius: 0;
 }
 
-.today-pick .tp-text { position: relative; min-width: 0; }
+/* A halo on the small mono labels isn't enough — the art+glow behind this
+   banner swings from dark to near-white within the same box (see .tp-glow's
+   crest pole), so a fixed-colour halo only wins half the time. A flat
+   paper-toned plate under the text guarantees --ink-2 the contrast it was
+   actually tuned for, regardless of what's happening in the art. */
+.today-pick .tp-text {
+  position: relative;
+  min-width: 0;
+  background: rgba(222, 220, 216, 0.85);
+  padding: 0.85rem 1.15rem;
+}
 
 /* Quiet ink, not accent red. The glow behind this label is now a warm lobe,
    and small red type on it dropped to roughly 1.8:1 — unreadable. It also
