@@ -462,6 +462,41 @@ main {
   transition: width 1.1s ease, height 1.1s ease;
 }
 
+/* The photo reference is not one hue fading out — it is a colour and its
+   opposite in the same form, teal running through orange to a hot crest,
+   with the bands kept tight enough to stay visible. Relative colour syntax
+   builds that whole ramp off the single sampled album colour, so it stays
+   album-reactive instead of being hardcoded to teal/orange.
+   The single-hue version above remains the fallback. */
+@supports (background: radial-gradient(circle, oklch(from red l c h) 0%, transparent 100%)) {
+  .tp-glow {
+    /* cool pole: the complement, dark then bright */
+    --pole-deep: oklch(from var(--wash, var(--accent)) 0.3 calc(c * 0.9) calc(h + 175));
+    --pole-lit: oklch(from var(--wash, var(--accent)) 0.56 calc(c * 1.1) calc(h + 185));
+    /* warm pole: the album's own colour, then a hotter crest just off it */
+    --pole-warm: var(--wash, var(--accent));
+    --pole-crest: oklch(from var(--wash, var(--accent)) 0.68 calc(c * 1.45) calc(h - 22));
+
+    background: radial-gradient(circle,
+      rgba(23, 20, 15, 0) 0%,
+      var(--pole-deep) 22%,
+      var(--pole-lit) 34%,
+      var(--pole-warm) 48%,
+      var(--pole-crest) 58%,
+      rgba(23, 20, 15, 0) 78%);
+    /* less blur than the shared .glow default: at 40px the bands smeared
+       back into the single wash this is meant to replace */
+    filter: blur(20px);
+    /* The reference is dense and inky, not pastel. Over a light panel a
+       normally-composited glow just tints toward white; multiply darkens
+       toward a mixed hue the way ink actually behaves on paper, which is
+       what gives the bands their depth. Transparent stops multiply to
+       identity, so the fade either side still fades to nothing. */
+    mix-blend-mode: multiply;
+    opacity: 0.82;
+  }
+}
+
 .tp-glow-1 { width: 55%; height: 90%; top: -30%; left: -12%; }
 .tp-glow-2 { width: 50%; height: 85%; bottom: -35%; right: -8%; animation-delay: -6s; }
 
@@ -495,12 +530,16 @@ main {
 
 .today-pick .tp-text { position: relative; min-width: 0; }
 
+/* Quiet ink, not accent red. The glow behind this label is now a warm lobe,
+   and small red type on it dropped to roughly 1.8:1 — unreadable. It also
+   makes this label match every other panel label on the site, which are all
+   mono in --ink-2; the red one was the outlier. */
 .today-pick .eyebrow {
   font-family: var(--font-mono);
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-size: 0.58rem;
-  color: var(--accent);
+  color: var(--ink-2);
   margin: 0 0 0.7rem;
 }
 
