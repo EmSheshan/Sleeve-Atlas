@@ -10658,5 +10658,991 @@
     "uuid": "5f34ee8bf0857e55ed5ebdec",
     "image": "https://i.scdn.co/image/91d3ec107a3a87f11d01b7fd1dd0a966f53ada85",
     "savedAt": "2026-10-04T16:15:38.233Z"
+  },
+  "5f34ee8bf0857e55ed5ead3d": {
+    "artist": "Herbie Hancock",
+    "album": "Head Hunters",
+    "year": "1973",
+    "heading": "Head Hunters — Herbie Hancock (1973)",
+    "albumLine": "Released October 26, 1973 on Columbia, produced by Hancock with David Rubinson and recorded that September in San Francisco. It's jazz-funk — a tight, repetitive groove band built around clavinet, synthesizers and African percussion — the record that turned a sideman's-sideman into a commercial force.",
+    "overview": [
+      "Hancock spent the previous three years leading the Mwandishi sextet, an electric, free-leaning band that critics liked and almost nobody paid to see. It was expensive to tour, the label had no machinery for marketing this kind of music to a Black audience, and by mid-1973 Hancock had disbanded it. He's said he was tired of \"everything being heavy\" and wanted something tethered to the ground instead of floating into abstraction. The catalyst, by his own account, was hearing Sly and the Family Stone's \"Thank You (Falettinme Be Mice Elf Agin)\" and feeling it go straight to his core.",
+      "Only saxophonist Bennie Maupin carried over from Mwandishi. Hancock built a new band around bassist Paul Jackson, drummer Harvey Mason and percussionist Bill Summers, writing in repeating, interlocking funk patterns instead of open improvisation. He cut guitar from the lineup and made the Hohner Clavinet — the instrument Stevie Wonder had just centered \"Superstition\" on — his main voice alongside Fender Rhodes and ARP synthesizers. Summers added African and Afro-Latin percussion, at one point blowing across a beer bottle to imitate the hindewhu whistling of Central Africa's Mbuti people.",
+      "Recorded in September 1973 at San Francisco's Wally Heider and Different Fur studios with Rubinson co-producing, three of the four tracks were new: \"Chameleon,\" built on a synthesizer bassline that's since become one of the most recognizable riffs in funk, and \"Sly,\" an extended tribute to Stone. The fourth, \"Watermelon Man,\" was a decade-old tune from Hancock's 1962 debut, remade here around Summers' percussion into something the original hard-bop chart doesn't resemble.",
+      "It outperformed anything Columbia expected: No. 13 on the Billboard 200, gold within six months, platinum by 1986 — the first jazz album to reach either — and the best-selling jazz record ever until George Benson's Breezin' passed it in 1976. It entered the National Recording Registry in 2008. \"Chameleon\" and \"Watermelon Man\" became standard sampling sources for hip-hop and funk producers through the 1980s and '90s, carrying Hancock's rhythm section into records he had no hand in making."
+    ],
+    "listeningNotes": [
+      {
+        "label": "The Clavinet as lead voice",
+        "text": "Hancock plays the Hohner Clavinet with the percussive snap that defined early-'70s funk keyboard, the same tone Stevie Wonder had just put at the center of \"Superstition.\""
+      },
+      {
+        "label": "A synthesizer playing bass",
+        "text": "The famous \"Chameleon\" riff isn't a bass guitar — Hancock plays it on an ARP Odyssey, which is part of why it sounds so rubbery and electronic against Paul Jackson's live bass elsewhere on the record."
+      },
+      {
+        "label": "A beer bottle standing in for a flute",
+        "text": "On \"Watermelon Man,\" Bill Summers blows across the mouth of a bottle to imitate hindewhu, a whistled-and-sung style of the Mbuti people of Central Africa, with several parts stacked on top of each other."
+      },
+      {
+        "label": "Harvey Mason's pocket",
+        "text": "Mason's drumming on \"Chameleon\" and \"Sly\" sits deep in the groove with almost no fills — the discipline of a player built for funk and R&B sessions, not a jazz drummer soloing."
+      },
+      {
+        "label": "\"Sly\" as tribute, not pastiche",
+        "text": "The ten-minute title nod to Sly Stone opens loosely before the band locks into a hard groove, closer to a live improvisation caught on tape than a written chart."
+      },
+      {
+        "label": "\"Vein Melter\" winds all the way down",
+        "text": "The closing track drops the tempo into a slow, foggy minor-key float of Rhodes and bass clarinet — the one moment on the record that still sounds like where Hancock came from."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Head Hunters — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Head_Hunters"
+      },
+      {
+        "title": "Watermelon Man (composition) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Watermelon_Man_(composition)"
+      },
+      {
+        "title": "Flashback: Herbie Hancock Scores a Jazz-Funk Smash With 'Head Hunters' — Rolling Stone",
+        "url": "https://www.rollingstone.com/music/music-features/herbie-hancock-head-hunters-chameleon-live-981695/"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Sly and the Family Stone",
+        "album": "Greatest Hits",
+        "year": "1970",
+        "note": "Hancock has said hearing \"Thank You (Falettinme Be Mice Elf Agin)\" went straight to his core and pointed him toward funk; \"Sly\" is his direct tribute."
+      },
+      {
+        "artist": "Stevie Wonder",
+        "album": "Talking Book",
+        "year": "1972",
+        "note": "Wonder's clavinet-driven funk, especially \"Superstition,\" is the model for the Clavinet sound Hancock made central to this record."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "2Pac",
+        "album": "2Pacalypse Now",
+        "year": "1991",
+        "note": "\"Words of Wisdom\" samples \"Chameleon,\" one of the earliest of dozens of hip-hop records built on this album's grooves."
+      },
+      {
+        "artist": "Digable Planets",
+        "album": "Reachin' (A New Refutation of Time and Space)",
+        "year": "1993",
+        "note": "\"Escapism (Gettin' Free)\" samples \"Watermelon Man\" into a jazz-rap foundation."
+      },
+      {
+        "artist": "The Blackbyrds",
+        "album": "The Blackbyrds",
+        "year": "1974",
+        "note": "Part of the commercial jazz-funk wave that followed once Head Hunters proved the style could sell."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ead3d",
+    "image": "https://i.scdn.co/image/ab67616d00001e026b75d57d2d070c0c4afb3f9a",
+    "savedAt": "2026-10-06T23:49:01.060Z"
+  },
+  "5f34ee8bf0857e55ed5ebe84": {
+    "artist": "Rush",
+    "album": "2112",
+    "year": "1976",
+    "heading": "2112 — Rush (1976)",
+    "albumLine": "Released 24 March 1976 on Mercury Records, produced by Rush with longtime engineer Terry Brown and recorded that January at Toronto Sound Studios. Side one is a seven-part, twenty-minute science-fiction suite; side two is five short, harder songs. It's the album a band on the edge of being dropped made when they stopped trying to sound like the radio.",
+    "overview": [
+      "The context is blunt: 1975's Caress of Steel had flopped, the tour that followed was nicknamed the Down the Tubes Tour by the band itself, and Mercury Records' parent company, PolyGram, had reportedly left Rush off its sales projections for the coming year entirely. Manager Ray Danniels talked the label into one more record. Mercury wanted something commercial. Rush, by Alex Lifeson's account, decided instead: \"We're going to make 2112 and if we go down in flames then at least they're our flames.\"",
+      "What they made was a side-long title suite — Overture, The Temples of Syrinx, Discovery, Presentation, Oracle: The Dream, Soliloquy, Grand Finale — about a future where life is administered by priests of a computer-god called Syrinx, and a man who finds a guitar and rediscovers music and individual will. Side two drops the concept entirely for five compact songs: a drug travelogue (\"A Passage to Bangkok\"), a Rod Serling tribute, a Mellotron ballad, and a closing anthem of self-reliance. It is a hard pivot from epic to single-length song inside one record.",
+      "The title track's debt to Ayn Rand is specific, not vague mood-borrowing: Neil Peart has said the parallels to her novella Anthem — a lone creator rediscovering what a collectivist society has suppressed — became obvious enough as he wrote the lyrics that he added a line to the sleeve to head off any accusation of plagiarism. The liner notes read, exactly: \"With acknowledgement to the genius of Ayn Rand.\" It cost them later — NME critic Barry Miles called the record fascist, which Geddy Lee, whose parents survived the Holocaust, pushed back on hard, insisting the story was anti-totalitarian rather than an endorsement of any regime.",
+      "It worked commercially in a way nothing the band had done before had: 2112 went on to sell four million copies in the US alone, Rush's second-biggest seller after Moving Pictures, and the tour that followed finally sold out rooms. Rolling Stone's readers later ranked it the second-favorite progressive rock album ever made, and it sits in the 1001 Albums canon as the record that bought Rush the creative freedom to keep making Hemispheres and A Farewell to Kings on their own terms. Its fingerprints are all over the heavier end of prog that came after — Dream Theater and Metallica both point to this record specifically as the moment technical hard rock and science-fiction ambition became the same thing."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Overture's cold open",
+        "text": "Hugh Syme's ARP Odyssey and Mellotron swell before any riff lands, a synth intro that was unusual for a trio this guitar-driven in 1976."
+      },
+      {
+        "label": "Temples of Syrinx",
+        "text": "The hook of the whole suite: a snarling, downtuned riff under Geddy Lee's shrillest, most deliberately inhuman vocal, voicing the computer-priests themselves."
+      },
+      {
+        "label": "The side flips completely",
+        "text": "After twenty minutes of suite, \"A Passage to Bangkok\" opens side two as a loose, almost funky riff about drug tourism — a tonal reset that tells you the concept is over."
+      },
+      {
+        "label": "Twilight Zone's economy",
+        "text": "A tight, verse-chorus tribute to Rod Serling's show, proof the band could still write a normal three-minute song when they wanted to."
+      },
+      {
+        "label": "Tears, the one soft track",
+        "text": "Mellotron strings carry a ballad that is almost out of character for the record — the quietest thing on either side."
+      },
+      {
+        "label": "Something for Nothing's closing line",
+        "text": "The last song states the album's individualist moral directly — nothing is free, no one owes you anything — the Rand influence surfacing again outside the title suite."
+      }
+    ],
+    "sources": [
+      {
+        "title": "2112 (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2112_(album)"
+      },
+      {
+        "title": "2112 (song) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2112_(song)"
+      },
+      {
+        "title": "A Look Back at Rush's '2112' — Ultimate Classic Rock",
+        "url": "https://ultimateclassicrock.com/a-look-back-at-rushs-2112/"
+      },
+      {
+        "title": "Rush: 2112 — Album Lyrics and Liner Notes — Cygnus-X1.net",
+        "url": "https://www.cygnus-x1.net/links/rush/albums-2112.php"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Yes",
+        "album": "Close to the Edge",
+        "year": "1972",
+        "note": "The side-long suite built from named movements is the structural template 2112 works from most directly."
+      },
+      {
+        "artist": "King Crimson",
+        "album": "Lizard",
+        "year": "1970",
+        "note": "Rush has cited discovering King Crimson as part of what pushed them toward long-form, multi-section composition."
+      },
+      {
+        "artist": "The Who",
+        "album": "Tommy",
+        "year": "1969",
+        "note": "Peart pointed to Tommy and Quadrophenia as proof a hard rock band could sustain an epic narrative piece."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Dream Theater",
+        "album": "Images and Words",
+        "year": "1992",
+        "note": "Dream Theater have repeatedly named 2112-era Rush as the model for fusing technical metal chops with science-fiction ambition."
+      },
+      {
+        "artist": "Metallica",
+        "album": "Master of Puppets",
+        "year": "1986",
+        "note": "Metallica's members have cited Rush's technical, riff-driven prog-metal hybrid on records like this one as a direct influence."
+      },
+      {
+        "artist": "Iron Maiden",
+        "album": "Powerslave",
+        "year": "1984",
+        "note": "Part of the same lineage of long-form, narrative hard rock that 2112 helped legitimize for a metal audience."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebe84",
+    "image": "https://i.scdn.co/image/ab67616d00001e02ae89fb5c4c8d65809e0c8ed4",
+    "savedAt": "2026-10-06T23:49:03.623Z"
+  },
+  "5f34ee8bf0857e55ed5ebdca": {
+    "artist": "David Bowie",
+    "album": "Low",
+    "year": "1977",
+    "heading": "Low — David Bowie (1977)",
+    "albumLine": "Released 14 January 1977 on RCA, credited to David Bowie and Tony Visconti as co-producers, recorded in September–October 1976 mostly at Château d'Hérouville in France with finishing work at Hansa in West Berlin. It's a record cut cleanly in half: six short, fractured pop songs on side one, four largely instrumental, mostly wordless pieces on side two.",
+    "overview": [
+      "Bowie arrived at this session coming off the Station to Station tour and a period of heavy cocaine use in Los Angeles that he later said he was lucky to survive. He had just spent the summer in France co-writing and producing Iggy Pop's The Idiot, and the plan after that was to leave America, settle in Europe, and make something that didn't sound like the Thin White Duke persona he'd been performing. He described Low as the first album in years he'd made largely without drugs.",
+      "The core band was carried over from Station to Station — Carlos Alomar on guitar, George Murray on bass, Dennis Davis on drums — joined by guitarist Ricky Gardiner and keyboardist Roy Young. Brian Eno was present and contributed synthesizer textures, most notably on an EMS AKS portable synth, but Visconti has been explicit that Eno was not the producer: that credit belongs to him and Bowie. Visconti's own contribution was arguably the record's signature sound — he ran Davis's snare through an Eventide H910 harmonizer, a pitch-shifting device so new that when Bowie asked what it did, Visconti told him it \"fucks with the fabric of time.\" Most of side one was tracked at Hérouville; the band then moved to Hansa for overdubs, vocals, and the completion of side two.",
+      "The split itself was the point. Side one is pop songs that keep stopping short — verses that don't resolve, choruses that arrive late or not at all, an instrumental opener in \"Speed of Life,\" a \"Breaking Glass\" that's over before it's begun. Side two drops vocals almost entirely in favor of long synthesizer pieces — \"Warszawa,\" \"Art Decade,\" \"Weeping Wall,\" \"Subterraneans\" — built from the ambient language Eno had already explored on his own Discreet Music and Another Green World, which Bowie had listened to obsessively on tour.",
+      "RCA hated it on first listen, pushed Bowie to make something closer to Young Americans, and delayed release from late 1976 into January 1977 as a record they considered unsellable at Christmas; Bowie kept the rejection letter. Reviews split hard — Charles Shaar Murray called it close to an act of hatred, while Ian MacDonald heard it as Sinatra reproduced by Martian computers. It still reached No. 2 in the UK and No. 11 in the US. Decades on it's regularly ranked among Bowie's best work, and its two-part structure became one of the most imitated templates in rock."
+    ],
+    "listeningNotes": [
+      {
+        "label": "The harmonizer snare",
+        "text": "Dennis Davis's drums are run through an Eventide H910 pitch-shifter, giving them a compressed, almost mechanical snap. It's the most copied drum sound of the next decade."
+      },
+      {
+        "label": "Songs that cut themselves off",
+        "text": "\"Breaking Glass\" is barely a minute and a half and \"Speed of Life\" has no vocal at all — side one plays like sketches rather than finished pop songs, on purpose."
+      },
+      {
+        "label": "\"Sound and Vision\"",
+        "text": "The closest thing here to a conventional single, but the vocal doesn't enter until well into the track, after an extended instrumental build."
+      },
+      {
+        "label": "The hinge track",
+        "text": "\"A New Career in a New Town\" bridges the two sides — a motorik, Kraftwerk-indebted rhythm under a lonely harmonica line."
+      },
+      {
+        "label": "Side two's instrumentals",
+        "text": "\"Warszawa,\" \"Art Decade\" and \"Weeping Wall\" drop words almost entirely, built from synthesizer drones and Bowie's own wordless, invented-language vocals."
+      },
+      {
+        "label": "Eno's synth textures",
+        "text": "Listen for the EMS AKS synthesizer underneath nearly everything — less a solo instrument than a constant atmospheric pressure on the songs."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Low (David Bowie album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Low_(David_Bowie_album)"
+      },
+      {
+        "title": "David Bowie: Low — AllMusic",
+        "url": "https://www.allmusic.com/album/mw0000185800"
+      },
+      {
+        "title": "Berlin Trilogy — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Berlin_Trilogy"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Kraftwerk",
+        "album": "Radio-Activity",
+        "year": "1975",
+        "note": "Part of the German electronic/krautrock listening — alongside Neu! and Harmonia — that Bowie and Eno drew on for the album's mechanical pulse."
+      },
+      {
+        "artist": "Neu!",
+        "album": "Neu! 75",
+        "year": "1975",
+        "note": "Its motorik rhythm is audible directly in the hinge track \"A New Career in a New Town.\""
+      },
+      {
+        "artist": "Brian Eno",
+        "album": "Discreet Music",
+        "year": "1975",
+        "note": "Bowie listened to this obsessively on the Station to Station tour; its ambient language is the direct template for side two."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Joy Division",
+        "album": "Unknown Pleasures",
+        "year": "1979",
+        "note": "The band took its original name, Warsaw, from the Low track \"Warszawa\"; its cold production owes a clear debt to this record."
+      },
+      {
+        "artist": "Gary Numan / Tubeway Air",
+        "album": "Replicas",
+        "year": "1979",
+        "note": "Synth-driven, emotionally withdrawn post-punk that follows directly from Low's side one."
+      },
+      {
+        "artist": "Nine Inch Nails",
+        "album": "The Downward Spiral",
+        "year": "1994",
+        "note": "Trent Reznor has cited Low as a touchstone for its fractured, electronic sense of dread."
+      },
+      {
+        "artist": "Radiohead",
+        "album": "Kid A",
+        "year": "2000",
+        "note": "A guitar band abandoning song structure for electronics and texture — a path Low mapped first."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebdca",
+    "image": "https://i.scdn.co/image/5575191d033271bc55ed3c9547104b9b674e36fa",
+    "savedAt": "2026-10-06T23:49:04.643Z"
+  },
+  "5f34ee8bf0857e55ed5ebfbf": {
+    "artist": "Beatles",
+    "album": "Rubber Soul",
+    "year": "1965",
+    "heading": "Rubber Soul — The Beatles (1965)",
+    "albumLine": "Released 3 December 1965 on Parlophone in the UK and Capitol in the US, produced by George Martin and recorded in roughly four weeks at EMI Studios on Abbey Road. It's the record where the Beatles stopped writing songs for the singles market and started writing an album — folk-rock phrasing, Dylan-inflected lyrics, and instrumental color the group hadn't reached for before.",
+    "overview": [
+      "By late 1965 the Beatles had made four albums and starred in two films inside three years, nearly all of it written and recorded around touring. Rubber Soul was the first LP they made without a film, a radio series, or an imminent tour pressing on the sessions — just a Christmas release date EMI had already locked in. For the first time they had the studio mostly to themselves, and the songwriting shows it.",
+      "The sessions ran 12 October to 11 November 1965 — thirteen days of actual recording inside that month, around 113 hours plus seventeen more mixing — to meet a release date fixed before a note was cut. The same sessions produced a double A-side single, \"Day Tripper\" / \"We Can Work It Out,\" issued the same day, 3 December, but kept off the LP. That split mattered: for the first time a whole Beatles album carried no hit riding alongside it, just fourteen songs written for the record itself.",
+      "Lennon called \"In My Life\" his \"first real major piece of work,\" crediting journalist Kenneth Allsop's prodding and Bob Dylan, whose Bringing It All Back Home had hit him hard that year; the album's turn toward self-examination over boy-girl filler follows Dylan's lead without copying his sound. The Byrds' jangling folk-rock fed back into Harrison's \"If I Needed Someone.\" And the band reached for new textures: Harrison's sitar on \"Norwegian Wood,\" the first time the instrument turned up on a pop record, fuzz bass on \"Think for Yourself,\" a harmonium, and a half-speed piano overdub standing in for harpsichord on \"In My Life.\"",
+      "Reviews at the time were strong — NME praised its recording artistry, Newsweek dubbed them \"Bards of Pop\" — and it sold enormously, topping the charts on both sides of the Atlantic and moving 1.2 million copies in the US within nine days. The retrospective judgment has only grown: Rolling Stone placed it at No. 5 on its 2012 greatest-albums list, and AllMusic's Richie Unterberger calls the lyrics \"a quantum leap\" in thoughtfulness even where the subjects stayed close to love songs. Its most consequential listener was Brian Wilson, who called it \"the first album I listened to where every song was a gas\" and built Pet Sounds as an attempt to surpass it."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Sitar on \"Norwegian Wood\"",
+        "text": "Harrison plays a borrowed sitar as a plain melodic line rather than a drone — the first time the instrument appeared on a pop record, months before Revolver went further with it."
+      },
+      {
+        "label": "Fuzz bass",
+        "text": "McCartney runs his Rickenbacker through a fuzzbox on \"Think for Yourself,\" a distorted low end the group hadn't used before."
+      },
+      {
+        "label": "The \"harpsichord\" that isn't one",
+        "text": "Martin recorded a piano solo at half speed for \"In My Life\"; sped back up on tape it sounds like a harpsichord, which no one could actually play that fast."
+      },
+      {
+        "label": "No single on the album",
+        "text": "Every track here was written for the LP, not spun off as a 45 — the hit from these sessions, \"Day Tripper\" / \"We Can Work It Out,\" came out the same day on its own."
+      },
+      {
+        "label": "Harrison borrows from the Byrds",
+        "text": "\"If I Needed Someone\" runs on a ringing twelve-string riff close enough to the Byrds' \"The Bells of Rhymney\" that Harrison said as much himself."
+      },
+      {
+        "label": "Harmony with nothing under it",
+        "text": "\"Nowhere Man\" opens on three-part vocal harmony with no instruments at all, a bare entrance the band hadn't tried before."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rubber Soul — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rubber_Soul"
+      },
+      {
+        "title": "Rubber Soul — AllMusic",
+        "url": "https://www.allmusic.com/album/rubber-soul-mw0000192940"
+      },
+      {
+        "title": "Pet Sounds — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pet_Sounds"
+      },
+      {
+        "title": "In My Life — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/In_My_Life"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Bob Dylan",
+        "album": "Bringing It All Back Home",
+        "year": "1965",
+        "note": "Lennon said \"In My Life\" — his \"first real major piece of work\" — was inspired by Dylan alongside journalist Kenneth Allsop; Dylan's example pushed the album toward self-examination over love-song formula."
+      },
+      {
+        "artist": "The Byrds",
+        "album": "Mr. Tambourine Man",
+        "year": "1965",
+        "note": "The Byrds' ringing, folk-derived guitar sound fed directly into Harrison's \"If I Needed Someone,\" built on a riff he acknowledged borrowing from their arrangement of \"The Bells of Rhymney.\""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The Beach Boys",
+        "album": "Pet Sounds",
+        "year": "1966",
+        "note": "Brian Wilson called it \"the first album I listened to where every song was a gas\" and built Pet Sounds as an attempt to surpass it."
+      },
+      {
+        "artist": "The Rolling Stones",
+        "album": "Aftermath",
+        "year": "1966",
+        "note": "Brian Jones took up the sitar after hearing Harrison's playing on \"Norwegian Wood\" and used it on \"Paint It Black.\""
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebfbf",
+    "image": "https://i.scdn.co/image/85cdd8d5563bfa069fbf9399a3455d4ab6be7322",
+    "savedAt": "2026-10-06T23:49:05.723Z"
+  },
+  "5f34ee8bf0857e55ed5ec082": {
+    "artist": "Crosby, Stills & Nash",
+    "album": "Crosby, Stills & Nash",
+    "year": "1969",
+    "heading": "Crosby, Stills & Nash — Crosby, Stills & Nash (1969)",
+    "albumLine": "Released 29 May 1969 on Atlantic, recorded that February and March at Wally Heider's studio in Hollywood and self-produced by the trio with engineer Bill Halverson. It's three refugees from three broken bands building a sound almost entirely out of close vocal harmony and acoustic guitars.",
+    "overview": [
+      "Each of them arrived wrecked from somewhere else. David Crosby was fired from the Byrds in October 1967, mid-session, after fights over his Monterey Pop stage patter and his insistence on recording \"Triad\" over safer material. Stephen Stills watched Buffalo Springfield dissolve in May 1968 under his own feud with Neil Young. Graham Nash quit the Hollies that December, worn out from a band that kept rejecting his new songs as uncommercial — \"Marrakesh Express\" among them. None of the three set out to form a group. By most accounts, Crosby and Nash remember singing together for the first time at Joni Mitchell's house in Laurel Canyon, running through Stills' \"You Don't Have to Cry\" until Nash found a third part on top; Stills places the same moment at Cass Elliot's dining-room table. The disagreement over the room doesn't touch the point — the blend arrived before any plan did.",
+      "What set the record apart from the psychedelic and hard-rock albums around it was that nobody was the leader. All three wrote and all three sang lead, so the album moves between genuinely different voices — Crosby's modal, unresolved \"Guinnevere,\" Stills' extended, confessional \"Suite: Judy Blue Eyes\" (written about his breakup with Judy Collins), Nash's plain, hooky \"Marrakesh Express.\" The arrangements stay mostly acoustic, built to leave room for the vocals rather than compete with them.",
+      "They produced it themselves, with Bill Halverson engineering his first full album. The harmonies were not stacked from separate takes — the three of them gathered around a single tube microphone and sang live together, having already rehearsed the parts for months at houses and clubs before they ever reached a studio. Halverson has described riding the fader levels during mixing so the three vocal tracks were never perfectly equal, which kept the blend from phasing against itself. Stills reportedly cut the entire acoustic guitar part for \"Suite: Judy Blue Eyes\" in one take.",
+      "The album reached No. 6 on the Billboard 200 and went multi-platinum; \"Marrakesh Express\" and \"Suite: Judy Blue Eyes\" both charted, and the group won the Grammy for Best New Artist. Its influence on the Laurel Canyon singer-songwriter scene that followed — the Eagles, Jackson Browne, America — is treated by most critics as close to foundational."
+    ],
+    "listeningNotes": [
+      {
+        "label": "One microphone, three voices",
+        "text": "The vocals were cut live around a single mic rather than overdubbed separately, which is why the blend sounds fused rather than layered."
+      },
+      {
+        "label": "Three songwriters, no leader",
+        "text": "Listen for how different Crosby's, Stills', and Nash's songs sound from each other — the album never settles into one person's style."
+      },
+      {
+        "label": "\"Suite: Judy Blue Eyes\" in sections",
+        "text": "Stills' opener shifts key, tempo, and mood across four distinct parts inside one song, closer to a classical suite than a pop single."
+      },
+      {
+        "label": "Acoustic guitars doing the work of a band",
+        "text": "With little drumming or electric lead, the interlocking acoustic guitar parts — Stills' especially — carry the rhythmic momentum."
+      },
+      {
+        "label": "\"Marrakesh Express\" as the rejected single",
+        "text": "Nash wrote it for the Hollies, who turned it down as too uncommercial; hearing it land as CSN's breezy first single is the clearest measure of what changed."
+      },
+      {
+        "label": "Nash's high part on top",
+        "text": "Nash typically sings the highest line, Crosby finds the middle harmony, and Stills anchors the tonic — the arrangement that supposedly clicked the first time they sang together."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Crosby, Stills & Nash (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Crosby,_Stills_%26_Nash_(album)"
+      },
+      {
+        "title": "Classic Tracks: Crosby, Stills & Nash 'Suite: Judy Blue Eyes' — Sound on Sound",
+        "url": "https://www.soundonsound.com/techniques/classic-tracks-crosby-stills-nash-suite-judy-blue-eyes"
+      },
+      {
+        "title": "On This Day in 1968, an Impromptu Jam at Joni Mitchell's House Led to the Formation of Crosby, Stills & Nash — American Songwriter",
+        "url": "https://americansongwriter.com/on-this-day-in-1968-an-impromptu-jam-at-joni-mitchells-house-led-to-the-formation-of-crosby-stills-nash/"
+      },
+      {
+        "title": "Crosby, Stills & Nash — AllMusic",
+        "url": "https://www.allmusic.com/album/crosby-stills-nash-mw0000650036"
+      },
+      {
+        "title": "The only Graham Nash song The Hollies couldn't figure out — Far Out Magazine",
+        "url": "https://faroutmagazine.co.uk/song-graham-nash-thought-never-worked-for-hollies/"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Byrds",
+        "album": "The Notorious Byrd Brothers",
+        "year": "1968",
+        "note": "Crosby was fired mid-session, but the album's dense vocal stacking and sense of harmony as the main event carried straight into CSN."
+      },
+      {
+        "artist": "Buffalo Springfield",
+        "album": "Buffalo Springfield Again",
+        "year": "1967",
+        "note": "Stills' ambition for extended, multi-section songwriting — the template for \"Suite: Judy Blue Eyes\" — is already audible here."
+      },
+      {
+        "artist": "The Hollies",
+        "album": "Butterfly",
+        "year": "1967",
+        "note": "Nash's push toward lusher, more adventurous pop harmony on the Hollies' most psychedelic record was the direction his own band kept blocking."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "America",
+        "album": "America",
+        "year": "1971",
+        "note": "Formed around explicit CSN-style three-part harmony and strummed acoustic arrangements; critics have compared songs directly to \"Guinnevere\" and \"Suite: Judy Blue Eyes.\""
+      },
+      {
+        "artist": "Eagles",
+        "album": "Eagles",
+        "year": "1972",
+        "note": "Took the close-harmony, acoustic-rooted California sound and turned it into the commercial template for 1970s soft rock."
+      },
+      {
+        "artist": "Jackson Browne",
+        "album": "Jackson Browne",
+        "year": "1972",
+        "note": "Part of the same Laurel Canyon singer-songwriter circle that CSN's success helped open up to major labels."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec082",
+    "image": "https://i.scdn.co/image/c79971df3f3e288729e6561adbc967067c76418c",
+    "savedAt": "2026-10-06T23:49:06.836Z"
+  },
+  "5f34ee8bf0857e55ed5ebfd0": {
+    "artist": "Shuggie Otis",
+    "album": "Inspiration Information",
+    "year": "1974",
+    "heading": "Inspiration Information — Shuggie Otis (1974)",
+    "albumLine": "Released in October 1974 on Epic Records — the last record owed under his three-album contract — written, played and largely engineered alone by Shuggie Otis, who had just turned twenty-one, across three years in a studio his father had built in the family's backyard. It's psychedelic soul made as a one-man home recording rather than a band performance.",
+    "overview": [
+      "Shuggie Otis was born in 1953 into the middle of the Los Angeles R&B world his father, bandleader Johnny Otis, had helped build. He started on guitar at two and was sitting in with his father's band by eleven, disguised in dark glasses and a false mustache to get into after-hours clubs underage. At fifteen his guitar playing turned up on his father's Cold Shot!; that year he also recorded Al Kooper's Kooper Session in New York, in a single weekend. He made his own first album, Here Comes Shuggie Otis, at sixteen, and Freedom Flight — produced by his father, and the source of \"Strawberry Letter 23\" — at seventeen. Inspiration Information was the first record he made without Johnny Otis producing.",
+      "It wasn't made in isolation from his family — Johnny Otis persuaded Columbia to fund a sixteen-track studio, Hawk Sound, in the Otis family's backyard in West Athens, and served as the album's executive producer. Inside that studio, though, Shuggie did almost everything himself — guitar, bass, drums, organ, piano, electric piano, vibraphone, percussion, and lead and backing vocals, engineering his own overdubs across three years of sessions, with outside players brought in only for horns, flute, harp and some strings.",
+      "What made it strange for 1974 was the drum machine. Otis built several tracks around an analog rhythm box instead of a live kit, a choice almost nobody else in soul or funk was making — the nearest precedent is Sly Stone's use of a Maestro Rhythm King on There's a Riot Goin' On three years earlier, also on Epic. Paired with Otis's hushed, close-mic'd vocals and unhurried tempos, it gives the record a private, interior quality: less a studio band's performance than a long, solitary conversation with a tape machine.",
+      "The album stalled at No. 181 on the Billboard 200, the title single peaked at No. 56 on the R&B chart, and Epic dropped him. Otis effectively disappeared from recording for decades, kept alive by his reputation among crate-diggers and by praise from musicians including Prince and Lenny Kravitz. In 2001, David Byrne's label Luaka Bop reissued Inspiration Information with four bonus tracks pulled from Freedom Flight, introducing it to an audience shaped by neo-soul's own interest in self-played, self-produced records. Sharon Jones & the Dap-Kings covered the title track for the 2009 compilation Dark Was the Night. It's now treated as a quietly foundational record rather than a curiosity."
+    ],
+    "listeningNotes": [
+      {
+        "label": "The drum machine pulse",
+        "text": "Several tracks run on a boxy analog rhythm box instead of a live kit — rare in soul music this early, and part of what makes the record feel private rather than performed."
+      },
+      {
+        "label": "Otis's guitar",
+        "text": "His lead lines are fluid and unhurried, closer to a quiet conversation than a solo. Listen for how rarely he reaches for a flashy run."
+      },
+      {
+        "label": "Stacked, solitary vocals",
+        "text": "The backing harmonies are Otis overdubbing himself alone in the room, which gives the vocal blend a slightly uncanny evenness no group session would produce."
+      },
+      {
+        "label": "The hush of a backyard studio",
+        "text": "Everything sits close and dry rather than big and reverberant — the sound of a record made at home, not in a commercial room built for a full band."
+      },
+      {
+        "label": "\"Island Letter\" and \"Sparkle City\"",
+        "text": "The two longer tracks stretch toward six minutes and carry the blues and jazz chording he absorbed from his father's circle, underneath the electric surface."
+      },
+      {
+        "label": "\"Not Available\"",
+        "text": "The closing track runs barely two and a half minutes, a brief, unresolved sketch that ends the album mid-thought rather than on a statement."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inspiration Information — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Inspiration_Information"
+      },
+      {
+        "title": "Shuggie Otis — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Shuggie_Otis"
+      },
+      {
+        "title": "Freedom Flight (Shuggie Otis album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Freedom_Flight_(Shuggie_Otis_album)"
+      },
+      {
+        "title": "There's a Riot Goin' On — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/There%27s_a_Riot_Goin%27_On"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Johnny Otis",
+        "album": "Cold Shot!",
+        "year": "1968",
+        "note": "His father's R&B and blues bandleading world, which Shuggie grew up playing inside from early childhood and which still surfaces in the record's blues and jazz chording."
+      },
+      {
+        "artist": "Sly & the Family Stone",
+        "album": "There's a Riot Goin' On",
+        "year": "1971",
+        "note": "Also on Epic — Sly's overdubbed Maestro Rhythm King drum machine is the nearest contemporary precedent for building tracks without a live kit."
+      },
+      {
+        "artist": "Stevie Wonder",
+        "album": "Music of My Mind",
+        "year": "1972",
+        "note": "The clearest parallel for an R&B artist taking total creative control and playing almost every instrument on the record himself."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "D'Angelo",
+        "album": "Voodoo",
+        "year": "2000",
+        "note": "Commonly cited as a record this quietly paved the way for — hushed, multi-tracked, one-man-band soul in the same vein."
+      },
+      {
+        "artist": "Erykah Badu",
+        "album": "Mama's Gun",
+        "year": "2000",
+        "note": "Part of the neo-soul landscape the 2001 Luaka Bop reissue fed directly into, introducing Otis's record to a new generation of listeners."
+      },
+      {
+        "artist": "Sharon Jones & the Dap-Kings",
+        "album": "Dark Was the Night (compilation)",
+        "year": "2009",
+        "note": "Covered the title track directly, a concrete sign of the album's rediscovery rippling into the indie-soul revival."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebfd0",
+    "image": "https://i.scdn.co/image/626bbd1ddc3be50690c172956e17f7eb5c110388",
+    "savedAt": "2026-10-06T23:49:07.856Z"
+  },
+  "5f34ee8bf0857e55ed5ebed8": {
+    "artist": "Faust",
+    "album": "Faust IV",
+    "year": "1973",
+    "heading": "Faust IV — Faust (1973)",
+    "albumLine": "Released 21 September 1973 on Richard Branson's new Virgin Records, produced by Uwe Nettelbeck and recorded that June at The Manor, Virgin's own studio in Oxfordshire — not, as often assumed, at the band's old schoolhouse in Wümme. It's a German free-noise collective given an English pop label's budget: tape collage and cut-up editing sitting right next to something close to an actual song.",
+    "overview": [
+      "Faust formed in Hamburg in 1970 at the instigation of Uwe Nettelbeck, a music journalist turned producer who pulled together Jean-Hervé Péron, Hans Joachim Irmler, Rudolf Sosna, Gunther Wüsthoff and drummer Werner \"Zappi\" Diermaier, with engineer Kurt Graupner, and sold Polydor on backing a German answer to the Beatles' own studio experiments. Polydor financed a private studio for them: a converted schoolhouse in the village of Wümme, near Bremen, where the band lived and recorded for three years with no deadlines and no outside interference. The first two albums sold almost nothing, and Polydor dropped them in 1972.",
+      "What saved them was a stunt. Nettelbeck assembled The Faust Tapes largely from studio off-cuts and licensed it to the fledgling Virgin Records, who released it in Britain that May at the price of a single — 49 pence — alongside Mike Oldfield's Tubular Bells, one of the label's first four titles. It was a loss-making dare by Richard Branson to put a difficult German band into British homes, and it worked: the record reportedly sold past 50,000 copies, too cheap to chart but impossible to ignore. Virgin's reward was a real budget for Faust IV, recorded that June at the label's own Manor Studio rather than Wümme.",
+      "The album opens with its own joke: an eleven-minute track called \"Krautrock,\" a single hypnotic guitar drone, named after the dismissive tag British journalists had pinned on a whole scene of otherwise unrelated German bands. Péron later said the English use of the word made the band feel the press was \"just taking the piss\"; naming a track after it was grabbing the insult before shrugging it off again. From there the record swings between musique concrète techniques — abrupt edits, found sound, a stray voice dropped in and yanked out — and passages that are disarmingly pretty, \"Jennifer\" being the clearest case, a drifting near-ballad Pitchfork singled out as proof the band could write an actual song.",
+      "Faust IV was the last record the original lineup made and the band's last for Virgin, who dropped them soon after; Faust effectively dissolved for the rest of the decade. Contemporary response was bemused — Spin later called it their \"handsomely failed attempt to sound normal\" — but its reputation grew steadily. It's listed in 1001 Albums You Must Hear Before You Die as a krautrock classic, and the band's tape-collage method became a reference point for later noise, industrial and post-punk acts."
+    ],
+    "listeningNotes": [
+      {
+        "label": "\"Krautrock\" as rebuttal",
+        "text": "The opener is named after the term British critics used to lump together unrelated German bands; the answer is an eleven-minute drone that refuses to resolve into a song."
+      },
+      {
+        "label": "The pivot to pop",
+        "text": "\"Jennifer\" follows as a genuine, slow-burning near-ballad on pulsing bass and clean guitar — the record's biggest surprise, and proof Faust could write conventionally when it suited them."
+      },
+      {
+        "label": "Cut-and-splice editing",
+        "text": "Listen for sudden, unexplained edits throughout: a voice or a loop dropped in and yanked out again, inherited from musique concrète technique rather than studio polish."
+      },
+      {
+        "label": "\"Giggy Smile\" plays it straight",
+        "text": "The one track left almost entirely alone, with no splices and a real rock arrangement — and still the strangest-sounding song here, baffling melody included."
+      },
+      {
+        "label": "A nod to Kraftwerk",
+        "text": "The synth pulse and handclaps on \"Läuft...\" sound close to Kraftwerk's Autobahn, released the same year, before dissolving back into acoustic guitar."
+      },
+      {
+        "label": "A deadpan ending",
+        "text": "\"It's a Bit of a Pain\" closes the record as a gentle acoustic number interrupted by ugly synth bursts and a woman's voice talking over the fade."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Faust IV — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Faust_IV"
+      },
+      {
+        "title": "Faust (band) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Faust_(band)"
+      },
+      {
+        "title": "Krautrock — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Krautrock"
+      },
+      {
+        "title": "Nurse with Wound list — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nurse_with_Wound_list"
+      },
+      {
+        "title": "Faust IV — AllMusic",
+        "url": "https://www.allmusic.com/album/faust-iv-mw0000102835"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Karlheinz Stockhausen",
+        "album": "Gesang der Jünglinge",
+        "year": "1956",
+        "note": "Landmark electronic/musique concrète composition that established the tape-splice, found-sound vocabulary the band pushed into a rock context."
+      },
+      {
+        "artist": "The Beatles",
+        "album": "The Beatles (White Album)",
+        "year": "1968",
+        "note": "\"Revolution 9\" was the prominent prior example of musique concrète tape collage surfacing on a rock record; Faust built an entire method out of what was there a one-off novelty."
+      },
+      {
+        "artist": "Pierre Schaeffer",
+        "album": "Cinq études de bruits",
+        "year": "1948",
+        "note": "The foundational musique concrète work — composing directly with recorded, edited sound rather than notation — that the band's tape-based studio method descends from."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Nurse with Wound",
+        "album": "Chance Meeting on a Dissecting Table of a Sewing Machine and an Umbrella",
+        "year": "1979",
+        "note": "Faust appears by name on the sleeve's famous \"NWW list\" of acts acknowledged as influences on the band's own collage-noise method."
+      },
+      {
+        "artist": "The Fall",
+        "album": "Live at the Witch Trials",
+        "year": "1979",
+        "note": "Mark E. Smith named Faust alongside Can as a touchstone for the band's repetitive, tape-experiment-inflected early sound."
+      },
+      {
+        "artist": "Throbbing Gristle",
+        "album": "The Second Annual Report",
+        "year": "1977",
+        "note": "Industrial music's founding record carries forward Faust's tape-loop noise-collage approach into a more hostile, confrontational register."
+      },
+      {
+        "artist": "Sonic Youth",
+        "album": "Confusion Is Sex",
+        "year": "1983",
+        "note": "Sonic Youth have named Faust among their influences; this is the most abrasive, detuned, collage-built record in their early catalogue."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebed8",
+    "image": "https://i.scdn.co/image/f73b81fe336071103af18a69890295b20be67137",
+    "savedAt": "2026-10-06T23:49:08.889Z"
+  },
+  "5f34ee8bf0857e55ed5ebf9e": {
+    "artist": "Elvis Presley",
+    "album": "From Elvis In Memphis",
+    "year": "1969",
+    "heading": "From Elvis In Memphis — Elvis Presley (1969)",
+    "albumLine": "Released 2 June 1969 on RCA Victor, produced by Chips Moman and recorded that January and February at American Sound Studio in Memphis. It's Elvis cut loose from Hollywood and Nashville alike, singing soul, country and blues songs with a working R&B session band rather than his usual studio crew — his first album of real, non-soundtrack material in the better part of a decade.",
+    "overview": [
+      "For most of the 1960s Elvis Presley made movies, not records. He starred in more than two dozen pictures and the albums were soundtracks — cheap, built around whatever songs the publishing arm could clear rather than what suited him — and he had barely performed live since 1961. The NBC special that aired 3 December 1968, the '68 Comeback Special, broke that pattern: stripped down, sweating in black leather, singing old rock and roll and blues in front of a small audience, he reminded everyone, including himself, what he actually sounded like. He reportedly told the special's director he was through making records and movies he didn't believe in.",
+      "Making good on that meant leaving his usual studios and Nashville players for American Sound Studio, a converted garage in Memphis run by producer Chips Moman with his own house band, the Memphis Boys — Reggie Young on guitar, Tommy Cogbill and Mike Leech on bass, Bobby Wood on piano, Bobby Emmons on organ, Gene Chrisman on drums. By January 1969 that studio had already cut well over a hundred chart records with the same six musicians: the Box Tops' \"The Letter\" and \"Cry Like a Baby,\" King Curtis's \"Memphis Soul Stew,\" Dusty Springfield's Dusty in Memphis sessions just months earlier. Moman and his band were a proven hit machine before Elvis walked in.",
+      "The sessions, spread across two weeks in January and another in February, were productive and tense. The friction that's actually documented was over publishing: Freddy Bienstock, who ran the Hill & Range operation tied to Colonel Parker's business, tried to steer Elvis back toward songs the Parker machine had a stake in, and clashed hard enough with Moman that Moman told him to take the tapes and leave rather than let outside material get pushed off the session. RCA's Harry Jenkins backed Moman and sent Bienstock away — which is why \"In the Ghetto\" and \"Suspicious Minds\" survived to be recorded at all.",
+      "Twelve songs from the sessions made the LP; \"In the Ghetto\" had already gone out as a single in April and closes the record, while \"Suspicious Minds,\" cut at the same sessions, was held back for a non-album single that August and became Elvis's last American No. 1. The album reached No. 13 on Billboard, went gold, and got a lead review in Rolling Stone the next month with Elvis on the cover — a serious magazine treating him as a serious artist again. AllMusic later called it one of the greatest soul albums ever cut by a white singer."
+    ],
+    "listeningNotes": [
+      {
+        "label": "\"In the Ghetto\" closes it",
+        "text": "Mac Davis's song about a child born into rural poverty; Elvis sings it flat and unornamented, no vocal tricks, which is why it works."
+      },
+      {
+        "label": "The Memphis Boys' pocket",
+        "text": "Chrisman's drums and Cogbill's bass sit far back in the mix on \"Long Black Limousine\" — a patient soul-single groove now carrying a story about a funeral."
+      },
+      {
+        "label": "\"I'm Movin' On\" turned inside out",
+        "text": "A 1950 Hank Snow country hit rebuilt as a horn-driven soul stomp — the whole argument for why this studio made sense for him."
+      },
+      {
+        "label": "Restraint on the ballads",
+        "text": "\"Any Day Now\" and \"True Love Travels on a Gravel Road\" are sung quietly, almost conversationally, far from his movie-era bombast."
+      },
+      {
+        "label": "What isn't here",
+        "text": "\"Suspicious Minds,\" cut in the same room days apart from everything else, was held off the LP entirely — this is one edit of a much bigger session."
+      }
+    ],
+    "sources": [
+      {
+        "title": "From Elvis in Memphis — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/From_Elvis_in_Memphis"
+      },
+      {
+        "title": "From Memphis to Vegas / From Vegas to Memphis — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/From_Memphis_to_Vegas_/_From_Vegas_to_Memphis"
+      },
+      {
+        "title": "From Elvis in Memphis — AllMusic",
+        "url": "https://www.allmusic.com/album/from-elvis-in-memphis-mw0000262451"
+      },
+      {
+        "title": "Marty Lacker on Elvis' 1969 Memphis recording sessions — elvis.com.au",
+        "url": "https://www.elvis.com.au/presley/marty-lacker-on-elvis-1969-memphis-recording-sessions.shtml"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Box Tops",
+        "album": "The Letter / Cry Like a Baby",
+        "year": "1967",
+        "note": "Chips Moman and the Memphis Boys were already a proven hit factory at American Sound before Elvis arrived — these were two of the studio's biggest records."
+      },
+      {
+        "artist": "King Curtis",
+        "album": "Memphis Soul Stew",
+        "year": "1967",
+        "note": "Cut by the same house band at the same studio, a record that literally names the musicians as it introduces them — the sound Elvis was walking into."
+      },
+      {
+        "artist": "Dusty Springfield",
+        "album": "Dusty in Memphis",
+        "year": "1969",
+        "note": "Recorded at American Sound with the same Memphis Boys only months before Elvis's sessions, proof the studio could turn a non-Southern singer into a convincing soul record."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Elvis Presley",
+        "album": "From Memphis to Vegas / From Vegas to Memphis",
+        "year": "1969",
+        "note": "RCA's follow-up double LP paired a live Las Vegas disc with ten more leftover American Sound tracks, packaging the studio comeback and the live comeback as one story."
+      },
+      {
+        "artist": "Elvis Presley",
+        "album": "Suspicious Minds",
+        "year": "1969",
+        "note": "Cut at the same sessions but held off this LP and released as a single that August; it became his last U.S. No. 1 and is now inseparable from this record's story."
+      },
+      {
+        "artist": "Elvis Presley",
+        "album": "Elvis Country (I'm 10,000 Years Old)",
+        "year": "1971",
+        "note": "The next studio album to lean this hard on roots material and serious reviews, carrying forward the credibility this one had re-established."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebf9e",
+    "image": "https://i.scdn.co/image/ab67616d00001e02fdc0aa7765f3197ac9179ec7",
+    "savedAt": "2026-10-06T23:49:09.952Z"
+  },
+  "5f34ee8bf0857e55ed5ebf94": {
+    "artist": "Wilco",
+    "album": "Being There",
+    "year": "1996",
+    "heading": "Being There — Wilco (1996)",
+    "albumLine": "Released 29 October 1996 on Reprise, self-produced by the band after sessions running from late 1995 into the summer of 1996. It's a deliberate double album — nineteen songs across two discs — and the record where Wilco stopped sounding like the Uncle Tupelo they'd left behind.",
+    "overview": [
+      "Jeff Tweedy had been the other singer in Uncle Tupelo, the band credited with more or less inventing alt-country, until Jay Farrar quit in January 1994 and the group played its last show that May. Tweedy kept the rhythm section — Stirratt, Coomer, Max Johnston — and called the new band Wilco. The 1995 debut, A.M., produced by Brian Paulson (who'd also produced Uncle Tupelo), sounded like a continuation of the old band and was received as exactly that. For the second record Tweedy brought in a new guitarist and keyboardist, Jay Bennett, plus pedal-steel player Bob Egan, and wanted something else entirely.",
+      "Sessions in Chicago, Springfield, Missouri and Atlanta produced around thirty songs, trimmed to nineteen. The band wanted it out as a double album rather than cut further, and Reprise balked at the price a double LP normally carries. Tweedy made a direct deal with label president Howie Klein: Being There would sell at single-album price, and Wilco would give up a large share of their royalty rate to cover the gap — a trade Tweedy later put at roughly $600,000. It worked commercially, selling close to 300,000 copies, nearly double A.M., and the discount became part of the record's own mythology.",
+      "Musically it splits its loyalties on purpose. Straight, pedal-steel country songs sit next to tracks built from piano, horns and studio noise that owe nothing to Uncle Tupelo. AllMusic's review called it a cross between Neil Young's Harvest, the Rolling Stones' Exile on Main St. and Big Star's Third — reference points nobody would reach for on A.M. \"Misunderstood\" folds in a line from Cleveland punk singer Peter Laughner and aims squarely at the breakup with Farrar; \"Monday\" is unapologetic Stones pastiche. Wilco recorded and mixed each song in a single day, which widened rather than narrowed the gap between the record's two halves.",
+      "Critics treated it as the point where Wilco earned separation from the alt-country tag — Rolling Stone, Pitchfork and NME all reviewed it enthusiastically, and it later placed on several best-of-the-'90s lists. It's the hinge between A.M.'s plain roots-rock and the stranger records — Summerteeth, then Yankee Hotel Foxtrot — that made Wilco's reputation. The lineup didn't hold either: Johnston left after this album feeling crowded out by Bennett, and Egan appears on no other Wilco record. A transitional record by people who didn't yet know what they were transitioning into."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Misunderstood",
+        "text": "The opener spends two minutes building tension on a single chord before breaking into a line lifted from Peter Laughner's \"Amphetamine\" and a swipe at Jay Farrar — the clearest link back to the Uncle Tupelo breakup anywhere on the record."
+      },
+      {
+        "label": "Monday",
+        "text": "A direct, unembarrassed Stones pastiche, horns and all — the clearest evidence of Exile on Main St. in Tweedy's ear while he wrote this."
+      },
+      {
+        "label": "Jay Bennett's arrival",
+        "text": "His first album with the band. The accordion, lap steel and extra keyboards scattered through the second disc are mostly him, pushing songs like \"Far, Far Away\" past where A.M. would have stopped."
+      },
+      {
+        "label": "Bob Egan's pedal steel",
+        "text": "Egan plays on this record only. His steel runs through the straighter country songs that the album's surreal half is deliberately set against."
+      },
+      {
+        "label": "Outtasite (Outta Mind)",
+        "text": "The closest thing to a single, and a tight piece of Big Star-style power pop — proof the band could write three clean minutes when the double-album sprawl wasn't the point."
+      },
+      {
+        "label": "Sunken Treasure",
+        "text": "A slow, mostly acoustic song about Tweedy's own punk-rock adolescence, sequenced right after the noisiest material — the record's clearest statement of what it's actually about."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Being There (Wilco album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Being_There_(Wilco_album)"
+      },
+      {
+        "title": "Uncle Tupelo — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Uncle_Tupelo"
+      },
+      {
+        "title": "Wilco: Being There — AllMusic",
+        "url": "https://www.allmusic.com/album/being-there-mw0000613155"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Rolling Stones",
+        "album": "Exile on Main St.",
+        "year": "1972",
+        "note": "AllMusic pegged Being There as a cross between this album, Big Star's Third and Neil Young's Harvest; \"Monday\" in particular is a direct Stones pastiche, horns and all."
+      },
+      {
+        "artist": "Big Star",
+        "album": "Third (Sister Lovers)",
+        "year": "1978",
+        "note": "The power pop and studio-damaged melancholy of songs like \"Outtasite (Outta Mind)\" draws on Big Star's later, stranger records more than anything in the alt-country catalog."
+      },
+      {
+        "artist": "Neil Young",
+        "album": "Harvest",
+        "year": "1972",
+        "note": "The straighter country-rock songs on the album's other half — pedal steel, unadorned verses — sit closer to Harvest-era Young than to Uncle Tupelo."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Wilco",
+        "album": "Summerteeth",
+        "year": "1999",
+        "note": "Built directly on Being There's breakthrough, pushing further from alt-country into denser, more produced pop — the trajectory this record started."
+      },
+      {
+        "artist": "Whiskeytown",
+        "album": "Strangers Almanac",
+        "year": "1997",
+        "note": "Released the following year by another band straining against alt-country's rules, with a looser, rock-informed sound critics have compared directly to Being There-era Wilco."
+      },
+      {
+        "artist": "Drive-By Truckers",
+        "album": "Southern Rock Opera",
+        "year": "2001",
+        "note": "Part of the same widening of alt-country toward a bigger classic and Southern-rock palette that Being There pushed into the genre's mainstream."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebf94",
+    "image": "https://i.scdn.co/image/7ed8c0d87b4338447d3153b842645b309a142c6e",
+    "savedAt": "2026-10-06T23:49:11.082Z"
+  },
+  "5f34ee8bf0857e55ed5ebf71": {
+    "artist": "The Replacements",
+    "album": "Let It Be",
+    "year": "1984",
+    "heading": "Let It Be — The Replacements (1984)",
+    "albumLine": "Released 2 October 1984 on Twin/Tone, an independent Minneapolis label, and produced by Steve Fjelstad with Peter Jesperson and the band. It's the record where a scrappy hardcore outfit became a real songwriting band without sanding off the mess.",
+    "overview": [
+      "The Replacements started as a hardcore punk band in Minneapolis, and for two albums that was mostly the point: fast, drunk, deliberately sloppy, more interested in wrecking a show than finishing one. By 1983 that act was wearing thin even on the band. Paul Westerberg later said flatly that \"playing that kind of noisy, fake hardcore rock was getting us nowhere, and it wasn't a lot of fun\" — and they'd taken to needling their own hardcore audience onstage, breaking into covers of soft pop acts like the DeFranco Family just to watch the crowd that demanded strict punk orthodoxy squirm.",
+      "Let It Be is the record where the needling turns into actual songwriting. Fast, dumb, juvenile tracks are still there — \"We're Comin' Out,\" \"Gary's Got a Boner,\" \"Favorite Thing\" — but they're sequenced right next to songs that are plainly, unguardedly sincere: \"Unsatisfied,\" \"Sixteen Blue,\" \"Answering Machine,\" \"Androgynous.\" Westerberg's lyrics turn toward adolescence, rejection, and self-consciousness, handled with humor rather than pure angst, and the arrangements for the first time sound like someone worked them out rather than just banging riffs into titles.",
+      "The album was recorded in pieces between August 1983 and February 1984 at Blackberry Way Studios in Minneapolis, with Fjelstad, Jesperson, and the band sharing production, which kept the sessions loose rather than polished. The clearest sign of the shift is the opener, \"I Will Dare\": a jangly shuffle instead of noise, with Peter Buck of R.E.M. dropping in to play the guitar solo after lead guitarist Bob Stinson said he simply couldn't come up with one.",
+      "The title is a deliberate jab at the Beatles, and the band told the story themselves: unable to settle on a name, they decided the next song to come on the radio would supply it, and \"Let It Be\" came on. Westerberg later put the joke's point plainly — \"our way of saying that nothing is sacred, that the Beatles were just a fine rock & roll band\" — aimed partly at Jesperson's own Beatles devotion. Critics took the record seriously regardless: Robert Christgau gave it an A+ and ranked it second for 1984, and it's since been treated as a cornerstone of American alternative rock, cited directly by bands from the Goo Goo Dolls to the Gaslight Anthem to Uncle Tupelo."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Two records at once",
+        "text": "Leftover hardcore ragers sit back to back with plainly sincere songs rather than blending into each other — the sequencing doesn't smooth over the whiplash."
+      },
+      {
+        "label": "\"I Will Dare\" opens it",
+        "text": "A jangly shuffle, not a blast of noise, with Peter Buck guesting on the solo because Bob Stinson couldn't land one himself."
+      },
+      {
+        "label": "\"Androgynous\" at the piano",
+        "text": "Westerberg alone at the piano singing sympathetically about two people who don't fit gender roles — startling material for a hardcore band's third album in 1984."
+      },
+      {
+        "label": "\"Unsatisfied\" and \"Sixteen Blue\"",
+        "text": "Open-chord ache about adolescent loneliness, played straight, with no punchline to undercut it."
+      },
+      {
+        "label": "\"Gary's Got a Boner\"",
+        "text": "The band still willing to be stupid on purpose — proof the songwriting growth wasn't a personality transplant."
+      },
+      {
+        "label": "Loose, unfussy sound",
+        "text": "The Blackberry Way sessions sound like a bar band caught live in a room, seams and all, not a tidied-up studio record."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Let It Be (The Replacements album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Let_It_Be_(The_Replacements_album)"
+      },
+      {
+        "title": "I Will Dare — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/I_Will_Dare"
+      },
+      {
+        "title": "Androgynous (song) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Androgynous_(song)"
+      },
+      {
+        "title": "The Replacements (band) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Replacements_(band)"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Black Flag",
+        "album": "Damaged",
+        "year": "1981",
+        "note": "The hardcore punk template the Replacements emerged from and, by this record, were visibly pulling away from."
+      },
+      {
+        "artist": "Big Star",
+        "album": "Radio City",
+        "year": "1974",
+        "note": "The power-pop melodicism Westerberg increasingly leaned on as a songwriter; he'd later write 'Alex Chilton' as an outright homage."
+      },
+      {
+        "artist": "Small Faces / The Rolling Stones",
+        "album": "—",
+        "year": "1960s",
+        "note": "British Invasion hooks and swagger that Westerberg mixed with punk rage to build the album's more structured songs."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The Goo Goo Dolls",
+        "album": "Superstar Car Wash",
+        "year": "1993",
+        "note": "Johnny Rzeznik calls Westerberg an obvious influence; Westerberg co-wrote 'We Are the Normal' for this album."
+      },
+      {
+        "artist": "Uncle Tupelo",
+        "album": "No Depression",
+        "year": "1990",
+        "note": "Cited the Replacements as a key influence in fusing punk energy with plain, sincere songwriting."
+      },
+      {
+        "artist": "The Gaslight Anthem",
+        "album": "The '59 Sound",
+        "year": "2008",
+        "note": "Brian Fallon has said flatly that without the Replacements there would be no Gaslight Anthem."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebf71",
+    "image": "https://i.scdn.co/image/e6b7017e41004f75772887ce49368884ce7fa7db",
+    "savedAt": "2026-10-06T23:49:12.178Z"
   }
 }
