@@ -439,8 +439,8 @@ main {
   inset: -40px;
   background-repeat: repeat;
   background-size: 300px 300px;
-  filter: blur(40px) saturate(1.8);
-  opacity: 0.5;
+  filter: blur(26px) saturate(1.8);
+  opacity: 0.85;
 }
 
 /* Full-strength tier: real album colour, via the --wash custom property
@@ -516,10 +516,14 @@ main {
 .today-pick:hover .tp-glow-1 { width: 64%; height: 100%; }
 .today-pick:hover .tp-glow-2 { width: 58%; height: 94%; }
 
+/* Was near-opaque (0.55-0.9) — enough to wash the actual cover out to
+   near-white. Cut way back so the tiled album art (and the colour blobs
+   multiplying over it) is what reads, with just enough wash left for the
+   title to stay legible over whatever that art happens to look like. */
 .tp-wash {
   position: absolute;
   inset: 0;
-  background: linear-gradient(100deg, rgba(222, 220, 216, 0.9) 0%, rgba(222, 220, 216, 0.55) 60%, rgba(222, 220, 216, 0.85) 100%);
+  background: linear-gradient(100deg, rgba(222, 220, 216, 0.4) 0%, rgba(222, 220, 216, 0.16) 60%, rgba(222, 220, 216, 0.32) 100%);
 }
 
 /* was a diagonal hatch over the wash; the grain is exactly what we removed */
