@@ -562,12 +562,17 @@
     // and risks a tainted-canvas failure sampling the SVG element directly.
     // sampledPlate() caches by img.src, so this costs nothing extra if the
     // browser already fetched the same URL for the grid/modal this session.
+    // A thin stroke needs more contrast than a wash or a card's background
+    // plate — the default inkify() range (maxL 0.52) left yellows barely
+    // darker than --paper. Capped harder here, same idea as today's-pick's
+    // own tightened wash opts.
+    const edgeOpts = { minS: 0.55, minL: 0.2, maxL: 0.36 };
     for (const d of nodeData) {
       if (d.source !== "list" || !d.image) continue;
       const img = new Image();
       img.crossOrigin = "anonymous";
       img.addEventListener("load", () => {
-        const css = sampledPlate(img);
+        const css = sampledPlate(img, edgeOpts);
         if (!css) return;
         d.color = css;
         link
