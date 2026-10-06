@@ -53,7 +53,7 @@ await saveNote({
   ],
 
   influencedBy: [
-    { artist: "Sly & The Family Stone", album: "There's a Riot Goin' On", year: "1971", note: "The integrated, multi-racial band playing funk-rock with a drum machine — a direct structural ancestor." },
+    { artist: "Sly & the Family Stone", album: "There's a Riot Goin' On", year: "1971", note: "The integrated, multi-racial band playing funk-rock with a drum machine — a direct structural ancestor." },
     { artist: "Jimi Hendrix", album: "Are You Experienced", year: "1967", note: "The precedent for a Black guitarist claiming rock soloing as his own territory, which Prince's playing here consciously extends." },
     { artist: "Joni Mitchell", album: "The Hissing of Summer Lawns", year: "1975", note: "Prince repeatedly named Mitchell as a formative influence, particularly her harmonic writing and studio approach." },
   ],
