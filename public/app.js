@@ -234,11 +234,18 @@ function sampledRadialGradient(img, opts) {
   if (plateCache.has(cacheKey)) return plateCache.get(cacheKey);
   let css = null;
   try {
+    // Colour runs to 90% before fading, not ~75% — the morph animation's
+    // irregular border-radius lives in the outer edge, and it only reads
+    // as an abstract shape (not a circle) if that edge actually has colour
+    // in it to be clipped. A fade that finishes well before the edge hides
+    // the clip shape entirely regardless of how extreme it gets.
     const palette = dominantPalette(img, 4).map((rgb) => cssRgb(inkify(rgb, opts)));
     if (palette.length) {
       css = `radial-gradient(circle, rgba(23, 20, 15, 0) 0%, ${palette[0]} 20%, ${
         palette[1] || palette[0]
-      } 40%, ${palette[2] || palette[0]} 58%, ${palette[3] || palette[0]} 76%, rgba(23, 20, 15, 0) 92%)`;
+      } 40%, ${palette[2] || palette[0]} 58%, ${palette[3] || palette[0]} 72%, ${
+        palette[3] || palette[0]
+      } 90%, rgba(23, 20, 15, 0) 99%)`;
     }
   } catch {
     css = null;

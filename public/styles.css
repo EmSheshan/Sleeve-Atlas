@@ -57,10 +57,14 @@
   pointer-events: none;
 }
 
+/* Wide spread between the four corner pairs (was a tight 38-62% band,
+   which on an ellipse still reads as "a circle, breathing" — this goes
+   most of the way to 20-80% so it reads as an irregular blob instead). */
 @keyframes glow-morph {
-  0%   { border-radius: 42% 58% 61% 39% / 47% 44% 56% 53%; transform: scale(1) rotate(0deg); }
-  50%  { border-radius: 58% 42% 38% 62% / 55% 60% 40% 45%; transform: scale(1.08) rotate(8deg); }
-  100% { border-radius: 48% 52% 55% 45% / 40% 55% 45% 60%; transform: scale(1.02) rotate(-6deg); }
+  0%   { border-radius: 24% 76% 68% 32% / 58% 30% 70% 42%; transform: scale(1) rotate(0deg); }
+  33%  { border-radius: 70% 30% 22% 78% / 38% 68% 32% 62%; transform: scale(1.12) rotate(14deg); }
+  66%  { border-radius: 42% 58% 78% 22% / 72% 26% 74% 28%; transform: scale(0.92) rotate(-10deg); }
+  100% { border-radius: 60% 40% 35% 65% / 30% 65% 35% 70%; transform: scale(1.06) rotate(6deg); }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -455,7 +459,8 @@ main {
   background: radial-gradient(circle,
     rgba(23, 20, 15, 0) 0%,
     var(--wash, var(--accent)) 42%,
-    rgba(23, 20, 15, 0) 100%);
+    var(--wash, var(--accent)) 82%,
+    rgba(23, 20, 15, 0) 98%);
   /* width/height aren't touched by glow-morph's keyframes (only
      border-radius/transform are), so they're free to transition smoothly
      on hover without fighting the running animation. */
@@ -482,14 +487,20 @@ main {
        it wins over the two-pole mathematical derivation below, since an
        actual photo of the actual cover beats any formula built from one
        sampled hue. The two-pole version is what shows before it resolves
-       (or if extraction fails), not a second fallback bolted on. */
+       (or if extraction fails), not a second fallback bolted on.
+       Colour now runs to 90% before fading (was 78%) — at the old range
+       the irregular border-radius from glow-morph lived entirely in the
+       already-transparent outer edge, so the clip shape never actually
+       showed and every blob just looked like a soft circle regardless of
+       how extreme the keyframes got. */
     background: var(--wash-grad, radial-gradient(circle,
       rgba(23, 20, 15, 0) 0%,
       var(--pole-deep) 22%,
       var(--pole-lit) 34%,
       var(--pole-warm) 48%,
-      var(--pole-crest) 58%,
-      rgba(23, 20, 15, 0) 78%));
+      var(--pole-crest) 70%,
+      var(--pole-crest) 90%,
+      rgba(23, 20, 15, 0) 99%));
     /* less blur than the shared .glow default: at 40px the bands smeared
        back into the single wash this is meant to replace */
     filter: blur(20px);
