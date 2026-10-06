@@ -733,7 +733,11 @@ main {
   z-index: -1;
   opacity: 0;
   filter: blur(36px);
-  background: var(--plate-grad, var(--plate));
+  /* --plate-wash (a per-album diagonal angle, set in app.js) rather than
+     reusing --plate-grad — that one's a clean 90deg sweep built for the
+     thin line under the title, and read as a perfectly vertical-banded
+     haze at this size with nothing to break it up. */
+  background: var(--plate-wash, var(--plate-grad, var(--plate)));
   transition: opacity 0.4s ease;
   pointer-events: none;
 }

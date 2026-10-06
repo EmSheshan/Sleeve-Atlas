@@ -225,6 +225,38 @@ function sampledGradient(img, opts) {
   return css;
 }
 
+// Tiny deterministic string hash — same image always gets the same angle on
+// reload, but different albums land at genuinely different angles.
+function hashString(str) {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) h = (Math.imul(h, 31) + str.charCodeAt(i)) | 0;
+  return Math.abs(h);
+}
+
+// Same palette as sampledGradient, but for the blurred hover wash behind a
+// card rather than the thin line under it — a straight 90deg sweep looked
+// identical (and perfectly vertical-banded) on every single card, so the
+// angle is derived per-album instead, landing somewhere diagonal rather
+// than axis-aligned on purpose (the two gaps below dodge both the
+// perfectly-vertical 90deg this replaces and a perfectly-horizontal one).
+function sampledWashGradient(img, opts) {
+  const cacheKey = "wash:" + img.src + JSON.stringify(opts || {});
+  if (plateCache.has(cacheKey)) return plateCache.get(cacheKey);
+  let css = null;
+  try {
+    const palette = dominantPalette(img, 3).map((rgb) => cssRgb(inkify(rgb, opts)));
+    if (palette.length) {
+      const h = hashString(img.src) % 140;
+      const angle = h < 70 ? 10 + h : 100 + (h - 70); // -> [10,80) U [100,170) — skips 80-99 (near-vertical)
+      css = `linear-gradient(${angle}deg, ${palette.join(", ")})`;
+    }
+  } catch {
+    css = null;
+  }
+  plateCache.set(cacheKey, css);
+  return css;
+}
+
 // Same real-palette extraction as sampledGradient, but shaped as a radial
 // bloom (transparent core and edge, colour in between) for the today's-pick
 // glow blobs instead of a straight line — four real swatches from the
@@ -404,6 +436,10 @@ function renderCards(entries) {
       undefined,
       (grad) => card.style.setProperty("--plate-grad", grad)
     );
+    cover.addEventListener("load", () => {
+      const wash = sampledWashGradient(cover);
+      if (wash) card.style.setProperty("--plate-wash", wash);
+    });
     cover.loading = "lazy";
     card.querySelector(".art-frame").appendChild(cover);
 
