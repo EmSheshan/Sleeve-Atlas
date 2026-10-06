@@ -2,28 +2,28 @@
 
 A companion to [1001 Albums Generator](https://1001albumsgenerator.com/). It pulls your album history from the public API and pairs each record with a researched note — why it matters, how it was made, what to listen for — plus a force-directed map of what influenced what.
 
-The site is **fully static**. There's no server and no API key.
+The site is static except for one thing: submitting a rating/review has to POST to the 1001 Albums Generator API, and its CORS preflight only allows `GET, OPTIONS` — a cross-origin POST never leaves the browser. `netlify/functions/` is a same-origin proxy around that, so it works wherever the site is deployed, not just locally.
 
 ## Running it locally
 
 ```bash
 npm install
-npm start
+npm run build
+npm run dev
 ```
 
-Then open http://localhost:4001 and enter your generator project name (e.g. `emsh`), or paste your full generator URL.
-
-`npm start` builds `dist/` and serves it. The Express dependency is only a local static file server — `fetch()` of the baked JSON needs http rather than `file://`. Use `npm run build` alone to produce `dist/` without serving.
+`npm run dev` runs `netlify dev` (via `npx`, no global install needed), which serves `dist/` and the functions in `netlify/functions/` together on one local port, and prints the URL to open. Use `npm run build` alone to produce `dist/` without serving.
 
 ## How it's built
 
-The 1001 Albums Generator API sends `Access-Control-Allow-Origin: *` on every endpoint used here, so the browser calls it directly and no proxy is needed. Only two things get baked at build time.
+The 1001 Albums Generator API sends `Access-Control-Allow-Origin: *` on every GET endpoint used here, so the browser calls those directly. Only the write path needs a proxy.
 
-- `public/data-source.js` — the single data layer. Live data (project, group, group reviews, global reviews) goes straight to the upstream API; notes and rating averages come from baked JSON. Same code path locally and in production.
+- `public/data-source.js` — the single data layer. Live reads (project, group, group reviews, global reviews) go straight to the upstream API; notes and rating averages come from baked JSON; writes (`canRate`/`write`) go through `netlify/functions/`. Same relative paths locally (`netlify dev`) and in production.
+- `netlify/functions/write.mjs` — proxies the three upstream write endpoints (`rate`, `notes`, `listening-note`) around the CORS restriction.
+- `netlify/functions/capabilities.mjs` — tells the client rating is available.
 - `scripts/build-static.mjs` — produces `dist/`: the app, `data/insights.json` (the notes), and `data/album-stats.json` (global averages, trimmed from the upstream ~800KB table to the two fields used, keyed by both Spotify id and `artist::title` since the two upstream tables disagree on ids).
 - `scripts/notes/*.mjs` — one file per album note, each calling `saveNote()` from `scripts/save-note.mjs`, which resolves the album's uuid and writes into `data/insights.json`.
 - `public/graph.js` — D3 map. The graph is **derived from the notes** at runtime rather than stored, so it can't drift out of sync with them.
-- `server/index.js` — local static file server only.
 
 ## Adding a note
 
@@ -37,4 +37,4 @@ It prints the word count so the 450–650 budget can be checked. `artist` and `a
 
 ## Deploying
 
-Pushing to `main` triggers `.github/workflows/static.yml`, which runs the build and publishes `dist/` to GitHub Pages.
+Connected to Netlify: pushing to `main` triggers a build (`npm run build`, configured in `netlify.toml`) and publishes `dist/` plus the functions. GitHub Pages is no longer used — it can't run the proxy functions at all (static-only host, no server-side execution).

@@ -1,10 +1,12 @@
 // Single data layer for the whole app.
 //
 // The 1001 Albums Generator API sends `Access-Control-Allow-Origin: *` on every
-// endpoint we use, so the browser can call it directly — the old Express proxy
-// existed to dodge a CORS problem that doesn't actually exist. Everything else
-// (the album notes, the global-average table) ships as static JSON built at
-// deploy time. That means no server, and one code path locally and on Pages.
+// GET we use, so the browser can call it directly. Writing is different: the
+// upstream API's preflight answers `Access-Control-Allow-Methods: GET, OPTIONS`,
+// so a cross-origin POST never even leaves the browser. api/write/:kind and
+// api/capabilities are same-origin Netlify Functions (netlify/functions/) that
+// proxy around that — same relative path in local `netlify dev` and in prod,
+// one code path everywhere.
 
 const UPSTREAM = "https://1001albumsgenerator.com";
 
@@ -37,8 +39,9 @@ function statsIndex() {
 }
 
 window.Data = {
-  // Rating needs a same-origin proxy (see the note at the top of this file),
-  // so it's only available when a local server is behind the page.
+  // Backed by netlify/functions/capabilities.mjs — same-origin everywhere now,
+  // so this always resolves true. Kept as a real round-trip (not a constant)
+  // in case a future constraint needs to disable rating conditionally.
   async canRate() {
     if (canRatePromise === null) {
       canRatePromise = fetch("api/capabilities")
@@ -49,7 +52,8 @@ window.Data = {
     return canRatePromise;
   },
 
-  // `kind` picks the upstream endpoint — see the WRITES table in server/index.js.
+  // `kind` picks the upstream endpoint — see the WRITES table in
+  // netlify/functions/write.mjs.
   // Which one applies depends on the album's state, so the caller decides.
   async write(kind, payload) {
     const res = await fetch(`api/write/${kind}`, {

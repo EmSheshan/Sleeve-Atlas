@@ -7,3 +7,7 @@ node_modules/
 data/project-cache.json
 data/drafts.json
 dist/
+
+# Local Netlify folder
+.netlify
+deno.lock

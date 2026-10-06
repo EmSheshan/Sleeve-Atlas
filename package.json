@@ -3,13 +3,8 @@
   "version": "1.0.0",
   "description": "A static companion site for 1001 Albums Generator: researched album notes and an influence map.",
   "type": "module",
-  "main": "server/index.js",
   "scripts": {
     "build": "node scripts/build-static.mjs",
-    "start": "node scripts/build-static.mjs && node server/index.js",
-    "serve": "node server/index.js"
-  },
-  "dependencies": {
-    "express": "^4.21.2"
+    "dev": "npx netlify dev"
   }
 }
