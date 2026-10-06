@@ -654,6 +654,31 @@ function artistTable(rows) {
     </table>`;
 }
 
+// Small cover-only grid for the five-star/one-star stat panels — same
+// click-to-open-modal interaction as the main grid, no caption text (the
+// title attribute carries it, and these panels are dense enough already).
+function renderRatingCovers(container, entries) {
+  container.innerHTML = "";
+  if (!entries.length) {
+    const p = document.createElement("p");
+    p.className = "empty-state";
+    p.textContent = "none yet.";
+    container.appendChild(p);
+    return;
+  }
+  for (const entry of entries) {
+    const album = entry.album;
+    const tile = document.createElement("div");
+    tile.className = "rating-cover";
+    tile.title = `${album.name} — ${album.artist}`;
+    const cover = makeCoverImage(albumImage(album, 150), `${album.name} cover`, () => {});
+    cover.loading = "lazy";
+    tile.appendChild(cover);
+    tile.addEventListener("click", () => openModal(album, entry));
+    container.appendChild(tile);
+  }
+}
+
 async function renderStatsView() {
   const rated = allEntries.filter((e) => e.rating != null);
   if (!rated.length) {
@@ -697,6 +722,15 @@ async function renderStatsView() {
     };
   });
   document.getElementById("rating-bars").innerHTML = barRows(hist);
+
+  renderRatingCovers(
+    document.getElementById("five-star-covers"),
+    rated.filter((e) => e.rating === 5)
+  );
+  renderRatingCovers(
+    document.getElementById("one-star-covers"),
+    rated.filter((e) => e.rating === 1)
+  );
 
   // Decades and genres measure how well you rate them, not how many you've
   // heard — the count is still printed, it just isn't what the bar draws.
