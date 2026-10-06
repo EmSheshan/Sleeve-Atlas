@@ -225,6 +225,28 @@ function sampledGradient(img, opts) {
   return css;
 }
 
+// Same real-palette extraction as sampledGradient, but shaped as a radial
+// bloom (transparent core and edge, colour in between) for the today's-pick
+// glow blobs instead of a straight line — four real swatches from the
+// sleeve, not a single hue's mathematical complement.
+function sampledRadialGradient(img, opts) {
+  const cacheKey = "radial:" + img.src + JSON.stringify(opts || {});
+  if (plateCache.has(cacheKey)) return plateCache.get(cacheKey);
+  let css = null;
+  try {
+    const palette = dominantPalette(img, 4).map((rgb) => cssRgb(inkify(rgb, opts)));
+    if (palette.length) {
+      css = `radial-gradient(circle, rgba(23, 20, 15, 0) 0%, ${palette[0]} 20%, ${
+        palette[1] || palette[0]
+      } 40%, ${palette[2] || palette[0]} 58%, ${palette[3] || palette[0]} 76%, rgba(23, 20, 15, 0) 92%)`;
+    }
+  } catch {
+    css = null;
+  }
+  plateCache.set(cacheKey, css);
+  return css;
+}
+
 // Builds a cover <img> that can be safely sampled, falling back to a plain
 // load if the CDN ever refuses the CORS request.
 function makeCoverImage(src, alt, onSampled, opts, onGradient) {
@@ -271,6 +293,7 @@ function renderTodayPick(project) {
   const art = albumImage(a, 640);
   todayPickEl.hidden = false;
   todayPickEl.style.removeProperty("--wash");
+  todayPickEl.style.removeProperty("--wash-grad");
 
   todayPickEl.innerHTML = `
     <div class="tp-tile" style="background-image: url('${art}')"></div>
@@ -287,12 +310,21 @@ function renderTodayPick(project) {
   `;
 
   // darker, richer than a card plate so the cream type stays readable on top
+  const washOpts = { minS: 0.58, minL: 0.27, maxL: 0.42 };
   const cover = makeCoverImage(
     art,
     `${a.name} cover`,
     (css) => todayPickEl.style.setProperty("--wash", css),
-    { minS: 0.58, minL: 0.27, maxL: 0.42 }
+    washOpts
   );
+  // Real swatches from this sleeve for the glow blobs, not just the single
+  // --wash hue's mathematical complement (see .tp-glow's @supports block) —
+  // a second listener on the same load event, independent of makeCoverImage's
+  // own onGradient (that one's shaped for the straight gradient line).
+  cover.addEventListener("load", () => {
+    const grad = sampledRadialGradient(cover, washOpts);
+    if (grad) todayPickEl.style.setProperty("--wash-grad", grad);
+  });
   cover.className = "tp-cover";
   todayPickEl.insertBefore(cover, todayPickEl.querySelector(".tp-text"));
 

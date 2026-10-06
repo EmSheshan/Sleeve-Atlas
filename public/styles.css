@@ -477,13 +477,19 @@ main {
     --pole-warm: var(--wash, var(--accent));
     --pole-crest: oklch(from var(--wash, var(--accent)) 0.68 calc(c * 1.45) calc(h - 22));
 
-    background: radial-gradient(circle,
+    /* --wash-grad (set in app.js once the cover image loads) is four real
+       swatches sampled from this sleeve specifically — when it's there,
+       it wins over the two-pole mathematical derivation below, since an
+       actual photo of the actual cover beats any formula built from one
+       sampled hue. The two-pole version is what shows before it resolves
+       (or if extraction fails), not a second fallback bolted on. */
+    background: var(--wash-grad, radial-gradient(circle,
       rgba(23, 20, 15, 0) 0%,
       var(--pole-deep) 22%,
       var(--pole-lit) 34%,
       var(--pole-warm) 48%,
       var(--pole-crest) 58%,
-      rgba(23, 20, 15, 0) 78%);
+      rgba(23, 20, 15, 0) 78%));
     /* less blur than the shared .glow default: at 40px the bands smeared
        back into the single wash this is meant to replace */
     filter: blur(20px);
@@ -500,12 +506,13 @@ main {
 .tp-glow-1 { width: 55%; height: 90%; top: -30%; left: -12%; }
 .tp-glow-2 { width: 50%; height: 85%; bottom: -35%; right: -8%; animation-delay: -6s; }
 
-/* The blobs keep morphing at rest (see glow-morph) — hovering speeds that
-   existing motion up (a smooth rate change, not a jump — the keyframe
-   position is preserved when animation-duration changes mid-run) and
-   grows them a little, so the whole panel visibly responds to the
-   cursor without restructuring the markup. */
-.today-pick:hover .tp-glow { animation-duration: 7s; }
+/* The blobs keep morphing at rest (see glow-morph), unchanged by hover —
+   retiming a running ease-in-out animation (the previous animation-duration
+   hover rule) visibly jolted before settling, since the easing curve's
+   relationship to elapsed time shifts out from under it mid-cycle. Growing
+   the box is what actually reads as "responding to the cursor," and width/
+   height aren't touched by the keyframes, so they transition cleanly with
+   nothing to fight. */
 .today-pick:hover .tp-glow-1 { width: 64%; height: 100%; }
 .today-pick:hover .tp-glow-2 { width: 58%; height: 94%; }
 
