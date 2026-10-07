@@ -439,41 +439,44 @@ function applySearch() {
   }
 }
 
+function buildAlbumCard(entry) {
+  const album = entry.album;
+  const card = document.createElement("article");
+  card.className = "album-card";
+  card.innerHTML = `
+    <div class="art-frame"></div>
+    <div class="card-body">
+      <p class="card-title" title="${album.name.replace(/"/g, "&quot;")}">${album.name}</p>
+      <p class="card-artist">${album.artist}</p>
+      <div class="card-meta">
+        <span>${album.releaseDate}</span>
+        <span class="stars" style="color: ${ratingColor(entry.rating)}">${starString(entry.rating)}</span>
+      </div>
+    </div>
+  `;
+
+  const cover = makeCoverImage(
+    albumImage(album, 300),
+    `${album.name} cover`,
+    (css) => card.style.setProperty("--plate", css),
+    undefined,
+    (grad) => card.style.setProperty("--plate-grad", grad)
+  );
+  cover.addEventListener("load", () => {
+    const wash = sampledWashGradient(cover);
+    if (wash) card.style.setProperty("--plate-wash", wash);
+  });
+  cover.loading = "lazy";
+  card.querySelector(".art-frame").appendChild(cover);
+
+  card.addEventListener("click", () => openModal(album, entry));
+  return card;
+}
+
 function renderCards(entries) {
   albumGrid.innerHTML = "";
-
   for (const entry of entries) {
-    const album = entry.album;
-    const card = document.createElement("article");
-    card.className = "album-card";
-    card.innerHTML = `
-      <div class="art-frame"></div>
-      <div class="card-body">
-        <p class="card-title" title="${album.name.replace(/"/g, "&quot;")}">${album.name}</p>
-        <p class="card-artist">${album.artist}</p>
-        <div class="card-meta">
-          <span>${album.releaseDate}</span>
-          <span class="stars" style="color: ${ratingColor(entry.rating)}">${starString(entry.rating)}</span>
-        </div>
-      </div>
-    `;
-
-    const cover = makeCoverImage(
-      albumImage(album, 300),
-      `${album.name} cover`,
-      (css) => card.style.setProperty("--plate", css),
-      undefined,
-      (grad) => card.style.setProperty("--plate-grad", grad)
-    );
-    cover.addEventListener("load", () => {
-      const wash = sampledWashGradient(cover);
-      if (wash) card.style.setProperty("--plate-wash", wash);
-    });
-    cover.loading = "lazy";
-    card.querySelector(".art-frame").appendChild(cover);
-
-    card.addEventListener("click", () => openModal(album, entry));
-    albumGrid.appendChild(card);
+    albumGrid.appendChild(buildAlbumCard(entry));
   }
 }
 
