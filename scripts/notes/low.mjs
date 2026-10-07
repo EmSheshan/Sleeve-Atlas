@@ -61,7 +61,6 @@ await saveNote({
   influenced: [
     { artist: "Joy Division", album: "Unknown Pleasures", year: "1979", note: "The band took its original name, Warsaw, from the Low track \"Warszawa\"; its cold production owes a clear debt to this record." },
     { artist: "Gary Numan / Tubeway Air", album: "Replicas", year: "1979", note: "Synth-driven, emotionally withdrawn post-punk that follows directly from Low's side one." },
-    { artist: "Nine Inch Nails", album: "The Downward Spiral", year: "1994", note: "Trent Reznor has cited Low as a touchstone for its fractured, electronic sense of dread." },
     { artist: "Radiohead", album: "Kid A", year: "2000", note: "A guitar band abandoning song structure for electronics and texture — a path Low mapped first." },
   ],
 });

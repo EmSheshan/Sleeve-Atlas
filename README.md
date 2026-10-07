@@ -33,7 +33,9 @@ Each note carries `influencedBy` and `influenced` arrays; those are what build t
 node scripts/notes/<slug>.mjs
 ```
 
-It prints the word count so the 450–650 budget can be checked. `artist` and `album` must match the generator API's spelling exactly — `saveNote()` looks the album up by artist and title.
+It prints the word count so the 450–650 budget can be checked. `artist` and `album` must match the generator API's spelling exactly — `saveNote()` looks the album up by artist and title. Keep `influencedBy` + `influenced` to 6 entries combined — each one is a node+edge on the map, and past that it stops reading as a map.
+
+Run `node scripts/check-notes.mjs` after writing any batch — it checks the word budget, the 6-entry cap, that influence dates run the right direction, that every `influencedBy`/`influenced` reference actually resolves to the album it names (catches e.g. `album: "The Beatles (White Album)"` instead of `"The White Album"`, which silently fails to link), and that no record is spelled two different ways across notes.
 
 ## Deploying
 

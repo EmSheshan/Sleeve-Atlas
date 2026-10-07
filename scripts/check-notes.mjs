@@ -44,6 +44,12 @@ for (const entry of Object.values(insights)) {
 
   if (!(entry.sources || []).length) note(album, "no sources");
   if (!entry.image) note(album, "no cover image");
+
+  // Every influencedBy/influenced entry is a node+edge on the map — uncapped,
+  // a handful of over-connected albums turn it into a hairball. Keep each
+  // note's own fan-out small so the map stays readable.
+  const links = (entry.influencedBy || []).length + (entry.influenced || []).length;
+  if (links > 6) note(album, `${links} influencedBy+influenced entries, over the 6-node cap`);
 }
 
 // The map keys nodes on a canonical form of artist+album, so "The Pretenders"
@@ -80,6 +86,50 @@ for (const entry of Object.values(insights)) {
   seeName(entry.artist, entry.album, `the note for ${entry.album}`, true);
   for (const r of entry.influencedBy || []) seeName(r.artist, r.album, `influencedBy in ${entry.album}`, false);
   for (const r of entry.influenced || []) seeName(r.artist, r.album, `influenced in ${entry.album}`, false);
+}
+
+// A relation whose artist already has a note, but whose album canon is a
+// near-miss of that note's real album canon (usually the album field
+// redundantly repeating the artist name, e.g. "The Beatles (White Album)"
+// instead of "The White Album"), silently fails to link to the existing
+// node and spawns an orphan instead — the exact bug that broke Faust IV's
+// White Album reference. Catch it by canon alone, same as graph()'s own
+// node identity.
+const notesByArtist = new Map();
+for (const entry of Object.values(insights)) {
+  const a = canon(entry.artist);
+  if (!notesByArtist.has(a)) notesByArtist.set(a, new Set());
+  notesByArtist.get(a).add(canon(entry.album));
+}
+const noteIds = new Set(
+  Object.values(insights).map((e) => `${canon(e.artist)}::${canon(e.album)}`)
+);
+
+for (const entry of Object.values(insights)) {
+  for (const rel of [...(entry.influencedBy || []), ...(entry.influenced || [])]) {
+    const relArtist = canon(rel.artist);
+    const relAlbum = canon(rel.album);
+    if (noteIds.has(`${relArtist}::${relAlbum}`)) continue;
+    const realAlbums = notesByArtist.get(relArtist);
+    if (!realAlbums) continue;
+    // Specifically: the album text contains the artist's own name (e.g.
+    // "The Beatles (White Album)"), and stripping it out lands exactly on an
+    // album this artist already has a note for. Narrower than a plain
+    // substring check, which also fires on legitimately distinct albums that
+    // happen to share a prefix (Led Zeppelin III has no note of its own, but
+    // "led zeppelin" IS a substring of its canon — not a naming bug).
+    const stripped = relAlbum
+      .split(" ")
+      .filter((w) => !relArtist.split(" ").includes(w))
+      .join(" ")
+      .trim();
+    if (stripped && realAlbums.has(stripped)) {
+      note(
+        entry.album,
+        `links to "${rel.artist} — ${rel.album}", which won't match the real note "${rel.artist} — ${stripped}" — the album field redundantly includes the artist name`
+      );
+    }
+  }
 }
 
 for (const { variants, hasNote } of spellings.values()) {

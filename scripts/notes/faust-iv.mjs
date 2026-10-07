@@ -55,8 +55,7 @@ await saveNote({
   ],
 
   influencedBy: [
-    { artist: "Karlheinz Stockhausen", album: "Gesang der Jünglinge", year: "1956", note: "Landmark electronic/musique concrète composition that established the tape-splice, found-sound vocabulary the band pushed into a rock context." },
-    { artist: "The Beatles", album: "The Beatles (White Album)", year: "1968", note: "\"Revolution 9\" was the prominent prior example of musique concrète tape collage surfacing on a rock record; Faust built an entire method out of what was there a one-off novelty." },
+    { artist: "Beatles", album: "The White Album", year: "1968", note: "\"Revolution 9\" was the prominent prior example of musique concrète tape collage surfacing on a rock record; Faust built an entire method out of what was there a one-off novelty." },
     { artist: "Pierre Schaeffer", album: "Cinq études de bruits", year: "1948", note: "The foundational musique concrète work — composing directly with recorded, edited sound rather than notation — that the band's tape-based studio method descends from." },
   ],
 

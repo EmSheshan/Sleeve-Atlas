@@ -10935,12 +10935,6 @@
         "note": "Synth-driven, emotionally withdrawn post-punk that follows directly from Low's side one."
       },
       {
-        "artist": "Nine Inch Nails",
-        "album": "The Downward Spiral",
-        "year": "1994",
-        "note": "Trent Reznor has cited Low as a touchstone for its fractured, electronic sense of dread."
-      },
-      {
         "artist": "Radiohead",
         "album": "Kid A",
         "year": "2000",
@@ -10949,7 +10943,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ebdca",
     "image": "https://i.scdn.co/image/5575191d033271bc55ed3c9547104b9b674e36fa",
-    "savedAt": "2026-10-06T23:49:04.643Z"
+    "savedAt": "2026-10-07T00:00:37.768Z"
   },
   "5f34ee8bf0857e55ed5ebfbf": {
     "artist": "Beatles",
@@ -11305,14 +11299,8 @@
     ],
     "influencedBy": [
       {
-        "artist": "Karlheinz Stockhausen",
-        "album": "Gesang der Jünglinge",
-        "year": "1956",
-        "note": "Landmark electronic/musique concrète composition that established the tape-splice, found-sound vocabulary the band pushed into a rock context."
-      },
-      {
-        "artist": "The Beatles",
-        "album": "The Beatles (White Album)",
+        "artist": "Beatles",
+        "album": "The White Album",
         "year": "1968",
         "note": "\"Revolution 9\" was the prominent prior example of musique concrète tape collage surfacing on a rock record; Faust built an entire method out of what was there a one-off novelty."
       },
@@ -11351,7 +11339,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ebed8",
     "image": "https://i.scdn.co/image/f73b81fe336071103af18a69890295b20be67137",
-    "savedAt": "2026-10-06T23:49:08.889Z"
+    "savedAt": "2026-10-07T00:00:38.847Z"
   },
   "5f34ee8bf0857e55ed5ebf9e": {
     "artist": "Elvis Presley",
