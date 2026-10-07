@@ -116,6 +116,7 @@
 
 @media (prefers-reduced-motion: reduce) {
   .glow::before { animation: none; }
+  .tp-glow { transition: none; }
 }
 
 /* ---------- Frames ---------- */
@@ -182,6 +183,17 @@ html, body {
    root stacking context, so it lands behind every in-flow background. */
 html { background-color: var(--paper); }
 body { background-color: transparent; }
+
+/* Several deliberate decorative bleeds (.album-card::before's hover wash,
+   inset: -18% with no clipping parent of its own) extend past their own
+   box on purpose, into the surrounding gutter. For a card flush against
+   the grid's right edge that box still exists — invisible at opacity: 0,
+   but still laid out — past the viewport edge, which made the whole page
+   horizontally scrollable on narrow (2-up grid) widths even though nothing
+   visible actually sat outside the viewport. Containing it here keeps the
+   bleed's appearance exactly as designed while stopping it from ever
+   expanding the document's own scrollable area. */
+html { overflow-x: hidden; }
 
 h1, h2, h3 {
   font-family: var(--font-display);
@@ -504,16 +516,32 @@ main {
 /* Full-strength tier: real album colour, via the --wash custom property
    already set in app.js's renderTodayPick (previously unused by any CSS
    rule). A single sampled colour drives both blobs' ring stop; the
-   transparent core/fade either side is what gives it the glow shape. */
+   transparent core/fade either side is what gives it the glow shape.
+
+   Starts invisible rather than showing the neutral placeholder gradient
+   (see .tp-glow::before's --edge-2 fallback) at full opacity — background
+   isn't animatable, so swapping it the instant --wash-grad resolves is
+   always an abrupt cut, placeholder or not. Fading in from nothing once
+   app.js adds .is-loaded (the same moment --wash-grad is set) means
+   there's never a visible "wrong" state to begin with, just a reveal of
+   the correct one. */
 .glow-focus {
+  opacity: 0;
+}
+
+.today-pick.is-loaded .glow-focus {
   opacity: 0.55;
 }
 
 .tp-glow {
   /* width/height aren't touched by glow-morph's keyframes (only
      clip-path/transform are, and those now live on ::before), so they're
-     free to transition smoothly on hover without fighting the animation. */
-  transition: width 1.1s ease, height 1.1s ease;
+     free to transition smoothly on hover without fighting the animation.
+     opacity lives in this same declaration rather than on .glow-focus —
+     transition is a shorthand, so the later same-specificity rule wins
+     outright instead of merging; splitting it across two class rules
+     silently dropped whichever one lost. */
+  transition: width 1.1s ease, height 1.1s ease, opacity 0.6s ease;
 }
 
 .tp-glow::before {
