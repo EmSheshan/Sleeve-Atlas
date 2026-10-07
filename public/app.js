@@ -27,6 +27,8 @@ const modalReview = document.getElementById("modal-review");
 
 let currentEntry = null;
 let allEntries = [];
+let currentSort = "recent";
+let sortDir = "desc";
 
 const rateBlock = document.getElementById("rate-block");
 const rateTitle = document.getElementById("rate-title");
@@ -69,6 +71,9 @@ const searchBar = document.getElementById("search-bar");
 const searchInput = document.getElementById("search-input");
 const searchClear = document.getElementById("search-clear");
 const searchCount = document.getElementById("search-count");
+const sortSelect = document.getElementById("sort-select");
+const sortDirBtn = document.getElementById("sort-dir-btn");
+const genreSectionsEl = document.getElementById("genre-sections");
 const accountModal = document.getElementById("account-modal");
 const accountBtn = document.getElementById("account-btn");
 const accountCloseBtn = document.getElementById("account-close-btn");
@@ -485,7 +490,11 @@ function applySearch() {
     ? `${matches.length} of ${allEntries.length}`
     : `${allEntries.length} albums`;
 
-  renderCards(matches);
+  if (currentSort === "genre") {
+    renderGroupedCards(groupByGenre(matches, sortDir));
+  } else {
+    renderCards(sortEntries(matches, currentSort, sortDir));
+  }
 
   if (!matches.length) {
     listEmptyState.hidden = false;
@@ -530,10 +539,36 @@ function buildAlbumCard(entry) {
 }
 
 function renderCards(entries) {
+  genreSectionsEl.hidden = true;
+  albumGrid.hidden = false;
   albumGrid.innerHTML = "";
   for (const entry of entries) {
     albumGrid.appendChild(buildAlbumCard(entry));
   }
+}
+
+function renderGroupedCards(sections) {
+  albumGrid.hidden = true;
+  genreSectionsEl.innerHTML = "";
+  for (const { label, entries } of sections) {
+    const section = document.createElement("section");
+    section.className = "genre-section";
+
+    const heading = document.createElement("h3");
+    heading.className = "genre-section-heading";
+    heading.textContent = label;
+    section.appendChild(heading);
+
+    const grid = document.createElement("div");
+    grid.className = "album-grid";
+    for (const entry of entries) {
+      grid.appendChild(buildAlbumCard(entry));
+    }
+    section.appendChild(grid);
+
+    genreSectionsEl.appendChild(section);
+  }
+  genreSectionsEl.hidden = false;
 }
 
 async function loadProject(shareId) {
@@ -932,6 +967,22 @@ searchInput.addEventListener("keydown", (e) => {
     searchInput.value = "";
     applySearch();
   }
+});
+
+function updateSortDirBtn() {
+  sortDirBtn.textContent = sortDir === "desc" ? "↓" : "↑";
+  sortDirBtn.setAttribute("aria-label", sortDir === "desc" ? "Sort descending" : "Sort ascending");
+}
+
+sortSelect.addEventListener("change", () => {
+  currentSort = sortSelect.value;
+  applySearch();
+});
+
+sortDirBtn.addEventListener("click", () => {
+  sortDir = sortDir === "desc" ? "asc" : "desc";
+  updateSortDirBtn();
+  applySearch();
 });
 
 // escape closes whichever sheet is open, innermost first
