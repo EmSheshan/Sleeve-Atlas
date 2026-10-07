@@ -363,6 +363,7 @@ function renderTodayPick(project) {
   const a = project.currentAlbum;
   const art = albumImage(a, 640);
   todayPickEl.hidden = false;
+  todayPickEl.classList.remove("is-loaded");
   todayPickEl.style.removeProperty("--wash");
   todayPickEl.style.removeProperty("--wash-grad");
 
@@ -395,6 +396,7 @@ function renderTodayPick(project) {
   cover.addEventListener("load", () => {
     const grad = sampledRadialGradient(cover, washOpts);
     if (grad) todayPickEl.style.setProperty("--wash-grad", grad);
+    todayPickEl.classList.add("is-loaded");
   });
   cover.className = "tp-cover";
   todayPickEl.insertBefore(cover, todayPickEl.querySelector(".tp-text"));
