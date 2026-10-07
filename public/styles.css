@@ -219,17 +219,31 @@ h1, h2, h3 {
    from their native auto-hiding overlay scrollbar to a classic one that
    permanently reserves ~10px of layout width. On a phone that reads as
    the whole page sitting slightly off-centre, shifted away from the
-   scrollbar edge, any time content is tall enough to scroll. */
+   scrollbar edge, any time content is tall enough to scroll.
+
+   The ::-webkit-scrollbar rules below never actually render in current
+   Chromium (Brave included) or Firefox — both now defer entirely to the
+   standard scrollbar-width/scrollbar-color properties above and ignore
+   the legacy pseudo-elements' sizing/thumb-border once those are set.
+   Confirmed directly: offsetWidth-clientWidth on a scrolled modal measured
+   12px ("thin"'s actual rendered width) regardless of the 9px width rule
+   below, and only changed when scrollbar-color itself was overridden.
+   scrollbar-color is genuinely in effect, it's just that --edge-2's 32%
+   opacity reads as plain system grey rather than an intentional color —
+   bumped to a flat, more present ink tone so it reads as designed. The
+   ::-webkit-scrollbar rules are left in place as inert fallback for any
+   older WebKit build that doesn't support the standard properties at all,
+   not as the mechanism actually styling this in any browser tested. */
 @media (pointer: fine) {
-  * { scrollbar-width: thin; scrollbar-color: var(--edge-2) transparent; }
+  * { scrollbar-width: thin; scrollbar-color: rgba(22, 23, 27, 0.5) transparent; }
   ::-webkit-scrollbar { width: 11px; height: 11px; }
   ::-webkit-scrollbar-track { background: transparent; }
   ::-webkit-scrollbar-thumb {
-    background: rgba(22, 23, 27, 0.26);
+    background: rgba(22, 23, 27, 0.5);
     border: 3px solid var(--paper);
     border-radius: 0;
   }
-  ::-webkit-scrollbar-thumb:hover { background: rgba(22, 23, 27, 0.42); }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(22, 23, 27, 0.65); }
   .rev-panel::-webkit-scrollbar, .modal-card::-webkit-scrollbar { width: 9px; }
   .rev-panel::-webkit-scrollbar-thumb, .modal-card::-webkit-scrollbar-thumb { border-color: var(--paper-3); }
 }
