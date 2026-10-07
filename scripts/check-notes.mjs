@@ -50,6 +50,20 @@ for (const entry of Object.values(insights)) {
   // note's own fan-out small so the map stays readable.
   const links = (entry.influencedBy || []).length + (entry.influenced || []).length;
   if (links > 6) note(album, `${links} influencedBy+influenced entries, over the 6-node cap`);
+
+  // Each relation becomes exactly one node on the map, which only works if it
+  // names one specific record. "Small Faces / The Rolling Stones" with album
+  // "—" tried to stand in for a whole decade of British Invasion records as
+  // a single source — not a real album, and not something the graph (or a
+  // reader) can resolve to one sleeve. (A band-name check was tried too, but
+  // "Crosby, Stills & Nash" and "AC/DC" are real single acts whose own names
+  // contain "&"/"/"/"and" — no reliable way to tell those apart from two
+  // bundled acts by the artist string alone, so this only checks the album.)
+  for (const rel of [...(entry.influencedBy || []), ...(entry.influenced || [])]) {
+    if (!rel.album || /^[—–-]$/.test(rel.album.trim())) {
+      note(album, `relation to "${rel.artist}" has no real album ("${rel.album}") — pick one specific, citable record or drop the link`);
+    }
+  }
 }
 
 // The map keys nodes on a canonical form of artist+album, so "The Pretenders"

@@ -56,7 +56,6 @@ await saveNote({
   influencedBy: [
     { artist: "Black Flag", album: "Damaged", year: "1981", note: "The hardcore punk template the Replacements emerged from and, by this record, were visibly pulling away from." },
     { artist: "Big Star", album: "Radio City", year: "1974", note: "The power-pop melodicism Westerberg increasingly leaned on as a songwriter; he'd later write 'Alex Chilton' as an outright homage." },
-    { artist: "Small Faces / The Rolling Stones", album: "—", year: "1960s", note: "British Invasion hooks and swagger that Westerberg mixed with punk rage to build the album's more structured songs." },
   ],
 
   influenced: [
