@@ -507,7 +507,7 @@ main {
 .tp-glow::before {
   background: radial-gradient(circle,
     rgba(23, 20, 15, 0) 0%,
-    var(--wash, var(--accent)) 50%,
+    var(--wash, var(--edge-2)) 50%,
     rgba(23, 20, 15, 0) 98%);
 }
 
@@ -516,15 +516,18 @@ main {
    with the bands kept tight enough to stay visible. Relative colour syntax
    builds that whole ramp off the single sampled album colour, so it stays
    album-reactive instead of being hardcoded to teal/orange.
-   The single-hue version above remains the fallback. */
+   The single-hue version above remains the fallback. --edge-2 (neutral, low-
+   chroma) rather than --accent — before --wash resolves there's no real
+   album colour yet, and falling back to the brand accent read as a wrong
+   colour flashing in ahead of the real one instead of a neutral placeholder. */
 @supports (background: radial-gradient(circle, oklch(from red l c h) 0%, transparent 100%)) {
   .tp-glow {
     /* cool pole: the complement, dark then bright */
-    --pole-deep: oklch(from var(--wash, var(--accent)) 0.3 calc(c * 0.9) calc(h + 175));
-    --pole-lit: oklch(from var(--wash, var(--accent)) 0.56 calc(c * 1.1) calc(h + 185));
+    --pole-deep: oklch(from var(--wash, var(--edge-2)) 0.3 calc(c * 0.9) calc(h + 175));
+    --pole-lit: oklch(from var(--wash, var(--edge-2)) 0.56 calc(c * 1.1) calc(h + 185));
     /* warm pole: the album's own colour, then a hotter crest just off it */
-    --pole-warm: var(--wash, var(--accent));
-    --pole-crest: oklch(from var(--wash, var(--accent)) 0.68 calc(c * 1.45) calc(h - 22));
+    --pole-warm: var(--wash, var(--edge-2));
+    --pole-crest: oklch(from var(--wash, var(--edge-2)) 0.68 calc(c * 1.45) calc(h - 22));
 
     /* Bumped well past the shared .glow default (40px) — the fade now has
        to do its softening inside the clipped ::before shape (see the
