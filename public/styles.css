@@ -10,7 +10,12 @@
   --slab: #191a1e;
   --ink: #16171b;
   --ink-2: #51525a;
-  --ink-3: #7e7f87;
+  /* Was #7e7f87 — ~2.7:1 against --paper, under WCAG AA's 4.5:1 for body text.
+     Darkened to clear ~4.5:1 on the backgrounds this actually sits on
+     (plain paper, the translucent card/stat-card film, paper-3) while
+     staying clearly lighter than --ink-2 so the quiet third tier doesn't
+     collapse into the second. */
+  --ink-3: #606168;
   --accent: #d6361d;
   --accent-2: #ad2715;
   --accent-soft: #c76ba0;
@@ -278,7 +283,7 @@ h1, h2, h3 {
 
 .header-right { display: flex; align-items: center; gap: 1.2rem; flex-wrap: wrap; }
 
-.view-tabs { display: flex; gap: 1.4rem; }
+.view-tabs { display: flex; gap: 1rem; }
 
 /* Deliberately quiet: identity is something you set once and forget, so it
    sits in the corner rather than taking a slab at the top of the page. */
@@ -363,7 +368,9 @@ h1, h2, h3 {
 .sign-out-btn:hover { color: var(--brick); }
 
 /* Tiny uppercase mono, straight from the reference nav — the sections are
-   labelled, not advertised. */
+   labelled, not advertised. Padding + matching negative margin so the active
+   state's background rectangle can extend past the glyphs without nudging
+   the label out of its resting position or widening the row's flow gap. */
 .tab-btn {
   font-family: var(--font-mono);
   font-weight: 400;
@@ -374,22 +381,19 @@ h1, h2, h3 {
   color: var(--ink-3);
   border: 0;
   border-radius: 0;
-  padding: 0;
+  padding: 0.3rem 0.5rem;
+  margin: -0.3rem -0.5rem;
   cursor: pointer;
-  transition: color 0.2s ease;
+  transition: color 0.2s ease, background-color 0.2s ease;
 }
 
 .tab-btn { color: rgba(243, 242, 239, 0.52); }
 .tab-btn:hover { color: #f3f2ef; }
-.tab-btn.is-active { color: #f3f2ef; }
-/* a dot rather than an underline, so the row stays a single hairline height */
-.tab-btn.is-active::after {
-  content: "";
-  display: inline-block;
-  width: 4px;
-  height: 4px;
-  margin-left: 0.5em;
-  vertical-align: 0.15em;
+/* Square, flat-fill rectangle, not a rounded pill — radius:0 is the whole
+   site's language, so a pill here would be the one rounded shape on the
+   page. Fills with the accent colour straight to the edges. */
+.tab-btn.is-active {
+  color: #f3f2ef;
   background: var(--accent);
 }
 
@@ -708,6 +712,39 @@ main {
   color: var(--ink-3);
   white-space: nowrap;
 }
+
+.sort-select {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: 0.64rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background: var(--paper-2);
+  color: var(--ink);
+  border: 1px solid var(--edge-2);
+  border-radius: 0;
+  padding: 0.45rem 0.6rem;
+  cursor: pointer;
+}
+
+.sort-select:focus { outline: 1px solid var(--accent); outline-offset: -1px; }
+
+.sort-dir-btn {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  line-height: 1;
+  background: var(--paper-2);
+  color: var(--ink-2);
+  border: 1px solid var(--edge-2);
+  border-radius: 0;
+  width: 2.1rem;
+  height: 2.1rem;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.sort-dir-btn:hover { color: var(--ink); border-color: var(--ink); }
 
 /* ---------- Album grid ---------- */
 
@@ -1242,6 +1279,21 @@ main {
   letter-spacing: 0.18em;
   color: var(--ink-2);
   margin-bottom: 0.8rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--edge);
+}
+
+.genre-section { margin-bottom: 2.2rem; }
+.genre-section:last-child { margin-bottom: 0; }
+
+.genre-section-heading {
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--ink-2);
+  margin: 0 0 1rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--edge);
 }
