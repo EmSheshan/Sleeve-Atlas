@@ -421,6 +421,62 @@ function entryMatches(entry, needle) {
     .includes(needle);
 }
 
+function sortKeyReleaseYear(entry) {
+  const y = parseInt(entry.album.releaseDate, 10);
+  return Number.isFinite(y) ? y : null;
+}
+
+function sortKeyRating(entry) {
+  return typeof entry.rating === "number" ? entry.rating : null;
+}
+
+// Shared by release-date and rating sorts: entries whose key is null (bad
+// date, no rating) always sort to the end, in both directions — a missing
+// value isn't "low", it's unknown, and shouldn't jump to the top on asc.
+function compareByKey(keyFn, dir) {
+  return (a, b) => {
+    const ka = keyFn(a);
+    const kb = keyFn(b);
+    if (ka === null && kb === null) return 0;
+    if (ka === null) return 1;
+    if (kb === null) return -1;
+    return dir === "asc" ? ka - kb : kb - ka;
+  };
+}
+
+function sortEntries(entries, sortMode, dir) {
+  if (sortMode === "release") return entries.slice().sort(compareByKey(sortKeyReleaseYear, dir));
+  if (sortMode === "rating") return entries.slice().sort(compareByKey(sortKeyRating, dir));
+  // "recent": entries already arrive in allEntries' order, which IS today's
+  // default (most-recently-logged first) — that's "desc" for this key. "asc"
+  // just reverses it. There's no comparator because log order isn't a value
+  // on the entry itself to sort by, it's the array's own order.
+  return dir === "asc" ? entries.slice().reverse() : entries.slice();
+}
+
+function genreLabel(entry) {
+  const g = (entry.album.genres || [])[0];
+  return g ? g.replace(/-/g, " ") : null;
+}
+
+function groupByGenre(entries, dir) {
+  const buckets = new Map();
+  const unspecified = [];
+  for (const entry of entries) {
+    const label = genreLabel(entry);
+    if (label === null) {
+      unspecified.push(entry);
+      continue;
+    }
+    if (!buckets.has(label)) buckets.set(label, []);
+    buckets.get(label).push(entry);
+  }
+  const labels = [...buckets.keys()].sort((a, b) => (dir === "asc" ? a.localeCompare(b) : b.localeCompare(a)));
+  const sections = labels.map((label) => ({ label, entries: buckets.get(label) }));
+  if (unspecified.length) sections.push({ label: "unspecified", entries: unspecified });
+  return sections;
+}
+
 function applySearch() {
   const needle = searchInput.value.trim().toLowerCase();
   const matches = needle ? allEntries.filter((e) => entryMatches(e, needle)) : allEntries;
