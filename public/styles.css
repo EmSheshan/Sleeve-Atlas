@@ -197,17 +197,25 @@ h1, h2, h3 {
 
 /* ---------- Scrollbars ---------- */
 
-* { scrollbar-width: thin; scrollbar-color: var(--edge-2) transparent; }
-::-webkit-scrollbar { width: 11px; height: 11px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb {
-  background: rgba(22, 23, 27, 0.26);
-  border: 3px solid var(--paper);
-  border-radius: 0;
+/* Scoped to fine-pointer (mouse/trackpad) devices only. Styling the
+   scrollbar at all — even just its color — switches touchscreen browsers
+   from their native auto-hiding overlay scrollbar to a classic one that
+   permanently reserves ~10px of layout width. On a phone that reads as
+   the whole page sitting slightly off-centre, shifted away from the
+   scrollbar edge, any time content is tall enough to scroll. */
+@media (pointer: fine) {
+  * { scrollbar-width: thin; scrollbar-color: var(--edge-2) transparent; }
+  ::-webkit-scrollbar { width: 11px; height: 11px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(22, 23, 27, 0.26);
+    border: 3px solid var(--paper);
+    border-radius: 0;
+  }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(22, 23, 27, 0.42); }
+  .rev-panel::-webkit-scrollbar, .modal-card::-webkit-scrollbar { width: 9px; }
+  .rev-panel::-webkit-scrollbar-thumb, .modal-card::-webkit-scrollbar-thumb { border-color: var(--paper-3); }
 }
-::-webkit-scrollbar-thumb:hover { background: rgba(22, 23, 27, 0.42); }
-.rev-panel::-webkit-scrollbar, .modal-card::-webkit-scrollbar { width: 9px; }
-.rev-panel::-webkit-scrollbar-thumb, .modal-card::-webkit-scrollbar-thumb { border-color: var(--paper-3); }
 
 /* ---------- Masthead ---------- */
 
