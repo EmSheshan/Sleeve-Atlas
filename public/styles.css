@@ -1591,7 +1591,12 @@ main {
 
 .stats-glow-1 { width: 55%; height: 220%; top: -60%; left: -10%; opacity: 0.35; }
 .stats-glow-2 { width: 40%; height: 180%; top: -40%; right: -8%; opacity: 0.3; }
-.stats-glow-2::before { animation: glow-morph-2 27s ease-in-out infinite alternate; animation-delay: -9s; }
+/* animation-duration only, not the full animation shorthand — overriding
+   the whole shorthand here (like .glow-focus did once already) would
+   silently drop the timing-function/iteration-count/direction this
+   inherits from .glow::before / .stats-glow-2::before's own base rule. */
+.stats-glow-1::before { animation-duration: 7s; }
+.stats-glow-2::before { animation: glow-morph-2 9s ease-in-out infinite alternate; animation-delay: -3s; }
 
 @media (prefers-reduced-motion: reduce) {
   .stats-glow-2::before { animation: none; }
@@ -1628,12 +1633,31 @@ main {
   overflow: hidden;
 }
 
+/* Same red->amber->green stops as .stats-glow (both lifted from
+   ratingColor()'s own hue math), doubled back on itself so the gradient
+   has no hard seam when it loops — mirrored and oversized via
+   background-size so a narrow, mostly-empty bar (most users are well
+   under 50% complete) still shows real color movement instead of one
+   flat stretch of red. */
 .progress-bar span {
   display: block;
   height: 100%;
-  background: var(--orange);
+  background: linear-gradient(90deg,
+    hsl(0, 72%, 38%), hsl(45, 72%, 40%), hsl(130, 62%, 32%),
+    hsl(45, 72%, 40%), hsl(0, 72%, 38%));
+  background-size: 200% 100%;
+  animation: progress-flow 6s linear infinite;
   border-radius: 0;
   transition: width 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes progress-flow {
+  0% { background-position: 0% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .progress-bar span { animation: none; }
 }
 
 .progress-caption {
