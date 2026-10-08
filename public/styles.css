@@ -184,53 +184,6 @@ html, body {
 html { background-color: var(--paper); }
 body { background-color: transparent; }
 
-/* Persistent across every view (List/Stats/Map) — lives at the body root,
-   not inside any .view, so it never remounts on tab switches. Mostly ink/
-   paper neutrals with --accent-soft (defined but otherwise unused until
-   now) as the one chromatic note, well below today's-pick's opacity since
-   this one runs behind every page all the time rather than one banner.
-
-   pointer: fine only — position: fixed combined with filter: blur (the
-   shared .glow rule) is a known trigger for mobile Safari compositing
-   bugs (seams/tearing on scroll, since a blurred fixed element forces a
-   GPU layer that iOS handles differently from Chromium). Not reproducible
-   in Chromium-based testing either way, so rather than chase an artifact
-   only visible on hardware this can't verify against, the fixed+blur
-   combination simply doesn't exist on touch devices at all — display:
-   none outright rather than just dropping position: fixed, since falling
-   back to .glow's own position: absolute would still carry the blur,
-   just without this rule's z-index/opacity to keep it subtle and behind
-   content. Same reasoning already applied to the scrollbar styling
-   above. */
-.site-glow { display: none; }
-
-@media (pointer: fine) {
-  .site-glow {
-    display: block;
-    position: fixed;
-    z-index: -1;
-    opacity: 0.14;
-    pointer-events: none;
-  }
-}
-
-.site-glow::before {
-  background: radial-gradient(circle,
-    rgba(23, 20, 15, 0) 0%,
-    var(--ink) 15%,
-    var(--paper-3) 45%,
-    var(--accent-soft) 70%,
-    rgba(23, 20, 15, 0) 98%);
-}
-
-.site-glow-1 { width: 65vw; height: 85vh; top: -20vh; left: -15vw; }
-.site-glow-2 { width: 50vw; height: 65vh; bottom: -20vh; right: -10vw; }
-.site-glow-2::before { animation: glow-morph-2 27s ease-in-out infinite alternate; animation-delay: -9s; }
-
-@media (prefers-reduced-motion: reduce) {
-  .site-glow-2::before { animation: none; }
-}
-
 /* Several deliberate decorative bleeds (.album-card::before's hover wash,
    inset: -18% with no clipping parent of its own) extend past their own
    box on purpose, into the surrounding gutter. For a card flush against
