@@ -51,6 +51,7 @@ await saveNote({
     { title: "Shuggie Otis — Wikipedia", url: "https://en.wikipedia.org/wiki/Shuggie_Otis" },
     { title: "Freedom Flight (Shuggie Otis album) — Wikipedia", url: "https://en.wikipedia.org/wiki/Freedom_Flight_(Shuggie_Otis_album)" },
     { title: "There's a Riot Goin' On — Wikipedia", url: "https://en.wikipedia.org/wiki/There%27s_a_Riot_Goin%27_On" },
+    { title: "Shuggie Otis: the heir to the throne who followed his own path — Louder", url: "https://loudersound.com/features/shuggie-otis-the-heir-to-the-throne-who-followed-his-own-path" },
   ],
 
   influencedBy: [
@@ -60,8 +61,7 @@ await saveNote({
   ],
 
   influenced: [
-    { artist: "D'Angelo", album: "Voodoo", year: "2000", note: "Commonly cited as a record this quietly paved the way for — hushed, multi-tracked, one-man-band soul in the same vein." },
-    { artist: "Erykah Badu", album: "Mama's Gun", year: "2000", note: "Part of the neo-soul landscape the 2001 Luaka Bop reissue fed directly into, introducing Otis's record to a new generation of listeners." },
-    { artist: "Sharon Jones & the Dap-Kings", album: "Dark Was the Night (compilation)", year: "2009", note: "Covered the title track directly, a concrete sign of the album's rediscovery rippling into the indie-soul revival." },
+    { artist: "Prince", album: "For You", year: "1978", note: "Prince is on the record as an admirer, and the method is the same one: a teenager producing, arranging and playing essentially every instrument on his own debut." },
+    { artist: "D'Angelo", album: "Voodoo", year: "2000", note: "Hushed, multi-tracked, one-man-band soul built the same way — Otis is routinely named as the precedent for it." },
   ],
 });

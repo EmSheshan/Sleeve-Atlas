@@ -10929,7 +10929,7 @@
         "note": "The band took its original name, Warsaw, from the Low track \"Warszawa\"; its cold production owes a clear debt to this record."
       },
       {
-        "artist": "Gary Numan / Tubeway Air",
+        "artist": "Tubeway Army",
         "album": "Replicas",
         "year": "1979",
         "note": "Synth-driven, emotionally withdrawn post-punk that follows directly from Low's side one."
@@ -10943,7 +10943,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ebdca",
     "image": "https://i.scdn.co/image/5575191d033271bc55ed3c9547104b9b674e36fa",
-    "savedAt": "2026-10-07T00:00:37.768Z"
+    "savedAt": "2026-10-08T23:27:33.408Z"
   },
   "5f34ee8bf0857e55ed5ebfbf": {
     "artist": "Beatles",
@@ -11191,6 +11191,10 @@
       {
         "title": "There's a Riot Goin' On — Wikipedia",
         "url": "https://en.wikipedia.org/wiki/There%27s_a_Riot_Goin%27_On"
+      },
+      {
+        "title": "Shuggie Otis: the heir to the throne who followed his own path — Louder",
+        "url": "https://loudersound.com/features/shuggie-otis-the-heir-to-the-throne-who-followed-his-own-path"
       }
     ],
     "influencedBy": [
@@ -11215,27 +11219,21 @@
     ],
     "influenced": [
       {
+        "artist": "Prince",
+        "album": "For You",
+        "year": "1978",
+        "note": "Prince is on the record as an admirer, and the method is the same one: a teenager producing, arranging and playing essentially every instrument on his own debut."
+      },
+      {
         "artist": "D'Angelo",
         "album": "Voodoo",
         "year": "2000",
-        "note": "Commonly cited as a record this quietly paved the way for — hushed, multi-tracked, one-man-band soul in the same vein."
-      },
-      {
-        "artist": "Erykah Badu",
-        "album": "Mama's Gun",
-        "year": "2000",
-        "note": "Part of the neo-soul landscape the 2001 Luaka Bop reissue fed directly into, introducing Otis's record to a new generation of listeners."
-      },
-      {
-        "artist": "Sharon Jones & the Dap-Kings",
-        "album": "Dark Was the Night (compilation)",
-        "year": "2009",
-        "note": "Covered the title track directly, a concrete sign of the album's rediscovery rippling into the indie-soul revival."
+        "note": "Hushed, multi-tracked, one-man-band soul built the same way — Otis is routinely named as the precedent for it."
       }
     ],
     "uuid": "5f34ee8bf0857e55ed5ebfd0",
     "image": "https://i.scdn.co/image/626bbd1ddc3be50690c172956e17f7eb5c110388",
-    "savedAt": "2026-10-06T23:49:07.856Z"
+    "savedAt": "2026-10-08T23:27:34.500Z"
   },
   "5f34ee8bf0857e55ed5ebed8": {
     "artist": "Faust",
@@ -11587,6 +11585,10 @@
       {
         "title": "The Replacements (band) — Wikipedia",
         "url": "https://en.wikipedia.org/wiki/The_Replacements_(band)"
+      },
+      {
+        "title": "Musicheads Essentials: The Replacements, 'Let It Be' — The Current (MPR)",
+        "url": "https://www.thecurrent.org/feature/2013/09/04/musicheads-essentials-the-replacements-let-it-be"
       }
     ],
     "influencedBy": [
@@ -11625,6 +11627,6 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ebf71",
     "image": "https://i.scdn.co/image/e6b7017e41004f75772887ce49368884ce7fa7db",
-    "savedAt": "2026-10-07T23:08:57.800Z"
+    "savedAt": "2026-10-08T23:27:35.594Z"
   }
 }

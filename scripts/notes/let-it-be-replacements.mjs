@@ -51,6 +51,7 @@ await saveNote({
     { title: "I Will Dare — Wikipedia", url: "https://en.wikipedia.org/wiki/I_Will_Dare" },
     { title: "Androgynous (song) — Wikipedia", url: "https://en.wikipedia.org/wiki/Androgynous_(song)" },
     { title: "The Replacements (band) — Wikipedia", url: "https://en.wikipedia.org/wiki/The_Replacements_(band)" },
+    { title: "Musicheads Essentials: The Replacements, 'Let It Be' — The Current (MPR)", url: "https://www.thecurrent.org/feature/2013/09/04/musicheads-essentials-the-replacements-let-it-be" },
   ],
 
   influencedBy: [
