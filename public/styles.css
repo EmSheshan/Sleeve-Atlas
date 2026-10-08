@@ -853,6 +853,19 @@ main {
   flex-direction: column;
 }
 
+/* The hover-wash bleed below (::before, inset: -18%) is real content
+   overflow, not just something html's overflow-x: hidden visually
+   contains — it exists in layout on every card regardless of opacity,
+   measurably inflating the document's horizontal scroll extent on the
+   narrow 2-up grid, not just the one earlier case that prompted the root-
+   level fix. On a touch device the bleed can't be seen anyway (:hover
+   never fires without a mouse, and :focus-within rarely does via touch),
+   so clipping it here removes the overflow at its actual source instead
+   of only relying on containment further up the tree. */
+@media (hover: none) {
+  .album-card { overflow: hidden; }
+}
+
 /* A soft blurred wash of the sleeve's own palette, not a circular blob —
    bleeds out from behind the whole card on hover. Reuses the same
    --plate-grad the gradient line already computes, so it's free. */
