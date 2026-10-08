@@ -9,6 +9,7 @@ const todayPickEl = document.getElementById("today-pick");
 const modal = document.getElementById("album-modal");
 const modalCloseBtn = document.getElementById("modal-close-btn");
 const modalCover = document.getElementById("modal-cover");
+const modalBg = document.getElementById("modal-bg");
 const modalYearGenre = document.getElementById("modal-year-genre");
 const modalTitle = document.getElementById("modal-title");
 const modalArtist = document.getElementById("modal-artist");
@@ -1465,6 +1466,7 @@ function openModal(album, entry) {
     if (grad) modalCard.style.setProperty("--plate-grad", grad);
   };
   modalCover.src = albumImage(album, 640);
+  modalBg.style.backgroundImage = `url('${albumImage(album, 640)}')`;
   modalYearGenre.textContent = [album.releaseDate, (album.genres || []).join(", ")].filter(Boolean).join(" • ");
   modalTitle.textContent = album.name;
   modalArtist.textContent = album.artist;
