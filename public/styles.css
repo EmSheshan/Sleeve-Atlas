@@ -1022,22 +1022,51 @@ main {
   max-width: 880px;
   width: 100%;
   max-height: 88vh;
+  /* modal-card is a fixed-size frame now, not the scrolling element —
+     .modal-scroll (below) owns overflow-y: auto instead, so .modal-bg
+     can stay outside it and cover the frame at a constant size no matter
+     how far the content inside scrolls. Was overflow-y: auto directly on
+     modal-card; .modal-bg sat inside it sized to inset: 0, which (per
+     how percentage/inset sizing resolves against a scrolling container)
+     meant its box only ever matched the *visible* 88vh, never the full
+     scrollHeight. Scrolling past that first screen's worth of content
+     scrolled the blurred layer away with it, exposing flat --paper-3
+     underneath — a hard seam, worse the more a given album's reviews/
+     notes pushed it past one screen. overflow: hidden (not just -x) both
+     keeps containing .modal-bg's scale bleed and clips modal-scroll to
+     the frame's own rounded/square edge.
+
+     display: flex + column: .modal-card::before (the 4px color band,
+     still a normal in-flow child) and .modal-scroll both need real space
+     out of the same box — .modal-scroll's height: 100% alone would
+     resolve against modal-card's full content height regardless of the
+     band already taking 4px of it, overflowing the frame by exactly
+     that 4px. flex-shrink: 0 on the band plus flex: 1 1 auto on
+     .modal-scroll divides the box correctly instead. */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Owns the actual scrolling now. .modal-bg/.modal-bg-wash are siblings
+   of this, not children — outside the scroll, so they read as a pinned
+   backdrop behind content that moves, the way the design was meant to
+   look, instead of a background that scrolls away after one screen. */
+.modal-scroll {
+  flex: 1 1 auto;
+  /* flexbox's default min-height: auto on a flex child means "never
+     shrink below content size" — without overriding it to 0, a flex
+     item with overflow-y: auto doesn't actually scroll, it just grows
+     the whole flex container to fit its content instead. */
+  min-height: 0;
   overflow-y: auto;
-  /* .modal-bg's transform: scale(1.15) bleeds ~15% past its own inset: 0
-     box on purpose (room for the blur to soften without an exposed hard
-     edge) — harmless against .today-pick, which clips the equivalent
-     bleed via its own overflow: hidden, but modal-card only ever set
-     overflow-y, never -x, so the scaled layer pushed the card's actual
-     horizontal scrollWidth out and a scrollbar appeared. Confirmed
-     directly: of every element in the modal, only .modal-bg's rect
-     extended past the card's own right edge. */
-  overflow-x: hidden;
 }
 
 /* the sleeve's colour as a band across the head of the sheet */
 .modal-card::before {
   content: "";
   display: block;
+  flex-shrink: 0;
   height: 4px;
   background: var(--plate-grad, var(--plate));
   border-radius: 0;
