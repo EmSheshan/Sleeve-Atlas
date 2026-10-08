@@ -1041,24 +1041,47 @@ main {
    are in-flow and paint later than negative-z-index descendants within
    modal-card's own stacking context. Scale avoids the blur radius ever
    showing a sharp, unblurred edge at the box boundary. */
-.modal-bg {
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background-size: cover;
-  background-position: center;
-  filter: blur(40px) saturate(1.3);
-  transform: scale(1.15);
-}
+/* hover: none (touch) gets neither layer — see the note below. */
+.modal-bg, .modal-bg-wash { display: none; }
 
-/* Readability scrim — same job as .tp-wash, sized for a much busier,
-   text-heavy surface (score row, review text, the rate block) rather
-   than one banner title. */
-.modal-bg-wash {
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background: rgba(222, 220, 216, 0.85);
+/* A blurred, transformed layer that scrolls inside .modal-card's own
+   overflow-y: auto (not position: fixed, so not the exact site-glow
+   trigger) is still filter: blur + transform forcing its own GPU
+   compositing layer, repainted every scroll frame — the same mobile
+   Safari compositing-bug family as the site-wide glow, just via a
+   different route (transform-on-scroll instead of fixed-on-scroll).
+   Reported directly: horizontal scroll on opening an album, then a seam
+   while scrolling its content — couldn't reproduce either in Chromium
+   across 8 albums with varying art aspect ratios (scrollWidth === 390
+   every time), consistent with this being another instance of the same
+   un-reproducible-outside-real-iOS-Safari bug class as the site-glow
+   fix. Disabling on touch rather than chasing an artifact this
+   environment structurally can't show. modal-card's own flat --paper-3
+   (its pre-existing default, before either layer existed) is the
+   fallback — not a new placeholder state, just what was always there
+   underneath. */
+@media (pointer: fine) {
+  .modal-bg {
+    display: block;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    filter: blur(40px) saturate(1.3);
+    transform: scale(1.15);
+  }
+
+  /* Readability scrim — same job as .tp-wash, sized for a much busier,
+     text-heavy surface (score row, review text, the rate block) rather
+     than one banner title. */
+  .modal-bg-wash {
+    display: block;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: rgba(222, 220, 216, 0.85);
+  }
 }
 
 .modal-close {
