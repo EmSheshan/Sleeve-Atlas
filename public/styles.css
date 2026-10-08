@@ -1657,25 +1657,15 @@ main {
    background-size so a narrow, mostly-empty bar (most users are well
    under 50% complete) still shows real color movement instead of one
    flat stretch of red. */
+/* Same red->amber->green stops as .stats-glow (both lifted from
+   ratingColor()'s own hue math) — static, left to right across the
+   filled portion itself, no motion. */
 .progress-bar span {
   display: block;
   height: 100%;
-  background: linear-gradient(90deg,
-    hsl(0, 72%, 38%), hsl(45, 72%, 40%), hsl(130, 62%, 32%),
-    hsl(45, 72%, 40%), hsl(0, 72%, 38%));
-  background-size: 200% 100%;
-  animation: progress-flow 6s linear infinite;
+  background: linear-gradient(90deg, hsl(0, 72%, 38%), hsl(45, 72%, 40%), hsl(130, 62%, 32%));
   border-radius: 0;
   transition: width 0.7s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-@keyframes progress-flow {
-  0% { background-position: 0% 0; }
-  100% { background-position: 200% 0; }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .progress-bar span { animation: none; }
 }
 
 .progress-caption {
