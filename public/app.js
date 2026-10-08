@@ -1405,6 +1405,15 @@ document.querySelectorAll(".sub-tab").forEach((btn) => {
     // switching while scrolled deep into a note would otherwise drop you into
     // the middle of the other pane — bring the tab row back up with you
     btn.closest(".sub-tabs").scrollIntoView({ block: "start", behavior: "smooth" });
+    // scrollIntoView walks every scrollable ancestor, and .modal-card still
+    // counts as one even with overflow: hidden (Chromium lets scrollTop be
+    // set on it even though there's no user-facing scrollbar) — it was
+    // picking up a stray scrollTop that shifted .modal-scroll's in-flow
+    // content away from .modal-bg's fixed position behind it, opening a
+    // gap at the bottom where the pinned background showed through past
+    // the actual content. .modal-card is never meant to scroll itself
+    // (.modal-scroll owns that), so this is always safe to force back to 0.
+    btn.closest(".modal-card").scrollTop = 0;
   });
 });
 
