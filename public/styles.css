@@ -1023,6 +1023,15 @@ main {
   width: 100%;
   max-height: 88vh;
   overflow-y: auto;
+  /* .modal-bg's transform: scale(1.15) bleeds ~15% past its own inset: 0
+     box on purpose (room for the blur to soften without an exposed hard
+     edge) — harmless against .today-pick, which clips the equivalent
+     bleed via its own overflow: hidden, but modal-card only ever set
+     overflow-y, never -x, so the scaled layer pushed the card's actual
+     horizontal scrollWidth out and a scrollbar appeared. Confirmed
+     directly: of every element in the modal, only .modal-bg's rect
+     extended past the card's own right edge. */
+  overflow-x: hidden;
 }
 
 /* the sleeve's colour as a band across the head of the sheet */
@@ -1040,48 +1049,34 @@ main {
    band and modal-body despite being absolutely positioned, since those
    are in-flow and paint later than negative-z-index descendants within
    modal-card's own stacking context. Scale avoids the blur radius ever
-   showing a sharp, unblurred edge at the box boundary. */
-/* hover: none (touch) gets neither layer — see the note below. */
-.modal-bg, .modal-bg-wash { display: none; }
+   showing a sharp, unblurred edge at the box boundary — that scale is
+   what was actually bleeding past the card (see .modal-card's own
+   overflow-x: hidden above). Previously disabled on touch entirely,
+   diagnosed as a mobile-Safari-only compositing bug — but a narrow
+   *desktop* window reproduced the exact same symptoms directly in
+   Chromium (scrollbar visible, .modal-bg's rect measurably past the
+   card's edge), which the original touch-only diagnosis couldn't have
+   been, since pointer: fine is true on desktop regardless of window
+   width. The real bug was just the missing overflow-x: hidden; re-
+   enabled here now that it's actually fixed at the source. */
+.modal-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  filter: blur(40px) saturate(1.3);
+  transform: scale(1.15);
+}
 
-/* A blurred, transformed layer that scrolls inside .modal-card's own
-   overflow-y: auto (not position: fixed, so not the exact site-glow
-   trigger) is still filter: blur + transform forcing its own GPU
-   compositing layer, repainted every scroll frame — the same mobile
-   Safari compositing-bug family as the site-wide glow, just via a
-   different route (transform-on-scroll instead of fixed-on-scroll).
-   Reported directly: horizontal scroll on opening an album, then a seam
-   while scrolling its content — couldn't reproduce either in Chromium
-   across 8 albums with varying art aspect ratios (scrollWidth === 390
-   every time), consistent with this being another instance of the same
-   un-reproducible-outside-real-iOS-Safari bug class as the site-glow
-   fix. Disabling on touch rather than chasing an artifact this
-   environment structurally can't show. modal-card's own flat --paper-3
-   (its pre-existing default, before either layer existed) is the
-   fallback — not a new placeholder state, just what was always there
-   underneath. */
-@media (pointer: fine) {
-  .modal-bg {
-    display: block;
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-    background-size: cover;
-    background-position: center;
-    filter: blur(40px) saturate(1.3);
-    transform: scale(1.15);
-  }
-
-  /* Readability scrim — same job as .tp-wash, sized for a much busier,
-     text-heavy surface (score row, review text, the rate block) rather
-     than one banner title. */
-  .modal-bg-wash {
-    display: block;
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-    background: rgba(222, 220, 216, 0.85);
-  }
+/* Readability scrim — same job as .tp-wash, sized for a much busier,
+   text-heavy surface (score row, review text, the rate block) rather
+   than one banner title. */
+.modal-bg-wash {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: rgba(222, 220, 216, 0.85);
 }
 
 .modal-close {
