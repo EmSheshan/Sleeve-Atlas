@@ -11702,5 +11702,173 @@
     "uuid": "5f34ee8bf0857e55ed5ebdcb",
     "image": "https://i.scdn.co/image/ff30aee935ac235dcdf53e2b4cef4532de7d33cf",
     "savedAt": "2026-10-08T23:45:59.022Z"
+  },
+  "5f34ee8bf0857e55ed5ec079": {
+    "artist": "Stan Getz",
+    "album": "Jazz Samba",
+    "year": "1962",
+    "heading": "Jazz Samba — Stan Getz (1962)",
+    "albumLine": "Released 20 April 1962 on Verve, produced by Creed Taylor and cut in a single afternoon at Pierce Hall in All Souls Unitarian Church, Washington DC. The first full bossa nova album made by American jazz musicians, and the record that turned a Brazilian style into an American craze.",
+    "overview": [
+      "Guitarist Charlie Byrd heard bossa nova on a tour of Brazil in 1961 and came home with records. The style was only a few years old: samba slowed down and quietened, the rhythm displaced off the drums and onto the guitar, harmony borrowed from jazz, singing kept almost conversational. Byrd thought American jazz musicians could play it, and took the idea to tenor saxophonist Stan Getz and producer Creed Taylor.",
+      "The session was quick to the point of being casual. On 13 February 1962 the band set up in and around the church pulpit with a two-track portable Ampex running, while Taylor monitored from a small mobile studio parked outside. By Taylor's account the whole thing took barely three hours — in around one o'clock, out by half past five. There was no multitracking and no fixing afterwards; what survives is a room with six men playing in it.",
+      "Taylor named the album Jazz Samba because, as he told it, he thought many Americans couldn't pronounce \"bossa nova,\" and said Verve's marketing people nearly talked him into dropping the word jazz as well. The caution was misplaced. It sold half a million copies inside eighteen months, spent seventy weeks on the charts, and remains the only jazz album ever to reach No. 1 on the Billboard pop chart. Getz took the 1963 Grammy for Best Jazz Performance for the single pulled from it.",
+      "The success is also the complicated part. The compositions are largely by Brazilian writers — Antônio Carlos Jobim chief among them — but not one Brazilian musician plays on the record. An American band introduced a Brazilian style to the American market and was rewarded for it, and the bossa nova boom that followed ran on those terms for years before the people who invented it were widely heard on their own records."
+    ],
+    "listeningNotes": [
+      {
+        "label": "A tenor tone kept deliberately plain",
+        "text": "Getz plays with almost no vibrato and very little weight, close to the sound of someone talking. It leaves the rhythm underneath completely exposed."
+      },
+      {
+        "label": "The rhythm carried on the guitar",
+        "text": "Bossa nova's defining pattern puts the pulse in the guitar's thumb and fingers rather than the drum kit. Byrd plays it on nylon strings throughout, and it is what makes the record sound Brazilian rather than Latin-American-generally."
+      },
+      {
+        "label": "Two guitars doing different jobs",
+        "text": "Charlie Byrd takes the lead and the rhythmic pattern; his brother Gene Byrd plays rhythm guitar and bass, so the low end is often guitar rather than upright."
+      },
+      {
+        "label": "Brushes instead of sticks",
+        "text": "Buddy Deppenschmidt and Bill Reichenbach Sr. keep the drumming to a whisper, marking the samba feel without ever taking the beat back from the guitar."
+      },
+      {
+        "label": "A church, not a studio",
+        "text": "Recorded live to two tracks in a hall with its own long decay. The space around the instruments is the room itself, since there was no way to add it later."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jazz Samba — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jazz_Samba"
+      },
+      {
+        "title": "Jazz Samba: A Masterpiece Recorded in Three Hours — Everything Jazz",
+        "url": "https://www.everythingjazz.com/story/jazz-samba-a-masterpiece-recorded-in-three-hours/"
+      },
+      {
+        "title": "Stan Getz, Charlie Byrd: Jazz Samba — AllMusic",
+        "url": "https://www.allmusic.com/album/jazz-samba-mw0000594010"
+      },
+      {
+        "title": "Charlie Byrd — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Charlie_Byrd"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "João Gilberto",
+        "album": "Chega de Saudade",
+        "year": "1959",
+        "note": "The record that fixed bossa nova's guitar pattern and its unforced delivery; Byrd encountered the style in Brazil and built this album's guitar parts on that pattern."
+      },
+      {
+        "artist": "Stan Getz",
+        "album": "Focus",
+        "year": "1961",
+        "note": "Getz's own record from the year before, where he had already pared his tone down to the soft, near-vibratoless sound he brings to this one."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Antônio Carlos Jobim",
+        "album": "The Composer of Desafinado, Plays",
+        "year": "1963",
+        "note": "Verve signed Jobim as a leader on the back of this album's success and put Creed Taylor in the producer's chair for it."
+      },
+      {
+        "artist": "Stan Getz",
+        "album": "Getz/Gilberto",
+        "year": "1964",
+        "note": "The direct sequel — same saxophonist, same producer, same label, but with Brazilian musicians playing this time."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec079",
+    "image": "https://i.scdn.co/image/ab67616d00001e02e259545b94392d48378ecb3c",
+    "savedAt": "2026-10-09T00:02:05.802Z"
+  },
+  "5f34ee8bf0857e55ed5ed33d": {
+    "artist": "Led Zeppelin",
+    "album": "Led Zeppelin IV",
+    "year": "1971",
+    "heading": "Led Zeppelin IV — Led Zeppelin (1971)",
+    "albumLine": "Released 8 November 1971 on Atlantic, produced by guitarist Jimmy Page and engineered by Andy Johns. Recorded largely at Headley Grange, a cold and half-derelict house in Hampshire, using the Rolling Stones' mobile studio, and issued with no title and no band name anywhere on the sleeve.",
+    "overview": [
+      "Led Zeppelin III had been met in late 1970 with reviews that ranged from lukewarm to dismissive, largely because of how much acoustic material was on it. The band's answer was not to explain themselves but to remove their name from the next record altogether. Page settled on four hand-drawn symbols, one chosen by each member, and nothing else. Atlantic objected; the band simply refused to hand over the master tapes until the label gave in. Page's account of the thinking was flat: \"We just happened to have a lot of faith in what we were doing.\"",
+      "Most of it was made in a house rather than a studio. Headley Grange was damp and freezing — bassist John Paul Jones remembered that \"we all ran in when we arrived in a mad scramble to get the driest rooms\" — and Johns recalled the band complaining about the cold while Page worried instead about \"creepy noises or flying fucking furniture.\" The Rolling Stones' mobile unit was parked outside, soundproofed with egg cartons and not remotely state of the art. Johns thought that helped: it \"contributed to the air of spontaneity throughout the recording sessions.\"",
+      "That setting is audible in the result. Working in a house with a three-storey hall meant the building could be used as equipment, and several of the album's most recognisable sounds exist because someone put a microphone somewhere unusual rather than because of anything on a console.",
+      "It worked commercially on a scale almost nothing matches: over 37 million copies sold worldwide as of 2014, and 24× platinum certification in the United States alone. Reviewers at the time called it the band's most consistently good album; the later consensus has been less measured, treating it as the definitive Led Zeppelin record and, by extension, a founding document for heavy metal."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Two microphones on a staircase",
+        "text": "Bonham's kit was set up in the Minstrels' Gallery, a three-storey hall, with a pair of Beyerdynamic M160s hung from the stairs above it. That distance, not the drummer alone, is the sound on \"When the Levee Breaks.\""
+      },
+      {
+        "label": "A kick drum nobody bothered to mic",
+        "text": "Johns left the bass drum without a close microphone because it was already loud enough through the overheads — the opposite of standard practice then and now."
+      },
+      {
+        "label": "An echo unit used as a compressor",
+        "text": "The drums were squashed through a Binson Echorec, an Italian tape-echo box, which is where the thickness and the slight smear on the attack come from."
+      },
+      {
+        "label": "Acoustic and electric given equal weight",
+        "text": "Fingerpicked, folk-derived writing sits beside the heaviest riffs on the record rather than being quarantined on one side — the direction III was mocked for, continued without apology."
+      },
+      {
+        "label": "One guest voice, used once",
+        "text": "Sandy Denny of Fairport Convention trades verses with Robert Plant on \"The Battle of Evermore\" — the only female voice on any Led Zeppelin record, and she was given her own symbol on the sleeve."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Led Zeppelin IV — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Led_Zeppelin_IV"
+      },
+      {
+        "title": "How a Harsh Recording Environment Inspired 'Led Zeppelin IV' — Ultimate Classic Rock",
+        "url": "https://ultimateclassicrock.com/led-zeppelin-iv-recording/"
+      },
+      {
+        "title": "How Led Zeppelin Finally Conquered The World With 'Led Zeppelin IV' — GRAMMY.com",
+        "url": "https://www.grammy.com/news/led-zeppelin-iv-stairway-heaven-album-anniversary-record-video/"
+      },
+      {
+        "title": "Recreating the When the Levee Breaks Drum Sound — Vintage King",
+        "url": "https://vintageking.com/blog/when-the-levee-breaks-drum/"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Led Zeppelin",
+        "album": "Led Zeppelin III",
+        "year": "1970",
+        "note": "The acoustic turn this record completes, worked out in the same Hampshire house; the dismissive reviews III drew are the reason this one carries no title at all."
+      },
+      {
+        "artist": "Fairport Convention",
+        "album": "Liege & Lief",
+        "year": "1969",
+        "note": "The British folk revival the album's modal, fingerpicked writing draws on — and a direct personnel link, since Sandy Denny sings on this record."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Beastie Boys",
+        "album": "Licensed to Ill",
+        "year": "1986",
+        "note": "Built the opening of \"Rhymin & Stealin\" on the Levee drum break, among the earliest of hundreds of records to sample it."
+      },
+      {
+        "artist": "Nirvana",
+        "album": "Nevermind",
+        "year": "1991",
+        "note": "Dave Grohl has named Bonham as his model repeatedly; the hit-hard-into-a-big-room drum approach here, rather than tight close-miking, is what he took."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ed33d",
+    "image": "https://i.scdn.co/image/ab67616d00001e024509204d0860cc0cc67e83dc",
+    "savedAt": "2026-10-09T00:02:06.883Z"
   }
 }
