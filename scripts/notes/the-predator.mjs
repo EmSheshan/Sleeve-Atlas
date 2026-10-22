@@ -54,7 +54,7 @@ await saveNote({
   ],
 
   influenced: [
-    { artist: "Dr. Dre", album: "The Chronic", year: "1992", note: "Released a month later; the warm funk-sample palette and live-feeling low end were being developed in the same scene at the same moment." },
+    { artist: "Dr. Dre", album: "The Chronic", year: "1992", note: "Dre borrowed the title of this album's 'Check Yo Self' for a line on his own 'Fuck Wit Dre Day' that December, continuing their public feud; Cube's cameo in the 'Let Me Ride' video the following year marked their on-record reconciliation." },
     { artist: "Kendrick Lamar", album: "To Pimp a Butterfly", year: "2015", note: "The Los Angeles album that treats a specific act of police violence as its organising subject descends from this one." },
   ],
 });

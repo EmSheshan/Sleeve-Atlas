@@ -58,7 +58,5 @@ await saveNote({
     { artist: "Broadcast", album: "The Noise Made by People", year: "2000", note: "The nearest British precedent: cool, unstrained vocal lines over vintage analogue electronics and library-music textures." },
   ],
 
-  influenced: [
-    { artist: "Beak>", album: "Beak>>>", year: "2018", note: "Part of the same British revival of German rhythmic minimalism as a working method rather than a reference." },
-  ],
+  influenced: [],
 });

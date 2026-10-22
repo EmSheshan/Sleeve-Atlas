@@ -61,6 +61,5 @@ await saveNote({
   influenced: [
     { artist: "Art of Noise", album: "Who's Afraid of the Art of Noise?", year: "1984", note: "Horn, Dudley and Jeczalik formed Art of Noise directly out of this team, taking the Fairlight work much further." },
     { artist: "Frankie Goes to Hollywood", album: "Welcome to the Pleasuredome", year: "1984", note: "Horn's maximalist production method, proven here, applied on a still larger scale." },
-    { artist: "Scritti Politti", album: "Cupid & Psyche 85", year: "1985", note: "Part of the same new pop turn — post-punk musicians making immaculate, ironic chart records." },
   ],
 });

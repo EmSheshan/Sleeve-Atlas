@@ -59,6 +59,5 @@ await saveNote({
 
   influenced: [
     { artist: "Youssou N'Dour", album: "The Guide (Wommat)", year: "1994", note: "Gabriel's platform and label, Real World, were instrumental in N'Dour reaching Western audiences on his own terms." },
-    { artist: "Radiohead", album: "OK Computer", year: "1997", note: "Part of the lineage of British art rock that sells in millions without simplifying — a path this record demonstrated." },
   ],
 });

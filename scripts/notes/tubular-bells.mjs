@@ -59,6 +59,6 @@ await saveNote({
 
   influenced: [
     { artist: "Jean-Michel Jarre", album: "Oxygène", year: "1976", note: "The commercial proof that a long-form instrumental album with no singer could sell in millions." },
-    { artist: "Brian Eno", album: "Music for Airports", year: "1978", note: "Part of the same movement toward extended, non-narrative instrumental music made in the studio." },
+    { artist: "Janet Jackson", album: "The Velvet Rope", year: "1997", note: "The title track, produced by Jimmy Jam and Terry Lewis, samples the opening Tubular Bells theme directly, with Oldfield credited as a co-writer." },
   ],
 });

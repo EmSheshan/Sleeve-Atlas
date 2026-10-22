@@ -393,14 +393,14 @@
       },
       {
         "artist": "Porcupine Tree",
-        "album": "In Absentia",
-        "year": "2002",
-        "note": "Part of the progressive rock lineage that took this album's patience and space as a working model."
+        "album": "The Sky Moves Sideways",
+        "year": "1995",
+        "note": "Steven Wilson has said Pink Floyd \"are almost entirely responsible for the direction my music has taken\"; this album splits its title track into two bookending halves, directly mirroring \"Shine On You Crazy Diamond's\" structure here."
       }
     ],
     "uuid": "5f34ee8bf0857e55ed5ebe74",
     "image": "https://i.scdn.co/image/ab67616d00001e025aa1262c4123fedc2e4b8c44",
-    "savedAt": "2026-09-27T18:45:45.014Z"
+    "savedAt": "2026-10-22T23:36:49.586Z"
   },
   "5f34ee8bf0857e55ed5ed0b1": {
     "artist": "Dr. Dre",
@@ -615,17 +615,10 @@
         "note": "Vini Reilly's own group — his delicate, reverbed guitar style is imported wholesale and defines the record's texture."
       }
     ],
-    "influenced": [
-      {
-        "artist": "Suede",
-        "album": "Suede",
-        "year": "1993",
-        "note": "Part of the lineage from Morrissey's solo persona into Britpop's more theatrical, English-miserabilist end."
-      }
-    ],
+    "influenced": [],
     "uuid": "5f34ee8bf0857e55ed5ec07e",
     "image": "https://i.scdn.co/image/fe4178932c25c0ae3265d97abec1fdb06a9c2bb9",
-    "savedAt": "2026-09-26T22:22:08.574Z"
+    "savedAt": "2026-10-22T23:36:42.930Z"
   },
   "5f34ee8bf0857e55ed5ebdb6": {
     "artist": "Isaac Hayes",
@@ -964,17 +957,11 @@
         "album": "Welcome to the Pleasuredome",
         "year": "1984",
         "note": "Horn's maximalist production method, proven here, applied on a still larger scale."
-      },
-      {
-        "artist": "Scritti Politti",
-        "album": "Cupid & Psyche 85",
-        "year": "1985",
-        "note": "Part of the same new pop turn — post-punk musicians making immaculate, ironic chart records."
       }
     ],
     "uuid": "5f34ee8bf0857e55ed5ebea8",
     "image": "https://i.scdn.co/image/0e6e2b4689ce443289ee6744cc5764c8839257a7",
-    "savedAt": "2026-09-26T22:52:02.820Z"
+    "savedAt": "2026-10-22T23:36:36.304Z"
   },
   "5f34ee8bf0857e55ed5ebdff": {
     "artist": "Wilco",
@@ -1042,17 +1029,10 @@
         "note": "Precedent for an American songwriter deliberately roughing up his own material rather than delivering it clean."
       }
     ],
-    "influenced": [
-      {
-        "artist": "The Decemberists",
-        "album": "The Crane Wife",
-        "year": "2006",
-        "note": "Part of the wave of 2000s American indie bands that followed this record's licence to make ambitious, studio-heavy albums."
-      }
-    ],
+    "influenced": [],
     "uuid": "5f34ee8bf0857e55ed5ebdff",
     "image": "https://i.scdn.co/image/33eb9b644951c1010741095e8b57847d0bb27581",
-    "savedAt": "2026-09-26T22:53:01.509Z"
+    "savedAt": "2026-10-22T23:36:55.597Z"
   },
   "5f34ee8bf0857e55ed5ebdaf": {
     "artist": "X-Ray Spex",
@@ -1689,7 +1669,7 @@
         "artist": "Bob Marley & The Wailers",
         "album": "Exodus",
         "year": "1977",
-        "note": "Part of the same post-split wave; the three former Wailers' solo records pushed each other and defined roots reggae's international moment."
+        "note": "Tosh, Marley and Bunny Wailer were the original Wailers trio; each released a solo debut within months of the 1973-74 split, and Marley's Exodus became the breakout the others had been chasing."
       },
       {
         "artist": "Black Uhuru",
@@ -1700,7 +1680,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ec0ab",
     "image": "https://i.scdn.co/image/431911244ec9aef3230dd15ee794a946ed90d2db",
-    "savedAt": "2026-09-27T14:43:43.443Z"
+    "savedAt": "2026-10-22T23:36:48.481Z"
   },
   "5f34ee8bf0857e55ed5ebf99": {
     "artist": "Gotan Project",
@@ -1908,7 +1888,7 @@
         "artist": "Ramones",
         "album": "Ramones",
         "year": "1976",
-        "note": "The other great CBGB export, and the scene Blondie's speed and brevity come from."
+        "note": "The Ramones compressed rock songs to under three minutes on barre-chord simplicity; Parallel Lines keeps that same speed and brevity even once Chapman's production gets glossier."
       },
       {
         "artist": "Donna Summer",
@@ -1933,7 +1913,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ec01d",
     "image": "https://i.scdn.co/image/d823559ac6ffa4c84c7ebb3b7ac2e2caa5206aba",
-    "savedAt": "2026-09-28T23:43:09.983Z"
+    "savedAt": "2026-10-22T23:36:53.401Z"
   },
   "5f34ee8bf0857e55ed5ebddc": {
     "artist": "Mike Oldfield",
@@ -2009,15 +1989,15 @@
         "note": "The commercial proof that a long-form instrumental album with no singer could sell in millions."
       },
       {
-        "artist": "Brian Eno",
-        "album": "Music for Airports",
-        "year": "1978",
-        "note": "Part of the same movement toward extended, non-narrative instrumental music made in the studio."
+        "artist": "Janet Jackson",
+        "album": "The Velvet Rope",
+        "year": "1997",
+        "note": "The title track, produced by Jimmy Jam and Terry Lewis, samples the opening Tubular Bells theme directly, with Oldfield credited as a co-writer."
       }
     ],
     "uuid": "5f34ee8bf0857e55ed5ebddc",
     "image": "https://i.scdn.co/image/ab67616d00001e02631093c9071b1211de4be4c1",
-    "savedAt": "2026-09-27T18:19:36.924Z"
+    "savedAt": "2026-10-22T23:36:41.812Z"
   },
   "5f34ee8bf0857e55ed5ebc1d": {
     "artist": "Abdullah Ibrahim",
@@ -2086,12 +2066,12 @@
         "artist": "Hugh Masekela",
         "album": "Tomorrow",
         "year": "1987",
-        "note": "Fellow exiled South African musician working the same territory of township melody in an international jazz frame."
+        "note": "Masekela and Ibrahim (then Dollar Brand) were bandmates in the Jazz Epistles, the group that cut South Africa's first all-Black modern jazz record in 1960 before exile split them up."
       }
     ],
     "uuid": "5f34ee8bf0857e55ed5ebc1d",
     "image": "https://i.scdn.co/image/ab67616d00001e024edc41e41abac0fa4257781d",
-    "savedAt": "2026-09-27T18:20:37.086Z"
+    "savedAt": "2026-10-22T23:36:39.628Z"
   },
   "5f34ee8bf0857e55ed5ebe57": {
     "artist": "Tim Buckley",
@@ -2435,17 +2415,11 @@
         "album": "The Writing's on the Wall",
         "year": "1999",
         "note": "The template of an R&B vocal group over hip-hop production, trading lines rather than harmonising, runs directly from here."
-      },
-      {
-        "artist": "Aaliyah",
-        "album": "One in a Million",
-        "year": "1996",
-        "note": "Part of the same movement toward cooler, lower, more rhythmically complex R&B singing."
       }
     ],
     "uuid": "5f34ee8bf0857e55ed5ec001",
     "image": "https://i.scdn.co/image/7a17b048e5294e905bd17977c842638e08a495eb",
-    "savedAt": "2026-09-28T23:43:17.634Z"
+    "savedAt": "2026-10-22T23:36:46.278Z"
   },
   "5f34ee8bf0857e55ed5ebf27": {
     "artist": "Kraftwerk",
@@ -2507,10 +2481,10 @@
         "note": "Their own previous album, where the sequenced rhythm and European-modernist framing were established; this one makes it pop."
       },
       {
-        "artist": "Can",
-        "album": "Tago Mago",
-        "year": "1971",
-        "note": "Fellow German experimentalists whose repetitive, motorik rhythms are part of the same post-war reinvention Kraftwerk belong to."
+        "artist": "Neu!",
+        "album": "Neu!",
+        "year": "1972",
+        "note": "Founders Klaus Dinger and Michael Rother both briefly played in Kraftwerk before leaving to form this band; the motorik pulse Dinger invented there is the steady sequenced rhythm Kraftwerk builds this album's melodies over."
       }
     ],
     "influenced": [
@@ -2535,7 +2509,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ebf27",
     "image": "https://i.scdn.co/image/916da41b713993c9a7b6d957f304da51bdea9347",
-    "savedAt": "2026-09-27T18:24:57.737Z"
+    "savedAt": "2026-10-22T23:36:38.514Z"
   },
   "5f34ee8bf0857e55ed5ebf4d": {
     "artist": "Metallica",
@@ -2873,17 +2847,11 @@
         "album": "The Guide (Wommat)",
         "year": "1994",
         "note": "Gabriel's platform and label, Real World, were instrumental in N'Dour reaching Western audiences on his own terms."
-      },
-      {
-        "artist": "Radiohead",
-        "album": "OK Computer",
-        "year": "1997",
-        "note": "Part of the lineage of British art rock that sells in millions without simplifying — a path this record demonstrated."
       }
     ],
     "uuid": "6439a48d595daaf76a3f4182",
     "image": "https://i.scdn.co/image/ab67616d00001e0211bb04f55be562c76d8e8ecf",
-    "savedAt": "2026-09-29T21:49:51.984Z"
+    "savedAt": "2026-10-22T23:36:50.888Z"
   },
   "5f34ee8bf0857e55ed5ecfdf": {
     "artist": "Throbbing Gristle",
@@ -3569,12 +3537,6 @@
     ],
     "influenced": [
       {
-        "artist": "Bon Iver",
-        "album": "Bon Iver, Bon Iver",
-        "year": "2011",
-        "note": "Part of the same American pastoral-indie moment, sharing the emphasis on layered voice and reverb-heavy space."
-      },
-      {
         "artist": "The Lumineers",
         "album": "The Lumineers",
         "year": "2012",
@@ -3583,7 +3545,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ebdd4",
     "image": "https://i.scdn.co/image/a25c28a11fa0dfc77373bbef28644caddae89911",
-    "savedAt": "2026-09-27T18:46:32.591Z"
+    "savedAt": "2026-10-22T23:36:45.160Z"
   },
   "63e4148044f4bd0a4a8fbda8": {
     "artist": "Nusrat Fateh Ali Khan",
@@ -4230,12 +4192,12 @@
         "artist": "Beastie Boys",
         "album": "Ill Communication",
         "year": "1994",
-        "note": "Muggs's murky, live-feeling sample aesthetic shaped the mid-nineties crossover sound this album shares a scene with."
+        "note": "Percussionist Eric Bobo, by then a full Cypress Hill member, had been a touring Beastie Boy and plays on that record's \"Bobo on the Corner\"; the two groups had already toured together and cut the 1992 \"So What'cha Want\" remix with Muggs behind the boards."
       }
     ],
     "uuid": "5f34ee8bf0857e55ed5ebea2",
     "image": "https://i.scdn.co/image/ab67616d00001e0217a47aeb3cf86d4b85825345",
-    "savedAt": "2026-09-27T22:11:31.819Z"
+    "savedAt": "2026-10-22T23:36:44.042Z"
   },
   "5f34ee8bf0857e55ed5ec07b": {
     "artist": "Iron Maiden",
@@ -4798,7 +4760,7 @@
         "artist": "Dr. Dre",
         "album": "The Chronic",
         "year": "1992",
-        "note": "Released a month later; the warm funk-sample palette and live-feeling low end were being developed in the same scene at the same moment."
+        "note": "Dre borrowed the title of this album's 'Check Yo Self' for a line on his own 'Fuck Wit Dre Day' that December, continuing their public feud; Cube's cameo in the 'Let Me Ride' video the following year marked their on-record reconciliation."
       },
       {
         "artist": "Kendrick Lamar",
@@ -4809,7 +4771,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ebf56",
     "image": "https://i.scdn.co/image/ab67616d00001e02994c319841a923465d62e271",
-    "savedAt": "2026-09-27T22:21:05.397Z"
+    "savedAt": "2026-10-22T23:36:37.389Z"
   },
   "5f34ee8bf0857e55ed5ebe28": {
     "artist": "Fela Kuti",
@@ -6971,17 +6933,10 @@
         "note": "The nearest British precedent: cool, unstrained vocal lines over vintage analogue electronics and library-music textures."
       }
     ],
-    "influenced": [
-      {
-        "artist": "Beak>",
-        "album": "Beak>>>",
-        "year": "2018",
-        "note": "Part of the same British revival of German rhythmic minimalism as a working method rather than a reference."
-      }
-    ],
+    "influenced": [],
     "uuid": "5f34ee8bf0857e55ed5ea115",
     "image": "https://i.scdn.co/image/ab67616d00001e0213d79f34bd5287f0605cdec4",
-    "savedAt": "2026-09-29T03:20:10.608Z"
+    "savedAt": "2026-10-22T23:36:52.323Z"
   },
   "641cc5968db68ba89e126d37": {
     "artist": "Madonna",
@@ -8651,12 +8606,6 @@
     ],
     "influenced": [
       {
-        "artist": "Fela Kuti",
-        "album": "Zombie",
-        "year": "1977",
-        "note": "Part of the same current of African musicians turning Western jazz training back onto local rhythmic forms."
-      },
-      {
         "artist": "Paul Simon",
         "album": "Graceland",
         "year": "1986",
@@ -8665,7 +8614,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ec06f",
     "image": "https://i.scdn.co/image/32ab9b86a46e162739d23efde82fcce7c3665873",
-    "savedAt": "2026-09-29T12:25:30.148Z"
+    "savedAt": "2026-10-22T23:36:40.737Z"
   },
   "5f34ee8bf0857e55ed5ec0d9": {
     "artist": "Finley Quaye",
@@ -9594,7 +9543,7 @@
         "artist": "Travis",
         "album": "The Man Who",
         "year": "1999",
-        "note": "Also produced in the same British orbit, and the record that proved quiet melodic rock could sell after Britpop."
+        "note": "Chris Martin has called himself \"a poor man's Fran Healy\" and said Travis \"invented\" Coldplay; Healy has said Coldplay studied this record closely while they were still unknown."
       }
     ],
     "influenced": [
@@ -9607,7 +9556,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ec05f",
     "image": "https://i.scdn.co/image/af4812064c4963f5ce4e630cbf70b540ce3f60dc",
-    "savedAt": "2026-09-29T21:51:55.765Z"
+    "savedAt": "2026-10-22T23:36:54.480Z"
   },
   "5f34ee8bf0857e55ed5eae4c": {
     "artist": "Tom Petty and the Heartbreakers",
@@ -10742,12 +10691,12 @@
         "artist": "The Blackbyrds",
         "album": "The Blackbyrds",
         "year": "1974",
-        "note": "Part of the commercial jazz-funk wave that followed once Head Hunters proved the style could sell."
+        "note": "Drummer Harvey Mason, half of this album's rhythm section, was already the regular drummer on Donald Byrd's Mizell-produced records; the Mizell brothers formed and produced the Blackbyrds the following year in the same jazz-funk vein."
       }
     ],
     "uuid": "5f34ee8bf0857e55ed5ead3d",
     "image": "https://i.scdn.co/image/ab67616d00001e026b75d57d2d070c0c4afb3f9a",
-    "savedAt": "2026-10-06T23:49:01.060Z"
+    "savedAt": "2026-10-22T23:36:47.366Z"
   },
   "5f34ee8bf0857e55ed5ebe84": {
     "artist": "Rush",
@@ -11130,12 +11079,12 @@
         "artist": "Jackson Browne",
         "album": "Jackson Browne",
         "year": "1972",
-        "note": "Part of the same Laurel Canyon singer-songwriter circle that CSN's success helped open up to major labels."
+        "note": "Crosby and Nash sang backing vocals on this debut, and David Geffen — who signed Browne to the Asylum label he founded the same year — had built his reputation managing CSN first."
       }
     ],
     "uuid": "5f34ee8bf0857e55ed5ec082",
     "image": "https://i.scdn.co/image/c79971df3f3e288729e6561adbc967067c76418c",
-    "savedAt": "2026-10-06T23:49:06.836Z"
+    "savedAt": "2026-10-22T23:36:35.145Z"
   },
   "5f34ee8bf0857e55ed5ebfd0": {
     "artist": "Shuggie Otis",

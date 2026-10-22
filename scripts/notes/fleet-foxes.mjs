@@ -55,7 +55,6 @@ await saveNote({
   ],
 
   influenced: [
-    { artist: "Bon Iver", album: "Bon Iver, Bon Iver", year: "2011", note: "Part of the same American pastoral-indie moment, sharing the emphasis on layered voice and reverb-heavy space." },
     { artist: "The Lumineers", album: "The Lumineers", year: "2012", note: "The commercial folk-revival wave that followed in this album's wake, in a considerably simplified form." },
   ],
 });

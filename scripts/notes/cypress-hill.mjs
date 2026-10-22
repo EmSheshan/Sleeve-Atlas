@@ -59,6 +59,6 @@ await saveNote({
 
   influenced: [
     { artist: "Wu-Tang Clan", album: "Enter the Wu-Tang (36 Chambers)", year: "1993", note: "The taste for deliberately grimy, lo-fi sample beds and multiple contrasting vocal textures runs on from here." },
-    { artist: "Beastie Boys", album: "Ill Communication", year: "1994", note: "Muggs's murky, live-feeling sample aesthetic shaped the mid-nineties crossover sound this album shares a scene with." },
+    { artist: "Beastie Boys", album: "Ill Communication", year: "1994", note: "Percussionist Eric Bobo, by then a full Cypress Hill member, had been a touring Beastie Boy and plays on that record's \"Bobo on the Corner\"; the two groups had already toured together and cut the 1992 \"So What'cha Want\" remix with Muggs behind the boards." },
   ],
 });

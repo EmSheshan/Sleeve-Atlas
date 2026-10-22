@@ -54,7 +54,7 @@ await saveNote({
 
   influencedBy: [
     { artist: "Kraftwerk", album: "Trans-Europe Express", year: "1977", note: "Their own previous album, where the sequenced rhythm and European-modernist framing were established; this one makes it pop." },
-    { artist: "Can", album: "Tago Mago", year: "1971", note: "Fellow German experimentalists whose repetitive, motorik rhythms are part of the same post-war reinvention Kraftwerk belong to." },
+    { artist: "Neu!", album: "Neu!", year: "1972", note: "Founders Klaus Dinger and Michael Rother both briefly played in Kraftwerk before leaving to form this band; the motorik pulse Dinger invented there is the steady sequenced rhythm Kraftwerk builds this album's melodies over." },
   ],
 
   influenced: [

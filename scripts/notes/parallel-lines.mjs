@@ -53,7 +53,7 @@ await saveNote({
   ],
 
   influencedBy: [
-    { artist: "Ramones", album: "Ramones", year: "1976", note: "The other great CBGB export, and the scene Blondie's speed and brevity come from." },
+    { artist: "Ramones", album: "Ramones", year: "1976", note: "The Ramones compressed rock songs to under three minutes on barre-chord simplicity; Parallel Lines keeps that same speed and brevity even once Chapman's production gets glossier." },
     { artist: "Donna Summer", album: "I Remember Yesterday", year: "1977", note: "The Moroder-produced sequenced disco sound that \"Heart of Glass\" borrows its pulse from." },
   ],
 

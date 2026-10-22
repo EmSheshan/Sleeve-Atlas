@@ -57,7 +57,5 @@ await saveNote({
     { artist: "Neil Young", album: "Tonight's the Night", year: "1975", note: "Precedent for an American songwriter deliberately roughing up his own material rather than delivering it clean." },
   ],
 
-  influenced: [
-    { artist: "The Decemberists", album: "The Crane Wife", year: "2006", note: "Part of the wave of 2000s American indie bands that followed this record's licence to make ambitious, studio-heavy albums." },
-  ],
+  influenced: [],
 });

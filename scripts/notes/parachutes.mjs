@@ -51,7 +51,7 @@ await saveNote({
   influencedBy: [
     { artist: "Radiohead", album: "The Bends", year: "1995", note: "The immediate model: high male vocal over spacious, reverbed guitar textures, with the arrangements kept restrained." },
     { artist: "Jeff Buckley", album: "Grace", year: "1994", note: "The precedent for a falsetto used as the main instrument, carried on very little accompaniment." },
-    { artist: "Travis", album: "The Man Who", year: "1999", note: "Also produced in the same British orbit, and the record that proved quiet melodic rock could sell after Britpop." },
+    { artist: "Travis", album: "The Man Who", year: "1999", note: "Chris Martin has called himself \"a poor man's Fran Healy\" and said Travis \"invented\" Coldplay; Healy has said Coldplay studied this record closely while they were still unknown." },
   ],
 
   influenced: [

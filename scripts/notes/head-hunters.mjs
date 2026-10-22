@@ -60,6 +60,6 @@ await saveNote({
   influenced: [
     { artist: "2Pac", album: "2Pacalypse Now", year: "1991", note: "\"Words of Wisdom\" samples \"Chameleon,\" one of the earliest of dozens of hip-hop records built on this album's grooves." },
     { artist: "Digable Planets", album: "Reachin' (A New Refutation of Time and Space)", year: "1993", note: "\"Escapism (Gettin' Free)\" samples \"Watermelon Man\" into a jazz-rap foundation." },
-    { artist: "The Blackbyrds", album: "The Blackbyrds", year: "1974", note: "Part of the commercial jazz-funk wave that followed once Head Hunters proved the style could sell." },
+    { artist: "The Blackbyrds", album: "The Blackbyrds", year: "1974", note: "Drummer Harvey Mason, half of this album's rhythm section, was already the regular drummer on Donald Byrd's Mizell-produced records; the Mizell brothers formed and produced the Blackbyrds the following year in the same jazz-funk vein." },
   ],
 });

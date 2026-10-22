@@ -54,6 +54,6 @@ await saveNote({
   ],
 
   influenced: [
-    { artist: "Hugh Masekela", album: "Tomorrow", year: "1987", note: "Fellow exiled South African musician working the same territory of township melody in an international jazz frame." },
+    { artist: "Hugh Masekela", album: "Tomorrow", year: "1987", note: "Masekela and Ibrahim (then Dollar Brand) were bandmates in the Jazz Epistles, the group that cut South Africa's first all-Black modern jazz record in 1960 before exile split them up." },
   ],
 });

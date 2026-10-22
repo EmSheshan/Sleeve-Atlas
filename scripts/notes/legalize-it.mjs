@@ -54,7 +54,7 @@ await saveNote({
   ],
 
   influenced: [
-    { artist: "Bob Marley & The Wailers", album: "Exodus", year: "1977", note: "Part of the same post-split wave; the three former Wailers' solo records pushed each other and defined roots reggae's international moment." },
+    { artist: "Bob Marley & The Wailers", album: "Exodus", year: "1977", note: "Tosh, Marley and Bunny Wailer were the original Wailers trio; each released a solo debut within months of the 1973-74 split, and Marley's Exodus became the breakout the others had been chasing." },
     { artist: "Black Uhuru", album: "Red", year: "1981", note: "Militant roots reggae built on the same Kingston rhythm-section approach, with Shakespeare again on bass." },
   ],
 });

@@ -53,7 +53,5 @@ await saveNote({
     { artist: "The Durutti Column", album: "LC", year: "1981", note: "Vini Reilly's own group — his delicate, reverbed guitar style is imported wholesale and defines the record's texture." },
   ],
 
-  influenced: [
-    { artist: "Suede", album: "Suede", year: "1993", note: "Part of the lineage from Morrissey's solo persona into Britpop's more theatrical, English-miserabilist end." },
-  ],
+  influenced: [],
 });

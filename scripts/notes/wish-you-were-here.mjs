@@ -59,6 +59,6 @@ await saveNote({
 
   influenced: [
     { artist: "Radiohead", album: "OK Computer", year: "1997", note: "A widely drawn line: long-form alienation rock built on studio texture and anti-industry themes." },
-    { artist: "Porcupine Tree", album: "In Absentia", year: "2002", note: "Part of the progressive rock lineage that took this album's patience and space as a working model." },
+    { artist: "Porcupine Tree", album: "The Sky Moves Sideways", year: "1995", note: "Steven Wilson has said Pink Floyd \"are almost entirely responsible for the direction my music has taken\"; this album splits its title track into two bookending halves, directly mirroring \"Shine On You Crazy Diamond's\" structure here." },
   ],
 });

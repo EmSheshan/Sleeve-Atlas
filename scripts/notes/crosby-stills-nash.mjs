@@ -63,6 +63,6 @@ await saveNote({
   influenced: [
     { artist: "America", album: "America", year: "1971", note: "Formed around explicit CSN-style three-part harmony and strummed acoustic arrangements; critics have compared songs directly to \"Guinnevere\" and \"Suite: Judy Blue Eyes.\"" },
     { artist: "Eagles", album: "Eagles", year: "1972", note: "Took the close-harmony, acoustic-rooted California sound and turned it into the commercial template for 1970s soft rock." },
-    { artist: "Jackson Browne", album: "Jackson Browne", year: "1972", note: "Part of the same Laurel Canyon singer-songwriter circle that CSN's success helped open up to major labels." },
+    { artist: "Jackson Browne", album: "Jackson Browne", year: "1972", note: "Crosby and Nash sang backing vocals on this debut, and David Geffen — who signed Browne to the Asylum label he founded the same year — had built his reputation managing CSN first." },
   ],
 });

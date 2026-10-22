@@ -54,7 +54,6 @@ await saveNote({
   ],
 
   influenced: [
-    { artist: "Fela Kuti", album: "Zombie", year: "1977", note: "Part of the same current of African musicians turning Western jazz training back onto local rhythmic forms." },
     { artist: "Paul Simon", album: "Graceland", year: "1986", note: "Masekela toured it and helped bring South African musicians to a global audience; the mbaqanga vocabulary is shared." },
   ],
 });
