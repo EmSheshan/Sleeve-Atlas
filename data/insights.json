@@ -12912,5 +12912,259 @@
     "uuid": "5f34ee8bf0857e55ed5ebe6f",
     "image": "https://i.scdn.co/image/7b0b9a773be7ba2f7cb256bd8e901890d058fc16",
     "savedAt": "2026-10-22T23:55:15.415Z"
+  },
+  "5f34ee8bf0857e55ed5ebefe": {
+    "artist": "Oasis",
+    "album": "Definitely Maybe",
+    "year": "1994",
+    "heading": "Definitely Maybe — Oasis (1994)",
+    "albumLine": "Released 29 August 1994 on Creation Records, with production credited across Owen Morris, the band, Mark Coyle and David Batchelor after two abandoned attempts at the record. It's Britpop at its loudest and least ornamented — a debut that went straight to No. 1 and was, at the time, the fastest-selling first album in British history.",
+    "overview": [
+      "Britain in 1994 was four years into John Major's Conservative government, and the singles chart was held by Wet Wet Wet, Ace of Base and East 17. Oasis, from Greater Manchester, arrived with an explicit target: Noel Gallagher, the band's guitarist and sole songwriter, said that \"if we're gonna get rid of Phil Collins and Sting... we've got to get in the charts and stamp 'em out.\" He also wrote partly against the nihilism of American grunge, replacing its self-disgust with something closer to gratitude. He has since described the album as \"an honest snapshot of working-class lads trying to make it\" — and said of the band, \"we weren't the best musicians, but we had spirit, man.\"",
+      "Getting it on tape took three goes. The first, at Monnow Valley in Wales with producer David Batchelor, was scrapped; rhythm guitarist Paul \"Bonehead\" Arthurs called the results \"thin. Weak. Too clean.\" Noel, then 27, has described the generational standoff — he wanted to \"compress the shit out of this so that the speakers blow up,\" and got back \"nope, 'cause this is the way we done it in our day, son.\" The band re-cut it at Sawmills in Cornwall with Mark Coyle; Noel's verdict was \"it sounded fucking shit,\" and he remembers thinking \"I give up.\" Manager Marcus Russell then handed the tapes to engineer Owen Morris, who mixed at Loco Studios in Wales and The Matrix in London, where singer Liam Gallagher re-recorded some vocals.",
+      "Morris is the reason it sounds the way it does. He stripped away most of Noel's guitar overdubs while keeping enough to open out each chorus, and then compressed the finished master beyond what was considered professional — engineer Anjali Dutt found the result abrasive and wearing. It worked: the album entered at No. 1 on 4 September 1994, outselling the runner-up by roughly half again, and has since passed 2.6 million UK chart units. Keith Cameron of NME called Noel \"a pop craftsman in the classic tradition and a master of his trade,\" and its standing has only hardened — NME readers voted it the greatest album ever in 2006, and Rolling Stone placed it at No. 217 on its 2020 greatest-albums list."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Brick-walled mastering",
+        "text": "Morris pushed the level to the ceiling of what a CD could hold without distorting, a technique he claims to have invented. It's why the record sounds relentlessly loud even at low volume, and why some engineers found it fatiguing."
+      },
+      {
+        "label": "Guitars stacked, then stripped",
+        "text": "Noel overdubbed many layers over live-feeling takes, and Morris removed most of them in the mix. What's left is a thick single mass of rhythm guitar rather than distinguishable parts."
+      },
+      {
+        "label": "Tape delay smeared across the drums",
+        "text": "Morris added eighth-note tape delays to the kit, and on \"Columbia\" used delay to double the drums outright. The rhythm pushes and blurs instead of snapping."
+      },
+      {
+        "label": "Bass filtered through a Minimoog",
+        "text": "The bass was routed through a Minimoog and its filters used to cut the high end. It thickened the low end and, by Morris's own account, concealed imprecise playing."
+      },
+      {
+        "label": "Parts simple enough to copy",
+        "text": "The drum patterns and guitar voicings are playable by beginners almost without exception. That accessibility is part of why a generation of British bands learned their trade from this record."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Oasis's Definitely Maybe at 30 — Official Charts",
+        "url": "https://www.officialcharts.com/chart-news/oasis-definitely-maybe-30-anniversary-reunion/"
+      },
+      {
+        "title": "Five things that made Definitely Maybe a modern classic — The Conversation",
+        "url": "https://theconversation.com/oasis-reunion-five-things-that-made-definitely-maybe-a-modern-classic-234600"
+      },
+      {
+        "title": "Definitely Maybe — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Definitely_Maybe"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "T. Rex",
+        "album": "Electric Warrior",
+        "year": "1971",
+        "note": "Noel Gallagher lifted the \"Get It On\" riff more or less intact, and later said kids at Oasis gigs \"would have never have heard of T. Rex if we hadn't took that riff.\""
+      },
+      {
+        "artist": "Sex Pistols",
+        "album": "Never Mind the Bollocks, Here's the Sex Pistols",
+        "year": "1977",
+        "note": "The same undifferentiated wall of distorted rhythm guitar under a sneered vocal; Noel Gallagher has called his own debut the last great punk album."
+      },
+      {
+        "artist": "The Beatles",
+        "album": "Rubber Soul",
+        "year": "1965",
+        "note": "John Lennon's voice is the template singer Liam Gallagher built his own on, and Noel Gallagher's chord sequences and melodic writing come straight from records like this one."
+      },
+      {
+        "artist": "The Stone Roses",
+        "album": "The Stone Roses",
+        "year": "1989",
+        "note": "Liam Gallagher names seeing them at Manchester's International 2 in 1989 as the moment he decided to front a band: \"it blew my mind.\""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The Killers",
+        "album": "Hot Fuss",
+        "year": "2004",
+        "note": "Brandon Flowers has said seeing Oasis live in Las Vegas sent him looking for a guitar player — a search that turned up Dave Keuning and produced the band."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebefe",
+    "image": "https://i.scdn.co/image/539889ac8b17001d002e8fb4b112821568edd520",
+    "savedAt": "2026-10-23T11:18:21.717Z"
+  },
+  "5f34ee8bf0857e55ed5ec0ca": {
+    "artist": "Badly Drawn Boy",
+    "album": "The Hour Of Bewilderbeast",
+    "year": "2000",
+    "heading": "The Hour Of Bewilderbeast — Badly Drawn Boy (2000)",
+    "albumLine": "Released 26 June 2000 on XL Recordings and Twisted Nerve, produced by Damon Gough with Ken Nelson, Gary Wilkinson and Joe Robinson. Eighteen tracks of indie folk and chamber pop running just over an hour — Gough's debut album, and the one that won the 2000 Mercury Prize.",
+    "overview": [
+      "Damon Gough, who records as Badly Drawn Boy, was thirty when this came out and had been releasing EPs for roughly five years. He had met Andy Votel — a Manchester DJ and graphic designer — in a club, and the two founded the label Twisted Nerve, which put out his first release, the five-track EP1, in September 1997. He signed to XL in 1999. That history matters to how the album sounds: it is a debut assembled by someone with a long backlog, who reportedly chose eighteen tracks from around a hundred contenders, and it moves between indie rock, bossa nova, folk and chamber pop without apology. Gough drew storytelling from Bob Dylan, Beck and Bruce Springsteen, and has said plainly of the record: \"there is a certain honesty in the sound of it.\"",
+      "Most of it was made in Gough's own small Manchester studio — \"we were recording in Damon's own studio in Manchester,\" as Nelson put it — a room with one cramped live area holding a drum kit, guitar amps and an upright piano. One piano part was cut on a Steinway at Parr Street Studios in Liverpool, cold enough that Gough needed space heaters. Nelson, who had worked on Coldplay's Parachutes in far bigger rooms, kept early performances where later attempts were worse; his stated rule was \"performance always comes first.\" Members of Doves played on it — bassist Jimi Goodwin, guitarist Jez Williams, drummer Andy Williams — alongside cellist Matt McGeever and others. Votel's cover collage is loosely based on Leonardo da Vinci's drawing Vitruvian Man.",
+      "It reached No. 13 in the UK and took the Mercury Prize in London that September, beating Coldplay's Parachutes and Doves' Lost Souls; Gough reportedly threw the £20,000 on the floor and said, \"I always assumed I was never going to win because good things don't happen to good people normally.\" Sources disagree on sales — Wikipedia's album page gives about 455,000 UK copies by 2011, its page on Gough says 300,000. NME called it an \"unambiguously cohesive piece of work\" and Pitchfork gave it 8.6. The novelist Nick Hornby became a fan and asked Gough to score the film of About a Boy. Nelson has agreed that Gough never quite matched this album's songwriting afterwards."
+    ],
+    "listeningNotes": [
+      {
+        "label": "A home studio you can hear",
+        "text": "The close, slightly boxy sound is the small Manchester room rather than an effect. Nelson's contemporaneous records made in larger studios sound markedly more expansive by comparison."
+      },
+      {
+        "label": "Bossa-nova lilt in an indie record",
+        "text": "Soft nylon-strung rhythms and shifting time signatures Gough modelled on Burt Bacharach, as on \"Once Around the Block,\" with wordless vocal lines standing in for a chorus."
+      },
+      {
+        "label": "Arrangements that arrive late",
+        "text": "Songs open on hushed voice and strummed guitar, then French horns and cello enter partway through — the opening track does exactly this. The orchestration is withheld rather than announced."
+      },
+      {
+        "label": "Takes kept because they couldn't be beaten",
+        "text": "Nelson left first attempts in place where re-recording made them worse. The audible residue is stray noise, drifting tuning and the sense of someone working a song out on tape."
+      },
+      {
+        "label": "Songs running into one another",
+        "text": "The sequencing crossfades and butt-joins sketches, interludes and full songs so the joins blur. It's why an eighteen-track, hour-long record plays as one continuous stretch."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Hour Of Bewilderbeast remains Badly Drawn Boy's ramshackle masterpiece — The A.V. Club",
+        "url": "https://www.avclub.com/the-hour-of-bewilderbeast-remains-badly-drawn-boy-s-ram-1798246679"
+      },
+      {
+        "title": "Rediscover Badly Drawn Boy's Debut Album 'The Hour of Bewilderbeast' — Albumism",
+        "url": "https://albumism.com/features/badly-drawn-boy-debut-album-the-hour-of-bewilderbeast-album-anniversary"
+      },
+      {
+        "title": "Badly Drawn Boy Wins Mercury Prize — ABC News",
+        "url": "https://abcnews.com/Entertainment/story?id=115797&page=1"
+      },
+      {
+        "title": "The Hour of Bewilderbeast — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Hour_of_Bewilderbeast"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Beck",
+        "album": "Odelay",
+        "year": "1996",
+        "note": "Named among Gough's storytelling models; the shared method is splicing loops, samples and abrupt style changes into what is still a pop record."
+      },
+      {
+        "artist": "Bruce Springsteen",
+        "album": "Born to Run",
+        "year": "1975",
+        "note": "Gough's stated hero — the expansive, open-hearted narrative songwriting rather than the bleak kind, which is why this record keeps reaching for horns and strings."
+      },
+      {
+        "artist": "Bob Dylan",
+        "album": "The Freewheelin' Bob Dylan",
+        "year": "1963",
+        "note": "Another model Gough names; the harmonica-and-acoustic-guitar frame and conversational, half-spoken vocal delivery run through the album."
+      }
+    ],
+    "influenced": [],
+    "uuid": "5f34ee8bf0857e55ed5ec0ca",
+    "image": "https://i.scdn.co/image/82e4cf929d37743046301b4e5f79414be05ebfa0",
+    "savedAt": "2026-10-23T11:18:53.475Z"
+  },
+  "5f34ee8bf0857e55ed5ec043": {
+    "artist": "The Beach Boys",
+    "album": "Pet Sounds",
+    "year": "1966",
+    "heading": "Pet Sounds — The Beach Boys (1966)",
+    "albumLine": "Released 16 May 1966 on Capitol, produced, arranged and mostly written by Brian Wilson with guest lyricist Tony Asher. Progressive and chamber pop rather than surf music — the band's eleventh studio album, and the one that severed them from cars and beaches for good.",
+    "overview": [
+      "Wilson had stopped touring after a breakdown in 1964 and stayed home to write and record while the rest of the band worked the road. Hearing the Beatles' Rubber Soul as a unified statement rather than hits plus filler was, by his own account, his \"main motivator\"; he told his wife Marilyn he would make \"the greatest rock album ever made.\" He wrote eight songs over about three weeks in January 1966 with Asher, an advertising copywriter he had met at Western Recorders. Asher was modest about it — \"I was really just his interpreter\" — but what he brought was a vocabulary of doubt and disappointment the band had never used, aimed squarely at listeners who had outgrown the surf records.",
+      "Capitol did not know what to do with it. Production ran past $70,000, unprecedented for a pop album, and the label's marketing staff were unenthused: A&R man Karl Engermann said the group's usual hit-making production was missing. Capitol issued Best of the Beach Boys alongside it, which Bruce Johnston later regarded as a betrayal; Johnston called the album an \"ignored stepchild.\" Within the band, singer Mike Love's objections were mostly about brand fit, and about one song rooted in Wilson's LSD experiences, whose lyrics Wilson rewrote. Love has disputed the harsher version of this story. Carl Wilson remembered general affection for the project, and Dennis Wilson said nobody matched his brother's talent or stood against his vision.",
+      "Reception split by country. American critics were lukewarm and it stalled at No. 10 on the Billboard chart. In Britain, helped by publicist Derek Taylor, musicians and critics seized on it: No. 2 on Record Retailer and six months inside the top ten. The clearest measure of its effect is what it provoked. Beatles producer George Martin wrote that \"without 'Pet Sounds,' 'Sgt. Pepper' never would have happened… 'Pepper' was an attempt to equal 'Pet Sounds,'\" and Paul McCartney said of directing that record, \"my influence was basically the Pet Sounds album.\" Its reputation has risen steadily since; it is now routinely named among the most influential albums ever made."
+    ],
+    "listeningNotes": [
+      {
+        "label": "The studio used as an instrument",
+        "text": "Wilson composed parts at a piano, handed them to as many as fifteen players crowded into a small room, and pushed four-track tape past what it was designed for. Backing tracks and vocals were built separately and fused."
+      },
+      {
+        "label": "Instruments that don't belong in rock",
+        "text": "Bass harmonica, harpsichord, glockenspiel, bicycle horn and the Electro-Theremin, played by its inventor Paul Tanner. None of them are used as novelty — they sit inside the arrangements as ordinary voices."
+      },
+      {
+        "label": "Found objects as percussion",
+        "text": "Drummer Hal Blaine cut and taped orange juice bottles together as a vibraphone substitute; on the title piece, drummer Ritchie Frost played bongos through a Leslie speaker and two empty Coca-Cola cans."
+      },
+      {
+        "label": "Bass moved up to carry the tune",
+        "text": "On \"Here Today\" Wilson shifted the bass an octave so it functions as a lead line rather than a foundation. Elsewhere, Asher plucked piano strings from inside the instrument while Wilson held the keys down, for a harpsichord-like attack."
+      },
+      {
+        "label": "Harmony drilled take after take",
+        "text": "The group vocals were worked relentlessly — one short passage reportedly took thirty attempts. Engineer Chuck Britz said they \"could sing a capella and make tears come to your eyes.\""
+      },
+      {
+        "label": "Mono by choice",
+        "text": "Wilson mixed everything to a single channel, following producer Phil Spector, so the arrangement arrives as one fused mass rather than separable parts. No true stereo mix existed until 1996."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Here Today: The Beach Boys' 'Pet Sounds' at 60 — Rock and Roll Globe",
+        "url": "https://rockandrollglobe.com/pop/here-today-the-beach-boys-pet-sounds-at-60/"
+      },
+      {
+        "title": "The Story of The Beach Boys 'Pet Sounds' — Classic Album Sundays",
+        "url": "https://classicalbumsundays.com/album-of-the-month-the-beach-boys-pet-sounds/"
+      },
+      {
+        "title": "George Martin: \"Without Pet Sounds, Sgt. Pepper Wouldn't Have Happened\" — Full in Bloom",
+        "url": "https://fullinbloom.com/george-martin-without-pet-sounds-sgt-pepper-wouldnt-have-happened/"
+      },
+      {
+        "title": "Pet Sounds — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pet_Sounds"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Beatles",
+        "album": "Rubber Soul",
+        "year": "1965",
+        "note": "Wilson called it his \"main motivator\" — an album with no filler, which pushed him to build this one as a single sustained piece rather than singles plus padding."
+      },
+      {
+        "artist": "The Ronettes",
+        "album": "Presenting the Fabulous Ronettes Featuring Veronica",
+        "year": "1964",
+        "note": "Wilson took Phil Spector's method wholesale: the same Wrecking Crew players, instruments doubled and tripled into one dense body of sound, mixed to mono."
+      },
+      {
+        "artist": "The Four Freshmen",
+        "album": "Four Freshmen and 5 Trombones",
+        "year": "1956",
+        "note": "Wilson learned harmony off their records — \"I worked for a year on The Four Freshmen with my hi-fi set\" — and credits singer Bob Flanigan for teaching him falsetto."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The Beatles",
+        "album": "Sgt. Pepper's Lonely Hearts Club Band",
+        "year": "1967",
+        "note": "Producer George Martin wrote that Pepper \"was an attempt to equal Pet Sounds,\" and Paul McCartney credited this album as the influence behind his direction of it."
+      },
+      {
+        "artist": "The Zombies",
+        "album": "Odessey and Oracle",
+        "year": "1968",
+        "note": "Keyboardist Rod Argent has said the band were knocked out by it, pointing specifically to Brian Wilson's song structures and basslines rather than its surface sounds."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec043",
+    "image": "https://i.scdn.co/image/033c5c30c94b672083748ba667a08851ae2e1fd9",
+    "savedAt": "2026-10-23T11:19:26.553Z"
   }
 }
