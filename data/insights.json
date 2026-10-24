@@ -13166,5 +13166,273 @@
     "uuid": "5f34ee8bf0857e55ed5ec043",
     "image": "https://i.scdn.co/image/033c5c30c94b672083748ba667a08851ae2e1fd9",
     "savedAt": "2026-10-23T11:19:26.553Z"
+  },
+  "5f34ee8bf0857e55ed5ebe86": {
+    "artist": "Michael Jackson",
+    "album": "Bad",
+    "year": "1987",
+    "heading": "Bad — Michael Jackson (1987)",
+    "albumLine": "Released 31 August 1987 on Epic, produced by Quincy Jones with Jackson as co-producer — the third and last record they made together. It's dance-pop and R&B pulled toward funk, gospel and hard rock, harder-edged and more aggressive than Thriller. Jackson wrote nine of its eleven songs, by far his largest authorial share to that point.",
+    "overview": [
+      "Thriller had sold more copies than any album ever made, and Bad exists in its shadow. Keyboardist Greg Phillinganes remembered Jackson writing \"One hundred million\" on his mirror and looking at it every day; lawyer John Branca suggested an album of covers of songs he loved, and Jackson refused. He reportedly wrote around sixty songs and recorded more than thirty before Jones forced the set down to eleven.",
+      "The work began privately, on demos cut from 1985 at Hayvenhurst, his home studio in Encino, and those demos became the blueprint for the finished tracks. Formal sessions opened at Westlake in Los Angeles on 5 January 1987, with engineers Matt Forger and Bruce Swedien; songs were re-cut repeatedly at different tempos and in different keys until a version stuck. Jones tried to bring Prince in as a duet partner and was turned down — accounts of why differ, with Prince later objecting to an opening lyric, while other sources say he simply returned a re-recorded demo.",
+      "Jackson turned twenty-nine two days before release, and by then the American press was more interested in his face and his privacy than his music. Bad answers that with hardness: the grooves are clipped and percussive, the ballads tense rather than plush. He was also thinking in pictures — the songs were developed alongside the \"film shorts\" he conceived as narrative films rather than promo clips, one of them directed by Martin Scorsese — and that cinematic habit shows up in the arrangements as much as in the videos.",
+      "It entered the Billboard album chart at number one and stayed six weeks, sold 2.25 million US copies in its first week, topped the chart in twenty-four other countries and was the best-selling album of both 1987 and 1988; five of its songs went to number one on the Hot 100, a record for a single album. Sales now exceed thirty million, and Swedien won a Grammy for engineering it. American reviewers at the time treated it as a letdown for not repeating Thriller. The reassessment has been far more generous, and critic David Bennun has argued that it is Bad, not Thriller, that most of today's pop actually sounds like."
+    ],
+    "listeningNotes": [
+      {
+        "label": "The dry, airless mix",
+        "text": "Almost nothing is allowed to bloom or decay — the up-tempo tracks are compressed tight with very little room sound. It's the opposite of Thriller's warmth, and it's the main reason the record still sounds modern."
+      },
+      {
+        "label": "Vocal percussion as rhythm",
+        "text": "Grunts, gasps and clipped hiccups are used as instruments rather than decoration, sitting inside the groove instead of over it. On \"Speed Demon\" Jackson simply beatboxes part of the arrangement."
+      },
+      {
+        "label": "Stacked harmonies sung in place",
+        "text": "The choir-sized backing vocals are all Jackson, built as sixteen separate passes with each part sung for real rather than copied and shifted. \"Liberian Girl\" is the clearest example — a crowd made of one person."
+      },
+      {
+        "label": "Digital synth brittleness",
+        "text": "Layers of FM synthesis, Fairlight and Synclavier give the record its glassy, metallic surface. Where earlier Jones productions leaned on live horns and strings, here the hardness is deliberate."
+      },
+      {
+        "label": "Arena-rock lead guitar inside R&B",
+        "text": "Guitarist Steve Stevens, recruited on producer Ted Templeman's recommendation, cut a solo through a late-sixties Marshall with Jackson humming the shape he wanted rather than naming chords. Stevens found a near-empty room — just Jackson, Jones and an engineer."
+      },
+      {
+        "label": "Sound design as scenery",
+        "text": "Breathing, heartbeats and sirens are mixed in as atmosphere, pulling the listener toward a scene rather than a song. \"Smooth Criminal\" is built almost like a film cue."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Michael Jackson's Birthday as 'Bad' Turns 25: An Album's Oral History — TIME",
+        "url": "https://time.com/archive/7121496/michael-jackson-bad/"
+      },
+      {
+        "title": "How Michael Jackson's Bad Shaped Pop As We Know It — The Quietus",
+        "url": "https://thequietus.com/?p=23033"
+      },
+      {
+        "title": "Rediscover Michael Jackson's 'Bad' (1987) — Albumism",
+        "url": "https://albumism.com/features/celebrating-35-years-of-michael-jackson-bad-album-anniversary"
+      },
+      {
+        "title": "Steve Stevens on recording with Michael Jackson — American Songwriter",
+        "url": "https://editorial.americansongwriter.com/steve-stevens-recalls-getting-a-glowing-compliment-from-michael-jackson-only-to-find-out-jackson-told-eddie-van-halen-the-same-thing/"
+      },
+      {
+        "title": "Bad (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bad_(album)"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "James Brown",
+        "album": "Live at the Apollo",
+        "year": "1963",
+        "note": "Jackson called Brown his greatest teacher and watched him from the wings as a child; the grunts, gasps and on-the-beat vocal punctuation driving the up-tempo tracks come from Brown's phrasing."
+      },
+      {
+        "artist": "Billy Idol",
+        "album": "Rebel Yell",
+        "year": "1983",
+        "note": "Shared personnel: guitarist Steve Stevens, Idol's writing partner, was brought in for this album's hard-rock solo and used the same Marshall-driven, high-register lead sound."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Justin Timberlake",
+        "album": "Justified",
+        "year": "2002",
+        "note": "Critic David Bennun names Timberlake among the male pop singers working directly from this record's model — tightly clipped percussive phrasing over dry, stuttering rhythm tracks."
+      },
+      {
+        "artist": "Usher",
+        "album": "Confessions",
+        "year": "2004",
+        "note": "Dance-led R&B built on the same compressed, snapping drum sound and vocal-tic delivery; Bennun cites Usher as one of the performers closest to this template."
+      },
+      {
+        "artist": "Bruno Mars",
+        "album": "24K Magic",
+        "year": "2016",
+        "note": "Bennun names Mars in the same lineage: falsetto hooks and hard, dry funk arrangements that take their sense of attack from here rather than from Thriller's warmer mixes."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebe86",
+    "image": "https://i.scdn.co/image/ab67616d00001e0262e97ae5072de10850578af5",
+    "savedAt": "2026-10-24T11:16:13.144Z"
+  },
+  "5f34ee8bf0857e55ed5ec070": {
+    "artist": "Brian Eno",
+    "album": "Before And After Science",
+    "year": "1977",
+    "heading": "Before And After Science — Brian Eno (1977)",
+    "albumLine": "Released in December 1977 by Polydor in the UK and Island in the US, produced by Eno and Rhett Davies at Basing Street in London and Conny's Studio in Cologne. It's art pop split down the middle — brisk, abrasive songs on one side, pastoral instrumentals on the other. His fifth solo album, and the last record of conventional songs he would release for decades.",
+    "overview": [
+      "Eno had left Roxy Music in 1973 and spent the next four years turning himself into something pop had no slot for: a self-described non-musician who treated the studio itself as the instrument. By the time this was finished he had made ambient records with guitarist Robert Fripp and with the German duo Cluster, devised Oblique Strategies with painter Peter Schmidt — a deck of cards offering lateral instructions when a session stalled — and played synthesizer on singer David Bowie's Low and \"Heroes\" in Berlin. He was paying close attention to new wave, which interested him more than British punk had, and was about to begin producing Talking Heads.",
+      "It took roughly two years, and he reportedly wrote well over a hundred pieces to keep ten. The working method was what he called studio composition — build something up in dense layers, then strip parts away until what is left implies the rest. The cast is drawn from across the European underground: drummers Phil Collins and Jaki Liebezeit of Can, bassists Percy Jones and Paul Rudolph, guitarists Fripp, Phil Manzanera and Fred Frith, and singer Robert Wyatt, credited under the pseudonym Shirley Williams.",
+      "Eno described the result as \"ocean music,\" against the \"sky music\" of Another Green World two years earlier, and the running order acts that out: momentum first, then a long dissolve into near-stillness. Words are deliberately subordinate, chosen for sound and image rather than argument, which is why the record feels precise and about nothing in particular at once.",
+      "Commercially it did almost nothing. The album missed the UK chart entirely and reached only No. 171 in the US, and the single pulled from it didn't chart at all. Critics were warmer — critic Robert Christgau gave it an A−, while complaining about the quieter second side, and it finished twelfth in the Village Voice's 1978 Pazz & Jop poll. Its reach came later and sideways: the interlocking layered rhythm construction fed directly into the Talking Heads records Eno went on to produce, while the fretless bass and processed keyboard textures of the second half surfaced across the New Romantics, with Japan, John Foxx and Duran Duran all working downstream of it."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Layer, then subtract",
+        "text": "Tracks were assembled thick and then thinned out, with parts removed rather than added for effect. The gaps are the composition — you keep hearing room where something used to be."
+      },
+      {
+        "label": "Fretless bass as a lead voice",
+        "text": "Percy Jones plays sliding, vocal-sounding lines with no frets to stop them, so the bass glides between notes instead of stepping. It frequently carries the melody while the guitars handle texture."
+      },
+      {
+        "label": "A poet's voice used as an instrument",
+        "text": "\"Kurt's Rejoinder\" drops in a recording of artist and poet Kurt Schwitters reciting his sound poem Ursonate, treating speech as rhythm years before sampling was a technique anyone had a name for."
+      },
+      {
+        "label": "Punk tempo under art-rock surfaces",
+        "text": "The fastest thing here, \"King's Lead Hat,\" is titled with an anagram of Talking Heads — the band Eno was about to start producing. It's new wave urgency played with Roxy Music's sense of finish."
+      },
+      {
+        "label": "The Cologne keyboard pulse",
+        "text": "Slow, repeating electric-piano and synthesizer figures anchor the quiet half; musicians Hans-Joachim Roedelius and Dieter Moebius of Cluster co-wrote \"By This River,\" and that German minimalism shapes the whole side."
+      },
+      {
+        "label": "Vocals treated as weather",
+        "text": "Multi-tracked and heavily processed, the singing is mixed in as another layer rather than placed on top. Lines surface and sink without ever quite becoming the focus."
+      }
+    ],
+    "sources": [
+      {
+        "title": "How Eno Altered Reality On Before And After Science — Rock and Roll Globe",
+        "url": "https://rockandrollglobe.com/art-pop/how-eno-altered-reality-on-before-and-after-science/"
+      },
+      {
+        "title": "Brian Eno: Before and After Science — Treble",
+        "url": "https://www.treblezine.com/brian-eno-before-and-after-science-review/"
+      },
+      {
+        "title": "Before and After Science — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Before_and_After_Science"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Can",
+        "album": "Future Days",
+        "year": "1973",
+        "note": "Shared personnel: drummer Jaki Liebezeit plays here, and the unvarying hypnotic pulse he holds under shifting texture is the rhythmic model for this album's faster half."
+      },
+      {
+        "artist": "Cluster",
+        "album": "Zuckerzeit",
+        "year": "1974",
+        "note": "Eno had just recorded with Hans-Joachim Roedelius and Dieter Moebius, who co-wrote one piece on this record; their slow, pulsing electric-keyboard minimalism underpins its quiet side."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Talking Heads",
+        "album": "Remain in Light",
+        "year": "1980",
+        "note": "Eno produced it, and its rhythm beds are built the same way — short interlocking parts stacked and then pared back rather than arranged as conventional performances."
+      },
+      {
+        "artist": "Jon Hassell",
+        "album": "Fourth World Vol. 1: Possible Musics",
+        "year": "1980",
+        "note": "The instrumental half's blend of ambient atmosphere with jazz phrasing became the starting point for trumpeter Jon Hassell's work, which Eno then co-produced."
+      },
+      {
+        "artist": "Japan",
+        "album": "Tin Drum",
+        "year": "1981",
+        "note": "Bassist Mick Karn's fretless bass carrying the melody over cold processed keyboards is the exact combination established here; Japan are named among the New Romantic acts that followed from it."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec070",
+    "image": "https://i.scdn.co/image/6a7be4b0e38341ae32eab61922cacb041c415a48",
+    "savedAt": "2026-10-24T11:21:43.402Z"
+  },
+  "5f34ee8bf0857e55ed5ebf6c": {
+    "artist": "John Grant",
+    "album": "Queen Of Denmark",
+    "year": "2010",
+    "heading": "Queen Of Denmark — John Grant (2010)",
+    "albumLine": "Released 19 April 2010 on Bella Union, produced by Grant with bassist Paul Alexander and guitarist Eric Pulido of Midlake, and recorded at that band's studio in Denton, Texas. It's 1970s soft rock and orchestrated piano balladry, played without a trace of irony. His solo debut, arriving after years fronting the Denver band The Czars and four more away from music altogether.",
+    "overview": [
+      "The Czars had broken up and Grant had simply stopped. He spent roughly four years out of music, and has since been blunt about why the band stalled — \"A lot of that had to do with me just wanting to drink and party all the time\" — and about the longer silence underneath it: when he had lived in Germany, \"I wasn't out yet to my family and was barely out to myself.\" Midlake, labelmates from Denton, admired The Czars, talked him back into working and offered him both their studio and themselves as a backing band.",
+      "He took that on faith, giving up his New York apartment to move to a small Texas town \"to record a solo album that I didn't have any material for yet.\" It was built in two long stretches, July to October 2008 and May to July 2009, fitted around Midlake's own recording, and he does not romanticise it: \"making the record was also very painful.\" What he wanted was specific. \"I wanted that 70s sound, and Midlake would be able to help me reach that goal,\" he told The Quietus, and more precisely: \"I wanted it to sound like a Carpenters record,\" drawn to \"the velvety, soothing quality of Karen Carpenter's voice.\"",
+      "That choice is the album's whole argument. Confessional writing in indie rock around 2010 tended to arrive oblique and half-buried in reverb; Grant does the reverse, setting plainly stated material about addiction, a strict religious upbringing and being gay inside the warmest, least embarrassed easy-listening arrangements he could get his hands on. The comedy in it is structural rather than defensive — he starts from \"pure emotion,\" he says, then adds humour on the grounds that \"too much subjectivity can be alienating for people.\"",
+      "It was no hit, but the critical response was emphatic: Mojo gave it the magazine's rarely used \"Instant Classic\" tag in May and then named it the best album of 2010, and the Guardian's writers put it in their ten best of the year, while AllMusic was a conspicuous dissenter. It has since been certified silver in the UK and listed in 1001 Albums You Must Hear Before You Die, and singer Sinéad O'Connor covered one of its songs on her 2012 album How About I Be Me (And You Be You)?. It also restarted Grant's career outright; everything he has released since proceeds from it."
+    ],
+    "listeningNotes": [
+      {
+        "label": "The baritone recorded close and dry",
+        "text": "Grant's voice sits right at the front with very little reverb on it, so he sounds like he's talking to you across a table rather than performing. The lowest notes are left unsweetened."
+      },
+      {
+        "label": "Soft-rock orchestration played straight",
+        "text": "Violinist Fiona Brice and cellist Buffi Jacobs supply strings arranged the way a mid-seventies easy-listening record would have arranged them, with no distancing gesture to signal that it's a quotation."
+      },
+      {
+        "label": "Keyboards where the guitars should be",
+        "text": "Grant carries most of the harmony himself on piano, electric keyboards and synthesizer, which is why a record made by a guitar band keeps sounding like a singer at a piano."
+      },
+      {
+        "label": "Band pastiche dropped into a ballad record",
+        "text": "On \"Sigourney Weaver\" Midlake abruptly imitate Lynyrd Skynyrd's \"Free Bird\" — the one moment the backing band steps forward as itself, and it lands as a joke and a release at once."
+      },
+      {
+        "label": "The swerve from devastation to a punchline",
+        "text": "Verses build genuine hurt and then break it with a wisecrack, often inside the same phrase. It's a deliberate method rather than nerves, and it's what keeps the album's bleakest material listenable."
+      }
+    ],
+    "sources": [
+      {
+        "title": "All About Survival: John Grant Talks To The Quietus",
+        "url": "https://thequietus.com/interviews/john-grant-interview-queen-of-denmark/"
+      },
+      {
+        "title": "Lost 10 of 2010 — #8: John Grant, Queen of Denmark — Drowned in Sound",
+        "url": "https://www.drownedinsound.org/archive-lost-10-of-2010-8-john-grant-queen-of-denmark-4141613/"
+      },
+      {
+        "title": "Queen of Denmark (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Queen_of_Denmark_(album)"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Carpenters",
+        "album": "Close to You",
+        "year": "1970",
+        "note": "Grant's stated target — \"I wanted it to sound like a Carpenters record\" — and specifically singer Karen Carpenter's close-miked, unpushed lower register over cushioned orchestral arrangements."
+      },
+      {
+        "artist": "Midlake",
+        "album": "The Trials of Van Occupanther",
+        "year": "2006",
+        "note": "The band who play on and co-produced this album; Grant chose them because their seventies-leaning arrangements and warm analogue recording were already the sound he was after."
+      },
+      {
+        "artist": "ABBA",
+        "album": "Arrival",
+        "year": "1976",
+        "note": "Named by Grant as the music of a large part of his childhood: keyboard-led major-key melody and stacked vocal harmony treated as a legitimate vehicle for sadness."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Sinéad O'Connor",
+        "album": "How About I Be Me (And You Be You)?",
+        "year": "2012",
+        "note": "O'Connor covered a song from this record on that album, keeping Grant's melody and arrangement and singing his words largely unaltered."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebf6c",
+    "image": "https://i.scdn.co/image/328f636f643dc6225551fa24dae76314cfd3cfe7",
+    "savedAt": "2026-10-24T11:21:54.353Z"
   }
 }
