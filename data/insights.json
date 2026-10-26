@@ -13704,5 +13704,238 @@
     "uuid": "64a33577eae61eda1f076270",
     "image": "https://i.scdn.co/image/ab67616d00001e02ca8a324a5d0fce617bb2613d",
     "savedAt": "2026-10-25T11:21:45.967Z"
+  },
+  "5f34ee8bf0857e55ed5ec0a4": {
+    "artist": "Sigur Rós",
+    "album": "Ágætis Byrjun",
+    "year": "1999",
+    "heading": "Ágætis Byrjun — Sigur Rós (1999)",
+    "albumLine": "Released 12 June 1999 on the Icelandic label Smekkleysa, produced by Ken Thomas. It's post-rock pulled toward dream pop and chamber music — bowed guitar, strings, brass, choir. The band's second album, after Von (1997), and the one that took them out of Iceland.",
+    "overview": [
+      "It was made in Reykjavík studios between August 1998 and April 1999, at night, because night rates were cheap. All four had day jobs: singer and guitarist Jón Þór \"Jónsi\" Birgisson worked at his father's smithy, bassist Georg Hólm at a television station, and keyboardist Kjartan Sveinsson was a kindergarten teacher who mixed overnight and turned up to work at eight. Tape was expensive and reels held around fifteen minutes, so takes were recorded over rather than kept. Sveinsson, on his first album with the band, remembers the confidence rather than the constraints — \"the world is ours\" — and remembers the room mattering: a new SSL desk, the first proper one in the country, where \"you had never heard sound like that in Iceland.\"",
+      "Post-rock at that point largely meant long instrumentals and a suspicion of singing. This record put a voice at the front and built most of it on verse-and-chorus shapes, which is part of why it travelled; Treble noted these sounded like pop songs next to what other post-rock bands were recording. The language was the other half. Birgisson sings mostly in Icelandic, and elsewhere in Vonlenska — a made-up language of vowel sounds, later used exclusively on the follow-up — so the record arrives with nothing to translate. The outside world leaks in once: one title was lifted from a radio bulletin that ran the weather forecast straight into news of the NATO bombing of Yugoslavia, a campaign still underway as the album was finished.",
+      "Nothing about the release was engineered. Smekkleysa paid for it, it hit No. 1 in Iceland that autumn, and reached Britain over a year later and America nine months after that — carried by word of mouth and support slots with Godspeed You! Black Emperor and, in 2000, Radiohead. Three songs turned up in Vanilla Sky in 2001, the year it won the inaugural Shortlist Music Prize. Pitchfork later placed it eighth among albums of the 2000s, Rolling Stone twenty-ninth."
+    ],
+    "listeningNotes": [
+      {
+        "label": "The cello-bowed guitar",
+        "text": "The drone that defines the opening came from drawing a cello bow across electric guitar strings, one at a time. Accounts differ on the particulars but agree the bow reached Birgisson after Hólm tried and failed with it on bass; Sveinsson says it suited him because \"Jónsi is a minimalist essentially in what he does.\""
+      },
+      {
+        "label": "A broken amp's radar tone",
+        "text": "The submarine-like pulse under the opening is an organ's high E through a faulty amplifier. Sveinsson: \"The high 'E' that I play there came out like a radar.\" The band nicknamed the song after it."
+      },
+      {
+        "label": "Tape-speed tricks",
+        "text": "Whole pieces were pitched by changing tape speed — one sped up a half step because it dragged, and the closing track is an earlier passage slowed to roughly a quarter speed. The intro is the title track backwards."
+      },
+      {
+        "label": "Found percussion and workplace noise",
+        "text": "Rhythm in places is a fist hitting the ground and handfuls of grass being torn, caught on an old Coles microphone. Elsewhere: a saw from the smithy where Birgisson worked, a printing machine from drummer Ágúst Ævar Gunnarsson's job. The day jobs got into the record."
+      },
+      {
+        "label": "Chamber scoring done on a fax machine",
+        "text": "Sveinsson's string and brass arrangements are what lift this above the band's first album, and they were produced under farcical conditions: bad notation software and no photocopier, so parts were faxed to players who had already been kept waiting an hour."
+      },
+      {
+        "label": "Vonlenska",
+        "text": "The invented vowel language the band call Hopelandic appears here for the first time. It doesn't sit over words — it replaces them, and points directly at the next album, sung in it from end to end."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ágætis byrjun — Sigur Rós official website (track-by-track notes)",
+        "url": "https://sigurros.com/music/agaetis-byrjun/"
+      },
+      {
+        "title": "Kjartan Sveinsson of Sigur Rós on 'Ágætis byrjun' — Life of the Record (notes and transcript)",
+        "url": "https://lifeoftherecord.com/sigur-ros-notes"
+      },
+      {
+        "title": "Sigur Rós' Former Keyboardist Tells the Story of Their Breakthrough Album, 20 Years Later — Paste",
+        "url": "https://www.pastemagazine.com/music/sigur-ros/sigur-ros-agaetis-byrjun-20th-anniversary"
+      },
+      {
+        "title": "Sigur Rós: Ágætis byrjun — A new beginning — Treble",
+        "url": "https://www.treblezine.com/sigur-ros-agaetis-byrjun-20th-anniversary-hall-of-fame/"
+      },
+      {
+        "title": "Ágætis byrjun — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/%C3%81g%C3%A6tis_byrjun"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Nirvana",
+        "album": "Nevermind",
+        "year": "1991",
+        "note": "Sveinsson has said one of this album's riffs came out of the band messing about with a Nirvana bass line — an unlikely root for a song that ends in brass and a choir."
+      },
+      {
+        "artist": "Stina Nordenstam",
+        "album": "And She Closed Her Eyes",
+        "year": "1994",
+        "note": "Her hushed, close-miked delivery sitting inside sparse arrangements shaped Birgisson's vocal approach; the band nicknamed one song after her while writing it."
+      }
+    ],
+    "influenced": [],
+    "uuid": "5f34ee8bf0857e55ed5ec0a4",
+    "image": "https://i.scdn.co/image/14f52d613a1f0525e2bc213388496b6173112088",
+    "savedAt": "2026-10-26T11:16:05.473Z"
+  },
+  "5f34ee8bf0857e55ed5ebfd8": {
+    "artist": "Charles Mingus",
+    "album": "The Black Saint And The Sinner Lady",
+    "year": "1963",
+    "heading": "The Black Saint And The Sinner Lady — Charles Mingus (1963)",
+    "albumLine": "Recorded in a single day, 20 January 1963, at Atlantic Studios in New York and released that July on Impulse!, produced by Bob Thiele with Bob Hammer co-orchestrating. It's one continuous composition in six movements, written partly as a ballet — avant-garde big band pulling in classical, Spanish and blues material. Usually named alongside Mingus Ah Um as his masterpiece.",
+    "overview": [
+      "It came directly out of a humiliation. Mingus's October 1962 Town Hall concert had been rescheduled onto an impossible deadline, under-rehearsed and badly balanced; the audience walked out and asked for refunds, and critics took the music apart. Thiele was in the hall that night and signed him to Impulse! anyway — Mingus's liner notes thank him for hiring the band \"when the critics scared the pants off the people.\" He then rebuilt the material on stage during a Village Vanguard residency, night after night; sources put that run at three weeks or six.",
+      "Mingus hated the word applied to his work. He associated \"jazz\" with \"discrimination, second-class citizenship, the whole back-of-the-bus bit,\" so Impulse! marketed the record using his own phrase instead: ethnic folk-dance music. The dance part was literal — \"I wrote the music for dancing and listening\" — though the ballet was never staged in his lifetime. The sixth movement's subtitle ends \"'til It's Freedom Day,\" and Mingus said the record's Iberian passages were meant to mirror the Spanish Inquisition and El Greco's \"mood of oppressive poverty and death.\" The record is about his own position rather than any single headline: biographer Janet Coleman described his difficulty fitting into either black or white American society as \"like putting a circus into a bathtub.\" Mingus also talked his psychotherapist, Edmund Pollock, into writing a second set of liner notes — the same Pollock fetched at the Town Hall interval to calm him down.",
+      "Unlike the concert, the record was praised almost without dissent, and its standing has only hardened. Critic Steve Huey calls it \"one of the greatest achievements in orchestration by any composer in jazz history\"; the Penguin Guide to Jazz gave it a Crown. Part of what makes it strange is scale: Mingus cut the standard eighteen-piece big band to around nine and wrote for them densely enough that it still sounds larger than it is."
+    ],
+    "listeningNotes": [
+      {
+        "label": "An alto part that wasn't written",
+        "text": "Alto saxophonist Charlie Mariano was brought back a week after the session and overdubbed over the finished ensemble. There was no alto in the score; Mingus simply conducted him by hand. Mariano later described the instruction: \"when I point to you, start playing and, when I wave at you, stop.\""
+      },
+      {
+        "label": "Roughly fifty tape splices",
+        "text": "The piece you hear was assembled with a razor blade. Thiele recalled \"literally 50 splices to be made after the date – all in Charlie's head,\" executed by engineer Bob Simpson to Mingus's instructions. This is studio construction years before rock took it up."
+      },
+      {
+        "label": "Nylon-string guitar against the horns",
+        "text": "Classical guitarist Jay Berliner plays Spanish flourishes that cut straight across the brass, most startlingly in the second half. The Iberian colour was deliberate, and no popular jazz record of the period sounds like it."
+      },
+      {
+        "label": "A big band pared to nine",
+        "text": "Low instruments — bass trombone, tuba, bass, the bottom of the piano — are voiced close and dissonant, which is where the dirge weight comes from. Mingus took Duke Ellington's practice of writing for individual players' personalities rather than for sections."
+      },
+      {
+        "label": "Unaccompanied piano interludes",
+        "text": "The movements are hinged together by bare piano passages; Mingus is credited on piano as well as bass alongside pianist Jaki Byard. Saxophonist Greg Ward, who later staged the work with dancers, believes most of one interlude is improvised."
+      },
+      {
+        "label": "Collapses, not transitions",
+        "text": "Collective horn squall gives way to sudden quiet with no easing between, and drummer Dannie Richmond follows the mood rather than holding a steady floor. The abruptness is the composition, not a failed edit."
+      }
+    ],
+    "sources": [
+      {
+        "title": "'The Black Saint And The Sinner Lady': A Charles Mingus Masterpiece — uDiscover Music",
+        "url": "https://www.udiscovermusic.com/stories/charles-mingus-the-black-saint-and-the-sinner-lady-feature/"
+      },
+      {
+        "title": "Charles Mingus: The Black Saint and the Sinner Lady — Treble (Treble 100)",
+        "url": "https://www.treblezine.com/treble-100-no-37-charles-mingus-the-black-saint-and-the-sinner-lady/"
+      },
+      {
+        "title": "Charles Mingus's Black Saint and the Sinner Lady — Sound American (Greg Ward interview)",
+        "url": "https://www.soundamerican.org/issues/big-band/charles-minguss-black-saint-and-sinner-lady"
+      },
+      {
+        "title": "The Black Saint and the Sinner Lady — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Black_Saint_and_the_Sinner_Lady"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Duke Ellington",
+        "album": "Black, Brown and Beige",
+        "year": "1958",
+        "note": "The precedent for an extended multi-movement jazz suite, and the source of Mingus's method of scoring for particular players' personalities rather than for uniform sections."
+      }
+    ],
+    "influenced": [],
+    "uuid": "5f34ee8bf0857e55ed5ebfd8",
+    "image": "https://i.scdn.co/image/503bf8d57dd506dd50ca8e0b150b950e8c2c6004",
+    "savedAt": "2026-10-26T11:18:47.667Z"
+  },
+  "5f34ee8bf0857e55ed5ebfdd": {
+    "artist": "Jorge Ben Jor",
+    "album": "Africa Brasil",
+    "year": "1976",
+    "heading": "Africa Brasil — Jorge Ben Jor (1976)",
+    "albumLine": "Released in 1976 on Philips, cut in ten days at Phonogram Studios in Rio de Janeiro. Samba-funk and samba-rock braided with soul and Afro-Brazilian percussion, and the first album on which singer, songwriter and guitarist Jorge Ben played electric rather than acoustic guitar. Credited at the time simply to Jorge Ben — he took the name Jorge Ben Jor in 1989.",
+    "overview": [
+      "Brazil had been under military rule since 1964, and 1976 sat inside the stretch known as the Years of Lead: censorship, disappearances, extrajudicial killing. The regime also promoted the idea that Brazil was a racial democracy. Writing in Spectrum Culture, critic Christopher J. Lee argues that Ben's choice to look outward — across the Atlantic to Africa and to Black America — drew less official scrutiny than commentary on Brazil itself would have, while making a point about inheritance the official story preferred not to hear. Ben had passed through the orbit of Tropicália after moving to São Paulo in 1967, and its taste for creolisation over a pure national culture sits behind this. The title declares a continuity outright, and the record closes by reworking a song of his from 1974 named for Zumbi, the leader of Palmares, Brazil's largest settlement of escaped slaves. Journalist Kamille Viola quotes Ben describing the album as \"a tribute to the African rhythms that arrived here, which took roots in Brazil,\" and, more flatly: \"Everything comes from Africa. Everything.\"",
+      "His band Admiral Jorge V was joined by around fourteen extra instrumentalists and five backing vocalists, with keyboardist José Roberto Bertrami — of the group Azymuth — writing the orchestral parts and Dadi on bass. Reviewers reach for Dylan at Newport to describe the switch to electric guitar; Lee's objection is that Ben's sounds entirely unforced. The sessions were not harmonious. Marco Mazzola was credited as producer and mixing engineer, but Philips removed him partway through over Ben's objections, and Ben ended up unhappy with both the final mix and the sleeve. He left the label for Som Livre afterwards.",
+      "It sold modestly at home — around 60,000 copies — and travelled slowly. Musician David Byrne put the opening track on his 1989 compilation Brazil Classics: Beleza Tropical, which is how most listeners outside Brazil met it; singer Miriam Makeba had already covered one of its songs in 1977. Rolling Stone placed it 22nd on its 2002 list of the 50 coolest records, and Brazil's Discoteca Básica ranked it 42nd in 2022. Lee's summary is hard to improve on: \"a statement album that refuses to go by that name.\""
+    ],
+    "listeningNotes": [
+      {
+        "label": "Electric guitar used as percussion",
+        "text": "Ben's chopped, muted chording locks into the drums instead of laying out harmony underneath them — the guitar is a rhythm instrument here in the most literal sense. It's the central change from his acoustic records and it drives nearly everything."
+      },
+      {
+        "label": "Atabaques, cuícas and surdos mixed forward",
+        "text": "Afro-Brazilian hand percussion sits at the front rather than decorating the edges, which is what keeps the record from simply sounding like American funk with Portuguese lyrics. The cuíca's squeezed, vocal-sounding tone is especially audible."
+      },
+      {
+        "label": "Vamps that refuse to resolve",
+        "text": "Songs settle onto one riff and ride it for their whole length. That's funk's structural lesson rather than samba's, and it's why several tracks feel like they could continue indefinitely."
+      },
+      {
+        "label": "Chanted group refrains",
+        "text": "Five backing vocalists turn hooks into crowd chants — call-and-response rather than harmony. The opening track's football chant is the clearest case, and why it works as terrace music."
+      },
+      {
+        "label": "Bertrami's orchestral writing",
+        "text": "Strings and horns arrive in short stabs rather than sustained beds, so the arrangements add weight without smoothing the rhythm section over. Bertrami was doing related work in jazz-funk with Azymuth at the same time."
+      },
+      {
+        "label": "A dry, close mix",
+        "text": "Very little reverb — voices and percussion sit right up against the listener. Worth knowing Ben disliked the finished mix, so this is not quite what he wanted."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jorge Ben: África Brasil — Spectrum Culture (Christopher J. Lee)",
+        "url": "https://spectrumculture.com/2024/09/04/jorge-ben-africa-brasil-review/"
+      },
+      {
+        "title": "Jorge Ben: África Brasil — AllMusic",
+        "url": "https://www.allmusic.com/album/%C3frica-brasil-mw0000439520"
+      },
+      {
+        "title": "Classic Copyright Cases: Rod Stewart v Jorge Ben Jor — Briffa",
+        "url": "https://www.briffa.com/blog/classic-copyright-cases-rod-stewart-v-jorge-ben-jor/"
+      },
+      {
+        "title": "África Brasil — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/%C3%81frica_Brasil"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "James Brown",
+        "album": "The Payback",
+        "year": "1973",
+        "note": "The model for treating guitar as a percussion instrument over a single unresolving vamp, which is the engine of this record's rhythm playing."
+      },
+      {
+        "artist": "Fela Kuti",
+        "album": "Gentleman",
+        "year": "1973",
+        "note": "Extended one-riff forms carried by layered hand percussion and chanted refrains rather than chord movement — named among the album's influences by critics."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Miriam Makeba",
+        "album": "Country Girl",
+        "year": "1977",
+        "note": "She covered one of this album's songs the following year, carrying it into a South African exile's repertoire within months of release."
+      },
+      {
+        "artist": "Rod Stewart",
+        "album": "Blondes Have More Fun",
+        "year": "1978",
+        "note": "Stewart lifted the chorus melody of a Ben song that appears here in re-recorded form, first cut in 1972; Ben sued, it settled, and the royalties went to UNICEF. Stewart told The Times in 2025: \"Oh yeah, I nicked it.\""
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebfdd",
+    "image": "https://i.scdn.co/image/2b78959aeaf66aa1889a2afb819f18ba9e585c50",
+    "savedAt": "2026-10-26T11:21:40.419Z"
   }
 }
