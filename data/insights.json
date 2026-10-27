@@ -13937,5 +13937,270 @@
     "uuid": "5f34ee8bf0857e55ed5ebfdd",
     "image": "https://i.scdn.co/image/2b78959aeaf66aa1889a2afb819f18ba9e585c50",
     "savedAt": "2026-10-26T11:21:40.419Z"
+  },
+  "5f34ee8bf0857e55ed5ec088": {
+    "artist": "Bruce Springsteen",
+    "album": "Nebraska",
+    "year": "1982",
+    "heading": "Nebraska — Bruce Springsteen (1982)",
+    "albumLine": "Released 30 September 1982 on Columbia, produced by Springsteen alone. It's a folk record — one voice, acoustic guitar, harmonica, a few sparse overdubs — taped at home on a four-track cassette machine. His sixth album, sitting between The River and Born in the U.S.A.",
+    "overview": [
+      "Springsteen wrote the songs over a couple of months in the winter of 1981–82, drawing on director Terrence Malick's 1973 film Badlands and a biography of Caril Fugate, the teenager who accompanied Charles Starkweather on his 1957–58 killing spree. He was reading writer Flannery O'Connor, whose compression he admired, and working in the outlaw-ballad form he took from folk singer Woody Guthrie, praising Guthrie's \"toughness, wit and common wisdom.\" He resisted having politics read into it: he said he was \"after a feeling, a tone,\" with \"no conscious political agenda or social themes.\"",
+      "Guitar tech Mike Batlan set up a Teac Tascam 144 four-track in the bedroom of Springsteen's rented house in Colts Neck, New Jersey. Legend has it the whole thing was cut on 3 January 1982; sources disagree, with others dating the sessions back to mid-December 1981. Springsteen mixed through a Panasonic boom box and an old Gibson Echoplex, then carried the cassette in his jacket pocket for months. In April and May 1982 he and the E Street Band spent three weeks at the Power Station in New York cutting band versions, and it went wrong. Producer Chuck Plotkin: \"We were squashing all of the dark, strange particularity.\" Springsteen later wrote that he had \"succeeded in doing nothing but damaging what I'd created,\" and went back to the tape.",
+      "Engineer Toby Scott — \"There's just something about the atmosphere on this tape\" — took it through several New York mastering rooms before finding a lathe at Atlantic Studios that would cut it; accounts differ on how many rooms it took. Columbia put it out with the hiss intact, and Springsteen didn't tour it, the first time he'd skipped a tour for a new record. It still reached No. 3 in both the US and UK. Guitarist Steven Van Zandt called it \"among the most uncompromising and uncommercial recordings any major artist has ever released.\" Its longest shadow is technical: it demonstrated that a bedroom and a cheap multitrack could make a releasable album, and lo-fi songwriters have pointed back at it ever since."
+    ],
+    "listeningNotes": [
+      {
+        "label": "The Echoplex slapback",
+        "text": "Springsteen ran the mixes through an old Gibson Echoplex with an endless tape loop, which is where the rockabilly reverb hanging off the voice comes from. The unit died shortly afterwards."
+      },
+      {
+        "label": "Hiss and clipping left in",
+        "text": "Batlan was unfamiliar with the machine and Springsteen was impatient, so some songs distort. None of it was cleaned up; the murk was kept as part of the sound."
+      },
+      {
+        "label": "A one-chord drone and a scream",
+        "text": "\"State Trooper\" is a single hypnotic guitar figure and a shout, close enough to Suicide's \"Frankie Teardrop\" that Alan Vega, Suicide's singer, heard his own record in it: \"But it was Bruce!\""
+      },
+      {
+        "label": "Rack harmonica as punctuation",
+        "text": "The harmonica fills the gaps between verses rather than taking solos — a folk-ballad habit inherited from Guthrie, and most of what occupies the space around the guitar."
+      },
+      {
+        "label": "Overdubs you can count",
+        "text": "A few tracks add glockenspiel, mandolin or organ. Everything else is one guitar and one voice, which is why those small additions register so loudly."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inside The Making Of Bruce Springsteen's Nebraska — MOJO",
+        "url": "https://www.mojo4music.com/articles/stories/inside-the-making-of-bruce-springsteens-nebraska-i-got-to-wondering-what-the-hell-am-i-doing/"
+      },
+      {
+        "title": "How One Amazing Night Led to Bruce Springsteen's 'Nebraska' — Ultimate Classic Rock",
+        "url": "https://ultimateclassicrock.com/bruce-springsteen-nebraska-recording/"
+      },
+      {
+        "title": "Nebraska (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nebraska_(album)"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Woody Guthrie",
+        "album": "Dust Bowl Ballads",
+        "year": "1940",
+        "note": "Springsteen named Guthrie's \"toughness, wit and common wisdom\" as a model; the solo voice, rack harmonica and plain outlaw-ballad narration come straight from these records."
+      },
+      {
+        "artist": "Suicide",
+        "album": "Suicide",
+        "year": "1977",
+        "note": "The one-chord drone and sudden scream of \"Frankie Teardrop\" fed the album's claustrophobia, and Suicide's singer Alan Vega recognised his own record in \"State Trooper.\""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Iron & Wine",
+        "album": "The Creek Drank the Cradle",
+        "year": "2002",
+        "note": "Sam Beam, its singer and only player, recorded it alone at home to four-track tape and released it with the room noise unfixed — the method this album made legitimate."
+      },
+      {
+        "artist": "Bon Iver",
+        "album": "For Emma, Forever Ago",
+        "year": "2008",
+        "note": "Justin Vernon, its singer, cut it alone on minimal equipment in isolation and kept the result rather than re-recording it; critics have repeatedly placed it in this album's lineage."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec088",
+    "image": "https://i.scdn.co/image/3d9db05ea029fd266227dfc6b85d8a074f4bd050",
+    "savedAt": "2026-10-27T11:17:22.629Z"
+  },
+  "5f34ee8bf0857e55ed5ebfaf": {
+    "artist": "The Cars",
+    "album": "The Cars",
+    "year": "1978",
+    "heading": "The Cars — The Cars (1978)",
+    "albumLine": "Released 6 June 1978 on Elektra and produced by Roy Thomas Baker, then best known for his work with Queen. Nine songs of new wave built on power-pop bones and synthesizer hooks, cut at AIR Studios in London in February 1978. It's the Boston five-piece's debut.",
+    "overview": [
+      "Singer and rhythm guitarist Ric Ocasek and bassist Benjamin Orr had been playing together since Cleveland, through a folk-rock group called Milkwood and an acoustic duo, before settling in Boston. Guitarist Elliot Easton and keyboard player Greg Hawkes came from Berklee; drummer David Robinson arrived from the Modern Lovers and named the band. By 1976 punk had cleared the ground in New York and London, and the Cars were part of the commercial translation that followed — arch, synthetic, tuneful, allergic to the long guitar solos of the album-rock stations they would soon colonise.",
+      "Radio got there before the label did. Boston DJ Maxanne Sartori played the band's demos on WBCN for nearly a year before any album existed. They signed to Elektra over Arista partly because Elektra had almost no new wave on its roster, so they'd stand out. Baker took them to George Martin's AIR Studios in London and gave the songs a finish the demos didn't have. Easton described the brief as \"get real balls but with clarity,\" called Baker \"absolutely brilliant,\" and noted that he \"wore out several engineers.\" Hawkes on the lyrics: \"There was definitely a little self-conscious irony in there.\" Nobody liked the sleeve — the label commissioned it, and Robinson thought it \"way too slick.\"",
+      "It peaked at a modest No. 18 on the Billboard 200 but stayed on the chart for 139 weeks and went on to six-times platinum in the US. Critic Kit Rachlis, writing in Rolling Stone, found \"the pop songs are wonderful\" while objecting to Baker's gloss; critic Robert Christgau gave it a B+, praised playing that was \"tight and tough,\" and thought the production added roughly as much as it cost. Easton later joked the record should have been called The Cars' Greatest Hits. It entered the National Recording Registry in 2024. Brandon Flowers, the Killers' singer, summed up the band's position when he inducted them into the Rock & Roll Hall of Fame in 2018: they \"were able to exist in that highly coveted sweet spot where credibility and acclaim meet huge commercial success.\""
+    ],
+    "listeningNotes": [
+      {
+        "label": "Queen-sized vocal stacks",
+        "text": "Baker layered backing vocals in the dense multi-tracked blocks he'd built for Queen, then dropped them onto terse three-minute pop songs. The choruses are effectively a choir."
+      },
+      {
+        "label": "Two lead voices, two temperaments",
+        "text": "Ocasek's flat, nasal deadpan against Orr's warmer tone, with Ocasek handing over the songs that needed selling. On \"Just What I Needed\" he said simply: \"If it needed to have a good voice, it needed to be Ben.\""
+      },
+      {
+        "label": "Synthesizer as hook, not wash",
+        "text": "Hawkes plays short bright melodic figures that work the way a guitar riff does, rather than pads underneath. Robinson adds electronic Syndrum accents alongside the kit."
+      },
+      {
+        "label": "Rockabilly picking inside new wave",
+        "text": "Easton's leads are compact and melodic, phrased closer to fifties country-rock than to punk. It's what keeps the record from sounding purely mechanical."
+      },
+      {
+        "label": "Separation over thickness",
+        "text": "Baker's mix keeps every part individually audible — nothing is buried, nothing smears. That clarity is why the album translated to both rock radio and new wave playlists."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Cars' Genre-Defying Self-Titled Debut: Track-by-Track — Ultimate Classic Rock",
+        "url": "https://ultimateclassicrock.com/the-cars-debut-track-by-track/"
+      },
+      {
+        "title": "Ric Ocasek — AllMusic biography",
+        "url": "https://www.allmusic.com/artist/ric-ocasek-mn0000889097"
+      },
+      {
+        "title": "The Cars (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Cars_(album)"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Velvet Underground",
+        "album": "The Velvet Underground & Nico",
+        "year": "1967",
+        "note": "Ocasek named them his favourite band after Bob Dylan and called this record highly influential on him; the flat, near-spoken vocal delivery over a two-chord pulse is the inheritance."
+      },
+      {
+        "artist": "The Modern Lovers",
+        "album": "The Modern Lovers",
+        "year": "1976",
+        "note": "A direct personnel link — Robinson drummed on it before joining the Cars — and the same trick of running deadpan vocals over simple repeating changes."
+      },
+      {
+        "artist": "Roxy Music",
+        "album": "For Your Pleasure",
+        "year": "1973",
+        "note": "Cited among the influences on Ocasek's pre-Cars bands: arch, mannered singing set against synthesizer textures rather than against a straight rock band."
+      },
+      {
+        "artist": "Queen",
+        "album": "A Night at the Opera",
+        "year": "1975",
+        "note": "Not a listening influence but a shared person: Baker brought the layered multi-tracked vocal technique he'd developed here straight into these sessions."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Weezer",
+        "album": "Weezer",
+        "year": "1994",
+        "note": "Ocasek produced it, importing the same approach — crunching guitars under stacked harmony vocals and hooks arranged with pop-single economy."
+      },
+      {
+        "artist": "The Killers",
+        "album": "Hot Fuss",
+        "year": "2004",
+        "note": "Flowers inducted the Cars into the Rock & Roll Hall of Fame and singled out Easton's solos; the Killers build songs the same way, a synthesizer figure carrying the hook over guitar."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebfaf",
+    "image": "https://i.scdn.co/image/f384ed7299d6974fd58707c000757fd2d6d48111",
+    "savedAt": "2026-10-27T11:17:57.633Z"
+  },
+  "5f34ee8bf0857e55ed5ebdc5": {
+    "artist": "Orange Juice",
+    "album": "Rip It Up",
+    "year": "1982",
+    "heading": "Rip It Up — Orange Juice (1982)",
+    "albumLine": "Released in November 1982 on Polydor, produced by Martin Hayles at Berwick Street Studios in London. Post-punk pulled hard toward funk and Southern soul, with horns, strings and a bass synthesizer. It's the Glasgow band's second album, and the one that finally gave them a hit.",
+    "overview": [
+      "Orange Juice came out of Glasgow, where singer and guitarist Edwyn Collins co-founded Postcard Records with Alan Horne in 1979. Postcard's house style — thin, chiming, deliberately unmacho guitars and a conversational vocal — was a pointed rejection of the grim industrial seriousness that post-punk had settled into, and it defined a sound later bands would spend decades mining. The band's stated enthusiasms were an unlikely pair: the Velvet Underground on one side, Chic and Al Green on the other. By 1981 they had signed to Polydor, where that second set of enthusiasms moved to the front.",
+      "The lineup had changed by this record. Founding guitarist James Kirk and drummer Steven Daly were gone, replaced by guitarist Malcolm Ross, from the Edinburgh band Josef K, and Zimbabwean drummer Zeke Manyika, who also wrote and sang. Session players were brought in — saxophonist Dick Morrissey, flugelhorn player Martin Drover, violinist Gavyn Wright — which pushed the arrangements somewhere no Postcard record had gone. Polydor was pressing for a hit, which Collins resisted while, by his own account, privately wanting one. Reading about it in Sound On Sound, he bought a Roland TB-303 bass synthesizer from a Denmark Street shop for around £150; Hayles programmed its line from Collins singing it to him.",
+      "The single reached No. 8 in the UK and remains the band's only Top 10 entry. The album divided people. Smash Hits writer Neil Tennant gave it 8/10 and said the band could no longer be accused of being twee; critic Jim Reid in Record Mirror called it \"a pleasing patchwork\" but judged Collins short of a real soul singer's range; Sounds gave it 1.5 out of 5, and Collins still remembers an NME review that slated it. Opinion has warmed — Josh Jackson of Paste called it an overlooked post-punk gem in 2016 — and the Postcard template Orange Juice built fed the Smiths and the C86 generation, then surfaced again in Belle and Sebastian and Franz Ferdinand."
+    ],
+    "listeningNotes": [
+      {
+        "label": "A bass synthesizer doing the bass part",
+        "text": "The TB-303's rubbery, sliding line carries the title track. The machine was a commercial failure as a bass substitute and was discontinued; acid house rediscovered it in 1988."
+      },
+      {
+        "label": "Chic rhythm guitar, openly admitted",
+        "text": "Collins played scratchy muted chords on a Burns Nu-Sonic and said flatly that he'd ripped off Chic's guitarist Nile Rodgers. The strumming hand, not the chord shapes, is the whole trick."
+      },
+      {
+        "label": "Handclaps where the percussion should be",
+        "text": "Much of the groove's lift comes from clapping rather than drums or shakers — a soul-record device that keeps the rhythm bright instead of heavy."
+      },
+      {
+        "label": "Manyika's pocket",
+        "text": "The drumming is steady and unshowy underneath arrangements that are constantly shifting, and it's the reason the funk feels played rather than programmed."
+      },
+      {
+        "label": "A voice that won't smooth out",
+        "text": "Collins reaches for soul phrasing with a baritone that cracks and wavers. Critics at the time held it against him; it's now the thing that stops the record sounding like polished early-eighties pop."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Landmarks: Orange Juice 'Rip It Up' — Electronic Sound",
+        "url": "https://www.electronicsound.co.uk/features/landmarks/orange-juice-rip-it-up/"
+      },
+      {
+        "title": "And Start Again — Record Collector",
+        "url": "https://recordcollectormag.com/articles/and-start-again"
+      },
+      {
+        "title": "Orange Juice: Rip It Up — AllMusic review by Tim Sendra",
+        "url": "https://www.allmusic.com/album/rip-it-up-mw0001236734"
+      },
+      {
+        "title": "Rip It Up (Orange Juice album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rip_It_Up_(Orange_Juice_album)"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Chic",
+        "album": "Risqué",
+        "year": "1979",
+        "note": "Collins said he lifted his rhythm guitar from Nile Rodgers — the clipped, muted sixteenth-note strumming that drives this record is the direct borrowing."
+      },
+      {
+        "artist": "The Velvet Underground",
+        "album": "The Velvet Underground & Nico",
+        "year": "1967",
+        "note": "The untrained vocal and scrappy strummed chords the band kept even as the arrangements got slicker; one half of Orange Juice's stated pairing of enthusiasms."
+      },
+      {
+        "artist": "Al Green",
+        "album": "Al Green Is Love",
+        "year": "1975",
+        "note": "Green was played constantly during the band's previous album sessions and they covered him there; the soul phrasing Collins reaches for throughout comes from those records."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The Smiths",
+        "album": "The Smiths",
+        "year": "1984",
+        "note": "Built on the Postcard guitar sound Orange Juice defined: treble-heavy, arpeggiated figures played clean, with a conversational vocal riding above rather than belting over them."
+      },
+      {
+        "artist": "Belle and Sebastian",
+        "album": "If You're Feeling Sinister",
+        "year": "1996",
+        "note": "Singer Stuart Murdoch has said Postcard's spirit shaped everything his band did — the same soft-voiced delivery and light, unaggressive guitar arrangements."
+      },
+      {
+        "artist": "Franz Ferdinand",
+        "album": "Franz Ferdinand",
+        "year": "2004",
+        "note": "Singer Alex Kapranos has cited Orange Juice as a reference for both sound and attitude; clipped disco guitar welded to post-punk is exactly the move this album made."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebdc5",
+    "image": "https://i.scdn.co/image/8798da6bd502a46c7157b51ef027d076e316c794",
+    "savedAt": "2026-10-27T11:18:32.770Z"
   }
 }
