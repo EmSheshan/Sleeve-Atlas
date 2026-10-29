@@ -14448,5 +14448,238 @@
     "uuid": "5f34ee8bf0857e55ed5ebf11",
     "image": "https://i.scdn.co/image/317126abc2cd089cfc2d9446b202a93d20edc790",
     "savedAt": "2026-10-28T11:24:32.072Z"
+  },
+  "5f34ee8bf0857e55ed5ebe97": {
+    "artist": "Boston",
+    "album": "Boston",
+    "year": "1976",
+    "heading": "Boston — Boston (1976)",
+    "albumLine": "Released in late August 1976 on Epic and produced by guitarist and engineer Tom Scholz with producer John Boylan. It's arena rock built from layered guitars and stacked harmony vocals, and it's Boston's debut — assembled, in large part, before the band properly existed.",
+    "overview": [
+      "By 1976 American FM rock radio was being squeezed from both sides, disco on one flank and punk arriving on the other, and this record landed in the gap sounding like nothing in a club and everything like a stadium. It wasn't made that way. Scholz was an MIT-trained mechanical engineer with more than a dozen patents from his day job designing products at Polaroid, and he built most of the album in the basement of his house in Watertown, Massachusetts, on recorders and effects he had designed or modified himself.",
+      "The demos came first, in 1974, with Scholz playing everything but drums and singer Brad Delp on vocals. Epic turned the tape down, then signed the band in 1975 after promoters Charlie McKenzie and Paul Ahern got it back in front of the label. Epic wanted a proper Los Angeles studio; Scholz refused. Boylan, sent east to supervise, made a handshake deal to co-produce and split royalties, then spent much of the project shielding the basement arrangement from his own employer — including flying Delp, guitarist Barry Goudreau, bassist Fran Sheehan and drummer Sib Hashian to Los Angeles so it would look as though a band had recorded there. Scholz has said the album is mostly the work of himself, Delp and drummer Jim Masdea, who plays on one song while Hashian replays his parts elsewhere.",
+      "Critics heard the slickness and distrusted it: a Los Angeles Times writer called it the apotheosis of corporate rock, a phrase that stuck to the band for decades, and the Best New Artist Grammy went to Starland Vocal Band. Listeners disagreed on a scale nobody predicted — gold within two months, a million copies by Thanksgiving, over seventeen million in the US, and the biggest-selling American debut to that point. Sources no longer agree where it now ranks among debuts, second or third. Its influence runs two ways. The guitar sound reappears in the massed overdubs of nineties alternative rock, and the method — one person, a basement, a record that sounded like a budget — anticipated how most music would eventually get made."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Double-tracked guitars panned hard apart",
+        "text": "Engineer Steve Hulse at Natural Sound Studios showed Scholz how to play a part twice and push the two takes to opposite sides of the stereo field. Repeated across layers, that one trick is most of what people mean by the Boston sound."
+      },
+      {
+        "label": "The power soak",
+        "text": "A basement can't hold a cranked 100-watt Marshall, so Scholz built a heat-sink attenuator that let the amp distort fully while staying quiet in the room. The overdriven tone here is a loud amp heard at living-room volume."
+      },
+      {
+        "label": "Harmonised lead lines",
+        "text": "Scholz credits Todd Rundgren as the first musician he heard putting lead guitars in harmony with each other. He built it into the solos — two or three lines moving in parallel rather than one out front."
+      },
+      {
+        "label": "A wah pedal used as an EQ",
+        "text": "Rather than rocking it, Scholz parked the pedal in a fixed position to push the midrange, then added an Eventide Harmonizer for pitch-shifted doubling and a homemade tape echo with its own pedal for feedback and sustain."
+      },
+      {
+        "label": "Vocals stacked by one singer",
+        "text": "Delp's leads and harmonies were cut at Capitol Studios in Hollywood onto instrumental tracks Scholz had already finished and mailed over, with no band in the room. Scholz later called him the best male studio singer he had ever heard."
+      },
+      {
+        "label": "Organ buried under the riffs",
+        "text": "Scholz played the keyboards as well as the guitars and bass, and there's organ sitting beneath the guitar beds adding weight without ever reading as a keyboard part."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Boston (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Boston_(album)"
+      },
+      {
+        "title": "He was an MIT grad with dreams of stardom. His 1976 debut album with Boston resuscitated rock music. — The Boston Globe",
+        "url": "https://www.bostonglobe.com/2026/09/16/magazine/boston-debut-album/"
+      },
+      {
+        "title": "How the Legendary Rock Band Boston Recorded Their Debut Album in a Basement in the 1970s — Songfacts",
+        "url": "https://www.songfacts.com/articles/how-the-legendary-rock-band-boston-recorded-their-debut-album-in-a-basement-in-the-1970s/"
+      },
+      {
+        "title": "\"I've spent six months making a recording of a song that I've thrown out\" — Tom Scholz on the secrets of Boston's first album, Louder",
+        "url": "https://www.loudersound.com/features/boston-tom-scholz-first-album-interview"
+      },
+      {
+        "title": "Boston — AllMusic review",
+        "url": "https://www.allmusic.com/album/boston-mw0000189319"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Todd Rundgren",
+        "album": "Something/Anything?",
+        "year": "1972",
+        "note": "Scholz names singer and multi-instrumentalist Todd Rundgren as the first player he heard harmonising lead guitars against each other — the device that defines Boston's solos. Rundgren also played nearly everything himself, which is how this album was built."
+      },
+      {
+        "artist": "Led Zeppelin",
+        "album": "Led Zeppelin II",
+        "year": "1969",
+        "note": "Scholz cites guitarist Jimmy Page as an influence; the overdubbed guitar army, where one player becomes a wall, is the technique he took furthest."
+      },
+      {
+        "artist": "James Gang",
+        "album": "Rides Again",
+        "year": "1970",
+        "note": "Scholz singles out guitarist Joe Walsh's James Gang work specifically — thick, melodic riff guitar carrying a whole arrangement rather than decorating one."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The Smashing Pumpkins",
+        "album": "Siamese Dream",
+        "year": "1993",
+        "note": "Boston's obsessively massed guitar overdubs were an acknowledged reference point for this album's sound; singer and guitarist Billy Corgan has also pointed at Boston's chord movement directly."
+      },
+      {
+        "artist": "Nirvana",
+        "album": "Nevermind",
+        "year": "1991",
+        "note": "Singer Kurt Cobain said his most famous riff was \"so close to a Boston riff\" and the band quoted Boston onstage at Reading in 1992, though the musicologist Rikky Rooksby notes the two songs' chord progressions differ — the resemblance is in the guitar's shape and tone, not the harmony."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebe97",
+    "image": "https://i.scdn.co/image/ea6c0cdc86984d4cb8fb8758eb53a09060e1c1dd",
+    "savedAt": "2026-10-29T11:14:46.206Z"
+  },
+  "5f34ee8bf0857e55ed5ebc4c": {
+    "artist": "Nick Cave & The Bad Seeds",
+    "album": "Ghosteen",
+    "year": "2019",
+    "heading": "Ghosteen — Nick Cave & The Bad Seeds (2019)",
+    "albumLine": "Released digitally on 4 October 2019 on the band's own Ghosteen Ltd, with physical editions on 8 November through Bad Seed Ltd, and produced by singer Nick Cave with multi-instrumentalist Warren Ellis. Closer to ambient music than rock — synthesizers, loops and strings, almost no drums — it's the Bad Seeds' seventeenth album, and closes the trilogy begun with Push the Sky Away and Skeleton Tree.",
+    "overview": [
+      "Cave's fifteen-year-old son Arthur died in July 2015, during the sessions for Skeleton Tree; most of that album had already been written, and Cave amended lyrics afterwards. He then deliberately stopped writing, and did not start again until February 2017. What filled the gap changed his public role entirely: concerts where he took questions directly from the audience, and then, from September 2018, The Red Hand Files, an open correspondence in which he answered strangers about loss, faith and doubt. By the time this record arrived, the gothic narrator of the eighties Bad Seeds had become a public interlocutor on grief, and the album is inseparable from that shift.",
+      "The work started at Retreat Studios in Brighton in late spring 2018, with Cave at a piano and Ellis at a synthesizer, sketching for about a week; Ellis then picked twenty pieces to carry into Woodshed Recording in Malibu, with later sessions in West Hollywood, Berlin and London, where a string ensemble was cut at AIR Studios under arranger and conductor Ben Foster. Rather than writing at his usual desk, Cave assembled lyrics from notebooks, memory and whatever came in the room. The rest of the Bad Seeds are barely present. Drummer Thomas Wydler is credited, but most of his parts were taken out of the mix — the band's explanation being that drums anchored the songs and stopped them floating. It was dedicated to keyboardist Conway Savage, who died in September 2018.",
+      "Cave announced it in a Red Hand Files reply on 23 September 2019, describing the two halves plainly: the songs on the first album are the children, the songs on the second are their parents, and \"Ghosteen is a migrating spirit.\" Critics were close to unanimous — 96 on Metacritic, the highest of 2019, that site's album of the year, No. 4 in the UK and the week's best-selling LP on physical release. What listeners could not agree on was its mood. A reader wrote to Cave insisting it was the most jubilant record they had ever heard and asking why others found it sad; Cave answered them rather than correcting them. That ambiguity is the point, and it is why the album is cited now as a grief record refusing consolation and despair in equal measure."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Drums removed on purpose",
+        "text": "Wydler played, and then was largely erased, because the band felt percussion tied the songs down. What survives is incidental — tablas from Kaushlesh Purohit in places, vibraphone and hand percussion from Jim Sclavunos — so the music has pulse without a beat."
+      },
+      {
+        "label": "Synthesizer and loops as the floor",
+        "text": "Ellis builds the beds from synth pads and looped fragments rather than chords, and they swell and recede instead of resolving. George Vjestica is credited on guitar, but you rarely register it as one."
+      },
+      {
+        "label": "Cave singing above his register",
+        "text": "He spends much of the record pushed up out of his baritone into a thinner, more exposed voice, and a chorus of wordless backing vocals answers him like a congregation."
+      },
+      {
+        "label": "The ondes Martenot",
+        "text": "Augustin Viard plays this 1920s French electronic keyboard, controlled by sliding a ring along a wire. It gives the gliding, wavering tones that sit between a string section and a human voice without ever settling on a pitch."
+      },
+      {
+        "label": "Song shape dissolving",
+        "text": "The first half keeps to recognisable songs. The second abandons them for two long, drifting pieces joined by a spoken passage, the music simply continuing until it stops."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ghosteen — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ghosteen"
+      },
+      {
+        "title": "The Red Hand Files, Issue #62 — \"When can we expect a new album?\"",
+        "url": "https://www.theredhandfiles.com/when-can-we-expect-a-new-album/"
+      },
+      {
+        "title": "The Red Hand Files, Issue #73 — on readers hearing Ghosteen as jubilant",
+        "url": "https://www.theredhandfiles.com/uplifting-jubilant-record/"
+      },
+      {
+        "title": "Nick Cave & The Bad Seeds — Ghosteen, Stereogum Premature Evaluation",
+        "url": "https://stereogum.com/2060514/nick-cave-bad-seeds-ghosteen-album-review/reviews/premature-evaluation"
+      },
+      {
+        "title": "Nick Cave: the mysteries of Ghosteen revealed — Uncut",
+        "url": "https://www.uncut.co.uk/news/nick-cave-the-mysteries-of-ghosteen-revealed-122570/"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Nick Cave & The Bad Seeds",
+        "album": "Skeleton Tree",
+        "year": "2016",
+        "note": "Cave has framed the two as parts of one trilogy, and the method carries straight over: Ellis's synthesizers taking the structural role guitars used to hold, songs left unresolved rather than built to a chorus. This record keeps the technique and opens the tone out."
+      }
+    ],
+    "influenced": [],
+    "uuid": "5f34ee8bf0857e55ed5ebc4c",
+    "image": "https://i.scdn.co/image/ab67616d00001e02a243b4b2d58fd2f31d8f1f4a",
+    "savedAt": "2026-10-29T11:18:59.344Z"
+  },
+  "5f34ee8bf0857e55ed5ec0c9": {
+    "artist": "Nick Cave & The Bad Seeds",
+    "album": "Abattoir Blues / The Lyre of Orpheus",
+    "year": "2004",
+    "heading": "Abattoir Blues / The Lyre of Orpheus — Nick Cave & The Bad Seeds (2004)",
+    "albumLine": "Released 20 September 2004 on Mute and produced by Nick Launay with the band. It's two separate records issued together — one loud, bluesy and sermon-like, the other quiet and wry — and it's the Bad Seeds' thirteenth album, the first made without founding guitarist Blixa Bargeld.",
+    "overview": [
+      "Singer Nick Cave arrived at this record in an odd position. He was forty-six, two decades into the Bad Seeds, and coming off Nocturama (2003), an album widely treated as a low point. Then Bargeld emailed to say he was leaving. Cave said he was very sad to get it, and that it immediately opened up the chance to do something different — \"just the way my mind works.\" The man described in press at the time is not the figure of the early Bad Seeds: a father of young twins, writing to a routine, finishing the screenplay for the film The Proposition, and insisting that making records is a joyful act whatever the subject matter.",
+      "That shows in what the album does with religious language. The imagery is apocalyptic and biblical, and the second disc borrows the myth of Orpheus, whose song could move the dead; but there's no doctrine in it, and the gospel choir serves as ballast rather than endorsement. Six members of the London Community Gospel Choir sing across most of the record. Cave's reasoning was practical: \"With a voice like mine, the choir adds a levity to the whole thing that I can't do on my own.\" One song is a posthumous tribute to Johnny Cash, dead a year by then.",
+      "It was made fast, at Studio Ferber in Paris across March and April 2004 — Launay puts the whole thing at twelve days, Cave spoke of ten days of recording, AllMusic says sixteen, so the figure is unsettled. Cave kept writing past the thirteen-song mark where he normally runs dry, was uneasy about releasing a double album, and couldn't bring himself to throw away the extra songs. With Bargeld gone, the roles moved: multi-instrumentalist Mick Harvey stepped to the centre on guitar, violinist Warren Ellis took up mandolin and Irish bouzouki, and organist James Johnston of Gallon Drunk joined. Reviews were strong — Drowned in Sound gave it 9/10, Pitchfork later placed it 180th among the albums of the 2000s — with several critics noting that losing Bargeld's abrasive guitar made the band sound poppier. It went top ten in thirteen countries and gold in the UK and Australia, and it began Cave's long, prolific late phase rather than a one-off recovery. A quieter song from the second disc later turned up in a Harry Potter film, handing the album a far younger audience."
+    ],
+    "listeningNotes": [
+      {
+        "label": "The choir as counterweight",
+        "text": "The gospel voices aren't there for uplift — they sit against the bleakest lines, so the music keeps rising while the words go the other way. It's the biggest change from any previous Bad Seeds record."
+      },
+      {
+        "label": "Singers who hadn't read the words",
+        "text": "The choir were hearing Cave's lyrics for the first time and weren't sure what they were singing. On \"Hiding All Away\" some of them can be heard laughing, and Cave kept the take because he thought it helped the song."
+      },
+      {
+        "label": "A different drummer on each disc",
+        "text": "Jim Sclavunos drums the loud half and Thomas Wydler the quiet one. The two records breathe differently partly because of that, before any of the arrangements come into it."
+      },
+      {
+        "label": "Plucked strings where the noise used to be",
+        "text": "With Bargeld's scraping guitar gone, Ellis fills the gap with mandolin and bouzouki and Johnston adds organ, so the texture rings and shimmers where it used to abrade."
+      },
+      {
+        "label": "Vocals tracked with the band",
+        "text": "Launay's method on Cave's records is to capture most of the lead vocal live with the backing track, saving strings and backing voices for later. It's why the vocals sit inside the performance rather than on top of it."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Abattoir Blues / The Lyre of Orpheus — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Abattoir_Blues_/_The_Lyre_of_Orpheus"
+      },
+      {
+        "title": "Nick Cave article from the Los Angeles Times (reprinted by Anti-)",
+        "url": "https://www.anti.com/news/nick-cave-article-from-the-los-angeles-times/"
+      },
+      {
+        "title": "Nick Launay interview with HitQuarters",
+        "url": "https://www.launay.com/about/interviews/12-interview-with-hit-quarters"
+      },
+      {
+        "title": "Abattoir Blues / The Lyre of Orpheus — AllMusic review",
+        "url": "https://www.allmusic.com/album/abattoir-blues-the-lyre-of-orpheus-mw0000169280"
+      },
+      {
+        "title": "Abattoir Blues / The Lyre of Orpheus — Drowned in Sound review",
+        "url": "https://drownedinsound.com/releases/3855/reviews/10607-"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Johnny Cash",
+        "album": "American III: Solitary Man",
+        "year": "2000",
+        "note": "Cash recorded a stripped-back cover of Cave's \"The Mercy Seat\" for this album; Cave, who calls Cash his hero, said the result was \"pure Johnny Cash.\" The exchange runs both ways — the plain, declamatory delivery over Old Testament vocabulary is Cash's register, and one song here is a posthumous tribute to him."
+      }
+    ],
+    "influenced": [],
+    "uuid": "5f34ee8bf0857e55ed5ec0c9",
+    "image": "https://i.scdn.co/image/4b2abdb9116cbb3e1e430a3a010a964fc7c54682",
+    "savedAt": "2026-10-29T11:21:44.889Z"
   }
 }
