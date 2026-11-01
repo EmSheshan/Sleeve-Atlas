@@ -15200,5 +15200,280 @@
     "uuid": "5f34ee8bf0857e55ed4ba0ab",
     "image": "https://i.scdn.co/image/ab67616d00001e02cdb645498cd3d8a2db4d05e1",
     "savedAt": "2026-10-31T11:25:18.812Z"
+  },
+  "5f34ee8bf0857e55ed5eaaa2": {
+    "artist": "Christine and the Queens",
+    "album": "Chris",
+    "year": "2018",
+    "heading": "Chris — Christine and the Queens (2018)",
+    "albumLine": "Released 21 September 2018 on Because Music, produced by singer, songwriter and producer Héloïse Letissier with producer Cole M.G.N. It's synth-pop pulled hard toward late-'80s funk and R&B, and it's the second Christine and the Queens album after Chaleur humaine (2014). It came out simultaneously in separate English and French versions.",
+    "overview": [
+      "Chaleur humaine had made Letissier a genuine star in France and a critics' favourite abroad, performing as Christine. For the follow-up she cut her hair, shortened the name to Chris and built a harder, hungrier version of the character. The reasoning she gave was blunt: she told the Recording Academy this was \"a record that talks about being too much,\" and elsewhere described wanting it too much, too independent, too horny. The persona is the argument — a woman claiming swagger and appetite without surrendering femininity, which reviewers read as the album's whole project.",
+      "Musically she went backwards to go forwards. Letissier has named Michael Jackson's Dangerous, Janet Jackson's The Velvet Rope, the band Cameo, and the production team of Jimmy Jam and Terry Lewis as her reference points, and critics heard all of it — Prince and both Jacksons most often, Madonna and David Bowie behind them. That was a deliberately unfashionable palette in 2018, and not every reviewer was convinced: at least one argued the referencing tips into derivative when the songs can't carry the comparison.",
+      "The record was made largely by Letissier herself with Cole M.G.N., and the Los Angeles musician Dâm-Funk appears on one track and co-wrote the lead single. Dance is not decoration here either — she cites the choreographer Pina Bausch alongside Michael Jackson, and the live show was built on exaggerated dance-offs and synchronised group movement. Critics were close to unanimous: Metacritic logged 89 from 26 reviews, with a five-star notice in the Guardian. The twin-language release, in which titles and phrasing differ between the two versions rather than being straight translations, remains the clearest sign of how much Letissier wanted to be heard on her own terms in both of her markets at once."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Slap-and-pop bass carrying the hook",
+        "text": "The rhythm beds are built on funk bass rather than the synth pads and sub-bass of contemporary pop. \"Girlfriend,\" co-written with Dâm-Funk, is the clearest case — the bass line is the chorus."
+      },
+      {
+        "label": "Dry, hard-hitting drum programming",
+        "text": "Letissier named Jimmy Jam and Terry Lewis as a model, and you can hear why: snares land flat and close with air around them instead of reverb wash. It's a late-'80s R&B sound, not a 2018 one."
+      },
+      {
+        "label": "Ballads stripped to a few chords",
+        "text": "The quieter songs are a programmed beat, a couple of electric-piano chords and the voice. More than one reviewer heard Janet Jackson's Control (1986) in that spareness."
+      },
+      {
+        "label": "A guest from the modern-funk underground",
+        "text": "Dâm-Funk features on \"Damn, dis-moi\" and co-wrote the single. His presence is the record's most direct line to the boogie revival it draws on."
+      },
+      {
+        "label": "The same album sung twice",
+        "text": "English and French editions were released together, and the French isn't dubbed over the English — titles and stresses differ between them, so the two versions phrase the same melodies differently."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Christine and the Queens isn't afraid to be too much — The Fader",
+        "url": "https://www.thefader.com/2018/09/18/christine-the-queens-chris-album-interview"
+      },
+      {
+        "title": "\"This Is A Record That Talks About Being Too Much\" — Grammy.com",
+        "url": "https://www.grammy.com/news/christine-and-queens-chris-record-talks-about-being-too-much/"
+      },
+      {
+        "title": "The rebel reinvention of Christine & the Queens — Dazed",
+        "url": "https://www.dazeddigital.com/music/article/41491/1/christine-and-the-queens-chris-new-album-interview"
+      },
+      {
+        "title": "Between chaos and desire: a conversation with Christine and the Queens — NPR World Cafe",
+        "url": "https://www.npr.org/sections/world-cafe/2018/09/20/648727035/between-chaos-and-desire-a-conversation-with-christine-and-the-queens"
+      },
+      {
+        "title": "Chris — Metacritic",
+        "url": "https://www.metacritic.com/music/chris/christine-and-the-queens/"
+      },
+      {
+        "title": "Chris (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chris_(album)"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Michael Jackson",
+        "album": "Dangerous",
+        "year": "1991",
+        "note": "Named by Letissier as an influence; the hard, dry rhythm programming producer Teddy Riley built for it is the model for this record's drum sound."
+      },
+      {
+        "artist": "Janet Jackson",
+        "album": "The Velvet Rope",
+        "year": "1997",
+        "note": "Also named by Letissier — the template for a pop record built on frank writing about sex and identity over Jimmy Jam and Terry Lewis's production."
+      },
+      {
+        "artist": "Cameo",
+        "album": "Word Up!",
+        "year": "1986",
+        "note": "Letissier named Cameo among her references; their best-known record runs on a slapped bass figure and processed vocal hooks, both central here."
+      }
+    ],
+    "influenced": [],
+    "uuid": "5f34ee8bf0857e55ed5eaaa2",
+    "image": "https://i.scdn.co/image/ab67616d00001e025f9ac1827852012c11bf9eb7",
+    "savedAt": "2026-11-01T12:17:24.985Z"
+  },
+  "5f34ee8bf0857e55ed5ec0dc": {
+    "artist": "Patti Smith",
+    "album": "Horses",
+    "year": "1975",
+    "heading": "Horses — Patti Smith (1975)",
+    "albumLine": "Released 10 November 1975 on Arista and produced by the Welsh musician John Cale. It's rock built on top of poetry readings — usually described as one of the opening shots of what became punk. It's Patti Smith's debut.",
+    "overview": [
+      "Smith came to this from poetry, not from bands. Guitarist Lenny Kaye had started accompanying her readings, and by 1975 the pair had grown into a five-piece with a residency at CBGB in New York. The hype around those shows reached label executive Clive Davis, who was stocking his newly founded Arista Records; she signed a seven-album deal in April 1975. Accounts of how he found her differ — one says he was won over at a CBGB performance, another that he reached out after reading reviews and hearing demos. What he signed was not a rock band with a poetic streak but a poet who had annexed a rock band, which is why, as ABC News put it on the album's fiftieth anniversary, it ended up rewriting rock's rule book.",
+      "Sessions ran at Electric Lady Studios in New York in September 1975 — one source dates the start to 2 September, another gives 2–18 September, another says August and September. Behind Smith were Kaye, pianist Richard Sohl, bassist and guitarist Ivan Král and drummer Jay Dee Daugherty, with Bernie Kirsh engineering after four years on the studio's staff. Smith picked Cale on the strength of his solo records and then regretted it: \"In my mind I picked him because his records sounded good,\" she said. \"But I hired the wrong guy. All I was really looking for was a technical person.\" She wanted the band's live sound; he reportedly wanted something more arranged, strings included, which she refused. The famous story of open warfare is contested, though — Kirsh, who was in the room, says he did not witness the conflict later described.",
+      "The cover, photographer Robert Mapplethorpe's portrait of Smith in a white shirt and loose tie, met resistance too: Arista wanted changes and Davis reportedly pleaded with her to drop it, before later saying he had come to trust her instincts completely. She won, and the image became as influential as the record. The lineage runs straight through punk's first wave — guitarist Viv Albertine of the Slits said the album \"absolutely and completely changed my life,\" and singer Courtney Love of Hole credited it with pushing her toward being a musician at all. A fiftieth-anniversary edition arrived on Sony Legacy in November 2025, around which critic Ken Tucker told NPR it still sounds like nothing before or since."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Cut live, barely overdubbed",
+        "text": "\"Gloria\" was tracked completely live in the room, Sohl at Electric Lady's grand piano, according to Kirsh. Overdubs were kept minimal across the record to protect the spontaneity Smith was after."
+      },
+      {
+        "label": "Piano as the lead instrument",
+        "text": "Sohl carries the long pieces rather than the guitars. On \"Birdland\" his playing runs underneath the spoken verses and then hands off to the sung refrains."
+      },
+      {
+        "label": "Feedback used as punctuation",
+        "text": "Kaye's guitar began as accompaniment to poetry readings, where he added squalls and bursts to raise the tension. That's still its job here — reacting to a line rather than playing a part."
+      },
+      {
+        "label": "A poem welded onto a garage-rock cover",
+        "text": "The opening fuses her poem \"Oath\" with the song \"Gloria\", a 1964 staple by Them, and Van Morrison shares the writing credit with her. It announces the album's whole method in one move."
+      },
+      {
+        "label": "Speech sliding into song",
+        "text": "The extended tracks alternate spoken narration with sung choruses, so the band follows phrasing with no fixed meter to hang on. The looseness is the point, and it took a group that had played these pieces nightly."
+      },
+      {
+        "label": "The arrangement that isn't there",
+        "text": "Cale's proposed strings were vetoed, and what survives is the five-piece as it worked live. Much of the record's starkness is a subtraction rather than a style."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Classic Tracks: Patti Smith's \"Gloria\" — Mix",
+        "url": "https://www.mixonline.com/recording/classic-tracks/classic-tracks-patti-smiths-gloria-366134"
+      },
+      {
+        "title": "An oral history of Patti Smith's Horses at 50 — Far Out",
+        "url": "https://faroutmagazine.co.uk/an-oral-history-of-patti-smiths-horses-at-50/"
+      },
+      {
+        "title": "The Making of Patti Smith's Horses — Qobuz",
+        "url": "https://www.qobuz.com/us-en/magazine/story/2025/11/10/the-making-of-patti-smiths-horses-we-all-had-to-pull-ourselves-together/"
+      },
+      {
+        "title": "Fresh Air marks the 50th anniversary of Horses — NPR",
+        "url": "https://www.npr.org/2025/11/07/nx-s1-5600848/fresh-air-marks-the-50th-anniversary-of-patti-smiths-landmark-album-horses"
+      },
+      {
+        "title": "50 years ago, Patti Smith's Horses fused poetry and punk — ABC News",
+        "url": "https://www.abc.net.au/news/2025-12-13/patti-smith-horses-50-years-anniversary-punk-poetry-rock-classic/106125110"
+      },
+      {
+        "title": "The dA-Zed guide to Patti Smith — Dazed",
+        "url": "https://www.dazeddigital.com/music/article/25126/1/the-da-zed-guide-to-patti-smith"
+      },
+      {
+        "title": "Horses (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Horses_(album)"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Them",
+        "album": "The Angry Young Them",
+        "year": "1965",
+        "note": "Smith rebuilt their best-known song as the album's opening, grafting her own poem onto its chord pattern; singer Van Morrison shares the writing credit as a result."
+      },
+      {
+        "artist": "John Cale",
+        "album": "Fear",
+        "year": "1974",
+        "note": "Smith hand-picked Cale as producer on the strength of how his solo records sounded, this one in particular — the direct cause of both the album's dryness and its studio friction."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The Slits",
+        "album": "Cut",
+        "year": "1979",
+        "note": "Guitarist Viv Albertine said this record \"absolutely and completely changed my life\" — the model of a band built around speech-like vocal phrasing rather than conventional singing."
+      },
+      {
+        "artist": "Hole",
+        "album": "Live Through This",
+        "year": "1994",
+        "note": "Singer Courtney Love credited the album with inspiring her to become a rock musician; the same pairing of confrontational spoken-sung delivery with a plain three-piece backing."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec0dc",
+    "image": "https://i.scdn.co/image/ab67616d00001e02f6e013384bb28789fd5af8ea",
+    "savedAt": "2026-11-01T12:18:02.722Z"
+  },
+  "5f34ee8bf0857e55ed5ebe6e": {
+    "artist": "Led Zeppelin",
+    "album": "Led Zeppelin III",
+    "year": "1970",
+    "heading": "Led Zeppelin III — Led Zeppelin (1970)",
+    "albumLine": "Released 5 October 1970 on Atlantic (one account says 6 October) and produced by guitarist Jimmy Page. It's hard rock with a large acoustic, folk-leaning side, and it's the band's third album — the one that broke the formula of the first two. Page has argued the \"acoustic album\" tag is something of a misnomer.",
+    "overview": [
+      "Two albums of amplified blues-rock and almost continuous touring had made Led Zeppelin enormous and typecast. In 1970 Page and singer Robert Plant retreated to Bron-Yr-Aur, a cottage in Gwynedd, Wales, with acoustic guitars and no band, and much of this record was written there. The name is misspelled on the sleeve. What they brought back was not a novelty: Page's acoustic vocabulary came out of the British folk revival that had been running in London clubs through the 1960s, and he has cited guitarists Bert Jansch, John Renbourn and Davey Graham as the players who shaped it, once calling himself a \"Bert Jansch clone.\"",
+      "Where it was actually recorded is genuinely disputed. The credits and the band's 1993 box set list Headley Grange, a cold country house, alongside Olympic and Island Studios in London, with the Rolling Stones Mobile Studio handling the house sessions. Page flatly contradicted this to Mojo: \"We didn't go to Headley Grange for III,\" he said, calling the claim rubbish and naming Olympic and Island instead. Both sides agree Bron-Yr-Aur is what changed the music. Everyone turned multi-instrumentalist for it — drummer John Bonham playing spoons and castanets, bassist John Paul Jones on acoustic five-string fretless bass and a Moog. The sleeve, by the designer Zacron (Richard Drew), whom Page had met in the early 1960s, is a volvelle: a rotating card wheel behind cut-out holes. It held up the album's shipping.",
+      "Reviews were the worst of the band's early career. Critics were confused by the turn, and Lester Bangs in Rolling Stone faulted the heavier songs for running together, while Atlantic's own copy insisted the record was eagerly awaited. Audiences who had bought the first two albums for volume were not uniformly pleased either, though the lead single is reported to have reached the US top 20. The reassessment since has been near-total: the album now reads as the moment the band stopped being a blues act and became something harder to categorise. Britannica credits Led Zeppelin broadly with pushing hard-rock bands toward acoustic material, and this is the record that did it, though artists citing it directly are harder to find than the claim suggests."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Altered tunings on the acoustic songs",
+        "text": "Page makes heavy use of non-standard tunings across the record, a habit taken from Graham. The fingerpicking is folk-revival technique played by a band with a hard-rock rhythm section behind it."
+      },
+      {
+        "label": "Hand percussion instead of a kit",
+        "text": "On the main acoustic stomp Bonham plays spoons and castanets rather than drums, which gives the track a lift completely unlike his playing elsewhere here."
+      },
+      {
+        "label": "Fretless acoustic bass",
+        "text": "Jones switches to an acoustic five-string fretless on that same track, so the low end is woody and sliding rather than electric and fixed."
+      },
+      {
+        "label": "The Moog drone",
+        "text": "Jones's synthesizer hangs over \"Friends\" like a held breath and, by one account, bleeds into the following track as a fade. It is the strangest texture on the album by a distance."
+      },
+      {
+        "label": "Strings added after the take",
+        "text": "The orchestration on \"Friends\" went on top of an arrangement already built from acoustic guitars, which is why the strings sit against the guitars rather than cushioning them."
+      },
+      {
+        "label": "The riff side, undiminished",
+        "text": "The opening track came out of the band's summer 1970 tour of Iceland, Bath and Germany, and it is as heavy as anything on the second album. That's Page's point about the acoustic-album label."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jimmy Page interviewed — Mojo",
+        "url": "https://www.mojo4music.com/articles/stories/jimmy-page-interviewed/"
+      },
+      {
+        "title": "How Led Zeppelin Took the '70s By Storm With Their Third Album — Guitar Player",
+        "url": "https://www.guitarplayer.com/players/led-zeppelin-iii"
+      },
+      {
+        "title": "Jimmy Page Discusses Led Zeppelin III — Guitar World",
+        "url": "https://www.guitarworld.com/gw-archive/jimmy-page-discusses-led-zeppelin-iii"
+      },
+      {
+        "title": "Led Zeppelin III: 25 things only hardcore fans know — Louder",
+        "url": "https://www.loudersound.com/features/25-things-about-led-zeppelin-III"
+      },
+      {
+        "title": "Bron-y-aur Stomp — Songfacts",
+        "url": "https://www.songfacts.com/facts/led-zeppelin/bron-y-aur-stomp"
+      },
+      {
+        "title": "The making of Led Zeppelin III — Record Collector",
+        "url": "https://recordcollectormag.com/articles/the-making-of-led-zeppelin-iii"
+      },
+      {
+        "title": "Led Zeppelin III — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Led_Zeppelin_III"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Bert Jansch",
+        "album": "Jack Orion",
+        "year": "1966",
+        "note": "Page cited Jansch constantly and adapted a tune from this album, tuning included, for Led Zeppelin's debut; the same fingerpicking approach runs through this record's acoustic side."
+      },
+      {
+        "artist": "Davey Graham",
+        "album": "Folk, Blues and Beyond",
+        "year": "1964",
+        "note": "Graham's altered tunings and modal lines are the documented source of Page's non-standard tunings, which he leans on heavily across this album."
+      },
+      {
+        "artist": "Roy Harper",
+        "album": "Folkjokeopus",
+        "year": "1969",
+        "note": "A fellow London acoustic player whom the album closes by naming outright in tribute, and with whom Page later recorded."
+      }
+    ],
+    "influenced": [],
+    "uuid": "5f34ee8bf0857e55ed5ebe6e",
+    "image": "https://i.scdn.co/image/ab67616d00001e0290a50cfe99a4c19ff3cbfbdb",
+    "savedAt": "2026-11-01T12:18:38.484Z"
   }
 }
