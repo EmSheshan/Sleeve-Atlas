@@ -16197,5 +16197,243 @@
     "uuid": "5f34ee8bf0857e55ed5ebf00",
     "image": "https://i.scdn.co/image/ab1ef8c11d211013fd748317386a4713b8ef0010",
     "savedAt": "2026-11-04T12:20:44.571Z"
+  },
+  "5f34ee8bf0857e55ed5ebe39": {
+    "artist": "Crowded House",
+    "album": "Woodface",
+    "year": "1991",
+    "heading": "Woodface — Crowded House (1991)",
+    "albumLine": "Released 1 July 1991 in the UK and 8 July in Australia on Capitol, produced by Mitchell Froom with singer and guitarist Neil Finn. It's melodic pop-rock built on acoustic guitars and two-part harmony, and it's Crowded House's third album — the only one with Neil's older brother, singer and pianist Tim Finn, in the band.",
+    "overview": [
+      "The Finn brothers had been bandmates before. Tim Finn founded the New Zealand art-pop group Split Enz and Neil joined as a teenager, eventually writing its biggest hit; when it ended Neil formed Crowded House with drummer Paul Hester and bassist Nick Seymour. By 1989 they had a huge American hit behind them and a disappointing second album, and Neil used a break in touring to write with Tim for a Finn Brothers record.",
+      "Then Capitol rejected most of the demos for the third album; writer Bill DeYoung reports that label president Hale Milgrim told the band and Froom it simply wasn't good enough to release. Neil asked Tim whether Crowded House could use the brothers' songs instead; Tim agreed on condition that he join the band. How serious that condition was is genuinely unsettled — Tim has since said he meant it as a joke, though he did become a full member. Eight co-writes made the final record. Neil Finn told DeYoung in 1993 that the line between the two projects \"became very blurred.\"",
+      "What emerged was an unembarrassed pop record in a year when American rock was looking elsewhere, and it found its audience accordingly: No. 1 in New Zealand, No. 2 in Australia, No. 6 in the UK for the band's first top-ten album there, later double platinum. America barely moved, stalling in the low eighties on the Billboard 200 (sources give No. 82 or 83). The band's own choice of first single — a tongue-in-cheek jab at American appetite for excess and celebrity, pushed through over label objections — probably didn't help. Neil Finn later conceded it \"may well have undone us,\" and gave an impression of the album quite remote from the album itself.",
+      "Reviews were split: Paul Du Noyer in Q gave it four stars, while critic Richard Cromelin in the Los Angeles Times ran a cool piece headlined \"The House Needs a Deeper Setting.\" The reappraisal has been kinder — critic Chris Woodstra at AllMusic hears \"the joy of reunion and the freedom of a collaborative effort,\" and in 2010 the book 100 Best Australian Albums placed it third. Tim left partway through the UK tour; keyboardist Mark Hart replaced him and stayed."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Two voices sharing one lead",
+        "text": "On most of the co-writes the brothers sing the melody together in close harmony rather than lead-plus-backing, which is why reviewers kept reaching for the Everly Brothers. The exceptions stand out — Neil alone on \"Four Seasons in One Day.\""
+      },
+      {
+        "label": "Acoustic guitar where the organ used to be",
+        "text": "Froom's keyboards, prominent on the first two Crowded House albums, sit much further back while strummed acoustics carry the rhythm, giving the record a lighter, drier frame."
+      },
+      {
+        "label": "Guest colour used sparingly",
+        "text": "Harmonica from Chris Wilson, accordion from David Hidalgo and strings arranged by Jorge Calandrelli each appear on only a track or two, so each registers as an event rather than texture."
+      },
+      {
+        "label": "A second drummer's looser feel",
+        "text": "Ricky Fataar, previously of the Beach Boys, plays on three Finn Brothers songs in place of Hester, including \"Weather with You.\" His pocket is rounder and less driving."
+      },
+      {
+        "label": "A mix built for radio",
+        "text": "Bob Clearmountain mixed and Bob Ludwig mastered: unusually clean and forward for a record this acoustic, vocals right at the front with very little reverb haze."
+      },
+      {
+        "label": "A fragment hidden after the silence",
+        "text": "The closing track finishes, then roughly half a minute of silence, then a short excerpt of a Hester song listed nowhere on the sleeve. The full version only surfaced on the 2016 deluxe edition."
+      }
+    ],
+    "sources": [
+      {
+        "title": "'Woodface': Crowded House's Melodic Masterpiece — uDiscover Music",
+        "url": "https://www.udiscovermusic.com/stories/rediscover-woodface"
+      },
+      {
+        "title": "For Crowded House's 1991 Masterpiece 'Woodface,' It Was Death by Chocolate — Something Else!",
+        "url": "https://somethingelsereviews.com/2015/07/19/crowded-house-woodface/"
+      },
+      {
+        "title": "Crowded House: Woodface — AllMusic",
+        "url": "https://www.allmusic.com/album/woodface-mw0000674887"
+      },
+      {
+        "title": "Woodface — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Woodface"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Split Enz",
+        "album": "True Colours",
+        "year": "1980",
+        "note": "The brothers' own former band — the shared-lead vocal blend and Neil Finn's hook writing both developed there, with Tim Finn as bandleader."
+      },
+      {
+        "artist": "The Beatles",
+        "album": "Beatles for Sale",
+        "year": "1964",
+        "note": "Neil Finn has named it among his favourite records; the same model of two voices singing the melody together over acoustic rhythm guitar."
+      }
+    ],
+    "influenced": [],
+    "uuid": "5f34ee8bf0857e55ed5ebe39",
+    "image": "https://i.scdn.co/image/1e7a8b925429d1e7f1b5459f3dfceaa0741c6555",
+    "savedAt": "2026-11-05T12:16:42.560Z"
+  },
+  "5f34ee8bf0857e55ed5ebd4b": {
+    "artist": "John Lee Hooker",
+    "album": "The Healer",
+    "year": "1989",
+    "heading": "The Healer — John Lee Hooker (1989)",
+    "albumLine": "Released in September 1989 on Chameleon and produced by blues slide guitarist Roy Rogers. It's a blues record built on duets with younger admirers, and after four decades of recording it became Hooker's highest-charting album and won him his first Grammy.",
+    "overview": [
+      "Hooker's music was ancient history by 1989 and still sounded like nobody else's. He left Mississippi for Detroit and cut \"Boogie Chillen'\" in 1948: one chord, an electric guitar, a stamping foot, bar lengths that stretched or contracted as he felt rather than to a count. That made him enormously influential and enormously hard to accompany; Canned Heat and the Groundhogs built careers on his boogie. By the late eighties he was in his early seventies (his birth year is disputed; sources give 72 and 73) and recording only occasionally.",
+      "The idea of putting him in a room with his own descendants came from his manager, Mike Kappus, credited as executive producer. Kappus hired Rogers, a former member of Hooker's Coast to Coast band, because he had played alongside that elastic timing and knew which guest could follow it. Hooker reworked very old songs of his own beside a little new material, and the guests were admirers rather than stars: Santana, Bonnie Raitt, Robert Cray, George Thorogood, Charlie Musselwhite, and members of Canned Heat and Los Lobos.",
+      "It arrived at a good moment: Cray had crossed over to rock radio, and Raitt's Nick of Time, out earlier that year, was headed for multi-platinum sales and the Album of the Year Grammy. There was a format precedent too — Muddy Waters had been restored to prominence a decade earlier by records made with young admirer and guitarist Johnny Winter.",
+      "Reviews split along purist lines. Critic Thom Owens at AllMusic gave it two stars out of five, arguing the \"long guest list is what makes the album a fairly unengaging listen,\" while critic Janie Matthews in Rolling Stone called it \"brilliant, 100-proof blues\" and credited Rogers with keeping a \"live-in-the-barroom, Fender-tube-amp quality.\" Critic Robert Christgau graded it B+, joking that most of the guests commit crimes against Hooker's ageless essence. Commercially it was unambiguous: No. 62 on the Billboard 200, his best placing in forty years, and reportedly over a million copies worldwide. The Raitt duet took the 1990 Grammy for the traditional blues category (sources word the category differently). The formula became the template for Mr. Lucky, Chill Out and Don't Look Back, which brought three more Grammys, and the money let Hooker spend his last decade in comfort."
+    ],
+    "listeningNotes": [
+      {
+        "label": "The one-chord drone",
+        "text": "Most of his material never leaves one chord, and the bars run long or short as he decides. Everyone is following him by ear rather than counting — the whole technical problem the record had to solve."
+      },
+      {
+        "label": "Latin percussion laid over the boogie",
+        "text": "Santana brought his own band to the title track — congas from Armando Peraza, timbales from Jose Areas. Hooker said in the liner notes they were \"so hopped up getting a chance to record together that we did only one take.\""
+      },
+      {
+        "label": "Slide guitar used as a second voice",
+        "text": "Raitt, singing and playing slide, answers Hooker phrase for phrase on \"I'm in the Mood\" rather than soloing over him — the most conversational performance here, and the one that won the Grammy."
+      },
+      {
+        "label": "Accordion in a Delta frame",
+        "text": "The Los Lobos track, cut at a separate Los Angeles studio, gives Hooker a Tex-Mex backing: accordion from David Hidalgo, saxophone from Steve Berlin. It's the furthest the record travels from Detroit."
+      },
+      {
+        "label": "Small-room amp sound",
+        "text": "Engineer Sam Lehmer recorded and mixed most of the album at Russian Hill in San Francisco, keeping guitars dry and close. Instrumental chatter and room noise stay in."
+      },
+      {
+        "label": "Unaccompanied stomps to finish",
+        "text": "The last three tracks carry no guest credits — Hooker alone on National Steel and twelve-string. Purists who disliked the duets were paid off at the end of the record."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Healing Power of The Hook — Rock and Roll Globe",
+        "url": "https://rockandrollglobe.com/blues/john-lee-hooker-the-healer-at-30/"
+      },
+      {
+        "title": "John Lee Hooker's Star-Packed Collaborative Album 'The Healer' Set For Expansive Reissue — uDiscover Music",
+        "url": "https://www.udiscovermusic.com/news/craft-recordings-reissue-john-lee-hooker-the-healer/"
+      },
+      {
+        "title": "John Lee Hooker: The Healer — AllMusic",
+        "url": "https://www.allmusic.com/album/the-healer-mw0000204842"
+      },
+      {
+        "title": "The Healer (John Lee Hooker album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Healer_(John_Lee_Hooker_album)"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Muddy Waters",
+        "album": "Hard Again",
+        "year": "1977",
+        "note": "The format precedent critics drew on directly: an elder bluesman cut fast and loud by a young admirer in the producer's chair, with takes kept rough."
+      },
+      {
+        "artist": "Santana",
+        "album": "Abraxas",
+        "year": "1970",
+        "note": "Santana co-wrote and co-produced the title track and brought his own congas-and-timbales band to it, importing exactly the blues-over-Afro-Cuban-percussion blend he built here."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Santana",
+        "album": "Supernatural",
+        "year": "1999",
+        "note": "Santana played on this record and then applied the same device to his own career — a veteran's album built from duets with younger admirers, one per track."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebd4b",
+    "image": "https://i.scdn.co/image/ab67616d00001e02583042af76418e041e45b10c",
+    "savedAt": "2026-11-05T12:22:42.819Z"
+  },
+  "5f34ee8bf0857e55ed5eaa3c": {
+    "artist": "Willie Colón & Rubén Blades",
+    "album": "Siembra",
+    "year": "1978",
+    "heading": "Siembra — Willie Colón & Rubén Blades (1978)",
+    "albumLine": "Released 21 December 1978 on Fania, produced by trombonist and bandleader Willie Colón with label boss Jerry Masucci as executive producer. It's salsa, cut in New York and engineered by Jon Fausty. It was the second of five albums Colón made with Panamanian singer and songwriter Rubén Blades, and the best-selling salsa record of its era.",
+    "overview": [
+      "Salsa in 1970s New York largely meant Fania Records, whose roster and all-star band carried a Puerto Rican and Cuban dance music out of uptown clubs across the hemisphere. Colón was central to it: a Bronx-born trombonist making hits since his teens, his sound built on layers of trombone riffs rather than a conventional brass section. Blades arrived by a stranger route — a law degree from the University of Panama (sources date it to 1972 or 1974), then New York, where the job Fania gave him was in the mailroom.",
+      "What he wanted to write was not dance-floor romance but narrative: barrio characters, violence, consumer emptiness, Latin American subjects treated as subjects. He has described the choice as building songs on \"our own experiences, our urban and existential reality, without avoiding political themes or difficult scenes.\" By his own account the record exists because Colón took the risk — \"Willie agreed to back my songs when everyone else refused,\" Blades wrote in 2024, adding that without Colón's run of hits Fania might not have recorded it. Blades says he conceived the content, title and cover concept and wrote six of the seven songs, music as well as lyrics, swapping one of his own for \"Ojos\" by Puerto Rican composer Johnny Ortiz. Colón ran the sessions and approved the arrangements.",
+      "It sold in quantities salsa had not seen: over three million copies worldwide by most accounts, half a million in Venezuela alone. It entered the Latin Grammy Hall of Fame in 2007, and in 2024 topped both Rolling Stone's fifty greatest salsa albums, compiled by critic Ernesto Lechner, and Los 600 de Latinoamérica. The consensus isn't total — reviewing a reissue for Jazz Journal, critic Matthew Wright found the arrangements cluttered and the record \"too slick and stylised,\" praising only the trombones. Blades's answer to that line is blunt: \"When a record survives 45 years, denying its value is a futile exercise.\" He re-recorded it live in Puerto Rico in 2022 to own a master of his own compositions; that version won a Grammy in 2024 and Colón objected publicly, which tells you it is still contested property."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Trombones stacked in blocks",
+        "text": "Colón fronts five trombones — his own plus Leopoldo Pineda, José Rodríguez, Angel \"Papo\" Vázquez and Sam Burtis — riffing in thick parallel lines where most bands used trumpets and saxes. Even Wright called the writing first rate."
+      },
+      {
+        "label": "A disco intro that collapses into salsa",
+        "text": "The opening track starts on the straight four-on-the-floor pulse of 1978, with a drum kit played by Bryan Brake, before the clave takes over. Critic John Bush at AllMusic hears the band slip into \"a devastating salsa groove.\""
+      },
+      {
+        "label": "Four arrangers, four textures",
+        "text": "Per Blades: Luis \"Perico\" Ortiz arranged two songs, Louie Cruz three, Carlos Franzetti the title track, Colón one. It's why the record keeps changing shape rather than settling into one house sound."
+      },
+      {
+        "label": "Narrative verse over a held vamp",
+        "text": "Songs run six and seven minutes because the vocal is telling a story; the band parks on a repeating montuno and lets it. \"Pedro Navaja\" is the clearest case, modelled on Bertolt Brecht's The Threepenny Opera."
+      },
+      {
+        "label": "Coro answering the lead",
+        "text": "The chorus ensemble — Colón, Blades, José Mangual Jr and Adalberto Santiago — answers in fixed refrains while the lead improvises against them, the engine of the long closing sections."
+      },
+      {
+        "label": "Strings and choir at the end of the record",
+        "text": "Franzetti's arrangement for the final track drops the trombone format for brass, strings and a vocal choir. Blades notes his spoken thanks to Colón are audible on it."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Con respecto a \"Siembra, 45º Aniversario\" — Rubén Blades (rubenblades.com)",
+        "url": "https://www.rubenblades.com/la-esquina/siembra-45-aniversario-grabado-en-pr-en-2022"
+      },
+      {
+        "title": "Willie Colón and Rubén Blades: Siembra — Jazz Journal (Matthew Wright)",
+        "url": "https://jazzjournal.co.uk/2021/10/08/willie-colon-and-ruben-blades-siembra/"
+      },
+      {
+        "title": "Rubén Blades — Britannica",
+        "url": "https://www.britannica.com/biography/Ruben-Blades"
+      },
+      {
+        "title": "Siembra — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Siembra"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Willie Colón",
+        "album": "El Malo",
+        "year": "1967",
+        "note": "Colón's own debut established the trombone-led front line and the barrio-narrative subject matter he brought here as producer and arranger."
+      },
+      {
+        "artist": "Fania All Stars",
+        "album": "Live at the Cheetah, Vol. 1",
+        "year": "1971",
+        "note": "The Fania house band's long single-vamp jams, which left room for improvised vocal pregones — the structure Blades stretched further to fit full narratives."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Rubén Blades",
+        "album": "Buscando América",
+        "year": "1984",
+        "note": "Blades took the same method — story-driven lyrics, political subjects, extended narrative form — off Fania and onto his own band, which this album had proved commercially viable."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5eaa3c",
+    "image": "https://i.scdn.co/image/ab67616d00001e02e646fcd49b6dfc91d1dba2ae",
+    "savedAt": "2026-11-05T12:28:41.145Z"
   }
 }
