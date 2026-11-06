@@ -16435,5 +16435,237 @@
     "uuid": "5f34ee8bf0857e55ed5eaa3c",
     "image": "https://i.scdn.co/image/ab67616d00001e02e646fcd49b6dfc91d1dba2ae",
     "savedAt": "2026-11-05T12:28:41.145Z"
+  },
+  "5f34ee8bf0857e55ed4ba4ad": {
+    "artist": "Kendrick Lamar",
+    "album": "good kid, m.A.A.d city",
+    "year": "2012",
+    "heading": "good kid, m.A.A.d city — Kendrick Lamar (2012)",
+    "albumLine": "Released 22 October 2012 on Top Dawg, Aftermath and Interscope, with Dr. Dre and label head Anthony \"Top Dawg\" Tiffith as executive producers. It's West Coast hip-hop arranged as one continuous story — the sleeve subtitles it a short film — and it was rapper Kendrick Lamar's major-label debut, following the independently released Section.80.",
+    "overview": [
+      "Compton rap had been narrated from a position of command since N.W.A, and the city's sound was largely defined by records Dr. Dre made there. This one is told by a frightened seventeen-year-old. Engineer Derek \"MixedByAli\" Ali has said the story is set in 2004, and producer Pharrell Williams put the shift plainly: Lamar is \"speaking of a Compton that's very different from the one Dre and Snoop blessed us with.\" The violence isn't commanded here, it's survived.",
+      "It was built slowly and from the inside. Top Dawg Entertainment, based in Carson, carried its own house production team, and Top Dawg president Punch says the record assembled itself on tour — \"The album really came together on the road.\" Lamar wrote nothing down; Ali describes him \"in the booth by himself with the lights off writing.\" Outside producers were bent to a plan already fixed in his head. Producer Sounwave recalls Williams playing \"a bunch of amazing stuff but it wasn't the feel that he was looking for,\" until Lamar said \"Yo, we need something like this,\" and Williams simply built that instead. Dr. Dre's contribution was executive and hands-on at the mixing desk rather than on the beats.",
+      "The structure was treated as a job of its own. Punch handled sequencing — \"It's sort of like a movie script, I give the characters a backstory\" — and Lamar, who called it \"a dark movie album,\" resisted a collection of singles: \"Almost like a Pulp Fiction feel.\" The spoken interludes are not decoration. \"Those skits are actually my real mother and father,\" he said, \"and those are my real homeboys being themselves.\" He had total creative control, which he considered the precondition: \"I probably wouldn't have been able to make a dark album if I didn't have creative control.\"",
+      "It entered the Billboard 200 at No. 2 with 242,000 copies. At the 2014 Grammys it drew seven nominations including Album of the Year and won nothing, a result still argued over; Lamar's first Grammys came the following year. Its standing has only climbed since — Rolling Stone placed it 115th on its 2020 greatest-albums list and in 2022 named it the greatest concept album ever made — and by early 2026 it had passed ten million US units, making it diamond-eligible."
+    ],
+    "listeningNotes": [
+      {
+        "label": "A cassette as the frame",
+        "text": "The narrative is staged as a tape playing back. Lamar marked where it ends: \"The movie ends after 'Real.' You'll hear the cassette loading.\" What follows sits outside the story."
+      },
+      {
+        "label": "Voicemails as connective tissue",
+        "text": "His parents' phone messages recur across the record — his actual mother and father, recorded as themselves, carrying plot between songs."
+      },
+      {
+        "label": "The voice pitched into other characters",
+        "text": "Rather than guest rappers, Lamar changes himself: the voice drops in pitch, speeds up, or thins into a near-female register so that arguments happen inside one performance."
+      },
+      {
+        "label": "Songs that break in half",
+        "text": "Several tracks abandon their first beat entirely partway through. Lamar described one as effectively two pieces joined — \"the interlude half of it,\" then the actual song once rapper MC Eiht arrives."
+      },
+      {
+        "label": "Live players patching a dead sample",
+        "text": "A B.B. King loop couldn't be cleared at the last minute, so Sounwave hired a session musician to replay the part. He now prefers it: \"We can't even stand [to listen to] the original version now.\""
+      },
+      {
+        "label": "Deliberately empty mixes",
+        "text": "Ali mixed one track alongside Dr. Dre and found the space usable: \"The beat is real open so you can kind of do whatever you want to it... playing with some delays, some reverbs... make it sound real eerie.\""
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Making of Kendrick Lamar's 'good kid, m.A.A.d city' — Complex (Insanul Ahmed)",
+        "url": "https://www.complex.com/music/a/insanulahmed/the-making-of-kendrick-lamars-good-kid-maad-city"
+      },
+      {
+        "title": "Beat Construction: Sounwave — The FADER (Andrew Noz)",
+        "url": "https://www.thefader.com/2012/12/04/beat-construction-sounwave"
+      },
+      {
+        "title": "Kendrick Lamar: Good Kid, m.A.A.d City — FACT review",
+        "url": "https://www.factmag.com/2012/10/23/kendrick-lamar-good-kid-m-a-a-d-city/"
+      },
+      {
+        "title": "good kid, m.A.A.d city — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Good_Kid,_M.A.A.D_City"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Dr. Dre",
+        "album": "The Chronic",
+        "year": "1992",
+        "note": "Named by Punch as the model for using spoken skits to carry a story between tracks: \"We've always been big on albums with skits like The Chronic.\""
+      },
+      {
+        "artist": "Kanye West",
+        "album": "Late Registration",
+        "year": "2005",
+        "note": "Directly sampled on the album — a West track is flipped into the second half of the record's two-part centrepiece."
+      },
+      {
+        "artist": "Nas",
+        "album": "Illmatic",
+        "year": "1994",
+        "note": "One of the benchmarks Top Dawg explicitly built toward: a young narrator mapping his own blocks across a short, tightly sequenced run."
+      }
+    ],
+    "influenced": [],
+    "uuid": "5f34ee8bf0857e55ed4ba4ad",
+    "image": "https://i.scdn.co/image/ab67616d00001e022cd55246d935a8a77cb4859e",
+    "savedAt": "2026-11-06T12:18:30.105Z"
+  },
+  "5f34ee8bf0857e55ed5ebfde": {
+    "artist": "The Pretty Things",
+    "album": "S.F. Sorrow",
+    "year": "1968",
+    "heading": "S.F. Sorrow — The Pretty Things (1968)",
+    "albumLine": "Released 20 December 1968 on EMI Columbia and produced by Norman Smith. It's English psychedelia built as a single continuous narrative, widely called the first rock opera, and it was the Pretty Things' fourth album — the first made under a contract that gave them creative control.",
+    "overview": [
+      "Guitarist Dick Taylor was a founder member of the Rollin' Stones who left after five months for art school, where singer Phil May talked him into a new group — one that traded for years on being wilder than the band he'd quit. \"Don't Bring Me Down\" reached No. 10 in 1964, but there was no real hit after early 1965, and the EMI advance they signed for in September 1967 didn't cover their debts. It did come with complete creative freedom, and they spent it.",
+      "Sessions ran at EMI's Abbey Road studios from November 1967 to September 1968, mostly in Studio Three, often until six in the morning. Smith had engineered every Beatles album through Rubber Soul and had just produced Pink Floyd's debut; with engineers Peter Mew and Ken Scott he pushed the band to keep inventing sounds. May had written a short piece called \"Cutting Up Sergeant Time\" about a First World War soldier; the rest arrived as they recorded. \"I was writing the story as the songs were written,\" he said. \"It really did evolve on the studio floor.\" His reasoning was structural rather than grand: \"We were looking for another way of making a 40-minute disk.\" The narrative — Sorrow's factory-town birth, the war, emigration, a balloon accident that kills the woman he loves, madness — was printed in the liner notes. Money was tight enough that May drew the sleeve himself, and drummer Twink, who replaced Skip Alan midway, took publishing as payment.",
+      "Then it was buried. EMI delayed release for months, and by December 1968 psychedelia was giving way to rootsier music; the label advertised it as just the new Pretty Things album, nothing about the story. \"It was a kick in the balls,\" May said. It charted nowhere. In America it limped out on Motown's Rare Earth imprint so late that critic Lester Bangs, reviewing it in Rolling Stone in February 1970, heard it as a derivative \"cross between the Bee Gees, Tommy, and the Moody Blues.\" The Tommy question stays unresolved: the Who deny their guitarist Pete Townshend knew the record, May claimed Townshend urged them to release it in the States first, and Taylor says a letter arrived threatening lawyers if they kept saying so — while admitting reports of Townshend praising it are \"hearsay. I haven't heard him say it myself.\" What is certain is only that it came first. Critic Alexis Petridis later called it one of the few consistently brilliant British psych albums; in 1998 the band played it complete at Abbey Road with guitarist David Gilmour and singer Arthur Brown."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Four-track tape bounced to destruction",
+        "text": "Taylor remembers overdubs bounced down on four-track machines hundreds of times. The smear and hiss is the record's atmosphere — and why they couldn't reproduce it on stage."
+      },
+      {
+        "label": "Backwards guitar, sitar and Mellotron",
+        "text": "Organist Jon Povey doubled on sitar and Mellotron, and reversed guitar runs sit under much of the album — the studio's cupboards used as arrangement."
+      },
+      {
+        "label": "Trumpets sped up and looped",
+        "text": "The opening track piles cascading acoustic guitars against Mellotron and tape-manipulated brass, running the horns fast so they sound synthetic rather than orchestral."
+      },
+      {
+        "label": "A home-made string instrument",
+        "text": "Taylor built a twangy, dulcimer-like thing specifically for \"Death\" because nothing in the building made the noise he wanted."
+      },
+      {
+        "label": "Two notes held as a drone",
+        "text": "\"Balloon Burning\" rides a taut, repetitive riff that barely moves. Petridis noted it anticipates motorik krautrock by roughly a decade."
+      },
+      {
+        "label": "Massed harmony as a chorus",
+        "text": "Bassist Wally Waller and Povey stack intricate harmonies — new for a band built on R&B shouting — working as commentary rather than sweetening."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Pretty Things — Toppermost (David Tanner)",
+        "url": "https://www.toppermost.co.uk/pretty-things-the/"
+      },
+      {
+        "title": "The Pretty Things | S.F. Sorrow – Lost Gem — VintageRock (Shawn Perry)",
+        "url": "https://vintagerock.com/the-pretty-things-s-f-sorrow-lost-gem/"
+      },
+      {
+        "title": "The Pretty Things SF Sorrow Was The First Rock Opera — Noise11 (Paul Cashmere)",
+        "url": "https://www.noise11.com/news/fact-the-pretty-things-sf-sorrow-was-the-first-rock-opera-tommy-was-second-20180912"
+      },
+      {
+        "title": "S. F. Sorrow — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/S._F._Sorrow"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Beatles",
+        "album": "Sgt. Pepper's Lonely Hearts Club Band",
+        "year": "1967",
+        "note": "Made in the same building with overlapping staff — Norman Smith had engineered the Beatles through Rubber Soul — and it set the overdub-heavy, album-as-whole method these sessions ran on."
+      },
+      {
+        "artist": "Pink Floyd",
+        "album": "The Piper at the Gates of Dawn",
+        "year": "1967",
+        "note": "Smith produced it immediately before taking this on; the band approached him specifically for the tape effects and studio invention he brought to it."
+      }
+    ],
+    "influenced": [],
+    "uuid": "5f34ee8bf0857e55ed5ebfde",
+    "image": "https://i.scdn.co/image/3cb3eb47372830995f0a1a850b9eb54ce7746724",
+    "savedAt": "2026-11-06T12:20:39.615Z"
+  },
+  "5f34ee8bf0857e55ed5ebf34": {
+    "artist": "Eagles",
+    "album": "Eagles",
+    "year": "1972",
+    "heading": "Eagles — Eagles (1972)",
+    "albumLine": "Released 1 June 1972 on Asylum, produced and engineered by Glyn Johns. It's country-rock organised around four-part harmony, and it's the band's debut — cut in about two weeks at Olympic Studios in London, which is an odd address for a record this Californian.",
+    "overview": [
+      "Los Angeles country-rock already existed when they arrived; the Byrds and the Flying Burrito Brothers had put banjo and pedal steel inside rock arrangements, and the Troubadour club was where that scene did its business. Guitarist Glenn Frey and drummer Don Henley met there in 1970, and in spring 1971 both were hired into singer Linda Ronstadt's backing band. Guitarist and banjo player Bernie Leadon, late of the Burritos, and bassist Randy Meisner, out of Rick Nelson's Stone Canyon Band, had also played with her. The four signed to manager David Geffen in September 1971 for his not-yet-launched Asylum label, and he sent them to Aspen to turn into a group.",
+      "Johns nearly passed. Invited by Geffen to see them at Tulagi in Boulder in December 1971, he found the set incoherent — a fair reading, since Frey wanted a rock band and Leadon wanted a country one. He declined. Geffen pushed him into a second hearing at a Los Angeles rehearsal, where the four sang harmony over a single acoustic guitar, and Johns changed his mind on the spot: \"There it was, the sound. Extraordinary blend of voices, wonderful harmony sound, just stunning.\" He took them to London that February, banned drink and drugs from the sessions, and spent roughly $125,000 pushing an acoustic, vocal-led record at a band that kept resisting it. Frey's verdict holds both halves: Johns \"was the key to our success in a lot of ways,\" but \"we just didn't want to make another limp-wristed L.A. country-rock record.\"",
+      "The label meddled too. Hearing the London tapes, Geffen and manager Elliot Roberts decided Henley needed a second lead vocal, and tried to have a song Johns had abandoned recut by another production team behind his back. An angry Johns re-cut it himself in Hollywood, judged his own version unsatisfactory, and it shipped anyway.",
+      "Three singles went Top 40 — No. 12, No. 9 and No. 22 — while the album itself crept from a No. 102 debut to No. 22, going platinum only in 2001. Critic Bud Scoppa, writing in Rolling Stone that June, placed it \"right behind Jackson Browne's record as the best first album this year.\" Not everyone bought the pedigree: critic Robert Christgau graded it B and called the result \"suave and synthetic-brilliant, but false,\" which is roughly the argument people have had about this band ever since. Rolling Stone's own estimate has risen regardless, from 368th on its 2012 greatest-albums list to 207th in 2020."
+    ],
+    "listeningNotes": [
+      {
+        "label": "The four-part blend",
+        "text": "All four men sing, and the harmony is the arrangement rather than a garnish on top of it. It is the single thing that persuaded Johns to take the job."
+      },
+      {
+        "label": "Double-time banjo",
+        "text": "Johns talked Leadon into playing banjo at twice the song's tempo on \"Take It Easy\" — a small decision that keeps the track from settling into a strum-along."
+      },
+      {
+        "label": "Acoustic guitars pushed to the front",
+        "text": "Johns deliberately built the record around acoustic texture against the wishes of Frey and Henley, who wanted it rougher and louder."
+      },
+      {
+        "label": "Library birdsong",
+        "text": "The chirping that opens \"Earlybird\" isn't a field recording; it was lifted from a commercial sound-effects library."
+      },
+      {
+        "label": "Lead vocals handed around",
+        "text": "Across ten songs the lead passes between all four singers, Frey and Meisner taking three each. Nobody had yet been established as the voice of the band."
+      }
+    ],
+    "sources": [
+      {
+        "title": "1972 — The Eagles — Classic Rock Review (Ric Albano)",
+        "url": "https://www.classicrockreview.com/2012/11/1972-the-eagles/"
+      },
+      {
+        "title": "Without Linda Ronstadt, This Beloved Classic Rock Band Wouldn't Exist — American Songwriter",
+        "url": "https://americansongwriter.com/without-linda-ronstadt-this-beloved-classic-rock-band-wouldnt-exist/"
+      },
+      {
+        "title": "Eagles (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Eagles_(album)"
+      },
+      {
+        "title": "Eagles (band) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Eagles_(band)"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Byrds",
+        "album": "Sweetheart of the Rodeo",
+        "year": "1968",
+        "note": "The template for playing country forms straight inside a rock band, with close harmony rather than a single lead voice carrying the song."
+      },
+      {
+        "artist": "The Flying Burrito Brothers",
+        "album": "Burrito Deluxe",
+        "year": "1970",
+        "note": "Bernie Leadon played on it, and brought its banjo-and-pedal-steel vocabulary directly into this band's arrangements."
+      },
+      {
+        "artist": "Jackson Browne",
+        "album": "Jackson Browne",
+        "year": "1972",
+        "note": "Browne co-wrote this album's opening song with Frey and wrote another on it alone; his plainspoken songwriting shaped what the band thought a song could be about."
+      }
+    ],
+    "influenced": [],
+    "uuid": "5f34ee8bf0857e55ed5ebf34",
+    "image": "https://i.scdn.co/image/ab67616d00001e02c13acd642ba9f6f5f127aa1b",
+    "savedAt": "2026-11-06T12:21:08.565Z"
   }
 }
