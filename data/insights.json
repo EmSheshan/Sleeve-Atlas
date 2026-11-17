@@ -18181,6 +18181,10 @@
         "url": "https://en.wikipedia.org/wiki/The_Fat_of_the_Land"
       },
       {
+        "title": "Smack My Bitch Up — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Smack_My_Bitch_Up"
+      },
+      {
         "title": "20 Years On: The Prodigy's The Fat Of The Land — The Quietus (Angus Batey, 2017)",
         "url": "https://thequietus.com/?p=22716"
       },
@@ -18192,15 +18196,21 @@
     "influencedBy": [
       {
         "artist": "L7",
-        "album": "Bricks Are Heavy",
-        "year": "1992",
+        "album": "Hungry for Stink",
+        "year": "1994",
         "note": "The band covers an L7 song on this album, credited on Wikipedia to L7's Donita Sparks and co-writers."
+      },
+      {
+        "artist": "Ultramagnetic MCs",
+        "album": "Critical Beatdown",
+        "year": "1988",
+        "note": "Wikipedia says the refrain and altered vocals of one single were sampled from a song by this group, which was produced for that album."
       }
     ],
     "influenced": [],
     "uuid": "5f34ee8bf0857e55ed5ebf64",
     "image": "https://i.scdn.co/image/a482bfa14e61812b58f8d0fc3891e6654d68078d",
-    "savedAt": "2026-11-17T20:12:11.471Z"
+    "savedAt": "2026-11-17T20:13:14.544Z"
   },
   "5f34ee8bf0857e55ed5ec0a8": {
     "artist": "DJ Shadow",
@@ -18392,16 +18402,9 @@
       }
     ],
     "influencedBy": [],
-    "influenced": [
-      {
-        "artist": "Sex Pistols",
-        "album": "Never Mind the Bollocks, Here's the Sex Pistols",
-        "year": "1977",
-        "note": "Per Wikipedia, citing Spin, guitarist Steve Jones said he learned to play guitar by playing along to this album; the pairing with the Pistols' debut album is the closest fit, not stated by the source."
-      }
-    ],
+    "influenced": [],
     "uuid": "5f34ee8bf0857e55ed5ec077",
     "image": "https://i.scdn.co/image/5af77ca175c106e062da41a71880f20042b74c91",
-    "savedAt": "2026-11-17T20:12:10.168Z"
+    "savedAt": "2026-11-17T20:13:13.054Z"
   }
 }

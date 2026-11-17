@@ -44,12 +44,14 @@ await saveNote({
 
   sources: [
     { title: "The Fat of the Land — Wikipedia", url: "https://en.wikipedia.org/wiki/The_Fat_of_the_Land" },
+    { title: "Smack My Bitch Up — Wikipedia", url: "https://en.wikipedia.org/wiki/Smack_My_Bitch_Up" },
     { title: "20 Years On: The Prodigy's The Fat Of The Land — The Quietus (Angus Batey, 2017)", url: "https://thequietus.com/?p=22716" },
     { title: "The Prodigy: The Sound and the Fury — Electronic Sound (Martin James, 2015)", url: "https://www.electronicsound.co.uk/features/long-reads/the-prodigy-the-sound-and-the-fury/" },
   ],
 
   influencedBy: [
-    { artist: "L7", album: "Bricks Are Heavy", year: "1992", note: "The band covers an L7 song on this album, credited on Wikipedia to L7's Donita Sparks and co-writers." },  ],
+    { artist: "L7", album: "Hungry for Stink", year: "1994", note: "The band covers an L7 song on this album, credited on Wikipedia to L7's Donita Sparks and co-writers." },
+    { artist: "Ultramagnetic MCs", album: "Critical Beatdown", year: "1988", note: "Wikipedia says the refrain and altered vocals of one single were sampled from a song by this group, which was produced for that album." },  ],
 
   influenced: [],
 });

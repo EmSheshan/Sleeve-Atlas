@@ -51,6 +51,5 @@ await saveNote({
 
   influencedBy: [],
 
-  influenced: [
-    { artist: "Sex Pistols", album: "Never Mind the Bollocks, Here's the Sex Pistols", year: "1977", note: "Per Wikipedia, citing Spin, guitarist Steve Jones said he learned to play guitar by playing along to this album; the pairing with the Pistols' debut album is the closest fit, not stated by the source." },  ],
+  influenced: [],
 });
