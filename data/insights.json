@@ -18195,18 +18195,12 @@
         "album": "Bricks Are Heavy",
         "year": "1992",
         "note": "The band covers an L7 song on this album, credited on Wikipedia to L7's Donita Sparks and co-writers."
-      },
-      {
-        "artist": "Ultramagnetic MCs",
-        "album": "Critical Beatdown",
-        "year": "1988",
-        "note": "Wikipedia's track credits for one song list Ultramagnetic MCs members Ced-Gee, TR Love and Kool Keith as writers, reflecting a borrowed hip-hop source."
       }
     ],
     "influenced": [],
     "uuid": "5f34ee8bf0857e55ed5ebf64",
     "image": "https://i.scdn.co/image/a482bfa14e61812b58f8d0fc3891e6654d68078d",
-    "savedAt": "2026-11-17T20:00:14.113Z"
+    "savedAt": "2026-11-17T20:12:11.471Z"
   },
   "5f34ee8bf0857e55ed5ec0a8": {
     "artist": "DJ Shadow",
@@ -18404,16 +18398,10 @@
         "album": "Never Mind the Bollocks, Here's the Sex Pistols",
         "year": "1977",
         "note": "Per Wikipedia, citing Spin, guitarist Steve Jones said he learned to play guitar by playing along to this album; the pairing with the Pistols' debut album is the closest fit, not stated by the source."
-      },
-      {
-        "artist": "Nirvana",
-        "album": "Nevermind",
-        "year": "1991",
-        "note": "Singer Kurt Cobain's journals list this as his favourite album of all time (per Wikipedia, citing BrooklynVegan); the source names no specific Nirvana album, so the best-known one is shown."
       }
     ],
     "uuid": "5f34ee8bf0857e55ed5ec077",
     "image": "https://i.scdn.co/image/5af77ca175c106e062da41a71880f20042b74c91",
-    "savedAt": "2026-11-17T20:00:11.310Z"
+    "savedAt": "2026-11-17T20:12:10.168Z"
   }
 }
