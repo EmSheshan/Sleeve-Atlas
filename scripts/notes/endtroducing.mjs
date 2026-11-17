@@ -53,6 +53,6 @@ await saveNote({
   ],
 
   influenced: [
-    { artist: "Radiohead", album: "OK Computer", year: "1997", note: "Per Clash, Radiohead copied Davis's methods for the drums on one song; stated by the article, not independently confirmed." },
+    { artist: "Radiohead", album: "OK Computer", year: "1997", note: "Davis told Pitchfork (2020) that Radiohead said they were big fans of this album; Wikipedia, citing Guitar World, says it inspired the band to edit and loop drums on OK Computer." },
   ],
 });

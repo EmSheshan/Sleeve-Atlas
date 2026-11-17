@@ -46,6 +46,8 @@ await saveNote({
   ],
 
   influencedBy: [
+    { artist: "Judie Tzuke", album: "Welcome to the Cruise", year: "1979", note: "Her song is sampled directly; Mylo told Sound On Sound he particularly loves its string break." },
+    { artist: "Kim Carnes", album: "Mistaken Identity", year: "1981", note: "Her hit is replayed on a Juno synth and combined with a Boy Meets Girl song, per Wikipedia citing Sound On Sound." },
     { artist: "George Duke", album: "Night After Night", year: "1989", note: "Sampled directly: the funk track Mylo builds one of the album's hooks on." },
     { artist: "Prince", album: "Parade", year: "1986", note: "Sampled directly: a brief vocal grunt from the album's single is worked into the same track." },
   ],

@@ -52,6 +52,7 @@ await saveNote({
   influencedBy: [],
 
   influenced: [
-    { artist: "Sex Pistols", album: "Never Mind the Bollocks, Here's the Sex Pistols", year: "1977", note: "Per Wikipedia, guitarist Steve Jones learned to play guitar by playing along to this album." },
+    { artist: "Sex Pistols", album: "Never Mind the Bollocks, Here's the Sex Pistols", year: "1977", note: "Per Wikipedia, citing Spin, guitarist Steve Jones said he learned to play guitar by playing along to this album; the pairing with the Pistols' debut album is the closest fit, not stated by the source." },
+    { artist: "Nirvana", album: "Nevermind", year: "1991", note: "Singer Kurt Cobain's journals list this as his favourite album of all time (per Wikipedia, citing BrooklynVegan); the source names no specific Nirvana album, so the best-known one is shown." },
   ],
 });

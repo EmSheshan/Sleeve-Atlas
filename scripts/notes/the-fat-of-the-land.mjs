@@ -48,7 +48,10 @@ await saveNote({
     { title: "The Prodigy: The Sound and the Fury — Electronic Sound (Martin James, 2015)", url: "https://www.electronicsound.co.uk/features/long-reads/the-prodigy-the-sound-and-the-fury/" },
   ],
 
-  influencedBy: [],
+  influencedBy: [
+    { artist: "L7", album: "Bricks Are Heavy", year: "1992", note: "The band covers an L7 song on this album, credited on Wikipedia to L7's Donita Sparks and co-writers." },
+    { artist: "Ultramagnetic MCs", album: "Critical Beatdown", year: "1988", note: "Wikipedia's track credits for one song list Ultramagnetic MCs members Ced-Gee, TR Love and Kool Keith as writers, reflecting a borrowed hip-hop source." },
+  ],
 
   influenced: [],
 });
