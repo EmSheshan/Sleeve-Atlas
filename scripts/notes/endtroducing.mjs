@@ -49,10 +49,10 @@ await saveNote({
 
   influencedBy: [
     { artist: "David Axelrod", album: "Songs of Experience", year: "1969", note: "Sampled directly: Sound On Sound identifies a piano figure from this album as the main hook of one of Davis's best-known pieces." },
-    { artist: "Public Enemy", album: "It Takes a Nation of Millions to Hold Us Back", year: "1988", note: "Named by Davis in Clash as part of the hip-hop grounding for his approach to dense sample collage." },
+    { artist: "Public Enemy", album: "It Takes a Nation of Millions to Hold Us Back", year: "1988", note: "Wikipedia, citing Keyboard (1997), says the sample-based work behind this album was inspired by it; Davis told Clash, \"I always use Public Enemy as the perfect example of conveying emotion through sampling.\"" },
   ],
 
   influenced: [
-    { artist: "Radiohead", album: "OK Computer", year: "1997", note: "Davis told Pitchfork (2020) that Radiohead said they were big fans of this album; Wikipedia, citing Guitar World, says it inspired the band to edit and loop drums on OK Computer." },
+    { artist: "Radiohead", album: "OK Computer", year: "1997", note: "Guitarist Jonny Greenwood said the band's opening track was a case of \"Let's make it sound like DJ Shadow\"; Wikipedia, citing Guitar World, says this album inspired them to edit and loop drums on OK Computer." },
   ],
 });

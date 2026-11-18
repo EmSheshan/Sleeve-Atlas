@@ -48,7 +48,9 @@ await saveNote({
     { title: "Barry Adamson — Trouser Press", url: "https://trouserpress.com/reviews/barry-adamson/" },
   ],
 
-  influencedBy: [],
+  influencedBy: [
+    { artist: "Elmer Bernstein", album: "The Man with the Golden Arm", year: "1956", note: "Adamson told The Quietus, \"I actually sampled the main theme from 'The Man With The Golden Arm' at the beginning\"; Trouser Press describes the album's \"great, throbbing version\" of it. The score is for a 1955 film; the soundtrack album came out in 1956." },
+  ],
 
   influenced: [],
 });

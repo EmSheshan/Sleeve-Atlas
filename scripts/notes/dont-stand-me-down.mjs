@@ -48,7 +48,10 @@ await saveNote({
     { title: "Review: Dexys, One Day I'm Going to Soar — The Line of Best Fit (Simon Tyers, 2012)", url: "https://www.thelineofbestfit.com/reviews/albums/dexys-one-day-im-going-to-soar-98522" },
   ],
 
-  influencedBy: [],
+  influencedBy: [
+    { artist: "Warren Zevon", album: "Excitable Boy", year: "1978", note: "A riff on one song is taken from this album's best-known track; Wikipedia says Zevon and his co-writers received a credit, and Furious.com reports Rowland admitting the borrowing." },
+    { artist: "Van Morrison", album: "Inarticulate Speech of the Heart", year: "1983", note: "Per a Dexys fan blog, Rowland credits the singer's spoken-word piece on this album as the inspiration for the spoken-word approach that runs through Dexys' record." },
+  ],
 
   influenced: [],
 });

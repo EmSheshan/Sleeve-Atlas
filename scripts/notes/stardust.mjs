@@ -51,5 +51,7 @@ await saveNote({
 
   influencedBy: [],
 
-  influenced: [],
+  influenced: [
+    { artist: "Bob Dylan", album: "Shadows in the Night", year: "2015", note: "Singer-songwriter Bob Dylan said, per Wikipedia, that he had wanted to make a standards album ever since hearing Nelson's Stardust; the Austin Chronicle says he proposed such a project in its wake." },
+  ],
 });

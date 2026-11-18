@@ -51,7 +51,11 @@ await saveNote({
   influencedBy: [
     { artist: "Mtume", album: "Juicy Fruit", year: "1983", note: "Sampled directly for the lead single, per Wikipedia." },
     { artist: "The Isley Brothers", album: "Between the Sheets", year: "1983", note: "Sampled directly: the title song's groove underpins the second single." },
+    { artist: "Ice Cube", album: "AmeriKKKa's Most Wanted", year: "1990", note: "Producer Easy Mo Bee told XXL, \"I'm sure Ice Cube and N.W.A and stuff like that had a profound effect on him\"; producer Chucky Thompson said Biggie's style reminded him of Ice Cube." },
+    { artist: "Slick Rick", album: "The Great Adventures of Slick Rick", year: "1988", note: "Complex says Biggie's style fused Big Daddy Kane's polysyllables, Kool G Rap's rawness, Too $hort's boasting and Slick Rick's \"genius for spinning narratives out of dramatic dialog amongst distinct characters.\"" },
   ],
 
-  influenced: [],
+  influenced: [
+    { artist: "YG", album: "My Krazy Life", year: "2014", note: "Rapper YG told HotNewHipHop he listened to Ready to Die alongside Doggystyle, Chronic 2001 and Get Rich or Die Tryin' while making this album: \"I put in them albums, them classic albums.\"" },
+  ],
 });

@@ -51,5 +51,7 @@ await saveNote({
 
   influencedBy: [],
 
-  influenced: [],
+  influenced: [
+    { artist: "The Smiths", album: "The Queen Is Dead", year: "1986", note: "Guitarist Johnny Marr told Spin that Raw Power's \"influence came out on the Smiths album The Queen Is Dead\"; Wikipedia adds that his teenage listening to it informed the guitar work." },
+  ],
 });

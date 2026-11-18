@@ -52,6 +52,8 @@ await saveNote({
   influencedBy: [],
 
   influenced: [
-    { artist: "My Bloody Valentine", album: "You Made Me Realise", year: "1988", note: "Wikipedia, citing The Quietus (2012) and Westword (2009), says guitarist and songwriter Kevin Shields cited this album as an influence on that release." },
+    { artist: "My Bloody Valentine", album: "You Made Me Realise", year: "1988", note: "Wikipedia, citing The Quietus (2012) and Westword (2009), says guitarist and songwriter Kevin Shields named this album as an influence on that EP; Diffuser says he credits it with inspiring the EP, which came out a year later." },
+    { artist: "Nirvana", album: "Bleach", year: "1989", note: "Critic Josh Gray of Clash wrote that \"it is likely that there would be no 'Bleach' or 'Doolittle' without it\"; Wikipedia adds that several sources, citing NPR, recognise its influence on Nirvana." },
+    { artist: "Pixies", album: "Doolittle", year: "1989", note: "Named alongside Nirvana's debut in the same Clash passage by critic Josh Gray: \"it is likely that there would be no 'Bleach' or 'Doolittle' without it.\"" },
   ],
 });

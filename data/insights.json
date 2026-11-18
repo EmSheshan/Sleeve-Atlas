@@ -18267,7 +18267,7 @@
         "artist": "Public Enemy",
         "album": "It Takes a Nation of Millions to Hold Us Back",
         "year": "1988",
-        "note": "Named by Davis in Clash as part of the hip-hop grounding for his approach to dense sample collage."
+        "note": "Wikipedia, citing Keyboard (1997), says the sample-based work behind this album was inspired by it; Davis told Clash, \"I always use Public Enemy as the perfect example of conveying emotion through sampling.\""
       }
     ],
     "influenced": [
@@ -18275,12 +18275,12 @@
         "artist": "Radiohead",
         "album": "OK Computer",
         "year": "1997",
-        "note": "Davis told Pitchfork (2020) that Radiohead said they were big fans of this album; Wikipedia, citing Guitar World, says it inspired the band to edit and loop drums on OK Computer."
+        "note": "Guitarist Jonny Greenwood said the band's opening track was a case of \"Let's make it sound like DJ Shadow\"; Wikipedia, citing Guitar World, says this album inspired them to edit and loop drums on OK Computer."
       }
     ],
     "uuid": "5f34ee8bf0857e55ed5ec0a8",
     "image": "https://i.scdn.co/image/e3f6b87514c8a0ad6918d57345821e4412d510fd",
-    "savedAt": "2026-11-17T20:00:15.579Z"
+    "savedAt": "2026-11-18T18:43:33.081Z"
   },
   "5f34ee8bf0857e55ed5ec01c": {
     "artist": "The Notorious B.I.G.",
@@ -18342,12 +18342,31 @@
         "album": "Between the Sheets",
         "year": "1983",
         "note": "Sampled directly: the title song's groove underpins the second single."
+      },
+      {
+        "artist": "Ice Cube",
+        "album": "AmeriKKKa's Most Wanted",
+        "year": "1990",
+        "note": "Producer Easy Mo Bee told XXL, \"I'm sure Ice Cube and N.W.A and stuff like that had a profound effect on him\"; producer Chucky Thompson said Biggie's style reminded him of Ice Cube."
+      },
+      {
+        "artist": "Slick Rick",
+        "album": "The Great Adventures of Slick Rick",
+        "year": "1988",
+        "note": "Complex says Biggie's style fused Big Daddy Kane's polysyllables, Kool G Rap's rawness, Too $hort's boasting and Slick Rick's \"genius for spinning narratives out of dramatic dialog amongst distinct characters.\""
       }
     ],
-    "influenced": [],
+    "influenced": [
+      {
+        "artist": "YG",
+        "album": "My Krazy Life",
+        "year": "2014",
+        "note": "Rapper YG told HotNewHipHop he listened to Ready to Die alongside Doggystyle, Chronic 2001 and Get Rich or Die Tryin' while making this album: \"I put in them albums, them classic albums.\""
+      }
+    ],
     "uuid": "5f34ee8bf0857e55ed5ec01c",
     "image": "https://i.scdn.co/image/80c4ece4e5ce825c001f6d3c8ba69dc62f5be153",
-    "savedAt": "2026-11-17T14:04:32.666Z"
+    "savedAt": "2026-11-18T18:43:27.665Z"
   },
   "5f34ee8bf0857e55ed5ec077": {
     "artist": "The Stooges",
@@ -18402,10 +18421,17 @@
       }
     ],
     "influencedBy": [],
-    "influenced": [],
+    "influenced": [
+      {
+        "artist": "The Smiths",
+        "album": "The Queen Is Dead",
+        "year": "1986",
+        "note": "Guitarist Johnny Marr told Spin that Raw Power's \"influence came out on the Smiths album The Queen Is Dead\"; Wikipedia adds that his teenage listening to it informed the guitar work."
+      }
+    ],
     "uuid": "5f34ee8bf0857e55ed5ec077",
     "image": "https://i.scdn.co/image/5af77ca175c106e062da41a71880f20042b74c91",
-    "savedAt": "2026-11-17T20:13:13.054Z"
+    "savedAt": "2026-11-18T18:43:29.083Z"
   },
   "5f34ee8bf0857e55ed5ebe52": {
     "artist": "Barry Adamson",
@@ -18455,11 +18481,18 @@
         "url": "https://trouserpress.com/reviews/barry-adamson/"
       }
     ],
-    "influencedBy": [],
+    "influencedBy": [
+      {
+        "artist": "Elmer Bernstein",
+        "album": "The Man with the Golden Arm",
+        "year": "1956",
+        "note": "Adamson told The Quietus, \"I actually sampled the main theme from 'The Man With The Golden Arm' at the beginning\"; Trouser Press describes the album's \"great, throbbing version\" of it. The score is for a 1955 film; the soundtrack album came out in 1956."
+      }
+    ],
     "influenced": [],
     "uuid": "5f34ee8bf0857e55ed5ebe52",
     "image": "https://i.scdn.co/image/84814bd01175aaf4d95b9bc136d52e547e358f15",
-    "savedAt": "2026-11-18T15:08:41.613Z"
+    "savedAt": "2026-11-18T18:43:34.330Z"
   },
   "5f34ee8bf0857e55ed5ebf2f": {
     "artist": "Dinosaur Jr.",
@@ -18519,12 +18552,24 @@
         "artist": "My Bloody Valentine",
         "album": "You Made Me Realise",
         "year": "1988",
-        "note": "Wikipedia, citing The Quietus (2012) and Westword (2009), says guitarist and songwriter Kevin Shields cited this album as an influence on that release."
+        "note": "Wikipedia, citing The Quietus (2012) and Westword (2009), says guitarist and songwriter Kevin Shields named this album as an influence on that EP; Diffuser says he credits it with inspiring the EP, which came out a year later."
+      },
+      {
+        "artist": "Nirvana",
+        "album": "Bleach",
+        "year": "1989",
+        "note": "Critic Josh Gray of Clash wrote that \"it is likely that there would be no 'Bleach' or 'Doolittle' without it\"; Wikipedia adds that several sources, citing NPR, recognise its influence on Nirvana."
+      },
+      {
+        "artist": "Pixies",
+        "album": "Doolittle",
+        "year": "1989",
+        "note": "Named alongside Nirvana's debut in the same Clash passage by critic Josh Gray: \"it is likely that there would be no 'Bleach' or 'Doolittle' without it.\""
       }
     ],
     "uuid": "5f34ee8bf0857e55ed5ebf2f",
     "image": "https://i.scdn.co/image/4fd50453364222d9530a244022e3dccc72cab36e",
-    "savedAt": "2026-11-18T15:09:19.172Z"
+    "savedAt": "2026-11-18T18:43:35.568Z"
   },
   "64d1614bfbd905ee8cdf38ee": {
     "artist": "Dexys Midnight Runners",
@@ -18574,11 +18619,24 @@
         "url": "https://www.thelineofbestfit.com/reviews/albums/dexys-one-day-im-going-to-soar-98522"
       }
     ],
-    "influencedBy": [],
+    "influencedBy": [
+      {
+        "artist": "Warren Zevon",
+        "album": "Excitable Boy",
+        "year": "1978",
+        "note": "A riff on one song is taken from this album's best-known track; Wikipedia says Zevon and his co-writers received a credit, and Furious.com reports Rowland admitting the borrowing."
+      },
+      {
+        "artist": "Van Morrison",
+        "album": "Inarticulate Speech of the Heart",
+        "year": "1983",
+        "note": "Per a Dexys fan blog, Rowland credits the singer's spoken-word piece on this album as the inspiration for the spoken-word approach that runs through Dexys' record."
+      }
+    ],
     "influenced": [],
     "uuid": "64d1614bfbd905ee8cdf38ee",
     "image": "https://i.scdn.co/image/ab67616d00001e028e5cc7288cc58c621730c33e",
-    "savedAt": "2026-11-18T15:10:40.995Z"
+    "savedAt": "2026-11-18T18:43:31.778Z"
   },
   "5f34ee8bf0857e55ed5ec019": {
     "artist": "Ian Dury",
@@ -18691,9 +18749,16 @@
       }
     ],
     "influencedBy": [],
-    "influenced": [],
+    "influenced": [
+      {
+        "artist": "Bob Dylan",
+        "album": "Shadows in the Night",
+        "year": "2015",
+        "note": "Singer-songwriter Bob Dylan said, per Wikipedia, that he had wanted to make a standards album ever since hearing Nelson's Stardust; the Austin Chronicle says he proposed such a project in its wake."
+      }
+    ],
     "uuid": "5f34ee8bf0857e55ed5ebef4",
     "image": "https://i.scdn.co/image/cd277437206502ee642aa0ea677bb688b9385599",
-    "savedAt": "2026-11-18T15:10:43.879Z"
+    "savedAt": "2026-11-18T18:43:30.529Z"
   }
 }
