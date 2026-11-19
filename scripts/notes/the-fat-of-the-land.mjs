@@ -7,51 +7,56 @@ await saveNote({
   heading: "The Fat Of The Land — The Prodigy (1997)",
 
   albumLine:
-    "Released 30 June 1997 on XL Recordings and produced by Liam Howlett, the group's keyboardist and songwriter. It's big beat crossed with punk and metal attitude, and it's The Prodigy's third studio album, following Music for the Jilted Generation (1994).",
+    "Released 30 June 1997 on XL Recordings (the article text on Wikipedia says the first week of July) and produced by Liam Howlett, the group's keyboardist and songwriter. It's big beat crossed with punk and metal attitude, and it's The Prodigy's third album, after Music for the Jilted Generation (1994).",
 
   overview: [
-    "By 1997 The Prodigy had come up through British rave and the festival circuit, and two UK number-one singles had made them far bigger than a dance act was expected to be. Howlett wrote almost everything; this was the first album to include contributions from Keith Flint, who sings on several tracks, alongside Maxim Reality (Keith Palmer). Wikipedia notes the release date differs inside the same article: the infobox says 30 June, while the prose says the first week of July.",
+    "Howlett produced, recorded and mixed it himself at Earthbound, his studio in Essex, which writer Andy Price of MusicTech says had grown from a home setup into a larger hub after the previous album. His method was to start from loops of obscure soul and funk breaks, pitch and distort them, then add his own instruments to fit. He sketched ideas on a Roland W-30 — \"for about four months I didn't go out\" — and bought an Akai S3200 during the sessions. For the first time he used software, mixing and sequencing in Cubase on an early Mac, according to writer Angus Batey of The Quietus; the Korg Prophecy, a monophonic synth, ran through nearly every track.",
 
-    "The delay was partly Howlett's own doing. Wikipedia says he joined a PlayStation league for dance musicians run by Muzik reporter Martin James, and that his Tomb Raider habit held the album up for months while the label pressed him. The work itself ran from 1995 to 1997 at Strongroom in London and Earthbound in Braintree, Essex. Writer Angus Batey of The Quietus says Howlett was working with software as well as hardware for the first time, using Cubase to sequence and mix loops he had sampled or played himself.",
+    "The voices came last. Keith Flint, previously the group's dancer, made his first vocal appearances here, and rapper Kool Keith, Kula Shaker singer Crispian Mills and Rage Against the Machine guitarist Tom Morello guested. Howlett's own account of the working relationship is plain: \"Keith's no singer, and he's not trying to be, that's Keith.\" His gaming delayed the album for months — Wikipedia says he joined a PlayStation league run by Muzik reporter Martin James — while the label pressed him to finish.",
 
-    "Howlett was explicit about his audience. He told Batey, \"I write for one person, that's me,\" and added that \"The Prodigy is too hard for some people: good.\" That attitude drew trouble. The National Organization for Women objected to what it saw as misogyny in one single; Howlett's answer was, \"That record was for the fans. Only brainless people get some stupid message out of it,\" and the band has said the title means doing anything intensely. Readers can weigh the dispute themselves — the sources document the complaint and the reply, not a resolution.",
+    "It's in the book 1001 Albums You Must Hear Before You Die (2010 edition, per Wikipedia), and Metal Hammer called it \"the point at which rave culture collided with metal culture.\" Contemporary reaction was strong: NME said \"the album rools,\" and Rolling Stone called it \"a thrilling, intoxicating nightmare of a record.\" Its reputation has since split. Writer Ed Power of The Independent notes that Rolling Stone's and Pitchfork's 1990s lists both omit it, and Pitchfork's own score dropped from 7.9 in 1999 to 5.9 in 2018.",
 
-    "The commercial result was enormous. It went to No. 1 in the UK and on the Billboard 200 (19 July 1997), sold 2.6 million copies in the US, and has passed ten million worldwide, according to Wikipedia. Guinness World Records named it the fastest-selling dance album in the UK. It was nominated for a Grammy and the Mercury Prize. Critics were mostly enthusiastic then; later opinion is split, with writer Martin James of Electronic Sound calling it \"almost too laboured\" in 2015, while Metal Hammer in 2020 praised it as the point where rave culture collided with metal culture.",
+    "One single drew accusations of misogyny; the National Organization for Women objected, and Howlett told Q, \"That record was for the fans. Only brainless people get some stupid message out of it.\" Power also records Richard Russell, head of XL: \"Is it art? Yes, just about, and a great deal of art is not pleasant.\"",
   ],
 
   listeningNotes: [
     {
-      label: "Punk snarl over breakbeats",
-      text: "Flint's shouted vocals sit on top of sampled drums and distorted synths. \"Firestarter\" began as an instrumental that Flint was then given lyrics for, which is why the voice feels bolted on in the best way.",
+      label: "Guitar notes turned into sampler riffs",
+      text: "Howlett said, \"This is actually rock music written on electronic equipment.\" Guitarist Jim Davies plays on \"Firestarter\" and \"Breathe,\" but the riffs are rebuilt in the sampler rather than played straight through.",
     },
     {
-      label: "Two front men",
-      text: "Maxim Reality shares the vocal duties with Flint. Per Batey,the pair finished the vocals for \"Breathe\" in half an hour once the instrumental existed.",
+      label: "A growl on a breakbeat",
+      text: "On \"Firestarter\" Flint delivers what Melody Maker's Martin James called \"a 60-Marlboros-a-day growl,\" over an E-mu SP1200 break. Howlett played him the instrumental first to see what he thought.",
     },
     {
-      label: "Guest voices and guitars",
-      text: "Rapper Kool Keith appears on \"Diesel Power\", and Kula Shaker singer Crispian Mills on \"Narayan\", with drummer Matt Cameron. The record is more of a collaboration than a solo producer's showcase.",
+      label: "An indie riff in a rave track",
+      text: "The looped wah-wah guitar in \"Firestarter\" is sampled from The Breeders' \"S.O.S.\" on Last Splash, which is why Breeders singer Kim Deal is credited as a writer.",
     },
     {
-      label: "Hip-hop writing credits",
-      text: "Credits on \"Smack My Bitch Up\" include members of Ultramagnetic MCs, and \"Funky Shit\" credits the Beastie Boys. The credits show the hip-hop debt even where the page doesn't spell out what was sampled.",
+      label: "A vocal re-sung to clear a sample",
+      text: "On \"Smack My Bitch Up\" Shahin Badar sang the female part, based on singer Sheila Chandra's \"Nana (The Dreaming)\"; Howlett first sampled Chandra directly, then had it re-sung after clearance problems, per Wikipedia. The refrain comes from Kool Keith on Ultramagnetic MCs' \"Give the Drummer Some.\"",
     },
     {
-      label: "A punk cover in a rave setting",
-      text: "\"Fuel My Fire\" is a cover of an L7 song, with guitarist Gizz Butt on guitars. It's the plainest sign of the band's rock leanings.",
+      label: "Vocals in half an hour",
+      text: "Howlett says Flint and Maxim Reality finished their vocals for \"Breathe\" in half an hour once the instrumental existed, which explains how loose and instinctive it sounds.",
     },
   ],
 
   sources: [
+    { title: "Landmark Productions: The Prodigy — The Fat of the Land — MusicTech (Andy Price, 2015)", url: "https://theprodigy.info/articles/landmark-productions-the-prodigy-the-fat-of-the-land.html" },
+    { title: "20 Years On: The Prodigy's The Fat Of The Land — The Quietus (Angus Batey, 2017)", url: "https://thequietus.com/?p=22716" },
     { title: "The Fat of the Land — Wikipedia", url: "https://en.wikipedia.org/wiki/The_Fat_of_the_Land" },
     { title: "Smack My Bitch Up — Wikipedia", url: "https://en.wikipedia.org/wiki/Smack_My_Bitch_Up" },
-    { title: "20 Years On: The Prodigy's The Fat Of The Land — The Quietus (Angus Batey, 2017)", url: "https://thequietus.com/?p=22716" },
-    { title: "The Prodigy: The Sound and the Fury — Electronic Sound (Martin James, 2015)", url: "https://www.electronicsound.co.uk/features/long-reads/the-prodigy-the-sound-and-the-fury/" },
+    { title: "Firestarter (The Prodigy song) — Wikipedia", url: "https://en.wikipedia.org/wiki/Firestarter_(The_Prodigy_song)" },
+    { title: "Firestarters not welcome: how The Fat of the Land fell out of favour — The Independent (Ed Power, 2022)", url: "https://theprodigy.info/articles/england/firestarters-not-welcome-how-the-prodigys-the-fat-of-the-land-fell-out-of-favour.html" },
   ],
 
   influencedBy: [
     { artist: "L7", album: "Hungry for Stink", year: "1994", note: "The band covers an L7 song on this album, credited on Wikipedia to L7's Donita Sparks and co-writers." },
-    { artist: "Ultramagnetic MCs", album: "Critical Beatdown", year: "1988", note: "Wikipedia says the refrain and altered vocals of one single were sampled from a song by this group, which was produced for that album." },  ],
+    { artist: "Ultramagnetic MCs", album: "Critical Beatdown", year: "1988", note: "Wikipedia says the refrain and altered vocals of one single were sampled from a song by this group, which was produced for that album." },
+    { artist: "Rage Against the Machine", album: "Evil Empire", year: "1996", note: "Wikipedia's page for the source song says The Prodigy sampled it on their single; Howlett told The Quietus the band are \"one of my favourite bands.\"" },
+    { artist: "The Breeders", album: "Last Splash", year: "1993", note: "The looped wah-wah guitar riff on the lead single is sampled from a track on this album, per Wikipedia, which is why Kim Deal is credited as a writer." },
+  ],
 
   influenced: [],
 });

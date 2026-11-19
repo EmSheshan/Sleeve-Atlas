@@ -10,46 +10,47 @@ await saveNote({
     "Released 13 September 1994 on Bad Boy Records, distributed by Arista, with Sean \"Puffy\" Combs as executive producer. It's East Coast hip-hop, and it's the debut album from Brooklyn rapper Christopher Wallace, who recorded as The Notorious B.I.G.",
 
   overview: [
-    "Wallace's route to the record ran through a demo that reached DJ Mister Cee, Big Daddy Kane's former DJ, and then through The Source's \"Unsigned Hype\" column, which led to Combs, then an A&R executive at Uptown Records. Writer Justin Tinsley of Andscape adds that Combs first saw him freestyle in his office in 1991. Wikipedia, citing XXL, says the first sessions in 1993 yielded darker material; Combs was then fired from Uptown, Wallace spent time away from music, and the album was finished in 1994 at Combs's new label Bad Boy with more commercial songs. Recording ran from December 1993 to June 1994, mostly at The Hit Factory in New York.",
+    "It was made in two stages. According to XXL's oral history, the first sessions in 1993, at Uptown Records, produced the darker songs — Wallace sounds higher-pitched and more paranoid. Then Combs was fired from Uptown, launched Bad Boy, and Wallace finished the record in 1994 with a smoother, more confident delivery. His writing changed too: he filled notebooks in 1993, but by 1994 he was memorising lyrics. Producer Chucky Thompson recalled him writing only a few words at a time between breaks: \"It was like he knew what he wanted to say.\" Writer Justin Tinsley, in an excerpt from his book, describes him sitting in a corner mumbling and smoking while a beat looped for hours, then going into the booth and recording a verse in one take.",
 
-    "The scene it landed in is described differently by different writers. Wikipedia, citing Billboard, credits it with reviving East Coast hip-hop at a time when the West Coast dominated sales. Tom Breihan of Stereogum places it beside Nas's Illmatic as the other New York rap landmark of 1994 and argues it sounds more current than most of its peers. Tinsley notes that it came out the same day President Bill Clinton signed the 1994 crime bill, and reads it against crack-era New York — his interpretation, which he himself qualifies, saying the album \"wasn't as much a rebuttal\" to the law.",
+    "Combs was a hands-on executive producer. He gave producer Easy Mo Bee a list of records to sample and asked for a storyline. He pushed the radio-friendly side — Tinsley says he proposed sampling Mtume's \"Juicy Fruit\" and Wallace resisted at first as \"too soft\" — and he opposed the working title The Teflon Don as too New York-specific. Easy Mo Bee made the album's harder beats; producer Poke built the lead single on a reworked Mtume sample on an MPC60; Chucky Thompson and Nashiem Myrick reworked another after a sample-clearance problem; DJ Premier chopped a break for one song, recorded at D&D Studios. Rapper Method Man is the only guest. Credits for the lead single are contested: producer Pete Rock says, \"I did the original version, didn't get credit for it.\"",
 
-    "Combs described the plan as making \"a movie on wax about this kid from Brooklyn who had nothin' to lose,\" Tinsley quotes from a 2017 A&E documentary. Breihan hears slick, widescreen, pop-leaning production, closer in ambition to Dr. Dre's West Coast work than to New York's grittier tradition.",
-
-    "Reaction was strong. Critic Cheo H. Coker of Rolling Stone called it \"the strongest solo rap debut since Ice Cube's AmeriKKKa's Most Wanted,\" and Touré of The New York Times said it offered \"perhaps the most balanced and honest portrait of the dealer's life of any in hip-hop.\" Breihan's verdict twenty years on: \"It is as close to full-length perfection as rap music has ever come.\" It was certified 6x Platinum in the US by 2018 and added to the Library of Congress's National Recording Registry in 2024. Two things are contested: first-week sales, which Wikipedia puts at 57,000 and Andscape at 500,000, and who made the beat for the lead single — Pete Rock says he created it and went uncredited, a claim Wikipedia reports without a response from Combs. Samples also brought a lawsuit: in 2006 a jury found uncleared samples on several tracks and awarded damages, later reduced on appeal.",
+    "It's in the book 1001 Albums You Must Hear Before You Die (2005 edition, per Wikipedia), and the Library of Congress added it to the National Recording Registry in 2024. Rolling Stone's 2022 list entry says it \"marked the precise moment when hip-hop's golden age transitioned into its modern age.\" Writer Tom Breihan of Stereogum called it \"the best rap album ever made\"; producer Dante Ross called Wallace \"the greatest storyteller since Slick Rick.\" The dissent comes from rapper Open Mike Eagle, who told Grammy.com he \"never loved this album,\" while granting its importance.",
   ],
 
   listeningNotes: [
     {
-      label: "Pop-polished, orchestral production",
-      text: "Combs and his team gave Wallace lush, melodic backing that Breihan calls \"widescreen.\" It's why the record sounded made for radio without losing its street subject matter.",
+      label: "Story songs built from small details",
+      text: "Complex's Peter A. Berry calls \"Warning\" \"a narrative exhibition that essentially defines great rap storytelling,\" with Wallace \"more Martin Scorsese than Pablo Picasso, writing and directing his own tales.\"",
     },
     {
-      label: "R&B hooks from older records",
-      text: "\"Juicy\" borrows from Mtume's \"Juicy Fruit\" and \"Big Poppa\" from the Isley Brothers' \"Between the Sheets.\" Familiar soul grooves under a hard voice became the Bad Boy formula.",
+      label: "Soft samples, hard voice",
+      text: "\"Juicy\" and \"Big Poppa\" sit on smooth R&B grooves from Mtume and the Isley Brothers while Wallace's baritone stays deadpan, the mix of hard and soft that Rolling Stone calls a \"template for decades of artists.\"",
     },
     {
-      label: "Harder New York beats",
-      text: "Producer Easy Mo Bee supplied the darker material, such as \"Gimme the Loot\", which survives from the earlier 1993 sessions. The album runs between the two moods.",
+      label: "A chopped break and a borrowed hook",
+      text: "\"Unbelievable\" is built on a chopped break by DJ Premier, with verses written and recorded in one long night at D&D, per Tinsley, and a hook that borrows from R. Kelly's \"Your Body's Calling.\"",
     },
     {
-      label: "Cinematic storytelling",
-      text: "Critic Shortie of The Source praised Wallace's ability to \"weave tales like a cinematographer.\" Skits and narrative songs make the record play like a film rather than a set of singles.",
+      label: "Two voices on one track",
+      text: "On \"Gimme the Loot\" Wallace raps in his normal voice and in a higher-pitched alter ego, with DJ Mister Cee scratching.",
     },
     {
-      label: "A tight guest list",
-      text: "Method Man of Wu-Tang Clan is the only guest rapper, on \"The What\", per Breihan. Keeping the spotlight on Wallace's voice is a large part of the album's identity.",
+      label: "A staged ending",
+      text: "\"Suicidal Thoughts\" ends with a staged gunshot and a body hitting the floor; engineer Charles Alexander said Wallace fell hard once the lights were off.",
     },
   ],
 
   sources: [
-    { title: "Ready to Die — Wikipedia", url: "https://en.wikipedia.org/wiki/Ready_to_Die" },
-    { title: "As The Notorious B.I.G. enters the Rock & Roll Hall of Fame, a look back at Ready to Die — Andscape (Justin Tinsley, 2020)", url: "https://andscape.com/features/as-the-notorious-b-i-g-enters-the-rock-roll-hall-of-fame-a-look-back-at-ready-to-die/" },
+    { title: "The Making of Ready to Die: Family Business — XXL (2014 reprint)", url: "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business/" },
+    { title: "Behind the Scenes of Ready to Die — Literary Hub, excerpt from Justin Tinsley's It Was All a Dream (2022)", url: "https://lithub.com/behind-the-scenes-of-ready-to-die-an-excerpt-from-it-was-all-a-dream-biggie-and-the-world-that-made-him" },
     { title: "Ready To Die Turns 20 — Stereogum (Tom Breihan, 2014)", url: "https://stereogum.com/1704713/ready-to-die-turns-20/reviews/the-anniversary" },
+    { title: "Every Song on Ready to Die Ranked — Complex UK (2024)", url: "https://uk.complex.com/music/a/dimassanfiorenzo/the-notorious-big-ready-to-die-ranked" },
+    { title: "Ready to Die 30th anniversary — Okayplayer (Peter A. Berry, 2024)", url: "https://www.okayplayer.com/ready-to-die-30th-anniversary" },
+    { title: "Ready to Die — Wikipedia", url: "https://en.wikipedia.org/wiki/Ready_to_Die" },
   ],
 
   influencedBy: [
-    { artist: "Mtume", album: "Juicy Fruit", year: "1983", note: "Sampled directly for the lead single, per Wikipedia." },
+    { artist: "Mtume", album: "Juicy Fruit", year: "1983", note: "Sampled directly for the lead single, per Wikipedia; Tinsley says Combs proposed the sample." },
     { artist: "The Isley Brothers", album: "Between the Sheets", year: "1983", note: "Sampled directly: the title song's groove underpins the second single." },
     { artist: "Ice Cube", album: "AmeriKKKa's Most Wanted", year: "1990", note: "Producer Easy Mo Bee told XXL, \"I'm sure Ice Cube and N.W.A and stuff like that had a profound effect on him\"; producer Chucky Thompson said Biggie's style reminded him of Ice Cube." },
     { artist: "Slick Rick", album: "The Great Adventures of Slick Rick", year: "1988", note: "Complex says Biggie's style fused Big Daddy Kane's polysyllables, Kool G Rap's rawness, Too $hort's boasting and Slick Rick's \"genius for spinning narratives out of dramatic dialog amongst distinct characters.\"" },

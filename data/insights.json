@@ -18072,38 +18072,54 @@
     "album": "Destroy Rock & Roll",
     "year": "2004",
     "heading": "Destroy Rock & Roll — Mylo (2004)",
-    "albumLine": "Released 24 May 2004 on Breastfed and produced by Myles MacInnes, the Scottish producer who records as Mylo. It's sample-built house and electropop, and it's his debut album — and, as it turned out, his only studio album.",
+    "albumLine": "Released 24 May 2004 on Breastfed, the Glasgow label co-founded by Myles MacInnes, who records as Mylo, and produced by him. It's electro-pop and house built from loops and soft-rock samples, and it's his debut and only studio album.",
     "overview": [
-      "MacInnes grew up on the Isle of Skye, where, according to Wikipedia, the only station he could pick up was the Ireland-based Atlantic 252. He first heard house on that radio, and he also absorbed the soft rock of the 1970s and 1980s as a child. Later he studied in Los Angeles. The record is those two worlds fused: the glossy hooks of old radio rock rebuilt on a dance-floor chassis.",
-      "It was made between November 2003 and April 2004 at various locations in Scotland, with the limited edition adding tracks recorded later. Sampling shaped the sound and the budget alike. Wikipedia reports that many rights holders demanded half of the new songs' earnings, so several originals were replayed rather than lifted, in one case on a Juno synthesiser. The title song's spoken sample has two descriptions: Wikipedia says MacInnes heard a fundamentalist Christian sermon in 2002 while working as a BBC journalist in Glasgow, while critic Dan Raper of PopMatters calls it a conservative politician on an anti-rock rampage. The sources don't reconcile, and I haven't found MacInnes's own account.",
-      "Reception was mostly warm. The album holds an 80 on Metacritic from fourteen reviews, reached No. 26 in the UK and No. 10 on Billboard's US dance albums chart, and went Gold in the UK. Critic Tim DiGravina of AllMusic wrote that it \"only seems to cement his status among the elite of electronic cut-and-pasters of his time.\" Raper praised its \"catchiness without flippancy\" and heard Groove Armada and Felix da Housecat in it — his comparisons, not documented influences. The notable dissent came from critic Dave Simpson of The Guardian, who wrote that \"rock'n'roll faces a greater threat from a feather duster.\" Singer Elton John, per Wikipedia, said on a TV chat show that \"every home should own a copy.\" Resident Advisor later placed it 21st among the albums of the 2000s."
+      "MacInnes started around 2001, aged 22, on a £350 computer with a six-gigabyte hard drive and a free eight-track version of Pro Tools. He told writer Tom Doyle of Sound On Sound that his first demos used drums from ReBirth and keyboard sounds from Absynth. The idea that set everything going came in 2002, when a friend played him a spoken-word clip of a preacher attacking 80s pop; he laid it over a four-on-the-floor beat. Sources disagree on the speaker: Wikipedia says a fundamentalist sermon he heard while working as a BBC journalist, while PopMatters describes a conservative politician.",
+      "His first finished track sampled Toto, and the clearance never came, so he co-founded Breastfed instead. With the label's early money he bought a G4 for about £1,200 and moved to Pro Tools LE, which gave him 24 tracks instead of eight. Most of the album was then built inside the computer: keyboard parts, drums and basslines made as loops in Reason and recorded into Pro Tools, with drum sounds chopped from sample CDs in Recycle and then pushed through distortion and compression. Copyright holders usually asked for half the publishing, and where they did, some parts were replayed rather than sampled — a Juno synth part was cheaper. Engineer Kevin Kennedy mixed on NS10 monitors, often stripping out compression Mylo had added. For the 2006 US release, XLR8R writer Ken Taylor reports, some samples had to be flat-out re-recorded to skirt US copyright law.",
+      "It's in the book 1001 Albums You Must Hear Before You Die (2010 edition, per Wikipedia), and Resident Advisor ranked it 21st among the albums of the 2000s. Critic Will Hermes of Spin called the sound \"the melodic boing-boing of synth pop,\" while Guardian critic Dave Simpson was unmoved: \"rock'n'roll faces a greater threat from a feather duster.\" Singer Elton John said on a TV chat show that \"every home should own a copy.\""
     ],
     "listeningNotes": [
       {
-        "label": "Soft-rock hits rebuilt as house",
-        "text": "Radio-friendly pop is replayed and recut over a four-on-the-floor pulse. \"In My Arms\" pairs Kim Carnes's hit with a Boy Meets Girl song, which is why it sounds instantly familiar and oddly new."
+        "label": "A vocoder joke at the centre",
+        "text": "\"Drop the Pressure\" is a speech loop fed through a vocoder — \"just me with a microphone\" — which Mylo called \"quite an unsubtle pisstake of vocoder music.\" The sound is cheap on purpose, and that's why it works."
       },
       {
-        "label": "Replayed instead of sampled",
-        "text": "Because rights holders wanted such large shares, parts of the record are re-performed, with one hook rebuilt on a Juno synth. The result sounds cleaner and more pop-forward than a typical crate-dug sample record."
+        "label": "Soft rock on a house pulse",
+        "text": "\"In My Arms\" pairs singer Kim Carnes's hit with a Boy Meets Girl song, one of them replayed on a Juno. Familiar radio melodies sit over a club beat, which is the album's whole idea in one track."
       },
       {
-        "label": "A sermon as a lead voice",
-        "text": "The title song builds around a spoken denunciation of rock music. PopMatters picked out the mispronounced names, among them \"David Boo-ey\" and \"Cindy Looper,\" which turns the lecture into the joke."
+        "label": "One loop cut into 25 parts",
+        "text": "On \"Rikki\" Mylo chopped a three-second loop into many hits and mapped them across a MIDI keyboard — \"by the end I had 25 constituent parts.\" Listen for how a single phrase becomes a whole arrangement."
       },
       {
-        "label": "Funk and pop in one hook",
-        "text": "\"Guilty of Love\" samples musician George Duke and a brief grunt from singer Prince's \"Kiss\" — Wikipedia notes the grunt is too short to be copyrighted. It's a small example of how much character the record gets from tiny fragments."
+        "label": "The preacher as lead voice",
+        "text": "The title song builds around the spoken sample over a four-on-the-floor beat. In the UK edition it's the original recording; the US edition replaced it with a replay."
       },
       {
-        "label": "A singles-collection feel",
-        "text": "Raper argued that after several UK singles the album played less like a debut than a greatest-hits set, and Wikipedia lists seven singles in all. The limited edition added a sanctioned mash-up of Miami Sound Machine's \"Dr. Beat\" with \"Drop the Pressure\", which reached No. 3."
+        "label": "A glossy, gaudy finish",
+        "text": "Critic Richard Foster of Incendiary Mag hears \"a brilliant 'Klaus Dinger was a robot' drum beat\" and a \"fabulously glossy, Eurotrash, high eighties feel\" on \"Musclecar Reform Reprise.\""
       }
     ],
     "sources": [
       {
+        "title": "Mylo: Producing Destroy Rock & Roll — Sound On Sound (Tom Doyle, 2005)",
+        "url": "https://www.soundonsound.com/people/mylo"
+      },
+      {
         "title": "Destroy Rock & Roll — Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Destroy_Rock_%26_Roll"
+      },
+      {
+        "title": "Mylo, Destroy Rock & Roll — XLR8R (Ken Taylor, 2006)",
+        "url": "https://xlr8r.com/?p=114125"
+      },
+      {
+        "title": "Diplo / Mylo reviews — Spin (Will Hermes, 2005)",
+        "url": "https://www.spinmagazine.com/2005/12/diplo-fabriclive-24-fabric-mylo-destroy-rock-and-roll-breastfed/"
+      },
+      {
+        "title": "Mylo: Destroy Rock & Roll — Incendiary Mag (Richard Foster, 2004)",
+        "url": "https://incendiarymag.com/wordpress/?p=57"
       },
       {
         "title": "Mylo: Destroy Rock & Roll — PopMatters (Dan Raper, 2006)",
@@ -18124,6 +18140,12 @@
         "note": "Her hit is replayed on a Juno synth and combined with a Boy Meets Girl song, per Wikipedia citing Sound On Sound."
       },
       {
+        "artist": "Boy Meets Girl",
+        "album": "Reel Life",
+        "year": "1988",
+        "note": "Their lead single from this album is the other half of the main sample; Mylo told Sound On Sound the two records are \"both cheesy pop records really.\""
+      },
+      {
         "artist": "George Duke",
         "album": "Night After Night",
         "year": "1989",
@@ -18139,43 +18161,51 @@
     "influenced": [],
     "uuid": "5f34ee8bf0857e55ed5ec004",
     "image": "https://i.scdn.co/image/4631d84483f7edd554dd02ab09aafd8bc3e75700",
-    "savedAt": "2026-11-17T20:00:12.804Z"
+    "savedAt": "2026-11-19T14:14:04.708Z"
   },
   "5f34ee8bf0857e55ed5ebf64": {
     "artist": "The Prodigy",
     "album": "The Fat Of The Land",
     "year": "1997",
     "heading": "The Fat Of The Land — The Prodigy (1997)",
-    "albumLine": "Released 30 June 1997 on XL Recordings and produced by Liam Howlett, the group's keyboardist and songwriter. It's big beat crossed with punk and metal attitude, and it's The Prodigy's third studio album, following Music for the Jilted Generation (1994).",
+    "albumLine": "Released 30 June 1997 on XL Recordings (the article text on Wikipedia says the first week of July) and produced by Liam Howlett, the group's keyboardist and songwriter. It's big beat crossed with punk and metal attitude, and it's The Prodigy's third album, after Music for the Jilted Generation (1994).",
     "overview": [
-      "By 1997 The Prodigy had come up through British rave and the festival circuit, and two UK number-one singles had made them far bigger than a dance act was expected to be. Howlett wrote almost everything; this was the first album to include contributions from Keith Flint, who sings on several tracks, alongside Maxim Reality (Keith Palmer). Wikipedia notes the release date differs inside the same article: the infobox says 30 June, while the prose says the first week of July.",
-      "The delay was partly Howlett's own doing. Wikipedia says he joined a PlayStation league for dance musicians run by Muzik reporter Martin James, and that his Tomb Raider habit held the album up for months while the label pressed him. The work itself ran from 1995 to 1997 at Strongroom in London and Earthbound in Braintree, Essex. Writer Angus Batey of The Quietus says Howlett was working with software as well as hardware for the first time, using Cubase to sequence and mix loops he had sampled or played himself.",
-      "Howlett was explicit about his audience. He told Batey, \"I write for one person, that's me,\" and added that \"The Prodigy is too hard for some people: good.\" That attitude drew trouble. The National Organization for Women objected to what it saw as misogyny in one single; Howlett's answer was, \"That record was for the fans. Only brainless people get some stupid message out of it,\" and the band has said the title means doing anything intensely. Readers can weigh the dispute themselves — the sources document the complaint and the reply, not a resolution.",
-      "The commercial result was enormous. It went to No. 1 in the UK and on the Billboard 200 (19 July 1997), sold 2.6 million copies in the US, and has passed ten million worldwide, according to Wikipedia. Guinness World Records named it the fastest-selling dance album in the UK. It was nominated for a Grammy and the Mercury Prize. Critics were mostly enthusiastic then; later opinion is split, with writer Martin James of Electronic Sound calling it \"almost too laboured\" in 2015, while Metal Hammer in 2020 praised it as the point where rave culture collided with metal culture."
+      "Howlett produced, recorded and mixed it himself at Earthbound, his studio in Essex, which writer Andy Price of MusicTech says had grown from a home setup into a larger hub after the previous album. His method was to start from loops of obscure soul and funk breaks, pitch and distort them, then add his own instruments to fit. He sketched ideas on a Roland W-30 — \"for about four months I didn't go out\" — and bought an Akai S3200 during the sessions. For the first time he used software, mixing and sequencing in Cubase on an early Mac, according to writer Angus Batey of The Quietus; the Korg Prophecy, a monophonic synth, ran through nearly every track.",
+      "The voices came last. Keith Flint, previously the group's dancer, made his first vocal appearances here, and rapper Kool Keith, Kula Shaker singer Crispian Mills and Rage Against the Machine guitarist Tom Morello guested. Howlett's own account of the working relationship is plain: \"Keith's no singer, and he's not trying to be, that's Keith.\" His gaming delayed the album for months — Wikipedia says he joined a PlayStation league run by Muzik reporter Martin James — while the label pressed him to finish.",
+      "It's in the book 1001 Albums You Must Hear Before You Die (2010 edition, per Wikipedia), and Metal Hammer called it \"the point at which rave culture collided with metal culture.\" Contemporary reaction was strong: NME said \"the album rools,\" and Rolling Stone called it \"a thrilling, intoxicating nightmare of a record.\" Its reputation has since split. Writer Ed Power of The Independent notes that Rolling Stone's and Pitchfork's 1990s lists both omit it, and Pitchfork's own score dropped from 7.9 in 1999 to 5.9 in 2018.",
+      "One single drew accusations of misogyny; the National Organization for Women objected, and Howlett told Q, \"That record was for the fans. Only brainless people get some stupid message out of it.\" Power also records Richard Russell, head of XL: \"Is it art? Yes, just about, and a great deal of art is not pleasant.\""
     ],
     "listeningNotes": [
       {
-        "label": "Punk snarl over breakbeats",
-        "text": "Flint's shouted vocals sit on top of sampled drums and distorted synths. \"Firestarter\" began as an instrumental that Flint was then given lyrics for, which is why the voice feels bolted on in the best way."
+        "label": "Guitar notes turned into sampler riffs",
+        "text": "Howlett said, \"This is actually rock music written on electronic equipment.\" Guitarist Jim Davies plays on \"Firestarter\" and \"Breathe,\" but the riffs are rebuilt in the sampler rather than played straight through."
       },
       {
-        "label": "Two front men",
-        "text": "Maxim Reality shares the vocal duties with Flint. Per Batey,the pair finished the vocals for \"Breathe\" in half an hour once the instrumental existed."
+        "label": "A growl on a breakbeat",
+        "text": "On \"Firestarter\" Flint delivers what Melody Maker's Martin James called \"a 60-Marlboros-a-day growl,\" over an E-mu SP1200 break. Howlett played him the instrumental first to see what he thought."
       },
       {
-        "label": "Guest voices and guitars",
-        "text": "Rapper Kool Keith appears on \"Diesel Power\", and Kula Shaker singer Crispian Mills on \"Narayan\", with drummer Matt Cameron. The record is more of a collaboration than a solo producer's showcase."
+        "label": "An indie riff in a rave track",
+        "text": "The looped wah-wah guitar in \"Firestarter\" is sampled from The Breeders' \"S.O.S.\" on Last Splash, which is why Breeders singer Kim Deal is credited as a writer."
       },
       {
-        "label": "Hip-hop writing credits",
-        "text": "Credits on \"Smack My Bitch Up\" include members of Ultramagnetic MCs, and \"Funky Shit\" credits the Beastie Boys. The credits show the hip-hop debt even where the page doesn't spell out what was sampled."
+        "label": "A vocal re-sung to clear a sample",
+        "text": "On \"Smack My Bitch Up\" Shahin Badar sang the female part, based on singer Sheila Chandra's \"Nana (The Dreaming)\"; Howlett first sampled Chandra directly, then had it re-sung after clearance problems, per Wikipedia. The refrain comes from Kool Keith on Ultramagnetic MCs' \"Give the Drummer Some.\""
       },
       {
-        "label": "A punk cover in a rave setting",
-        "text": "\"Fuel My Fire\" is a cover of an L7 song, with guitarist Gizz Butt on guitars. It's the plainest sign of the band's rock leanings."
+        "label": "Vocals in half an hour",
+        "text": "Howlett says Flint and Maxim Reality finished their vocals for \"Breathe\" in half an hour once the instrumental existed, which explains how loose and instinctive it sounds."
       }
     ],
     "sources": [
+      {
+        "title": "Landmark Productions: The Prodigy — The Fat of the Land — MusicTech (Andy Price, 2015)",
+        "url": "https://theprodigy.info/articles/landmark-productions-the-prodigy-the-fat-of-the-land.html"
+      },
+      {
+        "title": "20 Years On: The Prodigy's The Fat Of The Land — The Quietus (Angus Batey, 2017)",
+        "url": "https://thequietus.com/?p=22716"
+      },
       {
         "title": "The Fat of the Land — Wikipedia",
         "url": "https://en.wikipedia.org/wiki/The_Fat_of_the_Land"
@@ -18185,12 +18215,12 @@
         "url": "https://en.wikipedia.org/wiki/Smack_My_Bitch_Up"
       },
       {
-        "title": "20 Years On: The Prodigy's The Fat Of The Land — The Quietus (Angus Batey, 2017)",
-        "url": "https://thequietus.com/?p=22716"
+        "title": "Firestarter (The Prodigy song) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Firestarter_(The_Prodigy_song)"
       },
       {
-        "title": "The Prodigy: The Sound and the Fury — Electronic Sound (Martin James, 2015)",
-        "url": "https://www.electronicsound.co.uk/features/long-reads/the-prodigy-the-sound-and-the-fury/"
+        "title": "Firestarters not welcome: how The Fat of the Land fell out of favour — The Independent (Ed Power, 2022)",
+        "url": "https://theprodigy.info/articles/england/firestarters-not-welcome-how-the-prodigys-the-fat-of-the-land-fell-out-of-favour.html"
       }
     ],
     "influencedBy": [
@@ -18205,45 +18235,56 @@
         "album": "Critical Beatdown",
         "year": "1988",
         "note": "Wikipedia says the refrain and altered vocals of one single were sampled from a song by this group, which was produced for that album."
+      },
+      {
+        "artist": "Rage Against the Machine",
+        "album": "Evil Empire",
+        "year": "1996",
+        "note": "Wikipedia's page for the source song says The Prodigy sampled it on their single; Howlett told The Quietus the band are \"one of my favourite bands.\""
+      },
+      {
+        "artist": "The Breeders",
+        "album": "Last Splash",
+        "year": "1993",
+        "note": "The looped wah-wah guitar riff on the lead single is sampled from a track on this album, per Wikipedia, which is why Kim Deal is credited as a writer."
       }
     ],
     "influenced": [],
     "uuid": "5f34ee8bf0857e55ed5ebf64",
     "image": "https://i.scdn.co/image/a482bfa14e61812b58f8d0fc3891e6654d68078d",
-    "savedAt": "2026-11-17T20:13:14.544Z"
+    "savedAt": "2026-11-19T14:14:06.156Z"
   },
   "5f34ee8bf0857e55ed5ec0a8": {
     "artist": "DJ Shadow",
     "album": "Endtroducing.....",
     "year": "1996",
     "heading": "Endtroducing..... — DJ Shadow (1996)",
-    "albumLine": "Released in September 1996 on Mo' Wax and produced, engineered and mixed by Josh Davis, who records as DJ Shadow. It's instrumental, downtempo hip-hop assembled from samples, and it's Davis's debut album.",
+    "albumLine": "Released in September 1996 on Mo' Wax and produced, engineered and mixed by Josh Davis, who records as DJ Shadow. It's instrumental, downtempo hip-hop assembled from samples, and it's his debut album.",
     "overview": [
-      "Davis bought an Akai MPC60 sampler in October 1992 and spent the next few years learning what a single machine could do with other people's records. According to writer Tom Doyle in Sound On Sound, he first sampled a break from a 45 by a group called the O'Jahs, and in 1994 added an Alesis ADAT tape recorder to his home setup. The first Mo' Wax single, from 1993, was mixed at producer Dan Nakamura's San Francisco studio, The Glue Factory. Mo' Wax was run by James Lavelle, and Davis told Clash writer Richard Bowes that the album was \"the template for the sound James was looking for, for Mo' Wax.\"",
-      "The ideas behind it came from hip-hop rather than from the downtempo scene it was soon filed under. Doyle reports Davis citing Afrika Bambaataa, Steinski and Grandmaster Flash, and Pete Rock's drum programming on Mecca and the Soul Brother (1992); Bowes adds Prince Paul, A Tribe Called Quest and Public Enemy. Davis also argued that hip-hop was more than \"sampling a James Brown drum break.\" Doyle says the music was labelled trip-hop; neither piece says whether Davis accepted that label.",
-      "Bowes says the album took around two years, with its earliest seeds in late 1993 or early 1994, and that Davis worked on headphones with just three pieces of equipment. There are no rappers or singers on it. Both writers call it widely acclaimed, though neither names a critic or gives chart figures, so sales and individual reviews aren't covered here. Doyle states that it entered the Guinness Book of Records in 2001 as the first completely sampled album; Bowes says it is widely recognised as the first, a distinction Davis was unaware of at the time. Guinness's own listing was not checked.",
-      "Its reputation has only grown. Doyle calls it one of the greatest hip-hop albums ever made, and Bowes writes that generations of hip-hop artists trace a stylistic lineage to it and that Radiohead \"famously copied his methods for the drums\" on a song from OK Computer — his claim, not confirmed elsewhere."
+      "Davis grew up outside Sacramento and got his first turntables in 1987, aged 15. Writer Tom Doyle of Sound On Sound reports that the key shop was Rare Records in Sacramento, whose owner let him into the basement only after \"a good five years\" of visits. He bought an Akai MPC60 sampler in October 1992 and called learning it \"this endless fever dream of trying to get through the manual.\" Early mixes went to a Yamaha four-track cassette; in 1994 he added an Alesis ADAT tape recorder, using timecode on one track to bounce passes and adding scratches afterwards.",
+      "The method was about subtraction. \"It was a reductive process of trying to strip everything down to only its most important elements,\" Davis told Doyle. Samples went through the MPC to tape, and memory was so small that he chopped breaks into roughly nine slices and rebuilt them into new patterns. He told Keyboard in 1997, \"I never use reissues or bootlegs or compilations. I didn't use any CDs on the album.\" Drum sounds were sequenced to fade in and out rather than hit hard on the beat. He mixed at producer Dan Nakamura's Glue Factory studio in San Francisco: \"I didn't know how to bus anything.\" He told Clash writer Richard Bowes it took around two years, in stretches — \"I would have two months to work on it and then I'd get called away for two months.\"",
+      "The album is in the book 1001 Albums You Must Hear Before You Die, per Wikipedia, and Rolling Stone ranked it 329th on its 2020 list. Critic David Bennun of The Guardian called it \"not only one of the most daring and original albums of recent times\"; critic Will Hermes of Spin called it \"trip-hop's crowning achievement.\" Sound On Sound says it entered the Guinness Book of Records in 2001 as the first completely sampled album; Davis's own claim is more modest — it was his intention to make it \"entirely sample-based,\" and he was unaware at the time that it was a first. One source conflicts on the kit: Red Bull Music Academy says a borrowed Pro Tools rig, while Keyboard, Tape Op and Wikipedia say ADAT. Critic Andy Battaglia of the A.V. Club offers the counterpoint that its influence \"has been partially diluted by the symphonic beat-collage culture it helped spawn.\""
     ],
     "listeningNotes": [
       {
-        "label": "Stacked, isolated elements",
-        "text": "Davis described building each piece by layering separate sampled parts, then fading hi-hats and kicks in and out during sequencing. It gives the music its slow, breathing arrangement."
+        "label": "Stripping loops back to essentials",
+        "text": "Davis resampled to mono to save memory and kept only a few clean kicks, snares and hats. On \"Midnight in a Perfect World\" he spent three or four hours just on the drum beat."
       },
       {
-        "label": "Slowed-down drum breaks",
-        "text": "On \"Midnight In A Perfect World\", Doyle says the drum track is a slowed-down break from the 1960s psychedelic soul band Rotary Connection, which gives the beat its heavy, unhurried weight."
+        "label": "Sources from far outside hip-hop",
+        "text": "Doyle names the sources of \"Midnight in a Perfect World\": a slowed break from Rotary Connection, a piano figure from composer David Axelrod's Songs of Experience, phased Fender Rhodes chords from musician Pekka Pohjola, flute-like strings from composer Meredith Monk's Dolmen Music, a vocal from the group Baraka found in a 50-cent bin, and a one-word loop from rapper Akinyele."
       },
       {
-        "label": "Samples from far outside hip-hop",
-        "text": "The same track draws on a piano figure from composer David Axelrod's 1969 album Songs Of Experience, phased Fender Rhodes chords from Finnish musician Pekka Pohjola, and a vocal from the group Baraka. Doyle's article lists them; the effect is a collage that feels like one piece."
+        "label": "Piano and choir under a drum barrage",
+        "text": "uDiscover writer Jim Bell hears classical piano and choral singing under heavy drums on \"Building Steam With a Grain of Salt,\" which he calls a \"haunting, war-torn atmosphere.\""
       },
       {
-        "label": "Scratching on top of sampler beats",
-        "text": "Doyle says \"The Number Song\" was built on the MPC, with turntable scratches added afterwards. The two layers stay audibly distinct."
+        "label": "Film clips and segues",
+        "text": "Bell notes that film clips drift in and out and tracks segue, so the album feels like one continuous piece rather than a collection of beats."
       },
       {
-        "label": "One sampler, one tape machine",
-        "text": "A sampler, a tape recorder and headphones were the core kit. Nothing here depends on a studio budget, which is much of the album's mythology."
+        "label": "Scratching added afterwards",
+        "text": "Doyle says \"The Number Song\" was built on the MPC and scratches were added later, so the turntable work sits on top of the sampled beat rather than being part of it."
       }
     ],
     "sources": [
@@ -18252,8 +18293,20 @@
         "url": "https://www.soundonsound.com/techniques/classic-tracks-dj-shadow-midnight-perfect-world"
       },
       {
+        "title": "DJ Shadow interview — Keyboard (October 1997)",
+        "url": "https://www.solesides.com/dj-shadow-mdj-shadow-keyboard-october-1997.html"
+      },
+      {
         "title": "DJ Shadow On 30 Years Of 'Endtroducing' — Clash (Richard Bowes, 2026)",
         "url": "https://www.clashmusic.com/features/dj-shadow-on-30-years-of-endtroducing/"
+      },
+      {
+        "title": "The Vinyl-Hunting Exploits of DJ Shadow — Red Bull Music Academy Daily (Bill Brewster, 2018)",
+        "url": "https://daily.redbullmusicacademy.com/2018/04/dj-shadow-interview"
+      },
+      {
+        "title": "Endtroducing..... — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Endtroducing....."
       }
     ],
     "influencedBy": [
@@ -18261,13 +18314,25 @@
         "artist": "David Axelrod",
         "album": "Songs of Experience",
         "year": "1969",
-        "note": "Sampled directly: Sound On Sound identifies a piano figure from this album as the main hook of one of Davis's best-known pieces."
+        "note": "Sound On Sound identifies a piano figure from this album as the main hook of one of Davis's best-known pieces."
       },
       {
         "artist": "Public Enemy",
         "album": "It Takes a Nation of Millions to Hold Us Back",
         "year": "1988",
         "note": "Wikipedia, citing Keyboard (1997), says the sample-based work behind this album was inspired by it; Davis told Clash, \"I always use Public Enemy as the perfect example of conveying emotion through sampling.\""
+      },
+      {
+        "artist": "Meredith Monk",
+        "album": "Dolmen Music",
+        "year": "1981",
+        "note": "Sound On Sound names this album as the source of the flute-like strings in one of Davis's best-known pieces."
+      },
+      {
+        "artist": "Baraka",
+        "album": "Love Is As Open As Your Heart",
+        "year": "1976",
+        "note": "Sound On Sound says the vocal carrying the main melody of one piece was sampled from this album, found in a 50-cent bin."
       }
     ],
     "influenced": [
@@ -18280,7 +18345,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ec0a8",
     "image": "https://i.scdn.co/image/e3f6b87514c8a0ad6918d57345821e4412d510fd",
-    "savedAt": "2026-11-18T18:43:33.081Z"
+    "savedAt": "2026-11-19T14:14:07.598Z"
   },
   "5f34ee8bf0857e55ed5ec01c": {
     "artist": "The Notorious B.I.G.",
@@ -18289,45 +18354,56 @@
     "heading": "Ready To Die — The Notorious B.I.G. (1994)",
     "albumLine": "Released 13 September 1994 on Bad Boy Records, distributed by Arista, with Sean \"Puffy\" Combs as executive producer. It's East Coast hip-hop, and it's the debut album from Brooklyn rapper Christopher Wallace, who recorded as The Notorious B.I.G.",
     "overview": [
-      "Wallace's route to the record ran through a demo that reached DJ Mister Cee, Big Daddy Kane's former DJ, and then through The Source's \"Unsigned Hype\" column, which led to Combs, then an A&R executive at Uptown Records. Writer Justin Tinsley of Andscape adds that Combs first saw him freestyle in his office in 1991. Wikipedia, citing XXL, says the first sessions in 1993 yielded darker material; Combs was then fired from Uptown, Wallace spent time away from music, and the album was finished in 1994 at Combs's new label Bad Boy with more commercial songs. Recording ran from December 1993 to June 1994, mostly at The Hit Factory in New York.",
-      "The scene it landed in is described differently by different writers. Wikipedia, citing Billboard, credits it with reviving East Coast hip-hop at a time when the West Coast dominated sales. Tom Breihan of Stereogum places it beside Nas's Illmatic as the other New York rap landmark of 1994 and argues it sounds more current than most of its peers. Tinsley notes that it came out the same day President Bill Clinton signed the 1994 crime bill, and reads it against crack-era New York — his interpretation, which he himself qualifies, saying the album \"wasn't as much a rebuttal\" to the law.",
-      "Combs described the plan as making \"a movie on wax about this kid from Brooklyn who had nothin' to lose,\" Tinsley quotes from a 2017 A&E documentary. Breihan hears slick, widescreen, pop-leaning production, closer in ambition to Dr. Dre's West Coast work than to New York's grittier tradition.",
-      "Reaction was strong. Critic Cheo H. Coker of Rolling Stone called it \"the strongest solo rap debut since Ice Cube's AmeriKKKa's Most Wanted,\" and Touré of The New York Times said it offered \"perhaps the most balanced and honest portrait of the dealer's life of any in hip-hop.\" Breihan's verdict twenty years on: \"It is as close to full-length perfection as rap music has ever come.\" It was certified 6x Platinum in the US by 2018 and added to the Library of Congress's National Recording Registry in 2024. Two things are contested: first-week sales, which Wikipedia puts at 57,000 and Andscape at 500,000, and who made the beat for the lead single — Pete Rock says he created it and went uncredited, a claim Wikipedia reports without a response from Combs. Samples also brought a lawsuit: in 2006 a jury found uncleared samples on several tracks and awarded damages, later reduced on appeal."
+      "It was made in two stages. According to XXL's oral history, the first sessions in 1993, at Uptown Records, produced the darker songs — Wallace sounds higher-pitched and more paranoid. Then Combs was fired from Uptown, launched Bad Boy, and Wallace finished the record in 1994 with a smoother, more confident delivery. His writing changed too: he filled notebooks in 1993, but by 1994 he was memorising lyrics. Producer Chucky Thompson recalled him writing only a few words at a time between breaks: \"It was like he knew what he wanted to say.\" Writer Justin Tinsley, in an excerpt from his book, describes him sitting in a corner mumbling and smoking while a beat looped for hours, then going into the booth and recording a verse in one take.",
+      "Combs was a hands-on executive producer. He gave producer Easy Mo Bee a list of records to sample and asked for a storyline. He pushed the radio-friendly side — Tinsley says he proposed sampling Mtume's \"Juicy Fruit\" and Wallace resisted at first as \"too soft\" — and he opposed the working title The Teflon Don as too New York-specific. Easy Mo Bee made the album's harder beats; producer Poke built the lead single on a reworked Mtume sample on an MPC60; Chucky Thompson and Nashiem Myrick reworked another after a sample-clearance problem; DJ Premier chopped a break for one song, recorded at D&D Studios. Rapper Method Man is the only guest. Credits for the lead single are contested: producer Pete Rock says, \"I did the original version, didn't get credit for it.\"",
+      "It's in the book 1001 Albums You Must Hear Before You Die (2005 edition, per Wikipedia), and the Library of Congress added it to the National Recording Registry in 2024. Rolling Stone's 2022 list entry says it \"marked the precise moment when hip-hop's golden age transitioned into its modern age.\" Writer Tom Breihan of Stereogum called it \"the best rap album ever made\"; producer Dante Ross called Wallace \"the greatest storyteller since Slick Rick.\" The dissent comes from rapper Open Mike Eagle, who told Grammy.com he \"never loved this album,\" while granting its importance."
     ],
     "listeningNotes": [
       {
-        "label": "Pop-polished, orchestral production",
-        "text": "Combs and his team gave Wallace lush, melodic backing that Breihan calls \"widescreen.\" It's why the record sounded made for radio without losing its street subject matter."
+        "label": "Story songs built from small details",
+        "text": "Complex's Peter A. Berry calls \"Warning\" \"a narrative exhibition that essentially defines great rap storytelling,\" with Wallace \"more Martin Scorsese than Pablo Picasso, writing and directing his own tales.\""
       },
       {
-        "label": "R&B hooks from older records",
-        "text": "\"Juicy\" borrows from Mtume's \"Juicy Fruit\" and \"Big Poppa\" from the Isley Brothers' \"Between the Sheets.\" Familiar soul grooves under a hard voice became the Bad Boy formula."
+        "label": "Soft samples, hard voice",
+        "text": "\"Juicy\" and \"Big Poppa\" sit on smooth R&B grooves from Mtume and the Isley Brothers while Wallace's baritone stays deadpan, the mix of hard and soft that Rolling Stone calls a \"template for decades of artists.\""
       },
       {
-        "label": "Harder New York beats",
-        "text": "Producer Easy Mo Bee supplied the darker material, such as \"Gimme the Loot\", which survives from the earlier 1993 sessions. The album runs between the two moods."
+        "label": "A chopped break and a borrowed hook",
+        "text": "\"Unbelievable\" is built on a chopped break by DJ Premier, with verses written and recorded in one long night at D&D, per Tinsley, and a hook that borrows from R. Kelly's \"Your Body's Calling.\""
       },
       {
-        "label": "Cinematic storytelling",
-        "text": "Critic Shortie of The Source praised Wallace's ability to \"weave tales like a cinematographer.\" Skits and narrative songs make the record play like a film rather than a set of singles."
+        "label": "Two voices on one track",
+        "text": "On \"Gimme the Loot\" Wallace raps in his normal voice and in a higher-pitched alter ego, with DJ Mister Cee scratching."
       },
       {
-        "label": "A tight guest list",
-        "text": "Method Man of Wu-Tang Clan is the only guest rapper, on \"The What\", per Breihan. Keeping the spotlight on Wallace's voice is a large part of the album's identity."
+        "label": "A staged ending",
+        "text": "\"Suicidal Thoughts\" ends with a staged gunshot and a body hitting the floor; engineer Charles Alexander said Wallace fell hard once the lights were off."
       }
     ],
     "sources": [
       {
-        "title": "Ready to Die — Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Ready_to_Die"
+        "title": "The Making of Ready to Die: Family Business — XXL (2014 reprint)",
+        "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business/"
       },
       {
-        "title": "As The Notorious B.I.G. enters the Rock & Roll Hall of Fame, a look back at Ready to Die — Andscape (Justin Tinsley, 2020)",
-        "url": "https://andscape.com/features/as-the-notorious-b-i-g-enters-the-rock-roll-hall-of-fame-a-look-back-at-ready-to-die/"
+        "title": "Behind the Scenes of Ready to Die — Literary Hub, excerpt from Justin Tinsley's It Was All a Dream (2022)",
+        "url": "https://lithub.com/behind-the-scenes-of-ready-to-die-an-excerpt-from-it-was-all-a-dream-biggie-and-the-world-that-made-him"
       },
       {
         "title": "Ready To Die Turns 20 — Stereogum (Tom Breihan, 2014)",
         "url": "https://stereogum.com/1704713/ready-to-die-turns-20/reviews/the-anniversary"
+      },
+      {
+        "title": "Every Song on Ready to Die Ranked — Complex UK (2024)",
+        "url": "https://uk.complex.com/music/a/dimassanfiorenzo/the-notorious-big-ready-to-die-ranked"
+      },
+      {
+        "title": "Ready to Die 30th anniversary — Okayplayer (Peter A. Berry, 2024)",
+        "url": "https://www.okayplayer.com/ready-to-die-30th-anniversary"
+      },
+      {
+        "title": "Ready to Die — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ready_to_Die"
       }
     ],
     "influencedBy": [
@@ -18335,7 +18411,7 @@
         "artist": "Mtume",
         "album": "Juicy Fruit",
         "year": "1983",
-        "note": "Sampled directly for the lead single, per Wikipedia."
+        "note": "Sampled directly for the lead single, per Wikipedia; Tinsley says Combs proposed the sample."
       },
       {
         "artist": "The Isley Brothers",
@@ -18366,7 +18442,7 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ec01c",
     "image": "https://i.scdn.co/image/80c4ece4e5ce825c001f6d3c8ba69dc62f5be153",
-    "savedAt": "2026-11-18T18:43:27.665Z"
+    "savedAt": "2026-11-19T14:14:08.965Z"
   },
   "5f34ee8bf0857e55ed5ec077": {
     "artist": "The Stooges",
@@ -18375,49 +18451,57 @@
     "heading": "Raw Power — The Stooges (1973)",
     "albumLine": "Released 7 February 1973 on Columbia, credited to Iggy and the Stooges, with singer David Bowie and singer Iggy Pop both listed as producers. It's proto-punk and hard rock, and it's the band's third studio album after The Stooges (1969) and Fun House (1970).",
     "overview": [
-      "The first two Stooges albums sold poorly and the band broke up. Pop, the singer, went to London to record with guitarist James Williamson, who had been the band's second guitarist from November 1970 to July 1971. Per Wikipedia, no suitable English rhythm section turned up, so Williamson suggested that the Stooges' original guitarist Ron Asheton and his brother, drummer Scott Asheton, fly over. Ron reluctantly moved to bass. Pop, who had signed to Columbia as a solo artist, was backed by the management company MainMan, run by Tony Defries; MainMan later dropped the band, and Columbia dropped them after a year of touring. They split in February 1974.",
-      "After demos at two London studios, the album was recorded at CBS Studios in London between 10 September and 6 October 1972. Wikipedia says Pop first mixed it himself, putting most instruments in one channel and vocals in the other; Defries told him Bowie would remix it, and Bowie did seven songs in a day at Western Sound Recorders in Los Angeles in October 1972, with Pop keeping his own mix of one. Writer Madeline Bocaro dates Pop's first attempt to 1974, which conflicts with Wikipedia's 1972, and the discrepancy is unresolved here.",
-      "The mix has been argued over ever since. Wikipedia says Bowie claimed there was \"nothing to mix\" with only three tracks to work with, yet a 2010 documentary by film-maker Morgan Neville showed every instrument on its own track. Williamson told Classic Rock that Bowie's is \"the best mix. The historical mix,\" Bocaro reports, while Pop said the original mix \"was like a dog whistle they couldn't hear.\" In 1997, under label pressure, Pop made his own remix. Critic Mark Deming of AllMusic, quoted by Martin Winfree, felt Pop's was \"painfully harsh and distorted\" next to Bowie's \"tamer but more dynamic\" version; critic Robert Christgau called the restored bass and vocals \"a quantum improvement.\"",
-      "It sold modestly at first, reaching only No. 183 on the Billboard 200. Critic Lenny Kaye of Rolling Stone praised the studio work, and Wikipedia relays critic Dave Marsh's claim that it was already \"the best album of the '70s.\" Rolling Stone placed it 125th on its 2003 list of the 500 greatest albums. Per Wikipedia, Sex Pistols guitarist Steve Jones learned guitar by playing along to it."
+      "The first two Stooges albums sold poorly and the band broke up. Pop moved to London with guitarist James Williamson, and Wikipedia says no suitable English rhythm section turned up, so Ron Asheton, the Stooges' original guitarist, reluctantly switched to bass and his brother Scott came over on drums. Williamson told Classic Rock the plan was \"to form a new band, to make the record,\" and that the management company MainMan was \"consumed with breaking David Bowie in the U.S.,\" which left them alone: \"we were then able to go into the studio on our own, without a producer or anything.\" Songs came from Williamson sitting in his room working out riffs; Pop wrote the words afterward. Sessions ran 10 September to 6 October 1972 at CBS Studios in London.",
+      "The guitar sound is Williamson's own. He told Guitar World he used a 1960s Vox AC30 and a Cherry Burst Les Paul Custom — \"my guitar tone on Raw Power and everything else is essentially how I play.\" Fretboard Journal says that Les Paul, bought in 1971 after trading in an SG and a Jaguar, was the main guitar on the album.",
+      "The mix became the argument. Pop first mixed it himself, which Wikipedia says put most instruments on one channel and the vocals on the other; MainMan then had Bowie remix, and Bowie did seven songs in a single day at Western Sound Recorders in Los Angeles in October 1972. Bowie later said, \"Jim, there's nothing to mix,\" about a tape he said had only three tracks in use, although filmmaker Morgan Neville's 2010 documentary showed every instrument on its own track. Williamson has said both \"hands down, I much prefer Bowie's mix\" and that Bowie \"didn't really understand the music.\" Pop's own 1997 remix puts the rhythm section high and the levels deep in the red; critic Chris Parker of The A.V. Club says it became definitive for many newer fans but loses some of the original's strangeness.",
+      "It's on Rolling Stone's 500 greatest albums list (125th in 2003, per Wikipedia). Treble calls it \"unfiltered and unadorned lo-fi chaos,\" with \"some of the wildest singing, most enthralling guitar riffs, and deepest grooves.\" Smiths guitarist Johnny Marr praised Williamson's playing, and Guns N' Roses covered the title song."
     ],
     "listeningNotes": [
       {
-        "label": "Williamson's riff-first guitar",
-        "text": "Wikipedia quotes writer Brett Callwood saying the band moved from the \"groove-ridden, feel-based songs\" of its first two albums towards anthemic hard rock shaped by Williamson. \"Search and Destroy\" is the clearest case."
+        "label": "A trebly lead over a thick rhythm line",
+        "text": "Parker hears Williamson's guitar on \"Search and Destroy\" \"ring taut as strung razor wire against the chugging distortion-drenched rhythm line.\""
       },
       {
-        "label": "Acoustic guitars for contrast",
-        "text": "Williamson also plays acoustic on two tracks. Critic Steve Seachrist of Creative Loafing Tampa notes that the acoustic guitars vary the textures of otherwise primal, riff-based rock."
+        "label": "Acoustic guitar for contrast",
+        "text": "Parker also singles out \"the delicacy of Williamson's fingerpicked acoustic,\" a quieter side that appears on two songs."
       },
       {
-        "label": "Ron Asheton on bass",
-        "text": "A founding guitarist moved to bass reluctantly, and the rhythm section is locked to Scott Asheton's drumming. The low end carries more weight in some mixes than others."
+        "label": "Bowie's murky one-day mix",
+        "text": "Parker says Bowie \"mostly put the guitar and vocals high in the mix and left the bass and drums like an urgent yet distant train.\" Treble calls it one of the murkiest, dirtiest mixes in rock history."
       },
       {
-        "label": "Pop's voice and unusual instruments",
-        "text": "Besides singing, Pop plays celesta, piano and tambourine. Small touches like these set the album apart from plain guitar rock."
+        "label": "A bass player who didn't want to be one",
+        "text": "Ron Asheton moved from lead guitar to bass for Williamson. The rhythm section is the two Asheton brothers, with Scott on drums."
       },
       {
-        "label": "Two mixes, two moods",
-        "text": "Bowie's is thinner and more dynamic; Pop's 1997 remix is dense and extremely loud — Wikipedia reports criticism of its volume. Seachrist prefers Pop's, saying it sounds like a band playing; the verdict depends on which version you hear first."
+        "label": "The 1997 remix, loud and rhythm-forward",
+        "text": "Ron Asheton said of Pop's remix that the lead guitar was left \"abrupt and stilty,\" and writer Mark Adams found it \"certainly no improvement\" — hear it against the Bowie mix to see why people still argue."
       }
     ],
     "sources": [
       {
+        "title": "Raw Power — Classic Rock (Greg Prato, via Louder)",
+        "url": "https://www.loudersound.com/music/tracks-singles/raw-power-iggy-and-the-stooges"
+      },
+      {
+        "title": "James Williamson on The Stooges, 'Raw Power' — Guitar World (2018)",
+        "url": "https://guitarworld.com/artists/james-williamson-on-the-stooges-raw-power-and-his-new-album-behind-the-shade"
+      },
+      {
+        "title": "1969 Gibson Les Paul Custom: The Raw Power Guitar — Fretboard Journal (2010)",
+        "url": "https://www.fretboardjournal.com/?p=356"
+      },
+      {
+        "title": "Permanent Records: Raw Power — The A.V. Club (Chris Parker, 2014)",
+        "url": "https://www.avclub.com/iggy-pop-finds-the-raw-power-of-punk-s-convictions-1798271820"
+      },
+      {
+        "title": "Treble 100 No. 48: Raw Power — Treble (Tyler Golsen, 2023)",
+        "url": "https://www.treblezine.com/treble-100-no-48-iggy-the-stooges-raw-power/"
+      },
+      {
         "title": "Raw Power — Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Raw_Power"
-      },
-      {
-        "title": "CD Review: Iggy and the Stooges, Raw Power Legacy Edition — Creative Loafing Tampa (Steve Seachrist)",
-        "url": "https://www.cltampa.com/music-2/cd-review-iggy-and-the-stooges-raw-power-2cd-legacy-edition-12286906/"
-      },
-      {
-        "title": "Raw Power 45th Anniversary — Madeline Bocaro",
-        "url": "https://madelinex.com/2018/02/07/raw-power-45th-anniversary/"
-      },
-      {
-        "title": "Stooges: Raw Power — Underappreciated Rock (Martin Winfree)",
-        "url": "https://underappreciatedrock.org/stooges-3"
       }
     ],
     "influencedBy": [],
@@ -18427,54 +18511,63 @@
         "album": "The Queen Is Dead",
         "year": "1986",
         "note": "Guitarist Johnny Marr told Spin that Raw Power's \"influence came out on the Smiths album The Queen Is Dead\"; Wikipedia adds that his teenage listening to it informed the guitar work."
+      },
+      {
+        "artist": "Guns N' Roses",
+        "album": "The Spaghetti Incident?",
+        "year": "1993",
+        "note": "The covers album includes the band's cover of the title song, with bassist Duff McKagan on vocals, per Wikipedia and Louder."
       }
     ],
     "uuid": "5f34ee8bf0857e55ed5ec077",
     "image": "https://i.scdn.co/image/5af77ca175c106e062da41a71880f20042b74c91",
-    "savedAt": "2026-11-18T18:43:29.083Z"
+    "savedAt": "2026-11-19T14:14:10.352Z"
   },
   "5f34ee8bf0857e55ed5ebe52": {
     "artist": "Barry Adamson",
     "album": "Moss Side Story",
     "year": "1989",
     "heading": "Moss Side Story — Barry Adamson (1989)",
-    "albumLine": "Released 6 March 1989 on Mute Records and produced by Barry Adamson himself. It's a largely instrumental concept album — a soundtrack to a crime film that doesn't exist — and it's Adamson's debut solo studio album.",
+    "albumLine": "Released 6 March 1989 on Mute Records and produced by musician Barry Adamson himself. It's a largely instrumental concept album — a soundtrack to a crime film that doesn't exist — and it's his debut solo studio album.",
     "overview": [
-      "Adamson was born and raised in Moss Side, the Manchester neighbourhood named in the title, and came up through the punk and post-punk scene. Writer Ian Johnston, in The Quietus, reports that he played bass in Magazine from 1977 to 1981 and in singer Nick Cave's Bad Seeds from 1984 to 1986. His early world, Adamson says there, was \"very much a noir black & white world.\" The title also plays on composer Leonard Bernstein's West Side Story, per Wikipedia.",
-      "The record began as a single. Adamson sampled the main theme of film composer Elmer Bernstein's The Man with the Golden Arm on a new sampler, slowed it by playing lower on the keys, and sat at a drum kit \"like Frank Sinatra in the film\" (the singer and actor), he told Johnston. Elmer Bernstein approved, Mute released it, and Adamson calls it \"a calling card\" that grew into the album. Wikipedia quotes a 2017 interview in which he said he made the album from a fascination with film music, as a calling card to get hired to score films. The concept was deliberate but not publicised: people \"thought it was a soundtrack and I did nothing to dissuade them.\"",
-      "The sound is a mix that Johnston describes as decadent big band jazz, sinuous funk, hip-hop grooves, 1960s thriller themes, classic strings and soulful gospel — his description, not a list of named influences. Adamson played nearly everything himself and handled the samples and sequencing, with guests including singer Diamanda Galás and guitarist Rowland S. Howard. The track titles sketch a noir plot across three acts.",
-      "Reception was strong. Critic Ritchie Unterberger of AllMusic called it \"a sinister and edgy soundscape\" and Adamson's best solo effort by far; NME critic S. Marconie called it \"one of the best soundtracks ever, the fact that it has no accompanying movie is a trifling irrelevance.\" It reached No. 9 on the UK Indie Chart and was placed 34th in NME's 1989 albums of the year. It did lead to film work: Adamson scored Delusion (1991), director Oliver Stone used three tracks in Natural Born Killers (1994), and Adamson scored 35 minutes of Lost Highway (1997), per Johnston. Novelist Hubert Selby Jr. wrote to say he loved its \"shoot 'em up\" quality. Trouser Press, with no album or year given, credits Adamson with influencing Portishead."
+      "Adamson was born in Moss Side, the Manchester district named in the title, and had played bass in Magazine and in singer Nick Cave's Bad Seeds. Writer Ian Johnston of The Quietus reports the album began with a sampler: \"I was transfixed with this sampler I'd bought,\" Adamson says, and Mute offered a publishing deal. He sampled the main theme of Elmer Bernstein's score for The Man with the Golden Arm, slowing it by playing lower on the keys — \"the genius of the sampler is that you move further down the keys to slow the sample down\" — and went into the studio and \"sat at the drum kit like Frank Sinatra in the film.\" Bernstein's response, relayed by Adamson: \"Sounds good to me.\" That one piece, Adamson says, became the idea for the album.",
+      "He made it largely alone. Wikipedia credits him with all instruments except as noted, plus string arrangements, treatments, samples and sequencing, with John Fryer and Paul Kendall mixing and Kendall engineering. Guests include singer Diamanda Galás, guitarist Rowland S. Howard and saxophonist Gary Barnacle. The record is laid out in three acts with titles that read like a film-noir plot outline, and the inner sleeve carries a short story by musician Dave Graney. The title plays on West Side Story. Adamson has called it a \"calling card\" to get hired to score films, and it worked: he later scored Delusion, and director Oliver Stone used tracks in Natural Born Killers. \"People thought it was a soundtrack,\" he says, \"and I did nothing to dissuade them.\"",
+      "It's in the book 1001 Albums You Must Hear Before You Die (2010 revised edition, per Wikipedia), and NME ranked it 34th among 1989's albums. NME critic S. Marconie called it \"one of the best soundtracks ever, the fact that it has no accompanying movie is a trifling irrelevance.\" Critic Ritchie Unterberger of AllMusic called it \"a sinister and edgy soundscape.\" Reviewer mare-C of Head Heritage called the opener \"one of THE great opening salvos to any album\" and the whole \"a plunge down into jeopardy,\" good for \"dark-night walks on difficult days.\" Fan taste is more divided; one listener site rates it lower, with many finding the concept more interesting than the listening."
     ],
     "listeningNotes": [
       {
-        "label": "A slowed film theme as foundation",
-        "text": "The Man with the Golden Arm theme is sampled and slowed by playing lower on the keys, then underpinned with live drums. It's the seed the whole album grew from."
+        "label": "A film theme slowed on a sampler",
+        "text": "The Golden Arm theme comes in at the start, slowed by playing lower on the keys, with Adamson playing drums over it. Trouser Press calls the result \"a great, throbbing version.\""
       },
       {
-        "label": "Noir plot told through sequencing",
-        "text": "The record is laid out in three acts with titles that outline a film-noir story, so it plays like a movie you can follow without images."
+        "label": "Voices as sound effects",
+        "text": "Wikipedia notes occasional screams, vocal samples and a choir. On \"On the Wrong Side of Relaxation\" the voice is Diamanda Galás, used as a sound as much as a singer."
       },
       {
-        "label": "Strings and horns as scenery",
-        "text": "Orchestrator Billy McGee's string arrangements, cellist Audrey Riley's playing and saxophone parts on \"The Swinging Detective\" supply the cinematic backdrop."
+        "label": "Noir guitar and brass",
+        "text": "Rowland S. Howard plays guitar on \"Autodestruction\" and Gary Barnacle saxophone on \"Sounds from the Big House,\" the kind of guest touches that fill in the film's imaginary scenes."
       },
       {
-        "label": "Voices as texture, not song",
-        "text": "Wikipedia notes occasional screams, vocal samples and a choir. Diamanda Galás's voice on \"On the Wrong Side of Relaxation\" is a good example of a human voice used as set dressing."
+        "label": "A news-and-effects collage",
+        "text": "Trouser Press hears \"an exquisite assemblage of sampled newscasts, period sound effects\" with \"a strong aura of '60s mod London.\""
       },
       {
-        "label": "Sample-and-sequence craft",
-        "text": "Adamson plays all instruments except where credited and handles the samples, treatments and sequencing. The result sounds composed rather than assembled."
+        "label": "A TV theme rebuilt",
+        "text": "A bonus section on CD versions includes \"Alfred Hitchcock Presents,\" which reworks the show's theme and Gounod's \"Funeral March of a Marionette.\""
       }
     ],
     "sources": [
+      {
+        "title": "Memento Mori: The Strange World Of… Barry Adamson — The Quietus (Ian Johnston, 2018)",
+        "url": "https://thequietus.com/?p=25566"
+      },
       {
         "title": "Moss Side Story — Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Moss_Side_Story"
       },
       {
-        "title": "Memento Mori: The Strange World Of… Barry Adamson — The Quietus (Ian Johnston, 2018)",
-        "url": "https://thequietus.com/?p=25566"
+        "title": "Barry Adamson: Moss Side Story — Head Heritage (mare-C, 2002)",
+        "url": "https://headheritage.co.uk/?p=6139"
       },
       {
         "title": "Barry Adamson — Trouser Press",
@@ -18492,43 +18585,51 @@
     "influenced": [],
     "uuid": "5f34ee8bf0857e55ed5ebe52",
     "image": "https://i.scdn.co/image/84814bd01175aaf4d95b9bc136d52e547e358f15",
-    "savedAt": "2026-11-18T18:43:34.330Z"
+    "savedAt": "2026-11-19T14:14:13.141Z"
   },
   "5f34ee8bf0857e55ed5ebf2f": {
     "artist": "Dinosaur Jr.",
     "album": "You're Living All Over Me",
     "year": "1987",
     "heading": "You're Living All Over Me — Dinosaur Jr. (1987)",
-    "albumLine": "Released in 1987 on SST Records (Freakscene gives 14 December; Wikipedia gives only the year) and produced by Wharton Tiers. It's noise-tinged indie rock and the second album by Dinosaur Jr., after their 1985 debut Dinosaur.",
+    "albumLine": "Released in 1987 on SST Records (Freakscene gives 14 December) and produced by Wharton Tiers. It's noise-tinged indie rock, and it's the second album by Dinosaur Jr., after their 1985 debut Dinosaur.",
     "overview": [
-      "The band came out of Western Massachusetts and grew from the hardcore group Deep Wound, according to Clash. SST was then, in the words of writer Byron Coley in the album's reissue liner notes, \"as hot as tar,\" home to Black Flag, the Minutemen, the Meat Puppets, Hüsker Dü and Sonic Youth. Wikipedia, citing writer Michael Azerrad's book, says the debut sold only about 1,500 copies in its first year, and that Sonic Youth invited the band on a September 1986 tour. Guitarist J Mascis, bassist Lou Barlow and drummer Murph signed to SST; Barlow told Clash that being signed by the label \"would be our life goal realized.\"",
-      "The album was recorded in two places. Barlow told Clash that they \"recorded one side\" at Pine Tracks in Massachusetts, and the rest in New York with producer Wharton Tiers, who had Sonic Youth credentials; Murph recalls Tiers's studio, Fun City, as \"a huge step up.\" Barlow also described the group's dynamic: \"J was running everything.\" Writer Jill LaBrack of PopMatters suggested in 2005 that Barlow's own songs on the record \"showcase why he needed to leave and start Sebadoh\"; Coley wrote that he \"devoted all of his songwriting focus to Sebadoh from this point on.\"",
-      "Two small mysteries survive. The first issue carried the name Dinosaur; per Wikipedia, a lawsuit led to a reprint under the name Dinosaur Jr., though the reason for the recall is tagged as needing a citation. The title was long rumoured to be a Mascis exclamation about cramped touring conditions; Wikipedia reports that he denied this in a 2016 VICE interview, saying he thought of it \"more like my sister.\"",
-      "Reviews were warm from the start. NME critic Jack Barron wrote in September 1987 that it was \"the most agape rock music to have come out of America this year,\" and critic Robert Christgau gave it a B+. Fan opinion grew from there: Coley called Mascis's effects-laden guitar \"a revelation to a generation that had forsaken solos as old hat,\" and musician Thurston Moore of Sonic Youth told Clash, \"That's when I was initially enlightened.\" Pitchfork's Jess Harvell scored the 2005 reissue 9.1, and the band played the album in full at a 2005 festival."
+      "SST, writer Byron Coley says in the reissue liner notes, was \"as hot as tar\" then, home to Black Flag, the Minutemen, the Meat Puppets, Hüsker Dü and Sonic Youth. The trio — guitarist and singer J Mascis, bassist Lou Barlow and drummer Murph — recorded in two places. Barlow told Clash that one side was cut at Pine Tracks in Massachusetts, and the rest in New York at Fun City with Tiers, who had worked with Sonic Youth; Murph called Fun City \"a huge step up.\" Dave Pine also engineered. The sessions were not easy. Murph described Mascis as \"tortuous; everything had to be just right,\" down to \"you're hitting the cymbal wrong here,\" and Barlow said, \"I totally followed J and would follow him anywhere... J was running everything.\"",
+      "Mascis's guitar is the record. Coley calls its \"effects-laden guitarwork\" \"a revelation to a generation that had forsaken solos as old hat,\" and bassist Mike Watt told him, \"the gtr sound is massive massive massive on the record.\" Mascis told an interviewer he used a 50-watt Marshall head on this album and its follow-up; a 1988 SST press release described two 50-watt heads into a 100-watt head and two 4x12 cabinets. The accounts differ, and he has said he knew he \"needed a fuzz box.\" Barlow sings two songs of his own and builds a closing lo-fi tape-loop piece. Sonic Youth guitarist Lee Ranaldo sings backing vocals on one song. Mascis's own verdict, via record executive Gerard Cosloy, was that the production was \"inept and incompetent\"; Cosloy said it \"really had its own sound for the time.\"",
+      "It's in the book 1001 Albums You Must Hear Before You Die, whose entry by writer Stevie Chick (quoted by blogger Rich Cain) says it \"captured the turbulent, dysfunctional beast that was Dinosaur Jr. at their flammable creative peak.\" Alternative Press ranked it fifth among the best albums of 1985–95, and Pitchfork put it 46th on its 2018 list of the 1980s, calling it a record where \"nothing about Dinosaur Jr.'s chaotic music should have worked.\" Musician Thurston Moore of Sonic Youth said hearing it was when he \"was initially enlightened.\"",
+      "Two small mysteries remain. The first pressing carried the name Dinosaur, and later ones Dinosaur Jr.; Wikipedia says a lawsuit forced the change, though that claim is uncited. The title was long rumoured to be a Mascis exclamation about cramped touring, which he denied: \"I thought of it more like my sister.\" The book's blurb instead says it came from a tour-bus tantrum."
     ],
     "listeningNotes": [
       {
-        "label": "The effects-laden guitar wall",
-        "text": "Mascis layers distorted, effects-heavy guitar that Coley calls a revelation and musician Mike Watt calls \"massive massive massive.\""
+        "label": "A guitar that's distant and close at once",
+        "text": "Coley hears the sound as \"both distant and close at the same time,\" and Watt says one song goes \"between a 12 string sound and RAWWWR.\""
       },
       {
-        "label": "Black Sabbath's heaviness, bent",
-        "text": "LaBrack says the guitar work \"steals (and then breaks) from Black Sabbath.\" The riffs are heavy, but they wander off-grid."
+        "label": "Mascis's broken-hearted voice",
+        "text": "Critic Jill LaBrack of PopMatters hears Mascis \"always on the cusp of a broken heart,\" singing over guitar she says \"cannot be underestimated.\""
       },
       {
-        "label": "Two vocal personalities",
-        "text": "Mascis sings lead on most of it, while Barlow writes and sings \"Lose\" and \"Poledo\" in a more fragile, sing-song register. It's a rare record where the band's tension reads as variety."
+        "label": "Barlow's tape-loop closer",
+        "text": "\"Poledo\" pairs lo-fi ukulele with sound collages and noise, per Wikipedia and Decibel, and Barlow sings lead on it and on \"Lose.\""
       },
       {
-        "label": "A pop cover in the noise",
-        "text": "The album closes with a cover of the Cure's \"Just Like Heaven.\" Setting a melodic song beside the roar is typical of the band's pop-and-noise approach."
+        "label": "Melodic bass",
+        "text": "Watt singles out the bass on \"In a Jar,\" \"with its melodic lines,\" and Decibel credits Barlow and Murph's rhythm section for carrying that song and \"The Lung.\""
       },
       {
-        "label": "Two studios, two feels",
-        "text": "Half of the record came from a Massachusetts studio and half from Tiers's New York one, which Murph called a big step up. The album sounds cohesive anyway."
+        "label": "A pop cover on the reissue",
+        "text": "The Cure's \"Just Like Heaven\" is a bonus track on the 2005 reissue, not on the original LP; the SST CD instead added Peter Frampton's \"Show Me the Way.\""
       }
     ],
     "sources": [
+      {
+        "title": "You're Living All Over Me oral history — Clash (2014)",
+        "url": "https://www.clashmusic.com/features/youre-living-all-over-me-dinosaur-jr/"
+      },
+      {
+        "title": "You're Living All Over Me — Freakscene, reissue liner notes by Byron Coley (2004)",
+        "url": "https://www.freakscene.net/releases/dinosaur-jr/youre-living-all-over-me/"
+      },
       {
         "title": "You're Living All Over Me — Wikipedia",
         "url": "https://en.wikipedia.org/wiki/You%27re_Living_All_Over_Me"
@@ -18538,12 +18639,16 @@
         "url": "https://www.popmatters.com/review/dinosaurjr-youreliving/"
       },
       {
-        "title": "You're Living All Over Me oral history — Clash (2014)",
-        "url": "https://www.clashmusic.com/features/youre-living-all-over-me-dinosaur-jr/"
+        "title": "Still Choppin' — Decibel (Nick Green, 2023)",
+        "url": "https://www.decibelmagazine.com/2023/01/13/dinosaur-jr-youre-living-all-over-me/"
       },
       {
-        "title": "You're Living All Over Me — Freakscene (Byron Coley liner notes, 2004)",
-        "url": "https://www.freakscene.net/releases/dinosaur-jr/youre-living-all-over-me/"
+        "title": "Project 1001: You're Living All Over Me — Rich Cain",
+        "url": "https://richcain.substack.com/p/project-1001-youre-living-all-over"
+      },
+      {
+        "title": "J Mascis gear — Equipboard",
+        "url": "https://equipboard.com/albums/dinosaur-jr-you-re-living-all-over-me"
       }
     ],
     "influencedBy": [],
@@ -18569,54 +18674,65 @@
     ],
     "uuid": "5f34ee8bf0857e55ed5ebf2f",
     "image": "https://i.scdn.co/image/4fd50453364222d9530a244022e3dccc72cab36e",
-    "savedAt": "2026-11-18T18:43:35.568Z"
+    "savedAt": "2026-11-19T14:14:21.111Z"
   },
   "64d1614bfbd905ee8cdf38ee": {
     "artist": "Dexys Midnight Runners",
     "album": "Don't Stand Me Down",
     "year": "1985",
     "heading": "Don't Stand Me Down — Dexys Midnight Runners (1985)",
-    "albumLine": "Released 13 September 1985 on Mercury Records and produced by singer Kevin Rowland and producer Alan Winstanley (one fan blog gives 22 September). It's a long, talky mix of new wave and blue-eyed soul, and it's Dexys' third studio album, following Too-Rye-Ay (1982).",
+    "albumLine": "Released 13 September 1985 on Mercury Records (one fan blog gives 22 September) and produced by singer Kevin Rowland with producer Alan Winstanley. It's a long, talky blend of new wave and blue-eyed soul, and it's Dexys' third album, following Too-Rye-Ay (1982).",
     "overview": [
-      "Dexys had had a huge hit with a fiddle-driven single from Too-Rye-Ay, and this was the record that threw the formula away. Per Wikipedia, the band shrank from ten members to four — Rowland, guitarist Billy Adams, violinist Helen O'Hara and saxophonist Nick Gatfield — and the four posed in suits and ties for a look Rowland called \"Ivy League\" or \"Brooks Brothers.\" Recording ran from 1984 to 1985, and Dexys fired producers Jimmy Miller and Tom Dowd along the way.",
-      "The making was fraught. Gatfield called it a \"long drawn out painful process\" that \"felt uncomfortable and unnatural,\" and O'Hara said Rowland \"wanted to experiment more musically\" than the label liked and that \"it was obvious that nobody was really going to promote it.\" A blog called Every Record Tells a Story adds a wilder account — nine months of writing, around 120 versions of one song, a dispute over unpaid bills at a New York studio — but that comes from a single unsigned blog, so treat it as unconfirmed.",
-      "The album failed commercially, partly because Rowland refused to promote it or release a single, per Wikipedia, though an edited single did appear in November 1985 and missed the charts. One blog gives a UK peak of No. 22; Wikipedia gives none. Reaction was split. Critic Colin Irwin of Melody Maker called it \"quite the most challenging, absorbing, moving, uplifting and ultimately triumphant album of the year,\" while Trouser Press called it \"a torpid snore that denies entertainment on every level.\"",
-      "Its reputation was rebuilt slowly. Writer Simon Tyers says it took more than a decade, largely until a 1997 reissue on Creation Records, to gain status as \"a singular classic.\" Critic Bob Stanley wrote in The Guardian in 2008 that it emerged in a far less adventurous era than Too-Rye-Ay did, and blamed the band partly for not releasing a single. The 1001 Albums You Must Hear Before You Die book called it \"a Pet Sounds for the 1980s.\""
+      "The record began, according to the blog Every Record Tells a Story, as Rowland's socio-political view of Ireland and ended up more personal. The band shrank from ten members to four — Rowland, guitarist Billy Adams, violinist Helen O'Hara and saxophonist Nick Gatfield — and posed in suits and ties, a look Rowland called \"Ivy League\" or \"Brooks Brothers\" and which, writer Cian Traynor says, fuelled derision. Demos in spring 1984 used keyboardist Vincent Crane and drummer Mick Woodmansey; Al Green's drummer Tim Dancy then replaced Woodmansey. The first sessions at Mountain Studios in 1984, per Wikipedia, \"were not productive,\" and Winstanley was brought in. Dexys worked with and fired producers Jimmy Miller and Tom Dowd along the way.",
+      "The work dragged. The blog says \"three weeks in the studio became six months,\" and Rowland told theartsdesk's Thomas H. Green it was \"two years in the studio, working really hard.\" Gatfield called it a \"long drawn out painful process.\" Mixing began in New York and finished at Electric Lady; the blog tells of a dispute over unpaid bills and an attempt to take the tapes, which it attributes to Winstanley — an anecdote no other source confirms. The record was also sonically altered: Rowland told Hot Press that in 1985 \"we had to use a device called a stereo enhancer\" for airplay, \"and that was a mistake,\" and the 2002 Director's Cut was \"how the album was supposed to sound.\"",
+      "The 1985 reaction was split. Critic Colin Irwin of Melody Maker called it \"quite the most challenging, absorbing, moving, uplifting and ultimately triumphant album of the year,\" while Trouser Press called it \"a torpid snore that denies entertainment on every level.\" Rowland blamed ripple effects: \"one bad review can ripple through others.\" It's in the book 1001 Albums You Must Hear Before You Die, which Wikipedia says calls it \"a towering achievement… a Pet Sounds for the 1980s.\" Critic Paul Moody of Uncut called it a \"neglected masterpiece\" in 2007, and Rowland says it \"is probably the best of the eighties albums.\""
     ],
     "listeningNotes": [
       {
         "label": "Studio chatter as an opening",
-        "text": "According to the Every Record blog, \"This Is What She's Like\" opens with about two minutes of studio talk before the music starts. The record is full of spoken passages and mid-song conversation."
+        "text": "\"This Is What She's Like\" opens with about two minutes of studio talk, per the blog, before a suite that runs 12:23. Rowland began writing it in 1983 and said it \"literally came to me as I was going off to sleep.\""
       },
       {
-        "label": "Long, shifting song structures",
-        "text": "Side A runs to just three songs, and that same track alone lasts over twelve minutes. The pieces change direction as they go, which is why they feel more like scenes than singles."
+        "label": "Spoken conversations between songs",
+        "text": "Writer Dave Jennings of Louder Than War notes that conversations between Rowland and Adams open several tracks, \"a notable feature of the album.\""
       },
       {
-        "label": "Fiddle and mandolin colour",
-        "text": "O'Hara's violin and mandolin from musician Julian Littman give a folk texture to the new-wave arrangements."
+        "label": "Fiddle, mandolin, steel guitar and piano",
+        "text": "O'Hara's violin, Julian Littman's mandolin, Tommy Evans's steel guitar and Crane's \"sublime piano\" give the arrangements a folk and country colour on a soul record."
+      },
+      {
+        "label": "A cappella harmonies",
+        "text": "The blog hears a cappella harmony in the style of Brian Wilson's Pet Sounds inside the long opening song."
       },
       {
         "label": "A borrowed riff",
-        "text": "Wikipedia notes that \"One of Those Things\" uses a riff from singer-songwriter Warren Zevon's \"Werewolves of London\"; the blog says the debt was later credited."
-      },
-      {
-        "label": "Rowland's confessional voice",
-        "text": "Rowland sings in an exposed, talk-sung style, turning private argument and self-doubt into the subject. That intimacy is what later admirers point to."
+        "text": "\"One of Those Things\" uses a riff from singer-songwriter Warren Zevon's \"Werewolves of London\"; Rowland later said he was \"embarrassed\" not to have credited it, per the blog."
       }
     ],
     "sources": [
+      {
+        "title": "One of the greatest records ever made: Dexys' Don't Stand Me Down — Every Record Tells a Story (2014)",
+        "url": "https://everyrecordtellsastory.com/2014/04/28/one-of-the-greatest-records-ever-made-dexys-dont-stand-me-down"
+      },
       {
         "title": "Don't Stand Me Down — Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Don%27t_Stand_Me_Down"
       },
       {
-        "title": "Dexys Midnight Runners — Trouser Press",
-        "url": "https://trouserpress.com/?p=1696"
+        "title": "This Is What She's Like — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/This_Is_What_She%27s_Like"
       },
       {
-        "title": "Review: Dexys, One Day I'm Going to Soar — The Line of Best Fit (Simon Tyers, 2012)",
-        "url": "https://www.thelineofbestfit.com/reviews/albums/dexys-one-day-im-going-to-soar-98522"
+        "title": "Don't Stand Me Down Revisited — Louder Than War (Dave Jennings, 2012)",
+        "url": "https://louderthanwar.com/dexys-midnight-runners-dont-stand-me-down-revisited/"
+      },
+      {
+        "title": "10 Questions for Kevin Rowland — theartsdesk (Thomas H. Green, 2017)",
+        "url": "https://theartsdesk.com/new-music/10-questions-musician-kevin-rowland"
+      },
+      {
+        "title": "You beauty — Hot Press (Stephen Robinson, 2002)",
+        "url": "https://www.hotpress.com/music/you-beauty-2613181"
       }
     ],
     "influencedBy": [
@@ -18624,52 +18740,63 @@
         "artist": "Warren Zevon",
         "album": "Excitable Boy",
         "year": "1978",
-        "note": "A riff on one song is taken from this album's best-known track; Wikipedia says Zevon and his co-writers received a credit, and Furious.com reports Rowland admitting the borrowing."
+        "note": "A riff on one song is taken from this album's best-known track; Wikipedia says Zevon and his co-writers received a credit."
       },
       {
         "artist": "Van Morrison",
         "album": "Inarticulate Speech of the Heart",
         "year": "1983",
         "note": "Per a Dexys fan blog, Rowland credits the singer's spoken-word piece on this album as the inspiration for the spoken-word approach that runs through Dexys' record."
+      },
+      {
+        "artist": "The Beach Boys",
+        "album": "Pet Sounds",
+        "year": "1966",
+        "note": "The 1001 Albums book, per Wikipedia, calls it \"a Pet Sounds for the 1980s,\" and the Every Record blog hears Pet Sounds-style a cappella harmony in the opening suite."
+      },
+      {
+        "artist": "Lou Reed",
+        "album": "Transformer",
+        "year": "1972",
+        "note": "A critic cited by Furious.com says one song is \"reminiscent of Lou Reed's 'Satellite of Love'\"; a resemblance noted by critics, not a statement by Rowland."
       }
     ],
     "influenced": [],
     "uuid": "64d1614bfbd905ee8cdf38ee",
     "image": "https://i.scdn.co/image/ab67616d00001e028e5cc7288cc58c621730c33e",
-    "savedAt": "2026-11-18T18:43:31.778Z"
+    "savedAt": "2026-11-19T14:14:11.768Z"
   },
   "5f34ee8bf0857e55ed5ec019": {
     "artist": "Ian Dury",
     "album": "New Boots And Panties",
     "year": "1977",
     "heading": "New Boots And Panties!! — Ian Dury (1977)",
-    "albumLine": "Released 30 September 1977 on Stiff Records and produced by Peter Jenner, Laurie Latham and Rick Walton. It's pub rock and punk mixed with music hall, funk and disco, and it's Ian Dury's debut studio album.",
+    "albumLine": "Released 30 September 1977 on Stiff Records and produced by Peter Jenner, Laurie Latham and Rick Walton. It's pub rock and punk mixed with music hall, funk and jazz, and it's Ian Dury's debut studio album.",
     "overview": [
-      "Dury, the singer and lyricist, was 35 and had come out of the pub-rock band Kilburn and the High Roads, according to Trouser Press, when he signed to the young Stiff label. He wrote the words, and keyboardist and guitarist Chaz Jankel co-wrote most of the music. The band that backed him — bassist Norman Watt-Roy, drummer Charley Charles and saxophonist Davey Payne among them — became the Blockheads. Wikipedia says the name came from a chance remark by Charles during the sessions, and that exactly how it stuck is disputed.",
-      "It was made in 1977 at the Workhouse Studio on London's Old Kent Road, after April demos at Alvic Studios in Wimbledon. The timing matters: it arrived in the year punk exploded, and writer Mark Herrington says in Louder that Dury \"benefitted from the punk tidal wave in the UK,\" though he \"wasn't punk.\" Wikipedia lists the genres as punk rock, pub rock, disco and music hall. One of Dury's best-known songs was left off the original UK pressing at his request and added to later editions, per Wikipedia and Trouser Press.",
-      "Reaction in 1977 was strong. Critic Allan Jones of Melody Maker described \"a tense, harrowing account of urban degradation,\" and critic Robert Christgau of The Village Voice gave it A−. It was a slow burn on the charts: Wikipedia says it peaked at No. 5 in the UK in February 1979, seventeen months after release, was UK platinum by June 1979, and ranked among the UK's top 30 best-sellers of both 1978 and 1979. Sources differ on singles: Louder says it produced nothing resembling a hit single, while Wikipedia lists several top-ten singles from the same period without saying which were on the original LP.",
-      "Its standing has held. Critic Tom Doyle of Q called it \"the creative yardstick\" Dury could never quite match, and a BBC Music review in 2012 called it a \"mighty missing link\" between the Kinks and Blur. Wikipedia reports a 2001 tribute album, Brand New Boots and Panties, with singer Sinéad O'Connor, musician Paul McCartney and singer Shane MacGowan among those contributing."
+      "Dury, the singer and lyricist, wrote much of it nearly a year before release at Oval Mansions in Kennington, often with keyboardist and guitarist Chaz Jankel. Writer Richard Buskin of Sound On Sound describes the method: Dury wrote lyrics, often in bulk, and brought them to Jankel, who did the musical arrangements; Jankel's careful demos were learned fast by the session players. Bassist Norman Watt-Roy remembers Dury turning up with \"sheets of paper with words basically all over his place.\"",
+      "The demos were cut in April 1977 at Alvic Studios in Wimbledon, with Dury on drums and vocals and Jankel on bass, guitar and piano; Watt-Roy and drummer Charley Charles were introduced there through the studio engineer. A week later, the album was recorded at the Workhouse Studio on the Old Kent Road, usually late at night, when management company Blackhill could use the studio's dead time for around £4,000. Latham did most of the hands-on production; Sound On Sound says the control room overlooked the live area, which made access hard for Dury, who had polio. Saxophonist Davey Payne, guitarist Edward Speight and Moog player Geoff Castle supplemented the band. The Blockheads, as the group became known, were formally assembled in October 1977 for the Live Stiffs tour; Wikipedia says the name came from a remark by Charles, while Jankel says it \"jumped off the lyric page.\"",
+      "One of Dury's best-known singles was left off the original UK pressing at his request; he didn't want singles on albums. It's in the book 1001 Albums You Must Hear Before You Die, per Wikipedia, and Q ranked it among the best British albums ever. Critic Allan Jones of Melody Maker called it \"a tense, harrowing account of urban degradation\"; critic Robert Christgau wrote \"Tender, furious, sexy, eccentric, surprising.\" Writer Everett True of Louder calls it \"a riotous celebration of East End culture and lad braggadocio,\" with \"the odd touchingly tender moment.\" Singer Suggs of Madness says it was where \"a lot of the stuff Ian Dury was working towards\" on his earlier band's album \"really came to fruition.\""
     ],
     "listeningNotes": [
       {
-        "label": "The Blockheads' tight rhythm section",
-        "text": "Per Rising Storm, Watt-Roy and Charles were \"a fearsomely tight rhythm section.\" Their funk-inflected groove is what makes the music-hall lyrics danceable."
+        "label": "A tight funk-jazz rhythm section",
+        "text": "Reviewer Len of The Rising Storm calls Watt-Roy and Charles \"a fearsomely tight rhythm section,\" the pairing Dury and Jankel met at Alvic."
       },
       {
-        "label": "Jankel's chords and arrangements",
-        "text": "Jankel supplied music and arrangements for Dury's lyrics, bringing jazzy and funky harmony to the pub-rock frame."
+        "label": "Music-hall characters in Cockney",
+        "text": "\"Clever Trevor,\" \"Billericay Dickie\" and \"My Old Man\" are affectionate, bawdy character portraits. Len says Dury drew on 1930s music hall and 1950s Carry On films, filtered through Ray Davies's London observation."
       },
       {
-        "label": "Saxophone with a free-jazz edge",
-        "text": "Rising Storm says Payne took his cues from jazz saxophonists Rahsaan Roland Kirk and Ornette Coleman. The sax adds the album's wilder streak."
+        "label": "A cappella and tribute",
+        "text": "\"Sweet Gene Vincent\" honours rock and roll singer Gene Vincent, with \"stroboscopic\" a cappella parts, per Len."
       },
       {
-        "label": "Cockney character vocals",
-        "text": "Dury delivers the lyrics in a spoken, music-hall style. Critic Roy Carr of NME said he had taken \"the essence of the Cockney music hall.\""
+        "label": "Jankel's arrangements",
+        "text": "Jankel supplied the music and arrangements for Dury's words, moving among jazz, soul, reggae and disco, so the same band can swing, lope or sprint."
       },
       {
-        "label": "A tribute to a rock and roller",
-        "text": "\"Sweet Gene Vincent\" honours singer Gene Vincent, whom Wikipedia calls Dury's \"musical hero.\" It shows the old rock and roll behind the new sound."
+        "label": "Moog and sax colour",
+        "text": "Castle's Moog and Payne's saxophone, which Len says takes its cues from jazz saxophonists Rahsaan Roland Kirk and Ornette Coleman, give the sound its odd, slightly deranged edge."
       }
     ],
     "sources": [
@@ -18678,70 +18805,96 @@
         "url": "https://en.wikipedia.org/wiki/New_Boots_and_Panties!!"
       },
       {
-        "title": "Ian Dury — Trouser Press",
-        "url": "https://trouserpress.com/reviews/ian-dury/"
+        "title": "Classic Tracks: Ian Dury & The Blockheads — Sound On Sound (Richard Buskin, 2007)",
+        "url": "https://www.soundonsound.com/techniques/classic-tracks-ian-dury-blockheads-hit-me-your-rhythm-stick"
       },
       {
-        "title": "Ian Dury: New Boots and Panties — Louder (Classic Rock)",
-        "url": "https://www.loudersound.com/music/albums/ian-dury-new-boots-and-panties"
+        "title": "Chaz Jankel interview — Punk 77 (John Wisniewski, 2025)",
+        "url": "https://punk77.co.uk/?p=27978"
       },
       {
-        "title": "Ian Dury: New Boots and Panties — The Rising Storm (2009)",
-        "url": "http://therisingstorm.net/ian-dury-new-boots-and-panties/"
+        "title": "Norman Watt-Roy interview — Get Ready to ROCK! (Pete Feenstra, 2013)",
+        "url": "https://getreadytorock.me.uk/blog/?p=11812"
+      },
+      {
+        "title": "New Boots and Panties 40th Anniversary — Louder (Everett True, 2017)",
+        "url": "https://loudersound.com/reviews/ian-dury-the-blockheads-new-boots-and-panties-40th-anniversary-album-review"
+      },
+      {
+        "title": "Ian Dury: New Boots and Panties — The Rising Storm (Len, 2009)",
+        "url": "https://therisingstorm.net/ian-dury-new-boots-and-panties/"
+      },
+      {
+        "title": "Madness' Suggs: 13 favourite albums — The Quietus (Baker's Dozen)",
+        "url": "https://thequietus.com/interviews/bakers-dozen/madness-suggs-13-favourite-albums-bakers-dozen/11"
       }
     ],
-    "influencedBy": [],
+    "influencedBy": [
+      {
+        "artist": "Kilburn and the High Roads",
+        "album": "Handsome",
+        "year": "1975",
+        "note": "Madness singer Suggs told The Quietus that \"a lot of the stuff Ian Dury was working towards on that album really came to fruition on New Boots And Panties\"; the band was Dury's first, and two of its members played on this record."
+      }
+    ],
     "influenced": [],
     "uuid": "5f34ee8bf0857e55ed5ec019",
     "image": "https://i.scdn.co/image/330af5ca5acb12aecde33a2f1fb17d561f2ac444",
-    "savedAt": "2026-11-18T15:10:42.412Z"
+    "savedAt": "2026-11-19T14:14:14.418Z"
   },
   "5f34ee8bf0857e55ed5ebef4": {
     "artist": "Willie Nelson",
     "album": "Stardust",
     "year": "1978",
     "heading": "Stardust — Willie Nelson (1978)",
-    "albumLine": "Released in April 1978 on Columbia Records and produced by Booker T. Jones, the organist and producer. It's country-pop built on American standards, and it's Willie Nelson's 22nd studio album, arriving after Waylon & Willie (1978) and the outlaw-country run of Red Headed Stranger (1975).",
+    "albumLine": "Released in April 1978 on Columbia Records and produced by Booker T. Jones, the organist and producer. It's country-pop built on American standards, and per Wikipedia it's Willie Nelson's 22nd studio album, arriving after Waylon & Willie (1978) and the outlaw run of Red Headed Stranger (1975).",
     "overview": [
-      "By 1977 Nelson was a country star whose outlaw image had been cemented by Wanted! The Outlaws, which Holler says was the first country album to sell over a million copies. According to Wikipedia he planned an album of American pop standards, partly inspired by singer Frank Sinatra's influence on him. He was a Malibu neighbour of Jones, knew his work with Booker T. & the M.G.'s, asked him to arrange one song, and then asked him to produce the whole record. Holler adds that, according to legend, they met on a morning jog — a detail no other source here repeats.",
-      "Nelson picked the ten songs himself, starting with the title song, which he knew from childhood sheet music. He doubted his own version of a song singer Ray Charles had made famous, and Jones told him: \"Ray did it his way, and you'll do it yours.\" It was recorded December 3–12, 1977 — \"only ten days\" — in a recording truck parked at producer Brian Ahern's Hollywood Hills home, with cables run into the living room where the band played. Harmonicist Mickey Raphael recorded in a tiled bathroom shower. Wikipedia credits Jones with Hammond organ and piano alongside pianist Bobbie Nelson, guitarist Jody Payne and drummer Paul English.",
-      "Columbia was not convinced. Wikipedia says executive Rick Blackburn reacted negatively and suggested Nelson write new material; Nelson replied that his younger audience wouldn't know the songs. The label pressed fewer copies at first, then reversed course when sales took off. It reached No. 1 on Billboard's country albums chart and No. 30 on the Billboard 200, and Wikipedia reports platinum status by December 1978, rising to five-times platinum. Sources disagree on how long it stayed on the charts: Wikipedia itself gives different figures, between 540 and 551 weeks, and one lead sentence says it charted until 1988.",
-      "Critics were warm then and warmer later. Critic Ariel Swartley of Rolling Stone wrote that \"for all the sleek sophistication of the material, Stardust is as down-home as the Legion dance,\" and critic Robert Christgau gave it an A−. Critic Jerry Renshaw of the Austin Chronicle called it \"a subtle masterpiece\" in 1999, and critic Jof Owen of Holler gave it 10/10, calling it \"country music's greatest ever curveball.\" It was added to the Grammy Hall of Fame in 2015, and Nelson performed it in full with an orchestra at the Hollywood Bowl in August 2013."
+      "Nelson, by then an outlaw-country star, wanted to record the pop songs he grew up with. Writer Jof Owen of Holler says he pitched the idea to Columbia executive Rick Blackburn, who was \"less than enthusiastic,\" and that Nelson met his Malibu neighbour Booker T. Jones — \"according to legend,\" on a morning jog. Nelson asked Jones to arrange \"Moonlight in Vermont\" as an experiment, and then to produce the whole album. Nelson picked the ten songs himself from childhood favourites, starting with the title song, which he knew from sheet music. Jones, Wikipedia says, \"kept the arrangements sparse, with no backup singers or additional strings\"; Nelson's contract gave him total creative control.",
+      "It was recorded in December 1977 in an unusual way. Producer Brian Ahern let Nelson use his Enactron recording truck, parked outside his Hollywood Hills home, with cables running into the living room where the band played. Harmonica player Mickey Raphael recorded his parts in a tiled bathroom shower. Wikipedia and Holler say ten days, 3–12 December, with \"as few takes as possible.\" Drummer Paul English told writer Scott K. Fish in 1981 that the band recorded it in \"three days,\" longer than they had ever taken on an album: \"We don't know what we're gonna do when we go in there... Willie never tells us how to play. So we get to create ourself.\" The two figures may measure different things, but no source explains the gap. Another disagreement: writer Seth Mnookin of Salon calls the sound \"lush\" and \"string-backed,\" which conflicts with Wikipedia's no-strings account.",
+      "Nelson worried about one song because singer Ray Charles had made it famous; Jones told him, \"Ray did it his way, and you'll do it yours.\" Columbia executives, Nelson recalled, said, \"This is not a good idea.\" He was proved right. Rolling Stone ranked it 260th among its 500 greatest albums, per Wikipedia, and it entered the Grammy Hall of Fame in 2015. Critic Ariel Swartley of Rolling Stone wrote, \"for all the sleek sophistication of the material, Stardust is as down-home as the Legion dance,\" and critic Robert Christgau gave it an A−. Owen, scoring it 10/10, calls the reinterpretations \"profoundly beautiful and filled with an intimate sense of sadness and loss.\""
     ],
     "listeningNotes": [
-      {
-        "label": "Sparse arrangements",
-        "text": "Booker T. Jones told an interviewer that Nelson came to him \"because of how simply I approach everything,\" and that there was \"a lot of space on that record.\" The playing leaves room around Nelson's voice."
-      },
       {
         "label": "Harmonica from a bathroom",
         "text": "Raphael's harmonica was cut in a tiled shower, which gives it a close, resonant sound against the living-room band."
       },
       {
-        "label": "Behind-the-beat phrasing",
-        "text": "Critic David Luhrssen of the Shepherd Express says Nelson was \"no bel canto singer, no Sinatra, but he sang the old songs with conviction.\" His loose phrasing is what makes the standards sound new."
-      },
-      {
         "label": "Hammond organ and piano warmth",
-        "text": "Jones's Hammond organ and Bobbie Nelson's piano add a soul-and-gospel undertone to \"Georgia on My Mind\" and \"Blue Skies.\""
+        "text": "Jones plays Hammond organ and piano, and Salon credits \"the lush production of Booker T. Jones,\" Raphael's harmonica and pianist Bobbie Nelson for the sound."
       },
       {
-        "label": "Songs from the Great American Songbook",
-        "text": "Standards such as the title song, written by composer Hoagy Carmichael, sit comfortably beside country phrasing. Luhrssen says the project led Nelson to keep recording this kind of material for years."
+        "label": "A singer who isn't a crooner",
+        "text": "Critic David Luhrssen of the Shepherd Express says Nelson was \"no bel canto singer, no Sinatra, but he sang the old songs with conviction,\" which is the whole appeal."
+      },
+      {
+        "label": "A cover that follows Ray Charles",
+        "text": "Critic Ron Hart of PopMatters hears Nelson's \"Georgia on My Mind\" as \"closer to the Ray Charles version than the original,\" the song Nelson was nervous about."
+      },
+      {
+        "label": "A silky title song",
+        "text": "Hart singles out \"the silky-soft spin on the 1927 title track\" for the record's intimacy."
       }
     ],
     "sources": [
+      {
+        "title": "Country Classics: Willie Nelson, Stardust — Holler (Jof Owen, 2022)",
+        "url": "https://holler.country/reviews/willie-nelson-stardust"
+      },
       {
         "title": "Stardust (Willie Nelson album) — Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Stardust_(Willie_Nelson_album)"
       },
       {
-        "title": "Willie Nelson: Stardust — Holler (Jof Owen, 2022)",
-        "url": "https://holler.country/reviews/willie-nelson-stardust"
+        "title": "Paul English on the Making of Stardust (1981) — Scott K. Fish (2017)",
+        "url": "https://scottkfish.com/2017/09/11/paul-english-on-the-making-of-stardust-1981"
       },
       {
-        "title": "Willie Nelson reissues — Austin Chronicle (Jerry Renshaw, 1999)",
-        "url": "https://www.austinchronicle.com/music/record-reviews-11702922/"
+        "title": "Sharps & Flats — Salon (Seth Mnookin, 1999)",
+        "url": "https://www.salon.com/1999/10/29/nelson_3"
+      },
+      {
+        "title": "Stardust (Legacy Edition) — PopMatters (Ron Hart, 2008)",
+        "url": "https://popmatters.com/willie-nelson-stardust-legacy-edition-2496140454.html"
       },
       {
         "title": "Willie Nelson, Stardust Legacy Edition — Shepherd Express (David Luhrssen, 2008)",
@@ -18755,11 +18908,17 @@
         "album": "Shadows in the Night",
         "year": "2015",
         "note": "Singer-songwriter Bob Dylan said, per Wikipedia, that he had wanted to make a standards album ever since hearing Nelson's Stardust; the Austin Chronicle says he proposed such a project in its wake."
+      },
+      {
+        "artist": "Rod Stewart",
+        "album": "Stardust... The Great American Songbook Volume III",
+        "year": "2004",
+        "note": "Critic Robert Christgau, reviewing it, set it against \"Willie Nelson, whose own Stardust remains the gold standard of rock-era standards.\""
       }
     ],
     "uuid": "5f34ee8bf0857e55ed5ebef4",
     "image": "https://i.scdn.co/image/cd277437206502ee642aa0ea677bb688b9385599",
-    "savedAt": "2026-11-18T18:43:30.529Z"
+    "savedAt": "2026-11-19T14:14:22.394Z"
   },
   "5f34ee8bf0857e55ed5ebf7f": {
     "artist": "Cream",
@@ -18768,49 +18927,61 @@
     "heading": "Disraeli Gears — Cream (1967)",
     "albumLine": "Released in November 1967 on Reaction in the UK and Atco in the US, and produced by Felix Pappalardi. It's psychedelic and blues-rock from a power trio, and it's Cream's second album, following Fresh Cream (1966) and preceding Wheels of Fire (1968).",
     "overview": [
-      "Cream began as a blues band and made this record at the point where blues turned psychedelic. Wikipedia says the main sessions ran 11–15 May 1967 at Atlantic Studios in New York with engineer Tom Dowd, who told the story that they took about three and a half days; the writer Richard Havers of uDiscover gives 8–16 May. Havers calls it the least blues-influenced of the band's records, with just one straight blues cover.",
-      "The first New York session shaped the album's sound. According to writer Matt Frost in MusicRadar, Atlantic Records executive Ahmet Ertegun produced day one and asked for a blues cover; bassist and singer Jack Bruce said overnight changes by new producer Pappalardi, who rewrote lyrics with his wife Gail Collins and talked guitarist Eric Clapton into singing lead, were \"very much against my wishes.\" Clapton said Pappalardi turned a standard 12-bar into \"a kind of McCartney-esque pop song.\" Ertegun was cooler on the psychedelic direction at first, calling it \"psychedelic hogwash\" before relenting after musician Booker T. Jones and singer Otis Redding praised one song, per Wikipedia.",
-      "The title came from roadie Mick Turner's malapropism for derailleur gears. Wikipedia has drummer Ginger Baker telling the story; uDiscover has Clapton discussing a bicycle at the time, and the accounts agree on Turner and the joke. The cover is a collage by artist Martin Sharp, who worked for OZ magazine and lived in the same Chelsea building as Clapton.",
-      "It was a hit: No. 5 in the UK, No. 4 on the Billboard 200, platinum in the US. Reviews at the time were mixed — Rolling Stone said it \"does not totally hang together,\" while NME critic Allen Evans noted that, unlike their stage shows, \"the sound is mercifully muted on this LP.\" Later writers were warmer: critic Thomas Erlewine of AllMusic called it \"a quintessential heavy rock album of the '60s,\" and Rolling Stone placed it 112th on its 2003 list of the 500 greatest albums."
+      "The first New York sessions, writer Matt Frost reports in MusicRadar, were on 3 and 4 April 1967 at Atlantic Studios. Atlantic executive Ahmet Ertegun produced the first day and asked for a blues cover; overnight, Felix Pappalardi — then brought in as producer — rewrote the lyrics with his wife Gail Collins and persuaded guitarist Eric Clapton to sing lead. Clapton said Pappalardi turned the 12-bar blues into \"a kind of McCartney-esque pop song.\" Bassist and singer Jack Bruce said the change was \"very much against my wishes but at that moment I had absolutely no power in the band, in the studio.\" The band also refused the smaller amps engineer Tom Dowd offered and brought Marshall stacks; Bruce said Dowd \"wasn't used to it but he very quickly got used to it,\" and called him \"a genius of an engineer.\"",
+      "The main sessions came in May, and sources disagree on how long they took: Wikipedia and Louder say 11–15 May, uDiscover writer Richard Havers says 8–16 May over three and a half days. Bruce told Louder, \"We worked very fast. A lot of the tracks were first and second takes.\" Bruce wanted \"really heavy instruments with really light vocals.\" Guitar World's Chris Gill describes Clapton's tone on the signature riff: a 1964 Gibson SG Standard through a 1966 Marshall JTM45/100 head and a 4x12 cabinet, with the neck pickup and tone controls turned to the \"woman tone\" — \"less percussive attack, focused, vocal-like midrange and smooth, singing sustain.\" He also played a psychedelic, paint-daubed SG called The Fool.",
+      "Ertegun dismissed the signature song as \"psychedelic hogwash\" until musician Booker T. Jones and singer Otis Redding praised it, per Wikipedia; Rolling Stone's list entry says Dowd suggested a tribal drum beat from Ginger Baker, and Bruce told Louder he wrote the riff on double bass as the sun came up. The title came from roadie Mick Turner's joke, \"Has it got them Disraeli gears?\", and the cover is a collage by artist Martin Sharp.",
+      "Reaction at the time was mixed: Rolling Stone said it \"does not totally hang together,\" and NME's Allen Evans noted that, unlike their stage shows, \"the sound is mercifully muted.\" It's now treated as a landmark. Rolling Stone ranked it 170th on its 2020 list and calls it the sharpest and most focused of Cream's studio records; it entered the Grammy Hall of Fame in 1999; BBC critic Chris Jones calls it \"a perfect encapsulation of the point where the blues got psychedelic and in turn got heavy,\" and Louder says it \"became a touchstone recording of the '60s counterculture.\""
     ],
     "listeningNotes": [
       {
-        "label": "A blues riff rewritten as pop",
-        "text": "\"Strange Brew\" began as a blues cover before Pappalardi reworked it; Clapton said it became \"a kind of McCartney-esque pop song.\" It shows the producer's role in shifting the band's sound."
+        "label": "The woman tone",
+        "text": "On \"Sunshine of Your Love,\" Gill describes a tone with \"a less percussive attack, focused, vocal-like midrange and smooth, singing sustain,\" from a neck-pickup setting with the tone control turned down."
       },
       {
-        "label": "A borrowed blues solo",
-        "text": "Wikipedia says Clapton's solo on \"Strange Brew\" was copied from bluesman Albert King's solo on another song, a reminder of how deeply the blues sits under the psychedelia."
+        "label": "Marshall stacks in the studio",
+        "text": "The band refused the smaller amps Dowd offered and brought Marshall stacks; per MusicRadar, Dowd adapted quickly, and the volume is part of why the record sounds so thick."
       },
       {
-        "label": "Heavy riffing from a trio",
-        "text": "\"Sunshine of Your Love\" has a riff Bruce wrote after he and Clapton saw Jimi Hendrix play, per uDiscover. It became the band's signature and a template for heavy rock."
+        "label": "A blues cover turned pop",
+        "text": "\"Strange Brew\" began as a blues cover and was transformed by Pappalardi; Clapton says he wrote the music \"while listening to the Lovin' Spoonful's 'Summer in the City,'\" per uDiscover."
       },
       {
-        "label": "A straight blues cover",
-        "text": "\"Outside Woman Blues\" is based on a 1929 song by bluesman Blind Joe Reynolds, the one conventional blues track on an otherwise psychedelic record."
+        "label": "A head-voice vocal",
+        "text": "Bruce sang \"We're Going Wrong\" in a high head voice, in line with his stated wish, in Louder, for \"really heavy instruments with really light vocals.\""
       },
       {
-        "label": "Loud amps in a studio built for jazz",
-        "text": "Bruce said engineer Dowd \"wasn't used to it but he very quickly got used to it,\" meaning the volume. The sound the band got in New York is part of why the record feels so thick."
+        "label": "A tribal drum pattern",
+        "text": "On \"Sunshine of Your Love,\" Rolling Stone's entry says Dowd suggested the tribal-style drum beat from Baker, and uDiscover says Baker's drumming \"emphasized beats one and three.\""
       }
     ],
     "sources": [
       {
-        "title": "Disraeli Gears — Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Disraeli_Gears"
+        "title": "The making of Cream's Strange Brew — MusicRadar (Matt Frost, 2024)",
+        "url": "https://www.musicradar.com/news/guitars/the-making-of-creams-strange-brew-556626"
+      },
+      {
+        "title": "How we made Disraeli Gears in five days — Louder (David Sinclair, 2023)",
+        "url": "https://loudersound.com/features/cream-how-we-made-disraeli-gears-in-five-days"
       },
       {
         "title": "Rediscover Disraeli Gears — uDiscover Music (Richard Havers)",
         "url": "https://www.udiscovermusic.com/stories/rediscover-disraeli-gears/"
       },
       {
-        "title": "The making of Cream's Strange Brew — MusicRadar (Matt Frost, 2024)",
-        "url": "https://www.musicradar.com/news/guitars/the-making-of-creams-strange-brew-556626"
+        "title": "Eric Clapton's Sunshine of Your Love tone — Guitar World (Chris Gill, 2022)",
+        "url": "https://www.guitarworld.com/features/eric-clapton-cream-sunshine-of-your-love-tone"
       },
       {
-        "title": "Cream: Disraeli Gears — Louder (Classic Rock)",
-        "url": "https://www.loudersound.com/reviews/cream-disraeli-gears-album-of-the-week-club-review"
+        "title": "Cream, Disraeli Gears — Rolling Stone 500 Greatest Albums (2020)",
+        "url": "https://au.rollingstone.com/music/music-lists/best-albums-of-all-time-32520/cream-disraeli-gears-2-32851"
+      },
+      {
+        "title": "Disraeli Gears — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Disraeli_Gears"
+      },
+      {
+        "title": "Disraeli Gears — Classic Rock Review (Ric Albano, 2012)",
+        "url": "https://www.classicrockreview.com/?p=2786"
       }
     ],
     "influencedBy": [
@@ -18818,13 +18989,26 @@
         "artist": "Albert King",
         "album": "Born Under a Bad Sign",
         "year": "1967",
-        "note": "Wikipedia says Clapton's solo on the title-era single was taken nearly note for note from King's solo on a song from this album."
+        "note": "Wikipedia says Clapton's solo on the \"Strange Brew\" single was taken nearly note for note from King's solo on a song from this album."
+      },
+      {
+        "artist": "The Jimi Hendrix Experience",
+        "album": "Are You Experienced",
+        "year": "1967",
+        "note": "Guitar World's editors describe Disraeli Gears as taking the baton from the Experience; Clapton said the Sunshine riff was \"strictly a dedication to Jimi.\""
       }
     ],
-    "influenced": [],
+    "influenced": [
+      {
+        "artist": "Mountain",
+        "album": "Climbing!",
+        "year": "1970",
+        "note": "Guitarist Leslie West told Guitar Player that when Disraeli Gears came out he saw it was produced by Felix Pappalardi, who then produced Mountain's album; Rolling Stone called the band a louder version of Cream."
+      }
+    ],
     "uuid": "5f34ee8bf0857e55ed5ebf7f",
     "image": "https://i.scdn.co/image/0b683546a4aec9a4716ad7844512ad6672a4846d",
-    "savedAt": "2026-11-19T08:38:06.973Z"
+    "savedAt": "2026-11-19T14:14:29.115Z"
   },
   "5f34ee8bf0857e55ed5ebc1c": {
     "artist": "The Mars Volta",
@@ -18833,69 +19017,87 @@
     "heading": "De-Loused in the Comatorium — The Mars Volta (2003)",
     "albumLine": "Released 24 June 2003 on Gold Standard Laboratories and Universal, and produced by Rick Rubin together with guitarist Omar Rodríguez-López. It's progressive, jazz-fusion-leaning post-hardcore, and it's The Mars Volta's debut full-length, following the 2002 Tremulant EP.",
     "overview": [
-      "The band grew out of the collapse of At the Drive-In, with singer Cedric Bixler-Zavala and Rodríguez-López as its core. Drummer Jon Theodore joined in September 2001, per Wikipedia, and keyboardist Isaiah \"Ikey\" Owens and sound manipulator Jeremy Michael Ward completed the lineup. Writer Stephen Hill of Louder says the two leaders were meant to give listeners \"the next Nirvana\" and delivered something \"far more interesting.\"",
-      "The record was made with Rick Rubin at his Malibu studio, The Mansion, with engineer Dave Schiffman and mixer Rich Costey. Flea of the Red Hot Chili Peppers played bass on all but two tracks, recording his parts in three days according to writer Alastair Matcott of Tone Deaf, and guitarist John Frusciante, who recommended Rubin, contributed to one song. Rubin's real contribution is a matter of dispute: Bixler-Zavala said the album \"shows another side of Rick Rubin,\" Rodríguez-López said Rubin taught him \"everything [...] about running a production\" but also showed a direction he \"personally didn't want to be going in,\" and writer Phil Freeman of Stereogum wrote, \"I don't know how much of the credit belongs to Rick Rubin.\"",
-      "Ward died on 25 May 2003, days after the band's last show with him, of a heroin overdose aged 27, per Hill, after the album was recorded. The concept itself is about an overdose: Wikipedia says it was inspired by El Paso artist Julio Venegas, and its protagonist, Cerpin Taxt, takes morphine and rat poison, spends a week in a coma, travels through his paintings and decides to end his life. Matcott describes it as a eulogy for Venegas, who died in 1996.",
-      "Reaction was divided. It got a 4.9 from critic Brent DiCrescenzo of Pitchfork, who wrote that the band \"mistake sonic piling for complex architecture,\" and 2 of 5 from critic Dave Simpson of The Guardian; NME gave it 9 out of 10, Uncut said, \"Imagine a jam session between King Crimson, Fugazi and '70s Miles,\" and Metacritic's score is 82. It reached No. 39 in the US and No. 43 in the UK. Wikipedia's 500,000 sales claim is unsourced; the best-sourced figure is 434,000 US copies as of 2007 (Billboard, via Wikipedia). Freeman wrote in 2023 that the music has \"the precision and compositional wildness of Yes circa Relayer.\""
+      "The band's first attempt failed. Wikipedia, citing a 2021 booklet by writer Stevie Chick, says the group recorded sessions in summer 2002 at Mad Dog Studios in Burbank with Rodríguez-López producing, then abandoned the tapes and started again with Rubin. Rodríguez-López chose Rubin on guitarist John Frusciante's recommendation. Universal paired them, and singer Cedric Bixler-Zavala told Stereogum, \"when we met him at his house it just clicked.\" The sessions ran, writer Alastair Matcott of Tone Deaf says, \"starting at noon and finishing around two in the morning.\" Mix and Remezcla place the studio, The Mansion, in Laurel Canyon, the house where the Red Hot Chili Peppers made Blood Sugar Sex Magik; Wikipedia says Malibu.",
+      "Engineer Dave Schiffman described the approach to Mix: drums that were \"clear and precise,\" small guitar amps that \"cut through the track but don't overpower it,\" and a role for sound manipulator Jeremy Michael Ward — \"the vocal voodoo dude, which went into his mixer, through his toys and then back to me.\" Rubin's role is disputed. Bixler-Zavala said the album \"shows another side of Rick Rubin\"; Rodríguez-López said Rubin taught him \"everything [...] about running a production\" but steered toward a direction he \"personally didn't want to be going in\"; writer Phil Freeman of Stereogum wrote, \"I don't know how much of the credit belongs to Rick Rubin.\"",
+      "The bass came late. Bassist Eva Gardner had left mid-tour, and Guitar World says Rubin \"flicked through his extensive black book of all-star musicians and arrived at\" Flea, the Red Hot Chili Peppers bassist. Rodríguez-López and Gardner had already written many basslines, leaving Flea to embellish; he used a 1964 Fender Precision through an Ampeg SVT, and Tone Deaf says he recorded in three days. Ward died on 25 May 2003 of a heroin overdose, after recording. The story is about an overdose: protagonist Cerpin Taxt injects morphine and rat poison and falls into a coma, based on El Paso artist Julio Venegas.",
+      "It's in the book 1001 Albums You Must Hear Before You Die, per Wikipedia, and Rolling Stone ranked it 25th among the 50 greatest prog albums, saying it \"manically aligns triumphant metal, psychedelic rock and Latin jazz.\" Critic Brent DiCrescenzo of Pitchfork gave it 4.9, writing that the band \"mistake sonic piling for complex architecture\"; Uncut said, \"Imagine a jam session between King Crimson, Fugazi and '70s Miles.\" Freeman, twenty years on, called it \"their best album by far, precisely because of that balance of ecstasy and groundedness.\""
     ],
     "listeningNotes": [
       {
         "label": "Flea's Precision Bass foundation",
-        "text": "Flea played a 1964 Fender Precision Bass; engineer Schiffman said \"the bass was the foundation of every track.\" Wikipedia says Flea played on every track but two."
+        "text": "Schiffman said \"the bass needed to be full and present, because, essentially, the bass was the foundation of every track.\" Freeman points to the dub-soaked first half of \"Cicatriz ESP,\" with Flea's bass at the centre."
       },
       {
-        "label": "Frusciante's modular synth and guitar",
-        "text": "Frusciante played guitar and modular synthesizer on \"Cicatriz ESP\" and added a solo to the expansive middle section, per Wikipedia and Matcott."
+        "label": "Frusciante's treatments",
+        "text": "Frusciante later added \"additional guitar and synthesizer treatments\" to \"Cicatriz ESP,\" per Guitar World."
       },
       {
-        "label": "Upright bass and a quieter turn",
-        "text": "\"Televators\" is one of the two tracks without Flea; per Wikipedia, Justin Meldal-Johnsen plays double bass on it, giving it a different low end from the rest of the record."
+        "label": "Latin pulse in a prog frame",
+        "text": "Rodríguez-López said, in a 2008 Fader interview quoted by Remezcla, \"Everything I interpret... is filtered through hearing the clave.\" The Latin rhythm is part of the structure, not decoration."
       },
       {
-        "label": "Latin and Caribbean rhythms in prog form",
-        "text": "Wikipedia's prose lists jazz fusion, psychedelic rock, and Latin, Caribbean and African traditions among the sounds. Bixler-Zavala described the style as \"Fela Jehu,\" a mix of Fela Kuti and Drive Like Jehu."
+        "label": "Shrieked hooks",
+        "text": "Freeman credits \"the shrieked vocal hooks\" with making the sprawling songs stick, in prog \"with the energy of hardcore.\""
       },
       {
-        "label": "Ward's sound manipulation",
-        "text": "Ward is credited with sound manipulation; Hill says his only contribution to a Mars Volta album was sound effects. They add texture around the band's playing rather than carrying a part."
+        "label": "A double bass interlude",
+        "text": "\"Televators\" is one of two tracks without Flea; per Wikipedia, Justin Meldal-Johnsen plays double bass on it."
       }
     ],
     "sources": [
       {
-        "title": "De-Loused in the Comatorium — Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/De-Loused_in_the_Comatorium"
+        "title": "The Mars Volta — Mix (2003)",
+        "url": "https://www.mixonline.com/recording/music-production/mars-volta-365208"
       },
       {
-        "title": "The Mars Volta: prog rock for punk rock kids — Louder (Stephen Hill, 2023)",
-        "url": "https://www.loudersound.com/features/the-mars-volta-prog-rock-for-punk-rock-kids"
+        "title": "De-Loused in the Comatorium turns 20 — Stereogum (Phil Freeman, 2023)",
+        "url": "https://stereogum.com/2227442/mars-volta-de-loused-in-the-comatorium-turns-20/reviews/the-anniversary"
+      },
+      {
+        "title": "Flea played bass on the Mars Volta's best album — Guitar World (Michael Astley-Brown, 2022)",
+        "url": "https://www.guitarworld.com/features/flea-mars-volta-de-loused-in-the-comatorium"
       },
       {
         "title": "De-Loused in the Comatorium — Tone Deaf (Alastair Matcott, 2013)",
         "url": "https://tonedeaf.thebrag.com/deloused-comatorium/"
       },
       {
-        "title": "De-Loused in the Comatorium turns 20 — Stereogum (Phil Freeman, 2023)",
-        "url": "https://stereogum.com/2227442/mars-volta-de-loused-in-the-comatorium-turns-20/reviews/the-anniversary"
+        "title": "The Mars Volta, De-Loused in the Comatorium 15th anniversary — Remezcla (Elijah C. Watson, 2018)",
+        "url": "https://remezcla.com/features/music/the-mars-volta-deloused-in-the-comatorium-15th-anniversary/"
+      },
+      {
+        "title": "Prog rock for punk rock kids — Louder (Stephen Hill, 2023)",
+        "url": "https://www.loudersound.com/features/the-mars-volta-prog-rock-for-punk-rock-kids"
+      },
+      {
+        "title": "De-Loused in the Comatorium — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/De-Loused_in_the_Comatorium"
       }
     ],
     "influencedBy": [
       {
+        "artist": "Le Tigre",
+        "album": "Le Tigre",
+        "year": "1999",
+        "note": "Rodríguez-López told The Quietus, \"The first track, 'Deceptacon', inspired me to write 'Roulette Dares' for the first Mars Volta record.\""
+      },
+      {
         "artist": "Genesis",
         "album": "The Lamb Lies Down on Broadway",
         "year": "1974",
-        "note": "Wikipedia says singer Cedric Bixler-Zavala cited this concept album for the record's narrative, character-driven approach; no direct quote was found."
+        "note": "Wikipedia says Bixler-Zavala cited this concept album for the record's narrative, character-driven approach; no direct quote was found."
       },
       {
         "artist": "The Pretty Things",
         "album": "S.F. Sorrow",
         "year": "1968",
-        "note": "Cited alongside Genesis for the same story-album approach, per Wikipedia; this is the only source found and no direct quote was located."
+        "note": "Cited alongside Genesis for the same story-album approach, per Wikipedia; the only source found and no direct quote was located."
       }
     ],
     "influenced": [],
     "uuid": "5f34ee8bf0857e55ed5ebc1c",
     "image": "https://i.scdn.co/image/ab67616d00001e02f32a4535c09f7cae822bd695",
-    "savedAt": "2026-11-19T08:38:15.599Z"
+    "savedAt": "2026-11-19T14:14:26.404Z"
   },
   "5f34ee8bf0857e55ed5ebdb7": {
     "artist": "Fiona Apple",
@@ -18904,34 +19106,45 @@
     "heading": "Tidal — Fiona Apple (1996)",
     "albumLine": "Released 23 July 1996 on The Work Group, a Sony Music label, and produced by record executive Andrew Slater. It's chamber-pop and jazz-inflected alternative pop, and it's the debut album from singer and pianist Fiona Apple.",
     "overview": [
-      "Apple was a teenager when she made it. According to Wikipedia, a demo tape travelled from a friend who babysat for publicist Kathryn Schenker to Schenker and then to record executive Andrew Slater, who signed her in 1995. Billboard quoted Slater saying he \"couldn't believe [the demo] was written and sung by a 17-year-old.\" Rolling Stone, via Wikipedia, says she was 18 at release, and Wikipedia says the album comes from songs written in her teens and was largely inspired by a breakup. Apple herself said in 2000 that it \"was more for the sake of proving myself; telling people from my past something.\"",
-      "It was recorded in 1995 and 1996 at three Los Angeles studios, with Slater producing and engineer Mark Endert recording and mixing. Multi-instrumentalist Jon Brion and drummer Matt Chamberlain played on it, and arranger Van Dyke Parks wrote strings for one song. Apple herself told Keyboard in 1997, \"Honestly, I'm not a very skilled pianist\" (via Albumism). Sources disagree on the label: PopMatters, in 2009, says Epic, while Wikipedia lists Work, Columbia and Clean Slate.",
-      "The era's coverage often focused on her image. Albumism recalls the New York Times calling her a \"Lolita-ish suburban party girl\" and The New Yorker an \"underfed Calvin Klein model,\" and Apple said at the 1997 MTV Video Music Awards, accepting Best New Artist, \"This world is bullshit,\" per Wikipedia. It reached No. 15 on the Billboard 200, went triple platinum in the US, and won a Grammy for Best Female Rock Vocal Performance. Sales figures differ by source: Wikipedia gives 2.9 million US units on one page and 2.7 million on another, and Albumism says about 3 million.",
-      "Critics responded strongly, then and since. Critic Omar Kholeif of PopMatters called it \"a stark, brutal, and often beautiful portrait about a young girl's physical and emotional growth.\" Pitchfork gave it a 9.0 in 2017 (critic Jenn Pelly, via Wikipedia), and Rolling Stone placed it 25th on its 2022 list of the best debut albums. A negative view came from the Sydney Morning Herald, which, per Wikipedia, saw a \"gender cliché.\" Critics compared her to singers Alanis Morissette and Tori Amos at release, but those are critics' comparisons, not documented influences."
+      "Apple taught herself piano from The Real Book — \"I would teach myself a song that I'd never heard before,\" she told PopMatters — and wrote much of the album in her teens. A demo tape reached Slater through a friend who babysat for a music executive, per PopMatters writer Masarra Kahwaji. Slater's first reaction, Wikipedia says, was that \"it was a Milli Vanilli thing\"; he later told Billboard he \"couldn't believe [the demo] was written and sung by a 17-year-old.\" He signed her, managed her and produced the album. Sources differ on the label: PopMatters says Epic, Wikipedia lists Work, Columbia and Clean Slate.",
+      "It was recorded in 1995 and 1996 at studios in Los Angeles — Sony, Ocean Way and 4th Street — with engineer Mark Endert. The sound came from producer and multi-instrumentalist Jon Brion, who plays vibraphone, guitar, tack piano, Chamberlin, harp and more, and from drummer Matt Chamberlain, who told Modern Drummer that Brion was \"a mad scientist\" with so many old instruments that \"Jon was a major influence on this record because he had so many sounds sitting around that I could just grab.\" Chamberlain brought his own kit, but a rock approach \"failed miserably\"; the aim, he said, \"was about making her songs sound unique.\" Arranger Van Dyke Parks wrote strings for one song. There was tension about the piano: Apple said, \"I don't want this to be a fuckin' piano album,\" and Slater answered, \"No, this is how you sound. This is you.\"",
+      "It's in the book 1001 Albums You Must Hear Before You Die, per Wikipedia, and Rolling Stone placed it 25th among the best debut albums ever. Critic Omar Kholeif of PopMatters called it \"a stark, brutal, and often beautiful portrait about a young girl's physical and emotional growth.\" Writer Ellen Johnson of Paste, looking back, sees an artist who fought to make her own way in an industry unkind to women. Not everyone agreed at release: the Sydney Morning Herald, Wikipedia says, saw a \"gender cliché.\" At the 1997 MTV awards Apple accepted Best New Artist and said, \"This world is bullshit,\" per Wikipedia."
     ],
     "listeningNotes": [
       {
-        "label": "Brion's vintage keyboards",
-        "text": "Jon Brion's credits include Chamberlin, Optigan, vibraphone, marimba and dulcitone. That's an unusual set of instruments for a mid-1990s pop debut, and Kholeif singles out \"Sullen Girl\" in his review."
+        "label": "Brion's vintage keyboards and vibes",
+        "text": "Brion's credits include Chamberlin, vibraphone, marimba and harp. PopMatters hears \"the dreamy notes of John Brion's vibraphone\" on \"Slow Like Honey,\" and Spin writer Rebecca Haithcoat hears a \"wonky Chamberlin\" colouring \"Shadowboxer.\""
       },
       {
-        "label": "Piano-led songwriting",
-        "text": "Apple plays piano on most of the album and sings over it. The writing is built from the piano part outward, which is why the arrangements feel compact and personal."
+        "label": "Strings by Van Dyke Parks",
+        "text": "Parks's \"weeping strings\" on \"Never Is a Promise\" make it \"all the more heartbreaking,\" says PopMatters."
       },
       {
-        "label": "String arrangement by Van Dyke Parks",
-        "text": "Parks wrote the strings for one song, adding a classical layer to an otherwise band-sized record."
+        "label": "A hit written in under an hour",
+        "text": "\"Criminal\" was written, PopMatters says, in less than an hour after her label pressed her for a hit single; Albumism says 45 minutes."
       },
       {
-        "label": "Pedal steel colour",
-        "text": "Pedal steel player Greg Leisz appears on two tracks, a country-tinged sound that sits unexpectedly alongside the chamber-pop approach."
+        "label": "Drums that serve the song",
+        "text": "Chamberlain moved away from a rock approach to something that suited her songs; his drums come in on most tracks."
       },
       {
-        "label": "A Nina Simone-style vocal",
-        "text": "Kholeif compares the vocals on \"Criminal\" to the style of singer Nina Simone. It's a critic's comparison, but it points to the jazz and blues side of Apple's singing."
+        "label": "A piano-first confession",
+        "text": "Slater told her to \"take it back to what you wrote it on,\" the piano, and Albumism calls \"Sullen Girl\" \"a stark, minimalist composition.\""
       }
     ],
     "sources": [
+      {
+        "title": "The Legendary Waves Behind Fiona Apple's Grand Debut Tidal — PopMatters (Masarra Kahwaji, 2023)",
+        "url": "https://www.popmatters.com/fiona-apple-debut-tidal-atr1996"
+      },
+      {
+        "title": "Fiona Apple's debut album Tidal — Albumism (Justin Chadwick)",
+        "url": "http://albumism.com/features/fiona-apple-debut-album-tidal-album-anniversary"
+      },
+      {
+        "title": "Matt Chamberlain on the Making of a Career in the Studio — Modern Drummer (Michael Dawson, 2011)",
+        "url": "https://www.moderndrummer.com/2011/12/matt-chamberlain/"
+      },
       {
         "title": "Tidal (album) — Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Tidal_(album)"
@@ -18941,19 +19154,51 @@
         "url": "https://www.popmatters.com/108352-fiona-apple-tidal-2496057509.html"
       },
       {
-        "title": "Tidal retrospective — Paste (Ellen Johnson, 2020)",
-        "url": "https://www.pastemagazine.com/music/fiona-apple/tidal-retrospective-review-criminal"
+        "title": "Fiona Apple's Tidal 20 years — Spin (Rebecca Haithcoat, 2016)",
+        "url": "https://www.spinmagazine.com/2016/07/fiona-apple-tidal-20-years-anniversary/"
       },
       {
-        "title": "Fiona Apple's debut album Tidal — Albumism (Justin Chadwick)",
-        "url": "http://albumism.com/features/fiona-apple-debut-album-tidal-album-anniversary"
+        "title": "Tidal retrospective — Paste (Ellen Johnson, 2020)",
+        "url": "https://www.pastemagazine.com/music/fiona-apple/tidal-retrospective-review-criminal"
       }
     ],
-    "influencedBy": [],
-    "influenced": [],
+    "influencedBy": [
+      {
+        "artist": "Kate Bush",
+        "album": "The Kick Inside",
+        "year": "1978",
+        "note": "Wikipedia's page for that album quotes Apple: \"I used to sing and play a bunch of her songs from The Kick Inside at my piano when I was a kid\"; critic Peter Tabakis of Spectrum Culture places Tidal \"in the tradition of\" it."
+      },
+      {
+        "artist": "Tori Amos",
+        "album": "Little Earthquakes",
+        "year": "1992",
+        "note": "Spectrum Culture's Tabakis pairs it with The Kick Inside as the tradition Tidal follows; a critic's precedent rather than a statement by Apple."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Bettye LaVette",
+        "album": "I've Got My Own Hell to Raise",
+        "year": "2005",
+        "note": "Wikipedia says the title comes from a lyric in Apple's \"Sleep to Dream,\" which LaVette covers on the album."
+      },
+      {
+        "artist": "Olivia Rodrigo",
+        "album": "Sour",
+        "year": "2021",
+        "note": "Singer Olivia Rodrigo told Nylon, \"I'm not going to be able to do anything even half as good as [1996's] Tidal was,\" discussing Apple's influence on one of Sour's songs."
+      },
+      {
+        "artist": "Sara Bareilles",
+        "album": "Little Voice",
+        "year": "2007",
+        "note": "Singer-songwriter Sara Bareilles told The Independent, \"Fiona's writing changed my life\" and \"Tidal is a masterpiece\"; the quote names Tidal, not her own album."
+      }
+    ],
     "uuid": "5f34ee8bf0857e55ed5ebdb7",
     "image": "https://i.scdn.co/image/0c1c28d8d93d26e0f95a86d16b718af370fdc2f2",
-    "savedAt": "2026-11-19T08:38:17.043Z"
+    "savedAt": "2026-11-19T14:14:23.554Z"
   },
   "5f34ee8bf0857e55ed5ec0de": {
     "artist": "Tim Buckley",
@@ -18962,38 +19207,33 @@
     "heading": "Greetings From L.A. — Tim Buckley (1972)",
     "albumLine": "Released in August 1972 on Straight Records (Warner Bros. pressings) and produced by Jerry Goldstein. It's funk and R&B, a sharp turn from singer Tim Buckley's folk and jazz records, and per Wikipedia it's his seventh studio album.",
     "overview": [
-      "Buckley had spent years changing styles from album to album. Writer Dave Stephens of Toppermost traces the run through Happy Sad, Blue Afternoon, Lorca and Starsailor, the last of which \"sank commercially.\" Greetings from L.A. went somewhere else entirely. Wikipedia calls it a funk and R&B record with \"sexually provocative\" lyrics, a departure from the folk of his first albums and the jazz-tinged experiments that followed.",
-      "It was recorded in June 1972 at Far Out Studios in Hollywood, with engineers Chris Huston and Stan Agol, per Wikipedia. Toppermost says the band was assembled for the album, and that guitarist Lee Underwood, Buckley's long-time partner, was absent for the first time. Joe Falsia played guitar and wrote string arrangements, Chuck Rainey played bass, Ed Greene drums and Kevin Kelly organ and piano. A Gigslutz review by writer Becky Rogers credits Underwood on one song, which contradicts Toppermost and Wikipedia's personnel lists, so the note follows those two.",
-      "Why Buckley changed course is mostly critics' interpretation, since the opened sources give no direct statement from him. Toppermost calls it \"sex-funk,\" not quite funk in the manner of established genre artists, with Buckley wanting to treat sex as human rather than mysterious (the page's paraphrase). The AllMusic review reprinted on On The Record says the argument that it was \"a compromise or sellout doesn't seem to entirely wash,\" and Rogers notes some fans called it a sellout.",
-      "It sold modestly. Wikipedia says it did not sell well, though it is \"probably his best seller,\" with heavy airplay on Minneapolis station KQRS and good sales at independent shops in Minneapolis–St. Paul, Detroit and New York; Warner Bros. deleted it, and it kept selling as an import into the 1980s. Critic Robert Christgau gave it a B in his 1981 guide: \"Perverse as it may seem, Buckley's mannered, androgynous moan has real erotic appeal for some, and here it turns a trick.\" AllMusic gave it four stars, calling it \"greasy, funky, honky tonk.\" Release date is a minor dispute: Wikipedia gives August 1972; an unopened search snippet gave 1 October."
+      "Writer Dave Stephens of Toppermost says Buckley was \"down on his uppers\" after Starsailor \"had sunk almost without trace,\" and Greetings from L.A. \"horrified many of Tim's existing fans.\" Stephens quotes Buckley on the lyrics: he \"decided to make it human and not so mysterious, and to deal with the problems as they really are.\" Buckley called the new direction \"sex funk,\" and in 1974 he told an interviewer, \"I realized all the sex idols in rock weren't saying anything sexy,\" per Please Kill Me. Radio wouldn't play it; the lyrics were too explicit.",
+      "It was recorded in June 1972 at Far Out Studios in Hollywood, with engineers Chris Huston and Stan Agol, and, per Sessiondays, remixed at Wally Heider's studio in Los Angeles. Goldstein produced, arranged and played percussion. He had produced every album by the funk band War since Eric Burdon Declares \"War\" (1970), and co-wrote an earlier pop hit. Toppermost says the band was assembled for the record and was tight, and that guitarist Lee Underwood, Buckley's long-time partner, was absent for the first time. The core was guitarist Joe Falsia, bassist Chuck Rainey, drummer Ed Greene and keyboardist Kevin Kelly, with backing singers Venetta Fields, Clydie King and a third singer whose name Wikipedia gives as Lorna Willard and Sessiondays as Maxine Willard Waters. Writer Becky Rogers of Gigslutz credits Underwood on one song, which contradicts the personnel lists, so the note follows those.",
+      "Critics were divided. Robert Christgau gave it a B: \"Perverse as it may seem, Buckley's mannered, androgynous moan has real erotic appeal for some, and here it turns a trick.\" AllMusic, quoted by the blog On The Record, called it \"a fairly greasy, funky, honky tonk set of songs\" and said \"the argument that this was all somehow a compromise or sellout doesn't seem to entirely wash.\" Writer Wilson Neate of Trouser Press called it \"an orgy of a record\" but said \"there's nothing innovative about\" it. A blog working through the 1001 Albums You Must Hear Before You Die lists it at entry 260, and blogger Dr Simon calls it \"probably the most immediately accessible of Buckley's work.\" Musician Matt Johnson of The The, in a Quietus Baker's Dozen, said Buckley \"inspired me incredibly with just the way that he used the voice as another instrument.\""
     ],
     "listeningNotes": [
       {
-        "label": "Sex-funk grooves",
-        "text": "Rainey's bass and Greene's drums lock into R&B grooves, as on \"Move with Me.\" It's not funk in the manner of established funk artists, but the rhythm is the point."
+        "label": "Voice from falsetto to growl",
+        "text": "Dr Simon hears Buckley go \"from a falsetto to a growl in a single interval,\" and Gigslutz hears \"low-key sung poetry\" turn into \"screeching, awol wails of pure desperation and anguish.\""
       },
       {
-        "label": "Falsia's string arrangements",
-        "text": "Falsia wrote strings for \"Sweet Surrender\" and \"Make It Right,\" a viola, violin and cello section adding a lush layer over the rhythm section."
+        "label": "Strings in the bedroom",
+        "text": "Falsia wrote string arrangements for \"Sweet Surrender\" and \"Make It Right\"; Toppermost says of the first, \"Sexy strings envelop him.\""
       },
       {
-        "label": "Female backing voices",
-        "text": "Vocalists Venetta Fields, Clydie King and Lorna Willard give the record a gospel-soul chorus behind Buckley's lead."
+        "label": "A bare-bones song",
+        "text": "Dr Simon calls \"Hong Kong Bar\" \"very atmospheric,\" with only acoustic guitar, handclaps and voice; Sessiondays credits Goldstein's handclaps."
       },
       {
-        "label": "Congas and percussion",
-        "text": "Congas from Carter C.C. Collins and King Errisson, plus Goldstein's percussion, fill out the texture and keep the groove loose."
+        "label": "Congas and organ",
+        "text": "Carter C.C. Collins and King Errisson play congas, and Kelly plays organ on \"Get on Top,\" which gives the record its sweaty, rolling groove."
       },
       {
-        "label": "A mannered, androgynous moan",
-        "text": "Christgau's phrase for Buckley's voice: it is the common thread to his earlier records, now set against a band rather than a guitar. It's still unmistakably him."
+        "label": "Glossolalia in the funk",
+        "text": "On \"Get on Top,\" Toppermost says, \"Tim chucks in some of his glossolalia to make doubly sure he's put his stamp on the number.\""
       }
     ],
     "sources": [
-      {
-        "title": "Greetings from L.A. — Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Greetings_from_L.A."
-      },
       {
         "title": "Tim Buckley — Toppermost (Dave Stephens, 2016)",
         "url": "https://www.toppermost.co.uk/buckley-tim/"
@@ -19003,74 +19243,105 @@
         "url": "https://www.gigslutz.co.uk/record-tim-buckley-greetings-l-1972/"
       },
       {
+        "title": "Greetings from L.A. — Sessiondays (2017)",
+        "url": "https://sessiondays.com/2017/11/15/1972-tim-buckley-greetings-l/"
+      },
+      {
+        "title": "Greetings from L.A. — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Greetings_from_L.A."
+      },
+      {
         "title": "Tim Buckley: Greetings from L.A. — On The Record (reprinting AllMusic)",
         "url": "https://ontherecord.co/2021/01/10/tim-buckley-greetings-from-l-a/"
       },
       {
+        "title": "Matt Johnson's Baker's Dozen — The Quietus",
+        "url": "https://thequietus.com/interviews/bakers-dozen/matt-johnson-the-the-favourite-albums-bakers-dozen/8"
+      },
+      {
         "title": "Tim Buckley — Robert Christgau",
         "url": "https://robertchristgau.com/get_artist.php?id=2603"
+      },
+      {
+        "title": "Tim Buckley — Trouser Press (Wilson Neate)",
+        "url": "https://trouserpress.com/reviews/tim-buckley/"
       }
     ],
-    "influencedBy": [],
+    "influencedBy": [
+      {
+        "artist": "War",
+        "album": "Eric Burdon Declares \"War\"",
+        "year": "1970",
+        "note": "Both records were produced by Jerry Goldstein; Wikipedia says he has produced every War album since this one, which came two years before Buckley's funk turn."
+      }
+    ],
     "influenced": [],
     "uuid": "5f34ee8bf0857e55ed5ec0de",
     "image": "https://i.scdn.co/image/2cada15cc0a30d8eb2d8783b1f154bf3dfa09508",
-    "savedAt": "2026-11-19T08:38:18.423Z"
+    "savedAt": "2026-11-19T14:14:24.843Z"
   },
   "5f34ee8bf0857e55ed5ec0af": {
     "artist": "Van Morrison",
     "album": "Moondance",
     "year": "1970",
     "heading": "Moondance — Van Morrison (1970)",
-    "albumLine": "Released 27 January 1970 in the UK and 28 February 1970 in the US on Warner Bros., and produced by Van Morrison himself. It's a blend of R&B, soul, jazz and rock, and it's his third studio album, after Astral Weeks (1968).",
+    "albumLine": "Released 27 January 1970 in the UK and 28 February 1970 in the US on Warner Bros., and produced by Van Morrison himself. It's R&B, soul, jazz and rock, and it's his third studio album, after Astral Weeks (1968).",
     "overview": [
-      "After the commercial failure of Astral Weeks, Morrison moved to the Woodstock area with his wife Janet Planet and wrote the songs there, per WPDH. Writer Mark Leviton of Best Classic Bands says the forests, mountains and lakes inspired them; writer Melanie Davis of American Songwriter says Morrison wanted to become friends with Bob Dylan, whom she says he regarded as \"the only contemporary worthy of his attention.\" Warner Bros. executive Joe Smith had first seen him at Boston's Catacombs club in 1968, according to Wikipedia.",
-      "Wikipedia says it was recorded in August and September 1969 at A&R Studios in New York; Leviton gives September to December, so the dates are contested. Musicians were recruited from Woodstock, including guitarist John Platania, saxophonist Jack Schroer, flautist Collin Tilton, keyboardist Jef Labes, bassist John Klingberg and drummer Gary Mallaber. Drummer Mallaber told writer Martin Kielty that Morrison treated the music \"more like a jazz artist than a rock or R&B artist,\" choosing takes by the lead vocal. Tilton told Mix that the band went over rhythm takes \"until Van got what he wanted\" and added horns later.",
-      "Production credits are not uniform. Wikipedia lists Morrison as producer and Lewis Merenstein as executive producer; Leviton says Morrison fired Merenstein and took over production himself. Engineers are also disputed: Mix writer Gary Eskow reports different recollections about who engineered the title song, and says Elliot Scheiner mixed the album just before Christmas 1969.",
-      "It did not top the charts, reaching No. 29 on the Billboard 200 and No. 32 in the UK, but Wikipedia says it \"sold continuously for the next 40 years\" and is three-times platinum in the US. Critics Greil Marcus and Lester Bangs wrote in Rolling Stone in 1970 that Morrison had reached \"that point where the influences on his music no longer mattered,\" and that \"the horn arrangements are absolutely exquisite.\" Critic Robert Christgau gave it an A in 1970, saying, \"Forget Astral Weeks—this is a brilliant, catchy, poetic, and completely successful LP.\" Rolling Stone placed it 65th on its 2003 list of the 500 greatest albums."
+      "After Astral Weeks flopped, Morrison moved to Woodstock with his wife Janet Planet and began writing in July 1969. Writer Melanie Davis of American Songwriter says he wanted a \"commercially palatable\" follow-up and that, according to Planet, \"Van fully intended to become [Bob] Dylan's best friend.\" Wikipedia says he recruited the band from Woodstock and told Warner Bros. he would produce, and that he went into A&R Studios in New York \"with only the basic song structures written down.\" Morrison said he liked \"two horns and a rhythm section — they're the type of bands that I like best.\"",
+      "The method was close to jazz. Drummer Gary Mallaber told writer Martin Kielty that Morrison \"approached music more like a jazz artist than a rock or R&B artist\" — \"anything premeditated, none of that existed\" — and that takes were chosen by the vocal: \"The takes were chosen by vocal take, not by band take... Van never went back in and sang a lead vocal again.\" Engineer Elliot Scheiner told Mix writer Gary Eskow the record was \"for the most part\" cut live, and Collin Tilton, who played flute and saxophone, said, \"they did a million rhythm tracks, which was Van singing and John Platania on guitar along with bass and drums.\" Tilton adds, \"I basically wrote the arrangement on 'Moondance.'\" He also says a horn figure behind the vocal is \"sort of a cop from Coltrane's A Love Supreme. It's the same interval.\"",
+      "Where the melody came from is known: guitarist John Sheldon recalled the band at a 1968 rehearsal \"fooling around with a Broadway tune called 'Lazy Afternoon'\" in a jazz version by Grant Green; Morrison asked for changes and began to sing the melody. Morrison said, \"I wrote the melody first. I played the melody on a soprano sax and I knew I had a song.\" Credits are disputed: Eskow reports Scheiner and engineer Dixon Van Winkle disagree on who engineered the title song, and Scheiner says he mixed the record with Mallaber in December 1969 while Morrison was in Woodstock.",
+      "It's in the book 1001 Albums You Must Hear Before You Die (2005), per Wikipedia; Spin called it in 1989 \"the great white soul album,\" ranking it 21st. Critics Greil Marcus and Lester Bangs wrote in Rolling Stone in 1970 that Morrison had reached \"that point where the influences on his music no longer mattered\" and that \"the horn arrangements are absolutely exquisite.\" Critic Robert Christgau gave it an A: \"Forget Astral Weeks — this is a brilliant, catchy, poetic, and completely successful LP.\""
     ],
     "listeningNotes": [
       {
-        "label": "Horn arrangements built in the studio",
-        "text": "Tilton says he \"basically wrote the arrangement on 'Moondance,'\" with the horns overdubbed after the rhythm section had played the take."
+        "label": "Horns written in the studio",
+        "text": "Tilton's horn arrangement on the title song was built after the rhythm tracks, with the horns overdubbed once the rhythm take was chosen by the vocal."
       },
       {
-        "label": "A jazz-inflected rhythm section",
-        "text": "Mallaber's drumming and Klingberg's walking bass lines give the record a swing underneath the R&B; Louder writer David Sinclair credits \"nimble drums, walking bass lines and exuberant horn and vocal arrangements.\""
+        "label": "A jazz drummer's brain",
+        "text": "Writer Mark Leviton of Best Classic Bands says that on \"Everyone,\" \"just listening to Mallaber negotiate the changes is a master class in drumming.\""
       },
       {
-        "label": "Backing vocals on two songs",
-        "text": "Singers Judy Clay, Emily Houston and Jackie Verdell sing backing vocals on \"Crazy Love\" and \"Brand New Day,\" adding a gospel-soul layer."
+        "label": "Backing voices on two songs",
+        "text": "Singers Judy Clay, Emily Houston and Jackie Verdell sing backing vocals on \"Crazy Love\" and \"Brand New Day.\""
       },
       {
-        "label": "Clavinet and organ colour",
-        "text": "Labes plays clavinet, organ and piano, giving the arrangements their keyboard colour."
+        "label": "A flute cadenza to close",
+        "text": "The title song ends with a flute trill in its cadenza, per Wikipedia, and Morrison imitates a saxophone near the end; keyboardist Jef Labes's piano solo is followed immediately by saxophonist Jack Schroer's alto solo."
       },
       {
-        "label": "Vocals chosen over perfect takes",
-        "text": "Mallaber says takes were chosen by the lead vocal and Morrison did not re-record it, which is part of why the singing sounds so immediate."
+        "label": "Voice that never repeats",
+        "text": "Engineer Shelly Yakus said, \"Van doesn't use the same voice twice,\" and Morrison himself said he doesn't like working in the studio — \"you just put the mic there and go.\""
       }
     ],
     "sources": [
       {
-        "title": "Moondance — Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Moondance"
-      },
-      {
         "title": "Classic Tracks: Van Morrison's Moondance — Mix (Gary Eskow, 2005)",
         "url": "https://www.mixonline.com/recording/classic-tracks/classic-tracks-van-morrisons-moondance-375246"
+      },
+      {
+        "title": "Moondance vocals and band takes — Ultimate Classic Rock (Martin Kielty, 2018)",
+        "url": "https://ultimateclassicrock.com/van-morrison-moondance-vocals/"
       },
       {
         "title": "Van Morrison, Moondance review — Best Classic Bands (Mark Leviton)",
         "url": "https://bestclassicbands.com/van-morrison-moondance-review-4-27-222/"
       },
       {
-        "title": "Moondance — Rolling Stone review reposted by Greil Marcus (1970)",
-        "url": "https://greilmarcus.net/2018/04/14/van-morrison-moondance-3-19-70-w-lester-bangs/"
+        "title": "Van Morrison insisted on becoming Dylan's friend — American Songwriter (Melanie Davis, 2026)",
+        "url": "https://americansongwriter.com/van-morrison-insisted-on-becoming-this-folk-rock-icons-friend-while-writing-moondance-released-on-this-day-in-1970/"
       },
       {
-        "title": "Van Morrison's Moondance began in the Hudson Valley — WPDH",
-        "url": "https://wpdh.com/van-morrisons-moondance-began-in-the-hudson-valley/"
+        "title": "Moondance (song) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Moondance_(song)"
+      },
+      {
+        "title": "Moondance (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Moondance_(album)"
+      },
+      {
+        "title": "Moondance — Rolling Stone review reposted by Greil Marcus (1970)",
+        "url": "https://greilmarcus.net/2018/04/14/van-morrison-moondance-3-19-70-w-lester-bangs/"
       }
     ],
     "influencedBy": [
@@ -19079,11 +19350,23 @@
         "album": "A Love Supreme",
         "year": "1965",
         "note": "Saxophonist and flautist Collin Tilton told Mix that a horn figure behind the vocal is \"sort of a cop from Coltrane's A Love Supreme. It's the same interval.\""
+      },
+      {
+        "artist": "The Band",
+        "album": "Music from Big Pink",
+        "year": "1968",
+        "note": "Morrison recalled hearing a Band song on FM radio — either \"The Weight\" or \"I Shall Be Released\" — and biographer Erik Hage and critic Johnny Rogan say it inspired the themes of one Moondance song."
+      },
+      {
+        "artist": "Grant Green",
+        "album": "Street of Dreams",
+        "year": "1967",
+        "note": "Guitarist John Sheldon recalled the band rehearsing Green's jazz version of \"Lazy Afternoon,\" which led Morrison to the melody of the title song."
       }
     ],
     "influenced": [],
     "uuid": "5f34ee8bf0857e55ed5ec0af",
     "image": "https://i.scdn.co/image/ab67616d00001e02d828b182ee9b7193a0f8b5d6",
-    "savedAt": "2026-11-19T08:38:23.573Z"
+    "savedAt": "2026-11-19T14:14:44.985Z"
   }
 }

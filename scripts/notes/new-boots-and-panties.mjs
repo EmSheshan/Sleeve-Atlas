@@ -7,49 +7,52 @@ await saveNote({
   heading: "New Boots And Panties!! — Ian Dury (1977)",
 
   albumLine:
-    "Released 30 September 1977 on Stiff Records and produced by Peter Jenner, Laurie Latham and Rick Walton. It's pub rock and punk mixed with music hall, funk and disco, and it's Ian Dury's debut studio album.",
+    "Released 30 September 1977 on Stiff Records and produced by Peter Jenner, Laurie Latham and Rick Walton. It's pub rock and punk mixed with music hall, funk and jazz, and it's Ian Dury's debut studio album.",
 
   overview: [
-    "Dury, the singer and lyricist, was 35 and had come out of the pub-rock band Kilburn and the High Roads, according to Trouser Press, when he signed to the young Stiff label. He wrote the words, and keyboardist and guitarist Chaz Jankel co-wrote most of the music. The band that backed him — bassist Norman Watt-Roy, drummer Charley Charles and saxophonist Davey Payne among them — became the Blockheads. Wikipedia says the name came from a chance remark by Charles during the sessions, and that exactly how it stuck is disputed.",
+    "Dury, the singer and lyricist, wrote much of it nearly a year before release at Oval Mansions in Kennington, often with keyboardist and guitarist Chaz Jankel. Writer Richard Buskin of Sound On Sound describes the method: Dury wrote lyrics, often in bulk, and brought them to Jankel, who did the musical arrangements; Jankel's careful demos were learned fast by the session players. Bassist Norman Watt-Roy remembers Dury turning up with \"sheets of paper with words basically all over his place.\"",
 
-    "It was made in 1977 at the Workhouse Studio on London's Old Kent Road, after April demos at Alvic Studios in Wimbledon. The timing matters: it arrived in the year punk exploded, and writer Mark Herrington says in Louder that Dury \"benefitted from the punk tidal wave in the UK,\" though he \"wasn't punk.\" Wikipedia lists the genres as punk rock, pub rock, disco and music hall. One of Dury's best-known songs was left off the original UK pressing at his request and added to later editions, per Wikipedia and Trouser Press.",
+    "The demos were cut in April 1977 at Alvic Studios in Wimbledon, with Dury on drums and vocals and Jankel on bass, guitar and piano; Watt-Roy and drummer Charley Charles were introduced there through the studio engineer. A week later, the album was recorded at the Workhouse Studio on the Old Kent Road, usually late at night, when management company Blackhill could use the studio's dead time for around £4,000. Latham did most of the hands-on production; Sound On Sound says the control room overlooked the live area, which made access hard for Dury, who had polio. Saxophonist Davey Payne, guitarist Edward Speight and Moog player Geoff Castle supplemented the band. The Blockheads, as the group became known, were formally assembled in October 1977 for the Live Stiffs tour; Wikipedia says the name came from a remark by Charles, while Jankel says it \"jumped off the lyric page.\"",
 
-    "Reaction in 1977 was strong. Critic Allan Jones of Melody Maker described \"a tense, harrowing account of urban degradation,\" and critic Robert Christgau of The Village Voice gave it A−. It was a slow burn on the charts: Wikipedia says it peaked at No. 5 in the UK in February 1979, seventeen months after release, was UK platinum by June 1979, and ranked among the UK's top 30 best-sellers of both 1978 and 1979. Sources differ on singles: Louder says it produced nothing resembling a hit single, while Wikipedia lists several top-ten singles from the same period without saying which were on the original LP.",
-
-    "Its standing has held. Critic Tom Doyle of Q called it \"the creative yardstick\" Dury could never quite match, and a BBC Music review in 2012 called it a \"mighty missing link\" between the Kinks and Blur. Wikipedia reports a 2001 tribute album, Brand New Boots and Panties, with singer Sinéad O'Connor, musician Paul McCartney and singer Shane MacGowan among those contributing.",
+    "One of Dury's best-known singles was left off the original UK pressing at his request; he didn't want singles on albums. It's in the book 1001 Albums You Must Hear Before You Die, per Wikipedia, and Q ranked it among the best British albums ever. Critic Allan Jones of Melody Maker called it \"a tense, harrowing account of urban degradation\"; critic Robert Christgau wrote \"Tender, furious, sexy, eccentric, surprising.\" Writer Everett True of Louder calls it \"a riotous celebration of East End culture and lad braggadocio,\" with \"the odd touchingly tender moment.\" Singer Suggs of Madness says it was where \"a lot of the stuff Ian Dury was working towards\" on his earlier band's album \"really came to fruition.\"",
   ],
 
   listeningNotes: [
     {
-      label: "The Blockheads' tight rhythm section",
-      text: "Per Rising Storm, Watt-Roy and Charles were \"a fearsomely tight rhythm section.\" Their funk-inflected groove is what makes the music-hall lyrics danceable.",
+      label: "A tight funk-jazz rhythm section",
+      text: "Reviewer Len of The Rising Storm calls Watt-Roy and Charles \"a fearsomely tight rhythm section,\" the pairing Dury and Jankel met at Alvic.",
     },
     {
-      label: "Jankel's chords and arrangements",
-      text: "Jankel supplied music and arrangements for Dury's lyrics, bringing jazzy and funky harmony to the pub-rock frame.",
+      label: "Music-hall characters in Cockney",
+      text: "\"Clever Trevor,\" \"Billericay Dickie\" and \"My Old Man\" are affectionate, bawdy character portraits. Len says Dury drew on 1930s music hall and 1950s Carry On films, filtered through Ray Davies's London observation.",
     },
     {
-      label: "Saxophone with a free-jazz edge",
-      text: "Rising Storm says Payne took his cues from jazz saxophonists Rahsaan Roland Kirk and Ornette Coleman. The sax adds the album's wilder streak.",
+      label: "A cappella and tribute",
+      text: "\"Sweet Gene Vincent\" honours rock and roll singer Gene Vincent, with \"stroboscopic\" a cappella parts, per Len.",
     },
     {
-      label: "Cockney character vocals",
-      text: "Dury delivers the lyrics in a spoken, music-hall style. Critic Roy Carr of NME said he had taken \"the essence of the Cockney music hall.\"",
+      label: "Jankel's arrangements",
+      text: "Jankel supplied the music and arrangements for Dury's words, moving among jazz, soul, reggae and disco, so the same band can swing, lope or sprint.",
     },
     {
-      label: "A tribute to a rock and roller",
-      text: "\"Sweet Gene Vincent\" honours singer Gene Vincent, whom Wikipedia calls Dury's \"musical hero.\" It shows the old rock and roll behind the new sound.",
+      label: "Moog and sax colour",
+      text: "Castle's Moog and Payne's saxophone, which Len says takes its cues from jazz saxophonists Rahsaan Roland Kirk and Ornette Coleman, give the sound its odd, slightly deranged edge.",
     },
   ],
 
   sources: [
     { title: "New Boots and Panties!! — Wikipedia", url: "https://en.wikipedia.org/wiki/New_Boots_and_Panties!!" },
-    { title: "Ian Dury — Trouser Press", url: "https://trouserpress.com/reviews/ian-dury/" },
-    { title: "Ian Dury: New Boots and Panties — Louder (Classic Rock)", url: "https://www.loudersound.com/music/albums/ian-dury-new-boots-and-panties" },
-    { title: "Ian Dury: New Boots and Panties — The Rising Storm (2009)", url: "http://therisingstorm.net/ian-dury-new-boots-and-panties/" },
+    { title: "Classic Tracks: Ian Dury & The Blockheads — Sound On Sound (Richard Buskin, 2007)", url: "https://www.soundonsound.com/techniques/classic-tracks-ian-dury-blockheads-hit-me-your-rhythm-stick" },
+    { title: "Chaz Jankel interview — Punk 77 (John Wisniewski, 2025)", url: "https://punk77.co.uk/?p=27978" },
+    { title: "Norman Watt-Roy interview — Get Ready to ROCK! (Pete Feenstra, 2013)", url: "https://getreadytorock.me.uk/blog/?p=11812" },
+    { title: "New Boots and Panties 40th Anniversary — Louder (Everett True, 2017)", url: "https://loudersound.com/reviews/ian-dury-the-blockheads-new-boots-and-panties-40th-anniversary-album-review" },
+    { title: "Ian Dury: New Boots and Panties — The Rising Storm (Len, 2009)", url: "https://therisingstorm.net/ian-dury-new-boots-and-panties/" },
+    { title: "Madness' Suggs: 13 favourite albums — The Quietus (Baker's Dozen)", url: "https://thequietus.com/interviews/bakers-dozen/madness-suggs-13-favourite-albums-bakers-dozen/11" },
   ],
 
-  influencedBy: [],
+  influencedBy: [
+    { artist: "Kilburn and the High Roads", album: "Handsome", year: "1975", note: "Madness singer Suggs told The Quietus that \"a lot of the stuff Ian Dury was working towards on that album really came to fruition on New Boots And Panties\"; the band was Dury's first, and two of its members played on this record." },
+  ],
 
   influenced: [],
 });

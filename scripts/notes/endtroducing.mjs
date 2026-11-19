@@ -7,49 +7,52 @@ await saveNote({
   heading: "Endtroducing..... — DJ Shadow (1996)",
 
   albumLine:
-    "Released in September 1996 on Mo' Wax and produced, engineered and mixed by Josh Davis, who records as DJ Shadow. It's instrumental, downtempo hip-hop assembled from samples, and it's Davis's debut album.",
+    "Released in September 1996 on Mo' Wax and produced, engineered and mixed by Josh Davis, who records as DJ Shadow. It's instrumental, downtempo hip-hop assembled from samples, and it's his debut album.",
 
   overview: [
-    "Davis bought an Akai MPC60 sampler in October 1992 and spent the next few years learning what a single machine could do with other people's records. According to writer Tom Doyle in Sound On Sound, he first sampled a break from a 45 by a group called the O'Jahs, and in 1994 added an Alesis ADAT tape recorder to his home setup. The first Mo' Wax single, from 1993, was mixed at producer Dan Nakamura's San Francisco studio, The Glue Factory. Mo' Wax was run by James Lavelle, and Davis told Clash writer Richard Bowes that the album was \"the template for the sound James was looking for, for Mo' Wax.\"",
+    "Davis grew up outside Sacramento and got his first turntables in 1987, aged 15. Writer Tom Doyle of Sound On Sound reports that the key shop was Rare Records in Sacramento, whose owner let him into the basement only after \"a good five years\" of visits. He bought an Akai MPC60 sampler in October 1992 and called learning it \"this endless fever dream of trying to get through the manual.\" Early mixes went to a Yamaha four-track cassette; in 1994 he added an Alesis ADAT tape recorder, using timecode on one track to bounce passes and adding scratches afterwards.",
 
-    "The ideas behind it came from hip-hop rather than from the downtempo scene it was soon filed under. Doyle reports Davis citing Afrika Bambaataa, Steinski and Grandmaster Flash, and Pete Rock's drum programming on Mecca and the Soul Brother (1992); Bowes adds Prince Paul, A Tribe Called Quest and Public Enemy. Davis also argued that hip-hop was more than \"sampling a James Brown drum break.\" Doyle says the music was labelled trip-hop; neither piece says whether Davis accepted that label.",
+    "The method was about subtraction. \"It was a reductive process of trying to strip everything down to only its most important elements,\" Davis told Doyle. Samples went through the MPC to tape, and memory was so small that he chopped breaks into roughly nine slices and rebuilt them into new patterns. He told Keyboard in 1997, \"I never use reissues or bootlegs or compilations. I didn't use any CDs on the album.\" Drum sounds were sequenced to fade in and out rather than hit hard on the beat. He mixed at producer Dan Nakamura's Glue Factory studio in San Francisco: \"I didn't know how to bus anything.\" He told Clash writer Richard Bowes it took around two years, in stretches — \"I would have two months to work on it and then I'd get called away for two months.\"",
 
-    "Bowes says the album took around two years, with its earliest seeds in late 1993 or early 1994, and that Davis worked on headphones with just three pieces of equipment. There are no rappers or singers on it. Both writers call it widely acclaimed, though neither names a critic or gives chart figures, so sales and individual reviews aren't covered here. Doyle states that it entered the Guinness Book of Records in 2001 as the first completely sampled album; Bowes says it is widely recognised as the first, a distinction Davis was unaware of at the time. Guinness's own listing was not checked.",
-
-    "Its reputation has only grown. Doyle calls it one of the greatest hip-hop albums ever made, and Bowes writes that generations of hip-hop artists trace a stylistic lineage to it and that Radiohead \"famously copied his methods for the drums\" on a song from OK Computer — his claim, not confirmed elsewhere.",
+    "The album is in the book 1001 Albums You Must Hear Before You Die, per Wikipedia, and Rolling Stone ranked it 329th on its 2020 list. Critic David Bennun of The Guardian called it \"not only one of the most daring and original albums of recent times\"; critic Will Hermes of Spin called it \"trip-hop's crowning achievement.\" Sound On Sound says it entered the Guinness Book of Records in 2001 as the first completely sampled album; Davis's own claim is more modest — it was his intention to make it \"entirely sample-based,\" and he was unaware at the time that it was a first. One source conflicts on the kit: Red Bull Music Academy says a borrowed Pro Tools rig, while Keyboard, Tape Op and Wikipedia say ADAT. Critic Andy Battaglia of the A.V. Club offers the counterpoint that its influence \"has been partially diluted by the symphonic beat-collage culture it helped spawn.\"",
   ],
 
   listeningNotes: [
     {
-      label: "Stacked, isolated elements",
-      text: "Davis described building each piece by layering separate sampled parts, then fading hi-hats and kicks in and out during sequencing. It gives the music its slow, breathing arrangement.",
+      label: "Stripping loops back to essentials",
+      text: "Davis resampled to mono to save memory and kept only a few clean kicks, snares and hats. On \"Midnight in a Perfect World\" he spent three or four hours just on the drum beat.",
     },
     {
-      label: "Slowed-down drum breaks",
-      text: "On \"Midnight In A Perfect World\", Doyle says the drum track is a slowed-down break from the 1960s psychedelic soul band Rotary Connection, which gives the beat its heavy, unhurried weight.",
+      label: "Sources from far outside hip-hop",
+      text: "Doyle names the sources of \"Midnight in a Perfect World\": a slowed break from Rotary Connection, a piano figure from composer David Axelrod's Songs of Experience, phased Fender Rhodes chords from musician Pekka Pohjola, flute-like strings from composer Meredith Monk's Dolmen Music, a vocal from the group Baraka found in a 50-cent bin, and a one-word loop from rapper Akinyele.",
     },
     {
-      label: "Samples from far outside hip-hop",
-      text: "The same track draws on a piano figure from composer David Axelrod's 1969 album Songs Of Experience, phased Fender Rhodes chords from Finnish musician Pekka Pohjola, and a vocal from the group Baraka. Doyle's article lists them; the effect is a collage that feels like one piece.",
+      label: "Piano and choir under a drum barrage",
+      text: "uDiscover writer Jim Bell hears classical piano and choral singing under heavy drums on \"Building Steam With a Grain of Salt,\" which he calls a \"haunting, war-torn atmosphere.\"",
     },
     {
-      label: "Scratching on top of sampler beats",
-      text: "Doyle says \"The Number Song\" was built on the MPC, with turntable scratches added afterwards. The two layers stay audibly distinct.",
+      label: "Film clips and segues",
+      text: "Bell notes that film clips drift in and out and tracks segue, so the album feels like one continuous piece rather than a collection of beats.",
     },
     {
-      label: "One sampler, one tape machine",
-      text: "A sampler, a tape recorder and headphones were the core kit. Nothing here depends on a studio budget, which is much of the album's mythology.",
+      label: "Scratching added afterwards",
+      text: "Doyle says \"The Number Song\" was built on the MPC and scratches were added later, so the turntable work sits on top of the sampled beat rather than being part of it.",
     },
   ],
 
   sources: [
     { title: "Classic Tracks: DJ Shadow 'Midnight In A Perfect World' — Sound On Sound (Tom Doyle, 2017)", url: "https://www.soundonsound.com/techniques/classic-tracks-dj-shadow-midnight-perfect-world" },
+    { title: "DJ Shadow interview — Keyboard (October 1997)", url: "https://www.solesides.com/dj-shadow-mdj-shadow-keyboard-october-1997.html" },
     { title: "DJ Shadow On 30 Years Of 'Endtroducing' — Clash (Richard Bowes, 2026)", url: "https://www.clashmusic.com/features/dj-shadow-on-30-years-of-endtroducing/" },
+    { title: "The Vinyl-Hunting Exploits of DJ Shadow — Red Bull Music Academy Daily (Bill Brewster, 2018)", url: "https://daily.redbullmusicacademy.com/2018/04/dj-shadow-interview" },
+    { title: "Endtroducing..... — Wikipedia", url: "https://en.wikipedia.org/wiki/Endtroducing....." },
   ],
 
   influencedBy: [
-    { artist: "David Axelrod", album: "Songs of Experience", year: "1969", note: "Sampled directly: Sound On Sound identifies a piano figure from this album as the main hook of one of Davis's best-known pieces." },
+    { artist: "David Axelrod", album: "Songs of Experience", year: "1969", note: "Sound On Sound identifies a piano figure from this album as the main hook of one of Davis's best-known pieces." },
     { artist: "Public Enemy", album: "It Takes a Nation of Millions to Hold Us Back", year: "1988", note: "Wikipedia, citing Keyboard (1997), says the sample-based work behind this album was inspired by it; Davis told Clash, \"I always use Public Enemy as the perfect example of conveying emotion through sampling.\"" },
+    { artist: "Meredith Monk", album: "Dolmen Music", year: "1981", note: "Sound On Sound names this album as the source of the flute-like strings in one of Davis's best-known pieces." },
+    { artist: "Baraka", album: "Love Is As Open As Your Heart", year: "1976", note: "Sound On Sound says the vocal carrying the main melody of one piece was sampled from this album, found in a 50-cent bin." },
   ],
 
   influenced: [

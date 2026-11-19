@@ -7,47 +7,52 @@ await saveNote({
   heading: "Destroy Rock & Roll — Mylo (2004)",
 
   albumLine:
-    "Released 24 May 2004 on Breastfed and produced by Myles MacInnes, the Scottish producer who records as Mylo. It's sample-built house and electropop, and it's his debut album — and, as it turned out, his only studio album.",
+    "Released 24 May 2004 on Breastfed, the Glasgow label co-founded by Myles MacInnes, who records as Mylo, and produced by him. It's electro-pop and house built from loops and soft-rock samples, and it's his debut and only studio album.",
 
   overview: [
-    "MacInnes grew up on the Isle of Skye, where, according to Wikipedia, the only station he could pick up was the Ireland-based Atlantic 252. He first heard house on that radio, and he also absorbed the soft rock of the 1970s and 1980s as a child. Later he studied in Los Angeles. The record is those two worlds fused: the glossy hooks of old radio rock rebuilt on a dance-floor chassis.",
+    "MacInnes started around 2001, aged 22, on a £350 computer with a six-gigabyte hard drive and a free eight-track version of Pro Tools. He told writer Tom Doyle of Sound On Sound that his first demos used drums from ReBirth and keyboard sounds from Absynth. The idea that set everything going came in 2002, when a friend played him a spoken-word clip of a preacher attacking 80s pop; he laid it over a four-on-the-floor beat. Sources disagree on the speaker: Wikipedia says a fundamentalist sermon he heard while working as a BBC journalist, while PopMatters describes a conservative politician.",
 
-    "It was made between November 2003 and April 2004 at various locations in Scotland, with the limited edition adding tracks recorded later. Sampling shaped the sound and the budget alike. Wikipedia reports that many rights holders demanded half of the new songs' earnings, so several originals were replayed rather than lifted, in one case on a Juno synthesiser. The title song's spoken sample has two descriptions: Wikipedia says MacInnes heard a fundamentalist Christian sermon in 2002 while working as a BBC journalist in Glasgow, while critic Dan Raper of PopMatters calls it a conservative politician on an anti-rock rampage. The sources don't reconcile, and I haven't found MacInnes's own account.",
+    "His first finished track sampled Toto, and the clearance never came, so he co-founded Breastfed instead. With the label's early money he bought a G4 for about £1,200 and moved to Pro Tools LE, which gave him 24 tracks instead of eight. Most of the album was then built inside the computer: keyboard parts, drums and basslines made as loops in Reason and recorded into Pro Tools, with drum sounds chopped from sample CDs in Recycle and then pushed through distortion and compression. Copyright holders usually asked for half the publishing, and where they did, some parts were replayed rather than sampled — a Juno synth part was cheaper. Engineer Kevin Kennedy mixed on NS10 monitors, often stripping out compression Mylo had added. For the 2006 US release, XLR8R writer Ken Taylor reports, some samples had to be flat-out re-recorded to skirt US copyright law.",
 
-    "Reception was mostly warm. The album holds an 80 on Metacritic from fourteen reviews, reached No. 26 in the UK and No. 10 on Billboard's US dance albums chart, and went Gold in the UK. Critic Tim DiGravina of AllMusic wrote that it \"only seems to cement his status among the elite of electronic cut-and-pasters of his time.\" Raper praised its \"catchiness without flippancy\" and heard Groove Armada and Felix da Housecat in it — his comparisons, not documented influences. The notable dissent came from critic Dave Simpson of The Guardian, who wrote that \"rock'n'roll faces a greater threat from a feather duster.\" Singer Elton John, per Wikipedia, said on a TV chat show that \"every home should own a copy.\" Resident Advisor later placed it 21st among the albums of the 2000s.",
+    "It's in the book 1001 Albums You Must Hear Before You Die (2010 edition, per Wikipedia), and Resident Advisor ranked it 21st among the albums of the 2000s. Critic Will Hermes of Spin called the sound \"the melodic boing-boing of synth pop,\" while Guardian critic Dave Simpson was unmoved: \"rock'n'roll faces a greater threat from a feather duster.\" Singer Elton John said on a TV chat show that \"every home should own a copy.\"",
   ],
 
   listeningNotes: [
     {
-      label: "Soft-rock hits rebuilt as house",
-      text: "Radio-friendly pop is replayed and recut over a four-on-the-floor pulse. \"In My Arms\" pairs Kim Carnes's hit with a Boy Meets Girl song, which is why it sounds instantly familiar and oddly new.",
+      label: "A vocoder joke at the centre",
+      text: "\"Drop the Pressure\" is a speech loop fed through a vocoder — \"just me with a microphone\" — which Mylo called \"quite an unsubtle pisstake of vocoder music.\" The sound is cheap on purpose, and that's why it works.",
     },
     {
-      label: "Replayed instead of sampled",
-      text: "Because rights holders wanted such large shares, parts of the record are re-performed, with one hook rebuilt on a Juno synth. The result sounds cleaner and more pop-forward than a typical crate-dug sample record.",
+      label: "Soft rock on a house pulse",
+      text: "\"In My Arms\" pairs singer Kim Carnes's hit with a Boy Meets Girl song, one of them replayed on a Juno. Familiar radio melodies sit over a club beat, which is the album's whole idea in one track.",
     },
     {
-      label: "A sermon as a lead voice",
-      text: "The title song builds around a spoken denunciation of rock music. PopMatters picked out the mispronounced names, among them \"David Boo-ey\" and \"Cindy Looper,\" which turns the lecture into the joke.",
+      label: "One loop cut into 25 parts",
+      text: "On \"Rikki\" Mylo chopped a three-second loop into many hits and mapped them across a MIDI keyboard — \"by the end I had 25 constituent parts.\" Listen for how a single phrase becomes a whole arrangement.",
     },
     {
-      label: "Funk and pop in one hook",
-      text: "\"Guilty of Love\" samples musician George Duke and a brief grunt from singer Prince's \"Kiss\" — Wikipedia notes the grunt is too short to be copyrighted. It's a small example of how much character the record gets from tiny fragments.",
+      label: "The preacher as lead voice",
+      text: "The title song builds around the spoken sample over a four-on-the-floor beat. In the UK edition it's the original recording; the US edition replaced it with a replay.",
     },
     {
-      label: "A singles-collection feel",
-      text: "Raper argued that after several UK singles the album played less like a debut than a greatest-hits set, and Wikipedia lists seven singles in all. The limited edition added a sanctioned mash-up of Miami Sound Machine's \"Dr. Beat\" with \"Drop the Pressure\", which reached No. 3.",
+      label: "A glossy, gaudy finish",
+      text: "Critic Richard Foster of Incendiary Mag hears \"a brilliant 'Klaus Dinger was a robot' drum beat\" and a \"fabulously glossy, Eurotrash, high eighties feel\" on \"Musclecar Reform Reprise.\"",
     },
   ],
 
   sources: [
+    { title: "Mylo: Producing Destroy Rock & Roll — Sound On Sound (Tom Doyle, 2005)", url: "https://www.soundonsound.com/people/mylo" },
     { title: "Destroy Rock & Roll — Wikipedia", url: "https://en.wikipedia.org/wiki/Destroy_Rock_%26_Roll" },
+    { title: "Mylo, Destroy Rock & Roll — XLR8R (Ken Taylor, 2006)", url: "https://xlr8r.com/?p=114125" },
+    { title: "Diplo / Mylo reviews — Spin (Will Hermes, 2005)", url: "https://www.spinmagazine.com/2005/12/diplo-fabriclive-24-fabric-mylo-destroy-rock-and-roll-breastfed/" },
+    { title: "Mylo: Destroy Rock & Roll — Incendiary Mag (Richard Foster, 2004)", url: "https://incendiarymag.com/wordpress/?p=57" },
     { title: "Mylo: Destroy Rock & Roll — PopMatters (Dan Raper, 2006)", url: "https://www.popmatters.com/mylo_destroy_rock_roll-2495674945.html" },
   ],
 
   influencedBy: [
     { artist: "Judie Tzuke", album: "Welcome to the Cruise", year: "1979", note: "Her song is sampled directly; Mylo told Sound On Sound he particularly loves its string break." },
     { artist: "Kim Carnes", album: "Mistaken Identity", year: "1981", note: "Her hit is replayed on a Juno synth and combined with a Boy Meets Girl song, per Wikipedia citing Sound On Sound." },
+    { artist: "Boy Meets Girl", album: "Reel Life", year: "1988", note: "Their lead single from this album is the other half of the main sample; Mylo told Sound On Sound the two records are \"both cheesy pop records really.\"" },
     { artist: "George Duke", album: "Night After Night", year: "1989", note: "Sampled directly: the funk track Mylo builds one of the album's hooks on." },
     { artist: "Prince", album: "Parade", year: "1986", note: "Sampled directly: a brief vocal grunt from the album's single is worked into the same track." },
   ],

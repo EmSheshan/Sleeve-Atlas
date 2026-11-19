@@ -7,44 +7,43 @@ await saveNote({
   heading: "Moss Side Story — Barry Adamson (1989)",
 
   albumLine:
-    "Released 6 March 1989 on Mute Records and produced by Barry Adamson himself. It's a largely instrumental concept album — a soundtrack to a crime film that doesn't exist — and it's Adamson's debut solo studio album.",
+    "Released 6 March 1989 on Mute Records and produced by musician Barry Adamson himself. It's a largely instrumental concept album — a soundtrack to a crime film that doesn't exist — and it's his debut solo studio album.",
 
   overview: [
-    "Adamson was born and raised in Moss Side, the Manchester neighbourhood named in the title, and came up through the punk and post-punk scene. Writer Ian Johnston, in The Quietus, reports that he played bass in Magazine from 1977 to 1981 and in singer Nick Cave's Bad Seeds from 1984 to 1986. His early world, Adamson says there, was \"very much a noir black & white world.\" The title also plays on composer Leonard Bernstein's West Side Story, per Wikipedia.",
+    "Adamson was born in Moss Side, the Manchester district named in the title, and had played bass in Magazine and in singer Nick Cave's Bad Seeds. Writer Ian Johnston of The Quietus reports the album began with a sampler: \"I was transfixed with this sampler I'd bought,\" Adamson says, and Mute offered a publishing deal. He sampled the main theme of Elmer Bernstein's score for The Man with the Golden Arm, slowing it by playing lower on the keys — \"the genius of the sampler is that you move further down the keys to slow the sample down\" — and went into the studio and \"sat at the drum kit like Frank Sinatra in the film.\" Bernstein's response, relayed by Adamson: \"Sounds good to me.\" That one piece, Adamson says, became the idea for the album.",
 
-    "The record began as a single. Adamson sampled the main theme of film composer Elmer Bernstein's The Man with the Golden Arm on a new sampler, slowed it by playing lower on the keys, and sat at a drum kit \"like Frank Sinatra in the film\" (the singer and actor), he told Johnston. Elmer Bernstein approved, Mute released it, and Adamson calls it \"a calling card\" that grew into the album. Wikipedia quotes a 2017 interview in which he said he made the album from a fascination with film music, as a calling card to get hired to score films. The concept was deliberate but not publicised: people \"thought it was a soundtrack and I did nothing to dissuade them.\"",
+    "He made it largely alone. Wikipedia credits him with all instruments except as noted, plus string arrangements, treatments, samples and sequencing, with John Fryer and Paul Kendall mixing and Kendall engineering. Guests include singer Diamanda Galás, guitarist Rowland S. Howard and saxophonist Gary Barnacle. The record is laid out in three acts with titles that read like a film-noir plot outline, and the inner sleeve carries a short story by musician Dave Graney. The title plays on West Side Story. Adamson has called it a \"calling card\" to get hired to score films, and it worked: he later scored Delusion, and director Oliver Stone used tracks in Natural Born Killers. \"People thought it was a soundtrack,\" he says, \"and I did nothing to dissuade them.\"",
 
-    "The sound is a mix that Johnston describes as decadent big band jazz, sinuous funk, hip-hop grooves, 1960s thriller themes, classic strings and soulful gospel — his description, not a list of named influences. Adamson played nearly everything himself and handled the samples and sequencing, with guests including singer Diamanda Galás and guitarist Rowland S. Howard. The track titles sketch a noir plot across three acts.",
-
-    "Reception was strong. Critic Ritchie Unterberger of AllMusic called it \"a sinister and edgy soundscape\" and Adamson's best solo effort by far; NME critic S. Marconie called it \"one of the best soundtracks ever, the fact that it has no accompanying movie is a trifling irrelevance.\" It reached No. 9 on the UK Indie Chart and was placed 34th in NME's 1989 albums of the year. It did lead to film work: Adamson scored Delusion (1991), director Oliver Stone used three tracks in Natural Born Killers (1994), and Adamson scored 35 minutes of Lost Highway (1997), per Johnston. Novelist Hubert Selby Jr. wrote to say he loved its \"shoot 'em up\" quality. Trouser Press, with no album or year given, credits Adamson with influencing Portishead.",
+    "It's in the book 1001 Albums You Must Hear Before You Die (2010 revised edition, per Wikipedia), and NME ranked it 34th among 1989's albums. NME critic S. Marconie called it \"one of the best soundtracks ever, the fact that it has no accompanying movie is a trifling irrelevance.\" Critic Ritchie Unterberger of AllMusic called it \"a sinister and edgy soundscape.\" Reviewer mare-C of Head Heritage called the opener \"one of THE great opening salvos to any album\" and the whole \"a plunge down into jeopardy,\" good for \"dark-night walks on difficult days.\" Fan taste is more divided; one listener site rates it lower, with many finding the concept more interesting than the listening.",
   ],
 
   listeningNotes: [
     {
-      label: "A slowed film theme as foundation",
-      text: "The Man with the Golden Arm theme is sampled and slowed by playing lower on the keys, then underpinned with live drums. It's the seed the whole album grew from.",
+      label: "A film theme slowed on a sampler",
+      text: "The Golden Arm theme comes in at the start, slowed by playing lower on the keys, with Adamson playing drums over it. Trouser Press calls the result \"a great, throbbing version.\"",
     },
     {
-      label: "Noir plot told through sequencing",
-      text: "The record is laid out in three acts with titles that outline a film-noir story, so it plays like a movie you can follow without images.",
+      label: "Voices as sound effects",
+      text: "Wikipedia notes occasional screams, vocal samples and a choir. On \"On the Wrong Side of Relaxation\" the voice is Diamanda Galás, used as a sound as much as a singer.",
     },
     {
-      label: "Strings and horns as scenery",
-      text: "Orchestrator Billy McGee's string arrangements, cellist Audrey Riley's playing and saxophone parts on \"The Swinging Detective\" supply the cinematic backdrop.",
+      label: "Noir guitar and brass",
+      text: "Rowland S. Howard plays guitar on \"Autodestruction\" and Gary Barnacle saxophone on \"Sounds from the Big House,\" the kind of guest touches that fill in the film's imaginary scenes.",
     },
     {
-      label: "Voices as texture, not song",
-      text: "Wikipedia notes occasional screams, vocal samples and a choir. Diamanda Galás's voice on \"On the Wrong Side of Relaxation\" is a good example of a human voice used as set dressing.",
+      label: "A news-and-effects collage",
+      text: "Trouser Press hears \"an exquisite assemblage of sampled newscasts, period sound effects\" with \"a strong aura of '60s mod London.\"",
     },
     {
-      label: "Sample-and-sequence craft",
-      text: "Adamson plays all instruments except where credited and handles the samples, treatments and sequencing. The result sounds composed rather than assembled.",
+      label: "A TV theme rebuilt",
+      text: "A bonus section on CD versions includes \"Alfred Hitchcock Presents,\" which reworks the show's theme and Gounod's \"Funeral March of a Marionette.\"",
     },
   ],
 
   sources: [
-    { title: "Moss Side Story — Wikipedia", url: "https://en.wikipedia.org/wiki/Moss_Side_Story" },
     { title: "Memento Mori: The Strange World Of… Barry Adamson — The Quietus (Ian Johnston, 2018)", url: "https://thequietus.com/?p=25566" },
+    { title: "Moss Side Story — Wikipedia", url: "https://en.wikipedia.org/wiki/Moss_Side_Story" },
+    { title: "Barry Adamson: Moss Side Story — Head Heritage (mare-C, 2002)", url: "https://headheritage.co.uk/?p=6139" },
     { title: "Barry Adamson — Trouser Press", url: "https://trouserpress.com/reviews/barry-adamson/" },
   ],
 

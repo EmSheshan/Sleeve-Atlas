@@ -7,50 +7,53 @@ await saveNote({
   heading: "Don't Stand Me Down — Dexys Midnight Runners (1985)",
 
   albumLine:
-    "Released 13 September 1985 on Mercury Records and produced by singer Kevin Rowland and producer Alan Winstanley (one fan blog gives 22 September). It's a long, talky mix of new wave and blue-eyed soul, and it's Dexys' third studio album, following Too-Rye-Ay (1982).",
+    "Released 13 September 1985 on Mercury Records (one fan blog gives 22 September) and produced by singer Kevin Rowland with producer Alan Winstanley. It's a long, talky blend of new wave and blue-eyed soul, and it's Dexys' third album, following Too-Rye-Ay (1982).",
 
   overview: [
-    "Dexys had had a huge hit with a fiddle-driven single from Too-Rye-Ay, and this was the record that threw the formula away. Per Wikipedia, the band shrank from ten members to four — Rowland, guitarist Billy Adams, violinist Helen O'Hara and saxophonist Nick Gatfield — and the four posed in suits and ties for a look Rowland called \"Ivy League\" or \"Brooks Brothers.\" Recording ran from 1984 to 1985, and Dexys fired producers Jimmy Miller and Tom Dowd along the way.",
+    "The record began, according to the blog Every Record Tells a Story, as Rowland's socio-political view of Ireland and ended up more personal. The band shrank from ten members to four — Rowland, guitarist Billy Adams, violinist Helen O'Hara and saxophonist Nick Gatfield — and posed in suits and ties, a look Rowland called \"Ivy League\" or \"Brooks Brothers\" and which, writer Cian Traynor says, fuelled derision. Demos in spring 1984 used keyboardist Vincent Crane and drummer Mick Woodmansey; Al Green's drummer Tim Dancy then replaced Woodmansey. The first sessions at Mountain Studios in 1984, per Wikipedia, \"were not productive,\" and Winstanley was brought in. Dexys worked with and fired producers Jimmy Miller and Tom Dowd along the way.",
 
-    "The making was fraught. Gatfield called it a \"long drawn out painful process\" that \"felt uncomfortable and unnatural,\" and O'Hara said Rowland \"wanted to experiment more musically\" than the label liked and that \"it was obvious that nobody was really going to promote it.\" A blog called Every Record Tells a Story adds a wilder account — nine months of writing, around 120 versions of one song, a dispute over unpaid bills at a New York studio — but that comes from a single unsigned blog, so treat it as unconfirmed.",
+    "The work dragged. The blog says \"three weeks in the studio became six months,\" and Rowland told theartsdesk's Thomas H. Green it was \"two years in the studio, working really hard.\" Gatfield called it a \"long drawn out painful process.\" Mixing began in New York and finished at Electric Lady; the blog tells of a dispute over unpaid bills and an attempt to take the tapes, which it attributes to Winstanley — an anecdote no other source confirms. The record was also sonically altered: Rowland told Hot Press that in 1985 \"we had to use a device called a stereo enhancer\" for airplay, \"and that was a mistake,\" and the 2002 Director's Cut was \"how the album was supposed to sound.\"",
 
-    "The album failed commercially, partly because Rowland refused to promote it or release a single, per Wikipedia, though an edited single did appear in November 1985 and missed the charts. One blog gives a UK peak of No. 22; Wikipedia gives none. Reaction was split. Critic Colin Irwin of Melody Maker called it \"quite the most challenging, absorbing, moving, uplifting and ultimately triumphant album of the year,\" while Trouser Press called it \"a torpid snore that denies entertainment on every level.\"",
-
-    "Its reputation was rebuilt slowly. Writer Simon Tyers says it took more than a decade, largely until a 1997 reissue on Creation Records, to gain status as \"a singular classic.\" Critic Bob Stanley wrote in The Guardian in 2008 that it emerged in a far less adventurous era than Too-Rye-Ay did, and blamed the band partly for not releasing a single. The 1001 Albums You Must Hear Before You Die book called it \"a Pet Sounds for the 1980s.\"",
+    "The 1985 reaction was split. Critic Colin Irwin of Melody Maker called it \"quite the most challenging, absorbing, moving, uplifting and ultimately triumphant album of the year,\" while Trouser Press called it \"a torpid snore that denies entertainment on every level.\" Rowland blamed ripple effects: \"one bad review can ripple through others.\" It's in the book 1001 Albums You Must Hear Before You Die, which Wikipedia says calls it \"a towering achievement… a Pet Sounds for the 1980s.\" Critic Paul Moody of Uncut called it a \"neglected masterpiece\" in 2007, and Rowland says it \"is probably the best of the eighties albums.\"",
   ],
 
   listeningNotes: [
     {
       label: "Studio chatter as an opening",
-      text: "According to the Every Record blog, \"This Is What She's Like\" opens with about two minutes of studio talk before the music starts. The record is full of spoken passages and mid-song conversation.",
+      text: "\"This Is What She's Like\" opens with about two minutes of studio talk, per the blog, before a suite that runs 12:23. Rowland began writing it in 1983 and said it \"literally came to me as I was going off to sleep.\"",
     },
     {
-      label: "Long, shifting song structures",
-      text: "Side A runs to just three songs, and that same track alone lasts over twelve minutes. The pieces change direction as they go, which is why they feel more like scenes than singles.",
+      label: "Spoken conversations between songs",
+      text: "Writer Dave Jennings of Louder Than War notes that conversations between Rowland and Adams open several tracks, \"a notable feature of the album.\"",
     },
     {
-      label: "Fiddle and mandolin colour",
-      text: "O'Hara's violin and mandolin from musician Julian Littman give a folk texture to the new-wave arrangements.",
+      label: "Fiddle, mandolin, steel guitar and piano",
+      text: "O'Hara's violin, Julian Littman's mandolin, Tommy Evans's steel guitar and Crane's \"sublime piano\" give the arrangements a folk and country colour on a soul record.",
+    },
+    {
+      label: "A cappella harmonies",
+      text: "The blog hears a cappella harmony in the style of Brian Wilson's Pet Sounds inside the long opening song.",
     },
     {
       label: "A borrowed riff",
-      text: "Wikipedia notes that \"One of Those Things\" uses a riff from singer-songwriter Warren Zevon's \"Werewolves of London\"; the blog says the debt was later credited.",
-    },
-    {
-      label: "Rowland's confessional voice",
-      text: "Rowland sings in an exposed, talk-sung style, turning private argument and self-doubt into the subject. That intimacy is what later admirers point to.",
+      text: "\"One of Those Things\" uses a riff from singer-songwriter Warren Zevon's \"Werewolves of London\"; Rowland later said he was \"embarrassed\" not to have credited it, per the blog.",
     },
   ],
 
   sources: [
+    { title: "One of the greatest records ever made: Dexys' Don't Stand Me Down — Every Record Tells a Story (2014)", url: "https://everyrecordtellsastory.com/2014/04/28/one-of-the-greatest-records-ever-made-dexys-dont-stand-me-down" },
     { title: "Don't Stand Me Down — Wikipedia", url: "https://en.wikipedia.org/wiki/Don%27t_Stand_Me_Down" },
-    { title: "Dexys Midnight Runners — Trouser Press", url: "https://trouserpress.com/?p=1696" },
-    { title: "Review: Dexys, One Day I'm Going to Soar — The Line of Best Fit (Simon Tyers, 2012)", url: "https://www.thelineofbestfit.com/reviews/albums/dexys-one-day-im-going-to-soar-98522" },
+    { title: "This Is What She's Like — Wikipedia", url: "https://en.wikipedia.org/wiki/This_Is_What_She%27s_Like" },
+    { title: "Don't Stand Me Down Revisited — Louder Than War (Dave Jennings, 2012)", url: "https://louderthanwar.com/dexys-midnight-runners-dont-stand-me-down-revisited/" },
+    { title: "10 Questions for Kevin Rowland — theartsdesk (Thomas H. Green, 2017)", url: "https://theartsdesk.com/new-music/10-questions-musician-kevin-rowland" },
+    { title: "You beauty — Hot Press (Stephen Robinson, 2002)", url: "https://www.hotpress.com/music/you-beauty-2613181" },
   ],
 
   influencedBy: [
-    { artist: "Warren Zevon", album: "Excitable Boy", year: "1978", note: "A riff on one song is taken from this album's best-known track; Wikipedia says Zevon and his co-writers received a credit, and Furious.com reports Rowland admitting the borrowing." },
+    { artist: "Warren Zevon", album: "Excitable Boy", year: "1978", note: "A riff on one song is taken from this album's best-known track; Wikipedia says Zevon and his co-writers received a credit." },
     { artist: "Van Morrison", album: "Inarticulate Speech of the Heart", year: "1983", note: "Per a Dexys fan blog, Rowland credits the singer's spoken-word piece on this album as the inspiration for the spoken-word approach that runs through Dexys' record." },
+    { artist: "The Beach Boys", album: "Pet Sounds", year: "1966", note: "The 1001 Albums book, per Wikipedia, calls it \"a Pet Sounds for the 1980s,\" and the Every Record blog hears Pet Sounds-style a cappella harmony in the opening suite." },
+    { artist: "Lou Reed", album: "Transformer", year: "1972", note: "A critic cited by Furious.com says one song is \"reminiscent of Lou Reed's 'Satellite of Love'\"; a resemblance noted by critics, not a statement by Rowland." },
   ],
 
   influenced: [],
