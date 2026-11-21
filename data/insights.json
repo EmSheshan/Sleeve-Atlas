@@ -19756,5 +19756,419 @@
     "uuid": "5f34ee8bf0857e55ed5ebf18",
     "image": "https://i.scdn.co/image/7e3406b7781040f18d7916a8c8fff0da28361f7b",
     "savedAt": "2026-11-20T08:39:37.944Z"
+  },
+  "5f34ee8bf0857e55ed5ec0b6": {
+    "artist": "The Cure",
+    "album": "Seventeen Seconds",
+    "year": "1980",
+    "heading": "Seventeen Seconds — The Cure (1980)",
+    "albumLine": "Released in April 1980 on Fiction Records, and produced by singer and guitarist Robert Smith with producer Mike Hedges. It's post-punk and early gothic rock, and it's The Cure's second album, after Three Imaginary Boys (1979) and before Faith (1981).",
+    "overview": [
+      "The release date is contested: Wikipedia gives 18 April 1980, while Long Live Vinyl and Albumism give 22 April. The band recorded at Morgan Studios in London in about a week in January 1980; Wikipedia says 13 to 20 January, and Long Live Vinyl says ten days were booked and eight used. Writer Dan Biggane of Long Live Vinyl, drawing on drummer Lol Tolhurst's memoir, says the band slept on the floor of the studio, a former church, and that Smith kept the label's A&R man Chris Parry away from the sessions.",
+      "Writer Richard Buskin of Sound on Sound says the band played live as a unit, with each backing track taking roughly an hour. Drums were close-miked with contact microphones and the cymbals overdubbed through compressors. Keyboardist Matthieu Hartley's synthesiser was plugged straight into the desk, with a rule of single-note lines only, and long tape loops ran round the room on microphone stands. Hedges told Buskin, \"It really was the drum sound that largely defined the album's sonic direction.\" Buskin summarises the split as Smith handling musical direction and Hedges the sound.",
+      "Biggane says Smith's reference points were David Bowie's Low, Nick Drake's Five Leaves Left and Van Morrison's Astral Weeks. Writer Rayna Khaitan of Albumism quotes Smith as saying he \"wanted it to be inspired by Nick Drake with the clear, finished sound of Bowie's Low,\" though she gives no original source for the quote. Bassist Simon Gallup had replaced Michael Dempsey, and Hartley was new to the lineup. Smith told reissue liner notes in 2005, per Albumism, \"A lot of anger and anguish. I felt overcome, overwhelmed…and very alone.\"",
+      "Wikipedia says the album is in the 2010 edition of the book 1001 Albums You Must Hear Before You Die; the book's own text wasn't found. Reaction at the time was mixed. Critic Nick Kent of NME called it \"depressingly regressive,\" Chris Westwood of Record Mirror found it \"biteless, a bit distant,\" and Paul Morley, a critic, called it \"an extraordinary LP,\" per Biggane. Wikipedia says biographer Jeff Apter later called it \"a sonic touchstone\" for gothic rock, and that Rolling Stone placed it among its 80 greatest albums of 1980. Writer Damien Love hears \"a sharp, endless after-the-rain mood, empty, but pregnant.\""
+    ],
+    "listeningNotes": [
+      {
+        "label": "Drums as the foundation",
+        "text": "Close-miked drums with contact microphones and overdubbed cymbals give the record its dry, gated space; Hedges called the drum sound the thing that largely defined it."
+      },
+      {
+        "label": "Stacked flangers",
+        "text": "Buskin says up to seven flangers were stacked on \"A Forest,\" which produces its swirling, underwater guitar."
+      },
+      {
+        "label": "Single-note keyboard lines",
+        "text": "Smith's single-note rule for Hartley's synthesiser keeps the arrangements spare; Hedges joked, \"He had another nine fingers to play with!\""
+      },
+      {
+        "label": "Tape loops around the room",
+        "text": "Long 16- and 32-bar loops run on microphone stands and pencils across the studio are part of why the music seems to hang in the air."
+      },
+      {
+        "label": "A tape that ran out",
+        "text": "Albumism says \"The Final Sound\" ran out of tape around 52 seconds with no budget to redo it; Wikipedia says 53 seconds."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Classic Tracks: The Cure, 'A Forest' — Sound on Sound (Richard Buskin, 2004)",
+        "url": "https://www.soundonsound.com/techniques/classic-tracks-the-cure-a-forest"
+      },
+      {
+        "title": "The making of The Cure's Seventeen Seconds — Long Live Vinyl (Dan Biggane)",
+        "url": "https://longlivevinyl.net/2020/04/13/the-making-of-the-cures-seventeen-seconds/"
+      },
+      {
+        "title": "The Cure, Seventeen Seconds — Albumism (Rayna Khaitan)",
+        "url": "https://albumism.com/features/the-cure-seventeen-seconds-album-anniversary"
+      },
+      {
+        "title": "Big Gray: The Cure's Seventeen Seconds — Damien Love",
+        "url": "https://damienlove.com/writing/big-gray-the-cures-seventeen-seconds/"
+      },
+      {
+        "title": "Seventeen Seconds — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Seventeen_Seconds"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "David Bowie",
+        "album": "Low",
+        "year": "1977",
+        "note": "Albumism quotes Smith wanting \"the clear, finished sound of Bowie's Low\"; Wikipedia and Damien Love say Smith listened to it while writing."
+      },
+      {
+        "artist": "Nick Drake",
+        "album": "Five Leaves Left",
+        "year": "1969",
+        "note": "Biggane, Albumism and Love all name it as a reference for Smith, though the one Smith quote is unsourced."
+      },
+      {
+        "artist": "Van Morrison",
+        "album": "Astral Weeks",
+        "year": "1968",
+        "note": "Biggane and Love name it as a reference point for the record; neither gives a first-hand Smith quote."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Big Black",
+        "album": "Atomizer",
+        "year": "1986",
+        "note": "Love says singer and guitarist Steve Albini's liner notes read \"We like Seventeen Seconds, all of us,\" in connection with one song; a secondhand report, and Wikipedia's Atomizer page doesn't mention it."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec0b6",
+    "image": "https://i.scdn.co/image/ab67616d00001e02d86176dec9e7fda23022cf38",
+    "savedAt": "2026-11-21T08:36:38.581Z"
+  },
+  "67a79156ebd1800272fd789e": {
+    "artist": "The Cure",
+    "album": "Songs Of A Lost World",
+    "year": "2024",
+    "heading": "Songs of a Lost World — The Cure (2024)",
+    "albumLine": "Released 1 November 2024 and produced by singer and guitarist Robert Smith with producer Paul Corkett, who also recorded and mixed it. It's slow, dark gothic rock, and it's The Cure's 14th studio album, the first since 4:13 Dream (2008).",
+    "overview": [
+      "Recording dates are unsettled: Wikipedia's infobox says 2019 to 2022, while its text says most of it was done in 2019. Smith told NPR writer Stephen Thompson, \"We recorded a lot of songs in 2019 and, then through COVID, I kind of got distracted.\" He said, \"I was trying to get 30 songs all finished together, so they all somehow hung together,\" and \"I finally emerged with eight that I thought worked together best.\" The Cure's official shop page and Wikipedia's infobox place the sessions at Rockfield Studios in Wales. Wikipedia says it was meant for a 2019 release and that five songs were played live on the 2022-23 tour.",
+      "Wikipedia, citing an Uncut feature, says Smith wrote, composed and arranged every song, the first time since The Head on the Door (1985); New York Times writer Ben Sisario calls it only the second Cure album written entirely by him. Bassist Simon Gallup, drummer Jason Cooper, keyboardist Roger O'Donnell and guitarist Reeves Gabrels play on it. The cover shows Janez Pirnat's 1975 sculpture \"Bagatelle,\" with Smith creating the sleeve concept and Andy Vella handling the design, per the shop page.",
+      "Smith described the mood: \"I think a sense of loss permeates the album,\" and \"There's no real light - there's a little bit of light to throw the shade into relief.\" He told Sisario, in a copy of the profile run by the Irish Times, \"I think it's natural, as you grow older, to feel more and more despairing of what goes on... And I feel like we're going backwards.\" Sisario says Smith called it the first entry in a possible trilogy.",
+      "Its place in the book 1001 Albums You Must Hear Before You Die couldn't be confirmed, since the newest edition's contents weren't available. Wikipedia says Spin and Vulture each ranked it first for 2024, and quotes critic Rob Sheffield of Rolling Stone calling it \"the best Cure album since Disintegration.\" Writer Tom Breihan of Stereogum says \"the sheer sound of the record is a marvel.\" Writer Victoria Segal of Mojo finds Smith's voice \"fundamentally unchanged\" and \"no kittenish levity.\""
+    ],
+    "listeningNotes": [
+      {
+        "label": "Velvet-soft production",
+        "text": "Breihan calls the production \"deep and soft and velvety,\" crediting Corkett for the texture, with guitars that \"leave traces in the air.\""
+      },
+      {
+        "label": "Molten guitar leads",
+        "text": "Breihan describes Gabrels' leads as \"molten rock riffage, blurred through layers of silk and muslin.\""
+      },
+      {
+        "label": "Drums wallop through the muffling",
+        "text": "Breihan says Cooper \"absolutely wallops\" while the production \"artfully muffles him without taking away his power.\""
+      },
+      {
+        "label": "Glacial synth pads",
+        "text": "Writer Ryan Reed of The A.V. Club hears \"glacial synth pads and gnarled bass\" on \"Alone.\""
+      },
+      {
+        "label": "A martial drone",
+        "text": "Segal says \"Warsong\" opens with a martial drone, and Reed hears its vocal echo recalling Pink Floyd's The Wall."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Premature Evaluation: The Cure, Songs of a Lost World — Stereogum (Tom Breihan, 2024)",
+        "url": "https://stereogum.com/2285800/premature-evaluation-the-cure-songs-of-a-lost-world/reviews/premature-evaluation"
+      },
+      {
+        "title": "The Cure, Songs of a Lost World review — Mojo (Victoria Segal, 2024)",
+        "url": "https://mojo4music.com/articles/new-music/the-cure-songs-of-a-lost-world-review"
+      },
+      {
+        "title": "The Cure, Songs of a Lost World review — The A.V. Club (Ryan Reed, 2024)",
+        "url": "https://www.avclub.com/the-cure-songs-of-a-lost-world-review-album"
+      },
+      {
+        "title": "The Cure isn't over yet — NPR via KJZZ (Stephen Thompson, 2024)",
+        "url": "https://www.kjzz.org/npr-top-stories/2024-11-01/how-it-will-end-is-how-it-will-end-but-the-cure-isnt-over-yet"
+      },
+      {
+        "title": "Robert Smith on the Cure's new album — Irish Times, from the New York Times (Ben Sisario, 2024)",
+        "url": "https://www.irishtimes.com/culture/music/2024/11/25/the-cures-robert-smith-i-wear-lipstick-im-65-im-not-the-person-to-stand-up-to-say-whats-wrong-with-the-world"
+      },
+      {
+        "title": "Songs of a Lost World — Radio X (Martin O'Gorman, 2024)",
+        "url": "https://www.radiox.co.uk/artists/the-cure/songs-of-a-lost-world-album-tracks-lyrics-meaning-review/"
+      },
+      {
+        "title": "Songs of a Lost World — The Cure official shop",
+        "url": "https://shop.thecure.com/products/songs-of-a-lost-world-cd"
+      },
+      {
+        "title": "Songs of a Lost World — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Songs_of_a_Lost_World"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "The Cure",
+        "album": "Disintegration",
+        "year": "1989",
+        "note": "Segal, Thompson and writer Alex Burrows of Louder all tie its slow, sweeping grandeur to this album; a critics' lineage rather than a stated influence."
+      },
+      {
+        "artist": "The Cure",
+        "album": "Bloodflowers",
+        "year": "2000",
+        "note": "Breihan says it \"works in much the same way\" as Bloodflowers, and notes Corkett also worked on that record, a shared-producer link."
+      }
+    ],
+    "influenced": [],
+    "uuid": "67a79156ebd1800272fd789e",
+    "image": "https://i.scdn.co/image/ab67616d00001e028613a922e2b503736fb2f91f",
+    "savedAt": "2026-11-21T08:37:06.226Z"
+  },
+  "5f34ee8bf0857e55ed5ebe60": {
+    "artist": "Creedence Clearwater Revival",
+    "album": "Cosmo's Factory",
+    "year": "1970",
+    "heading": "Cosmo's Factory — Creedence Clearwater Revival (1970)",
+    "albumLine": "Released in July 1970 on Fantasy Records, and produced by singer and guitarist John Fogerty. It's swamp rock with R&B, soul and country in it, and it's the band's fifth album, after Willy and the Poor Boys (1969) and before Pendulum (1970).",
+    "overview": [
+      "Writer Michael Gallucci of Ultimate Classic Rock says two of the singles were recorded in late 1969, two more in March 1970 before the band's first European tour, and the rest after they returned in June, when they finished the album with seven more songs. He says Fogerty pushed the band hard. The release date is contested: Wikipedia says 8 July, and other sources give later dates in July.",
+      "Preparation was the method. Drummer Doug Clifford told American Songwriter writer Jim Beviglia, \"We would rehearse our butts off before we would go into record,\" for \"at least six weeks,\" and \"We didn't go in and do 15 tracks and then pick the best 10.\" Bassist Stu Cook told Louder writer Hugh Fielder, \"There wasn't anybody else in the studio pulling strings, just the four of us.\" Fogerty told Guitar Player writer Joe Bosso that he made \"a literal roadmap, as if you were starting in California and you're going to drive to South Carolina,\" and that he wanted the record \"to represent all of us, meaning all of what we knew.\"",
+      "The title is contested. Wikipedia says Clifford nicknamed a Berkeley rehearsal warehouse \"The Factory\"; Cook told Louder, \"We rehearsed every day in a shed in Doug's garden,\" which the article says was nicknamed Cosmo's Factory. Fogerty said naming it that way was \"my little attempt to make Doug famous.\" Of the cover he said, \"I had this nagging idea to present ourselves as being normal.\" Four of the songs are covers. The band first played the Marvin Gaye hit live, then rearranged it in the studio around a long jam-like instrumental section; Wikipedia says an edited single followed against the band's wishes. Wikipedia, citing an Uncut interview, has Fogerty calling one original his salute to Little Richard.",
+      "Wikipedia lists it at 265th on Rolling Stone's 2003 list and 413th in 2020, and in the Grammy Hall of Fame in 2014. A blog working through the book 1001 Albums You Must Hear Before You Die lists it as entry 191, though the book's own text wasn't found. Gallucci calls it \"an almost entirely filler-free record of a singer and songwriter at the top of his game.\" Critic Robert Christgau wrote that Fogerty \"had no taste for fashion, and no high-strung macho in him either.\" The blogger Dr Simon is lukewarm, saying it isn't \"novel enough to be truly great.\""
+    ],
+    "listeningNotes": [
+      {
+        "label": "Takes rehearsed to the bone",
+        "text": "Clifford said, \"We had more #1 takes than anybody I know,\" because songs were worked out before the tape rolled."
+      },
+      {
+        "label": "A triplet drum break",
+        "text": "On \"Who'll Stop the Rain,\" Clifford said he fought Fogerty over the break: \"I said it makes the song.\""
+      },
+      {
+        "label": "A resonating open string",
+        "text": "On \"Up Around the Bend,\" Fogerty told Guitar Player, \"I hit the A string and let it resonate.\""
+      },
+      {
+        "label": "Bakersfield-flavoured rock and roll",
+        "text": "Fogerty called \"Lookin' Out My Back Door\" \"a tribute to the Bakersfield sound, but it was more a tribute to a sort of country-style rock and roll.\""
+      },
+      {
+        "label": "A soul hit stretched into a jam",
+        "text": "The Gaye cover runs 11 minutes, with an extended instrumental passage that the band built in the studio after playing it live."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Revisiting Cosmo's Factory — Ultimate Classic Rock (Michael Gallucci, 2015)",
+        "url": "https://ultimateclassicrock.com/creedence-clearwater-revival-cosmos-factory/"
+      },
+      {
+        "title": "John Fogerty on the making of Cosmo's Factory — Guitar Player (Joe Bosso, 2020)",
+        "url": "https://www.guitarplayer.com/players/john-fogerty-on-the-making-of-ccrs-cosmos-factory"
+      },
+      {
+        "title": "Cosmo's Factory interview — American Songwriter (Jim Beviglia, 2020)",
+        "url": "https://americansongwriter.com/cosmos-factory-creedence-clearwater-revival-album-interview/"
+      },
+      {
+        "title": "Creedence Clearwater Revival: life in a travelling band — Louder (Hugh Fielder)",
+        "url": "https://www.loudersound.com/features/creedence-clearwater-revival-life-in-a-travelling-band"
+      },
+      {
+        "title": "John Fogerty, Pop Phenomenon — Robert Christgau (2000)",
+        "url": "https://robertchristgau.com/xg/cdrev/creedenc-fan.php"
+      },
+      {
+        "title": "1001 Albums: Cosmo's Factory — Dr Simon Reads (2025)",
+        "url": "https://drsimonreads.blogspot.com/2025/07/1001-albums-you-must-hear-before-you_0722229085.html"
+      },
+      {
+        "title": "Cosmo's Factory — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cosmo%27s_Factory"
+      },
+      {
+        "title": "I Heard It Through the Grapevine — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/I_Heard_It_Through_the_Grapevine"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Marvin Gaye",
+        "album": "In the Groove",
+        "year": "1968",
+        "note": "The band covered \"I Heard It Through the Grapevine,\" which Wikipedia says is on this album; the song was first recorded by others, so the tie is through Gaye's hit version."
+      }
+    ],
+    "influenced": [],
+    "uuid": "5f34ee8bf0857e55ed5ebe60",
+    "image": "https://i.scdn.co/image/ab67616d00001e0261834aa14b97a7d9c693134f",
+    "savedAt": "2026-11-21T08:37:07.673Z"
+  },
+  "5f34ee8bf0857e55ed5ebea6": {
+    "artist": "Rod Stewart",
+    "album": "Gasoline Alley",
+    "year": "1970",
+    "heading": "Gasoline Alley — Rod Stewart (1970)",
+    "albumLine": "Released 12 June 1970 on Mercury in the US and Vertigo in the UK (sources differ on the label), and produced by Stewart and Lou Reizner. It's folk, white soul and bluesy rock and roll, and it's Stewart's second solo album, after An Old Raincoat Won't Ever Let You Down (1969) and before Every Picture Tells a Story (1971).",
+    "overview": [
+      "Writer Dave Lifton of Ultimate Classic Rock says it came three months after the Faces' debut, First Step, and that six of its nine songs are covers. Wikipedia says it was recorded between February and April 1970 at Morgan Studios in London. Keyboardist Pete Sears, who played on four Stewart albums, says on his own site that he was introduced to Stewart by drummer Micky Waller and that all four were recorded at Morgan in Willesden, north London.",
+      "The players were largely the Faces' circle: guitarist Ronnie Wood, who also played bass, bassist Ronnie Lane, drummer Kenney Jones, acoustic guitarist Martin Quittenton and keyboardist Ian McLagan. Wikipedia says the UK sleeve reads \"Mac not available due to bus strike\" while the US release credits McLagan. Lifton says the Faces play on two songs, and that Stewart's takes on songs by Bob Dylan and Elton John came before their writers had officially released them. That is the critic's claim, not independently checked. Writer Ric Albano of Classic Rock Review hears 12-string acoustic, dueling lead guitars and mandolin on the title song, and the Faces' rhythm section returning for the closer.",
+      "Some facts are unsettled. Lifton calls the closer a Little Richard song and one other track an Eddie Cochran cover, while Wikipedia lists different writers for both. The cover photograph is credited to Marcus Keef at Colbeck Mews in Kensington, per Wikipedia, while Sears says it was taken at Stewart's north London house and shows himself, Waller and Quittenton. No producer or Stewart quotes about the sessions turned up.",
+      "Critic Langdon Winner of Rolling Stone wrote in 1970 that Stewart has \"a rare sensitivity for the delicate moments in a person's existence,\" per Wikipedia. Critic Robert Christgau gave it an A-: \"Much all-around excellence here--Stewart writes songs with almost as much imagination as he picks them.\" Lifton calls it \"nearly its equal\" to Every Picture Tells a Story. Writer Rob Patterson of Best Classic Bands ties it to the roots movement that followed The Band's Music From Big Pink. A blog working through the book 1001 Albums You Must Hear Before You Die lists it as entry 188, though the book's own text wasn't found."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Mandolin and 12-string",
+        "text": "Albano hears 12-string acoustic, dueling lead guitars and mandolin on the title song, and calls it \"an excellent folk track.\""
+      },
+      {
+        "label": "Bottleneck slide guitar",
+        "text": "Writer Michael H. Little of The Vinyl District says Wood \"pumps out some truly bodacious bottleneck guitar lines.\""
+      },
+      {
+        "label": "Loose, rowdy drumming",
+        "text": "Little praises \"some authentically wonderful drum abuse by Jones,\" which gives the cover of \"It's All Over Now\" its rollicking push."
+      },
+      {
+        "label": "A fiddle-led ballad",
+        "text": "\"Lady Day\" is led by fiddle, and Lifton calls it \"one of Stewart's finest ballads.\""
+      },
+      {
+        "label": "A Celtic-leaning lament",
+        "text": "Albano says \"Jo's Lament\" has a Celtic feel, with Stewart on acoustic guitar."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rod Stewart, Gasoline Alley — Ultimate Classic Rock (Dave Lifton, 2015)",
+        "url": "https://ultimateclassicrock.com/rod-stewart-gasoline-alley/"
+      },
+      {
+        "title": "Rod Stewart, Gasoline Alley — Classic Rock Review (Ric Albano, 2020)",
+        "url": "https://www.classicrockreview.com/?p=18700"
+      },
+      {
+        "title": "Gasoline Alley — Pete Sears",
+        "url": "https://petesears.com/music/1970-rod-stewart-gasoline-alley-mercury-records/"
+      },
+      {
+        "title": "Rod Stewart, Gasoline Alley — The Vinyl District (Michael H. Little, 2014)",
+        "url": "https://thevinyldistrict.com/storefront/graded-curve-rod-stewart-gasoline-alley"
+      },
+      {
+        "title": "Rod Stewart, Gasoline Alley — Best Classic Bands (Rob Patterson)",
+        "url": "https://bestclassicbands.com/rod-stewart-gasoline-alley-8-18-15a/"
+      },
+      {
+        "title": "Rod Stewart — Robert Christgau",
+        "url": "https://robertchristgau.com/get_artist.php?id=1172"
+      },
+      {
+        "title": "1001 Albums: Gasoline Alley — Dr Simon Reads (2025)",
+        "url": "https://drsimonreads.blogspot.com/2025/07/1001-albums-you-must-hear-before-you_0948500561.html"
+      },
+      {
+        "title": "Gasoline Alley (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gasoline_Alley_(album)"
+      }
+    ],
+    "influencedBy": [],
+    "influenced": [
+      {
+        "artist": "Long John Baldry",
+        "album": "Good to Be Alive",
+        "year": "1973",
+        "note": "Singer Long John Baldry covers the title song, per Wikipedia; a credited cover, with Baldry having worked with Stewart earlier."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebea6",
+    "image": "https://i.scdn.co/image/596c078d2435b6ddbdab5092d7bf4b5e63bd308c",
+    "savedAt": "2026-11-21T08:37:09.167Z"
+  },
+  "5f34ee8bf0857e55ed5ebc2a": {
+    "artist": "Kelela",
+    "album": "Take Me Apart",
+    "year": "2017",
+    "heading": "Take Me Apart — Kelela (2017)",
+    "albumLine": "Released 6 October 2017 on Warp Records, and produced by a long list including Jam City, Ariel Rechtshaid, Arca and Kingdom, with Kelela and Jam City as executive producers. It's electro-R&B, and it's Kelela's debut album, following the mixtape Cut 4 Me (2013) and the EP Hallucinogen (2015).",
+    "overview": [
+      "How long it took is contested: Wikipedia says four years, while Lakin Starling of The FADER quotes about six. Kelela ran the process herself. She told Starling, \"I'm asking each person to give me their go, and then I put it together the way that I see fit,\" and \"I am designing each track.\" Producer Jam City, whose real name is Jack Latham, called her \"basically my musical director,\" and told FADER writer Nazuk Kochhar that \"90% of what I do as a producer is have conversations and just listen to the artist.\"",
+      "They worked in person in Los Angeles in early 2016. Latham recalls that at their first session Kelela rejected his prepared beats: \"We have to do this all in the room. I don't just want to sing over beats.\" In one session a beat was built on the spot while she freestyled for around twenty minutes, and a triplet flow inspired by Migos fed into the chorus. Wikipedia credits studios in Burbank and London. The track count is also unsettled: Wikipedia lists 14, FADER says 13.",
+      "Producer Mocky suggested the title. Kelela said, \"When you demand somebody take you apart, then you're the boss.\" The album is arranged chronologically around two relationships, per Starling. Singer-songwriter Romy Madley Croft co-wrote one song, which Kelela called \"a total yin and yang situation\" to Exclaim! writer Kyle Mullin, and producer Aaron David Ross made its instrumental.",
+      "Wikipedia says it's in the 2018 edition of the book 1001 Albums You Must Hear Before You Die, but that sentence has no citation and the book's text wasn't found. Writer Beaty DNA of Resident Advisor says Kelela \"navigates from the abstract fringes of club music towards the pop center on her own terms,\" and that with 13 producers credited, \"it speaks to Kelela's vision that it all moves as one piece.\" Writer Micah Peters of The Ringer describes it as \"Brandy, but weirder.\" Wikipedia says Pitchfork ranked it fourth among 2017's albums."
+    ],
+    "listeningNotes": [
+      {
+        "label": "A fretless bass plugin",
+        "text": "Kochhar says \"LMK\" began from a fretless bass sound inspired by Joni Mitchell's 1970s records, and Beaty DNA hears flanged bass."
+      },
+      {
+        "label": "Street sounds as percussion",
+        "text": "Beaty DNA says \"Frontline\" opens with a shimmering synth and the sounds of heels, cars and a car alarm."
+      },
+      {
+        "label": "Suffocating strings",
+        "text": "Spin writer Brian Josephs says that on \"Turn to Dust,\" \"Arca's restrained strings create a sense of devastating suffocation.\""
+      },
+      {
+        "label": "Choir-like vocal pads",
+        "text": "Beaty DNA hears \"O Superman\"-style ahhs from producer Dubbel Dutch on \"Blue Light.\""
+      },
+      {
+        "label": "Freestyled vocal lines",
+        "text": "The vocals started as room freestyles, which is why the phrasing feels conversational rather than sung to a click."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Kelela is ready for you now — The FADER (Lakin Starling, 2017)",
+        "url": "https://www.thefader.com/2017/10/03/kelela-cover-story-take-me-apart-interview"
+      },
+      {
+        "title": "How Jam City helped Kelela — The FADER (Nazuk Kochhar, 2017)",
+        "url": "https://www.thefader.com/2017/10/16/jam-city-interview-beat-construction"
+      },
+      {
+        "title": "Kelela on Black womanhood and Take Me Apart — Exclaim! (Kyle Mullin, 2017)",
+        "url": "https://exclaim.ca/music/article/kelela_on_black_womanhood_collaborating_with_solange_and_bringing_take_me_apart_to_life"
+      },
+      {
+        "title": "Kelela, Take Me Apart — Resident Advisor (Beaty DNA, 2017)",
+        "url": "https://ra.co/reviews/21451"
+      },
+      {
+        "title": "Kelela, Take Me Apart — The Ringer (Micah Peters, 2017)",
+        "url": "https://www.theringer.com/2017/10/05/music/kelela-take-me-apart-album-review"
+      },
+      {
+        "title": "Kelela, Take Me Apart — Spin (Brian Josephs, 2017)",
+        "url": "https://www.spinmagazine.com/2017/10/kelela-take-me-apart-review/"
+      },
+      {
+        "title": "Take Me Apart — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Take_Me_Apart"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Amel Larrieux",
+        "album": "Infinite Possibilities",
+        "year": "2000",
+        "note": "Peters says Kelela studied Larrieux's live performances and this debut; it is the writer's statement rather than a direct Kelela quote."
+      }
+    ],
+    "influenced": [],
+    "uuid": "5f34ee8bf0857e55ed5ebc2a",
+    "image": "https://i.scdn.co/image/ab67616d00001e020e6b0fc686dda68c8ec9e436",
+    "savedAt": "2026-11-21T08:37:10.531Z"
   }
 }
