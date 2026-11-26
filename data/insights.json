@@ -21713,5 +21713,406 @@
     "uuid": "5f34ee8bf0857e55ed5ebe62",
     "image": "https://i.scdn.co/image/016f5d649148d69074ff755b2ea17d51cb3abd22",
     "savedAt": "2026-11-25T08:38:11.733Z"
+  },
+  "5f34ee8bf0857e55ed5ebf0d": {
+    "artist": "Beck",
+    "album": "Odelay",
+    "year": "1996",
+    "heading": "Odelay — Beck (1996)",
+    "albumLine": "Released 18 June 1996 on DGC Records, and produced by singer-songwriter Beck Hansen with the Dust Brothers (producers Mike Simpson and John King) on most of it, plus four other credited producers. It's collage-style alternative rock and hip-hop, and it follows his major-label debut Mellow Gold (1994).",
+    "overview": [
+      "Wikipedia lists PCP Labs, G-Son, The Shop in Arcata, Sunset Sound and Conway as studios, and writer Paul Sexton of uDiscover says recording ran across 1995 and into early 1996 around Beck's touring. Sessions began acoustic with producers Tom Rothrock and Rob Schnapf, then moved to the Dust Brothers' studio in Silver Lake. Simpson told MusicRadar writer Roy Spencer, \"We opened the door, let him in and just started listening to music together, and realised that we had very similar tastes,\" and, \"We were making a record in a vacuum.\" Beck told Rolling Stone writer Gavin Edwards, in a reprint, that the studio was tiny with \"one wall, floor to ceiling\" of records.",
+      "It was less sampled than it sounds. Beck said \"a lot of Odelay was played, not sampled,\" that \"the Pro Tools was so primitive, a lot of times the takes would be lost,\" and that \"most of the vocals on the record were scratch vocals.\" He told Stereogum writer Chris DeVille the record cost about $300,000, that the sessions had \"no documentation at all,\" and that a producer who heard an advance copy warned him, \"If you release it, it'll be a huge mistake.\" Wikipedia says the title is a phonetic spelling of the Mexican slang \"órale,\" while Pavement singer Stephen Malkmus told SPIN it is really \"Oh Delay\" because the record took so long.",
+      "Wikipedia says it's in the 2010 edition of the book 1001 Albums You Must Hear Before You Die; the book's text wasn't found. It lists the album as best of 1996 in Rolling Stone and in the Village Voice's Pazz & Jop poll. Writer Chris Conaton of PopMatters calls it a \"musical stew that still sounds unusual yet workable 25 years later,\" and says it is \"nearly impossible to tell what was sampled and what was actually performed.\" Writer Tom Breihan of Stereogum says, \"somehow, Beck put all these things together and turned them into pop.\""
+    ],
+    "listeningNotes": [
+      {
+        "label": "A broken amp, a moving microphone",
+        "text": "Simpson said of \"Devils Haircut,\" \"Beck had this broken 20W amp and we plugged it in and moved the mic around.\""
+      },
+      {
+        "label": "A drum machine through a guitar pedal",
+        "text": "Simpson said that for \"The New Pollution\" he \"programmed an 808 beat and ran it through a SansAmp guitar distortion box.\""
+      },
+      {
+        "label": "Walkie-talkies as instruments",
+        "text": "Simpson said Beck brought \"walkie-talkies and all kinds of weird instruments\" for \"Hot Wax,\" which took about six months to complete."
+      },
+      {
+        "label": "Songs built from long, slow collaboration",
+        "text": "Beck said they spent at least three weeks on \"High 5,\" which Simpson called \"a classic example of what happens when three crazy people get together in one room.\""
+      },
+      {
+        "label": "Played, not sampled",
+        "text": "Because much of it was played live, Conaton says the boundary between sample and performance blurs, which helps the collage hold together."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The making of Beck's Odelay: Mike Simpson's track-by-track guide — MusicRadar (Roy Spencer, 2011)",
+        "url": "https://www.musicradar.com/news/the-making-of-becks-odelay-dust-brother-mike-simpsons-track-by-track-guide"
+      },
+      {
+        "title": "Beck on Odelay — Rolling Stone interview (Gavin Edwards), reprinted at Rule Forty-Two",
+        "url": "https://rulefortytwo.com/articles-essays/music/beck-on-odelay/"
+      },
+      {
+        "title": "Odelay at 25 — Stereogum (Chris DeVille, 2021)",
+        "url": "https://www.stereogum.com/2151495/beck-odelay-25th-anniversary-labi-siffre-eminem/news"
+      },
+      {
+        "title": "Odelay turns 20 — Stereogum (Tom Breihan, 2016)",
+        "url": "https://stereogum.com/1883116/odelay-turns-20/reviews/the-anniversary"
+      },
+      {
+        "title": "Beck, Odelay at 25 — PopMatters (Chris Conaton, 2021)",
+        "url": "https://www.popmatters.com/beck-odelay-25-atr"
+      },
+      {
+        "title": "Odelay — uDiscover Music (Paul Sexton)",
+        "url": "https://www.udiscovermusic.com/behind-the-albums/beck-odelay/"
+      },
+      {
+        "title": "Odelay turns 30 — Paste (Matt Melis, 2026)",
+        "url": "https://www.pastemagazine.com/music/beck/beck-odelay-turns-30"
+      },
+      {
+        "title": "Odelay — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Odelay"
+      },
+      {
+        "title": "Middle of Nowhere — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Middle_of_Nowhere_(Hanson_album)"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Them",
+        "album": "Them Again",
+        "year": "1966",
+        "note": "Simpson told MusicRadar that the Them record \"provided the inspiration for three or four songs on the album.\""
+      },
+      {
+        "artist": "Beastie Boys",
+        "album": "Paul's Boutique",
+        "year": "1989",
+        "note": "The Dust Brothers and engineer Mario Caldato Jr. worked on both records, a shared-producer link; Breihan calls it a \"red herring\" as a reason Beck hired them."
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Hanson",
+        "album": "Middle of Nowhere",
+        "year": "1997",
+        "note": "Breihan says the Dust Brothers-produced album \"took bits of the Odelay sound\"; a named critic's claim resting on shared producers, not an artist statement."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebf0d",
+    "image": "https://i.scdn.co/image/1aa8e7cd9c52832e89ad0807b2b91da593ef5e20",
+    "savedAt": "2026-11-26T08:36:12.515Z"
+  },
+  "5f34ee8bf0857e55ed5ebe3d": {
+    "artist": "Supertramp",
+    "album": "Crime Of The Century",
+    "year": "1974",
+    "heading": "Crime of the Century — Supertramp (1974)",
+    "albumLine": "Released in autumn 1974 on A&M (Wikipedia says 25 October, Mojo says 13 September), and produced by Ken Scott, an engineer and producer, with the band. It's art rock and progressive pop, and it's Supertramp's third album, after Indelibly Stamped (1971).",
+    "overview": [
+      "Wikipedia and Louder say they recorded between February and June 1974 at Trident, Ramport (The Who's Battersea studio) and Scorpio Sound in London. Mojo writer Fred Dellar says basic tracks were cut at Ramport, overdubs at Trident and the final mix at Scorpio, while Louder says Scott's Trident mixing gave the album its expansive sound, so the mix location is contested. Before that the band rehearsed at a farm, which Wikipedia places in Dorset and Louder in Somerset, and made about 42 demos, of which eight were chosen. Louder says the budget was £18,000 and was exceeded.",
+      "Scott's earlier credits include Bowie's Hunky Dory and Ziggy Stardust, and Louder says he joined after mixing the band's single. Keyboardist Rick Davies said, per Mojo, \"Ken really became part of the band.\" Singer and guitarist Roger Hodgson told Louder writer Daryl Easlea, \"It's an honest, autobiographical album because we were our inner selves on it.\" Scott told ProSoundWeb, \"The hardest time that I ever had was when I thought I'd achieved perfection with Crime of the Century.\" Drummer Bob Siebenberg told Modern Drummer writer Adam Budofsky the band taped rehearsals on a two-track to find the song forms, and called the mixing \"all-hands-on-deck, pre-automation, pre-digital.\"",
+      "Wikipedia says the album is in the 2005 edition of 1001 Albums You Must Hear Before You Die; the book's text wasn't found. It also lists Rolling Stone placing it 27th among prog rock albums in 2015. Critic Robert Christgau gave it a C+, calling it \"Straight-ahead art-rock, sort of – Queen without preening. Yes without pianistics and meter shifts.\" A Louder review says \"the judicious use of sound effects adds to the occasionally claustrophobic atmosphere.\" Easlea calls it the band's make-or-break album."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Station announcements as scenery",
+        "text": "The announcements on \"Rudy\" were recorded at Paddington station, per Wikipedia, which also adds crowd noise from Leicester Square."
+      },
+      {
+        "label": "Children at home-time",
+        "text": "Dellar says the children's voices on \"School\" were recorded at a school at home-time, with buskers also recorded in the West End."
+      },
+      {
+        "label": "A musical saw",
+        "text": "Wikipedia credits an anonymous street musician on musical saw on the third track, and says Scott plays a water gong on the title song."
+      },
+      {
+        "label": "A cardboard-box demo",
+        "text": "Hodgson told Louder of \"Dreamer,\" \"With no drums, I made a demo on a two-track tape recorder by banging away on cardboard boxes and lightshades.\""
+      },
+      {
+        "label": "Strings on the title song",
+        "text": "Wikipedia and Louder credit Richard Hewson with the string arrangements, which swell under Davies's piano and saxophonist John Helliwell's playing at the close."
+      }
+    ],
+    "sources": [
+      {
+        "title": "How Crime of the Century saved Supertramp's bacon — Louder (Daryl Easlea, 2026)",
+        "url": "https://www.loudersound.com/music/albums/bloody-well-right-breakfast-in-america-might-have-had-the-bangers-but-it-was-crime-of-the-century-that-truly-saved-supertramps-bacon"
+      },
+      {
+        "title": "Supertramp, Crime of the Century review — Louder (2023)",
+        "url": "https://www.loudersound.com/reviews/supertramp-crime-of-the-century-album-review"
+      },
+      {
+        "title": "Mojo Time Machine: Supertramp pull off Crime of the Century — Mojo (Fred Dellar)",
+        "url": "https://mojo4music.com/time-machine/1970s/mojo-time-machine-supertramp-pull-off-crime-of-the-century"
+      },
+      {
+        "title": "Bob Siebenberg on Crime of the Century — Modern Drummer (Adam Budofsky, 2014)",
+        "url": "https://www.moderndrummer.com/?p=38411"
+      },
+      {
+        "title": "Legendary producer Ken Scott talks mixing — ProSoundWeb (2018)",
+        "url": "https://www.prosoundweb.com/legendary-producer-ken-scott-talks-mixing/"
+      },
+      {
+        "title": "Roger Hodgson interview — Huffington Post (Mike Ragogna, 2014), on rogerhodgson.com",
+        "url": "https://www.rogerhodgson.com/documents/huffingtonpostcrime.html"
+      },
+      {
+        "title": "Crime of the Century (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Crime_of_the_Century_(album)"
+      }
+    ],
+    "influencedBy": [],
+    "influenced": [],
+    "uuid": "5f34ee8bf0857e55ed5ebe3d",
+    "image": "https://i.scdn.co/image/ab67616d00001e0289d7032603b62e9aedb03fa2",
+    "savedAt": "2026-11-26T08:37:07.728Z"
+  },
+  "5f34ee8bf0857e55ed5ebf33": {
+    "artist": "Nas",
+    "album": "Illmatic",
+    "year": "1994",
+    "heading": "Illmatic — Nas (1994)",
+    "albumLine": "Released 19 April 1994 on Columbia Records, and produced by DJ Premier, Large Professor, Pete Rock, Q-Tip, L.E.S. and Nas, with MC Serch as executive producer. It's East Coast boom-bap and jazz rap, and it's rapper Nas's debut album.",
+    "overview": [
+      "The XXL oral history, compiled by editors including Rob Markman, says Def Jam co-founder Russell Simmons reportedly passed on Nas, and A&R executive Faith Newman signed him to Columbia. Serch said, \"Her and David Kahne pretty much locked me in a room and said, 'Whatever deal you wanna make, let's make it.'\" Wikipedia lists the studios as Chung King, D&D, Battery and Unique in New York. The oral history says bootlegs were circulating, so Columbia rushed out a ten-song album rather than collecting more material.",
+      "The album was assembled from a roster of producers. Nas told HotNewHipHop, \"It's my first album, man, and I had a dream team of those guys,\" and, \"So, here I am this new guy and I get to have Q-Tip, Premier, and Pete Rock all on my album?\" Large Professor, he said, put him in touch with the others. Wikipedia quotes Serch saying, \"Primo and Nas, they could have been separated at birth.\"",
+      "Wikipedia says the album is in the 2010 edition of 1001 Albums You Must Hear Before You Die; the book's text wasn't found. It lists Rolling Stone ranking it 44th in 2020, and says reviews were mixed at release, with the LA Times giving it two stars and The Source five mics. Critic Jeff Weiss of Pitchfork wrote, \"No album better reflected the sound and style of New York, 94,\" per Wikipedia. Music executive Steve Stoute told Andscape writer Bonsu Thompson, \"Those stories are timeless. Those beats are timeless,\" and rapper Rakim recalled, \"There was something that just felt like my little brother was about to come into the game.\""
+    ],
+    "listeningNotes": [
+      {
+        "label": "Film breaks looped by the engineer",
+        "text": "Per the XXL oral history, Nas brought a VHS of Wild Style and had the engineer loop its breaks for \"The Genesis,\" and Newman said it was \"his first introduction to hip-hop.\""
+      },
+      {
+        "label": "A Gap Band sample after a lost rhyme book",
+        "text": "Per XXL, Nas wanted a Mtume sample for \"Life's a Bitch\" but producer L.E.S. brought the Gap Band's \"Yearning for Your Love,\" and Nas said, \"it ain't 'Juicy,' but it's a whole 'nother monster!\""
+      },
+      {
+        "label": "A bar-by-bar studio split",
+        "text": "XXL says Nas had about 60 bars written for \"N.Y. State of Mind\" and split them up in the studio, over Premier's second beat for the album."
+      },
+      {
+        "label": "A beat heard in a basement",
+        "text": "XXL says Large Professor took Nas to Q-Tip's basement in Jamaica, Queens, where he heard the beat for \"One Love,\" a song Nas said he wrote \"the way life really was,\" about friends in prison."
+      },
+      {
+        "label": "A borrowed verse",
+        "text": "Wikipedia's page on Main Source's Breaking Atoms says the sampled voice on \"The Genesis\" is Nas's own verse from Main Source's \"Live at the Barbeque.\""
+      }
+    ],
+    "sources": [
+      {
+        "title": "An oral history of Nas' Illmatic — XXL (Rob Markman and others, 2014)",
+        "url": "https://www.xxlmag.com/making-of-nas-illmatic/"
+      },
+      {
+        "title": "Nas discusses the dream team behind Illmatic — HotNewHipHop",
+        "url": "https://www.hotnewhiphop.com/19704-nas-discusses-the-dream-team-behind-illmatic-news"
+      },
+      {
+        "title": "Nas' Illmatic 30th anniversary — Andscape (Bonsu Thompson, 2024)",
+        "url": "https://andscape.com/features/nas-illmatic-30th-anniversary-a-look-back-at-raps-perfect-album/"
+      },
+      {
+        "title": "Illmatic — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Illmatic"
+      },
+      {
+        "title": "Breaking Atoms — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Breaking_Atoms"
+      },
+      {
+        "title": "Yearning for Your Love — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Yearning_for_Your_Love"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Main Source",
+        "album": "Breaking Atoms",
+        "year": "1991",
+        "note": "Per Wikipedia, \"The Genesis\" samples Nas's verse from \"Live at the Barbeque\" on this album, and Large Professor produced it and later worked on Illmatic."
+      },
+      {
+        "artist": "The Gap Band",
+        "album": "The Gap Band III",
+        "year": "1980",
+        "note": "XXL and Wikipedia say \"Life's a Bitch\" samples the Gap Band's \"Yearning for Your Love,\" which is on this album."
+      }
+    ],
+    "influenced": [],
+    "uuid": "5f34ee8bf0857e55ed5ebf33",
+    "image": "https://i.scdn.co/image/4d11cf0fc74b4961afd1898867eaeb7234c614a5",
+    "savedAt": "2026-11-26T08:37:09.228Z"
+  },
+  "5f34ee8bf0857e55ed5ebf26": {
+    "artist": "Queen",
+    "album": "Queen II",
+    "year": "1974",
+    "heading": "Queen II — Queen (1974)",
+    "albumLine": "Released 8 March 1974 in the UK on EMI (Elektra in the US), and produced by Roy Thomas Baker, a producer, Robin Geoffrey Cable, a producer, and Queen. It's art rock and hard rock, and it's the band's second album, after Queen (1973) and before Sheer Heart Attack (1974).",
+    "overview": [
+      "Wikipedia says the album was recorded mainly at Trident Studios in London, with queenonline placing the sessions from August 1973. Guitarist Brian May told Louder writer Jon Hotten, \"We'd made the first album using lots of studio downtime, and it was a real mess, basically,\" and, \"So it was like being a painter but for the first time having the full palette to work with.\" Drummer Roger Taylor said, \"Trident was famous for this very dead drum sound which was very in vogue at the time,\" \"We wanted it to be big and grand,\" and, \"We used backwards tape for the first time.\" May described the method: \"We would construct different parts of the overall picture and then bounce them down onto the stereo.\" Wikipedia gives a working title of Over The Top, for the heavy overdubbing.",
+      "The sleeve splits the songs into Side White, from May and Taylor, and Side Black, from singer Freddie Mercury, and queenonline says the cover concept came from a Marlene Dietrich photograph that Mercury had seen, recreated by photographer Mick Rock. May told queenonline it was \"our biggest single step ever.\" The album was poorly received in some quarters: May said, \"Queen II wasn't that well-received in the rock fraternity in some places,\" and \"they said, these guys have forgotten rock n roll,\" and Taylor said of the reviews, \"It pissed us off, really.\" Critic Robert Christgau panned it in Creem as \"wimpoid royaloid heavyoid android void,\" per Wikipedia.",
+      "A blog working through the book 1001 Albums You Must Hear Before You Die lists it as entry 307, though the book's text wasn't found. Writer Jem Aswad of Variety, reviewing a 2026 box set, calls it \"a musical funhouse filled with roaring guitars, baroque piano and the band's gloriously stacked, angelic harmonies.\" Guns N' Roses singer Axl Rose is quoted by Far Out writer Tim Coffman as saying, \"I think it is the best-recorded album in the history of rock and roll.\""
+    ],
+    "listeningNotes": [
+      {
+        "label": "A dead drum sound",
+        "text": "Taylor said Trident's very dead drum sound was in vogue, which keeps the drums tight and dry under the layered guitars and voices."
+      },
+      {
+        "label": "A guitar orchestra",
+        "text": "May said, \"that was the beginning of doing guitar orchestrations, which I always wanted to do,\" and Louder says he cited Jeff Beck's \"Hi Ho Silver Lining\" among his inspirations."
+      },
+      {
+        "label": "Backwards tape",
+        "text": "Taylor said backwards tape was used for the first time, which gives some passages their reversed, swirling quality."
+      },
+      {
+        "label": "Swooping six-part harmonies",
+        "text": "Taylor says \"The March of the Black Queen\" has \"swooping, counter six-part harmonies\" and is \"a lot more complicated in many ways than Bohemian Rhapsody.\""
+      },
+      {
+        "label": "Piano and harpsichord colour",
+        "text": "Wikipedia credits Mercury on piano and harpsichord, which gives the heavy songs a baroque edge, as in Aswad's \"baroque piano.\""
+      }
+    ],
+    "sources": [
+      {
+        "title": "How Queen found themselves and made Queen II — Louder (Jon Hotten, 2021)",
+        "url": "https://www.loudersound.com/features/we-had-the-desire-to-create-something-extraordinary-how-queen-found-themselves-and-made-queen-ii"
+      },
+      {
+        "title": "Brian May and Roger Taylor talk Queen II, Part 1 — queenonline (2026)",
+        "url": "https://www.queenonline.com/news/queen-ii-brian-may-and-roger-taylor-talk-queen-ii-part-1"
+      },
+      {
+        "title": "Brian May and Roger Taylor talk Queen II, Part 2 — queenonline (2026)",
+        "url": "https://www.queenonline.com/news/queen-ii-brian-may-and-roger-taylor-talk-queen-ii-part-2"
+      },
+      {
+        "title": "Queen II: 50 years on — queenonline (2024)",
+        "url": "https://queenonline.com/news/queen-ii-50-years-on"
+      },
+      {
+        "title": "Queen II collector's edition review — Variety (Jem Aswad, 2026)",
+        "url": "https://au.variety.com/2026/music/news/queen-ii-deluxe-collectors-boxed-set-album-review-34705/"
+      },
+      {
+        "title": "The 1974 album Axl Rose called the greatest — Far Out (Tim Coffman, 2026)",
+        "url": "https://faroutmagazine.co.uk/the-1974-album-axl-rose-called-the-greatest-in-the-history-of-rock/"
+      },
+      {
+        "title": "1001 Albums: Queen II — Dr Simon Reads (2025)",
+        "url": "https://drsimonreads.blogspot.com/2025/11/1001-albums-you-must-hear-before-you_0212254038.html"
+      },
+      {
+        "title": "Queen II — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Queen_II"
+      }
+    ],
+    "influencedBy": [],
+    "influenced": [
+      {
+        "artist": "Queen",
+        "album": "A Night at the Opera",
+        "year": "1975",
+        "note": "Variety's Jem Aswad calls the album \"the blueprint\" for it, and May and Taylor say \"The March of the Black Queen\" and \"Bohemian Rhapsody\" share a palette; a link within Queen's own catalogue."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebf26",
+    "image": "https://i.scdn.co/image/ab67616d00001e02f30a542e495d92362519cf06",
+    "savedAt": "2026-11-26T08:37:10.585Z"
+  },
+  "5f34ee8bf0857e55ed5ebe41": {
+    "artist": "Pulp",
+    "album": "Different Class",
+    "year": "1995",
+    "heading": "Different Class — Pulp (1995)",
+    "albumLine": "Released 30 October 1995 on Island Records, and produced by Chris Thomas, a producer. It's Britpop and art pop, and it's Pulp's fifth studio album, after His 'n' Hers (1994).",
+    "overview": [
+      "Wikipedia says the album was recorded at The Town House in London between January and July 1995, while a fan wiki's session log gives a different run of dates plus a day at Air Studios for the orchestra, so the dates are unconfirmed. Thomas told Mix writer Blair Jackson, \"The first record I did with Pulp, Different Class, is definitely one of the best records I've made,\" and, \"The songs are fantastic - Jarvis is such a great writer,\" meaning singer Jarvis Cocker. Guitarist Mark Webber told Jason Barnard of The Strange Brew it was his first major recording session, at a studio Queen had used, and that \"it all felt effortless.\"",
+      "Writer Rayna Khaitan of Albumism says much of the album was worked on at drummer Nick Banks's mother's pottery warehouse near Sheffield, which may mean demo or rehearsal work rather than the recording itself. She quotes Cocker's 2006 reissue notes: \"This marked the beginning of a period of extremely frenzied activity.\" Wikipedia, citing a Radio 1 interview with Steve Lamacq, says Cocker took the title from a friend's phrase at a club night, liking its double meaning about class, and the back cover reads, \"We don't want no trouble, we just want the right to be different. That's all.\"",
+      "Wikipedia says the album won the 1996 Mercury Music Prize and is in the book 1001 Albums You Must Hear Before You Die, citing a 2006 edition; the book's text wasn't found. Writer Paul Sexton of uDiscover calls it \"the perfect combination of cool and commercial.\" Critic John Mulvey of NME called it \"funny, phenomenally nasty, genuinely subversive, and, of course, hugely, flamingly POP!\", per Wikipedia, and critic David Fricke of Rolling Stone called it \"the sound of Jarvis Cocker keeping score - with delicious accuracy.\" Critic Robert Christgau was more reserved, calling it \"Culture Club with lyrics.\""
+    ],
+    "listeningNotes": [
+      {
+        "label": "A Casiotone tune, a 48-track build",
+        "text": "Per Wikipedia's page on \"Common People,\" Cocker wrote the tune on a Casiotone MT-500 and Thomas built it over two weeks using all 48 tracks, with keyboards and a Stylophone."
+      },
+      {
+        "label": "Orchestral strings",
+        "text": "A fan wiki's session log credits Anne Dudley with arranging and conducting the orchestra for songs including \"I Spy\" and \"Something Changed.\""
+      },
+      {
+        "label": "Cheap vintage keyboards",
+        "text": "The same log lists keyboardist Candida Doyle on Farfisa, Minimoog and Rhodes, which give the record its thin, bright, slightly cheap sheen."
+      },
+      {
+        "label": "A rave heard from the corridor",
+        "text": "Banks said of \"Sorted for E's & Wizz,\" \"I had the mental image that you were walking towards a rave and you could hear the music,\" while Cocker said it is \"neither a condemnation nor a celebration of drugs.\""
+      },
+      {
+        "label": "Glam plastic sheen",
+        "text": "Critic David Stubbs of Melody Maker heard \"Mis-Shapes\" as \"so cleverly redolent of the glitzy plasticity of glam,\" per Wikipedia."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Producer Chris Thomas: three decades on the cutting edge — Mix (Blair Jackson, 1999)",
+        "url": "https://www.mixonline.com/recording/producer-chris-thomas-three-decades-cutting-edge-and-charts-365387"
+      },
+      {
+        "title": "From Different Class to More: Mark Webber — The Strange Brew (Jason Barnard)",
+        "url": "https://thestrangebrew.co.uk/interviews/mark-webber-pulp-2/"
+      },
+      {
+        "title": "Pulp, Different Class anniversary — Albumism (Rayna Khaitan, 2025)",
+        "url": "https://albumism.com/features/pulp-different-class-album-anniversary"
+      },
+      {
+        "title": "Pulp, Different Class — uDiscover Music (Paul Sexton, 2025)",
+        "url": "https://udiscovermusic.com/stories/pulp-different-class-album"
+      },
+      {
+        "title": "Different Class sessions — PulpWiki (fan wiki)",
+        "url": "https://pulpwiki.net/Pulp/DifferentClassLPSessions"
+      },
+      {
+        "title": "Different Class — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Different_Class"
+      },
+      {
+        "title": "Common People — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Common_People"
+      },
+      {
+        "title": "Sorted for E's & Wizz — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sorted_for_E%27s_%26_Wizz"
+      },
+      {
+        "title": "Mis-Shapes — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mis-Shapes"
+      }
+    ],
+    "influencedBy": [],
+    "influenced": [],
+    "uuid": "5f34ee8bf0857e55ed5ebe41",
+    "image": "https://i.scdn.co/image/413d8a76aaf77a00e832b44be25b21c5253c0171",
+    "savedAt": "2026-11-26T08:37:30.951Z"
   }
 }
