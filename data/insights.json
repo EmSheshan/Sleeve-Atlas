@@ -22575,5 +22575,337 @@
     "uuid": "5f34ee8bf0857e55ed5ebe7e",
     "image": "https://i.scdn.co/image/ab67616d00001e0204e7372b26d27803779696f4",
     "savedAt": "2026-11-28T08:36:35.750Z"
+  },
+  "5f34ee8bf0857e55ed5ec067": {
+    "artist": "Roxy Music",
+    "album": "For Your Pleasure",
+    "year": "1973",
+    "heading": "For Your Pleasure — Roxy Music (1973)",
+    "albumLine": "Released 23 March 1973 on Island in the UK and Warner Bros. in the US, and produced by Chris Thomas, a producer, with the band; the credit varies by source. It's art rock and glam rock, and it's their second album, after Roxy Music (1972) and the last with Brian Eno before Stranded (1973).",
+    "overview": [
+      "Wikipedia says the album was recorded in February 1973 and that the band first approached John Cale to produce before singer Bryan Ferry asked Thomas. The studio is contested: the album's page says AIR Studios, while the page for one of its songs says Command Studios. The lineup was Ferry, synthesiser player Eno, saxophonist and oboist Andy Mackay, guitarist Phil Manzanera and drummer Paul Thompson, with John Porter as guest bassist. Ferry told Uncut that \"whereas the first album was us throwing ideas in different directions, this was more focused and darker in mood.\" He told Mojo writer Mark Paytress, \"On For Your Pleasure, I found my way as a singer. I was more confident and not overthinking,\" and, \"Eno could conjure up a million different things.\"",
+      "Writer Beth Simpson of MusicRadar quotes Manzanera, \"I would do the music and have no idea what the top line or the lyrics are going to be.\" Irish Examiner writer Richard Purden says that from the second side Ferry brought two to four chords, the band recorded full tracks and Ferry wrote the vocal melody afterwards. Manzanera told Purden, \"Everybody contributes something to it, and then we would record literally a track with all the solos,\" and, \"Beyond the production, it's my favourite Roxy record, because of the sheer quality of the writing.\" Mackay told Mojo, \"none of us were rock'n'roll musicians we had no template to work from.\" Ferry said, \"I'd put everything into the album and I felt totally drained.\"",
+      "A blog working through the book 1001 Albums You Must Hear Before You Die lists it as entry 276; the book's text wasn't found. Wikipedia lists Q ranking it 33rd among British albums in 2000. Critic Charles Shaar Murray of NME called it a \"staggeringly fine piece of work, easily outstripping the first album,\" while critic Robert Christgau gave it a B, finding the band's \"strange idea of a good time\" ridiculous, per Wikipedia."
+    ],
+    "listeningNotes": [
+      {
+        "label": "A guitar fed into a synthesiser",
+        "text": "Manzanera said of \"In Every Dream Home a Heartache,\" \"One of the signals from my guitar goes into Eno's VCS3 synthesiser,\" and noted that \"nobody was using synthesisers to treat other instruments except Pink Floyd.\""
+      },
+      {
+        "label": "A guitar bought via a milkman",
+        "text": "Manzanera said, \"I bought the guitar I used off Eno, who had bought it off his milkman.\""
+      },
+      {
+        "label": "A false fade and heavy phasing",
+        "text": "Wikipedia says \"In Every Dream Home a Heartache\" has a false fade and then returns with heavy phasing."
+      },
+      {
+        "label": "Tape-loop fades",
+        "text": "Wikipedia says the title song ends with tape-loop fades, with Eno's tape treatments audible at the close."
+      },
+      {
+        "label": "A sax-led art-rock track",
+        "text": "Ferry singled out Mackay's saxophone on \"The Bogus Man,\" which Eno called \"probably the most successful track,\" per Wikipedia."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Roxy Music interviewed: 'My singing was pretty odd…' — Mojo (Mark Paytress)",
+        "url": "https://www.mojo4music.com/articles/stories/roxy-music-interviewed-my-singing-was-pretty-odd/"
+      },
+      {
+        "title": "Phil Manzanera on the making of In Every Dream Home a Heartache — MusicRadar (Beth Simpson, 2026)",
+        "url": "https://www.musicradar.com/artists/guitarists/i-got-to-pretend-to-be-jimi-hendrix-i-bought-the-guitar-i-used-off-eno-who-had-bought-it-off-his-milkman-and-then-the-song-turns-out-to-be-about-an-inflatable-doll-phil-manzanera-on-the-making-of-in-every-dream-home-a-heartache"
+      },
+      {
+        "title": "Roxy Music, For Your Pleasure — Irish Examiner (Richard Purden, 2026)",
+        "url": "https://www.irishexaminer.com/lifestyle/artsandculture/arid-41933097.html"
+      },
+      {
+        "title": "Bryan Ferry, Album by Album: Roxy Music — Uncut (2022), reproduced on moredarkthanshark.org",
+        "url": "https://www.moredarkthanshark.org/eno_int_uncut-jun22c.html"
+      },
+      {
+        "title": "The quintessential masterpiece of the glam era — Far Out (Jordan Potter, 2023)",
+        "url": "https://faroutmagazine.co.uk/quintessential-masterpiece-glam-era-roxy-music/"
+      },
+      {
+        "title": "1001 Albums: For Your Pleasure — Dr Simon Reads (2025)",
+        "url": "https://drsimonreads.blogspot.com/2025/10/1001-albums-you-must-hear-before-you_066801205.html"
+      },
+      {
+        "title": "For Your Pleasure — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/For_Your_Pleasure"
+      },
+      {
+        "title": "Neon Lights (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Neon_Lights_(album)"
+      }
+    ],
+    "influencedBy": [],
+    "influenced": [
+      {
+        "artist": "Simple Minds",
+        "album": "Neon Lights",
+        "year": "2001",
+        "note": "Per Wikipedia, the album includes the band's cover of Roxy Music's title song, a credited cover rather than a stated influence."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ec067",
+    "image": "https://i.scdn.co/image/aa6a0559d282a39fb3fb1cfee382c353f8120a21",
+    "savedAt": "2026-11-28T08:37:21.147Z"
+  },
+  "5f34ee8bf0857e55ed5ebee6": {
+    "artist": "David Bowie",
+    "album": "Station To Station",
+    "year": "1976",
+    "heading": "Station to Station — David Bowie (1976)",
+    "albumLine": "Released 23 January 1976 on RCA Records, and produced by Bowie and Harry Maslin, a producer and engineer. It's art rock with funk and R&B in it, and it's Bowie's tenth studio album, between Young Americans (1975) and Low (1977).",
+    "overview": [
+      "Wikipedia says the album was recorded mainly at Cherokee Studios in Hollywood from September or October to late November 1975, and that an older estimate of about ten days is disputed by recent scholarship. Writer Gareth James of Clash notes producer Tony Visconti, Bowie's usual collaborator, wasn't involved. Wikipedia says Bowie brought fragments and rewrote in the studio, guitarist Carlos Alomar built arrangements with bassist George Murray and drummer Dennis Davis, and overdubs and vocals came last. Maslin said, per Wikipedia, \"I loved those sessions because we were totally open and experimental in our approach.\" Pianist Roy Bittan, via MusicRadar, recalled, \"It must have only been about three days.\"",
+      "Guitarist Earl Slick told Louder writer David Sinclair, \"I just went in there and David was writing and it just happened,\" and, \"We were both out of it, all the time.\" He called it \"the first really sonically experimental record by a major artist – barring Frank Zappa.\" Bowie said, via MusicRadar quoting a biography, \"I have only flashes of making it,\" and, via a 1983 interview, \"As I was personally going through a very bad time, I thought I had to get back to Europe.\" Bowie's own site says the title comes from the Stations of the Cross, not the railway. The cover is a still from the film The Man Who Fell to Earth and the album introduced the Thin White Duke persona.",
+      "Substack writer Rich Cain reproduces the 1001 Albums You Must Hear Before You Die entry's opening line, \"The album was a transition both artistically (moving from plastic soul toward electronic minimalism)\"; the full entry wasn't found. Wikipedia lists Rolling Stone ranking it 52nd in 2020. Critic Lester Bangs of Creem called it Bowie's \"(first) masterpiece,\" and critic Robert Christgau named one song his \"favorite piece of rock and roll in a very long time,\" per Wikipedia. Critic Dave Marsh, per the same page, called it the most significant advance in LP filler since Lou Reed's Metal Machine Music. Musician Brian Eno called it \"one of the great records of all time.\""
+    ],
+    "listeningNotes": [
+      {
+        "label": "A train built from effects",
+        "text": "MusicRadar says the title song's opening train effect was made by Slick with flangers and delay, panned from right to left."
+      },
+      {
+        "label": "Amp feedback at dawn",
+        "text": "Slick recalled to Louder a 5 a.m. session in which he and Bowie fed back through Marshall stacks, which gave the same song its opening drone."
+      },
+      {
+        "label": "A suite that changes gear",
+        "text": "MusicRadar says the ten-minute title song moves from slow, feedback-laced build to a disco-influenced section partway through."
+      },
+      {
+        "label": "A torch-song cover",
+        "text": "Bowie said, per Wikipedia, that Nina Simone's version of \"Wild Is the Wind\" really affected him and he recorded it as \"an hommage to Nina.\""
+      },
+      {
+        "label": "A rhythm section that stayed",
+        "text": "Wikipedia says the Alomar, Murray and Davis rhythm section stayed with Bowie for the rest of the decade, giving the funk a taut, machine-like pulse."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Greatest albums of the 70s: Station to Station — Louder (David Sinclair, 2016)",
+        "url": "https://www.loudersound.com/features/greatest-albums-of-the-70s-5"
+      },
+      {
+        "title": "Station to Station — Clash (Gareth James, 2011)",
+        "url": "https://www.clashmusic.com/?p=207535"
+      },
+      {
+        "title": "How a disillusioned David Bowie reinvented his music — MusicRadar (Neil Crossley, 2025)",
+        "url": "https://www.musicradar.com/artists/i-have-only-flashes-of-making-it-i-was-personally-going-through-a-very-bad-time-how-a-disillusioned-and-drug-addicted-david-bowie-reinvented-his-music-with-a-groundbreaking-song-he-could-barely-remember-recording"
+      },
+      {
+        "title": "Station to Station, the 1976 album Bowie forgot he made — American Songwriter (Lauren Boisvert, 2024)",
+        "url": "https://americansongwriter.com/station-to-station-the-1976-album-david-bowie-forgot-he-made/"
+      },
+      {
+        "title": "Project 1001: Station to Station — Rich Cain, Substack (2024)",
+        "url": "https://richcain.substack.com/p/project-1001-station-to-station-by"
+      },
+      {
+        "title": "Bowie on Kraftwerk and his Florian tribute — davidbowie.com (Mark Adams, 2020)",
+        "url": "https://www.davidbowie.com/blog/2020/5/6/bowie-on-kraftwerk-and-his-florian-tribute"
+      },
+      {
+        "title": "Station to Station — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Station_to_Station"
+      },
+      {
+        "title": "Station to Station (song) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Station_to_Station_(song)"
+      }
+    ],
+    "influencedBy": [],
+    "influenced": [
+      {
+        "artist": "David Bowie",
+        "album": "Low",
+        "year": "1977",
+        "note": "Biographer Nicholas Pegg calls this the \"precise halfway point\" between Young Americans and Low, and the Alomar, Murray and Davis rhythm section carried over; a link within Bowie's own catalogue."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebee6",
+    "image": "https://i.scdn.co/image/9645887ae16ebebce9a15b8777511896a1161c32",
+    "savedAt": "2026-11-28T08:38:01.420Z"
+  },
+  "5f34ee8bf0857e55ed5ebde7": {
+    "artist": "Jurassic 5",
+    "album": "Power In Numbers",
+    "year": "2002",
+    "heading": "Power in Numbers — Jurassic 5 (2002)",
+    "albumLine": "Released 8 October 2002 on Interscope, and produced by Cut Chemist and DJ Nu-Mark, with Juju of The Beatnuts and Sa-Ra Creative Partners on a track each. It's alternative hip-hop, and it's the group's third album, after Quality Control (2000) and before Feedback (2006).",
+    "overview": [
+      "Writer David John Farinella of Mix describes Nu-Mark's home studio, \"Log Cabin Studios,\" a 1970s garage addition with a Roland VS-2480 workstation, an Akai MPC2000XL, a Roland 808 and 606 and four turntables. Cut Chemist brought his own vinyl and two MPC samplers. Nu-Mark said he owns \"About 15,000 records, give or take a few,\" and \"We tend to base our sound off of records.\" He told Mix he tracked ten beats, two for each of the four MCs plus two for choruses, and told Hip Hop In Je Smoel that \"we recorded most of it at my house.\" Troy Staton mixed to two-inch tape in Los Angeles.",
+      "The aim was dynamics. Nu-Mark told Exclaim! writer Noel Dix, \"We wanted to have as much dynamics as a rock record, but have it be very urban.\" Chali 2na said, \"It isn't really an old-school revival,\" and that \"Power In Numbers to me is more like an extension of whom we are as people and as a group.\" Reviews split: writer Phil Udell of Hot Press called it \"as fresh and invigorating a hip-hop record as you will hear all year,\" while writer Nathan Rabin of The A.V. Club found it \"a little underwhelming\" and \"strangely sterile.\" Writer Scott Thill of PopMatters said the producers \"seem to have dissolved further into the background.\"",
+      "Wikipedia says the album is in 1001 Albums You Must Hear Before You Die; the book's text wasn't found. Writer Eric Berlin of Pop Thruster ranks it 297th on his own 1,000-album list, praising its \"absolutely exquisite\" production, and notes it is not on Rolling Stone's 500 list."
+    ],
+    "listeningNotes": [
+      {
+        "label": "Sixty-four tracks of trading parts",
+        "text": "Per Mix, \"Acetate Prophets\" has 64 tracks of Nu-Mark and Cut Chemist trading parts over twelve drum loops, each unmuted as the last muted, and was the only song moved into Pro Tools."
+      },
+      {
+        "label": "A sampled film-and-soul library",
+        "text": "Wikipedia credits \"A Day at the Races\" with a David Axelrod sample and guests Percee P and Big Daddy Kane, in keeping with the group's record-based sound."
+      },
+      {
+        "label": "Juicy flutes and digital darkness",
+        "text": "Writer Luke McManus of RTE hears \"juicy flutes\" in \"If You Only Knew\" and \"ominous digital darkness\" in \"One of Them,\" both produced by Juju."
+      },
+      {
+        "label": "A low-frequency syncopation",
+        "text": "McManus says \"Chali 2Na's low-frequency syncopation is surely the most distinctive in the business.\""
+      },
+      {
+        "label": "A pop guest on the hook",
+        "text": "Wikipedia says singer Nelly Furtado guests on \"Thin Line,\" which Tim Perlich of NOW Toronto dismissed as \"pointless\" cameo vocals."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jurassic 5 — Mix (David John Farinella, 2003)",
+        "url": "https://www.mixonline.com/recording/jurassic-5-364998"
+      },
+      {
+        "title": "Jurassic 5 want to be your favourite hip-hop — Exclaim! (Noel Dix)",
+        "url": "https://exclaim.ca/music/article/jurassic_5_want_to_be_your_favourite_hip-hop"
+      },
+      {
+        "title": "Jurassic 5 interview — Hip Hop In Je Smoel (2003)",
+        "url": "https://www.hiphopinjesmoel.com/jurassic-5-interview/"
+      },
+      {
+        "title": "Power in Numbers — Hot Press (Phil Udell, 2002)",
+        "url": "https://www.hotpress.com/music/power-in-numbers-2618834"
+      },
+      {
+        "title": "Jurassic 5, Power in Numbers — RTE (Luke McManus, 2002)",
+        "url": "https://www.rte.ie/entertainment/music-reviews/2002/1121/448815-jurassic5"
+      },
+      {
+        "title": "Jurassic 5, Power in Numbers — PopMatters (Scott Thill, 2003)",
+        "url": "https://popmatters.com/jurassic5-power-2495946749.html"
+      },
+      {
+        "title": "Jurassic 5, Power in Numbers — The A.V. Club (Nathan Rabin, 2002)",
+        "url": "https://www.avclub.com/jurassic-5-power-in-numbers-1798197940"
+      },
+      {
+        "title": "Jurassic 5, Power in Numbers — Pop Thruster (Eric Berlin, 2024)",
+        "url": "https://popthruster.com/2024/01/04/jurassic-5-power-in-numbers/"
+      },
+      {
+        "title": "Power in Numbers — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Power_in_Numbers"
+      },
+      {
+        "title": "Prophets of Rage (song) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Prophets_of_Rage_(song)"
+      }
+    ],
+    "influencedBy": [
+      {
+        "artist": "Public Enemy",
+        "album": "It Takes a Nation of Millions to Hold Us Back",
+        "year": "1988",
+        "note": "Wikipedia's track list credits \"What's Golden\" with a sample of Public Enemy's \"Prophets of Rage,\" which is on this album."
+      }
+    ],
+    "influenced": [],
+    "uuid": "5f34ee8bf0857e55ed5ebde7",
+    "image": "https://i.scdn.co/image/241e3ebd29964d7c4be2a5b62553af4a9877d4e2",
+    "savedAt": "2026-11-28T08:38:02.774Z"
+  },
+  "5f34ee8bf0857e55ed5ebefa": {
+    "artist": "Ramones",
+    "album": "Ramones",
+    "year": "1976",
+    "heading": "Ramones — Ramones (1976)",
+    "albumLine": "Released 23 April 1976 on Sire Records, and produced by Craig Leon, a producer, with drummer Tommy Ramone as associate producer. It's punk rock, and it's the band's debut album.",
+    "overview": [
+      "Wikipedia says the band recorded at Plaza Sound in the Radio City Music Hall building for $6,400, and sources split on the dates, with Wikipedia saying January 1976 and Mojo and Louder February. Session length is also contested: Wikipedia and Vice say about a week, with three days for instruments and four for vocals, while Tommy told Mojo writer Bob Mehr that tracking and overdubs took two or three days plus a fourteen-hour mix. Tommy said, \"The biggest problem was the lack of time,\" and, \"At the most we did two takes of the songs.\" He called it \"in a strange way, a lo-fi work of art.\" Leon wanted separation, so each member played in a different room, linked by headphones.",
+      "Guitarist Johnny and bassist Dee Dee left after the basic tracks, and Tommy worked with singer Joey on vocals and overdubs. Joey's vocals were double-tracked, inspired by John Lennon's Beatles recordings, and Tommy said the band imitated the odd split-channel stereo of early Beatles records; Wikipedia, citing author Jon Savage, calls the recording \"a deliberate exaggeration of the techniques used by the Beatles in the early 1960s.\" Tommy said of the house engineers, \"They thought a bunch of thugs had come into the control room.\" Leon said, via Louder writer Kris Needs, \"I credited Tommy with associate producer because it was basically his concept on that album,\" and, via Far Out, \"The Ramones were the Bizarro World Beatles.\"",
+      "Wikipedia says the album is in the book 1001 Albums You Must Hear Before You Die; the book's text wasn't found. It lists the 2022 Rolling Stone list of best debut albums ranking it first. Critic Robert Christgau wrote in 1976, \"For me, it blows everything else off the radio,\" and critic Stephen Thomas Erlewine of AllMusic found it \"all about speed, hooks, stupidity, and simplicity.\" Clash singer Joe Strummer said, per Louder, \"It can't be stressed enough how great the Ramones' first album was to the scene in London.\""
+    ],
+    "listeningNotes": [
+      {
+        "label": "A hard stereo split",
+        "text": "Far Out, Louder and Loudwire say bass sits on the left, guitar on the right, and drums and vocals in the centre, which makes each part audible in a roughly half-hour record."
+      },
+      {
+        "label": "Double-tracked lead vocals",
+        "text": "Joey's vocals were doubled, in the manner of Lennon's Beatles recordings, per Tommy in Mojo."
+      },
+      {
+        "label": "A pipe organ in a punk song",
+        "text": "Wikipedia says Leon played the Radio City Wurlitzer pipe organ on \"Let's Dance.\""
+      },
+      {
+        "label": "Bells and glockenspiel",
+        "text": "Wikipedia says \"I Wanna Be Your Boyfriend\" uses 12-string guitar, glockenspiel and tubular bells, a pop-record sweetener under the punk drive."
+      },
+      {
+        "label": "No more than two takes",
+        "text": "Tommy said at most two takes were done of any song, which accounts for the fast, loose feel Far Out calls \"unhinged, speed fuelled rockabilly.\""
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inside the making of the Ramones' debut album — Mojo (Bob Mehr, interview with Tommy Ramone)",
+        "url": "https://mojo4music.com/articles/stories/inside-the-making-of-the-ramones-debut-album"
+      },
+      {
+        "title": "Ramones debut album story — Louder (Kris Needs, 2026)",
+        "url": "https://www.loudersound.com/bands-artists/ramones-debut-album-story"
+      },
+      {
+        "title": "How the Ramones recorded their iconic debut album — Far Out (Arun Starkey, 2022)",
+        "url": "https://faroutmagazine.co.uk/how-ramones-recorded-iconic-debut-album/"
+      },
+      {
+        "title": "Ramones' debut album, a classic review — Far Out (Arun Starkey, 2021)",
+        "url": "https://faroutmagazine.co.uk/ramones-debut-album-classic-review/"
+      },
+      {
+        "title": "How the Ramones started the pop-punk revolution — Far Out (Ben Forrest, 2025)",
+        "url": "https://faroutmagazine.co.uk/ramones-pop-bands-punk-rock-revolution/"
+      },
+      {
+        "title": "50 years ago today, rock music was changed forever — Vice (Lauren Boisvert, 2026)",
+        "url": "https://www.vice.com/en/article/50-years-ago-today-rock-music-was-changed-forever-with-debut-album-that-was-recorded-in-one-week/"
+      },
+      {
+        "title": "Ramones' self-titled debut album anniversary — Loudwire (Graham Hartmann, 2022)",
+        "url": "https://loudwire.com/ramones-self-titled-debut-album-anniversary/"
+      },
+      {
+        "title": "Ramones (album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ramones_(album)"
+      },
+      {
+        "title": "Ramones (Screeching Weasel album) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ramones_(Screeching_Weasel_album)"
+      }
+    ],
+    "influencedBy": [],
+    "influenced": [
+      {
+        "artist": "Screeching Weasel",
+        "album": "Ramones",
+        "year": "1993",
+        "note": "Per Wikipedia, the band covers the whole album, mimicking its stereo layout; singer Ben Weasel said they \"could do a halfway decent job with their first album.\" The year is given as 1993 by Wikipedia, with recording in 1992."
+      }
+    ],
+    "uuid": "5f34ee8bf0857e55ed5ebefa",
+    "image": "https://i.scdn.co/image/ab67616d00001e020d7c0a6fdfce64964d26eda2",
+    "savedAt": "2026-11-28T08:38:29.040Z"
   }
 }
